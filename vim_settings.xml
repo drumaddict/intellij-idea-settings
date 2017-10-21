@@ -500,7 +500,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoAction</text>
+        <text>action CloseContent</text>
       </register>
     </registers>
     <search>
@@ -526,22 +526,6 @@
         <entry encoding="base64">XDxpbnRcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>action Find</entry>
-        <entry>action AceTargetAction</entry>
-        <entry>action AceLineAction</entry>
-        <entry>action MethodDown</entry>
-        <entry>action MethodUp</entry>
-        <entry>action SplitVertically</entry>
-        <entry>action InsertLiveTemplate</entry>
-        <entry>action NewClass</entry>
-        <entry>action ToggleDistractionFreeMode</entry>
-        <entry>action ToggleLineBreakpoint</entry>
-        <entry>40</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
-        <entry encoding="base64">JzwsJz5ub3JtLg==</entry>
-        <entry>action SurroundWith</entry>
-        <entry>action GotoClass</entry>
-        <entry>action Run</entry>
         <entry>action Debug</entry>
         <entry>action PreviousTab</entry>
         <entry>action FileStructurePopup</entry>
@@ -562,6 +546,7 @@
         <entry>action NextOccurence</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action GotoAction</entry>
+        <entry>action CloseContent</entry>
       </history-cmd>
       <history-expr />
       <history-input />
