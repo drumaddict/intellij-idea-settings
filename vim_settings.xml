@@ -136,13 +136,13 @@
       <file name="/HTML File.txt.ft" timestamp="1508499268323">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" timestamp="1508537960024">
+      <file name="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" timestamp="1508587138741">
         <mark key="'" line="48" column="8" />
-        <mark key="[" line="53" column="4" />
+        <mark key="[" line="18" column="10" />
         <mark key="m" line="26" column="9" />
-        <mark key="]" line="54" column="3" />
-        <mark key="^" line="54" column="3" />
-        <mark key="." line="54" column="3" />
+        <mark key="]" line="18" column="10" />
+        <mark key="^" line="18" column="10" />
+        <mark key="." line="18" column="10" />
       </file>
       <file name="/Gradle Build Script with wrapper.txt.ft" timestamp="1508369330118">
         <mark key="[" line="0" column="0" />
@@ -500,7 +500,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action CloseContent</text>
+        <text>action CloseAllEditors</text>
       </register>
     </registers>
     <search>
@@ -530,7 +530,6 @@
         <entry>action PreviousTab</entry>
         <entry>action FileStructurePopup</entry>
         <entry>actionlist SelectIn</entry>
-        <entry>source ~/.ideavimrc</entry>
         <entry>action SelectIn</entry>
         <entry>action FindUsages</entry>
         <entry>action FindUsagesInFile</entry>
@@ -547,6 +546,11 @@
         <entry>action VimFilePrevious</entry>
         <entry>action GotoAction</entry>
         <entry>action CloseContent</entry>
+        <entry>actionlist</entry>
+        <entry>actionlist Close</entry>
+        <entry>source ~/.ideavimrc</entry>
+        <entry>action CloseAllEditorsButActive</entry>
+        <entry>action CloseAllEditors</entry>
       </history-cmd>
       <history-expr />
       <history-input />
