@@ -49,12 +49,12 @@
       <file name="/layoutResourceFile_vertical.txt.ft" timestamp="1508369216548">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/HelloWorld/src/com/example/helloworld/HelloWorld.java" timestamp="1508680032680">
+      <file name="$USER_HOME$/java/HelloWorld/src/com/example/helloworld/HelloWorld.java" timestamp="1508703178911">
         <mark key="'" line="89" column="3" />
-        <mark key="[" line="23" column="14" />
-        <mark key="]" line="23" column="14" />
-        <mark key="^" line="21" column="7" />
-        <mark key="." line="23" column="14" />
+        <mark key="[" line="41" column="53" />
+        <mark key="]" line="41" column="7" />
+        <mark key="^" line="41" column="7" />
+        <mark key="." line="41" column="7" />
       </file>
       <file name="/Dynamic Method Body.txt.ft" timestamp="1508499592685">
         <mark key="[" line="0" column="0" />
@@ -524,7 +524,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action HideActiveWindow</text>
+        <text>action ShowSettings</text>
       </register>
     </registers>
     <search>
@@ -550,29 +550,6 @@
         <entry encoding="base64">XDxpbnRcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>action MoveElementLeft</entry>
-        <entry>action MoveElementRight</entry>
-        <entry>actionlist Join</entry>
-        <entry>actionlist String</entry>
-        <entry>action Debug</entry>
-        <entry>action ToggleDistractionFreeMode</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gSGlkZUFjdGl2ZVdpbmRvdw==</entry>
-        <entry>action HideSideWindows</entry>
-        <entry>action PreviousOccurence</entry>
-        <entry>action JumpToLastWindow</entry>
-        <entry>action NewFile</entry>
-        <entry>actionlist Context</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
-        <entry>action GotoClass</entry>
-        <entry>action Run</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action SurroundWith</entry>
-        <entry>action GotoSymbol</entry>
-        <entry>action GotoSuperMethod</entry>
-        <entry>action Find</entry>
-        <entry>action EditorAddOrRemoveCaret</entry>
-        <entry>action CloseContent</entry>
-        <entry>action NextTab</entry>
         <entry>action Generate</entry>
         <entry>action InsertLiveTemplate</entry>
         <entry>action SelectIn</entry>
@@ -583,7 +560,6 @@
         <entry>action $SelectAll</entry>
         <entry>action RearrangeCode</entry>
         <entry>actionlist OptimizeIm</entry>
-        <entry>source ~/.ideavimrc</entry>
         <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
         <entry>action HighlightUsages</entry>
@@ -593,6 +569,10 @@
         <entry>action HighlightUsagesInFile</entry>
         <entry>action HideAllWindows</entry>
         <entry>action HideActiveWindow</entry>
+        <entry>action GlobalSettings</entry>
+        <entry>actionlist Settings</entry>
+        <entry>source ~/.ideavimrc</entry>
+        <entry>action ShowSettings</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -696,6 +676,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>alt pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed BACK_SLASH</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
