@@ -49,12 +49,11 @@
       <file name="/layoutResourceFile_vertical.txt.ft" timestamp="1508369216548">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/HelloWorld/src/com/example/helloworld/HelloWorld.java" timestamp="1508705638868">
-        <mark key="'" line="89" column="3" />
-        <mark key="[" line="42" column="18" />
-        <mark key="]" line="42" column="19" />
-        <mark key="^" line="42" column="19" />
-        <mark key="." line="42" column="19" />
+      <file name="$USER_HOME$/java/HelloWorld/src/com/example/helloworld/HelloWorld.java" timestamp="1508708717761">
+        <mark key="[" line="60" column="0" />
+        <mark key="]" line="60" column="3" />
+        <mark key="." line="60" column="3" />
+        <mark key="^" line="60" column="3" />
       </file>
       <file name="/Dynamic Method Body.txt.ft" timestamp="1508499592685">
         <mark key="[" line="0" column="0" />
@@ -364,8 +363,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="34" filename="$USER_HOME$/java/etest/src/com/oreilly/HelloWorld.java" />
-      <jump line="11" column="15" filename="$USER_HOME$/java/etest/src/com/oreilly/HelloWorld.java" />
       <jump line="4" column="0" filename="$USER_HOME$/java/etest/src/com/oreilly/HelloWorld.java" />
       <jump line="18" column="0" filename="$USER_HOME$/java/etest/src/com/oreilly/HelloWorld.java" />
       <jump line="5" column="4" filename="$USER_HOME$/java/etest/src/com/oreilly/HelloWorld.java" />
@@ -464,13 +461,15 @@
       <jump line="29" column="4" filename="$USER_HOME$/java/HelloWorld/src/com/example/helloworld/HelloWorld.java" />
       <jump line="87" column="4" filename="$USER_HOME$/java/HelloWorld/src/com/example/helloworld/HelloWorld.java" />
       <jump line="85" column="3" filename="$USER_HOME$/java/HelloWorld/src/com/example/helloworld/HelloWorld.java" />
+      <jump line="62" column="11" filename="$USER_HOME$/java/HelloWorld/src/com/example/helloworld/HelloWorld.java" />
+      <jump line="67" column="15" filename="$USER_HOME$/java/HelloWorld/src/com/example/helloworld/HelloWorld.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>false</text>
+        <text>First</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -482,49 +481,49 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>r</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgIGNhc2UgKGk+Z2V0QSgpKToKICAgICAgICByZXR1cm4gIDE7CiAgICAgICAgYnJlYWs7</text>
+        <text encoding="base64">PGxpPgogICAgICogICAgICAgICBGaXJzdAogICAgICogICAgIDwvbGk+</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICAgIHRoaXMucGkgPSBQSTsK</text>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgLyoqCiAgICAgKiBAcGFyYW0gbyAKICAgICAqIEB0aHJvd3MgTm9TdWNoRmllbGRFcnJvciBFeGNlcHRpb24uCiAgICAgKiBAcmV0dXJuCiAgICAgKi8=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBqYXZhLmxhbmcuTWF0aC5QSTsK</text>
+      <register name="2" type="4">
+        <text>First</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBqYXZhLmxhbmcuTWF0aC4qOwo=</text>
+        <text encoding="base64">Ly8gICAgICAgIHRoaXMucGkgPSBQSTsK</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">IHB1YmxpYyBIZWxsb1dvcmxkKGludCBhLCBpbnQgYikgewogICAgICAgIHRoaXMuYSA9IGE7CiAgICAgICAgdGhpcy5iID0gYjsKICAgIH0=</text>
+      <register name="4" type="2">
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBqYXZhLmxhbmcuTWF0aC5QSTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">cHVibGljIGNsYXNzIEhlbGxvV29ybGQgaW1wbGVtZW50cyBDb21wYXJhYmxlPEhlbGxvV29ybGQ+IHsKICAgIHByaXZhdGUgaW50IGEsIGI7CgogICAgIEBPdmVycmlkZQo=</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBqYXZhLmxhbmcuTWF0aC4qOwo=</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">IEBPdmVycmlkZQogICAgcHVibGljIGludCBoYXNoQ29kZSgpIHsKICAgICAgICBpbnQgcmVzdWx0ID0gZ2V0QSgpOwogICAgICAgIHJlc3VsdCA9IDMxICogcmVzdWx0ICsgZ2V0QigpOwogICAgICAgIHJldHVybiByZXN1bHQ7CiAgICB9CgogICAgcHVibGljIGludCBnZXRBKCkgewogICAgICAgIHJldHVybiBhOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldEEoaW50IGEpIHsKICAgICAgICB0aGlzLmEgPSBhOwogICAgfQoKICAgIHB1YmxpYyBpbnQgZ2V0QigpIHsKICAgICAgICByZXR1cm4gYjsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRCKGludCBiKSB7CiAgICAgICAgdGhpcy5iID0gYjsKICAgIH0=</text>
+        <text encoding="base64">IHB1YmxpYyBIZWxsb1dvcmxkKGludCBhLCBpbnQgYikgewogICAgICAgIHRoaXMuYSA9IGE7CiAgICAgICAgdGhpcy5iID0gYjsKICAgIH0=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgcmVzdWx0ID0gLSAK</text>
+        <text encoding="base64">cHVibGljIGNsYXNzIEhlbGxvV29ybGQgaW1wbGVtZW50cyBDb21wYXJhYmxlPEhlbGxvV29ybGQ+IHsKICAgIHByaXZhdGUgaW50IGEsIGI7CgogICAgIEBPdmVycmlkZQo=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">IGludCByZXN1bHQgPSBzd2l0Y2ggKChpbnQpIGNvbXBhcmlzb24pewogICAgY2FzZSAoMSk6CiAgICAgICAgcmV0dXJuICAxOwogICAgICAgIGJyZWFrOwogICAgY2FzZSAoMCk6CiAgICAgICAgcmV0dXJuICAwOwogICAgICAgIGJyZWFrOwogICAgZGVmYXVsdDoKICAgICAgICByZXR1cm4gLTE7CiAgICAgICAgYnJlYWs7Cn0=</text>
+        <text encoding="base64">IEBPdmVycmlkZQogICAgcHVibGljIGludCBoYXNoQ29kZSgpIHsKICAgICAgICBpbnQgcmVzdWx0ID0gZ2V0QSgpOwogICAgICAgIHJlc3VsdCA9IDMxICogcmVzdWx0ICsgZ2V0QigpOwogICAgICAgIHJldHVybiByZXN1bHQ7CiAgICB9CgogICAgcHVibGljIGludCBnZXRBKCkgewogICAgICAgIHJldHVybiBhOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldEEoaW50IGEpIHsKICAgICAgICB0aGlzLmEgPSBhOwogICAgfQoKICAgIHB1YmxpYyBpbnQgZ2V0QigpIHsKICAgICAgICByZXR1cm4gYjsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRCKGludCBiKSB7CiAgICAgICAgdGhpcy5iID0gYjsKICAgIH0=</text>
       </register>
       <register name="x" type="4">
-        <text>false</text>
+        <text>First</text>
       </register>
-      <register name="9" type="4">
-        <text>false</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgcmVzdWx0ID0gLSAK</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action HideAllWindows</text>
+        <text>action GotoAction</text>
       </register>
     </registers>
     <search>
@@ -570,9 +569,10 @@
         <entry>action GlobalSettings</entry>
         <entry>actionlist Settings</entry>
         <entry>source ~/.ideavimrc</entry>
+        <entry>action HideAllWindows</entry>
         <entry>action ShowSettings</entry>
         <entry>action SaveAll</entry>
-        <entry>action HideAllWindows</entry>
+        <entry>action GotoAction</entry>
       </history-cmd>
       <history-expr />
       <history-input />
