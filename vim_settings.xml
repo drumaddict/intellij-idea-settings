@@ -12,12 +12,12 @@
       <file name="/File Header.txt.ft" timestamp="1508499514880">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/persistence.xml" timestamp="1509880845921">
+      <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/persistence.xml" timestamp="1509883849652">
         <mark key="'" line="4" column="34" />
-        <mark key="[" line="4" column="26" />
-        <mark key="]" line="4" column="24" />
-        <mark key="^" line="4" column="24" />
-        <mark key="." line="4" column="24" />
+        <mark key="[" line="2" column="60" />
+        <mark key="]" line="2" column="62" />
+        <mark key="^" line="2" column="62" />
+        <mark key="." line="2" column="62" />
       </file>
       <file name="/Groovy Script.txt.ft" timestamp="1508369303409">
         <mark key="[" line="0" column="0" />
@@ -148,7 +148,6 @@
       <file name="/I18nized GSP Expression with injections.txt.ft" timestamp="1507813156947">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/pom.xml" timestamp="1509862151057" />
       <file name="/Gradle Build Script.txt.ft" timestamp="1508369313070">
         <mark key="[" line="0" column="0" />
       </file>
@@ -512,7 +511,7 @@
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>dbName</text>
+        <text>RESOURCE_LOCAL</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -532,35 +531,35 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICA8IS0tPGp0YS1kYXRhLXNvdXJjZT5qYXZhOmNvbXAvRGVmYXVsdERhdGFTb3VyY2U8L2p0YS1kYXRhLXNvdXJjZT4tLT4K</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>RESOURCE_LOCAL</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>JTA</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">PHBlcnNpc3RlbmNlLXVuaXQgbmFtZT0icGVyc2lzdGVuY2VVbml0TmFtZSIgdHJhbnNhY3Rpb24tdHlwZT0iUkVTT1VSQ0VfTE9DQUwiPgoKICAgIDxwcm9wZXJ0aWVzPgogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJqYXZheC5wZXJzaXN0ZW5jZS5qZGJjLmRyaXZlciIgdmFsdWU9Im9yZy5wb3N0Z3Jlc3FsLkRyaXZlciIgLz4gPCEtLSBEQiBEcml2ZXIgLS0+CiAgICAgICAgPHByb3BlcnR5IG5hbWU9ImphdmF4LnBlcnNpc3RlbmNlLmpkYmMudXJsIiB2YWx1ZT0iamRiYzpwb3N0Z3Jlc3FsOi8vbG9jYWxob3N0L2RiTmFtZSIgLz4gPCEtLSBCRCBNYW5lIC0tPgogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJqYXZheC5wZXJzaXN0ZW5jZS5qZGJjLnVzZXIiIHZhbHVlPSJzcGlyb3MiIC8+IDwhLS0gREIgVXNlciAtLT4KICAgICAgICA8cHJvcGVydHkgbmFtZT0iamF2YXgucGVyc2lzdGVuY2UuamRiYy5wYXNzd29yZCIgdmFsdWU9IjEiIC8+IDwhLS0gREIgUGFzc3dvcmQgLS0+CgogICAgPC9wcm9wZXJ0aWVzPgoKPC9wZXJzaXN0ZW5jZS11bml0Pg==</text>
-      </register>
-      <register name="5" type="4">
-        <text>dbName</text>
-      </register>
-      <register name="6" type="4">
-        <text>e</text>
-      </register>
-      <register name="7" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgIDxwcm9wZXJ0eSBuYW1lPSJoaWJlcm5hdGUuZGlhbGVjdCIgdmFsdWU9Im9yZy5oaWJlcm5hdGUuZGlhbGVjdC5Qb3N0Z3JlU1FMRGlhbGVjdCIvPiA8IS0tIERCIERpYWxlY3QgLS0+CiAgICAgICAgPHByb3BlcnR5IG5hbWU9ImhpYmVybmF0ZS5oYm0yZGRsLmF1dG8iIHZhbHVlPSJ1cGRhdGUiIC8+IDwhLS0gY3JlYXRlIC8gY3JlYXRlLWRyb3AgLyB1cGRhdGUgLS0+CgogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJoaWJlcm5hdGUuc2hvd19zcWwiIHZhbHVlPSJ0cnVlIiAvPiA8IS0tIFNob3cgU1FMIGluIGNvbnNvbGUgLS0+CiAgICAgICAgPHByb3BlcnR5IG5hbWU9ImhpYmVybmF0ZS5mb3JtYXRfc3FsIiB2YWx1ZT0idHJ1ZSIgLz4gPCEtLSBTaG93IFNRTCBmb3JtYXR0ZWQgLS0+</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="x" type="4">
+      <register name="6" type="4">
+        <text encoding="base64">PHBlcnNpc3RlbmNlLXVuaXQgbmFtZT0icGVyc2lzdGVuY2VVbml0TmFtZSIgdHJhbnNhY3Rpb24tdHlwZT0iUkVTT1VSQ0VfTE9DQUwiPgoKICAgIDxwcm9wZXJ0aWVzPgogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJqYXZheC5wZXJzaXN0ZW5jZS5qZGJjLmRyaXZlciIgdmFsdWU9Im9yZy5wb3N0Z3Jlc3FsLkRyaXZlciIgLz4gPCEtLSBEQiBEcml2ZXIgLS0+CiAgICAgICAgPHByb3BlcnR5IG5hbWU9ImphdmF4LnBlcnNpc3RlbmNlLmpkYmMudXJsIiB2YWx1ZT0iamRiYzpwb3N0Z3Jlc3FsOi8vbG9jYWxob3N0L2RiTmFtZSIgLz4gPCEtLSBCRCBNYW5lIC0tPgogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJqYXZheC5wZXJzaXN0ZW5jZS5qZGJjLnVzZXIiIHZhbHVlPSJzcGlyb3MiIC8+IDwhLS0gREIgVXNlciAtLT4KICAgICAgICA8cHJvcGVydHkgbmFtZT0iamF2YXgucGVyc2lzdGVuY2UuamRiYy5wYXNzd29yZCIgdmFsdWU9IjEiIC8+IDwhLS0gREIgUGFzc3dvcmQgLS0+CgogICAgPC9wcm9wZXJ0aWVzPgoKPC9wZXJzaXN0ZW5jZS11bml0Pg==</text>
+      </register>
+      <register name="7" type="4">
         <text>dbName</text>
       </register>
-      <register name="9" type="4">
-        <text>spiros</text>
+      <register name="8" type="4">
+        <text>e</text>
+      </register>
+      <register name="x" type="4">
+        <text>RESOURCE_LOCAL</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
@@ -592,8 +591,6 @@
         <entry encoding="base64">XDxpbnRcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>actionlist Highlight</entry>
-        <entry>action FindWordAtCaret</entry>
         <entry>action HighlightUsagesInFile</entry>
         <entry>action VimFilePrevious</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVmb3JtYXRDb2Rl</entry>
@@ -613,6 +610,7 @@
         <entry>action HideActiveWindow</entry>
         <entry>action CloseContent</entry>
         <entry>action PreviousOccurence</entry>
+        <entry>action GotoClass</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
