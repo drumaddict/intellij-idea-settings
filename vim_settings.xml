@@ -145,6 +145,7 @@
       <file name="/I18nized GSP Expression with injections.txt.ft" timestamp="1507813156947">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/java/movieplex7/pom.xml" timestamp="1509919948376" />
       <file name="/Gradle Build Script.txt.ft" timestamp="1508369313070">
         <mark key="[" line="0" column="0" />
       </file>
@@ -307,6 +308,12 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/java/movieplex7/src/main/webapp/client/movies.xhtml" timestamp="1509920231495">
+        <mark key="[" line="58" column="75" />
+        <mark key="]" line="58" column="68" />
+        <mark key="^" line="58" column="68" />
+        <mark key="." line="58" column="68" />
+      </file>
       <file name="/JUnit5 TearDown Method.txt.ft" timestamp="1508499543436">
         <mark key="[" line="0" column="0" />
       </file>
@@ -390,11 +397,12 @@
       <file name="/Mobile I18N.txt.ft" timestamp="1508369282949">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" timestamp="1509918628069">
-        <mark key="[" line="91" column="28" />
-        <mark key="]" line="91" column="25" />
-        <mark key="^" line="91" column="25" />
-        <mark key="." line="91" column="25" />
+      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" timestamp="1509920496063">
+        <mark key="'" line="90" column="16" />
+        <mark key="[" line="90" column="60" />
+        <mark key="]" line="90" column="46" />
+        <mark key="." line="90" column="46" />
+        <mark key="^" line="90" column="46" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/entities/Movie.java" timestamp="1509919201101">
         <mark key="[" line="65" column="68" />
@@ -419,7 +427,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="7" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/SimpleCalculator.java" />
       <jump line="10" column="0" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="38" column="0" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="29" column="3" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
@@ -519,6 +526,7 @@
       <jump line="4" column="38" filename="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/persistence.xml" />
       <jump line="27" column="0" filename="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/load.sql" />
       <jump line="53" column="0" filename="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/load.sql" />
+      <jump line="92" column="16" filename="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -543,31 +551,31 @@
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">SU5TRVJUIElOVE8gc2hvd190aW1pbmcoImlkIiwgImRheSIsICJ0aGVhdGVyX2lkIiwgIm1vdmllX2lkIiwgInRpbWluZ19pZCIpIFZBTFVFUyAoMjAsIDEsIDQsIDIwLCA1KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5yZXNvbHZlVGVtcGxhdGUoIm1vdmllIiwgYmVhbi5nZXRNb3ZpZUlkKCkpCg==</text>
       </register>
-      <register name="1" type="4">
-        <text>MOVIE</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="4">
         <text>MOVIE</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">SU5TRVJUIElOVE8gbW92aWUoImlkIiwgIm5hbWUiLCAiYWN0b3JzIikgVkFMVUVTICgyMSwgJ0Fycml2YWwnLCAnQW15IEFkYW1zJykK</text>
+      <register name="3" type="4">
+        <text>MOVIE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">SU5TRVJUIElOVE8gc2hvd190aW1pbmcoImlkIiwgImRheSIsICJ0aGVhdGVyX2lkIiwgIm1vdmllX2lkIiwgInRpbWluZ19pZCIpIFZBTFVFUyAoMjEsIDEsIDUsIDEsIDEpCg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">SU5TRVJUIElOVE8gbW92aWUoImlkIiwgIm5hbWUiLCAiYWN0b3JzIikgVkFMVUVTICgyMSwgJ0Fycml2YWwnLCAnQW15IEFkYW1zJykK</text>
       </register>
-      <register name="6" type="4">
-        <text>Steve Martin, Kevin Kline</text>
+      <register name="5" type="2">
+        <text encoding="base64">SU5TRVJUIElOVE8gc2hvd190aW1pbmcoImlkIiwgImRheSIsICJ0aGVhdGVyX2lkIiwgIm1vdmllX2lkIiwgInRpbWluZ19pZCIpIFZBTFVFUyAoMjEsIDEsIDUsIDEsIDEpCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">SU5TRVJUIElOVE8gbW92aWUoImlkIiwgIm5hbWUiLCAiYWN0b3JzIikgVkFMVUVTICgyMSwgJ0Fycml2YWwnLCAnQW15IEFkYW1zJykK</text>
       </register>
       <register name="7" type="4">
-        <text>The Pink Panther</text>
+        <text>Steve Martin, Kevin Kline</text>
       </register>
       <register name="8" type="4">
-        <text>ID</text>
+        <text>The Pink Panther</text>
       </register>
       <register name="x" type="4">
         <text>MOVIE</text>
