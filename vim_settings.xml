@@ -12,6 +12,13 @@
       <file name="/File Header.txt.ft" timestamp="1508499514880">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/persistence.xml" timestamp="1509880845921">
+        <mark key="'" line="4" column="34" />
+        <mark key="[" line="4" column="26" />
+        <mark key="]" line="4" column="24" />
+        <mark key="^" line="4" column="24" />
+        <mark key="." line="4" column="24" />
+      </file>
       <file name="/Groovy Script.txt.ft" timestamp="1508369303409">
         <mark key="[" line="0" column="0" />
       </file>
@@ -129,7 +136,12 @@
       <file name="/ColdFusion Tag Interface.txt.ft" timestamp="1508369309477">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/create.sql" timestamp="1509864882014" />
+      <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/create.sql" timestamp="1509879778605">
+        <mark key="[" line="9" column="99" />
+        <mark key="]" line="9" column="99" />
+        <mark key="^" line="9" column="99" />
+        <mark key="." line="9" column="99" />
+      </file>
       <file name="/valueResourceFile.txt.ft" timestamp="1508369220099">
         <mark key="[" line="0" column="0" />
       </file>
@@ -146,7 +158,12 @@
       <file name="/I18nized Groovy string with injections.txt.ft" timestamp="1508369290410">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/.idea/dbnavigator.xml" timestamp="1509861988159" />
+      <file name="$USER_HOME$/java/movieplex7/.idea/dbnavigator.xml" timestamp="1509880204250">
+        <mark key="[" line="167" column="14" />
+        <mark key="]" line="167" column="14" />
+        <mark key="." line="167" column="14" />
+        <mark key="^" line="167" column="21" />
+      </file>
       <file name="/Mobile I18N Concatenation.txt.ft" timestamp="1508369288636">
         <mark key="[" line="0" column="0" />
       </file>
@@ -389,10 +406,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="21" column="8" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
-      <jump line="5" column="14" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/SimpleCalculator.java" />
-      <jump line="8" column="0" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
-      <jump line="18" column="19" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="4" column="0" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/Main.java" />
       <jump line="2" column="8" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/Main.java" />
       <jump line="45" column="26" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/SimpleCalculator.java" />
@@ -489,13 +502,17 @@
       <jump line="20" column="0" filename="$USER_HOME$/java/HelloWorld/test/com/example/helloworld/HelloWorldTest.java" />
       <jump line="29" column="45" filename="$USER_HOME$/java/HelloWorld/test/com/example/helloworld/HelloWorldTest.java" />
       <jump line="10" column="4" filename="$USER_HOME$/java/HelloWorld/test/com/example/helloworld/HelloWorldTest.java" />
+      <jump line="33" column="22" filename="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/persistence.xml" />
+      <jump line="21" column="0" filename="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/persistence.xml" />
+      <jump line="8" column="89" filename="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/persistence.xml" />
+      <jump line="4" column="34" filename="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/persistence.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>$</text>
+        <text>dbName</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -507,49 +524,49 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>java:comp/DefaultDataSource</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHByb3RlY3RlZCBTaW1wbGVDYWxjdWxhdG9yIGNhbGN1bGF0b3I7Cg==</text>
+        <text encoding="base64">ICAgICAgICA8IS0tPGp0YS1kYXRhLXNvdXJjZT5qYXZhOmNvbXAvRGVmYXVsdERhdGFTb3VyY2U8L2p0YS1kYXRhLXNvdXJjZT4tLT4K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBFTkQkCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>$</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>calculator</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="4">
-        <text>SimpleCalculator</text>
+        <text encoding="base64">PHBlcnNpc3RlbmNlLXVuaXQgbmFtZT0icGVyc2lzdGVuY2VVbml0TmFtZSIgdHJhbnNhY3Rpb24tdHlwZT0iUkVTT1VSQ0VfTE9DQUwiPgoKICAgIDxwcm9wZXJ0aWVzPgogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJqYXZheC5wZXJzaXN0ZW5jZS5qZGJjLmRyaXZlciIgdmFsdWU9Im9yZy5wb3N0Z3Jlc3FsLkRyaXZlciIgLz4gPCEtLSBEQiBEcml2ZXIgLS0+CiAgICAgICAgPHByb3BlcnR5IG5hbWU9ImphdmF4LnBlcnNpc3RlbmNlLmpkYmMudXJsIiB2YWx1ZT0iamRiYzpwb3N0Z3Jlc3FsOi8vbG9jYWxob3N0L2RiTmFtZSIgLz4gPCEtLSBCRCBNYW5lIC0tPgogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJqYXZheC5wZXJzaXN0ZW5jZS5qZGJjLnVzZXIiIHZhbHVlPSJzcGlyb3MiIC8+IDwhLS0gREIgVXNlciAtLT4KICAgICAgICA8cHJvcGVydHkgbmFtZT0iamF2YXgucGVyc2lzdGVuY2UuamRiYy5wYXNzd29yZCIgdmFsdWU9IjEiIC8+IDwhLS0gREIgUGFzc3dvcmQgLS0+CgogICAgPC9wcm9wZXJ0aWVzPgoKPC9wZXJzaXN0ZW5jZS11bml0Pg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmNhbGN1bGF0b3IgPSBuZXcgU2ltcGxlQ2FsY3VsYXRvcigpOwo=</text>
+      <register name="5" type="4">
+        <text>dbName</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpbnQgbjEgPSAxOwo=</text>
+      <register name="6" type="4">
+        <text>e</text>
       </register>
-      <register name="7" type="4">
-        <text>float</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBib29sZWFuIGEgPSB0cnVlOwo=</text>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgIDxwcm9wZXJ0eSBuYW1lPSJoaWJlcm5hdGUuZGlhbGVjdCIgdmFsdWU9Im9yZy5oaWJlcm5hdGUuZGlhbGVjdC5Qb3N0Z3JlU1FMRGlhbGVjdCIvPiA8IS0tIERCIERpYWxlY3QgLS0+CiAgICAgICAgPHByb3BlcnR5IG5hbWU9ImhpYmVybmF0ZS5oYm0yZGRsLmF1dG8iIHZhbHVlPSJ1cGRhdGUiIC8+IDwhLS0gY3JlYXRlIC8gY3JlYXRlLWRyb3AgLyB1cGRhdGUgLS0+CgogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJoaWJlcm5hdGUuc2hvd19zcWwiIHZhbHVlPSJ0cnVlIiAvPiA8IS0tIFNob3cgU1FMIGluIGNvbnNvbGUgLS0+CiAgICAgICAgPHByb3BlcnR5IG5hbWU9ImhpYmVybmF0ZS5mb3JtYXRfc3FsIiB2YWx1ZT0idHJ1ZSIgLz4gPCEtLSBTaG93IFNRTCBmb3JtYXR0ZWQgLS0+</text>
       </register>
       <register name="x" type="4">
-        <text>$</text>
+        <text>dbName</text>
       </register>
       <register name="9" type="4">
-        <text>SimpleCalculator</text>
+        <text>spiros</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action PreviousTab</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -586,15 +603,17 @@
         <entry>action Back</entry>
         <entry>action SplitVertically</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action HideAllWindows</entry>
-        <entry>action SaveAll</entry>
         <entry>action RenameElement</entry>
         <entry>action Run</entry>
-        <entry>action HideActiveWindow</entry>
         <entry>actionlist TestMethod</entry>
         <entry>source ~/.ideavimrc</entry>
         <entry encoding="base64">YWN0aW9uIEdlbmVyYXRlVGVzdE1ldGhvZCA=</entry>
+        <entry>action HideAllWindows</entry>
         <entry>action PreviousTab</entry>
+        <entry>action HideActiveWindow</entry>
+        <entry>action CloseContent</entry>
+        <entry>action PreviousOccurence</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
