@@ -548,7 +548,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">YWN0aW9uIEdlbmVyYXRlVGVzdE1ldGhvZCA=</text>
+        <text>action PreviousTab</text>
       </register>
     </registers>
     <search>
@@ -582,7 +582,6 @@
         <entry>action ReformatCode</entry>
         <entry>action AceTargetAction</entry>
         <entry>action GotoTest</entry>
-        <entry>action PreviousTab</entry>
         <entry>action Back</entry>
         <entry>action SplitVertically</entry>
         <entry>action ShowBookmarks</entry>
@@ -594,6 +593,7 @@
         <entry>actionlist TestMethod</entry>
         <entry>source ~/.ideavimrc</entry>
         <entry encoding="base64">YWN0aW9uIEdlbmVyYXRlVGVzdE1ldGhvZCA=</entry>
+        <entry>action PreviousTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
