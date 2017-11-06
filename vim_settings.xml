@@ -587,7 +587,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action MethodUp</text>
       </register>
     </registers>
     <search>
@@ -636,6 +636,8 @@
         <entry>action Replace</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action SaveAll</entry>
+        <entry>action MethodDown</entry>
+        <entry>action MethodUp</entry>
       </history-cmd>
       <history-expr />
       <history-input />
