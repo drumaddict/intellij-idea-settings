@@ -397,7 +397,7 @@
       <file name="/Mobile I18N.txt.ft" timestamp="1508369282949">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" timestamp="1509920496063">
+      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" timestamp="1509961741714">
         <mark key="'" line="90" column="16" />
         <mark key="[" line="90" column="60" />
         <mark key="]" line="90" column="46" />
@@ -587,7 +587,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action MethodUp</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -629,15 +629,16 @@
         <entry>action HideAllWindows</entry>
         <entry>action PreviousTab</entry>
         <entry>action HideActiveWindow</entry>
-        <entry>action CloseContent</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action GotoClass</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNPY2N1cmVuY2U=</entry>
         <entry>action Replace</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action SaveAll</entry>
         <entry>action MethodDown</entry>
         <entry>action MethodUp</entry>
+        <entry>action CloseContent</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
