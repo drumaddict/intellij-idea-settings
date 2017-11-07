@@ -596,7 +596,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action CloseContent</text>
+        <text>action PreviousTab</text>
       </register>
     </registers>
     <search>
@@ -656,8 +656,8 @@
         <entry>action JumpToLastWindow</entry>
         <entry>action NextTab</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action PreviousTab</entry>
         <entry>action CloseContent</entry>
+        <entry>action PreviousTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
