@@ -585,7 +585,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>actionlist ToolWindow</text>
       </register>
     </registers>
     <search>
@@ -631,6 +631,7 @@
         <entry>action Run</entry>
         <entry>.,.+32231action GotoFile</entry>
         <entry>action GotoFile</entry>
+        <entry>actionlist ToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
