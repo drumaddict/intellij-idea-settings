@@ -596,7 +596,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action ActivateJavaEnterpriseToolWindow</text>
+        <text>action JumpToLastWindow</text>
       </register>
     </registers>
     <search>
@@ -636,7 +636,6 @@
         <entry>action MethodUp</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
-        <entry>action Run</entry>
         <entry>.,.+32231action GotoFile</entry>
         <entry>action GotoFile</entry>
         <entry>actionlist ToolWindow</entry>
@@ -650,13 +649,14 @@
         <entry>action ActivateWebToolWindow</entry>
         <entry>action CloseContent</entry>
         <entry>actionlist File</entry>
-        <entry>action JumpToLastWindow</entry>
         <entry>action HideSideWindows</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action ActivateApplicationServersToolWindow</entry>
         <entry>action ActivateCheckStyleToolWindow</entry>
         <entry>action HideAllWindows</entry>
         <entry>action ActivateJavaEnterpriseToolWindow</entry>
+        <entry>action Run</entry>
+        <entry>action JumpToLastWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
