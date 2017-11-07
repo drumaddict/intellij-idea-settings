@@ -31,9 +31,16 @@
       <file name="/a.dummy" timestamp="1508067591451">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/java/movieplex7/src/main/webapp/WEB-INF/faces-config.xml" timestamp="1510060429254">
+        <mark key="[" line="4" column="13" />
+        <mark key="]" line="4" column="14" />
+        <mark key="^" line="4" column="14" />
+        <mark key="." line="4" column="14" />
+      </file>
       <file name="/JUnit5 Test Class.txt.ft" timestamp="1508369281805">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/entities/Timeslot.java" timestamp="1510059433123" />
       <file name="$USER_HOME$/java/jvtest/src/com/kabasakalis/Main.java" timestamp="1508594878259">
         <mark key="'" line="13" column="8" />
         <mark key="[" line="13" column="32" />
@@ -143,6 +150,9 @@
       </file>
       <file name="/Gradle Build Script.txt.ft" timestamp="1508369313070">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/validation/constraints/DecimalMax.class" timestamp="1510059770578">
+        <mark key="c" line="30" column="4" />
       </file>
       <file name="/spring-beans.1_0.txt.ft" timestamp="1507813765807">
         <mark key="[" line="0" column="0" />
@@ -395,18 +405,18 @@
       <file name="/Mobile I18N.txt.ft" timestamp="1508369282949">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" timestamp="1509961741714">
+      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" timestamp="1510059950732">
         <mark key="'" line="90" column="16" />
-        <mark key="[" line="90" column="60" />
-        <mark key="]" line="90" column="46" />
-        <mark key="." line="90" column="46" />
-        <mark key="^" line="90" column="46" />
+        <mark key="[" line="44" column="27" />
+        <mark key="]" line="44" column="0" />
+        <mark key="." line="44" column="0" />
+        <mark key="^" line="44" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/entities/Movie.java" timestamp="1509919201101">
-        <mark key="[" line="65" column="68" />
-        <mark key="]" line="65" column="69" />
-        <mark key="." line="65" column="69" />
-        <mark key="^" line="59" column="19" />
+      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/entities/Movie.java" timestamp="1510059355026">
+        <mark key="[" line="154" column="1" />
+        <mark key="]" line="154" column="0" />
+        <mark key="." line="154" column="0" />
+        <mark key="^" line="154" column="0" />
       </file>
       <file name="/Servlet Class.txt.ft" timestamp="1507813787204">
         <mark key="[" line="0" column="0" />
@@ -420,6 +430,7 @@
       <file name="/fragment.java" timestamp="1508753965729">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/validation/constraints/Digits.class" timestamp="1510059435875" />
       <file name="/TestNG Test Method.txt.ft" timestamp="1508369287428">
         <mark key="[" line="0" column="0" />
       </file>
@@ -543,7 +554,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>t</text>
+        <text>g</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
@@ -585,7 +596,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>actionlist ToolWindow</text>
+        <text>action ActivateJavaEnterpriseToolWindow</text>
       </register>
     </registers>
     <search>
@@ -613,9 +624,7 @@
       <history-cmd>
         <entry>action RenameElement</entry>
         <entry>actionlist TestMethod</entry>
-        <entry>source ~/.ideavimrc</entry>
         <entry encoding="base64">YWN0aW9uIEdlbmVyYXRlVGVzdE1ldGhvZCA=</entry>
-        <entry>action HideAllWindows</entry>
         <entry>action PreviousTab</entry>
         <entry>action HideActiveWindow</entry>
         <entry>action PreviousOccurence</entry>
@@ -625,13 +634,29 @@
         <entry>action VimFilePrevious</entry>
         <entry>action MethodDown</entry>
         <entry>action MethodUp</entry>
-        <entry>action CloseContent</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
         <entry>action Run</entry>
         <entry>.,.+32231action GotoFile</entry>
         <entry>action GotoFile</entry>
         <entry>actionlist ToolWindow</entry>
+        <entry>source ~/.ideavimrc</entry>
+        <entry>action MaximizeToolWindow</entry>
+        <entry>action ActivateBeanValidationToolWindow</entry>
+        <entry>action Back</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gQmFjaw==</entry>
+        <entry>action ActivateDatabaseToolWindow</entry>
+        <entry>action ActivateMavenProjectsToolWindow</entry>
+        <entry>action ActivateWebToolWindow</entry>
+        <entry>action CloseContent</entry>
+        <entry>actionlist File</entry>
+        <entry>action JumpToLastWindow</entry>
+        <entry>action HideSideWindows</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action ActivateApplicationServersToolWindow</entry>
+        <entry>action ActivateCheckStyleToolWindow</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action ActivateJavaEnterpriseToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
