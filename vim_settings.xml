@@ -405,12 +405,12 @@
       <file name="/Mobile I18N.txt.ft" timestamp="1508369282949">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" timestamp="1510059950732">
-        <mark key="'" line="90" column="16" />
-        <mark key="[" line="44" column="27" />
-        <mark key="]" line="44" column="0" />
-        <mark key="." line="44" column="0" />
-        <mark key="^" line="44" column="0" />
+      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" timestamp="1510063233982">
+        <mark key="'" line="91" column="16" />
+        <mark key="[" line="38" column="3" />
+        <mark key="]" line="39" column="0" />
+        <mark key="." line="39" column="0" />
+        <mark key="^" line="39" column="0" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/entities/Movie.java" timestamp="1510059355026">
         <mark key="[" line="154" column="1" />
@@ -596,7 +596,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action JumpToLastWindow</text>
+        <text>action CloseContent</text>
       </register>
     </registers>
     <search>
@@ -625,13 +625,11 @@
         <entry>action RenameElement</entry>
         <entry>actionlist TestMethod</entry>
         <entry encoding="base64">YWN0aW9uIEdlbmVyYXRlVGVzdE1ldGhvZCA=</entry>
-        <entry>action PreviousTab</entry>
         <entry>action HideActiveWindow</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action GotoClass</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNPY2N1cmVuY2U=</entry>
         <entry>action Replace</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action MethodDown</entry>
         <entry>action MethodUp</entry>
         <entry>action Find</entry>
@@ -647,7 +645,6 @@
         <entry>action ActivateDatabaseToolWindow</entry>
         <entry>action ActivateMavenProjectsToolWindow</entry>
         <entry>action ActivateWebToolWindow</entry>
-        <entry>action CloseContent</entry>
         <entry>actionlist File</entry>
         <entry>action HideSideWindows</entry>
         <entry>action ActivateTerminalToolWindow</entry>
@@ -657,6 +654,10 @@
         <entry>action ActivateJavaEnterpriseToolWindow</entry>
         <entry>action Run</entry>
         <entry>action JumpToLastWindow</entry>
+        <entry>action NextTab</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action CloseContent</entry>
       </history-cmd>
       <history-expr />
       <history-input />
