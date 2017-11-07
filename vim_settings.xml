@@ -82,6 +82,10 @@
       <file name="/Kotlin Enum.txt.ft" timestamp="1508369350444">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1510051534545">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="/Stylus File.txt.ft" timestamp="1508369345277">
         <mark key="[" line="0" column="0" />
       </file>
@@ -145,7 +149,6 @@
       <file name="/I18nized GSP Expression with injections.txt.ft" timestamp="1507813156947">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/pom.xml" timestamp="1509919948376" />
       <file name="/Gradle Build Script.txt.ft" timestamp="1508369313070">
         <mark key="[" line="0" column="0" />
       </file>
@@ -256,7 +259,6 @@
         <mark key="]" line="27" column="0" />
         <mark key="." line="27" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieBackingBean.java" timestamp="1509918732335" />
       <file name="/SCSS File.txt.ft" timestamp="1508369346560">
         <mark key="[" line="0" column="0" />
       </file>
@@ -344,11 +346,15 @@
       <file name="/Less File.txt.ft" timestamp="1508369355326">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="/dummy.sql" timestamp="1510051356233">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="/Singleton.txt.ft" timestamp="1508369321065">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1509060232571">
+      <file name="/Dummy.txt" timestamp="1510051273209">
         <mark key="[" line="0" column="0" />
+        <mark key="o" line="0" column="0" />
       </file>
       <file name="/TestNG Test Class.txt.ft" timestamp="1508499720489">
         <mark key="[" line="0" column="0" />
@@ -359,7 +365,6 @@
       <file name="/JUnit3 Test Class.txt.ft" timestamp="1508369279432">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/src/main/webapp/index.xhtml" timestamp="1509917226300" />
       <file name="/JUnit5 SetUp Method.txt.ft" timestamp="1508499543355">
         <mark key="[" line="0" column="0" />
       </file>
@@ -427,7 +432,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="0" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="38" column="0" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="29" column="3" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="9" column="40" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/SimpleCalculator.java" />
@@ -527,6 +531,7 @@
       <jump line="27" column="0" filename="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/load.sql" />
       <jump line="53" column="0" filename="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/load.sql" />
       <jump line="92" column="16" filename="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" />
+      <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -587,7 +592,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -613,16 +618,9 @@
         <entry encoding="base64">XDxpbnRcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>action HighlightUsagesInFile</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gUmVmb3JtYXRDb2Rl</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action AceTargetAction</entry>
-        <entry>action GotoTest</entry>
-        <entry>action Back</entry>
         <entry>action SplitVertically</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action RenameElement</entry>
-        <entry>action Run</entry>
         <entry>actionlist TestMethod</entry>
         <entry>source ~/.ideavimrc</entry>
         <entry encoding="base64">YWN0aW9uIEdlbmVyYXRlVGVzdE1ldGhvZCA=</entry>
@@ -639,6 +637,9 @@
         <entry>action CloseContent</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action Run</entry>
+        <entry>.,.+32231action GotoFile</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
