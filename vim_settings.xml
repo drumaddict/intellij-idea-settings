@@ -71,7 +71,7 @@
       <file name="/Kotlin Enum.txt.ft" timestamp="1508369350444">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1510051534545">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1510054074747">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
       </file>
@@ -112,6 +112,9 @@
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/TestNG TearDown Method.txt.ft" timestamp="1508369287209">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02ae39b4-f5e8-4d4d-97ad-3d32a7069ee1/console.sql" timestamp="1510054138863">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/ColdFusion Script Interface.txt.ft" timestamp="1508499282359">
@@ -187,11 +190,6 @@
       <file name="/AnnotationType.txt.ft" timestamp="1508498840239">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.java" timestamp="1508754338146">
-        <mark key="'" line="30" column="0" />
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="14" column="42" />
-      </file>
       <file name="/Groovy JUnit Test Method.txt.ft" timestamp="1508369292332">
         <mark key="[" line="0" column="0" />
       </file>
@@ -216,8 +214,11 @@
       <file name="/XSLT Stylesheet.txt.ft" timestamp="1508369321499">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="[moviePlexCon] CONSOLE - moviePlexCon" timestamp="1510052274968">
-        <mark key="[" line="0" column="0" />
+      <file name="[moviePlexCon] CONSOLE - moviePlexCon" timestamp="1510053833802">
+        <mark key="[" line="0" column="15" />
+        <mark key="]" line="0" column="19" />
+        <mark key="^" line="0" column="19" />
+        <mark key="." line="0" column="19" />
       </file>
       <file name="/Flex 4 Component.txt.ft" timestamp="1508369312336">
         <mark key="[" line="0" column="0" />
@@ -335,13 +336,16 @@
       <file name="/Less File.txt.ft" timestamp="1508369355326">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/dummy.sql" timestamp="1510052370845">
+      <file name="/preview" timestamp="1510053905884">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/dummy.sql" timestamp="1510053962176">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Singleton.txt.ft" timestamp="1508369321065">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1510051273209">
+      <file name="/Dummy.txt" timestamp="1510054189034">
         <mark key="[" line="0" column="0" />
         <mark key="o" line="0" column="0" />
       </file>
@@ -527,7 +531,7 @@
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>MOVIE</text>
+        <text>show_timin</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -547,35 +551,35 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIC5yZXNvbHZlVGVtcGxhdGUoIm1vdmllIiwgYmVhbi5nZXRNb3ZpZUlkKCkpCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>show_timin</text>
       </register>
       <register name="2" type="4">
-        <text>MOVIE</text>
+        <text>g</text>
       </register>
       <register name="3" type="4">
-        <text>MOVIE</text>
+        <text>points</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">SU5TRVJUIElOVE8gbW92aWUoImlkIiwgIm5hbWUiLCAiYWN0b3JzIikgVkFMVUVTICgyMSwgJ0Fycml2YWwnLCAnQW15IEFkYW1zJykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">SU5TRVJUIElOVE8gc2hvd190aW1pbmcoImlkIiwgImRheSIsICJ0aGVhdGVyX2lkIiwgIm1vdmllX2lkIiwgInRpbWluZ19pZCIpIFZBTFVFUyAoMjEsIDEsIDUsIDEsIDEpCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">SU5TRVJUIElOVE8gbW92aWUoImlkIiwgIm5hbWUiLCAiYWN0b3JzIikgVkFMVUVTICgyMSwgJ0Fycml2YWwnLCAnQW15IEFkYW1zJykK</text>
-      </register>
-      <register name="7" type="4">
-        <text>Steve Martin, Kevin Kline</text>
-      </register>
-      <register name="8" type="4">
-        <text>The Pink Panther</text>
-      </register>
-      <register name="x" type="4">
+      <register name="5" type="4">
         <text>MOVIE</text>
       </register>
-      <register name="9" type="4">
-        <text>ID</text>
+      <register name="6" type="4">
+        <text>MOVIE</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">SU5TRVJUIElOVE8gbW92aWUoImlkIiwgIm5hbWUiLCAiYWN0b3JzIikgVkFMVUVTICgyMSwgJ0Fycml2YWwnLCAnQW15IEFkYW1zJykK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">SU5TRVJUIElOVE8gc2hvd190aW1pbmcoImlkIiwgImRheSIsICJ0aGVhdGVyX2lkIiwgIm1vdmllX2lkIiwgInRpbWluZ19pZCIpIFZBTFVFUyAoMjEsIDEsIDUsIDEsIDEpCg==</text>
+      </register>
+      <register name="x" type="4">
+        <text>show_timin</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">SU5TRVJUIElOVE8gbW92aWUoImlkIiwgIm5hbWUiLCAiYWN0b3JzIikgVkFMVUVTICgyMSwgJ0Fycml2YWwnLCAnQW15IEFkYW1zJykK</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
