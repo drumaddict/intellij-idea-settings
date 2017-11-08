@@ -622,7 +622,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action VimFilePrevious</text>
+        <text>action CloseContent</text>
       </register>
     </registers>
     <search>
@@ -666,10 +666,10 @@
         <entry>action SaveAll</entry>
         <entry>action ActivateJavaEnterpriseToolWindow</entry>
         <entry>action HideAllWindows</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action CloseContent</entry>
-        <entry>action NextTab</entry>
         <entry>action VimFilePrevious</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action CloseContent</entry>
       </history-cmd>
       <history-expr />
       <history-input />
