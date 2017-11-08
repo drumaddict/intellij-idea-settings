@@ -53,6 +53,12 @@
       <file name="/HTML4 File.txt.ft" timestamp="1508498761644">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/java/movieplex7/src/main/webapp/booking/showtimes.xhtml" timestamp="1510144597418">
+        <mark key="[" line="14" column="1" />
+        <mark key="]" line="14" column="0" />
+        <mark key="^" line="14" column="0" />
+        <mark key="." line="14" column="0" />
+      </file>
       <file name="/Groovy JUnit SetUp Method.txt.ft" timestamp="1508369277606">
         <mark key="[" line="0" column="0" />
       </file>
@@ -132,7 +138,7 @@
       <file name="/Clipboard.txt" timestamp="1508191200977">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/booking/Booking.java" timestamp="1510097762742">
+      <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/booking/Booking.java" timestamp="1510144510479">
         <mark key="[" line="57" column="0" />
         <mark key="]" line="57" column="0" />
         <mark key="." line="57" column="0" />
@@ -151,6 +157,9 @@
       </file>
       <file name="/I18nized GSP Expression with injections.txt.ft" timestamp="1507813156947">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/java/movieplex7/pom.xml" timestamp="1510141918887">
+        <mark key="'" line="4" column="0" />
       </file>
       <file name="/Gradle Build Script.txt.ft" timestamp="1508369313070">
         <mark key="[" line="0" column="0" />
@@ -379,11 +388,12 @@
       <file name="/JUnit3 Test Class.txt.ft" timestamp="1508369279432">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/src/main/webapp/index.xhtml" timestamp="1510141477058">
-        <mark key="[" line="51" column="101" />
-        <mark key="]" line="51" column="100" />
-        <mark key="^" line="51" column="100" />
-        <mark key="." line="51" column="100" />
+      <file name="$USER_HOME$/java/movieplex7/src/main/webapp/index.xhtml" timestamp="1510143875399">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="46" column="10" />
+        <mark key="]" line="46" column="10" />
+        <mark key="^" line="46" column="10" />
+        <mark key="." line="46" column="10" />
       </file>
       <file name="/JUnit5 SetUp Method.txt.ft" timestamp="1508499543355">
         <mark key="[" line="0" column="0" />
@@ -452,10 +462,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="29" column="3" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
-      <jump line="9" column="40" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/SimpleCalculator.java" />
-      <jump line="35" column="6" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/SimpleCalculator.java" />
-      <jump line="27" column="8" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/SimpleCalculator.java" />
       <jump line="28" column="8" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/SimpleCalculator.java" />
       <jump line="14" column="8" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/SimpleCalculator.java" />
       <jump line="15" column="8" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/SimpleCalculator.java" />
@@ -552,6 +558,10 @@
       <jump line="92" column="16" filename="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" />
       <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
       <jump line="0" column="0" filename="$USER_HOME$/java/movieplex7/src/main/webapp/points/points.xhtml" />
+      <jump line="4" column="0" filename="$USER_HOME$/java/movieplex7/pom.xml" />
+      <jump line="11" column="0" filename="$USER_HOME$/java/movieplex7/src/main/webapp/booking/booking.xhtml" />
+      <jump line="43" column="0" filename="$USER_HOME$/java/movieplex7/src/main/webapp/index.xhtml" />
+      <jump line="0" column="0" filename="$USER_HOME$/java/movieplex7/src/main/webapp/index.xhtml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -612,7 +622,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action VimFilePrevious</text>
       </register>
     </registers>
     <search>
@@ -645,19 +655,21 @@
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action ActivateApplicationServersToolWindow</entry>
         <entry>action ActivateCheckStyleToolWindow</entry>
-        <entry>action ActivateJavaEnterpriseToolWindow</entry>
         <entry>action Run</entry>
         <entry>action JumpToLastWindow</entry>
-        <entry>action NextTab</entry>
-        <entry>action VimFilePrevious</entry>
-        <entry>action CloseContent</entry>
-        <entry>action PreviousTab</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNPY2N1cmVuY2U=</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action ShowReformatFileDialog</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action HideAllWindows</entry>
+        <entry>action SplitVertically</entry>
+        <entry>source ~/.ideavimrc</entry>
         <entry>action SaveAll</entry>
+        <entry>action ActivateJavaEnterpriseToolWindow</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action CloseContent</entry>
+        <entry>action NextTab</entry>
+        <entry>action VimFilePrevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -681,7 +693,7 @@
       <shortcut-conflict owner="ide">
         <text>ctrl pressed E</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>ctrl pressed D</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
@@ -714,7 +726,7 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed U</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="ide">
+      <shortcut-conflict owner="vim">
         <text>ctrl pressed O</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
