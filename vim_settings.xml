@@ -622,7 +622,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action CloseContent</text>
+        <text>action Run</text>
       </register>
     </registers>
     <search>
@@ -648,14 +648,11 @@
         <entry encoding="base64">XDxpbnRcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>action ActivateMavenProjectsToolWindow</entry>
-        <entry>action ActivateWebToolWindow</entry>
         <entry>actionlist File</entry>
         <entry>action HideSideWindows</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action ActivateApplicationServersToolWindow</entry>
         <entry>action ActivateCheckStyleToolWindow</entry>
-        <entry>action Run</entry>
         <entry>action JumpToLastWindow</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNPY2N1cmVuY2U=</entry>
         <entry>action PreviousOccurence</entry>
@@ -670,6 +667,7 @@
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action CloseContent</entry>
+        <entry>action Run</entry>
       </history-cmd>
       <history-expr />
       <history-input />
