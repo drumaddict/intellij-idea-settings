@@ -307,7 +307,12 @@
       <file name="/Spock cleanup Method.txt.ft" timestamp="1508369288000">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/build.gradle" timestamp="1512301518608" />
+      <file name="$USER_HOME$/java/springify-api/build.gradle" timestamp="1512310421931">
+        <mark key="'" line="12" column="8" />
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="0" />
+      </file>
       <file name="/Arquillian TestNG Test Class.txt.ft" timestamp="1508499558610">
         <mark key="[" line="0" column="0" />
       </file>
@@ -495,10 +500,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="14" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/Main.java" />
-      <jump line="10" column="27" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/Main.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
-      <jump line="0" column="1" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="26" column="4" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="6" column="17" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="35" column="22" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
@@ -595,13 +596,17 @@
       <jump line="4" column="60" filename="$USER_HOME$/java/springify-api/src/main/db/master_cl.yml" />
       <jump line="3" column="28" filename="$USER_HOME$/java/springify-api/src/main/db/master_cl.yml" />
       <jump line="12" column="24" filename="$USER_HOME$/java/springify-api/src/main/db/migrations/001_migration.yml" />
+      <jump line="40" column="59" filename="$USER_HOME$/java/springify-api/build.gradle" />
+      <jump line="2" column="0" filename="$USER_HOME$/java/springify-api/build.gradle" />
+      <jump line="23" column="35" filename="$USER_HOME$/java/springify-api/build.gradle" />
+      <jump line="13" column="8" filename="$USER_HOME$/java/springify-api/build.gradle" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>int</text>
+        <text>classpath</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -613,43 +618,50 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogaW50Cg==</text>
+        <text encoding="base64">ICAgICAgICBjbGFzc3BhdGggIm9yZy5saXF1aWJhc2U6bGlxdWliYXNlLWdyYWRsZS1wbHVnaW46MS4yLjQiCg==</text>
       </register>
       <register name="1" type="4">
-        <text>int</text>
+        <text>buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath &quot;org.liquibase:liquibase-gradle-plugin:1.2.4&quot;
+    }
+}</text>
       </register>
-      <register name="2" type="4">
-        <text>type</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgIGluY2x1ZGU6Cg==</text>
+        <text encoding="base64">CWNvbXBsaWxlKCJvcmcubGlxdWliYXNlOmxpcXVpYmFzZS1ncmFkbGUtcGx1Z2luOjEuMi4zIikK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBmaWxlOiBsaXF1aWJhc2UvcGFyc2VyL2NvcmUveWFtbC9zaW1wbGVDaGFuZ2VMb2cueWFtbAo=</text>
+      <register name="4" type="4">
+        <text>classpath</text>
       </register>
       <register name="5" type="4">
-        <text>roger</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">L2hvbWUvc3Bpcm9zLy5JbnRlbGxpSklkZWEyMDE3LjIvY29uZmlnL3NjcmF0Y2hlcy9zY3JhdGNoLnltbDo5Cg==</text>
-      </register>
-      <register name="7" type="4">
-        <text>@</text>
-      </register>
-      <register name="8" type="4">
-        <text>postgres</text>
-      </register>
-      <register name="x" type="4">
         <text>int</text>
       </register>
+      <register name="6" type="4">
+        <text>type</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgIGluY2x1ZGU6Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBmaWxlOiBsaXF1aWJhc2UvcGFyc2VyL2NvcmUveWFtbC9zaW1wbGVDaGFuZ2VMb2cueWFtbAo=</text>
+      </register>
+      <register name="x" type="4">
+        <text>classpath</text>
+      </register>
       <register name="9" type="4">
-        <text>postgres</text>
+        <text>roger</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
