@@ -365,6 +365,12 @@
       <file name="/dummy.sql" timestamp="1510055456819">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/java/springify-api/src/test/java/com/kabasakalis/springifyapi/SpringifyApiApplicationTests.java" timestamp="1512295724702">
+        <mark key="[" line="16" column="24" />
+        <mark key="]" line="6" column="31" />
+        <mark key="^" line="6" column="31" />
+        <mark key="." line="6" column="31" />
+      </file>
       <file name="/Singleton.txt.ft" timestamp="1508369321065">
         <mark key="[" line="0" column="0" />
       </file>
@@ -622,7 +628,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action Run</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -668,6 +674,8 @@
         <entry>action NextTab</entry>
         <entry>action CloseContent</entry>
         <entry>action Run</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
