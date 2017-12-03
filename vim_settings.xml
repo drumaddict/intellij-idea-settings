@@ -280,8 +280,9 @@
       <file name="/Arquillian JUnit Test Class.txt.ft" timestamp="1508499557423">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/resources/application.properties" timestamp="1512298833838">
-        <mark key="[" line="0" column="69" />
+      <file name="$USER_HOME$/java/springify-api/src/main/resources/application.properties" timestamp="1512336986008">
+        <mark key="'" line="0" column="23" />
+        <mark key="[" line="0" column="23" />
         <mark key="]" line="0" column="64" />
         <mark key="^" line="0" column="64" />
         <mark key="." line="0" column="64" />
@@ -303,12 +304,12 @@
       <file name="/Spock cleanup Method.txt.ft" timestamp="1508369288000">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/build.gradle" timestamp="1512335861650">
-        <mark key="'" line="15" column="0" />
-        <mark key="[" line="15" column="57" />
-        <mark key="]" line="15" column="62" />
-        <mark key="^" line="15" column="62" />
-        <mark key="." line="15" column="62" />
+      <file name="$USER_HOME$/java/springify-api/build.gradle" timestamp="1512337152346">
+        <mark key="'" line="49" column="60" />
+        <mark key="[" line="31" column="21" />
+        <mark key="]" line="31" column="20" />
+        <mark key="^" line="31" column="20" />
+        <mark key="." line="31" column="20" />
       </file>
       <file name="/Arquillian TestNG Test Class.txt.ft" timestamp="1508499558610">
         <mark key="[" line="0" column="0" />
@@ -502,10 +503,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="35" column="22" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
-      <jump line="14" column="14" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
-      <jump line="17" column="0" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
-      <jump line="4" column="0" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="20" column="10" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="15" column="17" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="13" column="8" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
@@ -598,17 +595,21 @@
       <jump line="12" column="24" filename="$USER_HOME$/java/springify-api/src/main/db/migrations/001_migration.yml" />
       <jump line="40" column="59" filename="$USER_HOME$/java/springify-api/build.gradle" />
       <jump line="2" column="0" filename="$USER_HOME$/java/springify-api/build.gradle" />
-      <jump line="23" column="35" filename="$USER_HOME$/java/springify-api/build.gradle" />
       <jump line="13" column="8" filename="$USER_HOME$/java/springify-api/build.gradle" />
       <jump line="53" column="0" filename="$USER_HOME$/java/springify-api/build.gradle" />
       <jump line="15" column="0" filename="$USER_HOME$/java/springify-api/build.gradle" />
+      <jump line="0" column="23" filename="$USER_HOME$/java/springify-api/src/main/resources/application.properties" />
+      <jump line="23" column="53" filename="$USER_HOME$/java/springify-api/build.gradle" />
+      <jump line="24" column="58" filename="$USER_HOME$/java/springify-api/build.gradle" />
+      <jump line="37" column="57" filename="$USER_HOME$/java/springify-api/build.gradle" />
+      <jump line="50" column="60" filename="$USER_HOME$/java/springify-api/build.gradle" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>xml</text>
+        <text>123456</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -625,51 +626,44 @@
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ZGVmIGNoYW5nZUxvZyA9ICIkcHJvamVjdERpci9zcmMvbWFpbi9kYi9jaGFuZ2Vsb2cueG1sIgo=</text>
+      <register name="0" type="4">
+        <text>jdbc:postgresql://localhost:5432/springify</text>
       </register>
       <register name="1" type="4">
-        <text>xml</text>
+        <text>123456</text>
       </register>
       <register name="2" type="4">
-        <text>master</text>
+        <text>root</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>123456</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>root</text>
       </register>
       <register name="5" type="4">
-        <text>buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath &quot;org.liquibase:liquibase-gradle-plugin:1.2.4&quot;
-    }
-}</text>
+        <text>123456</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>root</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CWNvbXBsaWxlKCJvcmcubGlxdWliYXNlOmxpcXVpYmFzZS1ncmFkbGUtcGx1Z2luOjEuMi4zIikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="4">
-        <text>classpath</text>
+        <text>jdbc:mysql://prod-environment/mydb</text>
       </register>
       <register name="x" type="4">
-        <text>xml</text>
+        <text>123456</text>
       </register>
       <register name="9" type="4">
-        <text>int</text>
+        <text>jdbc:mysql://qa-environment/mydb</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action HideAllWindows</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -704,7 +698,6 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNPY2N1cmVuY2U=</entry>
         <entry>action ShowReformatFileDialog</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action SplitVertically</entry>
         <entry>source ~/.ideavimrc</entry>
         <entry>action ActivateJavaEnterpriseToolWindow</entry>
         <entry>action CloseContent</entry>
@@ -713,13 +706,15 @@
         <entry>action Find</entry>
         <entry>action NextTab</entry>
         <entry>action GotoClass</entry>
-        <entry>action PreviousTab</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
         <entry>.action PreviousOccurence</entry>
         <entry>action PreviousOccurence</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action SplitVertically</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action EditorAddOrRemoveCaret</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action SaveAll</entry>
-        <entry>action HideAllWindows</entry>
       </history-cmd>
       <history-expr />
       <history-input />
