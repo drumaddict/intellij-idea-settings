@@ -35,11 +35,11 @@
         <mark key="^" line="8" column="30" />
         <mark key="." line="8" column="30" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/db/liquibase.properties" timestamp="1512335769475">
-        <mark key="[" line="9" column="26" />
-        <mark key="]" line="9" column="34" />
+      <file name="$USER_HOME$/java/springify-api/src/main/db/liquibase.properties" timestamp="1512341283064">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
         <mark key="^" line="9" column="34" />
-        <mark key="." line="9" column="34" />
+        <mark key="." line="16" column="0" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/db/master_cl.yml" timestamp="1512303709342">
         <mark key="'" line="3" column="28" />
@@ -103,30 +103,37 @@
         <mark key="^" line="12" column="42" />
         <mark key="." line="12" column="42" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/resources/application.properties" timestamp="1512336986008">
-        <mark key="'" line="0" column="23" />
-        <mark key="[" line="0" column="23" />
-        <mark key="]" line="0" column="64" />
-        <mark key="^" line="0" column="64" />
-        <mark key="." line="0" column="64" />
+      <file name="$USER_HOME$/java/springify-api/src/main/resources/application.properties" timestamp="1512341439610">
+        <mark key="'" line="4" column="66" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="^" line="4" column="40" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/load.sql" timestamp="1509916504028">
         <mark key="[" line="27" column="0" />
         <mark key="]" line="27" column="0" />
         <mark key="." line="27" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/build.gradle" timestamp="1512339712592">
-        <mark key="'" line="94" column="4" />
-        <mark key="[" line="94" column="37" />
-        <mark key="]" line="94" column="37" />
-        <mark key="^" line="94" column="37" />
-        <mark key="." line="94" column="37" />
+      <file name="$USER_HOME$/java/springify-api/build.gradle" timestamp="1512341756424">
+        <mark key="'" line="31" column="39" />
+        <mark key="[" line="31" column="60" />
+        <mark key="]" line="31" column="56" />
+        <mark key="^" line="31" column="56" />
+        <mark key="." line="31" column="56" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/db/migrations/create_artists.sql" timestamp="1512338172011">
         <mark key="[" line="2" column="18" />
         <mark key="]" line="2" column="19" />
         <mark key="." line="2" column="19" />
         <mark key="^" line="2" column="19" />
+      </file>
+      <file name="$USER_HOME$/java/springify-api/src/main/db/liquibase.propertiesINACTIVE" timestamp="1512341213100">
+        <mark key="'" line="16" column="66" />
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="67" />
+        <mark key="^" line="15" column="15" />
+        <mark key="." line="16" column="0" />
       </file>
       <file name="$USER_HOME$/java/jvtest/.idea/workspace.xml" timestamp="1508579246346">
         <mark key="[" line="0" column="2" />
@@ -203,9 +210,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="13" column="8" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
-      <jump line="42" column="0" filename="$USER_HOME$/java/jvtest/src/com/kabasakalis/SimpleCalculator.java" />
-      <jump line="12" column="0" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="34" column="0" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="52" column="7" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
       <jump line="50" column="7" filename="$USER_HOME$/java/jvtest/test/com/kabasakalis/SimpleCalculatorTest.java" />
@@ -303,6 +307,9 @@
       <jump line="15" column="0" filename="$USER_HOME$/java/springify-api/build.gradle" />
       <jump line="10" column="54" filename="$USER_HOME$/java/springify-api/build.gradle" />
       <jump line="94" column="4" filename="$USER_HOME$/java/springify-api/build.gradle" />
+      <jump line="16" column="66" filename="$USER_HOME$/java/springify-api/src/main/db/liquibase.propertiesINACTIVE" />
+      <jump line="4" column="66" filename="$USER_HOME$/java/springify-api/src/main/resources/application.properties" />
+      <jump line="31" column="39" filename="$USER_HOME$/java/springify-api/build.gradle" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -330,36 +337,36 @@
         <text encoding="base64">ICAgIGNvbXBpbGUgZ3JvdXA6ICdvcmcueWFtbCcsIG5hbWU6ICdzbmFrZXlhbWwnLCB2ZXJzaW9uOiAnMS4xOScK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">bGlxdWliYXNlLmNoYW5nZS1sb2c9Y2xhc3NwYXRoOmRiL2NoYW5nZUxvZy55bWwK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">bGlxdWliYXNlLmNoYW5nZS1sb2c9Y2xhc3NwYXRoOmRiL2NoYW5nZWxvZy9kYi5jaGFuZ2Vsb2ctbWFzdGVyLnhtbAo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">Cgo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
         <text>plugins {
 	id 'org.liquibase.gradle' version '1.2.4'
 }</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>name 4</text>
       </register>
-      <register name="6" type="4">
-        <text>name 3</text>
-      </register>
-      <register name="7" type="4">
-        <text>name 2</text>
-      </register>
       <register name="8" type="4">
-        <text>name 1</text>
+        <text>name 3</text>
       </register>
       <register name="x" type="4">
         <text>name 4</text>
       </register>
       <register name="9" type="4">
-        <text>test1</text>
+        <text>name 2</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
@@ -414,9 +421,10 @@
         <entry>action SplitVertically</entry>
         <entry>action PreviousTab</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action NewFile</entry>
         <entry>action PreviousOccurence</entry>
+        <entry>.action SaveAll</entry>
+        <entry>action VimFilePrevious</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
