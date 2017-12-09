@@ -65,9 +65,6 @@
         <mark key="^" line="0" column="19" />
         <mark key="." line="0" column="19" />
       </file>
-      <file name="$USER_HOME$/java/movieplex7/pom.xml" timestamp="1510141918887">
-        <mark key="'" line="4" column="0" />
-      </file>
       <file name="$USER_HOME$/java/springify-api/src/main/db/migrations/002_populate_artists.sql" timestamp="1512338419980">
         <mark key="[" line="5" column="43" />
         <mark key="]" line="5" column="50" />
@@ -113,14 +110,7 @@
         <mark key="." line="26" column="5" />
         <mark key="^" line="20" column="7" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/resources/application.properties" timestamp="1512341439610">
-        <mark key="'" line="0" column="66" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="^" line="0" column="40" />
-        <mark key="." line="0" column="0" />
-      </file>
-      <file name="/dummy.sql" timestamp="1512387817483">
+      <file name="/dummy.sql" timestamp="1512823748843">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/load.sql" timestamp="1509916504028">
@@ -145,14 +135,6 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/build.gradle" timestamp="1512386301200">
-        <mark key="'" line="20" column="30" />
-        <mark key="[" line="20" column="23" />
-        <mark key="]" line="20" column="16" />
-        <mark key="." line="20" column="16" />
-        <mark key="^" line="20" column="16" />
-      </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/db/migrations/001_create_artists.sql" timestamp="1512387627803" />
       <file name="$USER_HOME$/java/springify-api/src/main/db/migrations/create_artists.sql" timestamp="1512338172011">
         <mark key="[" line="2" column="18" />
         <mark key="]" line="2" column="19" />
@@ -221,6 +203,18 @@
         <mark key="]" line="16" column="67" />
         <mark key="^" line="15" column="15" />
         <mark key="." line="16" column="0" />
+      </file>
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1512823897227">
+        <mark key="[" line="1" column="49" />
+        <mark key="]" line="1" column="49" />
+        <mark key="." line="1" column="49" />
+        <mark key="^" line="1" column="49" />
+      </file>
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/ArtistRepository.java" timestamp="1512824038909">
+        <mark key="[" line="0" column="33" />
+        <mark key="]" line="0" column="35" />
+        <mark key="^" line="0" column="35" />
+        <mark key="." line="0" column="35" />
       </file>
     </filemarks>
     <jumps>
@@ -330,7 +324,7 @@
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>create_artists</text>
+        <text>net</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -342,7 +336,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>}</text>
+        <text>l.vatri.ecommerce.controllers;</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
@@ -350,11 +344,11 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgIHByaW50bG4gIkV4ZWN1dGluZyBwcm9kdWN0aW9uIGRiIGFjdGlvbnMiCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludGxuICdTYW1wbGUgdGFzaycK</text>
+      <register name="1" type="4">
+        <text>net</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludGxuICdTYW1wbGUgdGFzaycK</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -366,19 +360,19 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZGIuZ3JhZGxlOjFjdGlvbiBTYXZlQWxsCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZGpqYi5ncmFkbGU6MQo=</text>
+        <text encoding="base64">ZGIuZ3JhZGxlOjFjdGlvbiBTYXZlQWxsCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZGIuZ3JhZGxlOjEK</text>
+        <text encoding="base64">ZGpqYi5ncmFkbGU6MQo=</text>
       </register>
       <register name="x" type="4">
-        <text>create_artists</text>
+        <text>net</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Y2hhbmdlTG9nRmlsZT1zcmMvbWFpbi9kYi9jaGFuZ2VMb2cueW1sCmRyaXZlciA9IG9yZy5wb3N0Z3Jlc3FsLkRyaXZlcgo=</text>
+        <text encoding="base64">ZGIuZ3JhZGxlOjEK</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
