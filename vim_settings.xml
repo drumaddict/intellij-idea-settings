@@ -178,12 +178,18 @@
         <mark key="^" line="46" column="10" />
         <mark key="." line="46" column="10" />
       </file>
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/SpringifyApiApplication.java" timestamp="1514193595977" />
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/AlbumResourceAssembler.java" timestamp="1514039908326">
         <mark key="'" line="26" column="0" />
         <mark key="[" line="26" column="0" />
         <mark key="]" line="32" column="4" />
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
+      </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-webmvc/2.6.9.RELEASE/5151300f02178ec7d790b69b57f3eb11f3e8b2cb/spring-data-rest-webmvc-2.6.9.RELEASE-sources.jar!/org/springframework/data/rest/webmvc/RepositoryPropertyReferenceController.java" timestamp="1514194893672">
+        <mark key="'" line="417" column="0" />
+        <mark key="[" line="417" column="0" />
+        <mark key="]" line="425" column="4" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514190150913">
         <mark key="'" line="102" column="1" />
@@ -244,15 +250,14 @@
         <mark key="^" line="15" column="15" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1514036325779">
+      <file name="/fragment.java" timestamp="1514194724635">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514191551104">
-        <mark key="'" line="88" column="96" />
-        <mark key="[" line="82" column="44" />
-        <mark key="]" line="83" column="7" />
-        <mark key="^" line="83" column="7" />
-        <mark key="." line="83" column="7" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514195037699">
+        <mark key="[" line="90" column="35" />
+        <mark key="]" line="90" column="26" />
+        <mark key="^" line="90" column="26" />
+        <mark key="." line="90" column="26" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/ArtistRepository.java" timestamp="1514074349557">
         <mark key="'" line="19" column="1" />
@@ -263,9 +268,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="24" filename="$USER_HOME$/java/springify-api/src/main/db/migrations/001_migration.yml" />
-      <jump line="40" column="59" filename="$USER_HOME$/java/springify-api/build.gradle" />
-      <jump line="2" column="0" filename="$USER_HOME$/java/springify-api/build.gradle" />
       <jump line="13" column="8" filename="$USER_HOME$/java/springify-api/build.gradle" />
       <jump line="53" column="0" filename="$USER_HOME$/java/springify-api/build.gradle" />
       <jump line="0" column="23" filename="$USER_HOME$/java/springify-api/src/main/resources/application.properties" />
@@ -362,7 +364,10 @@
       <jump line="59" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="87" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="102" column="1" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="86" column="96" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
+      <jump line="86" column="93" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
+      <jump line="417" column="0" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-webmvc/2.6.9.RELEASE/5151300f02178ec7d790b69b57f3eb11f3e8b2cb/spring-data-rest-webmvc-2.6.9.RELEASE-sources.jar!/org/springframework/data/rest/webmvc/RepositoryPropertyReferenceController.java" />
+      <jump line="98" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
+      <jump line="109" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -387,43 +392,43 @@
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgICAgIFQgZW50aXR5PSByZXBvc2l0b3J5LnNhdmUoZW50aXR5Qm9keSk7CiAgICAgICAgSHR0cEhlYWRlcnMgaHR0cEhlYWRlcnMgPSBuZXcgSHR0cEhlYWRlcnMoKTsKICAgICAgICBVUkkgbG9jYXRpb25fbGluayA9IGxpbmtUbyhtZXRob2RPbihBcnRpc3RDb250cm9sbGVyLmNsYXNzKS5nZXRPbmUoZW50aXR5LmdldElkKCkpKS50b1VyaSgpOwogICAgICAgIGh0dHBIZWFkZXJzLnNldExvY2F0aW9uKGxvY2F0aW9uX2xpbmspOwogICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2VFbnRpdHkoYXNzZW1ibGVyLnRvUmVzb3VyY2UoZW50aXR5KSwgaHR0cEhlYWRlcnMsIEh0dHBTdGF0dXMuQ1JFQVRFRCk7</text>
+        <text encoding="base64">CXByaXZhdGUgT2JqZWN0IGxvYWRQcm9wZXJ0eVZhbHVlKENsYXNzPD8+IHR5cGUsIExpbmsgbGluaykgewoKCQlTdHJpbmcgaHJlZiA9IGxpbmsuZXhwYW5kKCkuZ2V0SHJlZigpOwoJCVN0cmluZyBpZCA9IGhyZWYuc3Vic3RyaW5nKGhyZWYubGFzdEluZGV4T2YoJy8nKSArIDEpOwoKCQlSZXBvc2l0b3J5SW52b2tlciBpbnZva2VyID0gcmVwb3NpdG9yeUludm9rZXJGYWN0b3J5LmdldEludm9rZXJGb3IodHlwZSk7CgoJCXJldHVybiBpbnZva2VyLmludm9rZUZpbmRPbmUoaWQpOwoJfQ==</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgampqampqampqCg==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlRXR5KHBhZ2VkQXJ0aXN0QWxidW1zLCBIdHRwU3RhdHVzLk9LKTsK</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>i</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>t</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>n</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">ICAgICAgICBQYWdlZFJlc291cmNlczxSZXNvdXJjZTxBbGJ1bT4+CiAgICAgICAgICAgICAgICBwYWdlZEFydGlzdEFsYnVtcyA9IHBhZ2VkQWxidW1Bc3NlbWJsZXIudG9SZXNvdXJjZSgKICAgICAgICAgICAgICAgIGFsYnVtUmVwb3NpdG9yeS5maW5kQWxsQnlBcnRpc3RJZChpZCwgcGFnZVJlcXVlc3QpLAogICAgICAgICAgICAgICAgYWxidW1SZXNvdXJjZUFzc2VtYmxlcik7</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>GET</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Ly8gTGlzdDxBcnRpc3Q+IGZpbmRCeU5hbWUoU3RyaW5nIG5hbWVMaWtlLCBQYWdlYWJsZSBwYWdlYWJsZSk7Cg==</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">Ly8gIE9wdGlvbmFsPEFydGlzdD4gZmluZEJ5SWQoTG9uZyBpZCk7Ci8vICBPcHRpb25hbDxBcnRpc3Q+IGZpbmRBcnRpc3RCeUlkKExvbmcgaWQpOwovLyAgdm9pZCAgZGVsZXRlQnlJZChMb25nIGlkKTs=</text>
       </register>
       <register name="x" type="4">
         <text>i</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">Ly8gIE9wdGlvbmFsPEFydGlzdD4gZmluZEJ5SWQoTG9uZyBpZCk7Ci8vICBPcHRpb25hbDxBcnRpc3Q+IGZpbmRBcnRpc3RCeUlkKExvbmcgaWQpOwovLyAgdm9pZCAgZGVsZXRlQnlJZChMb25nIGlkKTs=</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action MoveEditorToOppositeTabGroup</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -463,10 +468,8 @@
         <entry>action GotoClass</entry>
         <entry>action ReformatCode</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>actionList</entry>
@@ -478,6 +481,8 @@
         <entry>:source ~/.ideavimrc</entry>
         <entry>source ~/.ideavimrc</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
