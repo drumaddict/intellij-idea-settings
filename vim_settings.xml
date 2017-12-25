@@ -111,12 +111,13 @@
         <mark key="^" line="15" column="15" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514243640802">
-        <mark key="'" line="83" column="33" />
-        <mark key="[" line="91" column="16" />
-        <mark key="]" line="92" column="15" />
-        <mark key="^" line="92" column="15" />
-        <mark key="." line="92" column="15" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514245161074">
+        <mark key="'" line="91" column="70" />
+        <mark key="[" line="87" column="0" />
+        <mark key="]" line="87" column="0" />
+        <mark key="m" line="92" column="37" />
+        <mark key="^" line="79" column="37" />
+        <mark key="." line="87" column="0" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/ArtistRepository.java" timestamp="1514074349557">
         <mark key="'" line="19" column="1" />
@@ -336,7 +337,6 @@
       <jump line="40" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="35" column="13" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="29" column="14" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/ArtistRepository.java" />
-      <jump line="92" column="57" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="107" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="30" column="1" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/ArtistRepository.java" />
       <jump line="59" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
@@ -363,9 +363,10 @@
       <jump line="142" column="56" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="145" column="31" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="97" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
-      <jump line="91" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="118" column="70" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="83" column="33" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
+      <jump line="92" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
+      <jump line="91" column="70" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -390,43 +391,43 @@
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="4">
-        <text>@PathVariable long id)</text>
+        <text>(Album) loadEntity(albumRepository, link)</text>
       </register>
-      <register name="1" type="4">
-        <text>Collection</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLy8gQWRkIHRvIHRoZSBleGlzdGluZyBjb2xsZWN0aW9uCg==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">Ly8gICAgICAgVCBlbnRpdHk9IHJlcG9zaXRvcnkuc2F2ZShlbnRpdHlCb2R5KTsK</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>BaseEntity</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgYXJ0aXN0LnNldEFsYnVtcyhhbGJ1bXMpOwo=</text>
       </register>
-      <register name="4" type="4">
-        <text>BaseEntity</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>Album</text>
-      </register>
-      <register name="6" type="4">
-        <text>private</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgYWxidW1zLmFkZCggKEFsYnVtKSBsb2FkRW50aXR5KGFsYnVtUmVwb3NpdG9yeSwgbGluaykpOwo=</text>
       </register>
       <register name="x" type="4">
         <text>Collection</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">CQlSZXBvc2l0b3J5SW52b2tlciBpbnZva2VyID0gcmVwb3NpdG9yeUludm9rZXJGYWN0b3J5LmdldEludm9rZXJGb3IodHlwZSk7CgoJCXJldHVybiBpbnZva2VyLmludm9rZUZpbmRPbmUoaWQpOw==</text>
+        <text>Collection</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -482,9 +483,9 @@
         <entry>action CloseContent</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
-        <entry>action SaveAll</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action GotoFile</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
