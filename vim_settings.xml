@@ -197,13 +197,12 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514326250378">
-        <mark key="'" line="164" column="8" />
-        <mark key="k" line="186" column="1" />
-        <mark key="[" line="162" column="26" />
-        <mark key="]" line="162" column="27" />
-        <mark key="." line="162" column="27" />
-        <mark key="^" line="162" column="27" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514327180273">
+        <mark key="k" line="182" column="1" />
+        <mark key="[" line="177" column="0" />
+        <mark key="]" line="177" column="0" />
+        <mark key="^" line="176" column="43" />
+        <mark key="." line="177" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/buffer1" timestamp="1513604187419">
         <mark key="'" line="10" column="0" />
@@ -265,12 +264,12 @@
         <mark key="^" line="111" column="56" />
         <mark key="." line="112" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1514309030851">
+      <file name="/fragment.java" timestamp="1514326886315">
         <mark key="'" line="0" column="37" />
-        <mark key="[" line="0" column="34" />
-        <mark key="]" line="0" column="34" />
-        <mark key="^" line="0" column="41" />
-        <mark key="." line="0" column="34" />
+        <mark key="[" line="0" column="68" />
+        <mark key="]" line="0" column="67" />
+        <mark key="^" line="0" column="67" />
+        <mark key="." line="0" column="67" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/ArtistRepository.java" timestamp="1514074349557">
         <mark key="'" line="19" column="1" />
@@ -408,22 +407,23 @@
         <text encoding="base64">Q2xhc3M8Pz5bXSA=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICAgIENsYXNzIHN1YnJlc291cmNlQ2xhc3MgPSBzdWJyZXNvdXJjZS5nZXQoKS5nZXRDbGFzcygpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="3" type="4">
+        <text>//                            Class subresourceClass = subresource.get().getClass();
+//                            String subresourceClassName = subresourceClass.getSimpleName();</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICAgICAgQ2xhc3M8VD4gcmVzb3VyY2VDbGFzcyA9IChDbGFzczxUPikgR2VuZXJpY1R5cGVSZXNvbHZlci5yZXNvbHZlVHlwZUFyZ3VtZW50KGdldENsYXNzKCksIEFic3RyYWN0QmFzZVJlc3RDb250cm9sbGVyLmNsYXNzKTsKLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIHJlc291cmNlQ2xhc3NOYW1lID0gcmVzb3VyY2VDbGFzcy5nZXRTaW1wbGVOYW1lKCk7</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">Ly8gICAgICAgIENsYXNzPD8+W10gYSA9IHJlbGF0aW9uc2hpcE93bmVyQ2xhc3NyZXBvc2l0b3J5LmdldENsYXNzKCkuZ2V0SW50ZXJmYWNlcygpOwovLyAgICAgICAgZm9yIChDbGFzcyBpZmFjZSA6IGEgKSB7Ci8vICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJJbnRlcmZhY2UgTmFtZSA9ICIgKyBpZmFjZS5nZXROYW1lKCkpOwovLyAgICAgICAgfQ==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgIENsYXNzIHN1YnJlc291cmNlQ2xhc3MgPSBzdWJyZXNvdXJjZS5nZXQoKS5nZXRDbGFzcygpOwo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
@@ -434,14 +434,14 @@
       <register name="x" type="4">
         <text>Album</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICAgICAgQ2xhc3M8VD4gcmVzb3VyY2VDbGFzcyA9IChDbGFzczxUPikgR2VuZXJpY1R5cGVSZXNvbHZlci5yZXNvbHZlVHlwZUFyZ3VtZW50KGdldENsYXNzKCksIEFic3RyYWN0QmFzZVJlc3RDb250cm9sbGVyLmNsYXNzKTsKLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIHJlc291cmNlQ2xhc3NOYW1lID0gcmVzb3VyY2VDbGFzcy5nZXRTaW1wbGVOYW1lKCk7</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleLineBreakpoint</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -473,7 +473,6 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Generate</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action CloseContent</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
         <entry>action Find</entry>
         <entry>action GotoClass</entry>
@@ -484,14 +483,15 @@
         <entry>action AceTargetAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0RlY2xhcmF0aW9u</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gVG9nZ2xlTGluZUJyZWFrcG9pbnQ=</entry>
-        <entry>action NextTab</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0NsYXNz</entry>
         <entry>action ReformatCode</entry>
-        <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action VimFilePrevious</entry>
-        <entry>action SaveAll</entry>
         <entry>action ToggleLineBreakpoint</entry>
+        <entry>action SaveAll</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action NextTab</entry>
+        <entry>action CloseContent</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
