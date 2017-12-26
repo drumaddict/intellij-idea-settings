@@ -197,12 +197,13 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514307186421">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514308282169">
         <mark key="'" line="163" column="53" />
-        <mark key="[" line="166" column="88" />
-        <mark key="]" line="166" column="81" />
-        <mark key="." line="166" column="81" />
-        <mark key="^" line="166" column="81" />
+        <mark key="[" line="171" column="101" />
+        <mark key="k" line="179" column="1" />
+        <mark key="]" line="171" column="97" />
+        <mark key="." line="171" column="97" />
+        <mark key="^" line="171" column="97" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/buffer1" timestamp="1513604187419">
         <mark key="'" line="10" column="0" />
@@ -435,7 +436,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action VimFilePrevious</text>
+        <text>action ToggleLineBreakpoint</text>
       </register>
     </registers>
     <search>
@@ -483,8 +484,8 @@
         <entry>action SaveAll</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0RlY2xhcmF0aW9u</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action ToggleLineBreakpoint</entry>
         <entry>action VimFilePrevious</entry>
+        <entry>action ToggleLineBreakpoint</entry>
       </history-cmd>
       <history-expr />
       <history-input />
