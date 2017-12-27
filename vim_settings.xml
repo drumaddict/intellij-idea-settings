@@ -16,10 +16,10 @@
         <mark key="." line="12" column="10" />
         <mark key="^" line="12" column="10" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" timestamp="1514385273863">
-        <mark key="'" line="17" column="0" />
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="67" column="61" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" timestamp="1514386169595">
+        <mark key="'" line="418" column="0" />
+        <mark key="[" line="418" column="0" />
+        <mark key="]" line="426" column="4" />
         <mark key="^" line="18" column="0" />
         <mark key="." line="18" column="0" />
       </file>
@@ -218,11 +218,13 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514385309156">
-        <mark key="'" line="114" column="61" />
-        <mark key="k" line="178" column="1" />
-        <mark key="]" line="9" column="62" />
-        <mark key="^" line="53" column="0" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514387275805">
+        <mark key="'" line="74" column="4" />
+        <mark key="k" line="184" column="1" />
+        <mark key="[" line="74" column="63" />
+        <mark key="]" line="74" column="49" />
+        <mark key="^" line="74" column="49" />
+        <mark key="." line="74" column="49" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/buffer1" timestamp="1513604187419">
         <mark key="'" line="10" column="0" />
@@ -276,11 +278,11 @@
         <mark key="^" line="15" column="15" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514380426894">
-        <mark key="[" line="57" column="61" />
-        <mark key="]" line="58" column="7" />
-        <mark key="^" line="58" column="7" />
-        <mark key="." line="58" column="7" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514386800751">
+        <mark key="[" line="90" column="0" />
+        <mark key="]" line="90" column="0" />
+        <mark key="^" line="90" column="0" />
+        <mark key="." line="90" column="0" />
       </file>
       <file name="/fragment.java" timestamp="1514326886315">
         <mark key="'" line="0" column="37" />
@@ -298,11 +300,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="90" column="67" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
-      <jump line="96" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
-      <jump line="100" column="31" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
-      <jump line="95" column="81" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
-      <jump line="98" column="53" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="101" column="31" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="99" column="74" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="82" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
@@ -398,6 +395,11 @@
       <jump line="282" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="106" column="61" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="114" column="61" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="428" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
+      <jump line="285" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="418" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
+      <jump line="301" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="74" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -421,58 +423,8 @@
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="4">
-        <text>import static org.springframework.data.rest.webmvc.ControllerUtils.*;
-import static org.springframework.data.rest.webmvc.RestMediaTypes.*;
-import static org.springframework.hateoas.mvc.ControllerLinkBuilder.*;
-import static org.springframework.web.bind.annotation.RequestMethod.*;
-
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationEventPublisher;
-import org.springframework.context.ApplicationEventPublisherAware;
-import org.springframework.core.CollectionFactory;
-import org.springframework.data.mapping.IdentifierAccessor;
-import org.springframework.data.mapping.PersistentEntity;
-import org.springframework.data.mapping.PersistentProperty;
-import org.springframework.data.mapping.PersistentPropertyAccessor;
-import org.springframework.data.repository.support.Repositories;
-import org.springframework.data.repository.support.RepositoryInvoker;
-import org.springframework.data.repository.support.RepositoryInvokerFactory;
-import org.springframework.data.rest.core.event.AfterLinkDeleteEvent;
-import org.springframework.data.rest.core.event.AfterLinkSaveEvent;
-import org.springframework.data.rest.core.event.BeforeLinkDeleteEvent;
-import org.springframework.data.rest.core.event.BeforeLinkSaveEvent;
-import org.springframework.data.rest.core.mapping.PropertyAwareResourceMapping;
-import org.springframework.data.rest.core.mapping.ResourceMapping;
-import org.springframework.data.rest.core.mapping.ResourceMetadata;
-import org.springframework.data.rest.core.util.Function;
-import org.springframework.data.rest.webmvc.support.BackendId;
-import org.springframework.data.web.PagedResourcesAssembler;
-import org.springframework.hateoas.Link;
-import org.springframework.hateoas.Resource;
-import org.springframework.hateoas.ResourceSupport;
-import org.springframework.hateoas.Resources;
-import org.springframework.hateoas.mvc.ControllerLinkBuilder;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.HttpRequestMethodNotSupportedException;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHByb3RlY3RlZCBzdGF0aWMgZmluYWwgU3RyaW5nIEJBU0VfTUFQUElORyA9ICIve3JlcG9zaXRvcnl9L3tpZH0ve3Byb3BlcnR5fSI7Cg==</text>
       </register>
       <register name="1" type="4">
         <text>private</text>
@@ -544,11 +496,8 @@ import org.springframework.web.bind.annotation.RequestMapping;</text>
         <entry>action GotoFile</entry>
         <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action $SelectAll</entry>
-        <entry>action CloseContent</entry>
         <entry>action NextOccurence</entry>
         <entry>action GotoClass</entry>
-        <entry>action PreviousTab</entry>
         <entry>actionlist Stretch</entry>
         <entry>:actionlist Window</entry>
         <entry>:actionlist Left</entry>
@@ -561,10 +510,13 @@ import org.springframework.web.bind.annotation.RequestMapping;</text>
         <entry>EditorLeft</entry>
         <entry>action HideAllWindows</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0RlY2xhcmF0aW9u</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>22-</entry>
         <entry>220</entry>
+        <entry>action CloseContent</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action $SelectAll</entry>
         <entry>action NextTab</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
