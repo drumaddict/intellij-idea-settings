@@ -16,8 +16,8 @@
         <mark key="." line="12" column="10" />
         <mark key="^" line="12" column="10" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" timestamp="1514367556117">
-        <mark key="'" line="76" column="44" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" timestamp="1514369187071">
+        <mark key="'" line="101" column="46" />
         <mark key="[" line="15" column="47" />
         <mark key="]" line="15" column="47" />
         <mark key="." line="15" column="47" />
@@ -120,6 +120,13 @@
         <mark key="." line="167" column="14" />
         <mark key="^" line="167" column="21" />
       </file>
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractRepositoryRestController.java" timestamp="1514370366753">
+        <mark key="'" line="120" column="0" />
+        <mark key="[" line="92" column="104" />
+        <mark key="]" line="92" column="109" />
+        <mark key="^" line="92" column="109" />
+        <mark key="." line="92" column="109" />
+      </file>
       <file name="$USER_HOME$/java/springify-api/db.gradle" timestamp="1512387222750">
         <mark key="'" line="7" column="8" />
         <mark key="[" line="0" column="58" />
@@ -211,7 +218,7 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514367398219">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514369328582">
         <mark key="'" line="6" column="0" />
         <mark key="k" line="155" column="1" />
         <mark key="[" line="39" column="78" />
@@ -292,8 +299,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="50" column="76" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
-      <jump line="88" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="69" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="34" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="41" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
@@ -392,6 +397,8 @@
       <jump line="357" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
       <jump line="76" column="44" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
       <jump line="6" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="118" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractRepositoryRestController.java" />
+      <jump line="112" column="46" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -452,7 +459,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action HideAllWindows</text>
       </register>
     </registers>
     <search>
@@ -489,17 +496,17 @@
         <entry>action ReformatCode</entry>
         <entry>action GotoFile</entry>
         <entry>action AceAction</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action HideAllWindows</entry>
         <entry>action NextTab</entry>
         <entry>action $SelectAll</entry>
         <entry>action CloseContent</entry>
         <entry>action NextOccurence</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action VimFilePrevious</entry>
         <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
+        <entry>action HideAllWindows</entry>
       </history-cmd>
       <history-expr />
       <history-input />
