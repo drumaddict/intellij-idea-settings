@@ -447,7 +447,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -480,7 +480,6 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0RlY2xhcmF0aW9u</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gVG9nZ2xlTGluZUJyZWFrcG9pbnQ=</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0NsYXNz</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action CloseContent</entry>
         <entry>action ReformatCode</entry>
@@ -493,6 +492,7 @@
         <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
