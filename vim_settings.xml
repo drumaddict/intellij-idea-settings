@@ -162,8 +162,8 @@
         <mark key="." line="12" column="10" />
         <mark key="^" line="12" column="10" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" timestamp="1514457113151">
-        <mark key="'" line="94" column="10" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" timestamp="1514468573923">
+        <mark key="'" line="413" column="89" />
         <mark key="[" line="79" column="2" />
         <mark key="]" line="79" column="1" />
         <mark key="^" line="79" column="1" />
@@ -308,7 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="83" column="51" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
       <jump line="82" column="179" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
       <jump line="56" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="79" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -408,6 +407,7 @@
       <jump line="247" column="30" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="254" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="249" column="60" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="413" column="89" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -468,7 +468,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -512,16 +512,16 @@
         <entry>action HideAllWindows</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action CloseContent</entry>
-        <entry>action GotoFile</entry>
         <entry>action $SelectAll</entry>
         <entry>action GotoClass</entry>
         <entry>action ReformatCode</entry>
         <entry>action AceAction</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action CloseContent</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
