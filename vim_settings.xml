@@ -135,10 +135,10 @@
         <mark key="^" line="15" column="15" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514467394661">
-        <mark key="'" line="83" column="0" />
-        <mark key="[" line="91" column="58" />
-        <mark key="]" line="91" column="56" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514504066348">
+        <mark key="'" line="68" column="0" />
+        <mark key="[" line="68" column="0" />
+        <mark key="]" line="80" column="4" />
         <mark key="^" line="91" column="56" />
         <mark key="." line="91" column="56" />
       </file>
@@ -266,12 +266,12 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514468265599">
-        <mark key="'" line="204" column="60" />
-        <mark key="[" line="68" column="0" />
-        <mark key="]" line="68" column="0" />
-        <mark key="^" line="204" column="91" />
-        <mark key="." line="68" column="0" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514504074718">
+        <mark key="'" line="231" column="4" />
+        <mark key="[" line="219" column="4" />
+        <mark key="]" line="231" column="5" />
+        <mark key="^" line="235" column="3" />
+        <mark key="." line="219" column="4" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/drop.sql" timestamp="1509915751839">
         <mark key="[" line="4" column="11" />
@@ -308,7 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="82" column="179" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
       <jump line="56" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="79" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="57" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -391,7 +390,6 @@
       <jump line="220" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="221" column="66" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="228" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="231" column="30" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="235" column="26" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="236" column="26" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="232" column="30" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -408,6 +406,8 @@
       <jump line="254" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="249" column="60" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="413" column="89" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
+      <jump line="68" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
+      <jump line="231" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -432,7 +432,7 @@
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="4">
-        <text>return ControllerUtils.toEmptyResponse(HttpStatus.NOT_FOUND);</text>
+        <text encoding="base64">ICAgIEBSZXF1ZXN0TWFwcGluZygKICAgICAgICAgICAgbWV0aG9kID0gUmVxdWVzdE1ldGhvZC5HRVQsCiAgICAgICAgICAgIHBhdGggPSAiL3tpZH0vYWxidW1zIiwKICAgICAgICAgICAgcHJvZHVjZXMgPSBNZWRpYVR5cGVzLkhBTF9KU09OX1ZBTFVFKQogICAgcHVibGljIFJlc3BvbnNlRW50aXR5PFBhZ2U8QWxidW0+PiBnZXRBcnRpc3RBbGJ1bXMoCiAgICAgICAgICAgIFBhZ2VhYmxlIHBhZ2VSZXF1ZXN0LAogICAgICAgICAgICBAUGF0aFZhcmlhYmxlIExvbmcgaWQpIHsKICAgICAgICBQYWdlZFJlc291cmNlczxSZXNvdXJjZTxBbGJ1bT4+CiAgICAgICAgICAgICAgICBwYWdlZEFydGlzdEFsYnVtcyA9IHBhZ2VkQWxidW1Bc3NlbWJsZXIudG9SZXNvdXJjZSgKICAgICAgICAgICAgICAgIGFsYnVtUmVwb3NpdG9yeS5maW5kQWxsQnlBcnRpc3RJZChpZCwgcGFnZVJlcXVlc3QpLAogICAgICAgICAgICAgICAgYWxidW1SZXNvdXJjZUFzc2VtYmxlcik7CiAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZUVudGl0eShwYWdlZEFydGlzdEFsYnVtcywgSHR0cFN0YXR1cy5PSyk7CiAgICB9</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -468,7 +468,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action VimFilePrevious</text>
+        <text>action PreviousTab</text>
       </register>
     </registers>
     <search>
@@ -518,10 +518,10 @@
         <entry>action AceAction</entry>
         <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action CloseContent</entry>
         <entry>action GotoFile</entry>
+        <entry>action CloseContent</entry>
         <entry>action VimFilePrevious</entry>
+        <entry>action PreviousTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
