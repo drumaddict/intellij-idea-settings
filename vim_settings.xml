@@ -468,7 +468,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action VimFilePrevious</text>
       </register>
     </registers>
     <search>
@@ -516,12 +516,12 @@
         <entry>action GotoClass</entry>
         <entry>action ReformatCode</entry>
         <entry>action AceAction</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
         <entry>action PreviousTab</entry>
         <entry>action CloseContent</entry>
         <entry>action GotoFile</entry>
+        <entry>action VimFilePrevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
