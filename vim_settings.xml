@@ -266,13 +266,13 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514459862985">
-        <mark key="'" line="232" column="91" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514461196543">
+        <mark key="'" line="233" column="28" />
         <mark key="k" line="199" column="1" />
-        <mark key="[" line="229" column="28" />
-        <mark key="]" line="229" column="39" />
-        <mark key="." line="229" column="39" />
-        <mark key="^" line="229" column="39" />
+        <mark key="[" line="233" column="0" />
+        <mark key="]" line="233" column="0" />
+        <mark key="." line="233" column="0" />
+        <mark key="^" line="233" column="58" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/drop.sql" timestamp="1509915751839">
         <mark key="[" line="4" column="11" />
@@ -309,7 +309,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="84" column="84" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="73" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="163" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="162" column="70" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -409,6 +408,7 @@
       <jump line="236" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="224" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="232" column="91" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="234" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -432,45 +432,45 @@
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">TGlzdDxCYXNlRW50aXR5PiBzdWJyZXNvdXJjZUNvbGxlY3Rpb24gPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoTGlzdDxCYXNlRW50aXR5PikgcmVzb3VyY2VBY2Nlc3Nvci5nZXRQcm9wZXJ0eVZhbHVlKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN1YnJlc291cmNlQ2xhc3NOYW1lLnRvTG93ZXJDYXNlKCkuY29uY2F0KCJzIikpOw==</text>
-      </register>
-      <register name="1" type="4">
-        <text>OneToManyResources</text>
-      </register>
-      <register name="2" type="2">
+      <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN1YnJlc291cmNlQ29sbGVjdGlvbi5hZGQoc3VicmVzb3VyY2UuZ2V0KCkpOwo=</text>
       </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="4">
+        <text>OneToManyResources</text>
+      </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJvZHVjZXMgPSBNZWRpYVR5cGVzLkhBTF9KU09OX1ZBTFVFKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN1YnJlc291cmNlQ29sbGVjdGlvbi5hZGQoc3VicmVzb3VyY2UuZ2V0KCkpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc3VtZXMgPSB7ImFwcGxpY2F0aW9uL2pzb24iLCAidGV4dC91cmktbGlzdCJ9LAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJvZHVjZXMgPSBNZWRpYVR5cGVzLkhBTF9KU09OX1ZBTFVFKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcGF0aCA9ICIve2lkfS9hbGJ1bXMiLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc3VtZXMgPSB7ImFwcGxpY2F0aW9uL2pzb24iLCAidGV4dC91cmktbGlzdCJ9LAo=</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcGF0aCA9ICIve2lkfS9hbGJ1bXMiLAo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgIEBSZXF1ZXN0TWFwcGluZygK</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>//        this.albumRepository = albumRepository;
 //        this.albumResourceAssembler = albumResourceAssembler;</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>OneToManyResources</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgIFJlcG9zaXRvcmllcyByZXBvc2l0b3JpZXMsCi8vICAgICAgICAgICAgICAgICAgICAgICAgICAgIFJlcG9zaXRvcnlJbnZva2VyRmFjdG9yeSByZXBvc2l0b3J5SW52b2tlckZhY3Rvcnks</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action AceAction</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -520,9 +520,9 @@
         <entry>action CloseContent</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action SaveAll</entry>
         <entry>action NextTab</entry>
         <entry>action AceAction</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
