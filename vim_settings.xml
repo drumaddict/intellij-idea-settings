@@ -265,14 +265,14 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514554051832">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514557824653">
         <mark key="t" line="75" column="0" />
-        <mark key="'" line="265" column="8" />
-        <mark key="[" line="265" column="44" />
+        <mark key="'" line="286" column="88" />
+        <mark key="[" line="286" column="54" />
         <mark key="m" line="260" column="36" />
-        <mark key="]" line="265" column="51" />
-        <mark key="." line="265" column="51" />
-        <mark key="^" line="265" column="51" />
+        <mark key="]" line="286" column="44" />
+        <mark key="." line="286" column="44" />
+        <mark key="^" line="286" column="44" />
         <mark key="o" line="79" column="3" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/drop.sql" timestamp="1509915751839">
@@ -310,8 +310,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="93" column="38" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="17" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
       <jump line="178" column="78" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="114" column="61" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="428" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
@@ -380,12 +378,9 @@
       <jump line="260" column="32" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="117" column="15" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="269" column="79" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="282" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="267" column="115" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="254" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="234" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="276" column="98" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="266" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="273" column="20" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="274" column="37" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="264" column="30" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -410,13 +405,18 @@
       <jump line="275" column="144" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="281" column="47" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="265" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="266" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="280" column="61" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="267" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="282" column="21" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="286" column="88" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>subresourceClassName.toLowerCase()</text>
+        <text>users</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -427,40 +427,41 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text>.concat(resourceClassName).concat(&quot;id&quot;), Long.class, Pageable.class);</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBUIHJlc291cmNlID0gcmVwb3NpdG9yeS5maW5kT25lKGlkKTsK</text>
+        <text encoding="base64">UGFnZTwgQmFzZUVudGl0eT4gcGFnZXMgPSBhc3NvY2lhdGVkUmVzb3VyY2VzLnN1Ykxpc3Qoc3RhcnQsIGVuZCksIHBhZ2VSZXF1ZXN0LCBhc3NvY2lhdGVkUmVzb3VyY2VzLnNpemUoKSk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBCYXNlRW50aXR5IGFzc29jaWF0ZWRSZXNvdXJjZSA9IChCYXNlRW50aXR5KXJlc291cmNlQWNjZXNzb3IuZ2V0UHJvcGVydHlWYWx1ZShhc3NvY2lhdGlvbmZpZWxkKTsK</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICBDbGFzczw/PiByZWxhdGlvbnNoaXBPd25lckNsYXNzcmVwb3NpdG9yeUNsYXNzID0gcmVsYXRpb25zaGlwT3duZXJDbGFzc3JlcG9zaXRvcnkuZ2V0Q2xhc3MoKTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICBNZXRob2QgZmluZEJ5QXNzb2NpYXRlZElkPSByZWxhdGlvbnNoaXBPd25lckNsYXNzcmVwb3NpdG9yeS5nZXRDbGFzcygpLmdldERlY2xhcmVkTWV0aG9kKCJmaW5kQWxsIiwgbm9wYXJhbXMpOwo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>users</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBTaW1wbGVSZXNvdXJjZUFzc2VtYmxlciBhc3NvY2lhdGVkUmVzb3VyY2VBc3NlbWJsZXIsCg==</text>
+      <register name="4" type="4">
+        <text>Method findByAssociatedId= resource.getClass().getMethod(&quot;getClass&quot;);
+                    findByAssociatedId.setAccessible(true);</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBmaW5hbCBBc3NvY2lhdGlvbiBhc3NvY2lhdGlvbiwK</text>
+      <register name="5" type="4">
+        <text>relationshipOwnerClassrepository</text>
       </register>
       <register name="6" type="4">
-        <text>subresourceClassName.toLowerCase()</text>
+        <text>r</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJhbGJ1bXMiLAo=</text>
+      <register name="7" type="4">
+        <text>boolean</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIEFzc29jaWF0aW9uLk9ORV9UT19NQU5ZLAo=</text>
+        <text encoding="base64">ICAgICAgICBCYXNlRW50aXR5IGFzc29jaWF0ZWRSZXNvdXJjZSA9IChCYXNlRW50aXR5KXJlc291cmNlQWNjZXNzb3IuZ2V0UHJvcGVydHlWYWx1ZShhc3NvY2lhdGlvbmZpZWxkKTsK</text>
       </register>
       <register name="x" type="4">
-        <text>subresourceClassName.toLowerCase()</text>
+        <text>users</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -469,7 +470,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -500,26 +501,26 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0NsYXNz</entry>
         <entry>action NextOccurence</entry>
         <entry>75</entry>
-        <entry>action Find</entry>
         <entry>action $SelectAll</entry>
         <entry>action GotoClass</entry>
         <entry>220</entry>
-        <entry>action ReformatCode</entry>
         <entry>.action VimFilePrevious</entry>
         <entry>action PreviousTab</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
         <entry>action NextTab</entry>
         <entry>action AceLineAction</entry>
         <entry>action AceTargetAction</entry>
-        <entry>action AceAction</entry>
         <entry>action CloseContent</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action HideAllWindows</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gVmltRmlsZVByZXZpb3Vz</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action SaveAll</entry>
+        <entry>action AceAction</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
