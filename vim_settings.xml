@@ -265,11 +265,11 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514540734768">
-        <mark key="'" line="275" column="24" />
-        <mark key="[" line="191" column="0" />
-        <mark key="]" line="192" column="77" />
-        <mark key="." line="274" column="0" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514541733486">
+        <mark key="[" line="288" column="0" />
+        <mark key="]" line="288" column="0" />
+        <mark key="^" line="274" column="121" />
+        <mark key="." line="288" column="0" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/drop.sql" timestamp="1509915751839">
         <mark key="[" line="4" column="11" />
@@ -306,7 +306,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
       <jump line="385" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
       <jump line="452" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
       <jump line="204" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -404,15 +403,16 @@
       <jump line="273" column="24" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="254" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="234" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="276" column="69" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="275" column="24" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="277" column="26" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="276" column="98" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>uassembler</text>
+        <text>BaseEntity</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -429,38 +429,38 @@
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdWJyZXNvdXJjZUFjY2Vzc29yLnNldFByb3BlcnR5VmFsdWUocmVzb3VyY2VDbGFzc05hbWUudG9Mb3dlckNhc2UoKSwgcmVzb3VyY2UpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN1YnJlc291cmNlQ29sbGVjdGlvbi5hZGQoc3VicmVzb3VyY2UuZ2V0KCkpOwo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">bmV3IFJlc3BvbnNlRW50aXR5PD4oYXNzb2NpYXRlZFJlc291cmNlQXNzZW1ibGVyLnRvUmVzb3VyY2UobyksIEh0dHBTdGF0dXMuT0spKQ==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICBQYWdlZFJlc291cmNlczxSZXNvdXJjZTxUPj4gcGFnZWRSZXNvdXJjZXMgPSBwYWdlZEFzc2VtYmxlci50b1Jlc291cmNlKHJlcG9zaXRvcnkuZmluZEFsbChwYWdlUmVxdWVzdCksIGFzc2VtYmxlcik7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAobyAtbz4gbmV3IFJlc3BvbnNlRW50aXR5PD4oYXNzb2NpYXRlZFJlc291cmNlQXNzZW1ibGVyLnRvUmVzb3VyY2UobyksIEh0dHBTdGF0dXMuT0spKQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICAgT3B0aW9uYWw8PyBleHRlbmRzIEJhc2VFbnRpdHk+IHN1YnJlc291cmNlID0gT3B0aW9uYWwub2ZOdWxsYWJsZSgKLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9hZEVudGl0eShyZWxhdGlvbnNoaXBPd25lckNsYXNzcmVwb3NpdG9yeSwgbGluaykpOw==</text>
+        <text encoding="base64">IHsKICAgICAgICBQcm9wZXJ0eUFjY2Vzc29yIHN1YnJlc291cmNlQWNjZXNzb3IgPSBQcm9wZXJ0eUFjY2Vzc29yRmFjdG9yeS5mb3JCZWFuUHJvcGVydHlBY2Nlc3Moc3VicmVzb3VyY2UuZ2V0KCkpOwogICAgICAgIFByb3BlcnR5QWNjZXNzb3IgcmVzb3VyY2VBY2Nlc3NvciA9IFByb3BlcnR5QWNjZXNzb3JGYWN0b3J5LmZvckJlYW5Qcm9wZXJ0eUFjY2VzcyhyZXNvdXJjZSk7CgogICAgICAgIGlmIChhc3NvY2lhdGlvbiA9PSBBc3NvY2lhdGlvbi5PTkVfVE9fTUFOWSkgewogICAgICAgICAgICBMaXN0PEJhc2VFbnRpdHk+IHN1YnJlc291cmNlQ29sbGVjdGlvbiA9IGdldFJlc291cmNlQ29sbGVjdGlvbihyZXNvdXJjZUFjY2Vzc29yLCBzdWJyZXNvdXJjZUNsYXNzTmFtZSk7CiAgICAgICAgICAgIFBhZ2VkUmVzb3VyY2VzPFJlc291cmNlPD8+PiBwYWdlZFJlc291cmNlcyA9CiAgICAgICAgICAgICAgICAgICAgcGFnZWRBc3NlbWJsZXIudG9SZXNvdXJjZShyZWxhdGlvbnNoaXBPd25lckNsYXNzcmVwb3NpdG9yeS5maW5kQWxsKHBhZ2VSZXF1ZXN0KSwgYXNzb2NpYXRlZFJlc291cmNlQXNzZW1ibGVyKTsKICAgICAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZUVudGl0eShwYWdlZFJlc291cmNlcywgSHR0cFN0YXR1cy5PSyk7CgogICAgICAgIH0gZWxzZSBpZiAoYXNzb2NpYXRpb24gPT0gQXNzb2NpYXRpb24uTUFOWV9UT19NQU5ZKSB7CgogICAgICAgICAgICBMaXN0PEJhc2VFbnRpdHk+IHN1YnJlc291cmNlQ29sbGVjdGlvbiA9IGdldFJlc291cmNlQ29sbGVjdGlvbihyZXNvdXJjZUFjY2Vzc29yLCBzdWJyZXNvdXJjZUNsYXNzTmFtZSk7CiAgICAgICAgICAgIExpc3Q8QmFzZUVudGl0eT4gcmVzb3VyY2VDb2xsZWN0aW9uID0gZ2V0UmVzb3VyY2VDb2xsZWN0aW9uKHN1YnJlc291cmNlQWNjZXNzb3IsIHJlc291cmNlQ2xhc3NOYW1lKTsKICAgICAgICAgICAgc3VicmVzb3VyY2VDb2xsZWN0aW9uLmFkZChzdWJyZXNvdXJjZS5nZXQoKSk7CiAgICAgICAgICAgIHJlc291cmNlQ29sbGVjdGlvbi5hZGQocmVzb3VyY2UpOwoKICAgICAgICB9IGVsc2UgaWYgKGFzc29jaWF0aW9uID09IEFzc29jaWF0aW9uLk9ORV9UT19PTkUpIHsKICAgICAgICAgICAgcmVzb3VyY2VBY2Nlc3Nvci5zZXRQcm9wZXJ0eVZhbHVlKHN1YnJlc291cmNlQ2xhc3NOYW1lLnRvTG93ZXJDYXNlKCksIHN1YnJlc291cmNlLmdldCgpKTsKICAgICAgICAgICAgc3VicmVzb3VyY2VBY2Nlc3Nvci5zZXRQcm9wZXJ0eVZhbHVlKHJlc291cmNlQ2xhc3NOYW1lLnRvTG93ZXJDYXNlKCksIHJlc291cmNlKTsKCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIENvbnRyb2xsZXJVdGlscy50b0VtcHR5UmVzcG9uc2UoSHR0cFN0YXR1cy5OT1RfRk9VTkQpOwogICAgICAgIH0KCiAgICB9IGVsc2UKCiAgICB7CiAgICAgICAgcmV0dXJuIENvbnRyb2xsZXJVdGlscy50b0VtcHR5UmVzcG9uc2UoSHR0cFN0YXR1cy5OT1RfRk9VTkQpOwogICAgfQogICAgICAgICAgICAgICAgICAgIHJlcG9zaXRvcnkuc2F2ZShyZXNvdXJjZSk7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIENvbnRyb2xsZXJVdGlscy50b0VtcHR5UmVzcG9uc2UoSHR0cFN0YXR1cy5OT19DT05URU5UKTsKfSkKICAgICAgICAub3JFbHNlKENvbnRyb2xsZXJVdGlscy50b0VtcHR5UmVzcG9uc2UoSHR0cFN0YXR1cy5OT1RfRk9VTkQpKTsKICAgICAgICB9</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgTGlzdDxCYXNlRW50aXR5PiBzdWJyZXNvdXJjZUNvbGxlY3Rpb24gPSBnZXRSZXNvdXJjZUNvbGxlY3Rpb24ocmVzb3VyY2VBY2Nlc3Nvciwgc3VicmVzb3VyY2VDbGFzc05hbWUpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZihzdWJyZXNvdXJjZS5pc1ByZXNlbnQoKSkK</text>
       </register>
-      <register name="7" type="4">
-        <text>uassembler</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXR1cm4gIGFzc29jaWF0ZWRSZXNvdXJjZTsK</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgIEBSZXF1ZXN0TWFwcGluZygKICAgICAgICAgICAgbWV0aG9kID0ge1JlcXVlc3RNZXRob2QuR0VUfSwKICAgICAgICAgICAgcGF0aCA9ICIve2lkfS97YXNzb2NpYXRlZFJlc291cmNlIiwKICAgICAgICAgICAgY29uc3VtZXMgPSB7ImFwcGxpY2F0aW9uL2pzb24iLCAidGV4dC91cmktbGlzdCJ9LAogICAgICAgICAgICBwcm9kdWNlcyA9IE1lZGlhVHlwZXMuSEFMX0pTT05fVkFMVUUpCiAgICBwdWJsaWMgUmVzcG9uc2VFbnRpdHk8PyBleHRlbmRzIFJlc291cmNlU3VwcG9ydD4gYWRkQXJ0aXN0QWxidW1zKAogICAgICAgICAgICBAUGF0aFZhcmlhYmxlIGxvbmcgaWQsCiAgICAgICAgICAgIEBQYXRoVmFyaWFibGUgU3RyaW5nIGFzc29jaWF0ZWRSZXNvdXJjZSB7Ci8vICAgICAgICByZXR1cm4gYXNzb2NpYXRlUmVzb3VyY2VzKEFzc29jaWF0aW9uLk9ORV9UT19NQU5ZLGFsYnVtUmVwb3NpdG9yeSwgaWQsIGFsYnVtTGlua3MpOwogICAgICAgIHJldHVybiBnZXRBc3NvY2lhdGVSZXNvdXJjZXMoYXNzb2NpYXRpb25UeXBlLCBSLCBpZCwgYWxidW1MaW5rcyk7CiAgICB9CgogICAgICAgICAgICBmaW5hbCBBc3NvY2lhdGlvbiBhc3NvY2lhdGlvbiwKICAgICAgICAgICAgSnBhUmVwb3NpdG9yeTw/IGV4dGVuZHMgQmFzZUVudGl0eSwgTG9uZz4gcmVsYXRpb25zaGlwT3duZXJDbGFzc3JlcG9zaXRvcnksCiAgICAgICAgICAgIExvbmcgaWQsCiAgICAgICAgICAgIFJlc291cmNlczw/IGV4dGVuZHMgQmFzZUVudGl0eT4gbGlua3MpIHs=</text>
+      <register name="8" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBPcHRpb25hbC5vZk51bGxhYmxlKHJlbGF0aW9uc2hpcE93bmVyQ2xhc3NyZXBvc2l0b3J5LmZpbmRPbmUoaWQpKQo=</text>
       </register>
       <register name="x" type="4">
-        <text>uassembler</text>
+        <text>BaseEntity</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgc3VicmVzb3VyY2VBY2Nlc3Nvci5zZXRQcm9wZXJ0eVZhbHVlKHJlc291cmNlQ2xhc3NOYW1lLnRvTG93ZXJDYXNlKCksIHJlc291cmNlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdWJyZXNvdXJjZUNvbGxlY3Rpb24uYWRkKHN1YnJlc291cmNlLmdldCgpKTs=</text>
+      <register name="9" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgIE9wdGlvbmFsPD8gZXh0ZW5kcyBCYXNlRW50aXR5PiBzdWJyZXNvdXJjZSA9IE9wdGlvbmFsLm9mTnVsbGFibGUoCg==</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
