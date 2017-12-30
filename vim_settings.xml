@@ -10,12 +10,12 @@
         <mark key="^" line="4" column="28" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/GenreResourceAssembler.java" timestamp="1514039980390">
-        <mark key="'" line="23" column="12" />
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="99" />
-        <mark key="^" line="19" column="41" />
-        <mark key="." line="23" column="0" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/GenreResourceAssembler.java" timestamp="1514634523459">
+        <mark key="'" line="26" column="12" />
+        <mark key="[" line="22" column="42" />
+        <mark key="]" line="22" column="46" />
+        <mark key="^" line="22" column="46" />
+        <mark key="." line="22" column="46" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/models/Artist.java" timestamp="1514207997644">
         <mark key="[" line="22" column="41" />
@@ -86,12 +86,12 @@
         <mark key="[" line="154" column="0" />
         <mark key="]" line="167" column="2" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/GenreController.java" timestamp="1514456406163">
-        <mark key="'" line="48" column="27" />
-        <mark key="[" line="48" column="0" />
-        <mark key="]" line="48" column="57" />
-        <mark key="." line="48" column="45" />
-        <mark key="^" line="48" column="45" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/GenreController.java" timestamp="1514635487064">
+        <mark key="'" line="69" column="4" />
+        <mark key="[" line="38" column="36" />
+        <mark key="]" line="38" column="45" />
+        <mark key="^" line="38" column="45" />
+        <mark key="." line="38" column="45" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/db/migrations/create_artists.sql" timestamp="1512338172011">
         <mark key="[" line="2" column="18" />
@@ -135,12 +135,12 @@
         <mark key="^" line="15" column="15" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514592527800">
-        <mark key="'" line="141" column="0" />
-        <mark key="[" line="141" column="0" />
-        <mark key="]" line="143" column="67" />
-        <mark key="^" line="69" column="74" />
-        <mark key="." line="69" column="74" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514635303188">
+        <mark key="'" line="88" column="0" />
+        <mark key="[" line="88" column="0" />
+        <mark key="]" line="103" column="4" />
+        <mark key="^" line="127" column="57" />
+        <mark key="." line="127" column="57" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/ArtistRepository.java" timestamp="1514074349557">
         <mark key="'" line="19" column="1" />
@@ -168,6 +168,12 @@
         <mark key="]" line="79" column="1" />
         <mark key="^" line="79" column="1" />
         <mark key="." line="79" column="1" />
+      </file>
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/GenreRepository.java" timestamp="1514635035483">
+        <mark key="[" line="12" column="60" />
+        <mark key="]" line="12" column="64" />
+        <mark key="^" line="12" column="64" />
+        <mark key="." line="12" column="64" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/create.sql" timestamp="1509915704335">
         <mark key="[" line="3" column="94" />
@@ -265,14 +271,14 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514594182609">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514635939472">
         <mark key="t" line="56" column="0" />
-        <mark key="'" line="265" column="8" />
-        <mark key="[" line="269" column="0" />
-        <mark key="m" line="256" column="32" />
-        <mark key="]" line="269" column="0" />
-        <mark key="^" line="256" column="86" />
-        <mark key="." line="269" column="0" />
+        <mark key="'" line="257" column="67" />
+        <mark key="[" line="55" column="51" />
+        <mark key="m" line="253" column="32" />
+        <mark key="]" line="55" column="69" />
+        <mark key="^" line="55" column="69" />
+        <mark key="." line="55" column="69" />
         <mark key="o" line="60" column="3" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/drop.sql" timestamp="1509915751839">
@@ -280,6 +286,12 @@
         <mark key="]" line="4" column="11" />
         <mark key="." line="4" column="11" />
         <mark key="^" line="4" column="11" />
+      </file>
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResourceAssembler.java" timestamp="1514635462463">
+        <mark key="[" line="17" column="43" />
+        <mark key="]" line="17" column="46" />
+        <mark key="." line="17" column="46" />
+        <mark key="^" line="17" column="46" />
       </file>
       <file name="$USER_HOME$/java/HelloWorld/test/com/example/helloworld/HelloWorldTest.java" timestamp="1508754434305">
         <mark key="'" line="10" column="4" />
@@ -310,25 +322,15 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="100" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="105" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="55" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
-      <jump line="54" column="1" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
-      <jump line="56" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
-      <jump line="36" column="27" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AlbumController.java" />
-      <jump line="47" column="27" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/GenreController.java" />
-      <jump line="28" column="71" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" />
       <jump line="94" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="82" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="47" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" />
       <jump line="30" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" />
-      <jump line="174" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="224" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="238" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="243" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="261" column="91" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="223" column="36" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="259" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="262" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="220" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="221" column="66" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -342,8 +344,6 @@
       <jump line="240" column="30" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="248" column="30" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="250" column="30" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="247" column="30" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="249" column="60" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="413" column="89" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/RepositoryPropertyReferenceController.java" />
       <jump line="231" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="102" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -357,7 +357,6 @@
       <jump line="225" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="319" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="71" column="14" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="257" column="60" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="106" column="42" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="260" column="32" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="117" column="15" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -368,7 +367,6 @@
       <jump line="273" column="20" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="274" column="37" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="264" column="30" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="271" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="83" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="104" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="68" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
@@ -389,9 +387,7 @@
       <jump line="281" column="47" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="265" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="266" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="267" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="326" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="103" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="124" column="26" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="270" column="141" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="252" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -410,13 +406,29 @@
       <jump line="284" column="40" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="293" column="131" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="294" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="174" column="22" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="87" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="259" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="267" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="247" column="73" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="271" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="297" column="73" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="249" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="103" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
+      <jump line="119" column="6" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
+      <jump line="121" column="37" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
+      <jump line="75" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
+      <jump line="76" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/GenreController.java" />
+      <jump line="257" column="67" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="88" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
+      <jump line="69" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/GenreController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>Album</text>
+        <text>Artist</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -427,43 +439,43 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">KEJhc2VFbnRpdHkpIA==</text>
+        <text encoding="base64">ICAgICAgICBhc3NvY2lhdGVkQ2xhc3NyZXBvc2l0b3J5LmdldENsYXNzKCkuZ2V0SW50ZXJmYWNlcygpWzBdKTs=</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlRW50aXR5PD4oYXNzb2NpYXRlZFJlc291cmNlQXNzZW1ibGVyLnRvUmVzb3VyY2UoYXNzb2NpYXRlZFJlc291cmNlKSwgSHR0cFN0YXR1cy5PSyk7Cg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">ICAgIEBSZXF1ZXN0TWFwcGluZygKICAgICAgICAgICAgbWV0aG9kID0gUmVxdWVzdE1ldGhvZC5HRVQsCiAgICAgICAgICAgIHBhdGggPSAiL3tpZH0vYWxidW1zIiwKICAgICAgICAgICAgY29uc3VtZXMgPSB7ImFwcGxpY2F0aW9uL2pzb24ifSwKICAgICAgICAgICAgcHJvZHVjZXMgPSBNZWRpYVR5cGVzLkhBTF9KU09OX1ZBTFVFKQogICAgcHVibGljIFJlc3BvbnNlRW50aXR5PD8+IGdldEFydGlzdEFsYnVtcygKICAgICAgICAgICAgUGFnZWFibGUgcGFnZVJlcXVlc3QsCiAgICAgICAgICAgIEBQYXRoVmFyaWFibGUgTG9uZyBpZCkgewogICAgICAgIHJldHVybiBnZXRBc3NvY2lhdGVkUmVzb3VyY2VzKAogICAgICAgICAgICAgICAgaWQsCiAgICAgICAgICAgICAgICBhbGJ1bVJlcG9zaXRvcnksCiAgICAgICAgICAgICAgICBhbGJ1bVJlc291cmNlQXNzZW1ibGVyLAogICAgICAgICAgICAgICAgcGFnZWRBbGJ1bUFzc2VtYmxlciwKICAgICAgICAgICAgICAgIHBhZ2VSZXF1ZXN0CiAgICAgICAgKTsKICAgIH0=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>Artist</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>Artist</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>genreResourceAssembler</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>genreRepository</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">Ly8gICAgICAgIH0gZWxzZSB7CgovLyAgICAgICAgICAgIFQgcmVzb3VyY2UgPSByZXBvc2l0b3J5LmZpbmRPbmUoaWQpOwovLyAgICAgICAgICAgIFByb3BlcnR5QWNjZXNzb3IgcmVzb3VyY2VBY2Nlc3NvciA9IFByb3BlcnR5QWNjZXNzb3JGYWN0b3J5LmZvckJlYW5Qcm9wZXJ0eUFjY2VzcyhyZXNvdXJjZSk7Ci8vICAgICAgICAgICAgQmFzZUVudGl0eSBhc3NvY2lhdGVkUmVzb3VyY2UgPSAoQmFzZUVudGl0eSkgcmVzb3VyY2VBY2Nlc3Nvci5nZXRQcm9wZXJ0eVZhbHVlKGFzc29jaWF0aW9uZmllbGQpOwovLyAgICAgICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2VFbnRpdHk8Pihhc3NvY2lhdGVkUmVzb3VyY2VBc3NlbWJsZXIudG9SZXNvdXJjZShhc3NvY2lhdGVkUmVzb3VyY2UpLCBIdHRwU3RhdHVzLk9LKTsKLy8gICAgICAgIH0KLy8gICAgICAgIHJldHVybiBPcHRpb25hbC5vZk51bGxhYmxlKHJlcG9zaXRvcnkuZmluZE9uZShpZCkpCi8vICAgICAgICAgICAgICAgIC5tYXAocmVzb3VyY2UgLT4gewovLyAgICAgICAgICAgICAgICAgICAgaWYgKGlkID09IG51bGwpIHsKLy8gICAgICAgICAgICAgICAgICAgICAgICBQYWdlZFJlc291cmNlczxSZXNvdXJjZVN1cHBvcnQ+IHBhZ2VkUmVzb3VyY2VzID0KLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFzc29jaWF0ZWRSZXNvdXJjZVBhZ2VkQXNzZW1ibGVyCi8vICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC50b1Jlc291cmNlKHJlbGF0aW9uc2hpcE93bmVyQ2xhc3NyZXBvc2l0b3J5LmZpbmRBbGwocGFnZVJlcXVlc3QpLCBhc3NvY2lhdGVkUmVzb3VyY2VBc3NlbWJsZXIpOwovLyAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2VFbnRpdHkocGFnZWRSZXNvdXJjZXMsIEh0dHBTdGF0dXMuT0spOwovLyAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKCi8vICAgICAgICAgICAgICAgICAgICAgICAgUHJvcGVydHlBY2Nlc3NvciByZXNvdXJjZUFjY2Vzc29yID0gUHJvcGVydHlBY2Nlc3NvckZhY3RvcnkuZm9yQmVhblByb3BlcnR5QWNjZXNzKHJlc291cmNlKTsKLy8gICAgICAgICAgICAgICAgICAgICAgICBPYmplY3QgYXNzb2NpYXRlZFJlc291cmNlID0gcmVzb3VyY2VBY2Nlc3Nvci5nZXRQcm9wZXJ0eVZhbHVlKHN1YnJlc291cmNlQ2xhc3NOYW1lLnRvTG93ZXJDYXNlKCkpOwovLyAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2VFbnRpdHk8Pihhc3NvY2lhdGVkUmVzb3VyY2VBc3NlbWJsZXIudG9SZXNvdXJjZShhc3NvY2lhdGVkUmVzb3VyY2UpLCBIdHRwU3RhdHVzLk9LKTsKLy8gICAgICAgICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICAgICAgfSkKLy8gICAgICAgICAgICAgICAgLm1hcChvIC0gbyA+IG5ldyBSZXNwb25zZUVudGl0eTw+KGFzc29jaWF0ZWRSZXNvdXJjZUFzc2VtYmxlci50b1Jlc291cmNlKG8pLCBIdHRwU3RhdHVzLk9LKSkKLy8gICAgICAgICAgICAgICAgLm9yRWxzZShuZXcgUmVzcG9uc2VFbnRpdHk8PihIdHRwU3RhdHVzLk5PVF9GT1VORCkpOwp9</text>
+        <text>pagedAlbumAssembler</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>albumResourceAssembler</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>albumRepository</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>Albums</text>
       </register>
       <register name="x" type="4">
-        <text>Album</text>
+        <text>Artist</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>albums</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
@@ -495,34 +507,29 @@
         <entry encoding="base64">XDxpbnRcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>action $SelectAll</entry>
-        <entry>action GotoClass</entry>
-        <entry>220</entry>
-        <entry>.action VimFilePrevious</entry>
-        <entry>action EditorAddOrRemoveCaret</entry>
-        <entry>action AceLineAction</entry>
-        <entry>action AceTargetAction</entry>
-        <entry>action CloseContent</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action HideAllWindows</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gVmltRmlsZVByZXZpb3Vz</entry>
-        <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action Find</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>actionlist TabShi</entry>
         <entry>actionTabShiftActions.StretchRight</entry>
         <entry>source ~/.ideavimrc</entry>
-        <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
         <entry>action TabShiftActions.MoveFocusRight</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action SelectIn</entry>
-        <entry>action AceAction</entry>
-        <entry>action TabShiftActions.StretchRight</entry>
-        <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action TabShiftActions.StretchDown</entry>
+        <entry>action AceAction</entry>
+        <entry>240</entry>
+        <entry>133</entry>
         <entry>action ReformatCode</entry>
+        <entry>63</entry>
+        <entry>action Find</entry>
+        <entry>action CloseContent</entry>
+        <entry>action TabShiftActions.StretchRight</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
