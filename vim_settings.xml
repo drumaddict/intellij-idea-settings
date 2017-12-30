@@ -135,12 +135,12 @@
         <mark key="^" line="15" column="15" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514642298104">
-        <mark key="'" line="132" column="65" />
-        <mark key="[" line="132" column="54" />
-        <mark key="]" line="132" column="63" />
-        <mark key="^" line="132" column="63" />
-        <mark key="." line="132" column="63" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514676389315">
+        <mark key="'" line="133" column="65" />
+        <mark key="[" line="130" column="29" />
+        <mark key="]" line="130" column="26" />
+        <mark key="^" line="130" column="26" />
+        <mark key="." line="130" column="26" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/ArtistRepository.java" timestamp="1514074349557">
         <mark key="'" line="19" column="1" />
@@ -271,14 +271,14 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514673055068">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514676564392">
         <mark key="t" line="58" column="0" />
-        <mark key="'" line="260" column="35" />
-        <mark key="[" line="267" column="64" />
-        <mark key="m" line="266" column="25" />
-        <mark key="]" line="267" column="64" />
-        <mark key="^" line="267" column="64" />
-        <mark key="." line="267" column="64" />
+        <mark key="'" line="261" column="35" />
+        <mark key="[" line="253" column="30" />
+        <mark key="m" line="267" column="25" />
+        <mark key="]" line="253" column="30" />
+        <mark key="^" line="253" column="30" />
+        <mark key="." line="253" column="30" />
         <mark key="o" line="62" column="3" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/drop.sql" timestamp="1509915751839">
@@ -428,7 +428,7 @@
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>Album</text>
+        <text>Genre</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -447,35 +447,35 @@
       <register name="0" type="4">
         <text encoding="base64">U2ltcGxlSWRlbnRpZmlhYmxlUmVzb3VyY2VBc3NlbWJsZXI8</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>Genre</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAgICAgQ2xhc3M8PyBleHRlbmRzIEJhc2VFbnRpdHk+IGFzc29zaWF0ZWRDbGFzcywK</text>
       </register>
-      <register name="2" type="4">
-        <text>Album</text>
-      </register>
       <register name="3" type="4">
-        <text>BaseEntity</text>
+        <text>Album</text>
       </register>
       <register name="4" type="4">
         <text>BaseEntity</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="4">
+      <register name="5" type="4">
         <text>BaseEntity</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="7" type="4">
-        <text>Artist</text>
+        <text>BaseEntity</text>
       </register>
       <register name="8" type="4">
         <text>Artist</text>
       </register>
       <register name="x" type="4">
-        <text>Album</text>
+        <text>Genre</text>
       </register>
       <register name="9" type="4">
-        <text>genreResourceAssembler</text>
+        <text>Artist</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
@@ -526,10 +526,11 @@
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action PreviousOccurence</entry>
         <entry>action CloseContent</entry>
         <entry>action PreviousTab</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
+        <entry>action VimFilePrevious</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
