@@ -480,7 +480,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action TabShiftActions.StretchRight</text>
       </register>
     </registers>
     <search>
@@ -521,14 +521,14 @@
         <entry>action CloseContent</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action GotoFile</entry>
-        <entry>action TabShiftActions.StretchLeft</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
-        <entry>action TabShiftActions.StretchRight</entry>
         <entry>action SaveAll</entry>
         <entry>action HideAllWindows</entry>
         <entry>action Find</entry>
+        <entry>action TabShiftActions.StretchLeft</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action TabShiftActions.StretchRight</entry>
       </history-cmd>
       <history-expr />
       <history-input />
