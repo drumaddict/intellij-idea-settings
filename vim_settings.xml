@@ -86,12 +86,12 @@
         <mark key="[" line="154" column="0" />
         <mark key="]" line="167" column="2" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/GenreController.java" timestamp="1514748587606">
-        <mark key="'" line="50" column="8" />
-        <mark key="[" line="62" column="0" />
-        <mark key="]" line="62" column="0" />
-        <mark key="." line="62" column="0" />
-        <mark key="^" line="50" column="33" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/GenreController.java" timestamp="1514751612994">
+        <mark key="'" line="46" column="8" />
+        <mark key="[" line="30" column="0" />
+        <mark key="]" line="30" column="0" />
+        <mark key="^" line="46" column="33" />
+        <mark key="." line="30" column="0" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/db/migrations/create_artists.sql" timestamp="1512338172011">
         <mark key="[" line="2" column="18" />
@@ -135,12 +135,12 @@
         <mark key="^" line="15" column="15" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514747721167">
-        <mark key="'" line="70" column="0" />
-        <mark key="[" line="70" column="0" />
-        <mark key="]" line="71" column="85" />
-        <mark key="^" line="96" column="37" />
-        <mark key="." line="96" column="37" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1514751634393">
+        <mark key="'" line="68" column="0" />
+        <mark key="[" line="49" column="0" />
+        <mark key="]" line="49" column="0" />
+        <mark key="^" line="94" column="37" />
+        <mark key="." line="49" column="0" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/ArtistRepository.java" timestamp="1514747083447">
         <mark key="[" line="17" column="5" />
@@ -265,14 +265,12 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514746511269">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514751555932">
         <mark key="t" line="59" column="0" />
-        <mark key="k" line="217" column="54" />
-        <mark key="[" line="219" column="51" />
-        <mark key="m" line="217" column="54" />
-        <mark key="]" line="219" column="51" />
-        <mark key="^" line="219" column="51" />
-        <mark key="." line="219" column="51" />
+        <mark key="[" line="211" column="0" />
+        <mark key="]" line="211" column="0" />
+        <mark key="^" line="212" column="51" />
+        <mark key="." line="211" column="0" />
         <mark key="o" line="63" column="3" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/drop.sql" timestamp="1509915751839">
@@ -445,40 +443,40 @@
         <text encoding="base64">ICAgICAgICB0aGlzLmFydGlzdFJlcG9zaXRvcnkgPSBhcnRpc3RSZXBvc2l0b3J5Owo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vICAgIHByaXZhdGUgU2ltcGxlSWRlbnRpZmlhYmxlUmVzb3VyY2VBc3NlbWJsZXI8QmFzZUVudGl0eT4gYWxidW1SZXNvdXJjZUFzc2VtYmxlcjsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICAgICBQYWdlZFJlc291cmNlc0Fzc2VtYmxlcjxBcnRpc3Q+IHBhZ2VkQXJ0aXN0QXNzZW1ibGVyLAo=</text>
+        <text encoding="base64">ICAgIC8vICAgIHByaXZhdGUgUGFnZWRSZXNvdXJjZXNBc3NlbWJsZXI8QmFzZUVudGl0eT4gcGFnZWRBbGJ1bUFzc2VtYmxlcjsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgR2VucmVSZXNvdXJjZUFzc2VtYmxlciBnZW5yZVJlc291cmNlQXNzZW1ibGVyOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="4">
-        <text>artistRepository</text>
+        <text encoding="base64">Ly8gICAgQFF1YWxpZmllcigiYXJ0aXN0UmVwb3NpdG9yeSIpCi8vICAgIHByaXZhdGUgR2VucmVSZXBvc2l0b3J5IGdlbnJlUmVwb3NpdG9yeTsKLy8gICAgcHJpdmF0ZSBQYWdlZFJlc291cmNlc0Fzc2VtYmxlcjxCYXNlRW50aXR5PiBwYWdlZEFydGlzdEFzc2VtYmxlcjs=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnBhZ2VkQXJ0aXN0QXNzZW1ibGVyID0gcGFnZWRBcnRpc3RBc3NlbWJsZXI7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlkLAo=</text>
       </register>
-      <register name="7" type="4">
-        <text>Album</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBUIHJlc291cmNlID0gcmVwb3NpdG9yeS5maW5kT25lKHJlc291cmNlSWQpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnBhZ2VkQXJ0aXN0QXNzZW1ibGVyID0gcGFnZWRBcnRpc3RBc3NlbWJsZXI7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgTG9uZyByZXNvdXJjZUlkLAo=</text>
       </register>
       <register name="x" type="4">
         <text>artistRepository</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIEFydGlzdC5jbGFzcywK</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICBDbGFzczxSPiBhc3NvY2lhdGVkUmVzb3VyY2VDbGFzcywK</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -511,24 +509,24 @@
         <entry>133</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action Generate</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action CloseContent</entry>
         <entry>action HideAllWindows</entry>
         <entry>100</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
-        <entry>action TabShiftActions.StretchRight</entry>
         <entry>action GotoFile</entry>
         <entry>action TabShiftActions.StretchDown</entry>
-        <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action TabShiftActions.StretchLeft</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action TabShiftActions.StretchRight</entry>
+        <entry>action NextTab</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
