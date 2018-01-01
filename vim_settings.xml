@@ -278,14 +278,13 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514842895064">
-        <mark key="t" line="55" column="0" />
-        <mark key="'" line="242" column="8" />
-        <mark key="[" line="241" column="0" />
-        <mark key="]" line="241" column="0" />
-        <mark key="^" line="242" column="67" />
-        <mark key="." line="241" column="0" />
-        <mark key="o" line="57" column="3" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514844608994">
+        <mark key="t" line="56" column="0" />
+        <mark key="[" line="243" column="9" />
+        <mark key="]" line="243" column="7" />
+        <mark key="^" line="243" column="7" />
+        <mark key="." line="243" column="7" />
+        <mark key="o" line="58" column="3" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/drop.sql" timestamp="1509915751839">
         <mark key="[" line="4" column="11" />
@@ -419,7 +418,6 @@
       <jump line="278" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="246" column="32" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="230" column="60" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="242" column="11" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="267" column="45" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="354" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="247" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -431,13 +429,14 @@
       <jump line="226" column="114" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="227" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="253" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="242" column="49" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>ControllerUtils.toEmptyResponse(HttpStatus.NOT_FOUND)</text>
+        <text>aseEntity</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -448,7 +447,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>e</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
@@ -456,32 +455,32 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIENvbnRyb2xsZXJVdGlscy50b0VtcHR5UmVzcG9uc2UoSHR0cFN0YXR1cy5OT19DT05URU5UKTsK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">IGJvb2xlYW4gZ2V0QWxidW1zQnlQbGF5bGlzdHNFeGlzdHMoUGxheWxpc3QgcGxheWxpc3QpOwo=</text>
+      <register name="1" type="4">
+        <text>aseEntity</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGJvb2xlYW4gZ2V0UGxheWxpc3RzQnlBbGJ1bXNFeGlzdHMoQWxidW0gYWxidW0pOwo=</text>
+        <text encoding="base64">ICAgICAgICBvc2l0b3J5KS5zYXZlKHJlc291cmNlLmdldENsYXNzKCkuY2FzdChyZXNvdXJjZSkpOwo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>p</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICByZXR1cm4gQ29udHJvbGxlclV0aWxzLnRvRW1wdHlSZXNwb25zZShIdHRwU3RhdHVzLk5PX0NPTlRFTlQpOwo=</text>
+      <register name="4" type="4">
+        <text>(</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IGJvb2xlYW4gZ2V0QWxidW1zQnlQbGF5bGlzdHNFeGlzdHMoUGxheWxpc3QgcGxheWxpc3QpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgcmV0dXJuIENvbnRyb2xsZXJVdGlscy50b0VtcHR5UmVzcG9uc2UoSHR0cFN0YXR1cy5OT19DT05URU5UKTsK</text>
+        <text encoding="base64">ICAgIGJvb2xlYW4gZ2V0UGxheWxpc3RzQnlBbGJ1bXNFeGlzdHMoQWxidW0gYWxidW0pOwo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICByZXR1cm4gQ29udHJvbGxlclV0aWxzLnRvRW1wdHlSZXNwb25zZShIdHRwU3RhdHVzLk5PX0NPTlRFTlQpOwo=</text>
       </register>
       <register name="x" type="4">
-        <text>ControllerUtils.toEmptyResponse(HttpStatus.NOT_FOUND)</text>
+        <text>aseEntity</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -534,11 +533,11 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
-        <entry>action NextTab</entry>
         <entry>action TabShiftActions.StretchRight</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
