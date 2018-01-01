@@ -196,6 +196,9 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-webmvc/2.6.9.RELEASE/5151300f02178ec7d790b69b57f3eb11f3e8b2cb/spring-data-rest-webmvc-2.6.9.RELEASE-sources.jar!/org/springframework/data/rest/webmvc/ControllerUtils.java" timestamp="1514830731001">
+        <mark key="'" line="42" column="50" />
+      </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.13.9.RELEASE/e5a5ea28f182715ff0e9e296bb3db7c6a43070d7/spring-data-commons-1.13.9.RELEASE-sources.jar!/org/springframework/data/web/PagedResourcesAssembler.java" timestamp="1514708336194">
         <mark key="'" line="233" column="14" />
       </file>
@@ -278,13 +281,13 @@
         <mark key="." line="6" column="49" />
         <mark key="^" line="6" column="49" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514793521882">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1514830775572">
         <mark key="t" line="55" column="0" />
-        <mark key="'" line="165" column="4" />
-        <mark key="[" line="140" column="4" />
-        <mark key="]" line="165" column="5" />
-        <mark key="^" line="166" column="3" />
-        <mark key="." line="140" column="4" />
+        <mark key="'" line="238" column="32" />
+        <mark key="[" line="234" column="100" />
+        <mark key="]" line="234" column="100" />
+        <mark key="." line="234" column="100" />
+        <mark key="^" line="234" column="100" />
         <mark key="o" line="57" column="3" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/resources/META-INF/drop.sql" timestamp="1509915751839">
@@ -331,13 +334,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="247" column="73" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="271" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="297" column="73" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="103" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
-      <jump line="119" column="6" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
-      <jump line="76" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/GenreController.java" />
-      <jump line="257" column="67" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="88" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="69" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/GenreController.java" />
       <jump line="267" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -349,7 +345,6 @@
       <jump line="255" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="260" column="35" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="252" column="14" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="238" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="249" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="56" column="0" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.13.9.RELEASE/e5a5ea28f182715ff0e9e296bb3db7c6a43070d7/spring-data-commons-1.13.9.RELEASE-sources.jar!/org/springframework/data/web/PagedResourcesAssembler.java" />
       <jump line="295" column="0" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.13.9.RELEASE/e5a5ea28f182715ff0e9e296bb3db7c6a43070d7/spring-data-commons-1.13.9.RELEASE-sources.jar!/org/springframework/data/web/PagedResourcesAssembler.java" />
@@ -431,13 +426,21 @@
       <jump line="110" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AlbumController.java" />
       <jump line="68" column="33" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" />
       <jump line="13" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/PlaylistRepository.java" />
+      <jump line="244" column="32" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="250" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="251" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="245" column="100" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="247" column="26" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="234" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="238" column="32" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="42" column="50" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-webmvc/2.6.9.RELEASE/5151300f02178ec7d790b69b57f3eb11f3e8b2cb/spring-data-rest-webmvc-2.6.9.RELEASE-sources.jar!/org/springframework/data/rest/webmvc/ControllerUtils.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>Playlist</text>
+        <text>r</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -454,43 +457,44 @@
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIFBhZ2U8UGxheWxpc3Q+IGZpbmRBbGxCeUFsYnVtcyhBbGJ1bSBhbGJ1bSwgUGFnZWFibGUgcGFnZWFibGUpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBDb250cm9sbGVyVXRpbHMudG9FbXB0eVJlc3BvbnNlKEh0dHBTdGF0dXMuTk9UX0ZPVU5EKTsK</text>
       </register>
-      <register name="1" type="4">
-        <text>Playlist</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">PA==</text>
+        <text>resourceAccessor.setPropertyValue(subresourceClassName.toLowerCase(), null);
+                            subresourceAccessor.setPropertyValue(resourceClassName.toLowerCase(), null);</text>
       </register>
       <register name="3" type="4">
-        <text>Page</text>
+        <text>r</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Ly8gICAgICAgIHRoaXMuYXJ0aXN0UmVwb3NpdG9yeSA9IGFydGlzdFJlcG9zaXRvcnk7Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICAgICBBcnRpc3RSZXBvc2l0b3J5IGFydGlzdFJlcG9zaXRvcnksCg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="x" type="4">
+      <register name="6" type="4">
         <text>Playlist</text>
       </register>
+      <register name="7" type="4">
+        <text encoding="base64">PA==</text>
+      </register>
+      <register name="8" type="4">
+        <text>Page</text>
+      </register>
+      <register name="x" type="4">
+        <text>r</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">Ly8gICAgcHJpdmF0ZSBBcnRpc3RSZXBvc2l0b3J5IGFydGlzdFJlcG9zaXRvcnk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action TabShiftActions.StretchLeft</text>
+        <text>action VimFilePrevious</text>
       </register>
     </registers>
     <search>
@@ -525,20 +529,21 @@
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action TabShiftActions.MoveFocusUp</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action PreviousOccurence</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action CloseContent</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action Find</entry>
         <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
+        <entry>action AceAction</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action VimFilePrevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
