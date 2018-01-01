@@ -109,12 +109,12 @@
         <mark key="[" line="230" column="0" />
         <mark key="]" line="230" column="98" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/PlaylistRepository.java" timestamp="1514807135034">
-        <mark key="'" line="12" column="69" />
-        <mark key="[" line="12" column="14" />
-        <mark key="]" line="12" column="16" />
-        <mark key="." line="12" column="16" />
-        <mark key="^" line="12" column="16" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/PlaylistRepository.java" timestamp="1514814800320">
+        <mark key="'" line="13" column="4" />
+        <mark key="[" line="13" column="22" />
+        <mark key="]" line="13" column="32" />
+        <mark key="." line="13" column="32" />
+        <mark key="^" line="13" column="32" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/buffer1" timestamp="1513604187419">
         <mark key="'" line="10" column="0" />
@@ -250,8 +250,8 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" timestamp="1514806775086">
-        <mark key="'" line="44" column="8" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" timestamp="1514813906630">
+        <mark key="'" line="68" column="33" />
         <mark key="[" line="32" column="0" />
         <mark key="]" line="32" column="63" />
         <mark key="." line="35" column="0" />
@@ -331,8 +331,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="174" column="22" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="87" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="247" column="73" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="271" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="297" column="73" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -431,13 +429,15 @@
       <jump line="99" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="111" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AlbumController.java" />
       <jump line="110" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AlbumController.java" />
+      <jump line="68" column="33" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" />
+      <jump line="13" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/PlaylistRepository.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>albumId</text>
+        <text>Playlist</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -448,31 +448,31 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>m</text>
+        <text>findAllByAlbums(Album album, Pageable pageable);</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">ICAgIEBSZXF1ZXN0TWFwcGluZygKICAgICAgICAgICAgbWV0aG9kID0ge1JlcXVlc3RNZXRob2QuUEFUQ0gsIFJlcXVlc3RNZXRob2QuUFVULCBSZXF1ZXN0TWV0aG9kLlBPU1R9LAogICAgICAgICAgICBwYXRoID0gIi97aWR9L2FsYnVtcyIsCiAgICAgICAgICAgIGNvbnN1bWVzID0geyJhcHBsaWNhdGlvbi9qc29uIiwgInRleHQvdXJpLWxpc3QifSwKICAgICAgICAgICAgcHJvZHVjZXMgPSBNZWRpYVR5cGVzLkhBTF9KU09OX1ZBTFVFKQogICAgcHVibGljIFJlc3BvbnNlRW50aXR5PD8gZXh0ZW5kcyBSZXNvdXJjZVN1cHBvcnQ+IGFkZEFydGlzdEFsYnVtcygKICAgICAgICAgICAgQFBhdGhWYXJpYWJsZSBsb25nIGlkLAogICAgICAgICAgICBAUmVxdWVzdEJvZHkocmVxdWlyZWQgPSBmYWxzZSkgUmVzb3VyY2VzPD8gZXh0ZW5kcyBCYXNlRW50aXR5PiBhbGJ1bUxpbmtzKSB7CiAgICAgICAgcmV0dXJuIGFzc29jaWF0ZVJlc291cmNlcyhBc3NvY2lhdGlvbi5PTkVfVE9fTUFOWSwgYWxidW1SZXBvc2l0b3J5LCBpZCwgYWxidW1MaW5rcyk7CiAgICB9CgoKICAgIEBSZXF1ZXN0TWFwcGluZygKICAgICAgICAgICAgbWV0aG9kID0gUmVxdWVzdE1ldGhvZC5ERUxFVEUsCiAgICAgICAgICAgIHBhdGggPSAiL3tpZH0vYWxidW1zL3thbGJ1bUlkfSIsCiAgICAgICAgICAgIGNvbnN1bWVzID0geyJhcHBsaWNhdGlvbi9qc29uIn0sCiAgICAgICAgICAgIHByb2R1Y2VzID0gTWVkaWFUeXBlcy5IQUxfSlNPTl9WQUxVRSkKICAgIHB1YmxpYyBSZXNwb25zZUVudGl0eSBkZWxldGVBbGJ1bSgKICAgICAgICAgICAgQFBhdGhWYXJpYWJsZSBMb25nIGlkLCBAUGF0aFZhcmlhYmxlIExvbmcgYWxidW1JZCkgewogICAgICAgIHJldHVybiBkZWxldGVBc3NvY2lhdGlvbihBc3NvY2lhdGlvbi5PTkVfVE9fTUFOWSwgYWxidW1SZXBvc2l0b3J5LCBpZCwgYWxidW1JZCk7CiAgICB9</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIFBhZ2U8UGxheWxpc3Q+IGZpbmRBbGxCeUFsYnVtcyhBbGJ1bSBhbGJ1bSwgUGFnZWFibGUgcGFnZWFibGUpOwo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>Playlist</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Ly8gICAgICAgIHRoaXMuYXJ0aXN0UmVwb3NpdG9yeSA9IGFydGlzdFJlcG9zaXRvcnk7Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">PA==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICAgICBBcnRpc3RSZXBvc2l0b3J5IGFydGlzdFJlcG9zaXRvcnksCg==</text>
+      <register name="3" type="4">
+        <text>Page</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgIHRoaXMuYXJ0aXN0UmVwb3NpdG9yeSA9IGFydGlzdFJlcG9zaXRvcnk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgcHJpdmF0ZSBBcnRpc3RSZXBvc2l0b3J5IGFydGlzdFJlcG9zaXRvcnk7Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICAgICBBcnRpc3RSZXBvc2l0b3J5IGFydGlzdFJlcG9zaXRvcnksCg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
@@ -481,16 +481,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>albumId</text>
+        <text>Playlist</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgcHJpdmF0ZSBBcnRpc3RSZXBvc2l0b3J5IGFydGlzdFJlcG9zaXRvcnk7Cg==</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -519,26 +519,26 @@
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>action Generate</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action CloseContent</entry>
         <entry>100</entry>
-        <entry>action EditorAddOrRemoveCaret</entry>
         <entry>action TabShiftActions.StretchDown</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action HideAllWindows</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action TabShiftActions.MoveFocusUp</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action CloseContent</entry>
+        <entry>action EditorAddOrRemoveCaret</entry>
+        <entry>action NextTab</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action Find</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
