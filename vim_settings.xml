@@ -248,11 +248,11 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" timestamp="1514801398080">
-        <mark key="'" line="45" column="8" />
-        <mark key="[" line="59" column="99" />
-        <mark key="]" line="59" column="93" />
-        <mark key="." line="59" column="93" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" timestamp="1514802202959">
+        <mark key="'" line="59" column="66" />
+        <mark key="[" line="59" column="41" />
+        <mark key="]" line="59" column="67" />
+        <mark key="." line="59" column="41" />
         <mark key="^" line="59" column="93" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/CoreController.java" timestamp="1513948405216">
@@ -319,16 +319,15 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/0.23.0.RELEASE/8e23ea528cb6b42fa8b04874955385bc93321edc/spring-hateoas-0.23.0.RELEASE-sources.jar!/org/springframework/hateoas/PagedResources.java" timestamp="1514707966376">
         <mark key="'" line="15" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1514799058620">
+      <file name="/fragment.java" timestamp="1514802164402">
         <mark key="'" line="0" column="37" />
-        <mark key="[" line="0" column="50" />
-        <mark key="]" line="0" column="46" />
-        <mark key="^" line="0" column="46" />
-        <mark key="." line="0" column="46" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="69" />
+        <mark key="^" line="0" column="69" />
+        <mark key="." line="0" column="69" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="142" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
       <jump line="263" column="44" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="277" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="268" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -428,6 +427,7 @@
       <jump line="46" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" />
       <jump line="9" column="40" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/PlaylistRepository.java" />
       <jump line="18" column="1" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/AlbumRepository.java" />
+      <jump line="59" column="66" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -523,7 +523,6 @@
         <entry>action TabShiftActions.StretchDown</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action Find</entry>
-        <entry>action ReformatCode</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action HideAllWindows</entry>
         <entry>action GotoDeclaration</entry>
@@ -531,8 +530,9 @@
         <entry>action GotoFile</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action PreviousTab</entry>
-        <entry>action ToggleLineBreakpoint</entry>
         <entry>action QuickJavaDoc</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action ToggleLineBreakpoint</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
