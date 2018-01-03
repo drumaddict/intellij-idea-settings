@@ -60,11 +60,12 @@
         <mark key="." line="5" column="50" />
         <mark key="^" line="5" column="50" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" timestamp="1514969041770">
-        <mark key="[" line="47" column="31" />
-        <mark key="]" line="47" column="34" />
-        <mark key="." line="47" column="34" />
-        <mark key="^" line="47" column="34" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" timestamp="1514971210694">
+        <mark key="'" line="114" column="8" />
+        <mark key="[" line="114" column="71" />
+        <mark key="]" line="114" column="56" />
+        <mark key="." line="114" column="56" />
+        <mark key="^" line="114" column="56" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/webapp/booking/showtimes.xhtml" timestamp="1510144597418">
         <mark key="[" line="14" column="1" />
@@ -346,7 +347,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="40" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/PlaylistRepository.java" />
       <jump line="18" column="1" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/repositories/AlbumRepository.java" />
       <jump line="59" column="66" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" />
       <jump line="38" column="64" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" />
@@ -446,6 +446,7 @@
       <jump line="71" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/EmployeeResourceAssembler.java" />
       <jump line="0" column="1" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/EmployeeResourceAssembler.java" />
       <jump line="2" column="5" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/EmployeeResourceAssembler.java" />
+      <jump line="114" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -468,8 +469,8 @@
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">Pg==</text>
+      <register name="0" type="2">
+        <text encoding="base64">CQlDb250cm9sbGVyTGlua0J1aWxkZXIgbGlua0J1aWxkZXIgPSBsaW5rVG8odGhpcy5jb250cm9sbGVyQ2xhc3MpOwo=</text>
       </register>
       <register name="1" type="4">
         <text>protected</text>
@@ -505,7 +506,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action PreviousTab</text>
+        <text>action VimFilePrevious</text>
       </register>
     </registers>
     <search>
@@ -537,8 +538,6 @@
         <entry>action HideActiveWindow</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action Generate</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action GotoFile</entry>
         <entry>action SelectIn</entry>
         <entry>action HideAllWindows</entry>
         <entry>action $SelectAll</entry>
@@ -549,11 +548,13 @@
         <entry>actionlist ShowContext</entry>
         <entry>action Find</entry>
         <entry>action CloseAllEditorsButActive</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action AceAction</entry>
-        <entry>action NextTab</entry>
-        <entry>action SaveAll</entry>
         <entry>action PreviousTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action SaveAll</entry>
+        <entry>action NextTab</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action VimFilePrevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
