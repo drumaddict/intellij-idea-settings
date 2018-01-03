@@ -99,6 +99,12 @@
         <mark key="." line="1" column="0" />
         <mark key="^" line="1" column="0" />
       </file>
+      <file name="$USER_HOME$/java/springify-api/src/hateoas/SimpleIdentifiableResourceAssembler.java" timestamp="1514968174726">
+        <mark key="[" line="15" column="39" />
+        <mark key="]" line="15" column="34" />
+        <mark key="^" line="15" column="34" />
+        <mark key="." line="15" column="34" />
+      </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/GenreController.java" timestamp="1514885793244">
         <mark key="'" line="84" column="4" />
         <mark key="[" line="63" column="0" />
@@ -237,7 +243,10 @@
         <mark key="." line="26" column="5" />
         <mark key="^" line="20" column="7" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/org/springframework/hateoas/SimpleResourceAssembler.java" timestamp="1514966445011" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/org/springframework/hateoas/SimpleResourceAssembler.java" timestamp="1514967820608">
+        <mark key="[" line="32" column="119" />
+        <mark key="]" line="32" column="119" />
+      </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AlbumController.java" timestamp="1514885692719">
         <mark key="'" line="83" column="0" />
         <mark key="[" line="83" column="0" />
@@ -257,10 +266,6 @@
         <mark key="]" line="68" column="7" />
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/PlaylistController.java" timestamp="1514885078947">
-        <mark key="'" line="4" column="67" />
-        <mark key="o" line="52" column="33" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/CoreController.java" timestamp="1513948405216">
         <mark key="[" line="29" column="4" />
@@ -467,7 +472,7 @@
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgICAgICBjcmVhdGVkX2RhdGUgPSBtb2RlbC5nZXRGb3JtYXR0ZWRDcmVhdGVkRGF0ZSgpOwogICAgICAgIHVwZGF0ZWRfZGF0ZSA9IG1vZGVsLmdldEZvcm1hdHRlZFVwZGF0ZWREYXRlKCk7</text>
+        <text encoding="base64">Pg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CSAqIFRoZSBTcHJpbmcgTVZDIGNsYXNzIGZvciB0aGUge0BsaW5rIElkZW50aWZpYWJsZX0gZnJvbSB3aGljaCBsaW5rcyB3aWxsIGJlIGJ1aWx0LgoJICovCg==</text>
@@ -503,7 +508,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action CloseAllEditorsButActive</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -542,16 +547,16 @@
         <entry>action $SelectAll</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gVmltRmlsZVByZXZpb3Vz</entry>
-        <entry>action NextTab</entry>
         <entry>action AceAction</entry>
         <entry>action ReformatCode</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action VimFilePrevious</entry>
         <entry>actionlist ShowContext</entry>
-        <entry>action PreviousTab</entry>
         <entry>action Find</entry>
-        <entry>action SaveAll</entry>
         <entry>action CloseAllEditorsButActive</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
