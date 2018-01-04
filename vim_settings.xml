@@ -16,10 +16,6 @@
         <mark key="^" line="4" column="28" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/0.23.0.RELEASE/8e23ea528cb6b42fa8b04874955385bc93321edc/spring-hateoas-0.23.0.RELEASE-sources.jar!/org/springframework/hateoas/mvc/ControllerLinkBuilder.java" timestamp="1514988352584">
-        <mark key="[" line="181" column="0" />
-        <mark key="]" line="181" column="101" />
-      </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/GenreResourceAssembler.java" timestamp="1515050117945">
         <mark key="'" line="32" column="89" />
         <mark key="[" line="33" column="0" />
@@ -77,6 +73,13 @@
         <mark key="^" line="104" column="5" />
         <mark key="o" line="60" column="4" />
       </file>
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ArtistNotFoundException.java" timestamp="1515067087298">
+        <mark key="'" line="3" column="0" />
+        <mark key="[" line="6" column="58" />
+        <mark key="]" line="6" column="35" />
+        <mark key="^" line="6" column="35" />
+        <mark key="." line="6" column="35" />
+      </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/GenreController.java" timestamp="1515024310080">
         <mark key="'" line="83" column="4" />
         <mark key="[" line="54" column="39" />
@@ -129,15 +132,6 @@
         <mark key="]" line="16" column="67" />
         <mark key="^" line="15" column="15" />
         <mark key="." line="16" column="0" />
-      </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/ArtistController.java" timestamp="1515018600873">
-        <mark key="'" line="61" column="4" />
-        <mark key="j" line="81" column="57" />
-        <mark key="[" line="99" column="0" />
-        <mark key="]" line="99" column="0" />
-        <mark key="." line="99" column="0" />
-        <mark key="^" line="98" column="31" />
-        <mark key="o" line="74" column="0" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/db/changeLog.yml" timestamp="1512343531173">
         <mark key="'" line="6" column="34" />
@@ -195,10 +189,6 @@
         <mark key="^" line="31" column="22" />
         <mark key="." line="62" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/models/Album.java" timestamp="1515021411867">
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="13" />
-      </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/webapp/points/points.xhtml" timestamp="1510092111677">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -234,11 +224,11 @@
         <mark key="." line="64" column="85" />
         <mark key="^" line="64" column="85" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1515017395812">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1515066777257">
         <mark key="t" line="55" column="0" />
         <mark key="'" line="146" column="12" />
-        <mark key="[" line="86" column="54" />
-        <mark key="]" line="86" column="40" />
+        <mark key="[" line="42" column="0" />
+        <mark key="]" line="42" column="70" />
         <mark key="^" line="86" column="40" />
         <mark key="." line="86" column="40" />
         <mark key="o" line="57" column="3" />
@@ -249,6 +239,13 @@
         <mark key="]" line="37" column="88" />
         <mark key="^" line="65" column="85" />
         <mark key="." line="65" column="85" />
+      </file>
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/EntityNotFoundException.java" timestamp="1515067304655">
+        <mark key="'" line="32" column="4" />
+        <mark key="[" line="10" column="26" />
+        <mark key="]" line="11" column="0" />
+        <mark key="^" line="11" column="0" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/java/HelloWorld/test/com/example/helloworld/HelloWorldTest.java" timestamp="1508754434305">
         <mark key="'" line="10" column="4" />
@@ -294,8 +291,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="102" column="92" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="33" column="4" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/0.23.0.RELEASE/8e23ea528cb6b42fa8b04874955385bc93321edc/spring-hateoas-0.23.0.RELEASE-sources.jar!/org/springframework/hateoas/ResourceSupport.java" />
       <jump line="112" column="42" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="97" column="52" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="237" column="35" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -394,6 +389,8 @@
       <jump line="116" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
       <jump line="53" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="22" column="18" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ExceptionHandlers.java" />
+      <jump line="4" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ArtistNotFoundException.java" />
+      <jump line="31" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/EntityNotFoundException.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -416,38 +413,29 @@
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="4">
-        <text>registerMapping(
-                MissingServletRequestParameterException.class,
-                new ErrorResponse(
-                        MethodArgumentTypeMismatchException.class.getSimpleName(),
-                        BAD_REQUEST.value(),
-                        &quot;ARGUMENT_TYPE_MISMATCH&quot;,
-                        &quot;Argument type mismatch&quot;,
-                        &quot;&quot;,
-                        Calendar.getInstance().getTime()
-                ));</text>
+      <register name="0" type="2">
+        <text encoding="base64">CXByaXZhdGUgU3RyaW5nIGVyck1zZzsK</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">cHVibGljIGFic3RyYWN0IGNsYXNzIEFic3RyYWN0QmFzZVJlc3RDb250cm9sbGVyPFQgZXh0ZW5kcyBCYXNlRW50aXR5Pgo=</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICByZWdpc3Rlck1hcHBpbmcoQXJ0aXN0Tm90Rm91bmRFeGNlcHRpb24uY2xhc3MsICJVU0VSX05PVF9GT1VORCIsICJVc2VyIG5vdCBmb3VuZCIsIEh0dHBTdGF0dXMuTk9UX0ZPVU5EKTsK</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>UserNotFoundException</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>BAD_REQUEST</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>Argument type mismatch</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>ARGUMENT_TYPE_MISMATCH</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>MissingServletRequestParameterException</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
@@ -455,15 +443,14 @@
       <register name="x" type="4">
         <text>UserNotFoundException</text>
       </register>
-      <register name="9" type="4">
-        <text>public class UserNotFoundException {
-}</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action PreviousTab</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -493,7 +480,6 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVwbGFjZQ==</entry>
         <entry encoding="base64">JzwsJz5ub3JtLg==</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action TabShiftActions.StretchDown</entry>
         <entry>action AceAction</entry>
         <entry>action AceTargetAction</entry>
@@ -506,7 +492,6 @@
         <entry>action CloseAllEditors</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
         <entry>action PreviousOccurence</entry>
-        <entry>action GotoFile</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gVmltRmlsZVByZXZpb3Vz</entry>
         <entry>action SplitVertically</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
@@ -514,10 +499,12 @@
         <entry>action CloseContent</entry>
         <entry>action ReformatCode</entry>
         <entry>action Replace</entry>
-        <entry>action NextTab</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action SaveAll</entry>
         <entry>action PreviousTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action NextTab</entry>
+        <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
