@@ -44,6 +44,9 @@
         <mark key="." line="13" column="16" />
         <mark key="^" line="14" column="16" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/e5c70a402738f0ab5153e11b16ec28fb5eb8da2/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/http/HttpServletResponse.java" timestamp="1515082766911">
+        <mark key="'" line="425" column="25" />
+      </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/GenreResourceAssembler.java" timestamp="1515050117945">
         <mark key="'" line="32" column="89" />
         <mark key="[" line="33" column="0" />
@@ -64,12 +67,11 @@
         <mark key="." line="13" column="31" />
         <mark key="^" line="13" column="31" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" timestamp="1515055196263">
-        <mark key="'" line="15" column="32" />
-        <mark key="[" line="48" column="11" />
-        <mark key="]" line="48" column="11" />
-        <mark key="." line="48" column="14" />
-        <mark key="^" line="15" column="15" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" timestamp="1515085158225">
+        <mark key="[" line="73" column="12" />
+        <mark key="]" line="73" column="12" />
+        <mark key="." line="73" column="12" />
+        <mark key="^" line="65" column="11" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/db/migrations/001_migration.yml" timestamp="1512304659032">
         <mark key="'" line="12" column="24" />
@@ -245,12 +247,12 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="26" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515080058203">
-        <mark key="'" line="101" column="8" />
-        <mark key="[" line="100" column="0" />
-        <mark key="]" line="100" column="9" />
-        <mark key="." line="100" column="9" />
-        <mark key="^" line="100" column="9" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515085888331">
+        <mark key="'" line="110" column="67" />
+        <mark key="[" line="84" column="23" />
+        <mark key="]" line="84" column="26" />
+        <mark key="." line="84" column="26" />
+        <mark key="^" line="84" column="26" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResource.java" timestamp="1514936585268">
         <mark key="'" line="22" column="0" />
@@ -303,14 +305,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="28" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResourceAssembler.java" />
-      <jump line="51" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/GenreResourceAssembler.java" />
-      <jump line="17" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/PlaylistResourceAssembler.java" />
-      <jump line="24" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/GenreResourceAssembler.java" />
-      <jump line="48" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/PlaylistResourceAssembler.java" />
-      <jump line="57" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/PlaylistResourceAssembler.java" />
-      <jump line="56" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/PlaylistResourceAssembler.java" />
-      <jump line="41" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/GenreResourceAssembler.java" />
       <jump line="17" column="2" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/models/Playlist.java" />
       <jump line="33" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResourceAssembler.java" />
       <jump line="37" column="114" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/PlaylistResourceAssembler.java" />
@@ -403,13 +397,21 @@
       <jump line="8" column="13" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseException.java" />
       <jump line="99" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="100" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="33" column="7" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/e5c70a402738f0ab5153e11b16ec28fb5eb8da2/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/http/HttpServletResponse.java" />
+      <jump line="425" column="25" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/e5c70a402738f0ab5153e11b16ec28fb5eb8da2/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/http/HttpServletResponse.java" />
+      <jump line="93" column="55" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="84" column="50" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="65" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
+      <jump line="95" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="42" column="11" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
+      <jump line="110" column="67" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>assemble</text>
+        <text>e</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -420,43 +422,43 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>g</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBIdHRwSGVhZGVycyBodHRwSGVhZGVycyA9IG5ldyBIdHRwSGVhZGVycygpOwo=</text>
+        <text encoding="base64">ICAgICAgICBERUZBVUxUX0VSUk9SX1JFU1BPTlNFLnNldFRpbWVzdGFtcChuZXcgRGF0ZSgpKTsK</text>
       </register>
       <register name="1" type="4">
-        <text>assemble</text>
+        <text>e</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgQy5nZXRJbnN0YW5jZSgpLmdldFRpbWUoKQo=</text>
+      <register name="2" type="4">
+        <text>.</text>
       </register>
       <register name="3" type="4">
-        <text>ale</text>
+        <text>Calendar</text>
       </register>
-      <register name="4" type="4">
-        <text>ndar</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIiIsCg==</text>
       </register>
-      <register name="5" type="4">
-        <text>&quot;&quot;,</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIiIsCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>ArtistNotFoundException</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgQ2FsZW5kYXIuZ2V0SW5zdGFuY2UoKS5nZXRUaW1lKCkK</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>DEFAULT_ERROR_RESPONSE</text>
       </register>
       <register name="x" type="4">
-        <text>assemble</text>
+        <text>e</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>setTimestamp</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
@@ -489,30 +491,30 @@
       </history-search>
       <history-cmd>
         <entry>action TabShiftActions.StretchRight</entry>
-        <entry>action $SelectAll</entry>
         <entry>action CloseAllEditorsButActive</entry>
         <entry>action CloseAllEditors</entry>
         <entry>action PreviousOccurence</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gVmltRmlsZVByZXZpb3Vz</entry>
         <entry>action SplitVertically</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action GotoFile</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVmYWN0b3JpbmdzLlF1aWNrTGlzdFBvcHVwQWN0aW9u</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gR2VuZXJhdGU=</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action CloseContent</entry>
-        <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
         <entry>action Replace</entry>
-        <entry>action Find</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
-        <entry>action Generate</entry>
-        <entry>action RearrangeCode</entry>
         <entry>action HideAllWindows</entry>
         <entry>action QuickJavaDoc</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action GotoFile</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gR2VuZXJhdGU=</entry>
+        <entry>action $SelectAll</entry>
+        <entry>action Generate</entry>
+        <entry>action RearrangeCode</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
