@@ -50,6 +50,11 @@
         <mark key="^" line="12" column="42" />
         <mark key="." line="12" column="42" />
       </file>
+      <file name="/usr/lib/jvm/java-8-oracle/src.zip!/java/lang/RuntimeException.java" timestamp="1515067610759">
+        <mark key="'" line="113" column="0" />
+        <mark key="[" line="113" column="0" />
+        <mark key="]" line="117" column="4" />
+      </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractRepositoryRestController.java" timestamp="1514375970530">
         <mark key="'" line="62" column="4" />
         <mark key="[" line="62" column="48" />
@@ -87,6 +92,7 @@
         <mark key="^" line="54" column="39" />
         <mark key="." line="54" column="39" />
       </file>
+      <file name="/usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Throwable.java" timestamp="1515069770273" />
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/models/BaseEntity.java" timestamp="1515052472163">
         <mark key="'" line="40" column="0" />
         <mark key="[" line="40" column="0" />
@@ -240,12 +246,12 @@
         <mark key="^" line="65" column="85" />
         <mark key="." line="65" column="85" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/EntityNotFoundException.java" timestamp="1515067304655">
-        <mark key="'" line="32" column="4" />
-        <mark key="[" line="10" column="26" />
-        <mark key="]" line="11" column="0" />
-        <mark key="^" line="11" column="0" />
-        <mark key="." line="11" column="0" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/EntityNotFoundException.java" timestamp="1515067621382">
+        <mark key="'" line="37" column="4" />
+        <mark key="[" line="33" column="4" />
+        <mark key="]" line="37" column="5" />
+        <mark key="^" line="33" column="0" />
+        <mark key="." line="33" column="4" />
       </file>
       <file name="$USER_HOME$/java/HelloWorld/test/com/example/helloworld/HelloWorldTest.java" timestamp="1508754434305">
         <mark key="'" line="10" column="4" />
@@ -291,8 +297,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="112" column="42" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="97" column="52" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="237" column="35" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="103" column="24" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
       <jump line="105" column="24" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
@@ -391,6 +395,8 @@
       <jump line="22" column="18" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ExceptionHandlers.java" />
       <jump line="4" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ArtistNotFoundException.java" />
       <jump line="31" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/EntityNotFoundException.java" />
+      <jump line="113" column="0" filename="/usr/lib/jvm/java-8-oracle/src.zip!/java/lang/RuntimeException.java" />
+      <jump line="37" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/EntityNotFoundException.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -413,8 +419,8 @@
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CXByaXZhdGUgU3RyaW5nIGVyck1zZzsK</text>
+      <register name="0" type="4">
+        <text encoding="base64">ICAgIHByb3RlY3RlZCBSdW50aW1lRXhjZXB0aW9uKFN0cmluZyBtZXNzYWdlLCBUaHJvd2FibGUgY2F1c2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib29sZWFuIGVuYWJsZVN1cHByZXNzaW9uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9vbGVhbiB3cml0YWJsZVN0YWNrVHJhY2UpIHsKICAgICAgICBzdXBlcihtZXNzYWdlLCBjYXVzZSwgZW5hYmxlU3VwcHJlc3Npb24sIHdyaXRhYmxlU3RhY2tUcmFjZSk7CiAgICB9</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">cHVibGljIGFic3RyYWN0IGNsYXNzIEFic3RyYWN0QmFzZVJlc3RDb250cm9sbGVyPFQgZXh0ZW5kcyBCYXNlRW50aXR5Pgo=</text>
@@ -499,11 +505,11 @@
         <entry>action CloseContent</entry>
         <entry>action ReformatCode</entry>
         <entry>action Replace</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
+        <entry>action VimFilePrevious</entry>
         <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
