@@ -203,11 +203,11 @@
         <mark key="." line="64" column="85" />
         <mark key="^" line="64" column="85" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1515066777257">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1515079803394">
         <mark key="t" line="55" column="0" />
         <mark key="'" line="146" column="12" />
-        <mark key="[" line="42" column="0" />
-        <mark key="]" line="42" column="70" />
+        <mark key="[" line="106" column="0" />
+        <mark key="]" line="106" column="52" />
         <mark key="^" line="86" column="40" />
         <mark key="." line="86" column="40" />
         <mark key="o" line="57" column="3" />
@@ -245,11 +245,12 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="26" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515059438270">
-        <mark key="'" line="53" column="8" />
-        <mark key="[" line="41" column="11" />
-        <mark key="]" line="41" column="11" />
-        <mark key="." line="41" column="11" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515080058203">
+        <mark key="'" line="101" column="8" />
+        <mark key="[" line="100" column="0" />
+        <mark key="]" line="100" column="9" />
+        <mark key="." line="100" column="9" />
+        <mark key="^" line="100" column="9" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResource.java" timestamp="1514936585268">
         <mark key="'" line="22" column="0" />
@@ -302,8 +303,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="27" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/AlbumResourceAssembler.java" />
-      <jump line="54" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResourceAssembler.java" />
       <jump line="28" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResourceAssembler.java" />
       <jump line="51" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/GenreResourceAssembler.java" />
       <jump line="17" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/PlaylistResourceAssembler.java" />
@@ -402,13 +401,15 @@
       <jump line="3" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/EntityNotFoundException.java" />
       <jump line="47" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseException.java" />
       <jump line="8" column="13" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseException.java" />
+      <jump line="99" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="100" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>ale</text>
+        <text>assemble</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -424,26 +425,26 @@
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="4">
-        <text>EntityNotFoundException</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBIdHRwSGVhZGVycyBodHRwSGVhZGVycyA9IG5ldyBIdHRwSGVhZGVycygpOwo=</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>assemble</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgQy5nZXRJbnN0YW5jZSgpLmdldFRpbWUoKQo=</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>ale</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>ndar</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>&quot;&quot;,</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>ArtistNotFoundException</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
@@ -452,29 +453,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>ale</text>
+        <text>assemble</text>
       </register>
-      <register name="9" type="4">
-        <text>//    public String getCustomMessage() {
-//        return customMessage;
-//    }
-//    public void setMessage(String message) {
-//        this.customMessage = message;
-//    }
-
-    public HttpStatus getCode() {
-        return code;
-    }
-
-    public void setCode(HttpStatus code) {
-        this.code = code;
-    }</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action HideAllWindows</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -523,8 +511,9 @@
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>action Generate</entry>
         <entry>action RearrangeCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action HideAllWindows</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
