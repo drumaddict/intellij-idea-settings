@@ -10,6 +10,9 @@
         <mark key="^" line="5" column="42" />
         <mark key="." line="5" column="42" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.13.RELEASE/d225d6480b69dc70a04e332a348b448bf276f7f3/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java" timestamp="1515106256840">
+        <mark key="'" line="31" column="4" />
+      </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/AlbumResource.java" timestamp="1514936472467">
         <mark key="'" line="21" column="0" />
         <mark key="[" line="21" column="0" />
@@ -249,13 +252,13 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="26" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515105562445">
-        <mark key="'" line="75" column="27" />
-        <mark key="[" line="84" column="12" />
-        <mark key="m" line="96" column="0" />
-        <mark key="]" line="85" column="28" />
-        <mark key="." line="84" column="12" />
-        <mark key="^" line="52" column="26" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515106962120">
+        <mark key="'" line="79" column="45" />
+        <mark key="[" line="45" column="0" />
+        <mark key="m" line="97" column="0" />
+        <mark key="]" line="45" column="0" />
+        <mark key="." line="45" column="0" />
+        <mark key="^" line="79" column="46" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResource.java" timestamp="1514936585268">
         <mark key="'" line="22" column="0" />
@@ -308,13 +311,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/AlbumResourceAssembler.java" />
-      <jump line="64" column="85" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/AlbumResourceAssembler.java" />
-      <jump line="36" column="85" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResourceAssembler.java" />
-      <jump line="65" column="85" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResourceAssembler.java" />
-      <jump line="37" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResourceAssembler.java" />
-      <jump line="31" column="80" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/GenreResourceAssembler.java" />
-      <jump line="32" column="80" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/PlaylistResourceAssembler.java" />
       <jump line="58" column="88" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/PlaylistResourceAssembler.java" />
       <jump line="59" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/GenreResourceAssembler.java" />
       <jump line="32" column="89" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/GenreResourceAssembler.java" />
@@ -387,7 +383,6 @@
       <jump line="3" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/EntityNotFoundException.java" />
       <jump line="47" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseException.java" />
       <jump line="8" column="13" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseException.java" />
-      <jump line="99" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="100" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="33" column="7" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/e5c70a402738f0ab5153e11b16ec28fb5eb8da2/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/http/HttpServletResponse.java" />
       <jump line="425" column="25" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/e5c70a402738f0ab5153e11b16ec28fb5eb8da2/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/http/HttpServletResponse.java" />
@@ -408,13 +403,21 @@
       <jump line="52" column="13" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="64" column="27" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="75" column="27" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="31" column="4" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.13.RELEASE/d225d6480b69dc70a04e332a348b448bf276f7f3/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java" />
+      <jump line="63" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="80" column="24" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="78" column="51" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="89" column="53" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="71" column="24" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="60" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="99" column="45" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>protected</text>
+        <text>MissingServletRequestParameterException</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -431,37 +434,37 @@
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgICAgICAgIG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgIG51bGw=</text>
+        <text>ServletRequestBindingException</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgbnVsbA==</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgQ2FsZW5kYXIuZ2V0SW5zdGFuY2UoKS5nZXRUaW1lKCkK</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgIHJlZ2lzdGVyTWFwcGluZygKICAgICAgICAgICAgICAgIE1pc3NpbmdTZXJ2bGV0UmVxdWVzdFBhcmFtZXRlckV4Y2VwdGlvbi5jbGFzcywKICAgICAgICAgICAgICAgICJNSVNTSU5HX1BBUkFNRVRFUiIsCiAgICAgICAgICAgICAgICAiTWlzc2luZyByZXF1ZXN0IHBhcmFtZXRlciIsCiAgICAgICAgICAgICAgICBCQURfUkVRVUVTVCk7CiAgICAgICAgcmVnaXN0ZXJNYXBwaW5nKAogICAgICAgICAgICAgICAgTWV0aG9kQXJndW1lbnRUeXBlTWlzbWF0Y2hFeGNlcHRpb24uY2xhc3MsCiAgICAgICAgICAgICAgICAiQVJHVU1FTlRfVFlQRV9NSVNNQVRDSCIsCiAgICAgICAgICAgICAgICAiQXJndW1lbnQgdHlwZSBtaXNtYXRjaCIsCiAgICAgICAgICAgICAgICBCQURfUkVRVUVTVCk7CiAgICAgICAgcmVnaXN0ZXJNYXBwaW5nKAogICAgICAgICAgICAgICAgSHR0cFJlcXVlc3RNZXRob2ROb3RTdXBwb3J0ZWRFeGNlcHRpb24uY2xhc3MsCiAgICAgICAgICAgICAgICAiTUVUSE9EX05PVF9TVVBQT1JURUQiLAogICAgICAgICAgICAgICAgIkhUVFAgbWV0aG9kIG5vdCBzdXBwb3J0ZWQiLAogICAgICAgICAgICAgICAgTUVUSE9EX05PVF9BTExPV0VEKTsKICAgICAgICByZWdpc3Rlck1hcHBpbmcoCiAgICAgICAgICAgICAgICBTZXJ2bGV0UmVxdWVzdEJpbmRpbmdFeGNlcHRpb24uY2xhc3MsCiAgICAgICAgICAgICAgICAiTUlTU0lOR19IRUFERVIiLAogICAgICAgICAgICAgICAgIk1pc3NpbmcgaGVhZGVyIGluIHJlcXVlc3QiLAogICAgICAgICAgICAgICAgQkFEX1JFUVVFU1QpOw==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IGh0dHBSZXNwb25zZS4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIk1JU1NJTkdfUEFSQU1FVEVSIiwK</text>
       </register>
       <register name="4" type="4">
-        <text>protected</text>
+        <text>MissingServletRequestParameterException</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="4">
-        <text>(),</text>
+        <text encoding="base64">ICAgICAgICAgICAgbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgbnVsbA==</text>
       </register>
-      <register name="7" type="4">
-        <text>getRequestURI</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgQ2FsZW5kYXIuZ2V0SW5zdGFuY2UoKS5nZXRUaW1lKCkK</text>
       </register>
-      <register name="8" type="4">
-        <text>.</text>
+      <register name="8" type="2">
+        <text encoding="base64">IGh0dHBSZXNwb25zZS4K</text>
       </register>
       <register name="x" type="4">
-        <text>protected</text>
+        <text>MissingServletRequestParameterException</text>
       </register>
       <register name="9" type="4">
-        <text>l</text>
+        <text>protected</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
@@ -514,11 +517,11 @@
         <entry>action $SelectAll</entry>
         <entry>action CloseContent</entry>
         <entry>action GotoFile</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action PreviousTab</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action NextTab</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
