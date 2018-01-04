@@ -252,9 +252,9 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="26" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515108415571">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515109632365">
         <mark key="'" line="40" column="0" />
-        <mark key="[" line="24" column="0" />
+        <mark key="[" line="23" column="0" />
         <mark key="m" line="91" column="0" />
         <mark key="]" line="23" column="0" />
         <mark key="." line="23" column="0" />
@@ -437,44 +437,44 @@
         <text encoding="base64">ICAgICAgICByZWdpc3Rlck1hcHBpbmcoCiAgICAgICAgICAgICAgICBNaXNzaW5nU2VydmxldFJlcXVlc3RQYXJhbWV0ZXJFeGNlcHRpb24uY2xhc3MsCiAgICAgICAgICAgICAgICBuZXcgRXJyb3JSZXNwb25zZSgKICAgICAgICAgICAgICAgICAgICAgICAgTWlzc2luZ1NlcnZsZXRSZXF1ZXN0UGFyYW1ldGVyRXhjZXB0aW9uLmNsYXNzLmdldFNpbXBsZU5hbWUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgQkFEX1JFUVVFU1QudmFsdWUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgQkFEX1JFUVVFU1QuZ2V0UmVhc29uUGhyYXNlKCksCiAgICAgICAgICAgICAgICAgICAgICAgICJNaXNzaW5nIHJlcXVlc3QgUGFyYW1ldGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgKSk7</text>
       </register>
       <register name="1" type="4">
-        <text>//import lombok.AllArgsConstructor;
-//import lombok.Data;
-//import org.slf4j.Logger;</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">aWRmc2ZzCg==</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="2" type="4">
         <text>//import lombok.AllArgsConstructor;
 //import lombok.Data;
 //import org.slf4j.Logger;</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">aWRmc2ZzCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="5" type="4">
-        <text>BAD_REQUEST</text>
+        <text>//import lombok.AllArgsConstructor;
+//import lombok.Data;
+//import org.slf4j.Logger;</text>
       </register>
       <register name="6" type="4">
-        <text>MissingServletRequestParameterException</text>
+        <text>BAD_REQUEST</text>
       </register>
       <register name="7" type="4">
         <text>MissingServletRequestParameterException</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>MissingServletRequestParameterException</text>
       </register>
       <register name="x" type="4">
         <text>BAD_REQUEST</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgICAgIHJlZ2lzdGVyTWFwcGluZygKICAgICAgICAgICAgICAgIE1pc3NpbmdTZXJ2bGV0UmVxdWVzdFBhcmFtZXRlckV4Y2VwdGlvbi5jbGFzcywKICAgICAgICAgICAgICAgICJNSVNTSU5HX1BBUkFNRVRFUiIsCiAgICAgICAgICAgICAgICAiTWlzc2luZyByZXF1ZXN0IHBhcmFtZXRlciIsCiAgICAgICAgICAgICAgICBCQURfUkVRVUVTVCk7CiAgICAgICAgcmVnaXN0ZXJNYXBwaW5nKAogICAgICAgICAgICAgICAgTWV0aG9kQXJndW1lbnRUeXBlTWlzbWF0Y2hFeGNlcHRpb24uY2xhc3MsCiAgICAgICAgICAgICAgICAiQVJHVU1FTlRfVFlQRV9NSVNNQVRDSCIsCiAgICAgICAgICAgICAgICAiQXJndW1lbnQgdHlwZSBtaXNtYXRjaCIsCiAgICAgICAgICAgICAgICBCQURfUkVRVUVTVCk7CiAgICAgICAgcmVnaXN0ZXJNYXBwaW5nKAogICAgICAgICAgICAgICAgSHR0cFJlcXVlc3RNZXRob2ROb3RTdXBwb3J0ZWRFeGNlcHRpb24uY2xhc3MsCiAgICAgICAgICAgICAgICAiTUVUSE9EX05PVF9TVVBQT1JURUQiLAogICAgICAgICAgICAgICAgIkhUVFAgbWV0aG9kIG5vdCBzdXBwb3J0ZWQiLAogICAgICAgICAgICAgICAgTUVUSE9EX05PVF9BTExPV0VEKTsKICAgICAgICByZWdpc3Rlck1hcHBpbmcoCiAgICAgICAgICAgICAgICBTZXJ2bGV0UmVxdWVzdEJpbmRpbmdFeGNlcHRpb24uY2xhc3MsCiAgICAgICAgICAgICAgICAiTUlTU0lOR19IRUFERVIiLAogICAgICAgICAgICAgICAgIk1pc3NpbmcgaGVhZGVyIGluIHJlcXVlc3QiLAogICAgICAgICAgICAgICAgQkFEX1JFUVVFU1QpOw==</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action CloseContent</text>
       </register>
     </registers>
     <search>
@@ -523,11 +523,11 @@
         <entry>action Find</entry>
         <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
-        <entry>action NextTab</entry>
-        <entry>action VimFilePrevious</entry>
-        <entry>action CloseContent</entry>
         <entry>keymaps</entry>
         <entry>action SaveAll</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action NextTab</entry>
+        <entry>action CloseContent</entry>
       </history-cmd>
       <history-expr />
       <history-input />
