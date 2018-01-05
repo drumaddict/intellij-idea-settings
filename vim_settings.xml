@@ -258,13 +258,13 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="26" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515192415627">
-        <mark key="'" line="119" column="4" />
-        <mark key="[" line="131" column="67" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515193367763">
+        <mark key="'" line="118" column="4" />
+        <mark key="[" line="122" column="90" />
         <mark key="m" line="81" column="0" />
-        <mark key="]" line="131" column="74" />
-        <mark key="^" line="131" column="74" />
-        <mark key="." line="131" column="74" />
+        <mark key="]" line="122" column="90" />
+        <mark key="^" line="122" column="76" />
+        <mark key="." line="122" column="94" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResource.java" timestamp="1514936585268">
         <mark key="'" line="22" column="0" />
@@ -423,7 +423,7 @@
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>private</text>
+        <text>kv</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -434,7 +434,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>pResponse</text>
+        <text encoding="base64">RXJyb3JSZXNwb25zZSkg</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
@@ -442,41 +442,41 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgZXIuc2V0UGF0aChwYXRoKTsK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>kv</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>kv</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>(</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgeyAiaHRtbCIsICJ0ZXh0L2h0bWwiIH0sCiAgICAgICAgICAgICAgICAgICAgeyAianMiLCAiYXBwbGljYXRpb24vamF2YXNjcmlwdCIgfSwKICAgICAgICAgICAgICAgICAgICB7ICJjc3MiLCAidGV4dC9jc3MiIH0sCiAgICAgICAgICAgICAgICAgICAgeyAieG1sIiwgImFwcGxpY2F0aW9uL3htbCIgfSwKICAgICAgICAgICAgICAgICAgICB7ICJwbmciLCAiaW1hZ2UvcG5nIiB9LAogICAgICAgICAgICAgICAgICAgIHsgImdpZiIsICJpbWFnZS9naWYiIH0sCiAgICAgICAgICAgICAgICAgICAgeyAianBnIiwgImltYWdlL2pwZWciIH0sCiAgICAgICAgICAgICAgICAgICAgeyAianBlZyIsICJpbWFnZS9qcGVnIiB9LAogICAgICAgICAgICAgICAgICAgIHsgInN2ZyIsICJpbWFnZS9zdmcreG1sIiB9LA==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly9pbXBvcnQgbG9tYm9rLmV4dGVybi5zbGY0ai5TbGY0ajsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Ly9AU2xmNGoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>private</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>private</text>
+        <text>kv</text>
       </register>
-      <register name="9" type="4">
-        <text>protected</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action HideAllWindows</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -513,22 +513,23 @@
         <entry>action SelectIn</entry>
         <entry>.action SaveAll</entry>
         <entry>action $SelectAll</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action AceAction</entry>
         <entry>action AceTargetAction</entry>
         <entry>action Find</entry>
         <entry>action TabShiftActions.StretchDown</entry>
-        <entry>action ReformatCode</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action SaveAll</entry>
         <entry>action CloseContent</entry>
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action HideAllWindows</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
