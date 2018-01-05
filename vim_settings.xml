@@ -258,13 +258,13 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="26" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515162322029">
-        <mark key="'" line="90" column="12" />
-        <mark key="[" line="26" column="39" />
-        <mark key="m" line="83" column="0" />
-        <mark key="]" line="26" column="46" />
-        <mark key="^" line="26" column="46" />
-        <mark key="." line="26" column="46" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515192415627">
+        <mark key="'" line="119" column="4" />
+        <mark key="[" line="131" column="67" />
+        <mark key="m" line="81" column="0" />
+        <mark key="]" line="131" column="74" />
+        <mark key="^" line="131" column="74" />
+        <mark key="." line="131" column="74" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResource.java" timestamp="1514936585268">
         <mark key="'" line="22" column="0" />
@@ -317,7 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="32" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
       <jump line="25" column="3" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
       <jump line="54" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
       <jump line="58" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
@@ -417,6 +416,7 @@
       <jump line="123" column="57" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="98" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="96" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="121" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -476,7 +476,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action TabShiftActions.StretchLeft</text>
+        <text>action HideAllWindows</text>
       </register>
     </registers>
     <search>
@@ -521,7 +521,6 @@
         <entry>action TabShiftActions.StretchDown</entry>
         <entry>action ReformatCode</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action HideAllWindows</entry>
         <entry>action SaveAll</entry>
         <entry>action CloseContent</entry>
         <entry>action NextTab</entry>
@@ -529,6 +528,7 @@
         <entry>action PreviousTab</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
+        <entry>action HideAllWindows</entry>
       </history-cmd>
       <history-expr />
       <history-input />
