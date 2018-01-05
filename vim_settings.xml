@@ -252,13 +252,13 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="26" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515109632365">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515110648681">
         <mark key="'" line="40" column="0" />
-        <mark key="[" line="23" column="0" />
+        <mark key="[" line="77" column="53" />
         <mark key="m" line="91" column="0" />
-        <mark key="]" line="23" column="0" />
-        <mark key="." line="23" column="0" />
-        <mark key="^" line="23" column="0" />
+        <mark key="]" line="77" column="53" />
+        <mark key="." line="77" column="53" />
+        <mark key="^" line="77" column="53" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResource.java" timestamp="1514936585268">
         <mark key="'" line="22" column="0" />
@@ -267,12 +267,12 @@
         <mark key="^" line="14" column="16" />
         <mark key="." line="22" column="0" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ExceptionHandlers.java" timestamp="1515107378963">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ExceptionHandlers.java" timestamp="1515110671610">
         <mark key="'" line="24" column="18" />
-        <mark key="[" line="19" column="24" />
-        <mark key="]" line="19" column="29" />
-        <mark key="." line="19" column="29" />
-        <mark key="^" line="19" column="29" />
+        <mark key="[" line="19" column="30" />
+        <mark key="]" line="19" column="32" />
+        <mark key="." line="19" column="32" />
+        <mark key="^" line="19" column="32" />
       </file>
       <file name="$USER_HOME$/java/movieplex7/src/main/java/org/javaee7/movieplex7/client/MovieClientBean.java" timestamp="1510065242528">
         <mark key="'" line="91" column="16" />
@@ -436,30 +436,30 @@
       <register name="0" type="4">
         <text encoding="base64">ICAgICAgICByZWdpc3Rlck1hcHBpbmcoCiAgICAgICAgICAgICAgICBNaXNzaW5nU2VydmxldFJlcXVlc3RQYXJhbWV0ZXJFeGNlcHRpb24uY2xhc3MsCiAgICAgICAgICAgICAgICBuZXcgRXJyb3JSZXNwb25zZSgKICAgICAgICAgICAgICAgICAgICAgICAgTWlzc2luZ1NlcnZsZXRSZXF1ZXN0UGFyYW1ldGVyRXhjZXB0aW9uLmNsYXNzLmdldFNpbXBsZU5hbWUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgQkFEX1JFUVVFU1QudmFsdWUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgQkFEX1JFUVVFU1QuZ2V0UmVhc29uUGhyYXNlKCksCiAgICAgICAgICAgICAgICAgICAgICAgICJNaXNzaW5nIHJlcXVlc3QgUGFyYW1ldGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgKSk7</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIk1JU1NJTkdfSEVBREVSIiwK</text>
       </register>
       <register name="2" type="4">
-        <text>//import lombok.AllArgsConstructor;
-//import lombok.Data;
-//import org.slf4j.Logger;</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">aWRmc2ZzCg==</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="3" type="4">
         <text>//import lombok.AllArgsConstructor;
 //import lombok.Data;
 //import org.slf4j.Logger;</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">aWRmc2ZzCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="6" type="4">
-        <text>BAD_REQUEST</text>
+        <text>//import lombok.AllArgsConstructor;
+//import lombok.Data;
+//import org.slf4j.Logger;</text>
       </register>
       <register name="7" type="4">
-        <text>MissingServletRequestParameterException</text>
+        <text>BAD_REQUEST</text>
       </register>
       <register name="8" type="4">
         <text>MissingServletRequestParameterException</text>
@@ -467,14 +467,14 @@
       <register name="x" type="4">
         <text>BAD_REQUEST</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>MissingServletRequestParameterException</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action CloseContent</text>
+        <text>action VimFilePrevious</text>
       </register>
     </registers>
     <search>
@@ -524,10 +524,10 @@
         <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
         <entry>keymaps</entry>
-        <entry>action SaveAll</entry>
-        <entry>action VimFilePrevious</entry>
-        <entry>action NextTab</entry>
         <entry>action CloseContent</entry>
+        <entry>action SaveAll</entry>
+        <entry>action NextTab</entry>
+        <entry>action VimFilePrevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
