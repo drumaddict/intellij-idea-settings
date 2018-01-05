@@ -40,10 +40,10 @@
         <mark key="^" line="8" column="12" />
         <mark key="." line="8" column="12" />
       </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" timestamp="1515157630531">
-        <mark key="'" line="211" column="0" />
-        <mark key="[" line="211" column="0" />
-        <mark key="]" line="221" column="4" />
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" timestamp="1515194397680">
+        <mark key="'" line="402" column="56" />
+        <mark key="[" line="260" column="60" />
+        <mark key="]" line="260" column="94" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/PlaylistResource.java" timestamp="1514936638252">
         <mark key="'" line="20" column="54" />
@@ -258,13 +258,13 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="26" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515193367763">
-        <mark key="'" line="118" column="4" />
-        <mark key="[" line="122" column="90" />
-        <mark key="m" line="81" column="0" />
-        <mark key="]" line="122" column="90" />
-        <mark key="^" line="122" column="76" />
-        <mark key="." line="122" column="94" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515194950431">
+        <mark key="'" line="102" column="12" />
+        <mark key="[" line="102" column="85" />
+        <mark key="m" line="94" column="0" />
+        <mark key="]" line="102" column="47" />
+        <mark key="^" line="102" column="47" />
+        <mark key="." line="102" column="47" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResource.java" timestamp="1514936585268">
         <mark key="'" line="22" column="0" />
@@ -317,29 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="3" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="54" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="58" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="60" column="24" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="61" column="62" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="110" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="63" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="83" column="18" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="87" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="77" column="65" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="79" column="46" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="80" column="46" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="74" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="94" column="18" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="88" column="68" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="89" column="24" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="90" column="52" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="78" column="24" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="85" column="7" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="104" column="18" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="108" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="101" column="49" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="100" column="38" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
       <jump line="76" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
       <jump line="38" column="18" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
       <jump line="35" column="18" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
@@ -405,25 +382,48 @@
       <jump line="112" column="38" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="109" column="40" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="26" column="81" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
-      <jump line="190" column="27" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" />
       <jump line="116" column="104" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="117" column="54" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
-      <jump line="127" column="20" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
-      <jump line="211" column="0" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" />
       <jump line="151" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="35" column="6" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/e5c70a402738f0ab5153e11b16ec28fb5eb8da2/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/http/HttpServletResponse.java" />
       <jump line="99" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="123" column="57" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="98" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="96" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
-      <jump line="121" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="190" column="109" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" />
+      <jump line="121" column="57" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="211" column="63" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" />
+      <jump line="236" column="59" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" />
+      <jump line="124" column="55" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="280" column="53" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" />
+      <jump line="125" column="49" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="127" column="59" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="128" column="50" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="129" column="51" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="132" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="131" column="41" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="134" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="133" column="51" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="402" column="56" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" />
+      <jump line="136" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="137" column="51" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="138" column="54" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="139" column="54" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="141" column="20" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="143" column="43" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="145" column="48" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="146" column="29" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="135" column="55" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="122" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="120" column="124" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="102" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>kv</text>
+        <text>INTERNAL_SERVER_ERROR</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -434,43 +434,43 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">RXJyb3JSZXNwb25zZSkg</text>
+        <text encoding="base64">Tm9TdWNoUmVxdWVzdEhhbmRsaW5nTWV0aG9kRXhjZXB0aW9uIA==</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXIuc2V0UGF0aChwYXRoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXIuc2V0TWVzc2FnZShlci5nZXRNZXNzYWdlKCkuY29uY2F0KCIuICIpLmNvbmNhdChleGNlcHRpb24uZ2V0TWVzc2FnZSgpKSk7Cg==</text>
       </register>
-      <register name="1" type="4">
-        <text>kv</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>kv</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="4">
-        <text>(</text>
+        <text>INTERNAL_SERVER_ERROR</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgeyAiaHRtbCIsICJ0ZXh0L2h0bWwiIH0sCiAgICAgICAgICAgICAgICAgICAgeyAianMiLCAiYXBwbGljYXRpb24vamF2YXNjcmlwdCIgfSwKICAgICAgICAgICAgICAgICAgICB7ICJjc3MiLCAidGV4dC9jc3MiIH0sCiAgICAgICAgICAgICAgICAgICAgeyAieG1sIiwgImFwcGxpY2F0aW9uL3htbCIgfSwKICAgICAgICAgICAgICAgICAgICB7ICJwbmciLCAiaW1hZ2UvcG5nIiB9LAogICAgICAgICAgICAgICAgICAgIHsgImdpZiIsICJpbWFnZS9naWYiIH0sCiAgICAgICAgICAgICAgICAgICAgeyAianBnIiwgImltYWdlL2pwZWciIH0sCiAgICAgICAgICAgICAgICAgICAgeyAianBlZyIsICJpbWFnZS9qcGVnIiB9LAogICAgICAgICAgICAgICAgICAgIHsgInN2ZyIsICJpbWFnZS9zdmcreG1sIiB9LA==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIERFRkFVTFRfRVhDRVBUSU9OX1JFU1BPTlNFX0NPREVTLmdldE9yRGVmYXVsdChleGNlcHRpb24uZ2V0Q2xhc3MoKSwgSU5URVJOQUxfU0VSVkVSX0VSUk9SKS52YWx1ZSgpLAo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text>HttpMediaTypeNotSupportedException</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>SERVICE_UNAVAILABLE</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>AsyncRequestTimeoutException</text>
       </register>
       <register name="x" type="4">
-        <text>kv</text>
+        <text>INTERNAL_SERVER_ERROR</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>AsyncRequestTimeoutException</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
@@ -503,7 +503,6 @@
       </history-search>
       <history-cmd>
         <entry>action RearrangeCode</entry>
-        <entry>action TabShiftActions.StretchRight</entry>
         <entry>action Replace</entry>
         <entry>keymaps</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
@@ -523,11 +522,12 @@
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action VimFilePrevious</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action HideAllWindows</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action VimFilePrevious</entry>
+        <entry>action TabShiftActions.StretchRight</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
