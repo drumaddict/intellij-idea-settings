@@ -40,6 +40,7 @@
         <mark key="^" line="8" column="12" />
         <mark key="." line="8" column="12" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" timestamp="1515143536547" />
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/PlaylistResource.java" timestamp="1514936638252">
         <mark key="'" line="20" column="54" />
         <mark key="[" line="13" column="11" />
@@ -253,13 +254,13 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="26" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515142920840">
-        <mark key="'" line="112" column="38" />
-        <mark key="[" line="91" column="7" />
-        <mark key="m" line="80" column="0" />
-        <mark key="]" line="91" column="17" />
-        <mark key="^" line="91" column="17" />
-        <mark key="." line="91" column="17" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515144426975">
+        <mark key="'" line="112" column="40" />
+        <mark key="[" line="114" column="1" />
+        <mark key="m" line="83" column="0" />
+        <mark key="]" line="113" column="99" />
+        <mark key="^" line="113" column="99" />
+        <mark key="." line="114" column="2" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResource.java" timestamp="1514936585268">
         <mark key="'" line="22" column="0" />
@@ -296,7 +297,7 @@
         <mark key="^" line="15" column="15" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1515026137992">
+      <file name="/fragment.java" timestamp="1515144512908">
         <mark key="'" line="0" column="37" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="69" />
@@ -312,7 +313,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
       <jump line="6" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
       <jump line="7" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
       <jump line="8" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
@@ -412,6 +412,7 @@
       <jump line="116" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="11" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/EntityNotFoundException.java" />
       <jump line="112" column="38" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="109" column="40" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -471,7 +472,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action ToggleLineBreakpoint</text>
       </register>
     </registers>
     <search>
@@ -506,19 +507,20 @@
         <entry>action AceAction</entry>
         <entry>action Replace</entry>
         <entry>action $SelectAll</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>keymaps</entry>
         <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
-        <entry>action CloseContent</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action HideAllWindows</entry>
-        <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action CloseContent</entry>
         <entry>action SaveAll</entry>
+        <entry>action NextTab</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action ToggleLineBreakpoint</entry>
       </history-cmd>
       <history-expr />
       <history-input />
