@@ -40,10 +40,10 @@
         <mark key="^" line="8" column="12" />
         <mark key="." line="8" column="12" />
       </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" timestamp="1515153031412">
-        <mark key="'" line="211" column="63" />
-        <mark key="[" line="211" column="63" />
-        <mark key="]" line="211" column="101" />
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" timestamp="1515157630531">
+        <mark key="'" line="211" column="0" />
+        <mark key="[" line="211" column="0" />
+        <mark key="]" line="221" column="4" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/PlaylistResource.java" timestamp="1514936638252">
         <mark key="'" line="20" column="54" />
@@ -258,13 +258,13 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="26" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515155354729">
-        <mark key="'" line="127" column="20" />
-        <mark key="[" line="118" column="46" />
-        <mark key="m" line="86" column="0" />
-        <mark key="]" line="118" column="50" />
-        <mark key="^" line="118" column="50" />
-        <mark key="." line="118" column="50" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515158325186">
+        <mark key="'" line="153" column="4" />
+        <mark key="[" line="143" column="8" />
+        <mark key="m" line="88" column="0" />
+        <mark key="]" line="143" column="13" />
+        <mark key="^" line="143" column="13" />
+        <mark key="." line="143" column="13" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResource.java" timestamp="1514936585268">
         <mark key="'" line="22" column="0" />
@@ -317,7 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="39" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
       <jump line="40" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/models/BaseEntity.java" />
       <jump line="26" column="14" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
       <jump line="18" column="32" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
@@ -414,16 +413,17 @@
       <jump line="26" column="81" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="190" column="27" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" />
       <jump line="116" column="104" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
-      <jump line="211" column="63" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" />
       <jump line="117" column="54" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="127" column="20" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="211" column="0" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.13.RELEASE/96a55ea7ae6fed76d6ab594b0820d75f53eaa203/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java" />
+      <jump line="151" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>BaseExceptionHandler</text>
+        <text>protected</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -439,23 +439,23 @@
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImRmZyIpOwo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">CXByb3RlY3RlZCBNb2RlbEFuZFZpZXcgaGFuZGxlSHR0cFJlcXVlc3RNZXRob2ROb3RTdXBwb3J0ZWQoSHR0cFJlcXVlc3RNZXRob2ROb3RTdXBwb3J0ZWRFeGNlcHRpb24gZXgsCgkJCUh0dHBTZXJ2bGV0UmVxdWVzdCByZXF1ZXN0LCBIdHRwU2VydmxldFJlc3BvbnNlIHJlc3BvbnNlLCBPYmplY3QgaGFuZGxlcikgdGhyb3dzIElPRXhjZXB0aW9uIHsKCgkJcGFnZU5vdEZvdW5kTG9nZ2VyLndhcm4oZXguZ2V0TWVzc2FnZSgpKTsKCQlTdHJpbmdbXSBzdXBwb3J0ZWRNZXRob2RzID0gZXguZ2V0U3VwcG9ydGVkTWV0aG9kcygpOwoJCWlmIChzdXBwb3J0ZWRNZXRob2RzICE9IG51bGwpIHsKCQkJcmVzcG9uc2Uuc2V0SGVhZGVyKCJBbGxvdyIsIFN0cmluZ1V0aWxzLmFycmF5VG9EZWxpbWl0ZWRTdHJpbmcoc3VwcG9ydGVkTWV0aG9kcywgIiwgIikpOwoJCX0KCQlyZXNwb25zZS5zZW5kRXJyb3IoSHR0cFNlcnZsZXRSZXNwb25zZS5TQ19NRVRIT0RfTk9UX0FMTE9XRUQsIGV4LmdldE1lc3NhZ2UoKSk7CgkJcmV0dXJuIG5ldyBNb2RlbEFuZFZpZXcoKTsKCX0=</text>
       </register>
       <register name="1" type="4">
-        <text>BaseExceptionHandler</text>
+        <text>protected</text>
       </register>
       <register name="2" type="4">
-        <text>Exception</text>
+        <text>BaseExceptionHandler</text>
       </register>
       <register name="3" type="4">
-        <text>handleNoSuchRequestHandlingMethod</text>
+        <text>Exception</text>
       </register>
       <register name="4" type="4">
-        <text>Argument type mismatch</text>
+        <text>handleNoSuchRequestHandlingMethod</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIEBOdWxsYWJsZQo=</text>
+      <register name="5" type="4">
+        <text>Argument type mismatch</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgIEBOdWxsYWJsZQo=</text>
@@ -467,7 +467,7 @@
         <text encoding="base64">ICAgIEBOdWxsYWJsZQo=</text>
       </register>
       <register name="x" type="4">
-        <text>BaseExceptionHandler</text>
+        <text>protected</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgIEBOdWxsYWJsZQo=</text>
@@ -476,7 +476,7 @@
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action VimFilePrevious</text>
+        <text>action ToggleLineBreakpoint</text>
       </register>
     </registers>
     <search>
@@ -519,13 +519,13 @@
         <entry>action GotoDeclaration</entry>
         <entry>action SelectIn</entry>
         <entry>.action SaveAll</entry>
-        <entry>action ToggleLineBreakpoint</entry>
         <entry>action $SelectAll</entry>
-        <entry>action PreviousTab</entry>
         <entry>action CloseContent</entry>
-        <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action VimFilePrevious</entry>
+        <entry>action SaveAll</entry>
+        <entry>action ToggleLineBreakpoint</entry>
       </history-cmd>
       <history-expr />
       <history-input />
