@@ -258,13 +258,13 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="26" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515194950431">
-        <mark key="'" line="102" column="12" />
-        <mark key="[" line="102" column="85" />
-        <mark key="m" line="94" column="0" />
-        <mark key="]" line="102" column="47" />
-        <mark key="^" line="102" column="47" />
-        <mark key="." line="102" column="47" />
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" timestamp="1515196826379">
+        <mark key="'" line="56" column="110" />
+        <mark key="[" line="152" column="0" />
+        <mark key="m" line="116" column="0" />
+        <mark key="]" line="152" column="0" />
+        <mark key="^" line="57" column="3" />
+        <mark key="." line="152" column="0" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResource.java" timestamp="1514936585268">
         <mark key="'" line="22" column="0" />
@@ -317,9 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="76" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="38" column="18" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
-      <jump line="35" column="18" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
       <jump line="28" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
       <jump line="30" column="58" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
       <jump line="33" column="20" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseErrorHandler.java" />
@@ -417,13 +414,16 @@
       <jump line="122" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="120" column="124" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="102" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="66" column="38" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="83" column="38" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
+      <jump line="56" column="110" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>(o)</text>
       </register>
       <register name="*" type="4">
-        <text>INTERNAL_SERVER_ERROR</text>
+        <text>Missing header in request</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -434,13 +434,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Tm9TdWNoUmVxdWVzdEhhbmRsaW5nTWV0aG9kRXhjZXB0aW9uIA==</text>
+        <text>D</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXIuc2V0TWVzc2FnZShlci5nZXRNZXNzYWdlKCkuY29uY2F0KCIuICIpLmNvbmNhdChleGNlcHRpb24uZ2V0TWVzc2FnZSgpKSk7Cg==</text>
+      <register name="0" type="4">
+        <text>Custom Message</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -449,34 +449,34 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="4">
-        <text>INTERNAL_SERVER_ERROR</text>
+        <text encoding="base64">cHJpdmF0ZSBzdGF0aWMgZmluYWwgTWFwPENsYXNzPEV4Y2VwdGlvbj4sIEh0dHBTdGF0dXM+IERFRkFVTFRfRVhDRVBUSU9OX1JFU1BPTlNFX0NPREVTID0KICAgICAgICAgICAgQXJyYXlzLnN0cmVhbShuZXcgT2JqZWN0W11bXXsKICAgICAgICAgICAgICAgICAgICB7SHR0cFJlcXVlc3RNZXRob2ROb3RTdXBwb3J0ZWRFeGNlcHRpb24uY2xhc3MsIE1FVEhPRF9OT1RfQUxMT1dFRH0sCiAgICAgICAgICAgICAgICAgICAge0h0dHBNZWRpYVR5cGVOb3RTdXBwb3J0ZWRFeGNlcHRpb24uY2xhc3MsIFVOU1VQUE9SVEVEX01FRElBX1RZUEV9LAogICAgICAgICAgICAgICAgICAgIHtIdHRwTWVkaWFUeXBlTm90QWNjZXB0YWJsZUV4Y2VwdGlvbi5jbGFzcywgTk9UX0FDQ0VQVEFCTEV9LAogICAgICAgICAgICAgICAgICAgIHtNaXNzaW5nUGF0aFZhcmlhYmxlRXhjZXB0aW9uLmNsYXNzLCBJTlRFUk5BTF9TRVJWRVJfRVJST1J9LAogICAgICAgICAgICAgICAgICAgIHtNaXNzaW5nU2VydmxldFJlcXVlc3RQYXJhbWV0ZXJFeGNlcHRpb24uY2xhc3MsIEJBRF9SRVFVRVNUfSwKICAgICAgICAgICAgICAgICAgICB7U2VydmxldFJlcXVlc3RCaW5kaW5nRXhjZXB0aW9uLmNsYXNzLCBCQURfUkVRVUVTVH0sCiAgICAgICAgICAgICAgICAgICAge0NvbnZlcnNpb25Ob3RTdXBwb3J0ZWRFeGNlcHRpb24uY2xhc3MsIElOVEVSTkFMX1NFUlZFUl9FUlJPUn0sCiAgICAgICAgICAgICAgICAgICAge1R5cGVNaXNtYXRjaEV4Y2VwdGlvbi5jbGFzcywgQkFEX1JFUVVFU1R9LAogICAgICAgICAgICAgICAgICAgIHtIdHRwTWVzc2FnZU5vdFJlYWRhYmxlRXhjZXB0aW9uLmNsYXNzLCBCQURfUkVRVUVTVH0sCiAgICAgICAgICAgICAgICAgICAge0h0dHBNZXNzYWdlTm90V3JpdGFibGVFeGNlcHRpb24uY2xhc3MsIElOVEVSTkFMX1NFUlZFUl9FUlJPUn0sCiAgICAgICAgICAgICAgICAgICAge01ldGhvZEFyZ3VtZW50Tm90VmFsaWRFeGNlcHRpb24uY2xhc3MsIEJBRF9SRVFVRVNUfSwKICAgICAgICAgICAgICAgICAgICB7TWlzc2luZ1NlcnZsZXRSZXF1ZXN0UGFydEV4Y2VwdGlvbi5jbGFzcywgQkFEX1JFUVVFU1R9LAogICAgICAgICAgICAgICAgICAgIHtCaW5kRXhjZXB0aW9uLmNsYXNzLCBCQURfUkVRVUVTVH0sCiAgICAgICAgICAgICAgICAgICAge05vSGFuZGxlckZvdW5kRXhjZXB0aW9uLmNsYXNzLCBOT1RfRk9VTkR9LAogICAgICAgICAgICAgICAgICAgIHtFeGNlcHRpb24uY2xhc3MsIElOVEVSTkFMX1NFUlZFUl9FUlJPUn0sCiAgICAgICAgICAgIH0pLmNvbGxlY3QoQ29sbGVjdG9ycy50b01hcChlbnRyeSAtPiAoQ2xhc3M8RXhjZXB0aW9uPikgZW50cnlbMF0sIGVudHJ5IC0+IChIdHRwU3RhdHVzKSBlbnRyeVsxXSkpOw==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIERFRkFVTFRfRVhDRVBUSU9OX1JFU1BPTlNFX0NPREVTLmdldE9yRGVmYXVsdChleGNlcHRpb24uZ2V0Q2xhc3MoKSwgSU5URVJOQUxfU0VSVkVSX0VSUk9SKS52YWx1ZSgpLAo=</text>
-      </register>
-      <register name="5" type="4">
-        <text>HttpMediaTypeNotSupportedException</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="4">
+        <text>Missing header in request</text>
+      </register>
+      <register name="6" type="4">
+        <text>Missing request Parameter</text>
+      </register>
       <register name="7" type="4">
-        <text>SERVICE_UNAVAILABLE</text>
+        <text>Argument type mismatch</text>
       </register>
       <register name="8" type="4">
-        <text>AsyncRequestTimeoutException</text>
+        <text>ACCEPTED</text>
       </register>
       <register name="x" type="4">
-        <text>INTERNAL_SERVER_ERROR</text>
+        <text>Missing header in request</text>
       </register>
       <register name="9" type="4">
-        <text>AsyncRequestTimeoutException</text>
+        <text>Method Not Allowed CUSTOMMMM</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -528,8 +528,8 @@
         <entry>action HideAllWindows</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action TabShiftActions.StretchRight</entry>
-        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
