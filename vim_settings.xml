@@ -263,13 +263,13 @@
         <mark key="." line="64" column="85" />
         <mark key="^" line="64" column="85" />
       </file>
-      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1515231965349">
+      <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" timestamp="1515234621648">
         <mark key="t" line="57" column="0" />
-        <mark key="'" line="168" column="123" />
-        <mark key="[" line="168" column="91" />
-        <mark key="]" line="168" column="89" />
-        <mark key="." line="168" column="89" />
-        <mark key="^" line="168" column="89" />
+        <mark key="'" line="100" column="84" />
+        <mark key="[" line="100" column="32" />
+        <mark key="]" line="100" column="85" />
+        <mark key="^" line="100" column="31" />
+        <mark key="." line="100" column="32" />
         <mark key="o" line="59" column="3" />
       </file>
       <file name="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/hateoas/ArtistResourceAssembler.java" timestamp="1515049931023">
@@ -331,18 +331,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="13" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseException.java" />
-      <jump line="100" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
-      <jump line="33" column="7" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/e5c70a402738f0ab5153e11b16ec28fb5eb8da2/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/http/HttpServletResponse.java" />
-      <jump line="425" column="25" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/e5c70a402738f0ab5153e11b16ec28fb5eb8da2/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/http/HttpServletResponse.java" />
-      <jump line="93" column="55" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
-      <jump line="84" column="50" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
-      <jump line="65" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
-      <jump line="42" column="11" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
-      <jump line="110" column="67" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
-      <jump line="101" column="39" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
-      <jump line="15" column="28" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/ErrorResponse.java" />
-      <jump line="97" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="130" column="60" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="126" column="50" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
       <jump line="95" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/BaseExceptionHandler.java" />
@@ -429,8 +417,20 @@
       <jump line="36" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/AssociationNotFound.java" />
       <jump line="18" column="4" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/AssociationNotFound.java" />
       <jump line="43" column="12" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/errors/AssociationNotFound.java" />
-      <jump line="169" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
-      <jump line="168" column="123" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="163" column="20" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="165" column="14" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="167" column="22" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="173" column="45" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="169" column="49" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="174" column="45" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="168" column="143" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="171" column="26" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="142" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="141" column="83" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="128" column="0" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="126" column="16" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="101" column="8" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
+      <jump line="100" column="84" filename="$USER_HOME$/java/springify-api/src/main/java/com/kabasakalis/springifyapi/controllers/AbstractBaseRestController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -448,43 +448,43 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>throw new EntityNotFoundException(subresource.get().getClass(),  subresource.get().getId());</text>
+        <text>throw new EntityNotFoundException(resourceClass, id);</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnRcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UobmV3IFJlc3BvbnNlRW50aXR5PD4oSHR0cFN0YXR1cy5OT1RfRk9VTkQpKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRW50aXR5Tm90Rm91bmRFeGNlcHRpb24ocmVzb3VyY2VDbGFzcywgaWQpOwo=</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">bmV3IFJlc3BvbnNlRW50aXR5PD4oSHR0cFN0YXR1cy5OT1RfRk9VTkQp</text>
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text>(</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UobmV3IFJlc3BvbnNlRW50aXR5PD4oSHR0cFN0YXR1cy5OT1RfRk9VTkQpKTsK</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">Ly8gICAgICAgIHB1YmxpYyBBc3NvY2lhdGlvbk5vdEZvdW5kKAovLyAgICAgICAgICAgIENsYXNzPD8gZXh0ZW5kcyBCYXNlRW50aXR5PiBfY2xhc3MsCi8vICAgICAgICAgICAgbG9uZyBlbnRpdHlfaWQKLy8gICAgKSB7Ci8vICAgICAgICBzdXBlcihDT0RFKTsKLy8gICAgICAgIHRoaXMuZW50aXR5X2lkID0gZW50aXR5X2lkOwovLyAgICAgICAgdGhpcy5jdXN0b21NZXNzYWdlID0gU3RyaW5nLmZvcm1hdCgiJXMgd2l0aCBpZCBvZiAlZCBjb3VsZCBub3QgYmUgZm91bmQuIiwgX2NsYXNzLmdldFNpbXBsZU5hbWUoKSwgZW50aXR5X2lkKTsKLy8gICAgfQo=</text>
+      <register name="4" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgLm9yRWxzZShuZXcgUmVzcG9uc2VFbnRpdHk8PihIdHRwU3RhdHVzLk5PVF9GT1VORCkpOwo=</text>
       </register>
-      <register name="4" type="4">
-        <text>code</text>
+      <register name="5" type="4">
+        <text encoding="base64">bmV3IFJlc3BvbnNlRW50aXR5PD4oSHR0cFN0YXR1cy5OT1RfRk9VTkQp</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgSHR0cFN0YXR1cyBjb2RlLAogICAgICAgICAgICBTdHJpbmcgbWVzc2FnZSwKICAgICAgICAgICAgVGhyb3dhYmxlIGNhdXNlLAogICAgICAgICAgICBib29sZWFuIGVuYWJsZVN1cHByZXNzaW9uLAogICAgICAgICAgICBib29sZWFuIHdyaXRhYmxlU3RhY2tUcmFjZQ==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UobmV3IFJlc3BvbnNlRW50aXR5PD4oSHR0cFN0YXR1cy5OT1RfRk9VTkQpKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmVudGl0eV9pZCA9IGVudGl0eV9pZDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UoKTsK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYm9vbGVhbiB3cml0YWJsZVN0YWNrVHJhY2UK</text>
+      <register name="8" type="4">
+        <text encoding="base64">bmV3IFJlc3BvbnNlRW50aXR5PD4oSHR0cFN0YXR1cy5OT1RfRk9VTkQp</text>
       </register>
       <register name="x" type="4">
         <text encoding="base64">bmV3IFJlc3BvbnNlRW50aXR5PD4oSHR0cFN0YXR1cy5OT1RfRk9VTkQp</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYm9vbGVhbiBlbmFibGVTdXBwcmVzc2lvbiwK</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgLm9yRWxzZShDb250cm9sbGVyVXRpbHMudG9FbXB0eVJlc3BvbnNlKEh0dHBTdGF0dXMuTk9UX0ZPVU5EKSk7Cg==</text>
       </register>
       <register name="y" type="4">
         <text>k</text>
@@ -518,12 +518,9 @@
       <history-cmd>
         <entry>.action SaveAll</entry>
         <entry>action ToggleLineBreakpoint</entry>
-        <entry>action AceAction</entry>
-        <entry>action AceTargetAction</entry>
         <entry>action TabShiftActions.StretchDown</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action TabShiftActions.StretchRight</entry>
         <entry>action $SelectAll</entry>
         <entry>action CloseContent</entry>
         <entry>action CloseAllEditorsButActive</entry>
@@ -533,10 +530,13 @@
         <entry>action NextTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
+        <entry>action AceTargetAction</entry>
+        <entry>action AceAction</entry>
+        <entry>action TabShiftActions.StretchRight</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
