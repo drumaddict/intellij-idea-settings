@@ -2,14 +2,46 @@
   <component name="VimSettings">
     <state version="4" enabled="true" />
     <globalmarks />
-    <filemarks />
+    <filemarks>
+      <file name="$USER_HOME$/java/wanderlust-open-travel-api/src/main/java/cristina/tech/blog/travel/domain/AbstractEntity.java" timestamp="1523745904372" />
+    </filemarks>
     <jumps />
-    <registers />
+    <registers>
+      <register name=":" type="4">
+        <text>action AceAction</text>
+      </register>
+    </registers>
     <search>
       <last-dir>0</last-dir>
       <show-last>false</show-last>
     </search>
-    <history />
-    <shortcut-conflicts />
+    <history>
+      <history-search />
+      <history-cmd>
+        <entry>action SplitVertically</entry>
+        <entry>action SplitHorizontally</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action HideActiveWindow</entry>
+        <entry>action CloseAllEditorsButActive</entry>
+        <entry>action CloseAllEditors</entry>
+        <entry>action AceAction</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed L</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed H</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Q</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
   </component>
 </application>
