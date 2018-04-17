@@ -6,7 +6,7 @@
       <file name="/Dummy.txt" timestamp="1523836623242">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/LLDB" timestamp="1523836578405">
+      <file name="/LLDB" timestamp="1523947291054">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cpp/cpp-template/source/main/main.cpp" timestamp="1523798007444">
@@ -106,7 +106,7 @@
         <text encoding="base64">I2FkZF9leGVjdXRhYmxlKG9wZW5nbF9kZW1vIG1haW4uY3BwKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Debug</text>
       </register>
     </registers>
     <search>
@@ -129,7 +129,6 @@
         <entry>action PreviousTab</entry>
         <entry>action FindWordAtCaret</entry>
         <entry>action $SelectAll</entry>
-        <entry>action HideAllWindows</entry>
         <entry>action VimWindowClose</entry>
         <entry>action RenameElement</entry>
         <entry>action ReformatCode</entry>
@@ -137,9 +136,10 @@
         <entry>action GotoClass</entry>
         <entry>action Compile</entry>
         <entry>action CompileProject</entry>
-        <entry>action Debug</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action SaveAll</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action Debug</entry>
       </history-cmd>
       <history-expr />
       <history-input />
