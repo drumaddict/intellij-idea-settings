@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1525031386096">
+      <file name="/Dummy.txt" timestamp="1525086138610">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cpp/basicgraphics/.gitignore" timestamp="1525079028996">
@@ -12,32 +12,56 @@
         <mark key="^" line="3" column="30" />
         <mark key="." line="3" column="30" />
       </file>
-      <file name="$USER_HOME$/cpp/basicgraphics/CMakeLists.txt" timestamp="1525075614034">
-        <mark key="'" line="139" column="0" />
-        <mark key="[" line="105" column="54" />
-        <mark key="]" line="105" column="51" />
-        <mark key="." line="105" column="51" />
-        <mark key="^" line="105" column="51" />
+      <file name="$USER_HOME$/cpp/basicgraphics/CMakeLists.txt" timestamp="1525086103116">
+        <mark key="'" line="132" column="0" />
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="28" column="0" />
+        <mark key="." line="28" column="0" />
+        <mark key="^" line="1" column="23" />
       </file>
     </filemarks>
     <jumps>
       <jump line="132" column="0" filename="$USER_HOME$/cpp/basicgraphics/CMakeLists.txt" />
     </jumps>
     <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Y21ha2UtYnVpbGQtZGVidWcvCg==</text>
+      </register>
+      <register name="-" type="4">
+        <text />
+      </register>
       <register name="0" type="2">
         <text encoding="base64">Y21ha2UtYnVpbGQtZGVidWcvCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW5jbHVkZV9kaXJlY3RvcmllcyhPcGVuR2wpCg==</text>
-      </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Y21ha2UtYnVpbGQtZGVidWcvCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">TUVTU0FHRSggU1RBVFVTICJXSU4zMmtrIFJBQUFBQUFBQUFBQUFBQUFBQUEgIiApCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">TUVTU0FHRSggU1RBVFVTICJBU1NTSU1POiAgICAgICAgICIgJHtBU1NJTVBfTElCUkFSWX0gKQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">TUVTU0FHRSggU1RBVFVTICJHTEVXV1dXOiAgICAgICAgICIgJHtHTEVXX0xJQlJBUll9ICkK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">TUVTU0FHRSggU1RBVFVTICJHTEZXV1dXV1c6ICAgICAgICAgIiAke0dMRldfTElCUkFSWX0gKQo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">TUVTU0FHRSggU1RBVFVTICJPcGVuR0xMTDogICAgICAgICAiICR7T1BFTkdMX0xJQlJBUll9ICkK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">aW5jbHVkZV9kaXJlY3RvcmllcyhPcGVuR2wpCg==</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">c2V0KEdFTkVSQUxfU09VUkNFUyBUZXN0TWFpbi5jcHApCg==</text>
       </register>
-      <register name="-" type="4">
-        <text>C:\Users\spiros\Dropbox</text>
+      <register name=":" type="4">
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -46,7 +70,14 @@
     </search>
     <history>
       <history-search />
-      <history-cmd />
+      <history-cmd>
+        <entry>source C:/Users/spiros/.ideavimrc</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action AceAction</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
+      </history-cmd>
       <history-expr />
       <history-input />
     </history>
