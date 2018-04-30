@@ -4,7 +4,7 @@
     <property name="created">2017-10-19T13:00:33</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.5.0.0</property>
-    <property name="modified">2018-04-16T16:49:11</property>
+    <property name="modified">2018-04-30T13:33:53</property>
     <property name="originalScheme">Tomorrow Night Eighties</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
@@ -14,7 +14,7 @@
     <option name="EDITOR_FONT_SIZE" value="13" />
   </font>
   <font>
-    <option name="EDITOR_FONT_NAME" value="Ubuntu Mono" />
+    <option name="EDITOR_FONT_NAME" value="Monospaced" />
     <option name="EDITOR_FONT_SIZE" value="13" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="Literation Mono Powerline" />
@@ -1555,6 +1555,12 @@
         <option name="FOREGROUND" value="cc99cc" />
       </value>
     </option>
+    <option name="OC.ENUM_CONST">
+      <value>
+        <option name="FOREGROUND" value="cf8f44" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="OC.FUNCTION">
       <value>
         <option name="FOREGROUND" value="5aa2ff" />
@@ -1578,13 +1584,12 @@
     </option>
     <option name="OC.MACRONAME">
       <value>
-        <option name="FOREGROUND" value="2e844c" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="53b5e5" />
       </value>
     </option>
     <option name="OC.NAMESPACE_LIKE">
       <value>
-        <option name="FOREGROUND" value="4764ad" />
+        <option name="FOREGROUND" value="5588df" />
       </value>
     </option>
     <option name="OC.NUMBER">
@@ -1609,9 +1614,14 @@
     <option name="OC.STRUCT_FIELD">
       <value />
     </option>
+    <option name="OC.STRUCT_LIKE">
+      <value>
+        <option name="FOREGROUND" value="656a80" />
+      </value>
+    </option>
     <option name="OC.TYPEDEF">
       <value>
-        <option name="FOREGROUND" value="5c53a3" />
+        <option name="FOREGROUND" value="7676a3" />
       </value>
     </option>
     <option name="OC_FORMAT_TOKEN">
