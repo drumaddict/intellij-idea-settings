@@ -81,7 +81,7 @@
         <text encoding="base64">TUVTU0FHRSggU1RBVFVTICJHTEVXV1dXOiAgICAgICAgICIgJHtHTEVXX0xJQlJBUll9ICkK</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action VimFilePrevious</text>
       </register>
     </registers>
     <search>
@@ -96,10 +96,10 @@
         <entry>action Find</entry>
         <entry>action NextTab</entry>
         <entry>action HideAllWindows</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action GotoClass</entry>
         <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action VimFilePrevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -113,6 +113,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed H</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
