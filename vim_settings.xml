@@ -12,19 +12,19 @@
         <mark key="^" line="3" column="30" />
         <mark key="." line="3" column="30" />
       </file>
-      <file name="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLFW3.cmake" timestamp="1525644945384">
+      <file name="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLFW3.cmake" timestamp="1525647842019">
         <mark key="'" line="19" column="35" />
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="40" />
-        <mark key="^" line="20" column="4" />
-        <mark key="." line="20" column="4" />
+        <mark key="[" line="20" column="44" />
+        <mark key="]" line="20" column="38" />
+        <mark key="^" line="20" column="38" />
+        <mark key="." line="20" column="38" />
       </file>
-      <file name="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindASSIMP.cmake" timestamp="1525646020722">
+      <file name="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindASSIMP.cmake" timestamp="1525646820831">
         <mark key="'" line="19" column="8" />
         <mark key="[" line="14" column="13" />
-        <mark key="]" line="14" column="13" />
-        <mark key="." line="14" column="13" />
-        <mark key="^" line="13" column="43" />
+        <mark key="]" line="24" column="59" />
+        <mark key="." line="24" column="59" />
+        <mark key="^" line="24" column="59" />
       </file>
       <file name="$USER_HOME$/cpp/basicgraphics/CMakeLists.txt" timestamp="1525086724658">
         <mark key="'" line="163" column="0" />
@@ -39,12 +39,12 @@
         <mark key="^" line="35" column="4" />
         <mark key="." line="35" column="4" />
       </file>
-      <file name="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" timestamp="1525645225859">
-        <mark key="'" line="179" column="44" />
-        <mark key="[" line="179" column="48" />
-        <mark key="]" line="179" column="43" />
-        <mark key="^" line="179" column="43" />
-        <mark key="." line="179" column="43" />
+      <file name="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" timestamp="1525649281056">
+        <mark key="'" line="18" column="49" />
+        <mark key="[" line="35" column="31" />
+        <mark key="]" line="35" column="30" />
+        <mark key="^" line="35" column="30" />
+        <mark key="." line="35" column="30" />
       </file>
     </filemarks>
     <jumps>
@@ -54,7 +54,6 @@
       <jump line="163" column="0" filename="$USER_HOME$/cpp/basicgraphics/CMakeLists.txt" />
       <jump line="221" column="1" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
       <jump line="12" column="0" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
-      <jump line="6" column="4" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
       <jump line="25" column="27" filename="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLFW3.cmake" />
       <jump line="27" column="0" filename="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLFW3.cmake" />
       <jump line="24" column="22" filename="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLFW3.cmake" />
@@ -67,25 +66,28 @@
       <jump line="177" column="0" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
       <jump line="176" column="23" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
       <jump line="179" column="44" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
+      <jump line="48" column="0" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
+      <jump line="6" column="25" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
+      <jump line="18" column="49" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">Y21ha2UtYnVpbGQtZGVidWcvCg==</text>
       </register>
       <register name="*" type="4">
-        <text>include</text>
+        <text>CMAKE_SOURCE_DIR</text>
       </register>
       <register name="-" type="4">
-        <text>4</text>
+        <text>p</text>
       </register>
       <register name="0" type="4">
-        <text>${OPENGL_DEPENDENCIES}/src/</text>
+        <text>${CMAKE_SOURCE_DIR}/opengl_libs&quot;</text>
       </register>
       <register name="1" type="4">
-        <text>include</text>
+        <text>CMAKE_SOURCE_DIR</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>include</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -96,20 +98,20 @@
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="4">
         <text>CMAKE_SOURCE_DIR}/lib&quot;</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">CmxpbmtfZGlyZWN0b3JpZXMoJHtDTUFLRV9TT1VSQ0VfRElSfS9saWIpCg==</text>
       </register>
-      <register name="8" type="4">
-        <text>&quot;Choose the type of build (Debug or Release)&quot;</text>
-      </register>
       <register name="x" type="4">
-        <text>include</text>
+        <text>CMAKE_SOURCE_DIR</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">SUYoTk9UIENNQUtFX0JVSUxEX1RZUEUpCiAgU0VUKENNQUtFX0JVSUxEX1RZUEUgRGVidWcgQ0FDSEUgU1RSSU5HICJDaG9vc2UgdGhlIHR5cGUgb2YgYnVpbGQgKERlYnVnIG9yIFJlbGVhc2UpIiBGT1JDRSkK</text>
+      <register name="9" type="4">
+        <text>&quot;Choose the type of build (Debug or Release)&quot;</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -129,8 +131,8 @@
         <entry>action GotoClass</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action PreviousTab</entry>
-        <entry>action Find</entry>
         <entry>action NextTab</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
@@ -148,6 +150,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed H</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
