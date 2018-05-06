@@ -19,12 +19,12 @@
         <mark key="^" line="20" column="4" />
         <mark key="." line="20" column="4" />
       </file>
-      <file name="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindASSIMP.cmake" timestamp="1525645057873">
+      <file name="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindASSIMP.cmake" timestamp="1525646020722">
         <mark key="'" line="19" column="8" />
-        <mark key="[" line="19" column="32" />
-        <mark key="]" line="19" column="34" />
-        <mark key="." line="19" column="34" />
-        <mark key="^" line="19" column="34" />
+        <mark key="[" line="14" column="13" />
+        <mark key="]" line="14" column="13" />
+        <mark key="." line="14" column="13" />
+        <mark key="^" line="13" column="43" />
       </file>
       <file name="$USER_HOME$/cpp/basicgraphics/CMakeLists.txt" timestamp="1525086724658">
         <mark key="'" line="163" column="0" />
@@ -76,7 +76,7 @@
         <text>include</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;${OPENGL_DEPENDENCIES}/lib&quot;</text>
+        <text>4</text>
       </register>
       <register name="0" type="4">
         <text>${OPENGL_DEPENDENCIES}/src/</text>
@@ -126,11 +126,11 @@
         <entry>action AceAction</entry>
         <entry>action HideAllWindows</entry>
         <entry>action CloseContent</entry>
-        <entry>action NextTab</entry>
         <entry>action GotoClass</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action PreviousTab</entry>
         <entry>action Find</entry>
+        <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
