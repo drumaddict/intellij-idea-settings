@@ -12,6 +12,20 @@
         <mark key="^" line="3" column="30" />
         <mark key="." line="3" column="30" />
       </file>
+      <file name="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLFW3.cmake" timestamp="1525644945384">
+        <mark key="'" line="19" column="35" />
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="40" />
+        <mark key="^" line="20" column="4" />
+        <mark key="." line="20" column="4" />
+      </file>
+      <file name="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindASSIMP.cmake" timestamp="1525645057873">
+        <mark key="'" line="19" column="8" />
+        <mark key="[" line="19" column="32" />
+        <mark key="]" line="19" column="34" />
+        <mark key="." line="19" column="34" />
+        <mark key="^" line="19" column="34" />
+      </file>
       <file name="$USER_HOME$/cpp/basicgraphics/CMakeLists.txt" timestamp="1525086724658">
         <mark key="'" line="163" column="0" />
         <mark key="[" line="28" column="0" />
@@ -19,12 +33,18 @@
         <mark key="." line="28" column="0" />
         <mark key="^" line="1" column="23" />
       </file>
-      <file name="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" timestamp="1525641880270">
-        <mark key="'" line="6" column="73" />
-        <mark key="[" line="35" column="32" />
-        <mark key="]" line="35" column="35" />
-        <mark key="^" line="35" column="35" />
-        <mark key="." line="35" column="35" />
+      <file name="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLM.cmake" timestamp="1525644993722">
+        <mark key="[" line="35" column="4" />
+        <mark key="]" line="35" column="4" />
+        <mark key="^" line="35" column="4" />
+        <mark key="." line="35" column="4" />
+      </file>
+      <file name="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" timestamp="1525645225859">
+        <mark key="'" line="179" column="44" />
+        <mark key="[" line="179" column="48" />
+        <mark key="]" line="179" column="43" />
+        <mark key="^" line="179" column="43" />
+        <mark key="." line="179" column="43" />
       </file>
     </filemarks>
     <jumps>
@@ -33,55 +53,66 @@
       <jump line="0" column="0" filename="$USER_HOME$/cpp/basicgraphics/CMakeLists.txt" />
       <jump line="163" column="0" filename="$USER_HOME$/cpp/basicgraphics/CMakeLists.txt" />
       <jump line="221" column="1" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
-      <jump line="7" column="0" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
       <jump line="12" column="0" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
-      <jump line="6" column="73" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
+      <jump line="6" column="4" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
+      <jump line="25" column="27" filename="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLFW3.cmake" />
+      <jump line="27" column="0" filename="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLFW3.cmake" />
+      <jump line="24" column="22" filename="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLFW3.cmake" />
+      <jump line="21" column="8" filename="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLFW3.cmake" />
+      <jump line="20" column="35" filename="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLFW3.cmake" />
+      <jump line="36" column="8" filename="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindGLM.cmake" />
+      <jump line="12" column="8" filename="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindASSIMP.cmake" />
+      <jump line="20" column="8" filename="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindASSIMP.cmake" />
+      <jump line="7" column="19" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
+      <jump line="177" column="0" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
+      <jump line="176" column="23" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
+      <jump line="179" column="44" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">Y21ha2UtYnVpbGQtZGVidWcvCg==</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">CmxpbmtfZGlyZWN0b3JpZXMoJHtDTUFLRV9TT1VSQ0VfRElSfS9saWIpCg==</text>
+      <register name="*" type="4">
+        <text>include</text>
       </register>
       <register name="-" type="4">
-        <text>7</text>
+        <text>&quot;${OPENGL_DEPENDENCIES}/lib&quot;</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;${CMAKE_SOURCE_DIR}/cmake/modules/&quot;</text>
+        <text>${OPENGL_DEPENDENCIES}/src/</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">CmxpbmtfZGlyZWN0b3JpZXMoJHtDTUFLRV9TT1VSQ0VfRElSfS9saWIpCg==</text>
+      <register name="1" type="4">
+        <text>include</text>
       </register>
-      <register name="2" type="4">
-        <text>&quot;Choose the type of build (Debug or Release)&quot;</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">SUYoTk9UIENNQUtFX0JVSUxEX1RZUEUpCiAgU0VUKENNQUtFX0JVSUxEX1RZUEUgRGVidWcgQ0FDSEUgU1RSSU5HICJDaG9vc2UgdGhlIHR5cGUgb2YgYnVpbGQgKERlYnVnIG9yIFJlbGVhc2UpIiBGT1JDRSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>Debug</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">TUVTU0FHRSggU1RBVFVTICJXSU4zMmtrIFJBQUFBQUFBQUFBQUFBQUFBQUEgIiApCg==</text>
+      <register name="6" type="4">
+        <text>CMAKE_SOURCE_DIR}/lib&quot;</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">TUVTU0FHRSggU1RBVFVTICJBU1NTSU1POiAgICAgICAgICIgJHtBU1NJTVBfTElCUkFSWX0gKQo=</text>
-      </register>
-      <register name="x" type="2">
         <text encoding="base64">CmxpbmtfZGlyZWN0b3JpZXMoJHtDTUFLRV9TT1VSQ0VfRElSfS9saWIpCg==</text>
       </register>
+      <register name="8" type="4">
+        <text>&quot;Choose the type of build (Debug or Release)&quot;</text>
+      </register>
+      <register name="x" type="4">
+        <text>include</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">TUVTU0FHRSggU1RBVFVTICJHTEVXV1dXOiAgICAgICAgICIgJHtHTEVXX0xJQlJBUll9ICkK</text>
+        <text encoding="base64">SUYoTk9UIENNQUtFX0JVSUxEX1RZUEUpCiAgU0VUKENNQUtFX0JVSUxEX1RZUEUgRGVidWcgQ0FDSEUgU1RSSU5HICJDaG9vc2UgdGhlIHR5cGUgb2YgYnVpbGQgKERlYnVnIG9yIFJlbGVhc2UpIiBGT1JDRSkK</text>
       </register>
       <register name=":" type="4">
-        <text>action VimFilePrevious</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -93,13 +124,14 @@
       <history-cmd>
         <entry>source C:/Users/spiros/.ideavimrc</entry>
         <entry>action AceAction</entry>
-        <entry>action Find</entry>
-        <entry>action NextTab</entry>
         <entry>action HideAllWindows</entry>
+        <entry>action CloseContent</entry>
+        <entry>action NextTab</entry>
         <entry>action GotoClass</entry>
-        <entry>action SaveAll</entry>
-        <entry>action PreviousTab</entry>
         <entry>action VimFilePrevious</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
