@@ -19,9 +19,9 @@
         <mark key="^" line="20" column="38" />
         <mark key="." line="20" column="38" />
       </file>
-      <file name="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindASSIMP.cmake" timestamp="1525646820831">
+      <file name="$USER_HOME$/cpp/LearnOpenGL/cmake/modules/FindASSIMP.cmake" timestamp="1525728937140">
         <mark key="'" line="19" column="8" />
-        <mark key="[" line="14" column="13" />
+        <mark key="[" line="14" column="16" />
         <mark key="]" line="24" column="59" />
         <mark key="." line="24" column="59" />
         <mark key="^" line="24" column="59" />
@@ -120,7 +120,7 @@
         <text>&quot;Choose the type of build (Debug or Release)&quot;</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -134,12 +134,12 @@
         <entry>action AceAction</entry>
         <entry>action HideAllWindows</entry>
         <entry>action GotoClass</entry>
-        <entry>action Find</entry>
         <entry>action PreviousTab</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
         <entry>action CloseContent</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
