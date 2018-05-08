@@ -39,12 +39,12 @@
         <mark key="^" line="35" column="4" />
         <mark key="." line="35" column="4" />
       </file>
-      <file name="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" timestamp="1525649281056">
-        <mark key="'" line="18" column="49" />
-        <mark key="[" line="35" column="31" />
-        <mark key="]" line="35" column="30" />
-        <mark key="^" line="35" column="30" />
-        <mark key="." line="35" column="30" />
+      <file name="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" timestamp="1525764645547">
+        <mark key="'" line="35" column="42" />
+        <mark key="[" line="35" column="26" />
+        <mark key="]" line="35" column="26" />
+        <mark key="^" line="35" column="26" />
+        <mark key="." line="35" column="26" />
       </file>
       <file name="$USER_HOME$/cpp/LearnOpenGL/README.md" timestamp="1525703242353">
         <mark key="[" line="9" column="41" />
@@ -75,6 +75,8 @@
       <jump line="48" column="0" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
       <jump line="6" column="25" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
       <jump line="18" column="49" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
+      <jump line="43" column="81" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
+      <jump line="35" column="42" filename="$USER_HOME$/cpp/LearnOpenGL/CMakeLists.txt" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -84,10 +86,10 @@
         <text>CMAKE_SOURCE_DIR</text>
       </register>
       <register name="-" type="4">
-        <text>p</text>
+        <text>$</text>
       </register>
       <register name="0" type="4">
-        <text>${CMAKE_SOURCE_DIR}/opengl_libs&quot;</text>
+        <text>${ASSIMP_LIBRARY})</text>
       </register>
       <register name="1" type="4">
         <text>CMAKE_SOURCE_DIR</text>
