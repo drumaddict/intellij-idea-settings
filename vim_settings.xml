@@ -12,8 +12,17 @@
     </filemarks>
     <jumps />
     <registers>
+      <register name="1" type="4">
+        <text>value</text>
+      </register>
+      <register name="x" type="4">
+        <text>value</text>
+      </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
+      </register>
+      <register name="*" type="4">
+        <text>value</text>
       </register>
       <register name="-" type="4">
         <text>9</text>
@@ -33,6 +42,7 @@
         <entry>action CloseAllEditorsButActive</entry>
         <entry>action CloseAllEditors</entry>
         <entry>action AceAction</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
