@@ -3,29 +3,94 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" timestamp="1526339399802">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="14" column="0" />
+      </file>
       <file name="$USER_HOME$/interview/atm/build.gradle" timestamp="1526310026136">
         <mark key="[" line="7" column="25" />
         <mark key="]" line="7" column="24" />
         <mark key="." line="7" column="24" />
         <mark key="^" line="7" column="24" />
       </file>
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526340446594">
+        <mark key="'" line="12" column="2" />
+        <mark key="[" line="9" column="42" />
+        <mark key="]" line="9" column="41" />
+        <mark key="^" line="9" column="41" />
+        <mark key="." line="9" column="41" />
+      </file>
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" timestamp="1526340350652">
+        <mark key="'" line="12" column="2" />
+        <mark key="[" line="12" column="2" />
+        <mark key="]" line="15" column="2" />
+      </file>
+      <file name="$USER_HOME$/interview/atm/.gitignore" timestamp="1526339624328">
+        <mark key="[" line="14" column="4" />
+        <mark key="]" line="14" column="4" />
+        <mark key="^" line="14" column="4" />
+        <mark key="." line="14" column="4" />
+      </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="4" column="27" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
+      <jump line="35" column="0" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
+      <jump line="22" column="8" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
+      <jump line="6" column="21" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" />
+      <jump line="24" column="56" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
+      <jump line="11" column="0" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
+      <jump line="23" column="8" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
+      <jump line="26" column="57" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
+      <jump line="29" column="4" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
+      <jump line="14" column="1" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
+      <jump line="12" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" />
+      <jump line="10" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+    </jumps>
     <registers>
-      <register name="1" type="4">
-        <text>value</text>
-      </register>
-      <register name="x" type="4">
-        <text>value</text>
-      </register>
-      <register name=":" type="4">
-        <text>action SaveAll</text>
-      </register>
       <register name="*" type="4">
-        <text>value</text>
+        <text>private</text>
       </register>
       <register name="-" type="4">
-        <text>9</text>
+        <text>d</text>
+      </register>
+      <register name="0" type="4">
+        <text encoding="base64">cHJpdmF0ZSBCYW5rbm90ZShTdHJpbmcgc3ltYm9sLCBmaW5hbCBTdXBwbGllcjxCaWdJbnRlZ2VyPiBzdXBwbGllcikgewogICAgdGhpcy5zeW1ib2wgPSBzeW1ib2w7CiAgICB0aGlzLnN1cHBsaWVyID0gc3VwcGxpZXI7CiAgfQ==</text>
+      </register>
+      <register name="1" type="4">
+        <text>private</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">LyoqIEBhdXRob3IgdG1qZWUgKi8K</text>
+      </register>
+      <register name="3" type="4">
+        <text>assertEquals(FIFTY.getSymbol(), &quot;$50&quot;);
+    assertEquals(TWENTY.getSymbol(), &quot;$20&quot;);</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="5" type="4">
+        <text>assertEquals(FIFTY.get(),BigInteger.valueOf(50));
+        assertEquals(TWENTY.get(),BigInteger.valueOf(20));</text>
+      </register>
+      <register name="6" type="4">
+        <text>values</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Ly8gICAgICAgIExpc3Q8SXRlcmF0b3I8Tm90ZT4+IHBlcm11dGF0aW9uc0xpc3QgPSBOb3RlLnBlcm11dGF0aW9ucygpOwo=</text>
+      </register>
+      <register name="x" type="4">
+        <text>private</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Ly8gICAgICAgIGFzc2VydEVxdWFscyhpdGVyYXRvckFzU3RyaW5nKHBlcm11dGF0aW9uc0xpc3QuZ2V0KDIpKSwgIiQxMCQyMCQ1MCIpOwo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Ly8gICAgICAgIGFzc2VydEVxdWFscyhpdGVyYXRvckFzU3RyaW5nKHBlcm11dGF0aW9uc0xpc3QuZ2V0KDEpKSwgIiQyMCQ1MCQxMCIpOwo=</text>
+      </register>
+      <register name=":" type="4">
+        <text>action NextTab</text>
       </register>
     </registers>
     <search>
@@ -42,8 +107,13 @@
         <entry>action CloseAllEditorsButActive</entry>
         <entry>action CloseAllEditors</entry>
         <entry>action AceAction</entry>
+        <entry>action PreviousOccurence</entry>
+        <entry>action GotoClass</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action NextTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -63,6 +133,18 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed G</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>shift pressed ENTER</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
