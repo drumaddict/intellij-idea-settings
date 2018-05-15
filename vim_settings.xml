@@ -14,13 +14,6 @@
         <mark key="." line="7" column="24" />
         <mark key="^" line="7" column="24" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526342150397">
-        <mark key="'" line="10" column="63" />
-        <mark key="[" line="10" column="53" />
-        <mark key="]" line="10" column="51" />
-        <mark key="^" line="10" column="51" />
-        <mark key="." line="10" column="51" />
-      </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" timestamp="1526340350652">
         <mark key="'" line="12" column="2" />
         <mark key="[" line="12" column="2" />
@@ -49,47 +42,50 @@
       <jump line="12" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="9" column="8" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="11" column="63" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="19" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="27" column="33" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="25" column="68" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>symbol</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ZXh0ZW5kcyBIYXNoTWFwPEJhbmtub3RlLCBCaWdJbnRlZ2VyPg==</text>
+        <text>a.getValue())</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">QXJyYXlMaXN0PEhhc2hNYXA8QmFua25vdGUsIEJpZ0ludGVnZXI+PiA=</text>
+        <text encoding="base64">cmV0dXJuIHN0b3JlLmVudHJ5U2V0KCkuCiAgICAgICAgICBzdHJlYW0oKS5tYXAoKGEpIC0+IGEuZ2V0S2V5KCkuZ2V0KCkuaW50VmFsdWUoKSAqIGEuZ2V0VmFsdWUoKS5pbnRWYWx1ZSgpKS4KICAgICAgICAgIG1hcChCaWdJbnRlZ2VyOjp2YWx1ZU9mKS4KICAgICAgICAgIHJlZHVjZShCaWdJbnRlZ2VyOjphZGQpOw==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5zdW4ueG1sLmludGVybmFsLnhzb20uaW1wbC5zY2QuSXRlcmF0b3JzOwo=</text>
+        <text encoding="base64">ICAgICAgICAgIG1hcChCaWdJbnRlZ2VyOjp2YWx1ZU9mKS4K</text>
       </register>
-      <register name="2" type="4">
-        <text>symbol</text>
+      <register name="2" type="2">
+        <text encoding="base64">aW1wb3J0IGNvbS5zdW4ueG1sLmludGVybmFsLnhzb20uaW1wbC5zY2QuSXRlcmF0b3JzOwo=</text>
       </register>
       <register name="3" type="4">
         <text>symbol</text>
       </register>
-      <register name="4" type="2">
+      <register name="4" type="4">
+        <text>symbol</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgIHRoaXMuc3VwcGxpZXIgPSBzdXBwbGllcjsK</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">QXJyYXk8QXJyYXk8QmFua25vdGUsIEJpZ0ludGVnZXI+Pg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>private</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">LyoqIEBhdXRob3IgdG1qZWUgKi8K</text>
       </register>
       <register name="x" type="4">
         <text>symbol</text>
       </register>
-      <register name="8" type="4">
+      <register name="8" type="2">
+        <text encoding="base64">LyoqIEBhdXRob3IgdG1qZWUgKi8K</text>
+      </register>
+      <register name="9" type="4">
         <text>assertEquals(FIFTY.getSymbol(), &quot;$50&quot;);
     assertEquals(TWENTY.getSymbol(), &quot;$20&quot;);</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -111,10 +107,11 @@
         <entry>action AceAction</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action GotoClass</entry>
-        <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0NsYXNz</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
