@@ -3,9 +3,10 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" timestamp="1526339399802">
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="14" column="0" />
+      <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" timestamp="1526394905882">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="28" column="0" />
         <mark key="." line="14" column="0" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/exception/BaseAtmException.java" timestamp="1526386969141">
@@ -38,12 +39,11 @@
         <mark key="." line="7" column="24" />
         <mark key="^" line="7" column="24" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526390613876">
-        <mark key="'" line="44" column="53" />
-        <mark key="[" line="44" column="18" />
-        <mark key="]" line="44" column="54" />
-        <mark key="^" line="44" column="17" />
-        <mark key="." line="44" column="18" />
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526397312546">
+        <mark key="[" line="89" column="89" />
+        <mark key="]" line="89" column="90" />
+        <mark key="^" line="89" column="90" />
+        <mark key="." line="89" column="90" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" timestamp="1526388162293">
         <mark key="'" line="12" column="2" />
@@ -56,6 +56,13 @@
         <mark key="]" line="2" column="8" />
         <mark key="." line="2" column="8" />
         <mark key="^" line="2" column="8" />
+      </file>
+      <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" timestamp="1526396530924">
+        <mark key="'" line="21" column="4" />
+        <mark key="[" line="36" column="106" />
+        <mark key="]" line="36" column="117" />
+        <mark key="." line="36" column="117" />
+        <mark key="^" line="36" column="117" />
       </file>
       <file name="$USER_HOME$/interview/atm/.gitignore" timestamp="1526339624328">
         <mark key="[" line="14" column="4" />
@@ -79,8 +86,6 @@
       <jump line="10" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="19" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="27" column="33" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
-      <jump line="12" column="34" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
-      <jump line="13" column="71" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="15" column="32" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="14" column="103" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="37" column="1" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
@@ -110,49 +115,65 @@
       <jump line="21" column="14" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/exception/IllegalBanknoteSubstractionException.java" />
       <jump line="19" column="85" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/exception/IllegalBanknoteSubstractionException.java" />
       <jump line="20" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/exception/IllegalBanknoteSubstractionException.java" />
-      <jump line="31" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
-      <jump line="40" column="18" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="44" column="53" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="40" column="20" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="48" column="39" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="43" column="53" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="13" column="4" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="31" column="14" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="29" column="49" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="30" column="76" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="12" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="27" column="1" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
+      <jump line="18" column="4" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
+      <jump line="26" column="2" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
+      <jump line="34" column="2" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
+      <jump line="20" column="4" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
+      <jump line="30" column="6" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
+      <jump line="21" column="4" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
+      <jump line="95" column="4" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>leftOperand</text>
+        <text>user</text>
       </register>
       <register name="-" type="4">
         <text>}</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">bGVmdENvdW50LmNvbXBhcmVUbyhyaWdodENvdW50KSA8IDAp</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgIEJhbmtub3RlQnVuZGxlIHRocmVlRmlmdGllc0ZvdXJUd2VudGllcyA9IG5ldyBCYW5rbm90ZUJ1bmRsZSggTWFwLm9mKEZJRlRZLCBCaWdJbnRlZ2VyLnZhbHVlT2YoMyksIFRXRU5UWSwgQmlnSW50ZWdlci52YWx1ZU9mKDQpKSk7Cg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgdGhyb3cgbmV3IElsbGVnYWxCYW5rbm90ZVN1YnN0cmFjdGlvbkV4Y2VwdGlvbih0aGlzLCBiYW5rbm90ZUJ1bmRsZSk7Cg==</text>
+      <register name="1" type="4">
+        <text>user</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">aWYgKGxlZnRDb3VudC5jb21wYXJlVG8ocmlnaHRDb3VudCkgPCAwKSB7CiAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBJbGxlZ2FsQmFua25vdGVTdWJzdHJhY3Rpb25FeGNlcHRpb24odGhpcywgYmFua25vdGVCdW5kbGUpOwogICAgICAgICAgICAgIH0=</text>
+        <text>User</text>
       </register>
-      <register name="3" type="2">
+      <register name="3" type="4">
+        <text>fiveFiftiesTwoTwenties</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>leftOperand</text>
+      <register name="5" type="4">
+        <text>assertEquals(FIFTY.getSymbol(), &quot;$50&quot;);
+    assertEquals(TWENTY.getSymbol(), &quot;$20&quot;);</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gZ2V0RXhjZXB0aW9uTWVzc2FnZSgpICsgY3VzdG9tTWVzc2FnZTsK</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGFzc2VydEVxdWFscyhUV0VOVFkuZ2V0KCksIEJpZ0ludGVnZXIudmFsdWVPZigyMCkpOwo=</text>
       </register>
-      <register name="6" type="4">
-        <text>leftOperand</text>
-      </register>
-      <register name="7" type="4">
-        <text>leftOperand</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>leftOperand</text>
+        <text>user</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>leftOperand</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -174,13 +195,15 @@
         <entry>action AceAction</entry>
         <entry>action GotoClass</entry>
         <entry>action NextTab</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0NsYXNz</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
+        <entry>action SelectIn</entry>
         <entry>action PreviousTab</entry>
-        <entry>action ReformatCode</entry>
+        <entry>action RenameFile</entry>
         <entry>action VimFilePrevious</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0NsYXNz</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
