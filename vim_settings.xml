@@ -14,11 +14,12 @@
         <mark key="." line="7" column="24" />
         <mark key="^" line="7" column="24" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526344253255">
-        <mark key="[" line="21" column="33" />
-        <mark key="]" line="21" column="19" />
-        <mark key="." line="21" column="19" />
-        <mark key="^" line="21" column="19" />
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526368199329">
+        <mark key="'" line="39" column="1" />
+        <mark key="[" line="38" column="64" />
+        <mark key="]" line="38" column="26" />
+        <mark key="." line="38" column="26" />
+        <mark key="^" line="38" column="26" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" timestamp="1526340350652">
         <mark key="'" line="12" column="2" />
@@ -45,52 +46,59 @@
       <jump line="14" column="1" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
       <jump line="12" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" />
       <jump line="10" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
-      <jump line="12" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
-      <jump line="9" column="8" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="11" column="63" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="19" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="27" column="33" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="25" column="68" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="9" column="10" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="12" column="34" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="13" column="71" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="15" column="32" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="14" column="103" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="37" column="1" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="42" column="1" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>symbol</text>
+        <text>UnaryOperator</text>
       </register>
       <register name="-" type="4">
-        <text>a.getValue())</text>
+        <text>r</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cmV0dXJuIHN0b3JlLmVudHJ5U2V0KCkuCiAgICAgICAgICBzdHJlYW0oKS5tYXAoKGEpIC0+IGEuZ2V0S2V5KCkuZ2V0KCkuaW50VmFsdWUoKSAqIGEuZ2V0VmFsdWUoKS5pbnRWYWx1ZSgpKS4KICAgICAgICAgIG1hcChCaWdJbnRlZ2VyOjp2YWx1ZU9mKS4KICAgICAgICAgIHJlZHVjZShCaWdJbnRlZ2VyOjphZGQpOw==</text>
+        <text>public BigInteger getBanknoteCount(Banknote banknote) {
+     return  store.getOrDefault(banknote, BigInteger.valueOf(0)) ;
+ }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">Ly8gIHJldHVybiBzdG9yZS5lbnRyeVNldCgpLgogICAgLy8gICAgICAgICAgc3RyZWFtKCkubWFwKChhKSAtPiBhLmdldEtleSgpLmdldCgpLmludFZhbHVlKCkgKiBhLmdldFZhbHVlKCkuaW50VmFsdWUoKSkuCiAgICAvLyAgICAgICAgICBtYXAoQmlnSW50ZWdlcjo6dmFsdWVPZikuCiAgICAvLyAgICAgICAgICByZWR1Y2UoQmlnSW50ZWdlcjo6YWRkKTs=</text>
+        <text>UnaryOperator</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgIG1hcChCaWdJbnRlZ2VyOjp2YWx1ZU9mKS4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5zdW4ueG1sLmludGVybmFsLnhzb20uaW1wbC5zY2QuSXRlcmF0b3JzOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="4">
-        <text>symbol</text>
+        <text encoding="base64">Ly8gIHJldHVybiBzdG9yZS5lbnRyeVNldCgpLgogICAgLy8gICAgICAgICAgc3RyZWFtKCkubWFwKChhKSAtPiBhLmdldEtleSgpLmdldCgpLmludFZhbHVlKCkgKiBhLmdldFZhbHVlKCkuaW50VmFsdWUoKSkuCiAgICAvLyAgICAgICAgICBtYXAoQmlnSW50ZWdlcjo6dmFsdWVPZikuCiAgICAvLyAgICAgICAgICByZWR1Y2UoQmlnSW50ZWdlcjo6YWRkKTs=</text>
       </register>
-      <register name="7" type="4">
-        <text>symbol</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgIG1hcChCaWdJbnRlZ2VyOjp2YWx1ZU9mKS4K</text>
       </register>
       <register name="x" type="4">
-        <text>symbol</text>
+        <text>UnaryOperator</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHRoaXMuc3VwcGxpZXIgPSBzdXBwbGllcjsK</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5zdW4ueG1sLmludGVybmFsLnhzb20uaW1wbC5zY2QuSXRlcmF0b3JzOwo=</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">QXJyYXk8QXJyYXk8QmFua25vdGUsIEJpZ0ludGVnZXI+Pg==</text>
+        <text>symbol</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
