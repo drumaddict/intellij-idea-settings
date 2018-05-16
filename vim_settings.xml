@@ -17,6 +17,12 @@
         <mark key="^" line="4" column="9" />
         <mark key="." line="4" column="9" />
       </file>
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Transaction.java" timestamp="1526509372509">
+        <mark key="[" line="2" column="8" />
+        <mark key="]" line="2" column="7" />
+        <mark key="." line="2" column="7" />
+        <mark key="^" line="2" column="7" />
+      </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/exception/IllegalBanknoteBundleSubstraction.java" timestamp="1526384267224">
         <mark key="[" line="2" column="64" />
         <mark key="]" line="2" column="65" />
@@ -69,12 +75,15 @@
         <mark key="." line="42" column="1" />
         <mark key="o" line="19" column="39" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" timestamp="1526508361177">
-        <mark key="'" line="33" column="6" />
-        <mark key="[" line="33" column="46" />
-        <mark key="]" line="33" column="59" />
-        <mark key="^" line="33" column="59" />
-        <mark key="." line="33" column="59" />
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" timestamp="1526509492272">
+        <mark key="'" line="37" column="98" />
+        <mark key="g" line="10" column="13" />
+        <mark key="j" line="10" column="13" />
+        <mark key="[" line="37" column="2" />
+        <mark key="k" line="18" column="25" />
+        <mark key="]" line="37" column="2" />
+        <mark key="^" line="10" column="13" />
+        <mark key="." line="37" column="2" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526503744624">
         <mark key="[" line="5" column="11" />
@@ -103,8 +112,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="2" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
-      <jump line="33" column="2" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
       <jump line="78" column="6" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
       <jump line="71" column="0" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
       <jump line="85" column="2" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
@@ -203,51 +210,50 @@
       <jump line="13" column="4" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
       <jump line="24" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
       <jump line="33" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
+      <jump line="31" column="8" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
+      <jump line="37" column="98" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text encoding="base64">d2l0aGRyYXdCYW5rbm90ZUJ1bmRsZS5nZXRBbW91bnQoKSA+IGF0bS5nZXRUb3RhbEFtb3VudCgp</text>
+        <text>void</text>
       </register>
       <register name="-" type="4">
-        <text>/</text>
+        <text>W</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">aWYgKHdpdGhkcmF3QmFua25vdGVCdW5kbGUuZ2V0QW1vdW50KCkgPiBhdG0uZ2V0VG90YWxBbW91bnQoKSApewogICAgICAgICB0aGlzLmVycm9yTWVzc2FnZSA9ICIgSW5zdWZmaWNpZW50IEFUTSBjYXNoIHN1cHBseSwgdHJ5IGFuIGFtb3VudCBsZXNzIG9yIGVxdWFsIHRoYW4gIiArIGF0bS5nZXRUb3RhbEFtb3VudCgpOwogICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICB9</text>
+        <text encoding="base64">YXRtLmdldFRvdGFsQmFua25vdGVCdW5kbGUoKS5zdWJzdHJhY3Qod2l0aGRyYXdCYW5rbm90ZUJ1bmRsZSk7CiAgICBuZXdUb3RhbEJhbmtub3RlQnVuZGxlLmlmUHJlc2VudChiYW5rbm90ZUJ1bmRsZSAtPiBhdG0uc2V0VG90YWxCYW5rbm90ZUJ1bmRsZShiYW5rbm90ZUJ1bmRsZSkpOw==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">IGlmIChuZXdUb3RhbEJhbmtub3RlQnVuZGxlKSB7CiAgICAgIHRoaXMuZXJyb3JNZXNzYWdlID0KICAgICAgICAgICIgSW5zdWZmaWNpZW50IEFUTSBjYXNoIHN1cHBseSwgdHJ5IGFuIGFtb3VudCBsZXNzIG9yIGVxdWFsIHRoYW4gIiArIGF0bS5nZXRUb3RhbEFtb3VudCgpOwogICAgICByZXR1cm4gZmFsc2U7CiAgICB9</text>
-      </register>
-      <register name="2" type="4">
-        <text>if (newTotalBanknoteBundle) {
-      this.errorMessage =
-          &quot; Insufficient ATM cash supply, try an amount less or equal than &quot; + atm.getTotalAmount();
-      return false;
-    }
+        <text>public String getErrorMessage() {
+    return this.errorMessage;
   }</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">d2l0aGRyYXdCYW5rbm90ZUJ1bmRsZS5nZXRBbW91bnQoKSA+IGF0bS5nZXRUb3RhbEFtb3VudCgp</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICBwcml2YXRlIGJvb2xlYW4gd2l0aERyYXdhbElzTGVnYWwoQmFua25vdGVCdW5kbGUgYW1vdW50QXNCYW5rbm90ZUJ1bmRsZSkgewogICAgcmV0dXJuIChhdG0uZ2V0VG90YWxCYW5rbm90ZUJ1bmRsZSgpLmdldEFtb3VudCgpLmNvbXBhcmVUbyhhbW91bnRBc0Jhbmtub3RlQnVuZGxlLmdldEFtb3VudCgpKQogICAgICAgICAgICA+PSAwKQogICAgICAgICYmIGF0bS5nZXRUb3RhbEJhbmtub3RlQnVuZGxlKCkuc3Vic3RyYWN0KGFtb3VudEFzQmFua25vdGVCdW5kbGUpLmlzUHJlc2VudCgpOwogIH0=</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>void</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text encoding="base64">d2l0aGRyYXdCYW5rbm90ZUJ1bmRsZS5nZXRBbW91bnQoKSA+IGF0bS5nZXRUb3RhbEFtb3VudCgp</text>
-      </register>
-      <register name="8" type="4">
         <text>void</text>
       </register>
+      <register name="8" type="4">
+        <text encoding="base64">cmV0dXJuIGF0bS5nZXRUb3RhbEJhbmtub3RlQnVuZGxlKCkuCiAgICAgICAgICAgIHN1YnN0cmFjdCh3aXRoZHJhd0Jhbmtub3RlQnVuZGxlKS4KICAgICAgICAgICBpZlByZXNlbnQoYmFua25vdGVCdW5kbGUgLT4gYXRtLnNldFRvdGFsQmFua25vdGVCdW5kbGUoYmFua25vdGVCdW5kbGUpKS4=</text>
+      </register>
       <register name="9" type="4">
-        <text>tm</text>
+        <text encoding="base64">IGlmIChuZXdUb3RhbEJhbmtub3RlQnVuZGxlKSB7CiAgICAgIHRoaXMuZXJyb3JNZXNzYWdlID0KICAgICAgICAgICIgSW5zdWZmaWNpZW50IEFUTSBjYXNoIHN1cHBseSwgdHJ5IGFuIGFtb3VudCBsZXNzIG9yIGVxdWFsIHRoYW4gIiArIGF0bS5nZXRUb3RhbEFtb3VudCgpOwogICAgICByZXR1cm4gZmFsc2U7CiAgICB9</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -294,6 +300,9 @@
         <entry>action AceLineAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action ReformatCode</entry>
+        <entry>action GotoSymbol</entry>
+        <entry>action GotoSuperMethod</entry>
+        <entry>action GotoImplementation</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
