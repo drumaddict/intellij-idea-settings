@@ -39,26 +39,29 @@
         <mark key="." line="7" column="24" />
         <mark key="^" line="7" column="24" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" timestamp="1526419818267">
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" timestamp="1526453177650">
         <mark key="'" line="8" column="2" />
-        <mark key="[" line="8" column="42" />
-        <mark key="]" line="8" column="42" />
-        <mark key="^" line="8" column="42" />
-        <mark key="." line="8" column="42" />
+        <mark key="[" line="27" column="19" />
+        <mark key="]" line="27" column="18" />
+        <mark key="^" line="27" column="18" />
+        <mark key="." line="27" column="18" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" timestamp="1526424084496">
-        <mark key="[" line="83" column="0" />
-        <mark key="]" line="83" column="0" />
+      <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" timestamp="1526452290834">
+        <mark key="'" line="10" column="0" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="11" column="49" />
         <mark key="." line="83" column="0" />
         <mark key="^" line="81" column="101" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Atm.java" timestamp="1526426655683" />
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" timestamp="1526427416950">
-        <mark key="'" line="29" column="73" />
-        <mark key="[" line="20" column="52" />
-        <mark key="]" line="20" column="52" />
-        <mark key="^" line="20" column="52" />
-        <mark key="." line="20" column="52" />
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Atm.java" timestamp="1526451766903">
+        <mark key="o" line="19" column="39" />
+      </file>
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" timestamp="1526453791045">
+        <mark key="'" line="39" column="6" />
+        <mark key="[" line="45" column="46" />
+        <mark key="]" line="45" column="9" />
+        <mark key="^" line="45" column="9" />
+        <mark key="." line="45" column="9" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526420484417">
         <mark key="[" line="88" column="90" />
@@ -169,58 +172,58 @@
       <jump line="5" column="4" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="14" column="3" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="19" column="3" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Atm.java" />
-      <jump line="6" column="3" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
       <jump line="5" column="4" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
       <jump line="11" column="8" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
       <jump line="20" column="7" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
       <jump line="26" column="36" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
       <jump line="21" column="7" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
       <jump line="29" column="73" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
+      <jump line="10" column="0" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
+      <jump line="6" column="49" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
+      <jump line="39" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>void</text>
+        <text>FIFTY</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text encoding="base64">IA==</text>
       </register>
-      <register name="0" type="4">
-        <text>atm.getTotalBanknoteBundle().substract(amountAsBanknoteBundle);</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgZmluYWwgaW50ICBmaWZ0eVZhbHVlID0gRklGVFkuZ2V0QXNJbnQoKTsK</text>
       </register>
-      <register name="1" type="4">
-        <text>void</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgZmluYWwgaW50ICBmaWZ0eVZhbHVlID0gRklGVFkuZ2V0KCkuaW50VmFsdWUoKTsK</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>FIFTY</text>
       </register>
       <register name="3" type="4">
-        <text>atm</text>
+        <text>fiftyValue</text>
       </register>
-      <register name="4" type="4">
-        <text>BigInteger</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgQmlnSW50ZWdlciBtYXhpbXVtTnVtYmVyT2ZGaWZ0aWVzID0gYW1vdW50LmRpdmlkZShGSUZUWS5nZXQoKSk7Cg==</text>
       </register>
       <register name="6" type="4">
-        <text>public Atm(BanknoteBundle totalBanknoteBundle) {
-        this.totalBanknoteBundle = totalBanknoteBundle;
-    }</text>
-      </register>
-      <register name="7" type="4">
-        <text>totalBanknoteBundle</text>
-      </register>
-      <register name="x" type="4">
         <text>void</text>
       </register>
-      <register name="8" type="4">
-        <text>BanknoteBundle</text>
-      </register>
-      <register name="9" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="x" type="4">
+        <text>FIFTY</text>
+      </register>
+      <register name="8" type="4">
+        <text>atm</text>
+      </register>
+      <register name="9" type="4">
+        <text>BigInteger</text>
+      </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -239,26 +242,27 @@
         <entry>action PreviousOccurence</entry>
         <entry>action RenameFile</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0NsYXNz</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action NextTab</entry>
-        <entry>action SelectIn</entry>
         <entry>action Generate</entry>
         <entry>action AceLineAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVmb3JtYXRDb2Rl</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUnVu</entry>
         <entry>action AceAction</entry>
-        <entry>action PreviousTab</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action Run</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
         <entry>action Find</entry>
         <entry>action SplitVertically</entry>
-        <entry>action HideAllWindows</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action AceTargetAction</entry>
-        <entry>action SaveAll</entry>
         <entry>action ReformatCode</entry>
+        <entry>action ShowSettings</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action SelectIn</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
