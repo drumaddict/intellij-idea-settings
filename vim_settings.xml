@@ -56,12 +56,12 @@
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Atm.java" timestamp="1526451766903">
         <mark key="o" line="19" column="39" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" timestamp="1526453791045">
-        <mark key="'" line="39" column="6" />
-        <mark key="[" line="45" column="46" />
-        <mark key="]" line="45" column="9" />
-        <mark key="^" line="45" column="9" />
-        <mark key="." line="45" column="9" />
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" timestamp="1526455034101">
+        <mark key="'" line="50" column="109" />
+        <mark key="[" line="41" column="77" />
+        <mark key="]" line="41" column="87" />
+        <mark key="^" line="41" column="87" />
+        <mark key="." line="41" column="87" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526420484417">
         <mark key="[" line="88" column="90" />
@@ -181,46 +181,50 @@
       <jump line="10" column="0" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
       <jump line="6" column="49" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
       <jump line="39" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
+      <jump line="46" column="11" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
+      <jump line="48" column="79" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
+      <jump line="49" column="10" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
+      <jump line="50" column="109" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>FIFTY</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>BanknoteBundle(Map.of(FIFTY, fiftiesCount, TWENTY, ))</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgZmluYWwgaW50ICBmaWZ0eVZhbHVlID0gRklGVFkuZ2V0QXNJbnQoKTsK</text>
+      <register name="0" type="4">
+        <text encoding="base64">KGFtb3VudCAtIGZpZnR5VmFsdWUgKiBmaWZ0aWVzQ291bnQpICUgdHdlbnR5VmFsdWUg</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgZmluYWwgaW50ICBmaWZ0eVZhbHVlID0gRklGVFkuZ2V0KCkuaW50VmFsdWUoKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>FIFTY</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="3" type="4">
-        <text>fiftyValue</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgIGludCB0d2VudGllc0NvdW50ID0oYW1vdW50IC0gZmlmdHlWYWx1ZSAqIGZpZnRpZXNDb3VudCkgLyB0d2VudHlWYWx1ZSA7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgQmlnSW50ZWdlciBtYXhpbXVtTnVtYmVyT2ZGaWZ0aWVzID0gYW1vdW50LmRpdmlkZShGSUZUWS5nZXQoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbnQgdHdlbnRpZXNDb3VudCAgCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>void</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICBpZgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgZmluYWwgaW50ICBmaWZ0eVZhbHVlID0gRklGVFkuZ2V0KCkuaW50VmFsdWUoKTsK</text>
       </register>
       <register name="x" type="4">
         <text>FIFTY</text>
       </register>
       <register name="8" type="4">
-        <text>atm</text>
+        <text>FIFTY</text>
       </register>
       <register name="9" type="4">
-        <text>BigInteger</text>
+        <text>fiftyValue</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -255,13 +259,14 @@
         <entry>action SplitVertically</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action AceTargetAction</entry>
-        <entry>action ReformatCode</entry>
         <entry>action ShowSettings</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action HideAllWindows</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action SelectIn</entry>
         <entry>action PreviousTab</entry>
+        <entry>action $SelectAll</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
