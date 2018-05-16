@@ -69,12 +69,12 @@
         <mark key="." line="42" column="1" />
         <mark key="o" line="19" column="39" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" timestamp="1526506557453">
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" timestamp="1526508361177">
         <mark key="'" line="33" column="6" />
-        <mark key="[" line="31" column="103" />
-        <mark key="]" line="31" column="42" />
-        <mark key="^" line="31" column="42" />
-        <mark key="." line="31" column="42" />
+        <mark key="[" line="33" column="46" />
+        <mark key="]" line="33" column="59" />
+        <mark key="^" line="33" column="59" />
+        <mark key="." line="33" column="59" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526503744624">
         <mark key="[" line="5" column="11" />
@@ -215,37 +215,42 @@
         <text encoding="base64">aWYgKHdpdGhkcmF3QmFua25vdGVCdW5kbGUuZ2V0QW1vdW50KCkgPiBhdG0uZ2V0VG90YWxBbW91bnQoKSApewogICAgICAgICB0aGlzLmVycm9yTWVzc2FnZSA9ICIgSW5zdWZmaWNpZW50IEFUTSBjYXNoIHN1cHBseSwgdHJ5IGFuIGFtb3VudCBsZXNzIG9yIGVxdWFsIHRoYW4gIiArIGF0bS5nZXRUb3RhbEFtb3VudCgpOwogICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICB9</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">d2l0aGRyYXdCYW5rbm90ZUJ1bmRsZS5nZXRBbW91bnQoKSA+IGF0bS5nZXRUb3RhbEFtb3VudCgp</text>
+        <text encoding="base64">IGlmIChuZXdUb3RhbEJhbmtub3RlQnVuZGxlKSB7CiAgICAgIHRoaXMuZXJyb3JNZXNzYWdlID0KICAgICAgICAgICIgSW5zdWZmaWNpZW50IEFUTSBjYXNoIHN1cHBseSwgdHJ5IGFuIGFtb3VudCBsZXNzIG9yIGVxdWFsIHRoYW4gIiArIGF0bS5nZXRUb3RhbEFtb3VudCgpOwogICAgICByZXR1cm4gZmFsc2U7CiAgICB9</text>
       </register>
       <register name="2" type="4">
+        <text>if (newTotalBanknoteBundle) {
+      this.errorMessage =
+          &quot; Insufficient ATM cash supply, try an amount less or equal than &quot; + atm.getTotalAmount();
+      return false;
+    }
+  }</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">d2l0aGRyYXdCYW5rbm90ZUJ1bmRsZS5nZXRBbW91bnQoKSA+IGF0bS5nZXRUb3RhbEFtb3VudCgp</text>
+      </register>
+      <register name="4" type="4">
         <text encoding="base64">ICBwcml2YXRlIGJvb2xlYW4gd2l0aERyYXdhbElzTGVnYWwoQmFua25vdGVCdW5kbGUgYW1vdW50QXNCYW5rbm90ZUJ1bmRsZSkgewogICAgcmV0dXJuIChhdG0uZ2V0VG90YWxCYW5rbm90ZUJ1bmRsZSgpLmdldEFtb3VudCgpLmNvbXBhcmVUbyhhbW91bnRBc0Jhbmtub3RlQnVuZGxlLmdldEFtb3VudCgpKQogICAgICAgICAgICA+PSAwKQogICAgICAgICYmIGF0bS5nZXRUb3RhbEJhbmtub3RlQnVuZGxlKCkuc3Vic3RyYWN0KGFtb3VudEFzQmFua25vdGVCdW5kbGUpLmlzUHJlc2VudCgpOwogIH0=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>void</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>tm</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text encoding="base64">d2l0aGRyYXdCYW5rbm90ZUJ1bmRsZS5nZXRBbW91bnQoKSA+IGF0bS5nZXRUb3RhbEFtb3VudCgp</text>
       </register>
       <register name="8" type="4">
-        <text>Atm</text>
+        <text>void</text>
       </register>
       <register name="9" type="4">
-        <text>banknoteBundle</text>
+        <text>tm</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -288,8 +293,8 @@
         <entry>action PreviousTab</entry>
         <entry>action AceLineAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action SaveAll</entry>
         <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
