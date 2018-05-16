@@ -53,12 +53,12 @@
         <mark key="^" line="81" column="101" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Atm.java" timestamp="1526426655683" />
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" timestamp="1526427231559">
-        <mark key="'" line="26" column="36" />
-        <mark key="[" line="25" column="99" />
-        <mark key="]" line="25" column="99" />
-        <mark key="^" line="25" column="99" />
-        <mark key="." line="25" column="99" />
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" timestamp="1526427416950">
+        <mark key="'" line="29" column="73" />
+        <mark key="[" line="20" column="52" />
+        <mark key="]" line="20" column="52" />
+        <mark key="^" line="20" column="52" />
+        <mark key="." line="20" column="52" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526420484417">
         <mark key="[" line="88" column="90" />
@@ -174,6 +174,8 @@
       <jump line="11" column="8" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
       <jump line="20" column="7" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
       <jump line="26" column="36" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
+      <jump line="21" column="7" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
+      <jump line="29" column="73" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/WithdrawalTransaction.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -183,7 +185,7 @@
         <text />
       </register>
       <register name="0" type="4">
-        <text>atm.getTotalBanknoteBundle().</text>
+        <text>atm.getTotalBanknoteBundle().substract(amountAsBanknoteBundle);</text>
       </register>
       <register name="1" type="4">
         <text>void</text>
@@ -218,7 +220,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -253,10 +255,10 @@
         <entry>action SplitVertically</entry>
         <entry>action HideAllWindows</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action ReformatCode</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action AceTargetAction</entry>
         <entry>action SaveAll</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
