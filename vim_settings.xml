@@ -124,13 +124,13 @@
       <file name="/fragment.java" timestamp="1526473201834">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" timestamp="1526561984069">
-        <mark key="'" line="145" column="6" />
-        <mark key="[" line="134" column="70" />
-        <mark key="]" line="134" column="74" />
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" timestamp="1526562998937">
+        <mark key="'" line="119" column="12" />
+        <mark key="[" line="119" column="50" />
+        <mark key="]" line="119" column="24" />
         <mark key="m" line="137" column="65" />
-        <mark key="^" line="134" column="74" />
-        <mark key="." line="134" column="74" />
+        <mark key="^" line="119" column="24" />
+        <mark key="." line="119" column="24" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/AtmTest.java" timestamp="1526560097264">
         <mark key="'" line="19" column="48" />
@@ -230,7 +230,6 @@
       <jump line="19" column="48" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/AtmTest.java" />
       <jump line="116" column="4" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="118" column="4" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
-      <jump line="119" column="104" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="122" column="23" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="124" column="4" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="110" column="45" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
@@ -240,6 +239,7 @@
       <jump line="130" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="144" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="145" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
+      <jump line="119" column="12" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -249,7 +249,7 @@
         <text encoding="base64">Y29tYmluYXRpb25zTGlzdC5nZXQoaSkg</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJMaXN0Iik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoYmFua25vdGVDb21iaW5hdGlvblN0cmF0ZWd5KQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIFN5c3RlbS5vdXQucHJpbnRsbigiTGlzdCIpOwo=</text>
@@ -328,9 +328,10 @@
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action ReformatCode</entry>
         <entry>action HideAllWindows</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0NsYXNz</entry>
+        <entry>action TabShiftActions.StretchDown</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
