@@ -124,13 +124,13 @@
       <file name="/fragment.java" timestamp="1526473201834">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" timestamp="1526566850820">
-        <mark key="'" line="110" column="0" />
-        <mark key="[" line="118" column="0" />
-        <mark key="]" line="118" column="0" />
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" timestamp="1526570655414">
+        <mark key="'" line="117" column="12" />
+        <mark key="[" line="117" column="32" />
+        <mark key="]" line="117" column="34" />
         <mark key="m" line="137" column="65" />
-        <mark key="^" line="113" column="35" />
-        <mark key="." line="118" column="0" />
+        <mark key="^" line="117" column="34" />
+        <mark key="." line="117" column="22" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/AtmTest.java" timestamp="1526560097264">
         <mark key="'" line="19" column="48" />
@@ -229,58 +229,57 @@
       <jump line="130" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="144" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="145" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
-      <jump line="117" column="39" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="107" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="118" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="116" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="119" column="28" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="114" column="3" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
-      <jump line="109" column="43" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="115" column="0" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="112" column="77" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="120" column="8" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="110" column="0" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
+      <jump line="109" column="33" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
+      <jump line="117" column="12" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>printCombinationsConsumer</text>
+        <text>Long</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y29tYmluYXRpb25zTGlzdC5nZXQoaSkg</text>
+        <text />
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">Ly8gICAgICBwcmludEF0bUNhc2hMb2FkSW5mbygpOwo=</text>
+      <register name="0" type="4">
+        <text>.withParseErrorMessagesProvider(errorMessagesProvider)</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">Ly8gICAgaWYgKGF0bS5nZXRUb3RhbEFtb3VudCgpIDwgYW1vdW50KSB7Ci8vCi8vICAgICAgdGVybWluYWwucmVzZXRUb0Jvb2ttYXJrKCJTVEFSVCBXSVRIRFJBVyIpOwovLyAgICAgIHRlcm1pbmFsLnByaW50bG4oIllvdXIgYW1vdW50IGlzIGJpZ2dlciB0aGFuIHRoZSBhdmFpbGFibGUgY2FzaCBvbiB0aGlzIG1hY2hpbmUuIik7Ci8vICAgICAgcHJpbnRBdG1DYXNoTG9hZEluZm8oKTsKLy8gICAgfQ==</text>
+        <text>Long</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgTG9uZyBhdG1DYXNoTG9hZCA9IGF0bS5nZXRUb3RhbEFtb3VudCgpOwo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIExvbmcgYXRtQ2FzaExvYWQgPSBhdG0uZ2V0VG90YWxBbW91bnQoKTsK</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="4">
+        <text encoding="base64">Ly8gICAgaWYgKGF0bS5nZXRUb3RhbEFtb3VudCgpIDwgYW1vdW50KSB7Ci8vCi8vICAgICAgdGVybWluYWwucmVzZXRUb0Jvb2ttYXJrKCJTVEFSVCBXSVRIRFJBVyIpOwovLyAgICAgIHRlcm1pbmFsLnByaW50bG4oIllvdXIgYW1vdW50IGlzIGJpZ2dlciB0aGFuIHRoZSBhdmFpbGFibGUgY2FzaCBvbiB0aGlzIG1hY2hpbmUuIik7Ci8vICAgICAgcHJpbnRBdG1DYXNoTG9hZEluZm8oKTsKLy8gICAgfQ==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgTG9uZyBhdG1DYXNoTG9hZCA9IGF0bS5nZXRUb3RhbEFtb3VudCgpOwo=</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBMb25nIGFtb3VudCA9IHRleHRJTy5uZXdMb25nSW5wdXRSZWFkZXIoKS53aXRoTWluVmFsKDIwTCkucmVhZCgiQW1vdW50OiIpOwo=</text>
+        <text encoding="base64">ICAgIExvbmcgYXRtQ2FzaExvYWQgPSBhdG0uZ2V0VG90YWxBbW91bnQoKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBMb25nIGFtb3VudCA9IHRleHRJTy5uZXdMb25nSW5wdXRSZWFkZXIoKS53aXRoTWluVmFsKDIwTCkucmVhZCgiQW1vdW50OiIpOwo=</text>
       </register>
       <register name="x" type="4">
-        <text>printCombinationsConsumer</text>
+        <text>Long</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="9" type="4">
-        <text>terminal.println(&quot;Your amount is bigger than the available cash on this machine.&quot;);
-      printAtmCashLoadInfo();</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
