@@ -26,6 +26,7 @@
         <mark key="." line="2" column="7" />
         <mark key="^" line="2" column="7" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.beryx/text-io/3.1.3/26a31d52195af96ba3f3b9b80459b3bac470323e/text-io-3.1.3-sources.jar!/org/beryx/textio/InputReader.java" timestamp="1526595848416" />
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteCombinationStrategy.java" timestamp="1526558884788">
         <mark key="[" line="10" column="57" />
         <mark key="]" line="10" column="60" />
@@ -111,11 +112,6 @@
         <mark key="^" line="99" column="53" />
         <mark key="." line="99" column="53" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/exception/IllegalBanknoteBundleSubsraction.java" timestamp="1526384038770">
-        <mark key="]" line="2" column="8" />
-        <mark key="." line="2" column="8" />
-        <mark key="^" line="2" column="8" />
-      </file>
       <file name="$USER_HOME$/interview/atm/.gitignore" timestamp="1526339624328">
         <mark key="[" line="14" column="4" />
         <mark key="]" line="14" column="4" />
@@ -125,13 +121,13 @@
       <file name="/fragment.java" timestamp="1526594218140">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" timestamp="1526594376743">
-        <mark key="'" line="152" column="9" />
-        <mark key="[" line="193" column="90" />
-        <mark key="]" line="193" column="90" />
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" timestamp="1526597342158">
+        <mark key="'" line="138" column="54" />
+        <mark key="[" line="158" column="16" />
+        <mark key="]" line="157" column="65" />
         <mark key="m" line="137" column="65" />
-        <mark key="^" line="193" column="90" />
-        <mark key="." line="193" column="90" />
+        <mark key="^" line="157" column="65" />
+        <mark key="." line="157" column="65" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/AtmTest.java" timestamp="1526560097264">
         <mark key="'" line="19" column="48" />
@@ -141,11 +137,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="0" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" />
-      <jump line="57" column="0" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteCombinationStrategyFactory.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" />
-      <jump line="17" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteCombinationStrategyFactory.java" />
       <jump line="13" column="2" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" />
       <jump line="7" column="53" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteCombinationStrategyFactory.java" />
       <jump line="18" column="52" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteCombinationStrategyFactory.java" />
@@ -241,51 +232,54 @@
       <jump line="163" column="0" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="148" column="12" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="152" column="9" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
+      <jump line="177" column="10" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
+      <jump line="182" column="0" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
+      <jump line="180" column="47" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
+      <jump line="139" column="12" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
+      <jump line="138" column="54" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>filter</text>
+        <text>YourEnumClass</text>
       </register>
       <register name="-" type="4">
         <text>combinationsList.get(combinationIndex - 1)</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgIEFycmF5TGlzdDxTdHJpbmc+IGVycm9yTWVzc2FnZXMgPSBuZXcgQXJyYXlMaXN0PFN0cmluZz4oKTsK</text>
+        <text encoding="base64">ICAgIEVudW1JbnB1dFJlYWRlci5WYWx1ZUNoZWNrZXI8QmFua25vdGVDb21iaW5hdGlvblN0cmF0ZWd5PiBlbXB0eUNvbWJpbmF0aW9uc0NoZWNrZXIgPQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC53aXRoVmFsdWVDaGVja2VyKGVtcHR5Q29tYmluYXRpb25zQ2hlY2tlcikK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>YourEnumClass</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>YourEnumClass</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">RW51bUlucHV0UmVhZGVyLlZhbHVlQ2hlY2tlcjxCYW5rbm90ZUNvbWJpbmF0aW9uU3RyYXRlZ3k+IGVtcHR5Q29tYmluYXRpb25zQ2hlY2tlciA9CiAgICAgICAgKHN0cmF0ZWd5LCBpdGVtbmFtZSkgLT4gewogICAgICAgICAgICBBcnJheUxpc3Q8U3RyaW5nPiBlcnJvck1lc3NhZ2VzID0gbmV3IEFycmF5TGlzdDxTdHJpbmc+KCk7CiAgICAgICAgIFNldDxCYW5rbm90ZUJ1bmRsZT4gY29tYmluYXRpb25zID0KICAgICAgICBhdG0uZ2V0UG9zc2libGVCYW5rbm90ZUJ1bmRsZXNGb3JBbW91bnQoYW1vdW50KQogICAgICAgICAgICAuc3RyZWFtKCkKICAgICAgICAgICAgLmZpbHRlcihzdHJhdGVneSkKICAgICAgICAgICAgLmxpbWl0KEF0bS5DT01CSU5BVElPTl9MSU1JVCkKICAgICAgICAgICAgLmNvbGxlY3QoQ29sbGVjdG9ycy50b1NldCgpKTsKICAgICAgICAgIGlmIChjb21iaW5hdGlvbnMuaXNFbXB0eSgpKQogICAgICAgICAgICBlcnJvck1lc3NhZ2VzLmFkZCgKICAgICAgICAgICAgICAgICJUaGVyZSBhcmUgYXJlIG5vIHZhbGlkIGJhbmtub3RlIGNvbWJpbmF0aW9ucyBmb3IgeW91ciBzZWxlY3RlZCBkaXN0cmlidXRpb24gOiIKICAgICAgICAgICAgICAgICAgICArIGl0ZW1uYW1lKTsKICAgICAgICAgIHJldHVybiBlcnJvck1lc3NhZ2VzOwogICAgICAgIH07</text>
+        <text encoding="base64">ICAgICAgZXJyb3JNZXNzYWdlcy5hZGQoCiAgICAgICAgICAgICAgICAiVGhlcmUgYXJlIGFyZSBubyB2YWxpZCBiYW5rbm90ZSBjb21iaW5hdGlvbnMgZm9yIHlvdXIgc2VsZWN0ZWQgZGlzdHJpYnV0aW9uIDoiCiAgICAgICAgICAgICAgICAgICAgKyBpdGVtbmFtZSk7CiAgICAgICAgICByZXR1cm4gZXJyb3JNZXNzYWdlczs=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="7" type="4">
+        <text>/</text>
       </register>
       <register name="x" type="4">
-        <text>filter</text>
+        <text>YourEnumClass</text>
       </register>
-      <register name="8" type="4">
-        <text>if (combinationsList.isEmpty() ) {
-
-    }</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleLineBreakpoint</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -315,10 +309,11 @@
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action Find</entry>
-        <entry>action ReformatCode</entry>
         <entry>162</entry>
-        <entry>action SaveAll</entry>
         <entry>action ToggleLineBreakpoint</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gR2VuZXJhdGU=</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
