@@ -6,12 +6,12 @@
       <file name="/Dummy.txt" timestamp="1526594202415">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" timestamp="1526471572109">
+      <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" timestamp="1526676639850">
         <mark key="'" line="19" column="6" />
-        <mark key="[" line="23" column="21" />
-        <mark key="]" line="23" column="49" />
-        <mark key="^" line="23" column="49" />
-        <mark key="." line="23" column="49" />
+        <mark key="[" line="21" column="0" />
+        <mark key="]" line="21" column="0" />
+        <mark key="^" line="17" column="16" />
+        <mark key="." line="21" column="0" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/exception/BaseAtmException.java" timestamp="1526386969141">
         <mark key="'" line="3" column="4" />
@@ -68,19 +68,19 @@
         <mark key="^" line="4" column="35" />
         <mark key="." line="4" column="35" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" timestamp="1526504160004">
-        <mark key="'" line="13" column="2" />
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="10" column="40" />
-        <mark key="^" line="7" column="21" />
-        <mark key="." line="2" column="0" />
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Banknote.java" timestamp="1526676664261">
+        <mark key="'" line="12" column="2" />
+        <mark key="[" line="21" column="1" />
+        <mark key="]" line="21" column="0" />
+        <mark key="^" line="21" column="0" />
+        <mark key="." line="21" column="0" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" timestamp="1526474271119">
-        <mark key="'" line="57" column="0" />
-        <mark key="[" line="64" column="0" />
-        <mark key="]" line="64" column="96" />
-        <mark key="." line="79" column="22" />
-        <mark key="^" line="79" column="22" />
+      <file name="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" timestamp="1526676182635">
+        <mark key="'" line="48" column="90" />
+        <mark key="[" line="48" column="90" />
+        <mark key="]" line="48" column="90" />
+        <mark key="." line="48" column="90" />
+        <mark key="^" line="48" column="90" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteCombinationStrategyFactory.java" timestamp="1526510566177">
         <mark key="'" line="12" column="4" />
@@ -105,12 +105,10 @@
         <mark key="^" line="10" column="13" />
         <mark key="." line="37" column="2" />
       </file>
-      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526514099263">
-        <mark key="'" line="16" column="0" />
-        <mark key="[" line="99" column="49" />
-        <mark key="]" line="99" column="53" />
-        <mark key="^" line="99" column="53" />
-        <mark key="." line="99" column="53" />
+      <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526675847247">
+        <mark key="[" line="82" column="0" />
+        <mark key="]" line="82" column="0" />
+        <mark key="." line="82" column="0" />
       </file>
       <file name="$USER_HOME$/interview/atm/.gitignore" timestamp="1526339624328">
         <mark key="[" line="14" column="4" />
@@ -137,8 +135,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="122" column="23" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
-      <jump line="124" column="4" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="123" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="125" column="3" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="130" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
@@ -237,6 +233,8 @@
       <jump line="115" column="10" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="145" column="123" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="29" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
+      <jump line="13" column="6" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
+      <jump line="48" column="90" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -246,28 +244,34 @@
         <text>Arrays.asList(BanknoteCombinationStrategy.values())</text>
       </register>
       <register name="0" type="4">
-        <text>atm.getPossibleBanknoteBundlesForAmount(</text>
+        <text>new BanknoteBundle(Map.of(FIFTY, 5L, TWENTY, 2L));</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>@Test
+  public void getSymbolShouldReturnBanknoteSymbols() throws Exception {
+    assertEquals(FIFTY.getSymbol(), &quot;$50&quot;);
+    assertEquals(TWENTY.getSymbol(), &quot;$20&quot;);
+  }</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIGFjY2VwdCh0ZXh0SU8sIG51bGwpOwo=</text>
+      <register name="4" type="4">
+        <text>public int getAsInt(){
+    return get().intValue();
+  }</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBwdWJsaWMgaW50IGdldEFzSW50KCl7Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHJldHVybiB0aGlzLmdldEJhbmtub3RlcygpCiAgICAgICAgLnN0cmVhbSgpCg==</text>
       </register>
       <register name="x" type="4">
         <text>List</text>
@@ -276,10 +280,10 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgU3lzdGVtLm91dC5wcmludGxuKGNob3NlbkJhbmtub3RlQ29tYmluYXRpb24udG9TdHJpbmcoKSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action VimFilePrevious</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -306,7 +310,6 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action Find</entry>
         <entry>action Generate</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action CloseContent</entry>
@@ -314,14 +317,16 @@
         <entry>action AceAction</entry>
         <entry>action $SelectAll</entry>
         <entry>action TabShiftActions.StretchDown</entry>
-        <entry>action GotoFile</entry>
+        <entry>action TabShiftActions.StretchUp</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action HideAllWindows</entry>
         <entry>action ReformatCode</entry>
-        <entry>action TabShiftActions.StretchUp</entry>
+        <entry>action TabShiftActions.StretchLeft</entry>
+        <entry>action GotoFile</entry>
         <entry>action GotoTest</entry>
-        <entry>action SaveAll</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action VimFilePrevious</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
