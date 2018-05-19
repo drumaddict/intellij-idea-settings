@@ -47,6 +47,12 @@
         <mark key="." line="15" column="31" />
         <mark key="^" line="15" column="31" />
       </file>
+      <file name="$USER_HOME$/interview/atm/build.gradle" timestamp="1526691255975">
+        <mark key="[" line="57" column="0" />
+        <mark key="]" line="57" column="0" />
+        <mark key="^" line="56" column="62" />
+        <mark key="." line="57" column="0" />
+      </file>
       <file name="$USER_HOME$/interview/atm/src/main/resources/textio.properties" timestamp="1526648731619">
         <mark key="'" line="5" column="9" />
         <mark key="[" line="4" column="35" />
@@ -129,7 +135,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="88" column="16" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="5" column="9" filename="$USER_HOME$/interview/atm/src/main/resources/textio.properties" />
       <jump line="99" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="134" column="16" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
@@ -229,6 +234,7 @@
       <jump line="35" column="22" filename="$USER_HOME$/interview/atm/README.md" />
       <jump line="41" column="41" filename="$USER_HOME$/interview/atm/README.md" />
       <jump line="33" column="41" filename="$USER_HOME$/interview/atm/README.md" />
+      <jump line="67" column="20" filename="$USER_HOME$/interview/atm/build.gradle" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -247,39 +253,34 @@ In the root of the project, just run`gradle run`.</text>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>### Libraries used
-- [Text IO](http://text-io.beryx.org/releases/latest/)
-for better console interaction experience.</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICcqKi8qT3RoZXJMaWJyYXJ5KionCg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="4">
         <text>### Libraries used
-
 - [Text IO](http://text-io.beryx.org/releases/latest/)
 for better console interaction experience.</text>
-      </register>
-      <register name="6" type="4">
-        <text>Requirements</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>Requirements</text>
       </register>
-      <register name="8" type="4">
-        <text>### References
-----
- * [Your unofficial guide to dotfiles on GitHub.](https://dotfiles.github.io/).
- * [Awesome Dotfiles](https://github.com/webpro/awesome-dotfiles)
- * [Dotbot](https://github.com/anishathalye/dotbot)
- * [Init Dotfiles](https://github.com/Vaelatern/init-dotfiles)</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="4">
-        <text>dotbot/bin/dotbot -d ~/.dotfiles -c ~/.dotfiles/install.conf.yaml</text>
+        <text>### Libraries used
+
+- [Text IO](http://text-io.beryx.org/releases/latest/)
+for better console interaction experience.</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -323,10 +324,10 @@ for better console interaction experience.</text>
         <entry>action GotoTest</entry>
         <entry>action OptimizeImports</entry>
         <entry>action TabShiftActions.StretchDown</entry>
-        <entry>action ReformatCode</entry>
         <entry>action CloseAllEditorsButActive</entry>
         <entry>action CloseAllEditors</entry>
         <entry>action HideAllWindows</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
