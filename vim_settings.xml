@@ -278,7 +278,7 @@
         <text encoding="base64">ICBwdWJsaWMgc3RhdGljIEJhbmtub3RlQnVuZGxlIGFkZChCYW5rbm90ZUJ1bmRsZSBsZWZ0LCBCYW5rbm90ZUJ1bmRsZSByaWdodCkgewo=</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action VimFilePrevious</text>
       </register>
     </registers>
     <search>
@@ -314,6 +314,7 @@
         <entry>action PreviousOccurence</entry>
         <entry>action AceAction</entry>
         <entry>action SaveAll</entry>
+        <entry>action VimFilePrevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
