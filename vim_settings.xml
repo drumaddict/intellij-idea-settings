@@ -131,6 +131,12 @@
         <mark key="]" line="29" column="7" />
         <mark key="." line="23" column="2" />
       </file>
+      <file name="$USER_HOME$/interview/Microservices-With-Spring-Student-Files/lab-4/eureka-server-solution/pom.xml" timestamp="1526941257286">
+        <mark key="[" line="34" column="25" />
+        <mark key="]" line="34" column="40" />
+        <mark key="^" line="34" column="25" />
+        <mark key="." line="34" column="40" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="208" column="4" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
@@ -236,7 +242,7 @@
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>northamerica</text>
+        <text>Dalston</text>
       </register>
       <register name="-" type="4">
         <text>u</text>
@@ -248,13 +254,13 @@
         <text encoding="base64">ICAgIGNvbmZpZzoK</text>
       </register>
       <register name="1" type="4">
-        <text>northamerica</text>
+        <text>Dalston</text>
       </register>
       <register name="2" type="4">
-        <text>existsNegativeCount</text>
+        <text>northamerica</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAuZmlsdGVyKGJhbmtub3RlIC0+ICFzdG9yZS5rZXlTZXQoKS5jb250YWlucyhiYW5rbm90ZSkpCg==</text>
+      <register name="3" type="4">
+        <text>existsNegativeCount</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAuZmlsdGVyKGJhbmtub3RlIC0+ICFzdG9yZS5rZXlTZXQoKS5jb250YWlucyhiYW5rbm90ZSkpCg==</text>
@@ -263,22 +269,22 @@
         <text encoding="base64">ICAgICAgICAuZmlsdGVyKGJhbmtub3RlIC0+ICFzdG9yZS5rZXlTZXQoKS5jb250YWlucyhiYW5rbm90ZSkpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBwdWJsaWMgT3B0aW9uYWw8QmFua25vdGVCdW5kbGU+IHN1YnN0cmFjdChCYW5rbm90ZUJ1bmRsZSBiYW5rbm90ZUJ1bmRsZSkgewogICAgSGFzaE1hcDxCYW5rbm90ZSwgTG9uZz4gcmVzdWx0ID0gbmV3IEhhc2hNYXA8QmFua25vdGUsIExvbmc+KCk7CiAgICB0aGlzLmdldEJhbmtub3RlcygpCiAgICAgICAgLmZvckVhY2goCiAgICAgICAgICAgIChCYW5rbm90ZSBiYW5rbm90ZSkgLT4gewogICAgICAgICAgICAgIExvbmcgbGVmdENvdW50ID0gZ2V0QmFua25vdGVDb3VudChiYW5rbm90ZSk7CiAgICAgICAgICAgICAgTG9uZyByaWdodENvdW50ID0gYmFua25vdGVCdW5kbGUuZ2V0QmFua25vdGVDb3VudChiYW5rbm90ZSk7CiAgICAgICAgICAgICAgTG9uZyB2YWx1ZSA9IGxlZnRDb3VudCAtIHJpZ2h0Q291bnQ7CiAgICAgICAgICAgICAgcmVzdWx0LnB1dChiYW5rbm90ZSwgdmFsdWUpOwogICAgICAgICAgICB9KTsKICAgIGJvb2xlYW4gZXhpc3RzTmVnYXRpdmVDb3VudCA9IHJlc3VsdC52YWx1ZXMoKS5zdHJlYW0oKS5hbnlNYXRjaCgoY291bnQpIC0+IGNvdW50IDwgMCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAuZmlsdGVyKGJhbmtub3RlIC0+ICFzdG9yZS5rZXlTZXQoKS5jb250YWlucyhiYW5rbm90ZSkpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBMb25nIGxlZnRDb3VudCA9IGdldEJhbmtub3RlQ291bnQoYmFua25vdGUpOwogICAgICAgICAgICAgIExvbmcgcmlnaHRDb3VudCA9IGJhbmtub3RlQnVuZGxlLmdldEJhbmtub3RlQ291bnQoYmFua25vdGUpOwo=</text>
+        <text encoding="base64">ICBwdWJsaWMgT3B0aW9uYWw8QmFua25vdGVCdW5kbGU+IHN1YnN0cmFjdChCYW5rbm90ZUJ1bmRsZSBiYW5rbm90ZUJ1bmRsZSkgewogICAgSGFzaE1hcDxCYW5rbm90ZSwgTG9uZz4gcmVzdWx0ID0gbmV3IEhhc2hNYXA8QmFua25vdGUsIExvbmc+KCk7CiAgICB0aGlzLmdldEJhbmtub3RlcygpCiAgICAgICAgLmZvckVhY2goCiAgICAgICAgICAgIChCYW5rbm90ZSBiYW5rbm90ZSkgLT4gewogICAgICAgICAgICAgIExvbmcgbGVmdENvdW50ID0gZ2V0QmFua25vdGVDb3VudChiYW5rbm90ZSk7CiAgICAgICAgICAgICAgTG9uZyByaWdodENvdW50ID0gYmFua25vdGVCdW5kbGUuZ2V0QmFua25vdGVDb3VudChiYW5rbm90ZSk7CiAgICAgICAgICAgICAgTG9uZyB2YWx1ZSA9IGxlZnRDb3VudCAtIHJpZ2h0Q291bnQ7CiAgICAgICAgICAgICAgcmVzdWx0LnB1dChiYW5rbm90ZSwgdmFsdWUpOwogICAgICAgICAgICB9KTsKICAgIGJvb2xlYW4gZXhpc3RzTmVnYXRpdmVDb3VudCA9IHJlc3VsdC52YWx1ZXMoKS5zdHJlYW0oKS5hbnlNYXRjaCgoY291bnQpIC0+IGNvdW50IDwgMCk7Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>northamerica</text>
+        <text>Dalston</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBleGlzdHNOZWdhdGl2ZUNvdW50ID8gT3B0aW9uYWwuZW1wdHkoKSA6IE9wdGlvbmFsLm9mKG5ldyBCYW5rbm90ZUJ1bmRsZShyZXN1bHQpKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBMb25nIGxlZnRDb3VudCA9IGdldEJhbmtub3RlQ291bnQoYmFua25vdGUpOwogICAgICAgICAgICAgIExvbmcgcmlnaHRDb3VudCA9IGJhbmtub3RlQnVuZGxlLmdldEJhbmtub3RlQ291bnQoYmFua25vdGUpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBwdWJsaWMgc3RhdGljIEJhbmtub3RlQnVuZGxlIGFkZChCYW5rbm90ZUJ1bmRsZSBsZWZ0LCBCYW5rbm90ZUJ1bmRsZSByaWdodCkgewo=</text>
+        <text encoding="base64">ICAgIHJldHVybiBleGlzdHNOZWdhdGl2ZUNvdW50ID8gT3B0aW9uYWwuZW1wdHkoKSA6IE9wdGlvbmFsLm9mKG5ldyBCYW5rbm90ZUJ1bmRsZShyZXN1bHQpKTsK</text>
       </register>
       <register name=":" type="4">
-        <text>action VimFilePrevious</text>
+        <text>action HideAllWindows</text>
       </register>
     </registers>
     <search>
@@ -294,7 +300,6 @@
         <entry>forEach</entry>
       </history-search>
       <history-cmd>
-        <entry>action HideAllWindows</entry>
         <entry>source ~/.ideavimrcdf</entry>
         <entry>source ~/.ideavimrc</entry>
         <entry encoding="base64">JzwsJz5ub3JtLg==</entry>
@@ -313,8 +318,11 @@
         <entry>reg</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action AceAction</entry>
-        <entry>action SaveAll</entry>
         <entry>action VimFilePrevious</entry>
+        <entry>action SaveAll</entry>
+        <entry>action CloseAllEditorsButActive</entry>
+        <entry>action CloseContent</entry>
+        <entry>action HideAllWindows</entry>
       </history-cmd>
       <history-expr />
       <history-input />
