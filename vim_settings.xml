@@ -64,14 +64,13 @@
         <mark key="^" line="23" column="22" />
         <mark key="." line="23" column="22" />
       </file>
-      <file name="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" timestamp="1527283790691">
+      <file name="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" timestamp="1527285525469">
         <mark key="f" line="10" column="13" />
-        <mark key="'" line="42" column="0" />
-        <mark key="[" line="71" column="95" />
+        <mark key="[" line="22" column="0" />
         <mark key="m" line="31" column="14" />
-        <mark key="]" line="71" column="94" />
-        <mark key="^" line="71" column="94" />
-        <mark key="." line="71" column="94" />
+        <mark key="]" line="22" column="0" />
+        <mark key="^" line="51" column="67" />
+        <mark key="." line="22" column="0" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/Atm.java" timestamp="1526674672000">
         <mark key="[" line="63" column="70" />
@@ -170,9 +169,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="24" column="1" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/AtmTest.java" />
-      <jump line="23" column="0" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/AtmTest.java" />
-      <jump line="46" column="7" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteBundleTest.java" />
       <jump line="21" column="7" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
       <jump line="66" column="12" filename="$USER_HOME$/interview/atm/.gitignore" />
       <jump line="27" column="106" filename="$USER_HOME$/interview/atm/README.md" />
@@ -243,7 +239,6 @@
       <jump line="13" column="6" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/AtmApplication.java" />
       <jump line="52" column="81" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="59" column="4" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
-      <jump line="49" column="16" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="41" column="21" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="44" column="25" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="46" column="30" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
@@ -260,7 +255,6 @@
       <jump line="74" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="70" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="61" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
-      <jump line="48" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="11" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="14" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="18" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
@@ -270,52 +264,57 @@
       <jump line="34" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="38" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="42" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
+      <jump line="49" column="95" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
+      <jump line="48" column="17" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
+      <jump line="54" column="61" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
+      <jump line="65" column="8" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
+      <jump line="66" column="12" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>validCombinationOfBanknotes</text>
+        <text>twentyValue</text>
       </register>
       <register name="-" type="4">
-        <text>u</text>
+        <text encoding="base64">ICAgIHJldHVybiB0b3RhbEJhbmtub3RlQnVuZGxlLmdldEJhbmtub3RlcygpOw==</text>
       </register>
       <register name="/" type="4">
         <text>forEach</text>
       </register>
-      <register name="0" type="4">
-        <text>HashSet</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAuc3RyZWFtKCkK</text>
       </register>
       <register name="1" type="4">
-        <text>validCombinationOfBanknotes</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="4">
-        <text>totalBanknoteBundle</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="4">
-        <text>getPossibleBanknoteBundlesForAmount</text>
+        <text>twentyValue</text>
       </register>
       <register name="4" type="4">
-        <text>''</text>
+        <text>&quot;&quot;</text>
       </register>
       <register name="5" type="4">
-        <text>result</text>
+        <text>fiftiesCount</text>
       </register>
-      <register name="6" type="4">
-        <text>&quot;&quot;</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgIEJhbmtub3RlQnVuZGxlIHZhbGlkQ29tYmluYXRpb25PZkJhbmtub3RlcyA9Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>result</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgIEJhbmtub3RlQnVuZGxlIHZhbGlkQ29tYmluYXRpb25PZkJhbmtub3RlcyA9Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>validCombinationOfBanknotes</text>
+        <text>twentyValue</text>
       </register>
-      <register name="8" type="4">
-        <text>&quot;&quot;</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgIHJlc3VsdC5hZGQodmFsaWRDb21iaW5hdGlvbk9mQmFua25vdGVzKTsK</text>
       </register>
-      <register name="9" type="4">
-        <text>result</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgIHJlc3VsdC5hZGQodmFsaWRDb21iaW5hdGlvbk9mQmFua25vdGVzKTsK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -375,7 +374,6 @@
         <entry>action RearrangeCode</entry>
         <entry encoding="base64">JzwsJz5ub3JtLg==</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU2hvd1JlZm9ybWF0RmlsZURpYWxvZw==</entry>
-        <entry>action ReformatCode</entry>
         <entry>action Generate</entry>
         <entry>action ShowReformatFileDialog</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
@@ -388,8 +386,10 @@
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>source .ideavimrc</entry>
         <entry>source ~/.ideavimrc</entry>
-        <entry>action AceAction</entry>
         <entry>30</entry>
+        <entry>action AceLineAction</entry>
+        <entry>action AceAction</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
