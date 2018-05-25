@@ -16,11 +16,11 @@
         <mark key="." line="2" column="7" />
         <mark key="^" line="2" column="7" />
       </file>
-      <file name="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/AtmProgram.java" timestamp="1527250592715">
+      <file name="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/AtmProgram.java" timestamp="1527257487559">
         <mark key="'" line="247" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="261" column="0" />
-        <mark key="." line="0" column="28" />
+        <mark key="]" line="18" column="12" />
+        <mark key="." line="18" column="12" />
+        <mark key="^" line="18" column="12" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteCombinationStrategy.java" timestamp="1526654486679">
         <mark key="[" line="32" column="0" />
@@ -130,12 +130,8 @@
         <mark key="^" line="34" column="12" />
         <mark key="." line="34" column="12" />
       </file>
-      <file name="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/AtmApplication.java" timestamp="1527256842269">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="17" column="0" />
+      <file name="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/AtmApplication.java" timestamp="1527257458443">
         <mark key="^" line="15" column="12" />
-        <mark key="." line="15" column="12" />
       </file>
       <file name="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1526675847247">
         <mark key="[" line="82" column="0" />
@@ -159,7 +155,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="178" column="8" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="146" column="6" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="139" column="87" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="129" column="8" filename="$USER_HOME$/interview/atm/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
@@ -259,6 +254,7 @@
       <jump line="247" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/AtmProgram.java" />
       <jump line="24" column="16" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="0" column="0" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/AtmApplication.java" />
+      <jump line="13" column="6" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/AtmApplication.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -270,58 +266,41 @@
       <register name="/" type="4">
         <text>forEach</text>
       </register>
-      <register name="0" type="4">
-        <text>package com.kabasakalis.atm;
-
-import com.kabasakalis.atm.AtmProgram;
-
-import java.util.Map;
-
-import static com.kabasakalis.atm.Banknote.FIFTY;
-import static com.kabasakalis.atm.Banknote.TWENTY;
-
-public class AtmApplication {
-  public static void main(String[] args) {
-    // Load ATM with 100 twenties and 50 fifties.
-    BanknoteBundle atmInitialLoad = new BanknoteBundle(Map.of(TWENTY, 100L, FIFTY, 50L));
-    Atm atm = new Atm(atmInitialLoad);
-    // start ATM software
-    new AtmProgram(atm).start();
-  }
-}</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIEJhbmtub3RlQnVuZGxlIGF0bUluaXRpYWxMb2FkID0gbmV3IEJhbmtub3RlQnVuZGxlKE1hcC5vZihUV0VOVFksIDEwMEwsIEZJRlRZLCA1MEwpKTsK</text>
       </register>
-      <register name="1" type="4">
-        <text>stream</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICBwdWJsaWMgQXRtUHJvZ3JhbShBdG0gYXRtKSB7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBwdWJsaWMgc3RhdGljIEJhbmtub3RlQnVuZGxlIGFkZChCYW5rbm90ZUJ1bmRsZSBsZWZ0LCBCYW5rbm90ZUJ1bmRsZSByaWdodCkgewo=</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBjb20ua2FiYXNha2FsaXMuYXRtLkJhbmtub3RlLlRXRU5UWTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBMb25nIHZhbHVlID0gZ2V0QmFua25vdGVDb3VudChiYW5rbm90ZSkgKyBiYW5rbm90ZUJ1bmRsZS5nZXRCYW5rbm90ZUNvdW50KGJhbmtub3RlKTsK</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBjb20ua2FiYXNha2FsaXMuYXRtLkJhbmtub3RlLlRXRU5UWTsK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBMb25nIHZhbHVlID0gZ2V0QmFua25vdGVDb3VudChiYW5rbm90ZSkgKyBiYW5rbm90ZUJ1bmRsZS5nZXRCYW5rbm90ZUNvdW50KGJhbmtub3RlKTsK</text>
+      <register name="4" type="4">
+        <text>stream</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICByZXN1bHQucHV0KGJhbmtub3RlLCB2YWx1ZSk7Cg==</text>
+        <text encoding="base64">ICBwdWJsaWMgc3RhdGljIEJhbmtub3RlQnVuZGxlIGFkZChCYW5rbm90ZUJ1bmRsZSBsZWZ0LCBCYW5rbm90ZUJ1bmRsZSByaWdodCkgewo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgLy8gc2V0IEF0bSBuZXcgdG90YWwgYW1vdW50Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBMb25nIHZhbHVlID0gZ2V0QmFua25vdGVDb3VudChiYW5rbm90ZSkgKyBiYW5rbm90ZUJ1bmRsZS5nZXRCYW5rbm90ZUNvdW50KGJhbmtub3RlKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgLy8gc2V0IEF0bSBuZXcgdG90YWwgYW1vdW50Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBMb25nIHZhbHVlID0gZ2V0QmFua25vdGVDb3VudChiYW5rbm90ZSkgKyBiYW5rbm90ZUJ1bmRsZS5nZXRCYW5rbm90ZUNvdW50KGJhbmtub3RlKTsK</text>
       </register>
       <register name="x" type="4">
         <text>stream</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Lm5ld1N0cmluZ0lucHV0UmVhZGVyKCkKICAgICAgICAgICAgICAgICAgICAgICAgLndpdGhQcm9wZXJ0aWVzQ29uZmlndXJhdG9yKHByb3BzIC0+IHByb3BzLnNldFByb21wdENvbG9yKCJsaW1lIikpCiAgICAgICAgICAgICAgICAgICAgICAgIC53aXRoTWluTGVuZ3RoKDApCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZWFkKCJQcmVzcyBFbnRlciBmb3IgTWFpbiBNZW51LiIpOw==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICByZXN1bHQucHV0KGJhbmtub3RlLCB2YWx1ZSk7Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">IC5uZXdTdHJpbmdJbnB1dFJlYWRlcigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLndpdGhQcm9wZXJ0aWVzQ29uZmlndXJhdG9yKHByb3BzIC0+IHByb3BzLnNldFByb21wdENvbG9yKCJsaW1lIikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLndpdGhNaW5MZW5ndGgoMCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVhZCgiUHJlc3MgRW50ZXIgZm9yIE1haW4gTWVudS4iKTs=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgLy8gc2V0IEF0bSBuZXcgdG90YWwgYW1vdW50Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ShowFilePath</text>
+        <text>actionlist Show</text>
       </register>
     </registers>
     <search>
@@ -343,26 +322,29 @@ public class AtmApplication {
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action SplitVertically</entry>
         <entry>action VimWindowClose</entry>
-        <entry>action CloseContent</entry>
         <entry>action ReopenClosedTab</entry>
         <entry>action HideAllWindows</entry>
         <entry>source .ideavimrc</entry>
         <entry>source ~/.ideavimrc</entry>
-        <entry>action GotoAction</entry>
         <entry>action Forward</entry>
         <entry>action ShowSettings</entry>
         <entry>action Replace</entry>
         <entry>action SaveAll</entry>
         <entry>action Find</entry>
-        <entry>action NextOccurence</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action $SelectAll</entry>
-        <entry>action Back</entry>
         <entry>action NewDialog</entry>
         <entry>action NewDir</entry>
         <entry>action ShowFilePath</entry>
+        <entry>action CloseContent</entry>
+        <entry>action Back</entry>
+        <entry>action NextOccurence</entry>
+        <entry>action NewFile</entry>
+        <entry>action GotoAction</entry>
+        <entry>actionlist ContextMenu</entry>
+        <entry>actionlist Show</entry>
       </history-cmd>
       <history-expr />
       <history-input />
