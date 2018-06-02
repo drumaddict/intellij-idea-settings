@@ -9,6 +9,12 @@
         <mark key="." line="11" column="5" />
         <mark key="^" line="11" column="5" />
       </file>
+      <file name="$USER_HOME$/logisfera/atm/build.gradle" timestamp="1527952774135">
+        <mark key="[" line="7" column="25" />
+        <mark key="]" line="7" column="25" />
+        <mark key="^" line="7" column="25" />
+        <mark key="." line="7" column="25" />
+      </file>
       <file name="$USER_HOME$/logisfera/angular6-example-app/src/app/app.component.html" timestamp="1527943698335">
         <mark key="[" line="0" column="5" />
         <mark key="]" line="0" column="9" />
@@ -19,6 +25,12 @@
         <mark key="[" line="26" column="24" />
         <mark key="." line="26" column="28" />
       </file>
+      <file name="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/AtmApplication.java" timestamp="1527976764917">
+        <mark key="[" line="15" column="32" />
+        <mark key="]" line="15" column="31" />
+        <mark key="^" line="15" column="31" />
+        <mark key="." line="15" column="31" />
+      </file>
     </filemarks>
     <jumps />
     <registers>
@@ -26,7 +38,7 @@
         <text encoding="base64">ICAgICAgcmVxdWlyZSgnQGFuZ3VsYXItZGV2a2l0L2J1aWxkLWFuZ3VsYXIvcGx1Z2lucy9rYXJtYScpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action PreviousTab</text>
+        <text>action SaveAll</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -37,11 +49,15 @@
       <show-last>false</show-last>
     </search>
     <history>
+      <history-search />
       <history-cmd>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
+      <history-expr />
+      <history-input />
     </history>
     <shortcut-conflicts />
     <editor>
