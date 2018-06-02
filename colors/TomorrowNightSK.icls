@@ -4,7 +4,7 @@
     <property name="created">2017-10-19T13:00:33</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.5.0.0</property>
-    <property name="modified">2018-06-02T11:22:06</property>
+    <property name="modified">2018-06-02T16:08:48</property>
     <property name="originalScheme">Tomorrow Night Eighties</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
@@ -15,7 +15,7 @@
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Courier New" />
-    <option name="EDITOR_FONT_SIZE" value="13" />
+    <option name="EDITOR_FONT_SIZE" value="12" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <colors>
@@ -2652,6 +2652,16 @@
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="TS.CLASS">
+      <value>
+        <option name="FOREGROUND" value="ffcc66" />
+      </value>
+    </option>
+    <option name="TS.INTERFACE">
+      <value>
+        <option name="FOREGROUND" value="54cd6d" />
       </value>
     </option>
     <option name="TWIG_BACKGROUND">
