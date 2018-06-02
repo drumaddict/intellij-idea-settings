@@ -15,6 +15,13 @@
         <mark key="^" line="7" column="25" />
         <mark key="." line="7" column="25" />
       </file>
+      <file name="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" timestamp="1527981155689">
+        <mark key="'" line="25" column="0" />
+        <mark key="[" line="55" column="0" />
+        <mark key="]" line="55" column="0" />
+        <mark key="^" line="24" column="16" />
+        <mark key="." line="55" column="0" />
+      </file>
       <file name="$USER_HOME$/logisfera/angular6-example-app/src/app/app.component.html" timestamp="1527943698335">
         <mark key="[" line="0" column="5" />
         <mark key="]" line="0" column="9" />
@@ -25,20 +32,45 @@
         <mark key="[" line="26" column="24" />
         <mark key="." line="26" column="28" />
       </file>
-      <file name="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/AtmApplication.java" timestamp="1527976764917">
-        <mark key="[" line="15" column="32" />
-        <mark key="]" line="15" column="31" />
-        <mark key="^" line="15" column="31" />
-        <mark key="." line="15" column="31" />
+      <file name="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/AtmApplication.java" timestamp="1527977882060">
+        <mark key="[" line="15" column="18" />
+        <mark key="]" line="15" column="18" />
+        <mark key="^" line="15" column="18" />
+        <mark key="." line="15" column="18" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="40" column="4" filename="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="31" column="8" filename="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="34" column="0" filename="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+    </jumps>
     <registers>
+      <register name="0" type="4">
+        <text encoding="base64">LmZvckVhY2goYmFua25vdGUgLT4gcmVzdWx0LnB1dChiYW5rbm90ZSwgYmFua25vdGVCdW5kbGUuZ2V0QmFua25vdGVDb3VudChiYW5rbm90ZSkpKTs=</text>
+      </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgU3RyZWFtLmZpdGVyLgo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHRoaXMuZ2V0QmFua25vdGVzKCkuZm9yRWFjaCguKTsK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHRoaXMuZ2V0Q2xhc3MoKQo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgU3RyZWFtLmZpdGVyLgo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHRoaXMuZ2V0Q2xhc3MoKQo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgU3RyZWFtLmZpdGVyLgo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgcmVxdWlyZSgnQGFuZ3VsYXItZGV2a2l0L2J1aWxkLWFuZ3VsYXIvcGx1Z2lucy9rYXJtYScpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>56</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -54,7 +86,10 @@
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action AceAction</entry>
+        <entry>56</entry>
       </history-cmd>
       <history-expr />
       <history-input />
