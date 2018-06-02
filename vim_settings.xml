@@ -25,6 +25,12 @@
         <mark key="^" line="12" column="12" />
         <mark key="." line="24" column="0" />
       </file>
+      <file name="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/AtmApplication.java" timestamp="1527927750559">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="9" />
+        <mark key="^" line="5" column="9" />
+        <mark key="." line="5" column="9" />
+      </file>
       <file name="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" timestamp="1527285525469">
         <mark key="f" line="10" column="13" />
         <mark key="[" line="22" column="0" />
@@ -169,8 +175,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="21" column="7" filename="$USER_HOME$/interview/atm/src/test/java/com/kabasakalis/atm/BanknoteTest.java" />
-      <jump line="66" column="12" filename="$USER_HOME$/interview/atm/.gitignore" />
       <jump line="27" column="106" filename="$USER_HOME$/interview/atm/README.md" />
       <jump line="3" column="0" filename="$USER_HOME$/interview/atm/README.md" />
       <jump line="7" column="45" filename="$USER_HOME$/interview/atm/README.md" />
@@ -269,6 +273,8 @@
       <jump line="54" column="61" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="65" column="8" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
       <jump line="66" column="12" filename="$USER_HOME$/interview/atm-experiment/src/main/java/com/kabasakalis/atm/Atm.java" />
+      <jump line="6" column="0" filename="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/AtmApplication.java" />
+      <jump line="9" column="49" filename="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/AtmApplication.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -283,8 +289,9 @@
       <register name="/" type="4">
         <text>forEach</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAuc3RyZWFtKCkK</text>
+      <register name="0" type="4">
+        <text>import static com.kabasakalis.atm.Banknote.FIFTY;
+import static com.kabasakalis.atm.Banknote.TWENTY;</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Cg==</text>
@@ -350,8 +357,11 @@
         <entry>source ~/.ideavimrc</entry>
         <entry>30</entry>
         <entry>action AceLineAction</entry>
-        <entry>action AceAction</entry>
         <entry>action ReformatCode</entry>
+        <entry>action AceAction</entry>
+        <entry>action SplitVertically</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action HideAllWindows</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
