@@ -25,11 +25,18 @@
         <mark key="." line="15" column="18" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/.gitignore" timestamp="1528203545686" />
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml" timestamp="1528205246856">
-        <mark key="[" line="38" column="0" />
-        <mark key="]" line="38" column="0" />
-        <mark key="." line="38" column="0" />
-        <mark key="^" line="38" column="0" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/product/configuration/HomeConfiguration.java" timestamp="1528207557223">
+        <mark key="'" line="61" column="36" />
+        <mark key="[" line="61" column="4" />
+        <mark key="]" line="61" column="37" />
+        <mark key="^" line="61" column="3" />
+        <mark key="." line="61" column="4" />
+      </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml" timestamp="1528207892044">
+        <mark key="[" line="24" column="27" />
+        <mark key="]" line="24" column="25" />
+        <mark key="." line="24" column="25" />
+        <mark key="^" line="24" column="25" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/soap/domain/greencard/ZwsGreenCard.java" timestamp="1528199753254" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/rest/controller/offer/command/AbstractOfferCommandController.java" timestamp="1528202515604">
@@ -99,6 +106,8 @@
       <jump line="11" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml.dist" />
       <jump line="0" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml.dist" />
       <jump line="67" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml" />
+      <jump line="299" column="10" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/product/configuration/HomeConfiguration.java" />
+      <jump line="62" column="36" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/product/configuration/HomeConfiguration.java" />
     </jumps>
     <registers>
       <register name="*" type="2">
@@ -266,7 +275,7 @@ server:
         <text encoding="base64">ICAgICAgU3RyZWFtLmZpdGVyLgo=</text>
       </register>
       <register name=":" type="4">
-        <text>action Replace</text>
+        <text>action NextTab</text>
       </register>
     </registers>
     <search>
@@ -282,8 +291,6 @@ server:
       </history-search>
       <history-cmd>
         <entry>action TabShiftActions.StretchLeft</entry>
-        <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
         <entry>action AceAction</entry>
         <entry>56</entry>
         <entry>action HideAllWindows</entry>
@@ -291,12 +298,16 @@ server:
         <entry>action ReformatCode</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRm9yd2FyZA==</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
-        <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action $SelectAll</entry>
         <entry>action PreviousOccurence</entry>
-        <entry>action SaveAll</entry>
         <entry>action Replace</entry>
+        <entry>action GotoFile</entry>
+        <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action CloseContent</entry>
+        <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action NextTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
