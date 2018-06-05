@@ -18,18 +18,20 @@
         <mark key="^" line="265" column="3" />
         <mark key="." line="265" column="3" />
       </file>
-      <file name="$USER_HOME$/logisfera/angular6-example-app/src/app/app.component.spec.ts" timestamp="1527944969841">
-        <mark key="[" line="26" column="24" />
-        <mark key="." line="26" column="28" />
-      </file>
       <file name="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/AtmApplication.java" timestamp="1527977882060">
         <mark key="[" line="15" column="18" />
         <mark key="]" line="15" column="18" />
         <mark key="^" line="15" column="18" />
         <mark key="." line="15" column="18" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/.gitignore" timestamp="1528195421782" />
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml" timestamp="1528199181221" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/.gitignore" timestamp="1528203545686" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml" timestamp="1528204265373">
+        <mark key="'" line="67" column="0" />
+        <mark key="[" line="6" column="18" />
+        <mark key="]" line="6" column="18" />
+        <mark key="." line="6" column="18" />
+        <mark key="^" line="6" column="18" />
+      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/soap/domain/greencard/ZwsGreenCard.java" timestamp="1528199753254" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/rest/controller/offer/command/AbstractOfferCommandController.java" timestamp="1528202515604">
         <mark key="[" line="26" column="96" />
@@ -70,8 +72,15 @@
         <mark key="." line="87" column="31" />
         <mark key="^" line="87" column="31" />
       </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/sun-jaxb.episode" timestamp="1528203605053" />
       <file name="/fragment.java" timestamp="1528115372122">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml.dist" timestamp="1528204219904">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="122" column="22" />
+        <mark key="." line="0" column="322" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/rest/controller/offer/command/OfferCommandController.java" timestamp="1528201689171">
         <mark key="[" line="108" column="0" />
@@ -83,22 +92,161 @@
       <jump line="40" column="4" filename="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="31" column="8" filename="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
       <jump line="34" column="0" filename="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/BanknoteBundle.java" />
+      <jump line="14" column="16" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml.dist" />
+      <jump line="15" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml.dist" />
+      <jump line="72" column="9" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml.dist" />
+      <jump line="13" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml.dist" />
+      <jump line="84" column="26" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml.dist" />
+      <jump line="11" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml.dist" />
+      <jump line="0" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml.dist" />
+      <jump line="67" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml" />
     </jumps>
     <registers>
+      <register name="*" type="4">
+        <text>12345</text>
+      </register>
+      <register name="-" type="4">
+        <text />
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDw7XD4=</text>
+      </register>
       <register name="0" type="4">
-        <text encoding="base64">LmZvckVhY2goYmFua25vdGUgLT4gcmVzdWx0LnB1dChiYW5rbm90ZSwgYmFua25vdGVCdW5kbGUuZ2V0QmFua25vdGVDb3VudChiYW5rbm90ZSkpKTs=</text>
+        <text>application:
+    db:
+        driverClassName: org.postgresql.Driver
+        databaseUrl: jdbc:postgresql://localhost:5432/Ergo5DS
+        # connection auth
+        user: admin
+        password: 12345
+        jndi.active: false
+        jndi.name: java:jboss/datasources/Ergo5DS
+    security:
+        token:
+            ttlForNew: 360
+            ttlForRenewal: 60
+            idle: 40
+        excluded:
+            - /api/secured/system/message
+    cache:
+        url: localhost
+        port: 6379
+        number: 0
+    host: http://localhost:8080
+    soapBaseHost: http://localhost:8080/ergo5/
+    file:
+        baseLocation: &quot;/Volumes/External\ 1T/projekty/temp/e5/&quot;
+        ftpLocation: &quot;/Volumes/External\ 1T/projekty/temp/e5/ftp/&quot;
+    printout:
+        templateLocation: /templates/printouts/documents/
+        xmlLocation: /printouts/xml/
+        staticFiles: /templates/printouts/static/
+        fontDirectory: /Users/tomek/projekty/fonts/
+        asposeLicense: licenses/Aspose.Words.lic
+    process:
+        deferredTime: 10000
+    locale:
+        language: gr
+    cells:
+        asposeLicense: licenses/Aspose.Cells.lic
+    validation:
+        uninsuredVehicle: true
+    request:
+        limitLogged: 50
+        limitUnlogged: 100
+    ldap:
+        url: &quot;ldap://192.168.159.40:389&quot;
+        base: &quot;DC=agttest,DC=local&quot;
+        user: &quot;agttest\\ldap_query&quot;
+        password: &quot;L2ja^%#vRh^&quot;
+        searchPath: &quot;&quot;
+
+
+flyway:
+    locations: db/migration, io.lsn.lib.spring.email.db.migration
+    out-of-order: true
+    schemas: public
+
+alice:
+    credentials:
+        username: SALESTOOL
+        password: SALES
+    wsdl:
+        customer: /wsdl/alice/CustomerSearch.wsdl
+        vehicle: /wsdl/alice/Vehicle.wsdl
+        pricing: /wsdl/alice/Pricing.wsdl
+        postal: /wsdl/alice/PostalCode.wsdl
+        plate: /wsdl/alice/PlateValidation.wsdl
+        ownership: /wsdl/alice/Ownership.wsdl
+        address: /wsdl/alice/Address.wsdl
+        uninsured: /wsdl/alice/UninsuredVehicle.wsdl
+        greencard: /wsdl/alice/GreenCard.wsdl
+        covers: /wsdl/alice/Covers.wsdl
+        capital: /wsdl/alice/InsuredCapital.wsdl
+    partner_number: 4350
+    qname:
+        address: http://192.168.159.36/ws/get-addresses
+
+pb:
+    wsdl:
+        ibs: /wsdl/pb/IBSCustomer.wsdl
+        tibco: /wsdl/pb/TIBCOService.wsdl
+
+spring:
+    http:
+      multipart:
+        enabled: true
+        resolve-lazily: false
+        max-file-size: 20MB
+        max-request-size: 20MB
+    profiles:
+        active: dev, jobs
+    mail:
+        properties:
+            mail:
+                smtp:
+                    starttls:
+                        enable: true
+        host: smtp.gmail.com
+        username: USER
+        password: PWD
+        port: 587
+        smtp:
+            auth: true
+
+io:
+    lsn:
+        lib:
+            spring:
+                email:
+                    debug: true # set true if you want to send emails to yourself
+                    debugAddress: patryksz@lsnova.pl # your address email to send debug emails
+                    fromName: Lsnova
+                    fromAddress: hello@lsnova.pl
+                    cron: true
+                    cronjob: 0 */5 * * * *
+
+logging:
+    pattern:
+        level: &quot;%X{correlation:-without correlation}:%X{user} %5p&quot;
+    level:
+        io:
+            lsn: DEBUG
+
+server:
+    contextPath: /ergo5</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgU3RyZWFtLmZpdGVyLgo=</text>
+      <register name="1" type="4">
+        <text>12345</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIHRoaXMuZ2V0QmFua25vdGVzKCkuZm9yRWFjaCguKTsK</text>
+      <register name="2" type="4">
+        <text>admin</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHRoaXMuZ2V0Q2xhc3MoKQo=</text>
+        <text encoding="base64">ICAgICAgU3RyZWFtLmZpdGVyLgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgU3RyZWFtLmZpdGVyLgo=</text>
+        <text encoding="base64">ICAgIHRoaXMuZ2V0QmFua25vdGVzKCkuZm9yRWFjaCguKTsK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgIHRoaXMuZ2V0Q2xhc3MoKQo=</text>
@@ -107,16 +255,19 @@
         <text encoding="base64">ICAgICAgU3RyZWFtLmZpdGVyLgo=</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAgIHRoaXMuZ2V0Q2xhc3MoKQo=</text>
+      </register>
+      <register name="x" type="4">
+        <text>12345</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgU3RyZWFtLmZpdGVyLgo=</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgcmVxdWlyZSgnQGFuZ3VsYXItZGV2a2l0L2J1aWxkLWFuZ3VsYXIvcGx1Z2lucy9rYXJtYScpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
-      </register>
-      <register name="-" type="4">
-        <text />
-      </register>
-      <register name="/" type="4">
-        <text encoding="base64">XDw7XD4=</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -139,11 +290,13 @@
         <entry>action HideAllWindows</entry>
         <entry>action Forward</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRm9yd2FyZA==</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action $SelectAll</entry>
+        <entry>action PreviousOccurence</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
