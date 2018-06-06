@@ -27,12 +27,12 @@
         <mark key="^" line="21" column="59" />
         <mark key="." line="21" column="59" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/product/configuration/HomeConfiguration.java" timestamp="1528207557223">
-        <mark key="'" line="61" column="36" />
-        <mark key="[" line="61" column="4" />
-        <mark key="]" line="61" column="37" />
-        <mark key="^" line="61" column="3" />
-        <mark key="." line="61" column="4" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/product/configuration/HomeConfiguration.java" timestamp="1528282753289">
+        <mark key="'" line="63" column="4" />
+        <mark key="[" line="63" column="44" />
+        <mark key="]" line="63" column="23" />
+        <mark key="." line="63" column="23" />
+        <mark key="^" line="63" column="23" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml" timestamp="1528207892044">
         <mark key="[" line="24" column="27" />
@@ -65,11 +65,12 @@
         <mark key="^" line="26" column="75" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages.properties" timestamp="1528280766907">
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages.properties" timestamp="1528283039698">
         <mark key="'" line="21" column="0" />
-        <mark key="[" line="21" column="0" />
-        <mark key="]" line="21" column="59" />
-        <mark key="." line="21" column="0" />
+        <mark key="[" line="21" column="32" />
+        <mark key="]" line="21" column="30" />
+        <mark key="." line="21" column="30" />
+        <mark key="^" line="21" column="30" />
       </file>
       <file name="$USER_HOME$/logisfera/angular6-example-app/src/app/app.component.html" timestamp="1527943698335">
         <mark key="[" line="0" column="5" />
@@ -184,10 +185,11 @@
       <jump line="22" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages_gr.properties" />
       <jump line="21" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages_pl.properties" />
       <jump line="29" column="76" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/validator/MultipleFloorsValidator.java" />
+      <jump line="63" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/product/configuration/HomeConfiguration.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>io.lsn.tin.invalid</text>
+        <text>ValidDictionaryItem</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -195,39 +197,39 @@
       <register name="/" type="4">
         <text encoding="base64">XDw7XD4=</text>
       </register>
-      <register name="0" type="4">
-        <text>io.lsn.multiple_floors.invalid=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIEBWYWxpZERpY3Rpb25hcnlJdGVtKCJXQUxMQ09OU1RSVUNUSU9OIikK</text>
       </register>
       <register name="1" type="4">
-        <text>/**
- * Created by tomek on 30.11.2016.
- */</text>
+        <text>ValidDictionaryItem</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBsa3NhZGpma2xqcwo=</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="3" type="4">
         <text>/**
  * Created by tomek on 30.11.2016.
  */</text>
       </register>
-      <register name="5" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBsa3NhZGpma2xqcwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
+        <text>/**
+ * Created by tomek on 30.11.2016.
+ */</text>
+      </register>
+      <register name="7" type="4">
         <text>io.lsn.tin.invalid</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>io.lsn.tin.invalid</text>
+        <text>ValidDictionaryItem</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW8ubHNuLm11bHRpcGxlX2Zsb29ycy5pbnZhbGlkPW11c3QgYmUgZGlnaXRzLCBjb21tYSwgb3IgbWludXMgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -263,10 +265,10 @@
         <entry>action ShowFilePath</entry>
         <entry>action FindUsages</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action CloseContent</entry>
+        <entry>action GotoFile</entry>
+        <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
