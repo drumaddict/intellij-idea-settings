@@ -82,10 +82,11 @@
         <mark key="]" line="122" column="22" />
         <mark key="." line="0" column="322" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages_gr.properties" timestamp="1528266135716">
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages_gr.properties" timestamp="1528267668843">
         <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="." line="15" column="0" />
+        <mark key="]" line="15" column="46" />
+        <mark key="." line="15" column="46" />
+        <mark key="^" line="15" column="46" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/rest/controller/offer/command/OfferCommandController.java" timestamp="1528201689171">
         <mark key="[" line="108" column="0" />
@@ -274,7 +275,7 @@ server:
         <text encoding="base64">ICAgICAgU3RyZWFtLmZpdGVyLgo=</text>
       </register>
       <register name=":" type="4">
-        <text>action NextTab</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -304,9 +305,10 @@ server:
         <entry>action SaveAll</entry>
         <entry>action PreviousTab</entry>
         <entry>action CloseContent</entry>
-        <entry>action FindUsages</entry>
         <entry>action Find</entry>
         <entry>action NextTab</entry>
+        <entry>action CloseAllEditors</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
