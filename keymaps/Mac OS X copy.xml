@@ -3,11 +3,19 @@
     <keyboard-shortcut first-keystroke="meta 5" />
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
+  <action id="ActivateFavoritesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
   <action id="ActivateJRebelToolWindow">
     <keyboard-shortcut first-keystroke="alt j" />
   </action>
   <action id="ActivateMavenProjectsToolWindow">
     <keyboard-shortcut first-keystroke="alt m" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1" />
+    <keyboard-shortcut first-keystroke="alt 1" />
   </action>
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
@@ -33,9 +41,6 @@
   </action>
   <action id="JRebel Executor">
     <keyboard-shortcut first-keystroke="alt r" />
-  </action>
-  <action id="SelectInProjectView">
-    <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="alt 0" />

@@ -15,6 +15,7 @@
         <mark key="." line="265" column="3" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/soap/domain/address/AddressServiceFactory.java" timestamp="1528368452467" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/pom.xml" timestamp="1528370275400" />
       <file name="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/AtmApplication.java" timestamp="1527977882060">
         <mark key="[" line="15" column="18" />
         <mark key="]" line="15" column="18" />
@@ -239,7 +240,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action HideAllWindows</text>
       </register>
     </registers>
     <search>
@@ -266,9 +267,6 @@
         <entry>action ShowFilePath</entry>
         <entry>action FindUsages</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action CloseContent</entry>
-        <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action CloseAllEditors</entry>
@@ -290,8 +288,12 @@
         <entry>actionlist Maven</entry>
         <entry>source ~/.ideavimrc</entry>
         <entry>action Maven.EditRunConfiguration</entry>
-        <entry>action HideAllWindows</entry>
         <entry>action SaveAll</entry>
+        <entry>action ActivateStructureToolWindow</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action CloseContent</entry>
+        <entry>action HideAllWindows</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -305,6 +307,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>shift pressed ENTER</text>
       </shortcut-conflict>
     </shortcut-conflicts>
     <editor>
