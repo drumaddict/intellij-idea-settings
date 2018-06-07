@@ -14,13 +14,6 @@
         <mark key="^" line="265" column="3" />
         <mark key="." line="265" column="3" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/pom.xml" timestamp="1528362691472">
-        <mark key="'" line="427" column="20" />
-        <mark key="[" line="524" column="0" />
-        <mark key="]" line="524" column="0" />
-        <mark key="." line="524" column="0" />
-        <mark key="^" line="524" column="0" />
-      </file>
       <file name="$USER_HOME$/logisfera/atm/src/main/java/com/kabasakalis/atm/AtmApplication.java" timestamp="1527977882060">
         <mark key="[" line="15" column="18" />
         <mark key="]" line="15" column="18" />
@@ -99,6 +92,9 @@
         <mark key="^" line="20" column="38" />
         <mark key="." line="21" column="0" />
       </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/README.md" timestamp="1528366848883">
+        <mark key="." line="72" column="141" />
+      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/application.yml.dist" timestamp="1528204219904">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -112,12 +108,7 @@
         <mark key="." line="21" column="58" />
         <mark key="^" line="21" column="58" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/rest/controller/offer/command/OfferCommandController.java" timestamp="1528201689171">
-        <mark key="[" line="108" column="0" />
-        <mark key="]" line="108" column="44" />
-        <mark key="." line="108" column="44" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1528269780088">
+      <file name="/Dummy.txt" timestamp="1528365745037">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/logisfera/atm/build.gradle" timestamp="1527952774135">
@@ -146,6 +137,9 @@
         <mark key="^" line="76" column="0" />
         <mark key="." line="76" column="0" />
       </file>
+      <file name="/fragment.js2" timestamp="1528365736206">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/validator/DictionarItemValidator.java" timestamp="1528269804144">
         <mark key="[" line="14" column="0" />
         <mark key="]" line="14" column="105" />
@@ -157,7 +151,7 @@
         <mark key="^" line="18" column="25" />
         <mark key="." line="18" column="25" />
       </file>
-      <file name="/fragment.java" timestamp="1528270500024">
+      <file name="/fragment.java" timestamp="1528365745033">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -244,7 +238,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action HideAllWindows</text>
       </register>
     </registers>
     <search>
@@ -266,9 +260,7 @@
         <entry>action $SelectAll</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU2F2ZUFsbA==</entry>
-        <entry>action CloseAllEditors</entry>
         <entry>action SplitVertically</entry>
-        <entry>action HideAllWindows</entry>
         <entry>action ReformatCode</entry>
         <entry>action ShowFilePath</entry>
         <entry>action FindUsages</entry>
@@ -279,6 +271,26 @@
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action CloseAllEditors</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
+        <entry>actionlist Reb</entry>
+        <entry>actionlist Run</entry>
+        <entry>actionlist Rebel</entry>
+        <entry>actionlist Rebe</entry>
+        <entry>JRebel Run</entry>
+        <entry>JRebel Debug</entry>
+        <entry>action ActivateJRebelToolWindow</entry>
+        <entry>actionlist JRe</entry>
+        <entry>action 'JRebel Executor'</entry>
+        <entry>actionlist BuildPro</entry>
+        <entry>actionlist Buil</entry>
+        <entry>actionlist Build</entry>
+        <entry>Maven RunBuild</entry>
+        <entry>Maven.RunBuild</entry>
+        <entry>actionlist Maven</entry>
+        <entry>source ~/.ideavimrc</entry>
+        <entry>action Maven.EditRunConfiguration</entry>
+        <entry>action HideAllWindows</entry>
       </history-cmd>
       <history-expr />
       <history-input />
