@@ -178,7 +178,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action CloseContent</text>
+        <text>action AceAction</text>
       </register>
     </registers>
     <search>
@@ -215,6 +215,7 @@
         <entry>action CloseAllEditors</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action CloseContent</entry>
+        <entry>action AceAction</entry>
       </history-cmd>
       <history-expr />
       <history-input />
