@@ -40,8 +40,8 @@
       <file name="$USER_HOME$/logisfera/e5-greece.backend/tools/winbank_import/index.js" timestamp="1528440046358">
         <mark key="'" line="159" column="12" />
       </file>
-      <file name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java" timestamp="1528444260077">
-        <mark key="'" line="112" column="18" />
+      <file name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java" timestamp="1528444434855">
+        <mark key="'" line="93" column="1" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/validator/MultipleFloorsValidator.java" timestamp="1528362497017">
         <mark key="'" line="26" column="76" />
@@ -135,6 +135,7 @@
       <jump line="437" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/pom.xml" />
       <jump line="159" column="12" filename="$USER_HOME$/logisfera/e5-greece.backend/tools/winbank_import/index.js" />
       <jump line="112" column="18" filename="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java" />
+      <jump line="93" column="1" filename="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -219,6 +220,7 @@
         <entry>action VimFilePrevious</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
+        <entry>action VimWindowClose</entry>
         <entry>action CloseContent</entry>
         <entry>action GotoDeclaration</entry>
       </history-cmd>
