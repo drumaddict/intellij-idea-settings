@@ -84,11 +84,12 @@
         <mark key="." line="21" column="58" />
         <mark key="^" line="21" column="58" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528727087724">
-        <mark key="[" line="78" column="26" />
-        <mark key="]" line="78" column="47" />
-        <mark key="^" line="78" column="47" />
-        <mark key="." line="78" column="47" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528727822410">
+        <mark key="'" line="78" column="16" />
+        <mark key="[" line="79" column="28" />
+        <mark key="]" line="79" column="28" />
+        <mark key="^" line="79" column="28" />
+        <mark key="." line="79" column="28" />
       </file>
       <file name="/Dummy.txt" timestamp="1528365745037">
         <mark key="[" line="0" column="0" />
@@ -214,13 +215,14 @@
       <jump line="33" column="16" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="37" column="16" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="40" column="16" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
-      <jump line="71" column="15" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="49" column="43" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="72" column="93" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="79" column="16" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="80" column="16" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="86" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="76" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
+      <jump line="71" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
+      <jump line="78" column="16" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -232,8 +234,8 @@
       <register name="/" type="4">
         <text encoding="base64">XDw7XD4=</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">Z2V0RmllbGQoKS5zdHJlYW0oKS5maWx0ZXIoZmxleEZpZWxkIC0+IGZsZXhGaWVsZC5nZXRBdHRyaWJ1dGVDb2RlKCkgPT0gYXR0cmlidXRlTmFtZSk=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoRmxleEZpZWxkOjpnZXRWYWx1ZSkK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBGdW5jdGlvbjxWb2lkLCBTdHJpbmc+IGEgID0gRmxleEZpZWxkVmFsdWU6OmdldFN0cmluZ1ZhbHVlOwo=</text>
@@ -266,7 +268,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action VimFilePrevious</text>
+        <text>action GotoClass</text>
       </register>
     </registers>
     <search>
@@ -293,7 +295,6 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action CloseAllEditors</entry>
         <entry>action SplitVertically</entry>
-        <entry>action GotoClass</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
         <entry>action GotoDeclaration</entry>
@@ -310,6 +311,7 @@
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
         <entry>action VimFilePrevious</entry>
+        <entry>action GotoClass</entry>
       </history-cmd>
       <history-expr />
       <history-input />
