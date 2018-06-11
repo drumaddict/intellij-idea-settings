@@ -73,7 +73,8 @@
         <mark key="^" line="66" column="0" />
         <mark key="." line="66" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/configuration/BasicConfiguration.java" timestamp="1528465833175">
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/configuration/BasicConfiguration.java" timestamp="1528466659504">
+        <mark key="'" line="53" column="29" />
         <mark key="k" line="59" column="13" />
         <mark key="n" line="59" column="13" />
       </file>
@@ -157,6 +158,7 @@
       <jump line="93" column="1" filename="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java" />
       <jump line="63" column="3" filename="$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.1.3.RELEASE/spring-security-config-4.1.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/EnableWebSecurity.java" />
       <jump line="79" column="18" filename="$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.1.3.RELEASE/spring-security-config-4.1.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/EnableWebSecurity.java" />
+      <jump line="53" column="29" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/configuration/BasicConfiguration.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -204,7 +206,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action HideAllWindows</text>
+        <text>action VimFilePrevious</text>
       </register>
     </registers>
     <search>
@@ -242,13 +244,13 @@
         <entry>action MethodUp</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
-        <entry>action CloseContent</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action CloseAllEditors</entry>
         <entry>action HideAllWindows</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action CloseContent</entry>
+        <entry>action VimFilePrevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
