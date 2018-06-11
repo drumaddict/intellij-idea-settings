@@ -51,10 +51,12 @@
         <mark key="[" line="21" column="0" />
         <mark key="]" line="23" column="4" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/customer/mapper/PersonCustomerMapper.java" timestamp="1528700933567">
-        <mark key="'" line="149" column="0" />
-        <mark key="[" line="58" column="0" />
-        <mark key="]" line="160" column="21" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/customer/mapper/PersonCustomerMapper.java" timestamp="1528704638799">
+        <mark key="'" line="84" column="32" />
+        <mark key="[" line="45" column="108" />
+        <mark key="]" line="46" column="22" />
+        <mark key="^" line="46" column="22" />
+        <mark key="." line="46" column="22" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages_pl.properties" timestamp="1528280921820">
         <mark key="'" line="21" column="0" />
@@ -73,12 +75,11 @@
         <mark key="." line="21" column="58" />
         <mark key="^" line="21" column="58" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528701682393">
-        <mark key="'" line="124" column="21" />
-        <mark key="[" line="27" column="8" />
-        <mark key="]" line="27" column="67" />
-        <mark key="^" line="30" column="42" />
-        <mark key="." line="27" column="67" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528705577237">
+        <mark key="[" line="21" column="0" />
+        <mark key="]" line="21" column="0" />
+        <mark key="." line="21" column="0" />
+        <mark key="^" line="21" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1528365745037">
         <mark key="[" line="0" column="0" />
@@ -119,6 +120,9 @@
         <mark key="]" line="41" column="32" />
         <mark key="^" line="41" column="32" />
         <mark key="." line="41" column="32" />
+      </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/Offer.java" timestamp="1528705544465">
+        <mark key="'" line="129" column="0" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/validator/ValidTin.java" timestamp="1528271590028">
         <mark key="'" line="0" column="0" />
@@ -183,49 +187,53 @@
       <jump line="58" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/customer/mapper/PersonCustomerMapper.java" />
       <jump line="119" column="21" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="149" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/customer/mapper/PersonCustomerMapper.java" />
+      <jump line="80" column="3" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/customer/mapper/PersonCustomerMapper.java" />
+      <jump line="84" column="32" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/customer/mapper/PersonCustomerMapper.java" />
+      <jump line="55" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
+      <jump line="129" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/Offer.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>customer.getLegalName()</text>
+        <text>customer.getCustomerType()</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDw7XD4=</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">ICAgICAgICBQZXJzb24gcGVyc29uID0gbmV3IFBlcnNvbigpOwogICAgICAgIHBlcnNvbi5zZXRDcnMoY3VzdG9tZXIuZ2V0Q3VzdG9tZXJJZCgpKTsKICAgICAgICBwZXJzb24uc2V0Rmlyc3ROYW1lKGN1c3RvbWVyLmdldEZpcnN0TmFtZSgpKTsKICAgICAgICBwZXJzb24uc2V0TGFzdE5hbWUoY3VzdG9tZXIuZ2V0TGFzdE5hbWUoKSk7CiAgICAgICAgcGVyc29uLnNldEZhdGhlcnNGaXJzdE5hbWUoY3VzdG9tZXIuZ2V0RmF0aGVyc0ZpcnN0TmFtZSgpKTsKICAgICAgICBwZXJzb24uc2V0RmF0aGVyc0xhc3ROYW1lKGN1c3RvbWVyLmdldEZhdGhlcnNMYXN0TmFtZSgpKTsKICAgICAgICBwZXJzb24uc2V0VGluKGN1c3RvbWVyLmdldFRheFJlY29yZE51bWJlcigpKTsKICAgICAgICBwZXJzb24uc2V0UHJlZmVjdHVyZShjdXN0b21lci5nZXRQZXJmZWN0dXJlKCkpOwogICAgICAgIHBlcnNvbi5zZXRDb21wYW55TmFtZShjdXN0b21lci5nZXRMZWdhbE5hbWUoKSk7CiAgICAgICAgcGVyc29uLnNldEFkZHJlc3NDaXR5KGN1c3RvbWVyLmdldENpdHkoKSk7CiAgICAgICAgcGVyc29uLnNldEFkZHJlc3NQb3N0YWxDb2RlKGN1c3RvbWVyLmdldFppcENvZGUoKSk7CiAgICAgICAgcGVyc29uLnNldEFkZHJlc3NTdHJlZXQoY3VzdG9tZXIuZ2V0U3RyZWV0TmFtZSgpKTsKICAgICAgICBwZXJzb24uc2V0QWRkcmVzc0FyZWEoY3VzdG9tZXIuZ2V0QWRkcmVzc0ZyZWVUZXh0KCkpOwogICAgICAgIHBlcnNvbi5zZXRBZGRyZXNzSG91c2VOdW1iZXIoY3VzdG9tZXIuZ2V0U3RyZWV0TnVtYmVyKCkpOwogICAgICAgIHBlcnNvbi5zZXRFbWFpbChjdXN0b21lci5nZXRFbWFpbCgpKTsKICAgICAgICBwZXJzb24uc2V0UGhvbmVOdW1iZXJNb2JpbGUoY3VzdG9tZXIuZ2V0TW9iaWxlUGhvbmVOdW0oKSk7CiAgICAgICAgcGVyc29uLnNldFBob25lTnVtYmVySG9tZShjdXN0b21lci5nZXRIb21lUGhvbmVOdW0oKSk7CgogICAgICAgIC8vIGh0dHBzOi8vbHNub3ZhLmF0bGFzc2lhbi5uZXQvYnJvd3NlL1NNR1ItMjA3MwogICAgICAgIHBlcnNvbi5zZXRDcnNQYXlyb2xsKGN1c3RvbWVyLmdldENSU1BBWVJPTEwoKSk7CiAgICAgICAgcGVyc29uLnNldFN1cnZpdm9yQ3JzKGN1c3RvbWVyLmdldFN1cnZpdm9yQ1JTKCkpOwoKICAgICAgICBpZiAoY3VzdG9tZXIuZ2V0Q3VzdG9tZXJDYXRlZ29yeSgpICE9IG51bGwgJiYgaXNMZWdhbEVudGl0eShjdXN0b21lcikpIHsKICAgICAgICAgICAgcGVyc29uLnNldFBob25lTnVtYmVySG9tZShjdXN0b21lci5nZXRXb3JrUGhvbmVOdW0oKSk7CiAgICAgICAgfQoKICAgICAgICBwZXJzb24uc2V0QmlydGhEYXRlKERhdGVIZWxwZXIudGliY29TdHJpbmdUb0RhdGUoY3VzdG9tZXIuZ2V0RGF0ZU9mQmlydGgoKSkpOwogICAgICAgIHBlcnNvbi5zZXRFeHRlcm5hbElkKGdldENhcmROdW1iZXIoY3VzdG9tZXIpKTsKICAgICAgICBwZXJzb24uc2V0VGF4T2ZmaWNlKG1hcFRheE9mZmljZShjdXN0b21lci5nZXRUYXhOdW1iZXJJc3N1ZUF1dGhvcml0eSgpKSk7CgogICAgICAgIC8vIHRheCBvZmZpY2UgY29kZQogICAgICAgIGlmIChjdXN0b21lci5nZXRUYXhOdW1iZXJJc3N1ZUF1dGhvcml0eSgpICE9IG51bGwgJiYgIWN1c3RvbWVyLmdldFRheE51bWJlcklzc3VlQXV0aG9yaXR5KCkudHJpbSgpLmlzRW1wdHkoKSkgewogICAgICAgICAgICBwZXJzb24uc2V0VGF4T2ZmaWNlQ29kZShjdXN0b21lci5nZXRUYXhOdW1iZXJJc3N1ZUF1dGhvcml0eSgpLnN1YnN0cmluZygwLCBjdXN0b21lci5nZXRUYXhOdW1iZXJJc3N1ZUF1dGhvcml0eSgpLmluZGV4T2YoIi0iKSkpOwogICAgICAgIH0KCiAgICAgICAgLy8gb3JpZ2luYWwgKFRJQkNPKSB0YXgtb2ZmaWNlCiAgICAgICAgcGVyc29uLnNldFRpYmNvVGF4T2ZmaWNlKGN1c3RvbWVyLmdldFRheE51bWJlcklzc3VlQXV0aG9yaXR5KCkpOwoKICAgICAgICBwZXJzb24uc2V0SGFzQ29tcGFueUZsYWcoY3VzdG9tZXIuZ2V0Q3VzdG9tZXJUeXBlKCkuZXF1YWxzKFBlcnNvblR5cGUuQnVzaW5lc3MubmFtZSgpKSk7CiAgICAgICAgcGVyc29uLnNldEhhc0FncmljYXJkT3duZXJGbGFnKGN1c3RvbWVyLmdldElzQWdyaUNhcmRPd25lcigpLmVxdWFscygiVFJVRSIpKTsKICAgICAgICBwZXJzb24uc2V0Q3VzdG9tZXJUeXBlKGN1c3RvbWVyLmdldEN1c3RvbWVyVHlwZSgpKTsKCgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHBlcnNvbi5zZXRHZW5kZXIoCiAgICAgICAgICAgICAgICAgICAgRGljdGlvbmFyeVJlZ2lzdHJ5LmdldFNlcnZpY2UoKS5nZXREaWN0aW9uYXJ5SXRlbUJ5TWFwcGluZygKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFN5c3RlbVR5cGUuUEIubmFtZSgpLCAiR0VOREVSIiwgY3VzdG9tZXIuZ2V0R2VuZGVyKCkKICAgICAgICAgICAgICAgICAgICApKTsKICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICBsb2dnZXIuZXJyb3IoIkdlbmRlciBtYXBwaW5nIG5vdCBmb3VuZDogIiArIGN1c3RvbWVyLmdldEdlbmRlcigpKTsKICAgICAgICB9CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHBlcnNvbi5zZXRBZGRyZXNzQ291bnRyeSgKICAgICAgICAgICAgICAgICAgICBEaWN0aW9uYXJ5UmVnaXN0cnkuZ2V0U2VydmljZSgpLmdldERpY3Rpb25hcnlJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkNPVU5UUllfQUxQSEEyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1c3RvbWVyLmdldENvdW50cnkoKS5zdWJzdHJpbmcoMCwgMikKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICk7CiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGUuZ2V0TWVzc2FnZSgpLCBlKTsKICAgICAgICB9CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHBlcnNvbi5zZXROYXRpb25hbGl0eSgKICAgICAgICAgICAgICAgICAgICBEaWN0aW9uYXJ5UmVnaXN0cnkuZ2V0U2VydmljZSgpLmdldERpY3Rpb25hcnlJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkNPVU5UUllfQUxQSEEyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1c3RvbWVyLmdldE5hdGlvbmFsaXR5KCkuc3Vic3RyaW5nKDAsIDIpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICApOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihlLmdldE1lc3NhZ2UoKSwgZSk7CiAgICAgICAgfQoKICAgICAgICB0cnkgewogICAgICAgICAgICBwZXJzb24uc2V0UmVzaWRlbnRDb3VudHJ5KAogICAgICAgICAgICAgICAgICAgIERpY3Rpb25hcnlSZWdpc3RyeS5nZXRTZXJ2aWNlKCkuZ2V0RGljdGlvbmFyeUl0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiQ09VTlRSWV9BTFBIQTIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3VzdG9tZXIuZ2V0UmVzaWRlbnRDb3VudHJ5KCkuc3Vic3RyaW5nKDAsIDIpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICApOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihlLmdldE1lc3NhZ2UoKSwgZSk7CiAgICAgICAgfQoKICAgICAgICBwZXJzb24uc2V0Q3VzdG9tZXJDYXRlZ29yeShjdXN0b21lci5nZXRDdXN0b21lckNhdGVnb3J5KCkpOwoKICAgICAgICAvLyBsZWdhbCBlbnRpdHkKICAgICAgICBpZiAoY3VzdG9tZXIuZ2V0Q3VzdG9tZXJDYXRlZ29yeSgpICE9IG51bGwgJiYgaXNMZWdhbEVudGl0eShjdXN0b21lcikpIHsKICAgICAgICAgICAgcGVyc29uLnNldEhhc0NvbXBhbnlGbGFnKHRydWUpOwogICAgICAgIH0KCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgcGVyc29uLnNldFByb2Zlc3Npb24oCiAgICAgICAgICAgICAgICAgICAgRGljdGlvbmFyeVJlZ2lzdHJ5LmdldFNlcnZpY2UoKS5nZXREaWN0aW9uYXJ5SXRlbUJ5TWFwcGluZygKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFN5c3RlbVR5cGUuSUNFLm5hbWUoKSwgRGljdGlvbmFyeS5EaWN0aW9uYXJ5Q29kZS5QUk9GRVNTSU9OLm5hbWUoKSwgY3VzdG9tZXIuZ2V0T2NjdXBhdGlvbklkKCkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICk7CiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKCJPY2N1cGF0aW9uIG1hcHBpbmcgbm90IGZvdW5kOiAiICsgY3VzdG9tZXIuZ2V0T2NjdXBhdGlvbklkKCkpOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHBlcnNvbjs=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0Q3VzdG9tZXJUeXBlKGN1c3RvbWVyLmdldEN1c3RvbWVyVHlwZSgpKTsK</text>
       </register>
-      <register name="1" type="4">
-        <text>customer.getLegalName()</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="2" type="4">
-        <text>customer.getPerfecture()</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0R2VuZGVyKHJlcXVlc3RQZXJzb24uZ2V0R2VuZGVyKCkpOwo=</text>
       </register>
-      <register name="3" type="4">
-        <text>customer.getTaxRecordNumber()</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>customer.getFathersLastName()</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>customer.getFathersFirstName()</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgIHJlcXVlc3RQZXJzb24uZ2V0Q3VzdG9tZXJDYXRlZ29yeSgpCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>customer.getLastName()</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0Q3VzdG9tZXJUeXBlKHJlcXVlc3RQZXJzb24uZ2V0Q3VzdG9tZXJDYXRlZ29yeSgpKTsK</text>
       </register>
-      <register name="7" type="4">
-        <text>customer.getFirstName()</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0Q3VzdG9tZXJUeXBlKGN1c3RvbWVyLmdldEN1c3RvbWVyVHlwZSgpKTsK</text>
       </register>
       <register name="x" type="4">
-        <text>customer.getLegalName()</text>
+        <text>customer.getCustomerType()</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbWFwKG1vZGVscywgZmFsc2UpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -252,21 +260,22 @@
         <entry>action MethodDown</entry>
         <entry>action MethodUp</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action GotoFile</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action CloseAllEditors</entry>
         <entry>action SplitVertically</entry>
-        <entry>action Find</entry>
         <entry>action CloseContent</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action PreviousTab</entry>
         <entry>action HideAllWindows</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action GotoClass</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action TabShiftActions.StretchRight</entry>
+        <entry>action Find</entry>
+        <entry>action GotoFile</entry>
+        <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
