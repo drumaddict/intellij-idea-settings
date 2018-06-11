@@ -4,6 +4,7 @@
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/insurance/InsuredObject.java" timestamp="1528711595724" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/InsuredProduct.java" timestamp="1528721076602" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/pom.xml" timestamp="1528376629557">
         <mark key="'" line="437" column="0" />
       </file>
@@ -69,9 +70,6 @@
         <mark key="^" line="20" column="38" />
         <mark key="." line="21" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/README.md" timestamp="1528366848883">
-        <mark key="." line="72" column="141" />
-      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages_gr.properties" timestamp="1528280860624">
         <mark key="'" line="21" column="0" />
         <mark key="[" line="21" column="0" />
@@ -79,12 +77,11 @@
         <mark key="." line="21" column="58" />
         <mark key="^" line="21" column="58" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528720392893">
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528721390930">
         <mark key="'" line="45" column="16" />
-        <mark key="[" line="47" column="72" />
-        <mark key="]" line="47" column="53" />
-        <mark key="." line="47" column="53" />
-        <mark key="^" line="47" column="53" />
+        <mark key="[" line="47" column="0" />
+        <mark key="]" line="47" column="0" />
+        <mark key="." line="47" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1528365745037">
         <mark key="[" line="0" column="0" />
@@ -224,35 +221,35 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGhvbWVQcm9jdWN0LnNldFBhcmVudE9iamVjdChob21lT2JqZWN0KTsK</text>
       </register>
-      <register name="1" type="4">
-        <text>public</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGluc3VyZWRQZXJzb24uc2V0T2JqZWN0TGlzdChuZXcgT2JqZWN0KTsK</text>
       </register>
       <register name="2" type="4">
+        <text>public</text>
+      </register>
+      <register name="3" type="4">
         <text>ecuconfiguration</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICBHZW5lcmljUHJvZHVjdENvbmZpZ3VyYXRpb24gY29uZmlndXJhdGlvbjsK</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGhvbWVPYmplY3Quc2V0Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGhvbWVPYmplY3Quc2V0UGFyZW50SW5zdXJlZFBlcnNvbihpbnN1cmVkUGVyc29uKTsK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>public</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgY2FzZSAzOiAgZnV0dXJlTW9udGhzLmFkZCgiTWFyY2giKTsKICAgICAgICAgICAgY2FzZSA0OiAgZnV0dXJlTW9udGhzLmFkZCgiQXByaWwiKTsKICAgICAgICAgICAgY2FzZSA1OiAgZnV0dXJlTW9udGhzLmFkZCgiTWF5Iik7CiAgICAgICAgICAgIGNhc2UgNjogIGZ1dHVyZU1vbnRocy5hZGQoIkp1bmUiKTsKICAgICAgICAgICAgY2FzZSA3OiAgZnV0dXJlTW9udGhzLmFkZCgiSnVseSIpOwogICAgICAgICAgICBjYXNlIDg6ICBmdXR1cmVNb250aHMuYWRkKCJBdWd1c3QiKTsKICAgICAgICAgICAgY2FzZSA5OiAgZnV0dXJlTW9udGhzLmFkZCgiU2VwdGVtYmVyIik7CiAgICAgICAgICAgIGNhc2UgMTA6IGZ1dHVyZU1vbnRocy5hZGQoIk9jdG9iZXIiKTsKICAgICAgICAgICAgY2FzZSAxMTogZnV0dXJlTW9udGhzLmFkZCgiTm92ZW1iZXIiKTsKICAgICAgICAgICAgY2FzZSAxMjogZnV0dXJlTW9udGhzLmFkZCgiRGVjZW1iZXIiKTs=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgY2FzZSAzOiAgZnV0dXJlTW9udGhzLmFkZCgiTWFyY2giKTsKICAgICAgICAgICAgY2FzZSA0OiAgZnV0dXJlTW9udGhzLmFkZCgiQXByaWwiKTsKICAgICAgICAgICAgY2FzZSA1OiAgZnV0dXJlTW9udGhzLmFkZCgiTWF5Iik7CiAgICAgICAgICAgIGNhc2UgNjogIGZ1dHVyZU1vbnRocy5hZGQoIkp1bmUiKTsKICAgICAgICAgICAgY2FzZSA3OiAgZnV0dXJlTW9udGhzLmFkZCgiSnVseSIpOwogICAgICAgICAgICBjYXNlIDg6ICBmdXR1cmVNb250aHMuYWRkKCJBdWd1c3QiKTsKICAgICAgICAgICAgY2FzZSA5OiAgZnV0dXJlTW9udGhzLmFkZCgiU2VwdGVtYmVyIik7CiAgICAgICAgICAgIGNhc2UgMTA6IGZ1dHVyZU1vbnRocy5hZGQoIk9jdG9iZXIiKTsKICAgICAgICAgICAgY2FzZSAxMTogZnV0dXJlTW9udGhzLmFkZCgiTm92ZW1iZXIiKTsKICAgICAgICAgICAgY2FzZSAxMjogZnV0dXJlTW9udGhzLmFkZCgiRGVjZW1iZXIiKTs=</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -288,15 +285,16 @@
         <entry>action GotoClass</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
-        <entry>action NextTab</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
         <entry>action Find</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoFile</entry>
         <entry>action HideAllWindows</entry>
+        <entry>action NextTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>84</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
