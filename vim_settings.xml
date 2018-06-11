@@ -28,7 +28,7 @@
       <file name="$USER_HOME$/logisfera/e5-greece.backend/tools/winbank_import/index.js" timestamp="1528440046358">
         <mark key="'" line="159" column="12" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/InsuredObject.java" timestamp="1528711328836" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/InsuredObject.java" timestamp="1528713905567" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/configuration/ValidatorConfig.java" timestamp="1528447379009">
         <mark key="[" line="7" column="0" />
         <mark key="]" line="8" column="0" />
@@ -78,11 +78,12 @@
         <mark key="." line="21" column="58" />
         <mark key="^" line="21" column="58" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528708861711">
-        <mark key="[" line="21" column="8" />
-        <mark key="]" line="22" column="38" />
-        <mark key="." line="22" column="38" />
-        <mark key="^" line="22" column="38" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528715372837">
+        <mark key="'" line="41" column="16" />
+        <mark key="[" line="33" column="32" />
+        <mark key="]" line="33" column="31" />
+        <mark key="." line="33" column="31" />
+        <mark key="^" line="33" column="31" />
       </file>
       <file name="/Dummy.txt" timestamp="1528365745037">
         <mark key="[" line="0" column="0" />
@@ -201,52 +202,59 @@
       <jump line="48" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/Offer.java" />
       <jump line="362" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/Offer.java" />
       <jump line="152" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/product/configuration/HomeConfiguration.java" />
+      <jump line="22" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
+      <jump line="21" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
+      <jump line="27" column="33" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
+      <jump line="32" column="32" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
+      <jump line="33" column="16" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
+      <jump line="37" column="16" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
+      <jump line="40" column="16" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>customer.getCustomerType()</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>setParentObject(homeObject);</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDw7XD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0Q3VzdG9tZXJUeXBlKGN1c3RvbWVyLmdldEN1c3RvbWVyVHlwZSgpKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGhvbWVQcm9jdWN0LnNldFBhcmVudE9iamVjdChob21lT2JqZWN0KTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGhvbWVPYmplY3Quc2V0Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0R2VuZGVyKHJlcXVlc3RQZXJzb24uZ2V0R2VuZGVyKCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGhvbWVPYmplY3Quc2V0UGFyZW50SW5zdXJlZFBlcnNvbihpbnN1cmVkUGVyc29uKTsK</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIHJlcXVlc3RQZXJzb24uZ2V0Q3VzdG9tZXJDYXRlZ29yeSgpCg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgY2FzZSAzOiAgZnV0dXJlTW9udGhzLmFkZCgiTWFyY2giKTsKICAgICAgICAgICAgY2FzZSA0OiAgZnV0dXJlTW9udGhzLmFkZCgiQXByaWwiKTsKICAgICAgICAgICAgY2FzZSA1OiAgZnV0dXJlTW9udGhzLmFkZCgiTWF5Iik7CiAgICAgICAgICAgIGNhc2UgNjogIGZ1dHVyZU1vbnRocy5hZGQoIkp1bmUiKTsKICAgICAgICAgICAgY2FzZSA3OiAgZnV0dXJlTW9udGhzLmFkZCgiSnVseSIpOwogICAgICAgICAgICBjYXNlIDg6ICBmdXR1cmVNb250aHMuYWRkKCJBdWd1c3QiKTsKICAgICAgICAgICAgY2FzZSA5OiAgZnV0dXJlTW9udGhzLmFkZCgiU2VwdGVtYmVyIik7CiAgICAgICAgICAgIGNhc2UgMTA6IGZ1dHVyZU1vbnRocy5hZGQoIk9jdG9iZXIiKTsKICAgICAgICAgICAgY2FzZSAxMTogZnV0dXJlTW9udGhzLmFkZCgiTm92ZW1iZXIiKTsKICAgICAgICAgICAgY2FzZSAxMjogZnV0dXJlTW9udGhzLmFkZCgiRGVjZW1iZXIiKTs=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0Q3VzdG9tZXJUeXBlKHJlcXVlc3RQZXJzb24uZ2V0Q3VzdG9tZXJDYXRlZ29yeSgpKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0Q3VzdG9tZXJUeXBlKGN1c3RvbWVyLmdldEN1c3RvbWVyVHlwZSgpKTsK</text>
+        <text encoding="base64">ICAgICAgICBQZXJzb24gcGVyc29uID0gZ2V0UGVyc29uKHJlcXVlc3QpOwo=</text>
       </register>
       <register name="x" type="4">
         <text>customer.getCustomerType()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0R2VuZGVyKHJlcXVlc3RQZXJzb24uZ2V0R2VuZGVyKCkpOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -281,13 +289,13 @@
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
-        <entry>action SaveAll</entry>
         <entry>action HideAllWindows</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
         <entry>action NextTab</entry>
         <entry>action Find</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
