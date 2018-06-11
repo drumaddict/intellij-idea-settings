@@ -3,6 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/insurance/InsuredObject.java" timestamp="1528711595724" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/pom.xml" timestamp="1528376629557">
         <mark key="'" line="437" column="0" />
       </file>
@@ -13,6 +14,7 @@
         <mark key="^" line="21" column="59" />
         <mark key="." line="21" column="59" />
       </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/insurance/InsuredProduct.java" timestamp="1528711677573" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/product/configuration/HomeConfiguration.java" timestamp="1528709678696">
         <mark key="'" line="152" column="4" />
         <mark key="[" line="63" column="44" />
@@ -26,6 +28,7 @@
       <file name="$USER_HOME$/logisfera/e5-greece.backend/tools/winbank_import/index.js" timestamp="1528440046358">
         <mark key="'" line="159" column="12" />
       </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/InsuredObject.java" timestamp="1528711328836" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/configuration/ValidatorConfig.java" timestamp="1528447379009">
         <mark key="[" line="7" column="0" />
         <mark key="]" line="8" column="0" />
@@ -121,7 +124,7 @@
         <mark key="^" line="41" column="32" />
         <mark key="." line="41" column="32" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/Offer.java" timestamp="1528707343606">
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/Offer.java" timestamp="1528711384866">
         <mark key="'" line="362" column="0" />
         <mark key="[" line="71" column="1" />
         <mark key="]" line="71" column="2" />
@@ -134,7 +137,7 @@
         <mark key="^" line="18" column="25" />
         <mark key="." line="18" column="25" />
       </file>
-      <file name="/fragment.java" timestamp="1528710415350">
+      <file name="/fragment.java" timestamp="1528711724483">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -243,7 +246,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -273,18 +276,18 @@
         <entry>action CloseContent</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action ReformatCode</entry>
         <entry>action GotoClass</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action HideAllWindows</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
         <entry>action NextTab</entry>
         <entry>action Find</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
