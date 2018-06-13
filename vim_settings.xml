@@ -9,6 +9,12 @@
         <mark key="^" line="65" column="13" />
         <mark key="." line="65" column="13" />
       </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/soap/endpoint/WinbankEnpoint.java" timestamp="1528871343761">
+        <mark key="[" line="40" column="47" />
+        <mark key="]" line="41" column="26" />
+        <mark key="^" line="41" column="26" />
+        <mark key="." line="41" column="26" />
+      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/pom.xml" timestamp="1528376629557">
         <mark key="'" line="437" column="0" />
       </file>
@@ -88,12 +94,11 @@
         <mark key="." line="21" column="58" />
         <mark key="^" line="21" column="58" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528813428656">
-        <mark key="'" line="92" column="16" />
-        <mark key="[" line="78" column="0" />
-        <mark key="]" line="78" column="0" />
-        <mark key="^" line="81" column="15" />
-        <mark key="." line="78" column="0" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528871568177">
+        <mark key="'" line="523" column="12" />
+        <mark key="[" line="95" column="0" />
+        <mark key="]" line="95" column="0" />
+        <mark key="." line="95" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1528365745037">
         <mark key="[" line="0" column="0" />
@@ -159,7 +164,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="194" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="196" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="319" column="20" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="321" column="20" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
@@ -259,6 +263,7 @@
       <jump line="71" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="91" column="46" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="103" column="16" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
+      <jump line="527" column="12" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
     </jumps>
     <registers>
       <register name="*" type="2">
@@ -279,26 +284,26 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">CiAgICAgICAgICAgICAgICAvL1RPRE8gbWFrZSBsaXN0IG9mIGluc3VyZWQgUHJvZHVjdHMgYW5kIGFkZCBpdCB0byAgaW5zdXJlZFBlcnNvbgogICAgICAgICAgICAgICAgLy9UT0RPIG1ha2UgbGlzdCBvZiBpbnN1cmVkUGVyc29ucyBhbmQgYWRkIGl0IHRvIG9mZmVy</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAvL1RPRE8gIGdyYWIgRmxleEZpZWxkcyAobm90IGFzc29jaWF0ZWQgd2l0aCBIb21lIG9yIFNlY3VyZSBXYWxsZXQpIGFuZCAgcHV0IHRoZW0gd2hlcmUgdGhleSBiZWxvbmcgKEFwcGxpY2F0aW9uRm9ybSkK</text>
+        <text encoding="base64">ICAgICAgICBvZmZlci5zZXRJbnN1cmVkUGVyc29uTGlzdChpbnN1cmVkUGVyc29uTGlzdCk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbnN1cmVkUGVyc29uLnNldFBhcmVudE9mZmVyKG9mZmVyKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICAgIGluc3VyZWRQZXJzb25MaXN0LmFkZChpbnN1cmVkUGVyc29uKTsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="x" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIEluc3VyZWRQcm9kdWN0IGhvbWVQcm9kdWN0ID0gbmV3IEluc3VyZWRQcm9kdWN0KCk7CiAgICAgICAgICAgICAgICBob21lUHJvZHVjdC5zZXRQYXJlbnRPYmplY3QoaG9tZU9iamVjdCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -319,20 +324,7 @@
         <entry encoding="base64">XDw7XD4=</entry>
       </history-search>
       <history-cmd>
-        <entry>action CloseAllEditors</entry>
-        <entry>action SplitVertically</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
-        <entry>84</entry>
-        <entry>action FindUsages</entry>
-        <entry>action GotoClass</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gU2F2ZUFsbA==</entry>
-        <entry>action TabShiftActions.StretchLeft</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action HideAllWindows</entry>
-        <entry>action QuickJavaDoc</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
-        <entry>action NextTab</entry>
         <entry>action GotoSymbol</entry>
         <entry>action CloseContent</entry>
         <entry>action TabShiftActions.StretchRight</entry>
@@ -345,10 +337,11 @@
         <entry>action NextOccurence</entry>
         <entry>action GotoFile</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
         <entry>action VimFilePrevious</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
