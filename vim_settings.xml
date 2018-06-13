@@ -73,6 +73,12 @@
         <mark key="^" line="46" column="22" />
         <mark key="." line="46" column="22" />
       </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/soap/domain/winbank/QuotationRequest.java" timestamp="1528877931918">
+        <mark key="[" line="3" column="37" />
+        <mark key="]" line="3" column="40" />
+        <mark key="." line="3" column="40" />
+        <mark key="^" line="3" column="40" />
+      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages_pl.properties" timestamp="1528280921820">
         <mark key="'" line="21" column="0" />
         <mark key="[" line="21" column="0" />
@@ -270,7 +276,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIEluc3VyZWRQcm9kdWN0IGhvbWVQcm9kdWN0ID0gbmV3IEluc3VyZWRQcm9kdWN0KCk7CiAgICAgICAgICAgICAgICBob21lUHJvZHVjdC5zZXRQYXJlbnRPYmplY3QoaG9tZU9iamVjdCk7Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bmV3IEFycmF5TGlzdDw+KEFycmF5cy5hc0xpc3QoInh5eiIsICJhYmMiKSk7</text>
+        <text>c</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDw7XD4=</text>
@@ -309,7 +315,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoSymbol</text>
       </register>
     </registers>
     <search>
@@ -325,7 +331,6 @@
       </history-search>
       <history-cmd>
         <entry>action EditorAddOrRemoveCaret</entry>
-        <entry>action GotoSymbol</entry>
         <entry>action CloseContent</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action PreviousOccurence</entry>
@@ -338,12 +343,13 @@
         <entry>action GotoFile</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action Find</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
+        <entry>action GotoSymbol</entry>
       </history-cmd>
       <history-expr />
       <history-input />
