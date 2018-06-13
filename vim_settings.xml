@@ -14,6 +14,7 @@
         <mark key="^" line="2" column="26" />
         <mark key="." line="2" column="26" />
       </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/product/validator/HomeValidator.java" timestamp="1528885062186" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/pom.xml" timestamp="1528376629557">
         <mark key="'" line="437" column="0" />
       </file>
@@ -315,7 +316,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action CloseAllEditors</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -331,7 +332,6 @@
       </history-search>
       <history-cmd>
         <entry>action EditorAddOrRemoveCaret</entry>
-        <entry>action CloseContent</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action AceAction</entry>
@@ -342,15 +342,16 @@
         <entry>action NextOccurence</entry>
         <entry>action GotoFile</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoSymbol</entry>
         <entry>action PreviousTab</entry>
-        <entry>action Find</entry>
         <entry>action CloseAllEditors</entry>
+        <entry>action CloseContent</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
