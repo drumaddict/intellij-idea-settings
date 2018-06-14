@@ -21,6 +21,9 @@
         <mark key="[" line="18" column="0" />
         <mark key="]" line="18" column="92" />
       </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/pom.xml" timestamp="1528376629557">
+        <mark key="'" line="437" column="0" />
+      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages_en.properties" timestamp="1528971912188">
         <mark key="'" line="18" column="0" />
         <mark key="[" line="18" column="0" />
@@ -33,6 +36,12 @@
         <mark key="]" line="62" column="80" />
         <mark key="^" line="62" column="62" />
         <mark key="." line="62" column="63" />
+      </file>
+      <file name="$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.1.3.RELEASE/spring-security-config-4.1.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/EnableWebSecurity.java" timestamp="1528445465313">
+        <mark key="'" line="79" column="18" />
+      </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/tools/winbank_import/index.js" timestamp="1528440046358">
+        <mark key="'" line="159" column="12" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/InsuredObject.java" timestamp="1528969640451" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/home_flex_fields.xml" timestamp="1528899315803">
@@ -97,15 +106,15 @@
         <mark key="." line="18" column="67" />
         <mark key="^" line="18" column="67" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528982480259">
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528984283863">
         <mark key="a" line="552" column="35" />
         <mark key="c" line="578" column="72" />
         <mark key="'" line="43" column="20" />
         <mark key="k" line="285" column="12" />
-        <mark key="[" line="75" column="68" />
-        <mark key="]" line="75" column="66" />
-        <mark key="^" line="75" column="66" />
-        <mark key="." line="75" column="66" />
+        <mark key="[" line="121" column="37" />
+        <mark key="]" line="121" column="41" />
+        <mark key="^" line="121" column="41" />
+        <mark key="." line="121" column="41" />
       </file>
       <file name="/Dummy.txt" timestamp="1528365745037">
         <mark key="[" line="0" column="0" />
@@ -129,6 +138,12 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
         <mark key="^" line="14" column="0" />
+      </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/entity/ProductTest.java" timestamp="1528984646820">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java" timestamp="1528444434855">
+        <mark key="'" line="93" column="1" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/soap/domain/winbank/FlexFieldValue.java" timestamp="1528786621961">
         <mark key="'" line="72" column="14" />
@@ -170,7 +185,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="46" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/home_flex_fields.xml" />
       <jump line="66" column="15" filename="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/home_flex_fields.xml" />
       <jump line="57" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/home_flex_fields.xml" />
       <jump line="77" column="15" filename="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/home_flex_fields.xml" />
@@ -270,6 +284,7 @@
       <jump line="18" column="15" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages.properties" />
       <jump line="62" column="79" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/product/configuration/HomeConfiguration.java" />
       <jump line="43" column="20" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/entity/ProductTest.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -315,7 +330,7 @@
         <text encoding="base64">aW8ubHNuLnBhdHRlcm4uZGlnaXRzY29tbWFvcmRhc2g9bXVzdCBiZSBkaWdpdHMsIGNvbW1hLCBvciBkYXNoIG9ubHkK</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action PreviousTab</text>
       </register>
     </registers>
     <search>
@@ -348,17 +363,17 @@
         <entry>action RenameFile</entry>
         <entry>action RenameElement</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action GotoSymbol</entry>
-        <entry>action CloseContent</entry>
         <entry>action Find</entry>
         <entry>action CloseAllEditors</entry>
         <entry>action GotoFile</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action SaveAll</entry>
+        <entry>action CloseContent</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action PreviousTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
