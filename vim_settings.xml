@@ -116,6 +116,12 @@
         <mark key="^" line="121" column="41" />
         <mark key="." line="121" column="41" />
       </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/offer/entity/product/configuration/PlantsConfigurationTest.java" timestamp="1528985241043">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="^" line="4" column="13" />
+        <mark key="." line="4" column="0" />
+      </file>
       <file name="/Dummy.txt" timestamp="1528365745037">
         <mark key="[" line="0" column="0" />
       </file>
@@ -124,6 +130,12 @@
         <mark key="]" line="66" column="0" />
         <mark key="^" line="66" column="0" />
         <mark key="." line="66" column="0" />
+      </file>
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/helper/ProductStructureMapperTest.java" timestamp="1528985571082">
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="33" column="31" />
+        <mark key="^" line="33" column="31" />
+        <mark key="." line="33" column="31" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/validator/ValidMutipleFloors.java" timestamp="1528269565438">
         <mark key="'" line="22" column="0" />
@@ -144,12 +156,6 @@
       </file>
       <file name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java" timestamp="1528444434855">
         <mark key="'" line="93" column="1" />
-      </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/soap/domain/winbank/FlexFieldValue.java" timestamp="1528786621961">
-        <mark key="'" line="72" column="14" />
-        <mark key="[" line="72" column="14" />
-        <mark key="]" line="72" column="52" />
-        <mark key="o" line="62" column="0" />
       </file>
       <file name="/fragment.js2" timestamp="1528365736206">
         <mark key="[" line="0" column="0" />
@@ -291,7 +297,7 @@
         <text>lettersanddigits</text>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxUT0RPXD4=</text>
@@ -330,7 +336,7 @@
         <text encoding="base64">aW8ubHNuLnBhdHRlcm4uZGlnaXRzY29tbWFvcmRhc2g9bXVzdCBiZSBkaWdpdHMsIGNvbW1hLCBvciBkYXNoIG9ubHkK</text>
       </register>
       <register name=":" type="4">
-        <text>action PreviousTab</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -369,11 +375,12 @@
         <entry>action CloseAllEditors</entry>
         <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
-        <entry>action SaveAll</entry>
         <entry>action CloseContent</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action PreviousTab</entry>
+        <entry>action EditorAddOrRemoveCaret</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
