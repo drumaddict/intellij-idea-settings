@@ -109,10 +109,12 @@
         <mark key="." line="21" column="58" />
         <mark key="^" line="21" column="58" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528967023818">
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" timestamp="1528967673731">
         <mark key="a" line="576" column="45" />
         <mark key="c" line="576" column="72" />
         <mark key="k" line="284" column="12" />
+        <mark key="[" line="227" column="0" />
+        <mark key="]" line="237" column="9" />
         <mark key="^" line="576" column="17" />
       </file>
       <file name="/Dummy.txt" timestamp="1528365745037">
@@ -298,7 +300,7 @@
         <text encoding="base64">XDxUT0RPXD4=</text>
       </register>
       <register name="0" type="4">
-        <text>@todo couldn't match email, element.CONTENT, generalTermsConsent</text>
+        <text encoding="base64">ICAgICAgICB0cnkgewogICAgICAgICAgICBnZXRGbGV4RmllbGRWYWx1ZUZyb21GbGV4RmllbGRMaXN0KAogICAgICAgICAgICAgICAgICAgIGZsZXhGaWVsZExpc3QsCiAgICAgICAgICAgICAgICAgICAgInBvbGljeUhvbGRlclRpbiIsCiAgICAgICAgICAgICAgICAgICAgIlN0cmluZyIKICAgICAgICAgICAgKS5pZlByZXNlbnQoCiAgICAgICAgICAgICAgICAgICAgdiAtPiBwZXJzb24uc2V0VGluKFN0cmluZy5jbGFzcy5jYXN0KHYpKQogICAgICAgICAgICApOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihlLmdldE1lc3NhZ2UoKSwgZSk7CiAgICAgICAgfQo=</text>
       </register>
       <register name="1" type="4">
         <text>homeConfiguration</text>
@@ -331,7 +333,7 @@
         <text>decoratePersonWithFlexFields</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -370,9 +372,9 @@
         <entry>action AceAction</entry>
         <entry>action OptimizeImports</entry>
         <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
         <entry>action RenameElement</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
