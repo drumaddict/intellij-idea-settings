@@ -39,12 +39,12 @@
       <file name="$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.1.3.RELEASE/spring-security-config-4.1.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/EnableWebSecurity.java" timestamp="1528445465313">
         <mark key="'" line="79" column="18" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" timestamp="1529064021732">
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" timestamp="1529064655031">
         <mark key="'" line="20" column="1" />
-        <mark key="[" line="20" column="15" />
-        <mark key="]" line="20" column="0" />
-        <mark key="^" line="20" column="0" />
-        <mark key="." line="20" column="0" />
+        <mark key="[" line="69" column="1" />
+        <mark key="]" line="69" column="19" />
+        <mark key="^" line="69" column="19" />
+        <mark key="." line="69" column="19" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/tools/winbank_import/index.js" timestamp="1528440046358">
         <mark key="'" line="159" column="12" />
@@ -323,7 +323,7 @@
         <text>J</text>
       </register>
       <register name="-" type="4">
-        <text>k</text>
+        <text>/</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxUT0RPXD4=</text>
@@ -371,7 +371,7 @@
 //        }</text>
       </register>
       <register name=":" type="4">
-        <text>action NextTab</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -397,7 +397,6 @@
         <entry>action GotoImplementation</entry>
         <entry>action $SelectAll</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action GotoSymbol</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action GotoFile</entry>
@@ -406,14 +405,15 @@
         <entry>action EditorAddOrRemoveCaret</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action FindUsages</entry>
-        <entry>action Find</entry>
         <entry>action CloseContent</entry>
         <entry>action ReformatCode</entry>
         <entry>action HideAllWindows</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action SaveAll</entry>
         <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
         <entry>action NextTab</entry>
+        <entry>action GotoSymbol</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
