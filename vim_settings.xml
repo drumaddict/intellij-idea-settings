@@ -39,11 +39,12 @@
       <file name="$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.1.3.RELEASE/spring-security-config-4.1.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/EnableWebSecurity.java" timestamp="1528445465313">
         <mark key="'" line="79" column="18" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" timestamp="1529061224968">
-        <mark key="[" line="44" column="20" />
-        <mark key="]" line="44" column="24" />
-        <mark key="^" line="44" column="24" />
-        <mark key="." line="44" column="24" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" timestamp="1529064021732">
+        <mark key="'" line="20" column="1" />
+        <mark key="[" line="20" column="15" />
+        <mark key="]" line="20" column="0" />
+        <mark key="^" line="20" column="0" />
+        <mark key="." line="20" column="0" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/tools/winbank_import/index.js" timestamp="1528440046358">
         <mark key="'" line="159" column="12" />
@@ -211,14 +212,11 @@
         <mark key="^" line="18" column="25" />
         <mark key="." line="18" column="25" />
       </file>
-      <file name="/fragment.java" timestamp="1529048824052">
+      <file name="/fragment.java" timestamp="1529062916896">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="15" filename="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/user_flex_fields.xml" />
-      <jump line="6" column="27" filename="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/home_flex_fields.xml" />
-      <jump line="54" column="45" filename="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/user_flex_fields.xml" />
       <jump line="37" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/user_flex_fields.xml" />
       <jump line="68" column="15" filename="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/user_flex_fields.xml" />
       <jump line="19" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/home_flex_fields.xml" />
@@ -289,7 +287,6 @@
       <jump line="41" column="3" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/TestConfiguration.java" />
       <jump line="41" column="69" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="46" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/dictionary/DictionaryService.java" />
-      <jump line="55" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="30" column="43" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="31" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="94" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
@@ -316,10 +313,14 @@
       <jump line="76" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/TestConfiguration.java" />
       <jump line="62" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/TestConfiguration.java" />
       <jump line="27" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
+      <jump line="17" column="38" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
+      <jump line="52" column="20" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
+      <jump line="55" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
+      <jump line="21" column="1" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>Registry</text>
+        <text>J</text>
       </register>
       <register name="-" type="4">
         <text>k</text>
@@ -328,24 +329,36 @@
         <text encoding="base64">XDxUT0RPXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBsb2dnZXIgPSBMb2dnZXIuZ2V0TG9nZ2VyKFByb2R1Y3RUZXN0LmNsYXNzKTsK</text>
+        <text encoding="base64">QENvbnRleHRDb25maWd1cmF0aW9uKGNsYXNzZXMgPSB7VGVzdENvbmZpZ3VyYXRpb24uY2xhc3MsIEJhc2ljQ29uZmlndXJhdGlvbi5jbGFzc30pCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCBhc3NldEJlYW5mb3VuZCgpIHsKICAgICAgICBhc3NlcnROb3ROdWxsKGRpY3Rpb25hcnlTZXJ2aWNlTW9jayk7CiAgICB9</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">IAo=</text>
+      <register name="2" type="4">
+        <text>J</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ICAgQEJlYW4KICAgIHB1YmxpYyBEaWN0aW9uYXJ5U2VydmljZSBkaWN0aW9uYXJ5U2VydmljZU1vY2soKSB7CiAgICAgICAgcmV0dXJuIE1vY2tpdG8ubW9jayhEaWN0aW9uYXJ5U2VydmljZS5jbGFzcyk7CiAgICB9</text>
+        <text>basicTranslationTest</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IAo=</text>
       </register>
       <register name="6" type="4">
+        <text encoding="base64">ICAgQEJlYW4KICAgIHB1YmxpYyBEaWN0aW9uYXJ5U2VydmljZSBkaWN0aW9uYXJ5U2VydmljZU1vY2soKSB7CiAgICAgICAgcmV0dXJuIE1vY2tpdG8ubW9jayhEaWN0aW9uYXJ5U2VydmljZS5jbGFzcyk7CiAgICB9</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="x" type="4">
+        <text>J</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
         <text>//        try {
 //            person.setResidentCountry(
 //                    DictionaryRegistry.getService().getDictionaryItem(
@@ -357,20 +370,8 @@
 //            logger.error(e.getMessage(), e);
 //        }</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICAgIH0K</text>
-      </register>
-      <register name="x" type="4">
-        <text>Registry</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Ly8gICAgICAgIERpY3Rpb25hcnlSZWdpc3RyeSBkaWN0aW9uYXJ5UmVnaXN0cnkgPSBNb2NraXRvLm1vY2soRGljdGlvbmFyeVJlZ2lzdHJ5LmNsYXNzKTsK</text>
-      </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action NextTab</text>
       </register>
     </registers>
     <search>
@@ -389,7 +390,6 @@
         <entry>action TabShiftActions.StretchUp</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action AceAction</entry>
-        <entry>action OptimizeImports</entry>
         <entry>action RenameFile</entry>
         <entry>action RenameElement</entry>
         <entry>action CloseAllEditors</entry>
@@ -400,19 +400,20 @@
         <entry>action GotoSymbol</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
-        <entry>action CloseContent</entry>
-        <entry>action HideAllWindows</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action Find</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action ReformatCode</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
+        <entry>action ToggleLineBreakpoint</entry>
+        <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action CloseContent</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action OptimizeImports</entry>
+        <entry>action SaveAll</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action ToggleLineBreakpoint</entry>
-        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
