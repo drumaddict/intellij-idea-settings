@@ -38,11 +38,11 @@
         <mark key="." line="62" column="63" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/customer/entity/Person.java" timestamp="1529316446519" />
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" timestamp="1529318163497">
-        <mark key="'" line="83" column="22" />
-        <mark key="[" line="78" column="12" />
-        <mark key="]" line="83" column="23" />
-        <mark key="." line="78" column="12" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" timestamp="1529319188402">
+        <mark key="'" line="76" column="113" />
+        <mark key="[" line="76" column="0" />
+        <mark key="]" line="76" column="114" />
+        <mark key="." line="76" column="0" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/home_flex_fields.xml" timestamp="1528899315803">
         <mark key="'" line="19" column="0" />
@@ -210,12 +210,12 @@
         <mark key="^" line="18" column="25" />
         <mark key="." line="18" column="25" />
       </file>
-      <file name="/fragment.java" timestamp="1529317604625">
+      <file name="/fragment.java" timestamp="1529319408439">
         <mark key="'" line="0" column="125" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="14" />
-        <mark key="^" line="0" column="14" />
-        <mark key="." line="0" column="14" />
+        <mark key="[" line="0" column="108" />
+        <mark key="]" line="0" column="20" />
+        <mark key="^" line="0" column="20" />
+        <mark key="." line="0" column="20" />
       </file>
     </filemarks>
     <jumps>
@@ -273,7 +273,6 @@
       <jump line="66" column="24" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="33" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="40" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
-      <jump line="76" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="77" column="62" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="75" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="80" column="10" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
@@ -319,6 +318,7 @@
       <jump line="0" column="125" filename="/fragment.java" />
       <jump line="101" column="1" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/customer/mapper/PersonCustomerMapper.java" />
       <jump line="85" column="22" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
+      <jump line="76" column="113" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -364,7 +364,7 @@
         <text>HouseNumber</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action PreviousTab</text>
       </register>
     </registers>
     <search>
@@ -381,7 +381,6 @@
       </history-search>
       <history-cmd>
         <entry>action $SelectAll</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
@@ -391,17 +390,20 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoSymbol</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoFile</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action Find</entry>
-        <entry>action NextTab</entry>
         <entry>action ToggleLineBreakpoint</entry>
-        <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action TabShiftActions.StretchLeft</entry>
+        <entry>action NextTab</entry>
+        <entry>action ShowReformatFileDialog</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action GotoFile</entry>
+        <entry>action PreviousTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
