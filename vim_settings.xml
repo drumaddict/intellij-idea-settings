@@ -36,12 +36,12 @@
         <mark key="^" line="62" column="62" />
         <mark key="." line="62" column="63" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" timestamp="1529412318973">
-        <mark key="'" line="146" column="8" />
-        <mark key="[" line="146" column="117" />
-        <mark key="]" line="146" column="145" />
-        <mark key="." line="146" column="145" />
-        <mark key="^" line="146" column="145" />
+      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" timestamp="1529413459766">
+        <mark key="'" line="167" column="139" />
+        <mark key="[" line="169" column="34" />
+        <mark key="]" line="169" column="45" />
+        <mark key="^" line="169" column="45" />
+        <mark key="." line="169" column="45" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/home_flex_fields.xml" timestamp="1528899315803">
         <mark key="'" line="19" column="0" />
@@ -219,8 +219,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="260" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/quotation_request_home.xml" />
-      <jump line="22" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/quotation_request_home.xml" />
       <jump line="79" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="62" column="37" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/TestConfiguration.java" />
       <jump line="73" column="88" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
@@ -319,13 +317,15 @@
       <jump line="179" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
       <jump line="132" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="146" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
+      <jump line="168" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
+      <jump line="169" column="139" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>homeConfigurationRequest</text>
+        <text>&quot;at&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>PROFESSION.name()),</text>
+        <text encoding="base64">Z2V0RmxleEZpZWxkTGlzdCgpLmdldEZpZWxkKCkuc3RyZWFtKCkuZmlsdGVyKGYtPiBmLmdldEF0dHJpYnV0ZUNvZGUoKS5lcXVhbHMoImFwcGFydG1lbnRUeXBlIikpLmZpbmRGaXJzdCgpLm9yRWxzZShuZXcgRmxleEZpZWxkKCkp</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxUT0RPXD4=</text>
@@ -333,38 +333,38 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0VHJ1ZSgiY3JzIHNldCBjb3JyZWN0bHkiLCBwZXJzb25mcm9tT2ZmZXIuZ2V0Q3JzKCkuZXF1YWxzKHBlcnNvbkZyb21SZXF1ZXN0LmdldENycygpKSk7Cg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRUcnVlKCJjcnMgc2V0IGNvcnJlY3RseSIsIHBlcnNvbmZyb21PZmZlci5nZXRDcnMoKS5lcXVhbHMocGVyc29uRnJvbVJlcXVlc3QuZ2V0Q3JzKCkpKTsK</text>
+      <register name="1" type="4">
+        <text>&quot;at&quot;</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="2" type="4">
+        <text>&quot;</text>
       </register>
       <register name="3" type="4">
-        <text>homeConfigurationRequest</text>
+        <text>appartmentType</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0VGluKHJlcXVlc3RQZXJzb24uZ2V0VGluKCkpOwogICAgICAgIHBlcnNvbi5zZXRQcmVmZWN0dXJlKHJlcXVlc3RQZXJzb24uZ2V0UHJlZmVjdHVyZSgpKTsKICAgICAgICBwZXJzb24uc2V0QWRkcmVzc0NpdHkocmVxdWVzdFBlcnNvbi5nZXRBZGRyZXNzKCkuZ2V0Q2l0eSgpKTsKICAgICAgICBwZXJzb24uc2V0Q3VzdG9tZXJDYXRlZ29yeShyZXF1ZXN0UGVyc29uLmdldEN1c3RvbWVyQ2F0ZWdvcnkoKSk7CiAgICAgICAgcGVyc29uLnNldEFkZHJlc3NQb3N0YWxDb2RlKHJlcXVlc3RQZXJzb24uZ2V0QWRkcmVzcygpLmdldFBvc3RhbENvZGUoKSk7CiAgICAgICAgcGVyc29uLnNldEFkZHJlc3NTdHJlZXQocmVxdWVzdFBlcnNvbi5nZXRBZGRyZXNzKCkuZ2V0U3RyZWV0KCkpOwogICAgICAgIHBlcnNvbi5zZXRBZGRyZXNzSG91c2VOdW1iZXIocmVxdWVzdFBlcnNvbi5nZXRBZGRyZXNzKCkuZ2V0SG91c2VOdW1iZXIoKSk7CiAgICAgICAgcGVyc29uLnNldEVtYWlsKHJlcXVlc3RQZXJzb24uZ2V0RW1haWwoKSk7CiAgICAgICAgcGVyc29uLnNldFBob25lTnVtYmVyTW9iaWxlKHJlcXVlc3RQZXJzb24uZ2V0UGhvbmVOdW1iZXJNb2JpbGUoKSk7CiAgICAgICAgcGVyc29uLnNldFBob25lTnVtYmVySG9tZShyZXF1ZXN0UGVyc29uLmdldFBob25lTnVtYmVySG9tZSgpKTsKICAgICAgICBwZXJzb24uc2V0QmlydGhEYXRlKHJlcXVlc3RQZXJzb24uZ2V0QmlydGhEYXRlKCkudG9HcmVnb3JpYW5DYWxlbmRhcigpLmdldFRpbWUoKSk7CiAgICAgICAgcGVyc29uLnNldFRheE9mZmljZShyZXF1ZXN0UGVyc29uLmdldFRheE9mZmljZSgpKTsKICAgICAgICBwZXJzb24uc2V0SGFzQ29tcGFueUZsYWcocmVxdWVzdFBlcnNvbi5nZXRDdXN0b21lckNhdGVnb3J5KCkuZXF1YWxzKFBlcnNvblR5cGUuQnVzaW5lc3MubmFtZSgpKSk7CiAgICAgICAgcGVyc29uLnNldEhhc0FncmljYXJkT3duZXJGbGFnKHJlcXVlc3RQZXJzb24uaXNIYXNBZ3JpY2FyZE93bmVyRmxhZygpKTs=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUcnVlKCJjcnMgc2V0IGNvcnJlY3RseSIsIHBlcnNvbmZyb21PZmZlci5nZXRDcnMoKS5lcXVhbHMocGVyc29uRnJvbVJlcXVlc3QuZ2V0Q3JzKCkpKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="4">
-        <text>setResidentCountry</text>
-      </register>
-      <register name="7" type="4">
-        <text>PROFESSION</text>
-      </register>
-      <register name="x" type="4">
         <text>homeConfigurationRequest</text>
       </register>
-      <register name="8" type="4">
-        <text>setProfession</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0VGluKHJlcXVlc3RQZXJzb24uZ2V0VGluKCkpOwogICAgICAgIHBlcnNvbi5zZXRQcmVmZWN0dXJlKHJlcXVlc3RQZXJzb24uZ2V0UHJlZmVjdHVyZSgpKTsKICAgICAgICBwZXJzb24uc2V0QWRkcmVzc0NpdHkocmVxdWVzdFBlcnNvbi5nZXRBZGRyZXNzKCkuZ2V0Q2l0eSgpKTsKICAgICAgICBwZXJzb24uc2V0Q3VzdG9tZXJDYXRlZ29yeShyZXF1ZXN0UGVyc29uLmdldEN1c3RvbWVyQ2F0ZWdvcnkoKSk7CiAgICAgICAgcGVyc29uLnNldEFkZHJlc3NQb3N0YWxDb2RlKHJlcXVlc3RQZXJzb24uZ2V0QWRkcmVzcygpLmdldFBvc3RhbENvZGUoKSk7CiAgICAgICAgcGVyc29uLnNldEFkZHJlc3NTdHJlZXQocmVxdWVzdFBlcnNvbi5nZXRBZGRyZXNzKCkuZ2V0U3RyZWV0KCkpOwogICAgICAgIHBlcnNvbi5zZXRBZGRyZXNzSG91c2VOdW1iZXIocmVxdWVzdFBlcnNvbi5nZXRBZGRyZXNzKCkuZ2V0SG91c2VOdW1iZXIoKSk7CiAgICAgICAgcGVyc29uLnNldEVtYWlsKHJlcXVlc3RQZXJzb24uZ2V0RW1haWwoKSk7CiAgICAgICAgcGVyc29uLnNldFBob25lTnVtYmVyTW9iaWxlKHJlcXVlc3RQZXJzb24uZ2V0UGhvbmVOdW1iZXJNb2JpbGUoKSk7CiAgICAgICAgcGVyc29uLnNldFBob25lTnVtYmVySG9tZShyZXF1ZXN0UGVyc29uLmdldFBob25lTnVtYmVySG9tZSgpKTsKICAgICAgICBwZXJzb24uc2V0QmlydGhEYXRlKHJlcXVlc3RQZXJzb24uZ2V0QmlydGhEYXRlKCkudG9HcmVnb3JpYW5DYWxlbmRhcigpLmdldFRpbWUoKSk7CiAgICAgICAgcGVyc29uLnNldFRheE9mZmljZShyZXF1ZXN0UGVyc29uLmdldFRheE9mZmljZSgpKTsKICAgICAgICBwZXJzb24uc2V0SGFzQ29tcGFueUZsYWcocmVxdWVzdFBlcnNvbi5nZXRDdXN0b21lckNhdGVnb3J5KCkuZXF1YWxzKFBlcnNvblR5cGUuQnVzaW5lc3MubmFtZSgpKSk7CiAgICAgICAgcGVyc29uLnNldEhhc0FncmljYXJkT3duZXJGbGFnKHJlcXVlc3RQZXJzb24uaXNIYXNBZ3JpY2FyZE93bmVyRmxhZygpKTs=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwZXJzb24uc2V0SGFzQ29tcGFueUZsYWcocmVxdWVzdFBlcnNvbi5nZXRDdXN0b21lckNhdGVnb3J5KCkuZXF1YWxzKFBlcnNvblR5cGUuQnVzaW5lc3MubmFtZSgpKSk7Cg==</text>
+      <register name="x" type="4">
+        <text>&quot;at&quot;</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
+        <text>setResidentCountry</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action VimFilePrevious</text>
       </register>
     </registers>
     <search>
@@ -395,15 +395,16 @@
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action HideAllWindows</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action VimFilePrevious</entry>
-        <entry>action Find</entry>
         <entry>action VimWindowClose</entry>
         <entry>action CloseContent</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action NextTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action Forward</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action NextTab</entry>
+        <entry>action VimFilePrevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
