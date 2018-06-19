@@ -221,8 +221,8 @@
         <mark key="^" line="18" column="25" />
         <mark key="." line="18" column="25" />
       </file>
-      <file name="/fragment.java" timestamp="1529392074892">
-        <mark key="[" line="1" column="62" />
+      <file name="/fragment.java" timestamp="1529392802326">
+        <mark key="[" line="0" column="0" />
         <mark key="]" line="1" column="32" />
         <mark key="^" line="1" column="32" />
         <mark key="." line="1" column="32" />
@@ -374,7 +374,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action PreviousTab</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -400,18 +400,18 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action HideAllWindows</entry>
-        <entry>action Find</entry>
         <entry>action GotoFile</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action AceAction</entry>
         <entry>action ReformatCode</entry>
         <entry>action CloseContent</entry>
         <entry>action ToggleLineBreakpoint</entry>
-        <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
-        <entry>action PreviousTab</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gVmltRmlsZVByZXZpb3Vz</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
