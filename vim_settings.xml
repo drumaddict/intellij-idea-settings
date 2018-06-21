@@ -102,11 +102,6 @@
         <mark key="." line="301" column="21" />
         <mark key="^" line="301" column="21" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/soap/endpoint/WinbankEndpoint.java" timestamp="1529326558696">
-        <mark key="[" line="43" column="0" />
-        <mark key="]" line="43" column="0" />
-        <mark key="." line="43" column="0" />
-      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages_gr.properties" timestamp="1528971904981">
         <mark key="'" line="18" column="92" />
         <mark key="[" line="18" column="69" />
@@ -123,6 +118,9 @@
         <mark key="]" line="51" column="0" />
         <mark key="^" line="49" column="53" />
         <mark key="." line="51" column="0" />
+      </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/generic/controller/GenericController.java" timestamp="1529576378520">
+        <mark key="k" line="9" column="22" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/offer/entity/product/configuration/PlantsConfigurationTest.java" timestamp="1528985241043">
         <mark key="[" line="4" column="0" />
@@ -205,6 +203,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="55" column="0" />
       </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/user/UserService.java" timestamp="1529576974564" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/soap/domain/winbank/FlexFieldValue.java" timestamp="1529481068629">
         <mark key="'" line="293" column="35" />
         <mark key="[" line="59" column="5" />
@@ -392,7 +391,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action VimFilePrevious</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -415,22 +414,25 @@
         <entry>action AceAction</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action RenameElement</entry>
-        <entry>action FindUsages</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
         <entry>action NextTab</entry>
-        <entry>action Find</entry>
         <entry>action GotoSymbol</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action TabShiftActions.MoveFocusUp</entry>
+        <entry>action EditorAddOrRemoveCaret</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action EditorCloneCaretAbove</entry>
         <entry>action PreviousTab</entry>
         <entry>action CloseContent</entry>
-        <entry>action HideAllWindows</entry>
-        <entry>action QuickJavaDoc</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action VimFilePrevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
