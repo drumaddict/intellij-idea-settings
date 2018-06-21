@@ -394,7 +394,7 @@
         <text encoding="base64">ICAgICAgICAgICAgLy8gIGluc3VyZWRQcm9kdWN0LmdldEhvbWVDb25maWd1cmF0aW9uKCkuc2V0RWxlbWVudFZhbHVlKEhvbWVDb25maWd1cmF0aW9uLkluc3VyYW5jZUVsZW1lbnRzLkNPTlRFTlQubmFtZSgpLCBuZXcgQmlnRGVjaW1hbChsb25nVmFsdWUpKTsK</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -421,7 +421,6 @@
         <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action SaveAll</entry>
         <entry>action NextTab</entry>
         <entry>action GotoSymbol</entry>
         <entry>action HideAllWindows</entry>
@@ -440,6 +439,7 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gQ2xvc2VDb250ZW50</entry>
         <entry>action CloseContent</entry>
         <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
