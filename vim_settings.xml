@@ -213,6 +213,7 @@
         <mark key="[" line="59" column="5" />
         <mark key="]" line="59" column="27" />
       </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/helper/validator/DictionaryItemValidator.java" timestamp="1529579815834" />
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml.dist" timestamp="1529571054210">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -392,7 +393,7 @@
         <text encoding="base64">ICAgICAgICAgICAgLy8gIGluc3VyZWRQcm9kdWN0LmdldEhvbWVDb25maWd1cmF0aW9uKCkuc2V0RWxlbWVudFZhbHVlKEhvbWVDb25maWd1cmF0aW9uLkluc3VyYW5jZUVsZW1lbnRzLkNPTlRFTlQubmFtZSgpLCBuZXcgQmlnRGVjaW1hbChsb25nVmFsdWUpKTsK</text>
       </register>
       <register name=":" type="4">
-        <text>action QuickJavaDoc</text>
+        <text>action CloseContent</text>
       </register>
     </registers>
     <search>
@@ -430,13 +431,13 @@
         <entry>action EditorCloneCaretAbove</entry>
         <entry>action ShowReformatFileDialog</entry>
         <entry>action PreviousTab</entry>
-        <entry>action CloseContent</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>action QuickJavaDoc</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action CloseContent</entry>
       </history-cmd>
       <history-expr />
       <history-input />
