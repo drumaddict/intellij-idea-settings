@@ -124,9 +124,9 @@
         <mark key="^" line="75" column="22" />
         <mark key="." line="53" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/db/mapper/UserMapper.xml" timestamp="1529587171125">
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="31" column="0" />
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/db/mapper/UserMapper.xml" timestamp="1529587810147">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="21" column="0" />
         <mark key="^" line="29" column="25" />
         <mark key="." line="29" column="25" />
       </file>
@@ -348,7 +348,7 @@
         <text encoding="base64">XDxUT0RPXD4=</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgICAgICBTRUxFQ1Qgcm93X3RvX2pzb24odSkKICAgICAgICBGUk9NICgKICAgICAgICAgICAgICAgICBTRUxFQ1Qgc3UuKgogICAgICAgICAgICAgICAgIEZST00gc3lzdGVtX3VzZXIgc3UKICAgICAgICAgICAgICAgICBXSEVSRSBzdS51c2VybmFtZSA9ICN7dXNlcm5hbWV9CiAgICAgICAgICAgICApIHUKIA==</text>
+        <text encoding="base64">ICAgICAgICBTRUxFQ1Qgcm93X3RvX2pzb24odSkKICAgICAgICBGUk9NICgKICAgICAgICAgICAgICAgICBTRUxFQ1QKICAgICAgICAgICAgICAgICAgICAgc3UuKiwKICAgICAgICAgICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgICAgICAgICAgU0VMRUNUIHJvd190b19qc29uKHQpCiAgICAgICAgICAgICAgICAgICAgICAgICBGUk9NICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNFTEVDVCBhdC4qCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkgQVMgdAogICAgICAgICAgICAgICAgICAgICApIEFTIGFwaV90b2tlbgogICAgICAgICAgICAgICAgIEZST00gc3lzdGVtX3VzZXIgc3UKICAgICAgICAgICAgICAgICAgICAgSU5ORVIgSk9JTiB1c2VyX3Rva2VuIGF0IE9OIGF0LnVzZXJfaWQgPSBzdS5pZCBBTkQgYXQudG9rZW4gPSAje3Rva2VufSBBTkQgYXQudmFsaWRfZGF0ZSA6OiBUSU1FU1RBTVAgJmd0OyBDVVJSRU5UX1RJTUVTVEFNUAogICAgICAgICAgICAgKSB1CiA=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CiAgICBwdWJsaWMgTGlzdDxJbnN1cmFuY2VQYWNrYWdlPiBnZXRQYWNrYWdlTGlzdCgpIHsK</text>
@@ -381,7 +381,7 @@
         <text encoding="base64">ICAgICAgICAgICAgLy8gIGluc3VyZWRQcm9kdWN0LmdldEhvbWVDb25maWd1cmF0aW9uKCkuc2V0RWxlbWVudFZhbHVlKEhvbWVDb25maWd1cmF0aW9uLkluc3VyYW5jZUVsZW1lbnRzLkNPTlRFTlQubmFtZSgpLCBuZXcgQmlnRGVjaW1hbChsb25nVmFsdWUpKTsK</text>
       </register>
       <register name=":" type="4">
-        <text>action TabShiftActions.StretchRight</text>
+        <text>action PreviousTab</text>
       </register>
     </registers>
     <search>
@@ -424,10 +424,10 @@
         <entry>action VimFilePrevious</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
-        <entry>action CloseContent</entry>
-        <entry>action PreviousTab</entry>
         <entry>action HideAllWindows</entry>
         <entry>action TabShiftActions.StretchRight</entry>
+        <entry>action CloseContent</entry>
+        <entry>action PreviousTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
