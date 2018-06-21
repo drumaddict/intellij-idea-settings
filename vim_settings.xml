@@ -24,6 +24,12 @@
         <mark key="." line="264" column="0" />
         <mark key="^" line="254" column="30" />
       </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/transport/rest/PrintoutController.java" timestamp="1529573012352">
+        <mark key="[" line="28" column="73" />
+        <mark key="]" line="28" column="73" />
+        <mark key="^" line="38" column="6" />
+        <mark key="." line="28" column="73" />
+      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/wallet_quotation_request.xml" timestamp="1529498852230">
         <mark key="'" line="61" column="19" />
         <mark key="[" line="53" column="0" />
@@ -118,13 +124,6 @@
         <mark key="^" line="49" column="53" />
         <mark key="." line="51" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/dictionary/entity/Dictionary.java" timestamp="1529321433076">
-        <mark key="[" line="146" column="7" />
-        <mark key="]" line="146" column="6" />
-        <mark key="m" line="1" column="0" />
-        <mark key="." line="146" column="6" />
-        <mark key="^" line="146" column="6" />
-      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/offer/entity/product/configuration/PlantsConfigurationTest.java" timestamp="1528985241043">
         <mark key="[" line="4" column="0" />
         <mark key="]" line="4" column="0" />
@@ -168,11 +167,11 @@
         <mark key="." line="12" column="36" />
         <mark key="^" line="12" column="36" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml" timestamp="1529572358980">
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml" timestamp="1529572837314">
         <mark key="'" line="75" column="0" />
-        <mark key="[" line="80" column="31" />
-        <mark key="]" line="80" column="42" />
-        <mark key="." line="80" column="42" />
+        <mark key="[" line="0" column="26" />
+        <mark key="]" line="0" column="26" />
+        <mark key="." line="0" column="26" />
         <mark key="^" line="80" column="42" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/stub/DictionaryDaoMapper.java" timestamp="1529404099987">
@@ -353,7 +352,7 @@
         <text>tomek</text>
       </register>
       <register name="-" type="4">
-        <text>tationRequest(h</text>
+        <text>n</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxUT0RPXD4=</text>
@@ -392,7 +391,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -412,7 +411,6 @@
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action Debug</entry>
-        <entry>action GotoSymbol</entry>
         <entry>action AceAction</entry>
         <entry>action CloseContent</entry>
         <entry>action PreviousOccurence</entry>
@@ -420,15 +418,16 @@
         <entry>action RenameElement</entry>
         <entry>action FindUsages</entry>
         <entry>action ToggleLineBreakpoint</entry>
-        <entry>action Find</entry>
         <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
-        <entry>action PreviousTab</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
+        <entry>action GotoSymbol</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
