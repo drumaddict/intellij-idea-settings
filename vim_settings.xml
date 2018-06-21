@@ -68,6 +68,7 @@
         <mark key="^" line="35" column="7" />
         <mark key="." line="35" column="7" />
       </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/wsdl/get-user-information-p2.wsdl" timestamp="1529590490136" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/validator/ValidMutipleFloors.java" timestamp="1528269565438">
         <mark key="'" line="22" column="0" />
         <mark key="[" line="12" column="18" />
@@ -136,6 +137,13 @@
         <mark key="]" line="197" column="16" />
         <mark key="^" line="194" column="33" />
         <mark key="." line="194" column="33" />
+      </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/stub/RedissonClient.java" timestamp="1529589884454">
+        <mark key="'" line="452" column="0" />
+        <mark key="[" line="58" column="17" />
+        <mark key="]" line="58" column="23" />
+        <mark key="^" line="58" column="23" />
+        <mark key="." line="58" column="23" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/configuration/ValidatorConfig.java" timestamp="1528447379009">
         <mark key="[" line="7" column="0" />
@@ -236,7 +244,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="218" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="215" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="212" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="227" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
@@ -336,6 +343,7 @@
       <jump line="0" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml.dist" />
       <jump line="0" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml" />
       <jump line="75" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml" />
+      <jump line="452" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/stub/RedissonClient.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -381,7 +389,7 @@
         <text encoding="base64">ICAgICAgICAgICAgLy8gIGluc3VyZWRQcm9kdWN0LmdldEhvbWVDb25maWd1cmF0aW9uKCkuc2V0RWxlbWVudFZhbHVlKEhvbWVDb25maWd1cmF0aW9uLkluc3VyYW5jZUVsZW1lbnRzLkNPTlRFTlQubmFtZSgpLCBuZXcgQmlnRGVjaW1hbChsb25nVmFsdWUpKTsK</text>
       </register>
       <register name=":" type="4">
-        <text>action PreviousTab</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -408,7 +416,6 @@
         <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
         <entry>action GotoSymbol</entry>
-        <entry>action FindUsages</entry>
         <entry>action TabShiftActions.MoveFocusUp</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
         <entry>action GotoImplementation</entry>
@@ -426,8 +433,9 @@
         <entry>action SaveAll</entry>
         <entry>action HideAllWindows</entry>
         <entry>action TabShiftActions.StretchRight</entry>
-        <entry>action CloseContent</entry>
         <entry>action PreviousTab</entry>
+        <entry>action CloseContent</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
