@@ -3,21 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/dictionary/DictionaryService.java" timestamp="1529403499019">
-        <mark key="'" line="111" column="19" />
-        <mark key="[" line="65" column="8" />
-        <mark key="]" line="34" column="72" />
-      </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/transport/rest/PrintoutController.java" timestamp="1529573012352">
         <mark key="[" line="28" column="73" />
         <mark key="]" line="28" column="73" />
         <mark key="^" line="38" column="6" />
         <mark key="." line="28" column="73" />
-      </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/dictionary/DictionaryDao.java" timestamp="1529397179478">
-        <mark key="'" line="12" column="0" />
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="23" column="24" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/offer/entity/product/configuration/HomeConfiguration.java" timestamp="1528972002507">
         <mark key="'" line="62" column="79" />
@@ -85,6 +75,7 @@
         <mark key="." line="12" column="36" />
         <mark key="^" line="12" column="36" />
       </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/config/RedissonClientConfiguration.java" timestamp="1529585808038" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/stub/DictionaryDaoMapper.java" timestamp="1529404099987">
         <mark key="'" line="24" column="15" />
         <mark key="[" line="24" column="15" />
@@ -100,11 +91,6 @@
         <mark key="^" line="14" column="0" />
       </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/resources/product/product_structure.json" timestamp="1529581563856" />
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/entity/ProductTest.java" timestamp="1529047689569">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="55" column="0" />
-      </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/helper/validator/DictionaryItemValidator.java" timestamp="1529579815834" />
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml.dist" timestamp="1529571054210">
         <mark key="'" line="0" column="0" />
@@ -137,6 +123,12 @@
         <mark key="]" line="61" column="20" />
         <mark key="^" line="75" column="22" />
         <mark key="." line="53" column="0" />
+      </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/db/mapper/UserMapper.xml" timestamp="1529586028040">
+        <mark key="[" line="29" column="34" />
+        <mark key="]" line="29" column="25" />
+        <mark key="^" line="29" column="25" />
+        <mark key="." line="29" column="25" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/home_flex_fields.xml" timestamp="1528899315803">
         <mark key="'" line="19" column="0" />
@@ -222,11 +214,6 @@
         <mark key="." line="264" column="0" />
       </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/user/UserService.java" timestamp="1529576974564" />
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/soap/domain/winbank/FlexFieldValue.java" timestamp="1529481068629">
-        <mark key="'" line="293" column="35" />
-        <mark key="[" line="59" column="5" />
-        <mark key="]" line="59" column="27" />
-      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/user_flex_fields.xml" timestamp="1528899385235">
         <mark key="'" line="13" column="0" />
         <mark key="[" line="3" column="0" />
@@ -394,7 +381,7 @@
         <text encoding="base64">ICAgICAgICAgICAgLy8gIGluc3VyZWRQcm9kdWN0LmdldEhvbWVDb25maWd1cmF0aW9uKCkuc2V0RWxlbWVudFZhbHVlKEhvbWVDb25maWd1cmF0aW9uLkluc3VyYW5jZUVsZW1lbnRzLkNPTlRFTlQubmFtZSgpLCBuZXcgQmlnRGVjaW1hbChsb25nVmFsdWUpKTsK</text>
       </register>
       <register name=":" type="4">
-        <text>action CloseContent</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -421,26 +408,26 @@
         <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action NextTab</entry>
         <entry>action GotoSymbol</entry>
-        <entry>action HideAllWindows</entry>
         <entry>action FindUsages</entry>
         <entry>action TabShiftActions.MoveFocusUp</entry>
         <entry>action EditorAddOrRemoveCaret</entry>
         <entry>action GotoImplementation</entry>
         <entry>action EditorCloneCaretAbove</entry>
         <entry>action ShowReformatFileDialog</entry>
-        <entry>action PreviousTab</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FileStructurePopup</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gQ2xvc2VDb250ZW50</entry>
-        <entry>action Find</entry>
-        <entry>action SaveAll</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
         <entry>action SplitVertically</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action CloseContent</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
