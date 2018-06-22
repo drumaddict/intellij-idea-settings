@@ -42,7 +42,7 @@
         <mark key="^" line="26" column="75" />
         <mark key="." line="26" column="75" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/PersonalAccidentConfiguration.java" timestamp="1529651094615">
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/PersonalAccidentConfiguration.java" timestamp="1529658374400">
         <mark key="[" line="51" column="0" />
         <mark key="]" line="51" column="0" />
         <mark key="." line="51" column="0" />
@@ -126,13 +126,13 @@
         <mark key="^" line="31" column="17" />
         <mark key="." line="31" column="17" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" timestamp="1529657003779">
-        <mark key="'" line="55" column="126" />
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" timestamp="1529658342625">
+        <mark key="'" line="51" column="126" />
         <mark key="k" line="45" column="28" />
-        <mark key="[" line="41" column="0" />
-        <mark key="]" line="41" column="0" />
-        <mark key="^" line="48" column="24" />
-        <mark key="." line="41" column="0" />
+        <mark key="[" line="26" column="39" />
+        <mark key="]" line="26" column="63" />
+        <mark key="." line="26" column="63" />
+        <mark key="^" line="26" column="63" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/quotation_request_home.xml" timestamp="1529493217700">
         <mark key="'" line="254" column="31" />
@@ -153,6 +153,9 @@
         <mark key="]" line="21" column="0" />
         <mark key="^" line="29" column="25" />
         <mark key="." line="29" column="25" />
+      </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidator.java" timestamp="1529658180981">
+        <mark key="n" line="25" column="16" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/home_flex_fields.xml" timestamp="1528899315803">
         <mark key="'" line="19" column="0" />
@@ -358,7 +361,7 @@
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>False</text>
+        <text>profession</text>
       </register>
       <register name="-" type="4">
         <text>G</text>
@@ -372,79 +375,32 @@
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>//[“12”,”6”,”4”,”3”]
-
-    @Test
-    public void validateDuration() {
-
-        PersonalAccidentConfiguration configuration = new PersonalAccidentConfiguration();
-        configuration.setProfession(new DictionaryItem());
-        configuration.setDuration(new DictionaryItem());
-        BindException errors = executeValidator(configuration, validator);
-        Assert.assertTrue(
-                &quot;invalid duration&quot;,
-                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, GenericValidator.ErrorCode.ERROR_TECH_MUST_BE_SET));
-
-        configuration.getDuration().setCode(&quot;1&quot;);
-        errors = executeValidator(configuration, validator);
-        Assert.assertTrue(
-                &quot;invalid duration&quot;,
-                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, &quot;ERROR.PERSONAL_ACCIDENT_FORBIDDEN_DURATION&quot;));
-
-        configuration.getDuration().setCode(&quot;3&quot;);
-        errors = executeValidator(configuration, validator);
-        Assert.assertFalse(
-                &quot;valid duration&quot;,
-                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, &quot;ERROR.PERSONAL_ACCIDENT_FORBIDDEN_DURATION&quot;));
-
-        configuration.getDuration().setCode(&quot;4&quot;);
-        errors = executeValidator(configuration, validator);
-        Assert.assertFalse(
-                &quot;valid duration&quot;,
-                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, &quot;ERROR.PERSONAL_ACCIDENT_FORBIDDEN_DURATION&quot;));
-
-        configuration.getDuration().setCode(&quot;6&quot;);
-        errors = executeValidator(configuration, validator);
-        Assert.assertFalse(
-                &quot;valid duration&quot;,
-                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, &quot;ERROR.PERSONAL_ACCIDENT_FORBIDDEN_DURATION&quot;));
-
-        configuration.getDuration().setCode(&quot;12&quot;);
-        errors = executeValidator(configuration, validator);
-        Assert.assertFalse(
-                &quot;valid duration&quot;,
-                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, &quot;ERROR.PERSONAL_ACCIDENT_FORBIDDEN_DURATION&quot;));
-
-    }</text>
-      </register>
-      <register name="3" type="4">
-        <text>False</text>
-      </register>
-      <register name="4" type="4">
-        <text>True</text>
-      </register>
-      <register name="5" type="2">
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="3" type="4">
+        <text>profession</text>
       </register>
-      <register name="7" type="4">
-        <text>configuration.getProfession().setCode(&quot;9999999999&quot;);
-        errors = executeValidator(configuration, validator);
-        Assert.assertTrue(
-                &quot;invalid profession&quot;,
-                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;profession&quot;, &quot;ERROR.PROFESSION_MUST_BE_PROVIDED&quot;));</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">ICAgICAgICBBc3NlcnQuYXNzZXJ0VHJ1ZSgKICAgICAgICAgICAgICAgICJpbnZhbGlkIGVtcHR5IG1vbnRobHlJbmNvbWUiLAogICAgICAgICAgICAgICAgVmFsaWRhdG9ySGVscGVyLmhhc0ZpZWxkRXJyb3JXaXRoQ29kZShlcnJvcnMsICJtb250aGx5SW5jb21lIiwgR2VuZXJpY1ZhbGlkYXRvci5FcnJvckNvZGUuRVJST1JfVEVDSF9NVVNUX0JFX1NFVCkpOw==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="x" type="4">
-        <text>False</text>
+        <text>profession</text>
       </register>
       <register name="8" type="4">
-        <text>False</text>
+        <text encoding="base64">ICAgICAgQXNzZXJ0LmFzc2VydFRydWUoCiAgICAgICAgICAgICAgICAiaW52YWxpZCBlbXB0eSBpbnN1cmVkQW1vdW50IiwKICAgICAgICAgICAgICAgIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAiaW5zdXJlZEFtb3VudCIsIEdlbmVyaWNWYWxpZGF0b3IuRXJyb3JDb2RlLkVSUk9SX1RFQ0hfTVVTVF9CRV9TRVQpKTs=</text>
       </register>
-      <register name="9" type="4">
-        <text>PROFESSION_MUST_BE_PROVIDED</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -478,18 +434,21 @@
         <entry>action PreviousOccurence</entry>
         <entry>action GotoSymbol</entry>
         <entry>action $SelectAll</entry>
-        <entry>action CloseContent</entry>
         <entry>action OptimizeImports</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action TabShiftActions.StretchRight</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action ReformatCode</entry>
-        <entry>action HideAllWindows</entry>
         <entry>action GotoFile</entry>
-        <entry>action PreviousTab</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
+        <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
         <entry>action Find</entry>
-        <entry>action VimFilePrevious</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action CloseContent</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action ToggleLineBreakpoint</entry>
+        <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
