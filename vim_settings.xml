@@ -126,13 +126,13 @@
         <mark key="^" line="31" column="17" />
         <mark key="." line="31" column="17" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" timestamp="1529656059912">
-        <mark key="'" line="135" column="130" />
-        <mark key="k" line="89" column="28" />
-        <mark key="[" line="138" column="0" />
-        <mark key="]" line="138" column="0" />
-        <mark key="^" line="135" column="75" />
-        <mark key="." line="138" column="0" />
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" timestamp="1529657003779">
+        <mark key="'" line="55" column="126" />
+        <mark key="k" line="45" column="28" />
+        <mark key="[" line="41" column="0" />
+        <mark key="]" line="41" column="0" />
+        <mark key="^" line="48" column="24" />
+        <mark key="." line="41" column="0" />
       </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/quotation_request_home.xml" timestamp="1529493217700">
         <mark key="'" line="254" column="31" />
@@ -255,7 +255,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="79" column="19" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/wallet_quotation_request.xml" />
       <jump line="64" column="22" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/wallet_quotation_request.xml" />
       <jump line="162" column="19" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/home_quotation_request.xml" />
       <jump line="64" column="13" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
@@ -344,7 +343,6 @@
       <jump line="96" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="107" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="100" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
-      <jump line="94" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="98" column="7" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="119" column="127" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="97" column="75" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
@@ -355,10 +353,12 @@
       <jump line="121" column="129" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="111" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="135" column="130" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
+      <jump line="94" column="76" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
+      <jump line="99" column="126" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>insuredAmount</text>
+        <text>False</text>
       </register>
       <register name="-" type="4">
         <text>G</text>
@@ -367,46 +367,84 @@
         <text encoding="base64">XDxUT0RPXD4=</text>
       </register>
       <register name="0" type="4">
-        <text>PersonalAccidentConfiguration configuration = new PersonalAccidentConfiguration();
-        BindException errors = executeValidator(configuration, validator);
-        Assert.assertTrue(
-                &quot;invalid empty insuredAmount&quot;,
-                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;insuredAmount&quot;, GenericValidator.ErrorCode.ERROR_TECH_MUST_BE_SET));
-
-        configuration.setInsuredAmount(1000L);
-        Assert.assertFalse(
-                &quot;invalid profession&quot;,
-                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;insuredAmount&quot;, GenericValidator.ErrorCode.ERROR_TECH_MUST_BE_SET));</text>
+        <text>GenericValidator.ErrorCode.ERROR_TECH_MUST_BE_SET))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICBAVGVzdAogICAgcHVibGljIHZvaWQgdmFsaWRhdGVSZW50KCkgewogICAgICAgIFlhY2h0Q29uZmlndXJhdGlvbiBjb25maWd1cmF0aW9uID0gbmV3IFlhY2h0Q29uZmlndXJhdGlvbigpOwogICAgICAgIGNvbmZpZ3VyYXRpb24uc2V0WWFjaHRUeXBlKG5ldyBEaWN0aW9uYXJ5SXRlbSgpKTsKICAgICAgICBjb25maWd1cmF0aW9uLmdldFlhY2h0VHlwZSgpLnNldENvZGUoIiIpOwoKICAgICAgICBCaW5kRXhjZXB0aW9uIGVycm9ycyA9IGV4ZWN1dGVWYWxpZGF0b3IoY29uZmlndXJhdGlvbiwgdmFsaWRhdG9yKTsKICAgICAgICBBc3NlcnQuYXNzZXJ0RmFsc2UoImZvciByZW50IGlzIG5vdCByZXF1aXJlZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAiZm9yUmVudCIsIEdlbmVyaWNWYWxpZGF0b3IuRXJyb3JDb2RlLkVSUk9SX1RFQ0hfTVVTVF9CRV9TRVQpKTsKCiAgICAgICAgY29uZmlndXJhdGlvbi5nZXRZYWNodFR5cGUoKS5zZXRDb2RlKCIxMDEiKTsKICAgICAgICBlcnJvcnMgPSBleGVjdXRlVmFsaWRhdG9yKGNvbmZpZ3VyYXRpb24sIHZhbGlkYXRvcik7CiAgICAgICAgQXNzZXJ0LmFzc2VydFRydWUoImZvciByZW50IGlzIHJlcXVpcmVkIiwgVmFsaWRhdG9ySGVscGVyLmhhc0ZpZWxkRXJyb3JXaXRoQ29kZShlcnJvcnMsICJmb3JSZW50IiwgR2VuZXJpY1ZhbGlkYXRvci5FcnJvckNvZGUuRVJST1JfVEVDSF9NVVNUX0JFX1NFVCkpOwoKICAgICAgICBjb25maWd1cmF0aW9uLmdldFlhY2h0VHlwZSgpLnNldENvZGUoIjEwMSIpOwogICAgICAgIGNvbmZpZ3VyYXRpb24uc2V0Rm9yUmVudCh0cnVlKTsKICAgICAgICBlcnJvcnMgPSBleGVjdXRlVmFsaWRhdG9yKGNvbmZpZ3VyYXRpb24sIHZhbGlkYXRvcik7CiAgICAgICAgQXNzZXJ0LmFzc2VydEZhbHNlKCJmb3IgcmVudCBpcyByZXF1aXJlZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAiZm9yUmVudCIsIEdlbmVyaWNWYWxpZGF0b3IuRXJyb3JDb2RlLkVSUk9SX1RFQ0hfTVVTVF9CRV9TRVQpKTsKICAgIH0KCiAgICBAVGVzdAogICAgcHVibGljIHZvaWQgdmFsaWRhdGVTa2lwcGVyZWQoKSB7CiAgICAgICAgWWFjaHRDb25maWd1cmF0aW9uIGNvbmZpZ3VyYXRpb24gPSBuZXcgWWFjaHRDb25maWd1cmF0aW9uKCk7CiAgICAgICAgY29uZmlndXJhdGlvbi5zZXRZYWNodFR5cGUobmV3IERpY3Rpb25hcnlJdGVtKCkpOwogICAgICAgIGNvbmZpZ3VyYXRpb24uZ2V0WWFjaHRUeXBlKCkuc2V0Q29kZSgiIik7CgogICAgICAgIEJpbmRFeGNlcHRpb24gZXJyb3JzID0gZXhlY3V0ZVZhbGlkYXRvcihjb25maWd1cmF0aW9uLCB2YWxpZGF0b3IpOwogICAgICAgIEFzc2VydC5hc3NlcnRGYWxzZSgic2tpcHBlcmVkIGlzIG5vdCByZXF1aXJlZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAic2tpcHBlcmVkIiwgR2VuZXJpY1ZhbGlkYXRvci5FcnJvckNvZGUuRVJST1JfVEVDSF9NVVNUX0JFX1NFVCkpOwoKICAgICAgICBjb25maWd1cmF0aW9uLmdldFlhY2h0VHlwZSgpLnNldENvZGUoIjEwMSIpOwogICAgICAgIGVycm9ycyA9IGV4ZWN1dGVWYWxpZGF0b3IoY29uZmlndXJhdGlvbiwgdmFsaWRhdG9yKTsKICAgICAgICBBc3NlcnQuYXNzZXJ0RmFsc2UoInNraXBwZXJlZCBpcyBub3QgcmVxdWlyZWQiLCBWYWxpZGF0b3JIZWxwZXIuaGFzRmllbGRFcnJvcldpdGhDb2RlKGVycm9ycywgInNraXBwZXJlZCIsIEdlbmVyaWNWYWxpZGF0b3IuRXJyb3JDb2RlLkVSUk9SX1RFQ0hfTVVTVF9CRV9TRVQpKTsKCiAgICAgICAgY29uZmlndXJhdGlvbi5nZXRZYWNodFR5cGUoKS5zZXRDb2RlKCIxMDEiKTsKICAgICAgICBjb25maWd1cmF0aW9uLnNldEZvclJlbnQoZmFsc2UpOwogICAgICAgIGVycm9ycyA9IGV4ZWN1dGVWYWxpZGF0b3IoY29uZmlndXJhdGlvbiwgdmFsaWRhdG9yKTsKICAgICAgICBBc3NlcnQuYXNzZXJ0RmFsc2UoInNraXBwZXJlZCBpcyBub3QgcmVxdWlyZWQiLCBWYWxpZGF0b3JIZWxwZXIuaGFzRmllbGRFcnJvcldpdGhDb2RlKGVycm9ycywgInNraXBwZXJlZCIsIEdlbmVyaWNWYWxpZGF0b3IuRXJyb3JDb2RlLkVSUk9SX1RFQ0hfTVVTVF9CRV9TRVQpKTsKCiAgICAgICAgY29uZmlndXJhdGlvbi5nZXRZYWNodFR5cGUoKS5zZXRDb2RlKCIxMDEiKTsKICAgICAgICBjb25maWd1cmF0aW9uLnNldEZvclJlbnQodHJ1ZSk7CiAgICAgICAgZXJyb3JzID0gZXhlY3V0ZVZhbGlkYXRvcihjb25maWd1cmF0aW9uLCB2YWxpZGF0b3IpOwogICAgICAgIEFzc2VydC5hc3NlcnRUcnVlKCJza2lwcGVyZWQgaXMgbm90IHJlcXVpcmVkIiwgVmFsaWRhdG9ySGVscGVyLmhhc0ZpZWxkRXJyb3JXaXRoQ29kZShlcnJvcnMsICJza2lwcGVyZWQiLCBHZW5lcmljVmFsaWRhdG9yLkVycm9yQ29kZS5FUlJPUl9URUNIX01VU1RfQkVfU0VUKSk7CgogICAgICAgIGNvbmZpZ3VyYXRpb24uZ2V0WWFjaHRUeXBlKCkuc2V0Q29kZSgiMTAxIik7CiAgICAgICAgY29uZmlndXJhdGlvbi5zZXRGb3JSZW50KHRydWUpOwogICAgICAgIGNvbmZpZ3VyYXRpb24uc2V0U2tpcHBlcmVkKHRydWUpOwogICAgICAgIGVycm9ycyA9IGV4ZWN1dGVWYWxpZGF0b3IoY29uZmlndXJhdGlvbiwgdmFsaWRhdG9yKTsKICAgICAgICBBc3NlcnQuYXNzZXJ0RmFsc2UoInNraXBwZXJlZCBpcyBub3QgcmVxdWlyZWQiLCBWYWxpZGF0b3JIZWxwZXIuaGFzRmllbGRFcnJvcldpdGhDb2RlKGVycm9ycywgInNraXBwZXJlZCIsIEdlbmVyaWNWYWxpZGF0b3IuRXJyb3JDb2RlLkVSUk9SX1RFQ0hfTVVTVF9CRV9TRVQpKTsKICAgIH0KCiAgICBAVGVzdAogICAgcHVibGljIHZvaWQgdmFsaWRhdGVFbmdpbmVQb3dlcigpIHsKICAgICAgICBZYWNodENvbmZpZ3VyYXRpb24gY29uZmlndXJhdGlvbiA9IG5ldyBZYWNodENvbmZpZ3VyYXRpb24oKTsKICAgICAgICBjb25maWd1cmF0aW9uLnNldFlhY2h0VHlwZShuZXcgRGljdGlvbmFyeUl0ZW0oKSk7CiAgICAgICAgY29uZmlndXJhdGlvbi5nZXRZYWNodFR5cGUoKS5zZXRDb2RlKCIiKTsKCiAgICAgICAgQmluZEV4Y2VwdGlvbiBlcnJvcnMgPSBleGVjdXRlVmFsaWRhdG9yKGNvbmZpZ3VyYXRpb24sIHZhbGlkYXRvcik7CiAgICAgICAgQXNzZXJ0LmFzc2VydEZhbHNlKCJob3JzZSBwb3dlciBpcyBub3QgcmVxdWlyZWQiLCBWYWxpZGF0b3JIZWxwZXIuaGFzRmllbGRFcnJvcldpdGhDb2RlKGVycm9ycywgImVuZ2luZUhvcnNlUG93ZXIiLCBHZW5lcmljVmFsaWRhdG9yLkVycm9yQ29kZS5FUlJPUl9URUNIX01VU1RfQkVfU0VUKSk7CgogICAgICAgIGNvbmZpZ3VyYXRpb24uZ2V0WWFjaHRUeXBlKCkuc2V0Q29kZSgiMTAxIik7CiAgICAgICAgZXJyb3JzID0gZXhlY3V0ZVZhbGlkYXRvcihjb25maWd1cmF0aW9uLCB2YWxpZGF0b3IpOwogICAgICAgIEFzc2VydC5hc3NlcnRUcnVlKCJob3JzZSBwb3dlciBpcyByZXF1aXJlZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAiZW5naW5lSG9yc2VQb3dlciIsIEdlbmVyaWNWYWxpZGF0b3IuRXJyb3JDb2RlLkVSUk9SX1RFQ0hfTVVTVF9CRV9TRVQpKTsKCiAgICAgICAgY29uZmlndXJhdGlvbi5nZXRZYWNodFR5cGUoKS5zZXRDb2RlKCIxMDEiKTsKICAgICAgICBjb25maWd1cmF0aW9uLnNldEVuZ2luZUhvcnNlUG93ZXIoMTAwTCk7CiAgICAgICAgZXJyb3JzID0gZXhlY3V0ZVZhbGlkYXRvcihjb25maWd1cmF0aW9uLCB2YWxpZGF0b3IpOwogICAgICAgIEFzc2VydC5hc3NlcnRGYWxzZSgiaG9yc2UgcG93ZXIgaXMgdmFsaWQiLCBWYWxpZGF0b3JIZWxwZXIuaGFzRmllbGRFcnJvcldpdGhDb2RlKGVycm9ycywgImVuZ2luZUhvcnNlUG93ZXIiLCBHZW5lcmljVmFsaWRhdG9yLkVycm9yQ29kZS5FUlJPUl9URUNIX01VU1RfQkVfU0VUKSk7CiAgICAgICAgQXNzZXJ0LmFzc2VydEZhbHNlKCJob3JzZSBwb3dlciBpcyB2YWxpZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAiZW5naW5lSG9yc2VQb3dlciIsICJNYXgiKSk7CiAgICAgICAgQXNzZXJ0LmFzc2VydEZhbHNlKCJob3JzZSBwb3dlciBpcyB2YWxpZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAiZW5naW5lSG9yc2VQb3dlciIsICJNaW4iKSk7CgogICAgICAgIGNvbmZpZ3VyYXRpb24uZ2V0WWFjaHRUeXBlKCkuc2V0Q29kZSgiMTAxIik7CiAgICAgICAgY29uZmlndXJhdGlvbi5zZXRFbmdpbmVIb3JzZVBvd2VyKDBMKTsKICAgICAgICBlcnJvcnMgPSBleGVjdXRlVmFsaWRhdG9yKGNvbmZpZ3VyYXRpb24sIHZhbGlkYXRvcik7CiAgICAgICAgQXNzZXJ0LmFzc2VydFRydWUoImhvcnNlIHBvd2VyIGlzIG5vdCB2YWxpZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAiZW5naW5lSG9yc2VQb3dlciIsICJNaW4iKSk7CgogICAgICAgIGNvbmZpZ3VyYXRpb24uZ2V0WWFjaHRUeXBlKCkuc2V0Q29kZSgiMTAxIik7CiAgICAgICAgY29uZmlndXJhdGlvbi5zZXRFbmdpbmVIb3JzZVBvd2VyKDEwMDAwTCk7CiAgICAgICAgZXJyb3JzID0gZXhlY3V0ZVZhbGlkYXRvcihjb25maWd1cmF0aW9uLCB2YWxpZGF0b3IpOwogICAgICAgIEFzc2VydC5hc3NlcnRUcnVlKCJob3JzZSBwb3dlciBpcyBub3QgdmFsaWQiLCBWYWxpZGF0b3JIZWxwZXIuaGFzRmllbGRFcnJvcldpdGhDb2RlKGVycm9ycywgImVuZ2luZUhvcnNlUG93ZXIiLCAiTWF4IikpOwogICAgfQoKICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCB2YWxpZGF0ZUxlbmd0aCgpIHsKICAgICAgICBZYWNodENvbmZpZ3VyYXRpb24gY29uZmlndXJhdGlvbiA9IG5ldyBZYWNodENvbmZpZ3VyYXRpb24oKTsKICAgICAgICBjb25maWd1cmF0aW9uLnNldFlhY2h0VHlwZShuZXcgRGljdGlvbmFyeUl0ZW0oKSk7CiAgICAgICAgY29uZmlndXJhdGlvbi5nZXRZYWNodFR5cGUoKS5zZXRDb2RlKCIiKTsKCiAgICAgICAgQmluZEV4Y2VwdGlvbiBlcnJvcnMgPSBleGVjdXRlVmFsaWRhdG9yKGNvbmZpZ3VyYXRpb24sIHZhbGlkYXRvcik7CiAgICAgICAgQXNzZXJ0LmFzc2VydEZhbHNlKCJsZW5ndGggaXMgbm90IHJlcXVpcmVkIiwgVmFsaWRhdG9ySGVscGVyLmhhc0ZpZWxkRXJyb3JXaXRoQ29kZShlcnJvcnMsICJsZW5ndGgiLCBHZW5lcmljVmFsaWRhdG9yLkVycm9yQ29kZS5FUlJPUl9URUNIX01VU1RfQkVfU0VUKSk7CgogICAgICAgIGNvbmZpZ3VyYXRpb24uZ2V0WWFjaHRUeXBlKCkuc2V0Q29kZSgiMTAxIik7CiAgICAgICAgZXJyb3JzID0gZXhlY3V0ZVZhbGlkYXRvcihjb25maWd1cmF0aW9uLCB2YWxpZGF0b3IpOwogICAgICAgIEFzc2VydC5hc3NlcnRUcnVlKCJsZW5ndGggaXMgcmVxdWlyZWQiLCBWYWxpZGF0b3JIZWxwZXIuaGFzRmllbGRFcnJvcldpdGhDb2RlKGVycm9ycywgImxlbmd0aCIsIEdlbmVyaWNWYWxpZGF0b3IuRXJyb3JDb2RlLkVSUk9SX1RFQ0hfTVVTVF9CRV9TRVQpKTsKCiAgICAgICAgY29uZmlndXJhdGlvbi5nZXRZYWNodFR5cGUoKS5zZXRDb2RlKCIxMDEiKTsKICAgICAgICBjb25maWd1cmF0aW9uLnNldExlbmd0aCgxMEwpOwogICAgICAgIGVycm9ycyA9IGV4ZWN1dGVWYWxpZGF0b3IoY29uZmlndXJhdGlvbiwgdmFsaWRhdG9yKTsKICAgICAgICBBc3NlcnQuYXNzZXJ0RmFsc2UoImxlbmd0aCBpcyBzZXQiLCBWYWxpZGF0b3JIZWxwZXIuaGFzRmllbGRFcnJvcldpdGhDb2RlKGVycm9ycywgImxlbmd0aCIsIEdlbmVyaWNWYWxpZGF0b3IuRXJyb3JDb2RlLkVSUk9SX1RFQ0hfTVVTVF9CRV9TRVQpKTsKICAgIH0KCiAgICBAVGVzdAogICAgcHVibGljIHZvaWQgdmFsaWRhdGVZYWNodFZhbHVlKCkgewogICAgICAgIFlhY2h0Q29uZmlndXJhdGlvbiBjb25maWd1cmF0aW9uID0gbmV3IFlhY2h0Q29uZmlndXJhdGlvbigpOwogICAgICAgIGNvbmZpZ3VyYXRpb24uc2V0WWFjaHRUeXBlKG5ldyBEaWN0aW9uYXJ5SXRlbSgpKTsKICAgICAgICBjb25maWd1cmF0aW9uLmdldFlhY2h0VHlwZSgpLnNldENvZGUoIiIpOwoKICAgICAgICBCaW5kRXhjZXB0aW9uIGVycm9ycyA9IGV4ZWN1dGVWYWxpZGF0b3IoY29uZmlndXJhdGlvbiwgdmFsaWRhdG9yKTsKICAgICAgICBBc3NlcnQuYXNzZXJ0RmFsc2UoInZhbHVlIGlzIG5vdCByZXF1aXJlZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAidmFsdWUiLCBHZW5lcmljVmFsaWRhdG9yLkVycm9yQ29kZS5FUlJPUl9URUNIX01VU1RfQkVfU0VUKSk7CgogICAgICAgIGNvbmZpZ3VyYXRpb24uZ2V0WWFjaHRUeXBlKCkuc2V0Q29kZSgiMTAxIik7CiAgICAgICAgZXJyb3JzID0gZXhlY3V0ZVZhbGlkYXRvcihjb25maWd1cmF0aW9uLCB2YWxpZGF0b3IpOwogICAgICAgIEFzc2VydC5hc3NlcnRUcnVlKCJ2YWx1ZSBpcyByZXF1aXJlZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAidmFsdWUiLCBHZW5lcmljVmFsaWRhdG9yLkVycm9yQ29kZS5FUlJPUl9URUNIX01VU1RfQkVfU0VUKSk7CgogICAgICAgIGNvbmZpZ3VyYXRpb24uZ2V0WWFjaHRUeXBlKCkuc2V0Q29kZSgiMTAxIik7CiAgICAgICAgY29uZmlndXJhdGlvbi5zZXRWYWx1ZSgxMDBMKTsKICAgICAgICBlcnJvcnMgPSBleGVjdXRlVmFsaWRhdG9yKGNvbmZpZ3VyYXRpb24sIHZhbGlkYXRvcik7CiAgICAgICAgQXNzZXJ0LmFzc2VydEZhbHNlKCJ2YWx1ZSBpcyB2YWxpZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAidmFsdWUiLCBHZW5lcmljVmFsaWRhdG9yLkVycm9yQ29kZS5FUlJPUl9URUNIX01VU1RfQkVfU0VUKSk7CiAgICAgICAgQXNzZXJ0LmFzc2VydEZhbHNlKCJ2YWx1ZSBpcyB2YWxpZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAidmFsdWUiLCAiTWF4IikpOwogICAgICAgIEFzc2VydC5hc3NlcnRGYWxzZSgidmFsdWUgaXMgdmFsaWQiLCBWYWxpZGF0b3JIZWxwZXIuaGFzRmllbGRFcnJvcldpdGhDb2RlKGVycm9ycywgInZhbHVlIiwgIk1pbiIpKTsKCiAgICAgICAgY29uZmlndXJhdGlvbi5nZXRZYWNodFR5cGUoKS5zZXRDb2RlKCIxMDEiKTsKICAgICAgICBjb25maWd1cmF0aW9uLnNldFZhbHVlKDBMKTsKICAgICAgICBlcnJvcnMgPSBleGVjdXRlVmFsaWRhdG9yKGNvbmZpZ3VyYXRpb24sIHZhbGlkYXRvcik7CiAgICAgICAgQXNzZXJ0LmFzc2VydFRydWUoInZhbHVlIGlzIG5vdCB2YWxpZCIsIFZhbGlkYXRvckhlbHBlci5oYXNGaWVsZEVycm9yV2l0aENvZGUoZXJyb3JzLCAidmFsdWUiLCAiTWluIikpOwoKICAgICAgICBjb25maWd1cmF0aW9uLmdldFlhY2h0VHlwZSgpLnNldENvZGUoIjEwMSIpOwogICAgICAgIGNvbmZpZ3VyYXRpb24uc2V0VmFsdWUoMTAwMDAwMEwpOwogICAgICAgIGVycm9ycyA9IGV4ZWN1dGVWYWxpZGF0b3IoY29uZmlndXJhdGlvbiwgdmFsaWRhdG9yKTsKICAgICAgICBBc3NlcnQuYXNzZXJ0VHJ1ZSgidmFsdWUgaXMgbm90IHZhbGlkIiwgVmFsaWRhdG9ySGVscGVyLmhhc0ZpZWxkRXJyb3JXaXRoQ29kZShlcnJvcnMsICJ2YWx1ZSIsICJNYXgiKSk7CiAgICB9</text>
+        <text>//[“12”,”6”,”4”,”3”]
+
+    @Test
+    public void validateDuration() {
+
+        PersonalAccidentConfiguration configuration = new PersonalAccidentConfiguration();
+        configuration.setProfession(new DictionaryItem());
+        configuration.setDuration(new DictionaryItem());
+        BindException errors = executeValidator(configuration, validator);
+        Assert.assertTrue(
+                &quot;invalid duration&quot;,
+                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, GenericValidator.ErrorCode.ERROR_TECH_MUST_BE_SET));
+
+        configuration.getDuration().setCode(&quot;1&quot;);
+        errors = executeValidator(configuration, validator);
+        Assert.assertTrue(
+                &quot;invalid duration&quot;,
+                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, &quot;ERROR.PERSONAL_ACCIDENT_FORBIDDEN_DURATION&quot;));
+
+        configuration.getDuration().setCode(&quot;3&quot;);
+        errors = executeValidator(configuration, validator);
+        Assert.assertFalse(
+                &quot;valid duration&quot;,
+                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, &quot;ERROR.PERSONAL_ACCIDENT_FORBIDDEN_DURATION&quot;));
+
+        configuration.getDuration().setCode(&quot;4&quot;);
+        errors = executeValidator(configuration, validator);
+        Assert.assertFalse(
+                &quot;valid duration&quot;,
+                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, &quot;ERROR.PERSONAL_ACCIDENT_FORBIDDEN_DURATION&quot;));
+
+        configuration.getDuration().setCode(&quot;6&quot;);
+        errors = executeValidator(configuration, validator);
+        Assert.assertFalse(
+                &quot;valid duration&quot;,
+                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, &quot;ERROR.PERSONAL_ACCIDENT_FORBIDDEN_DURATION&quot;));
+
+        configuration.getDuration().setCode(&quot;12&quot;);
+        errors = executeValidator(configuration, validator);
+        Assert.assertFalse(
+                &quot;valid duration&quot;,
+                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;duration&quot;, &quot;ERROR.PERSONAL_ACCIDENT_FORBIDDEN_DURATION&quot;));
+
+    }</text>
       </register>
       <register name="3" type="4">
-        <text>insuredAmount</text>
+        <text>False</text>
       </register>
       <register name="4" type="4">
-        <text>insuredAmount</text>
+        <text>True</text>
       </register>
-      <register name="5" type="4">
-        <text>insuredAmount</text>
-      </register>
-      <register name="6" type="4">
-        <text>ConstructionYear</text>
-      </register>
-      <register name="7" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="7" type="4">
+        <text>configuration.getProfession().setCode(&quot;9999999999&quot;);
+        errors = executeValidator(configuration, validator);
+        Assert.assertTrue(
+                &quot;invalid profession&quot;,
+                ValidatorHelper.hasFieldErrorWithCode(errors, &quot;profession&quot;, &quot;ERROR.PROFESSION_MUST_BE_PROVIDED&quot;));</text>
       </register>
       <register name="x" type="4">
-        <text>insuredAmount</text>
+        <text>False</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>False</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>PROFESSION_MUST_BE_PROVIDED</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -442,16 +480,16 @@
         <entry>action $SelectAll</entry>
         <entry>action CloseContent</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action HideAllWindows</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action GotoFile</entry>
         <entry>action TabShiftActions.StretchRight</entry>
-        <entry>action VimFilePrevious</entry>
-        <entry>action NextTab</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action GotoFile</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action Find</entry>
+        <entry>action VimFilePrevious</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
