@@ -260,6 +260,12 @@
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/db/migration/V20171121.0806__dictionary.sql" timestamp="1529917628591">
         <mark key="'" line="14" column="0" />
       </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/generic/validator/GenericValidator.java" timestamp="1529919664545">
+        <mark key="[" line="53" column="93" />
+        <mark key="]" line="53" column="88" />
+        <mark key="^" line="53" column="88" />
+        <mark key="." line="53" column="88" />
+      </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/TravelConfiguration.java" timestamp="1529648992777">
         <mark key="'" line="27" column="0" />
       </file>
@@ -436,7 +442,7 @@
         <text>insuredAmount</text>
       </register>
       <register name=":" type="4">
-        <text>action VimFilePrevious</text>
+        <text>action QuickJavaDoc</text>
       </register>
     </registers>
     <search>
@@ -467,14 +473,14 @@
         <entry>action GotoFile</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
         <entry>action CloseAllEditors</entry>
-        <entry>action Find</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action CloseContent</entry>
+        <entry>action Find</entry>
         <entry>action FileStructurePopup</entry>
+        <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action VimFilePrevious</entry>
+        <entry>action QuickJavaDoc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
