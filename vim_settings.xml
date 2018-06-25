@@ -257,6 +257,9 @@
         <mark key="[" line="164" column="5" />
         <mark key="]" line="167" column="127" />
       </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/db/migration/V20171121.0806__dictionary.sql" timestamp="1529917628591">
+        <mark key="'" line="14" column="0" />
+      </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/TravelConfiguration.java" timestamp="1529648992777">
         <mark key="'" line="27" column="0" />
       </file>
@@ -288,7 +291,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="225" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/home_quotation_request.xml" />
       <jump line="250" column="23" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/home_quotation_request.xml" />
       <jump line="260" column="23" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/home_quotation_request.xml" />
       <jump line="253" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/home_quotation_request.xml" />
@@ -388,6 +390,7 @@
       <jump line="41" column="49" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidator.java" />
       <jump line="36" column="153" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="53" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/wsdl/get-user-information-p2.wsdl" />
+      <jump line="14" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/db/migration/V20171121.0806__dictionary.sql" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -433,7 +436,7 @@
         <text>insuredAmount</text>
       </register>
       <register name=":" type="4">
-        <text>action VimFilePrevious</text>
+        <text>action QuickJavaDoc</text>
       </register>
     </registers>
     <search>
@@ -460,9 +463,7 @@
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action CloseContent</entry>
-        <entry>action Find</entry>
         <entry>action SaveAll</entry>
-        <entry>action CloseAllEditors</entry>
         <entry>action ReformatCode</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
@@ -470,6 +471,9 @@
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action VimFilePrevious</entry>
+        <entry>action CloseAllEditors</entry>
+        <entry>action Find</entry>
+        <entry>action QuickJavaDoc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
