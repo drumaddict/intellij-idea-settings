@@ -118,12 +118,12 @@
         <mark key="." line="14" column="0" />
         <mark key="^" line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530024595892">
-        <mark key="'" line="105" column="115" />
-        <mark key="[" line="105" column="121" />
-        <mark key="]" line="105" column="128" />
-        <mark key="^" line="105" column="128" />
-        <mark key="." line="105" column="128" />
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530025642210">
+        <mark key="'" line="118" column="33" />
+        <mark key="[" line="109" column="104" />
+        <mark key="]" line="109" column="103" />
+        <mark key="^" line="109" column="103" />
+        <mark key="." line="109" column="103" />
       </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/YachtConfigurationValidatorTest.java" timestamp="1529665495085">
         <mark key="'" line="164" column="5" />
@@ -312,10 +312,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="96" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
-      <jump line="107" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
-      <jump line="100" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
-      <jump line="98" column="7" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="119" column="127" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="97" column="75" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="51" column="123" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
@@ -389,7 +385,6 @@
       <jump line="98" column="97" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/product.import/index.js" />
       <jump line="134" column="12" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="100" column="13" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
-      <jump line="111" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="117" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="253" column="4" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="287" column="4" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
@@ -412,6 +407,11 @@
       <jump line="83" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/insurance/entity/InsuredProduct.java" />
       <jump line="99" column="12" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="105" column="115" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="103" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="110" column="37" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="114" column="37" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="111" column="1" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="118" column="33" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -424,7 +424,7 @@
         <text encoding="base64">XDxUT0RPXD4=</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">CiAgICAgICAgICAgIHJlbW92YWw6ICd0cnVuY2F0ZSB0YWJsZSBwcmludG91dF90ZW1wbGF0ZSBjYXNjYWRlOyAnICsgJ3RydW5jYXRlIHRhYmxlIHByaW50b3V0X2F0dGFjaG1lbnQgY2FzY2FkZTsnLAogICAgICAgICAgICB0ZW1wbGF0ZToKICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X3RlbXBsYXRlICggcHJpbnRvdXRfdHlwZV9pZCwgcHJvZHVjdF9pZCwgdmFyaWFudF9pZCApJyArCiAgICAgICAgICAgICcgVkFMVUVTICggJyArCiAgICAgICAgICAgICcoU0VMRUNUIGlkIGZyb20gZGljdGlvbmFyeV9pdGVtIHdoZXJlIGRpY3Rpb25hcnlfY29kZSA9IFwnUFJJTlRPVVRcJyBhbmQgY29kZSA9IHtwcmludG91dFR5cGUhZXNjYXBlfSknICsKICAgICAgICAgICAgJ3twcm9kdWN0SWQhZXNjYXBlfScgKwogICAgICAgICAgICAne3ZhcmlhbnRJZCFlc2NhcGV9JyArCiAgICAgICAgICAgICcgKTsnLAogICAgICAgICAgICBhdHRhY2htZW50OgogICAgICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X2F0dGFjaG1lbnQgKCBwcmludG91dF9pZCwgbG9jYXRpb24gKSBWQUxVRVMgKCcrCiAgICAgICAgICAgICAgICcoU0VMRUNUIGlkIGZyb20gZGljdGlvbmFyeV9pdGVtIHdoZXJlIGRpY3Rpb25hcnlfY29kZSA9IFwnUFJJTlRPVVRcJyBhbmQgY29kZSA9IHtwcmludG91dFR5cGUhZXNjYXBlfSknICAne3ByaW50b3V0X2lkIWVzY2FwZX0sJyArCiAgICAgICAgICAgICAgICAnIHtsb2NhdGlvbiFlc2NhcGV9KTsn</text>
+        <text encoding="base64">ICAgICAgICAgICBhdHRhY2htZW50X3dpdGhfcHJvZHVjdF9hbmRfdmFyaWFudDoKICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X2F0dGFjaG1lbnQgKCBwcmludG91dF9pZCwgbG9jYXRpb24gKSBWQUxVRVMgKCcgKwogICAgICAgICAgICAnKFNFTEVDVCBpZCBmcm9tIHByaW50b3V0X3RlbXBsYXRlIHdoZXJlIHByb2R1Y3RfaWQ9e3Byb2R1Y3RJZCFlc2NhcGV9IGFuZCB2YXJpYW50X2lkID0ge3ZhcmlhbnRJZCFlc2NhcGV9IExJTUlUIDEpJyArCiAgICAgICAgICAgICcge2xvY2F0aW9uIWVzY2FwZX0pOyc=</text>
       </register>
       <register name="1" type="4">
         <text>printout_id</text>
@@ -489,13 +489,13 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action GotoClass</entry>
         <entry>action Find</entry>
-        <entry>action ReformatCode</entry>
         <entry>action HideAllWindows</entry>
         <entry>action CloseContent</entry>
         <entry>action GotoFile</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
