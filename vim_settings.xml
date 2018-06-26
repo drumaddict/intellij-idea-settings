@@ -123,12 +123,12 @@
         <mark key="." line="14" column="0" />
         <mark key="^" line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1529996165545">
-        <mark key="'" line="13" column="74" />
-        <mark key="[" line="14" column="6" />
-        <mark key="]" line="14" column="13" />
-        <mark key="." line="14" column="13" />
-        <mark key="^" line="14" column="13" />
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530000071207">
+        <mark key="'" line="115" column="9" />
+        <mark key="[" line="181" column="29" />
+        <mark key="]" line="181" column="31" />
+        <mark key="^" line="181" column="31" />
+        <mark key="." line="181" column="31" />
       </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/YachtConfigurationValidatorTest.java" timestamp="1529665495085">
         <mark key="'" line="164" column="5" />
@@ -292,6 +292,9 @@
         <mark key="^" line="20" column="7" />
         <mark key="." line="20" column="7" />
       </file>
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/db/migration/V20180625.0634__dictionary_items.sql" timestamp="1529996298002">
+        <mark key="'" line="26" column="0" />
+      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/docs/soapui/user_flex_fields.xml" timestamp="1528899385235">
         <mark key="'" line="13" column="0" />
         <mark key="[" line="3" column="0" />
@@ -314,15 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="19" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/wallet_quotation_request.xml" />
-      <jump line="30" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/TestConfiguration.java" />
-      <jump line="60" column="4" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/TestConfiguration.java" />
-      <jump line="53" column="21" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/TestConfiguration.java" />
-      <jump line="217" column="12" filename="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapper.java" />
-      <jump line="54" column="0" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
-      <jump line="58" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/TestConfiguration.java" />
-      <jump line="49" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/TestConfiguration.java" />
-      <jump line="65" column="8" filename="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/winbank/mapper/OfferMapperTest.java" />
       <jump line="18" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml.dist" />
       <jump line="0" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml.dist" />
       <jump line="0" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml" />
@@ -413,50 +407,59 @@
       <jump line="44" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/helper/validator/DictionaryItemValidator.java" />
       <jump line="0" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="248" column="4" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
-      <jump line="13" column="74" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="26" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/db/migration/V20180625.0634__dictionary_items.sql" />
+      <jump line="101" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="106" column="148" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="95" column="139" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="96" column="204" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="177" column="41" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="166" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="108" column="85" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="13" column="21" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="116" column="9" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>PRODUCT</text>
+        <text>'printoutConfiguration'</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgIDwhLS0gQGZvcm1hdHRlcjpvZmYgLS0+</text>
+        <text>es</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxUT0RPXD4=</text>
       </register>
       <register name="0" type="4">
-        <text>ErrorCode.ERROR_TECH_MUST_BE_SET</text>
+        <text>printoutConfiguration'</text>
       </register>
       <register name="1" type="4">
-        <text>PRODUCT</text>
+        <text>'printoutConfiguration'</text>
       </register>
-      <register name="2" type="4">
-        <text>product</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>PRODUCT</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="4">
-        <text>PRODUCT_DRIVE_FILE_ID</text>
+        <text>PACKAGE</text>
       </register>
-      <register name="5" type="4">
-        <text>18L0zLP53dk4UETJxRz40VsR-nvZnscSDwrwuNJFuQoY</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbG9iTGlzdDogW10sCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>product</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdHJhbnNsYXRpb25zOiBbXSwK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>packageList</text>
       </register>
       <register name="x" type="4">
-        <text>PRODUCT</text>
+        <text>'printoutConfiguration'</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>Package</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>package</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -480,21 +483,23 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action TabShiftActions.StretchRight</entry>
-        <entry>action ReformatCode</entry>
         <entry>action GotoFile</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action NextTab</entry>
         <entry>action CloseContent</entry>
-        <entry>action Find</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>25</entry>
         <entry>actionlist</entry>
         <entry>action CloseAllEditors</entry>
+        <entry>action VimFilePrevious</entry>
         <entry>action HideAllWindows</entry>
+        <entry>action AceAction</entry>
+        <entry>action Find</entry>
+        <entry>action ReformatCode</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
