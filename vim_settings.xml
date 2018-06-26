@@ -30,7 +30,7 @@
         <mark key="." line="160" column="7" />
         <mark key="^" line="160" column="7" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/db/mapper/DictionaryMapper.xml" timestamp="1529916605715">
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/db/mapper/DictionaryMapper.xml" timestamp="1530002751212">
         <mark key="[" line="7" column="0" />
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
@@ -75,11 +75,6 @@
         <mark key="." line="301" column="21" />
         <mark key="^" line="301" column="21" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/ProductService.java" timestamp="1529577385318">
-        <mark key="[" line="27" column="0" />
-        <mark key="]" line="27" column="0" />
-        <mark key="." line="27" column="0" />
-      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/domain/offer/entity/product/configuration/PlantsConfigurationTest.java" timestamp="1528985241043">
         <mark key="[" line="4" column="0" />
         <mark key="]" line="4" column="0" />
@@ -123,12 +118,12 @@
         <mark key="." line="14" column="0" />
         <mark key="^" line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530000071207">
-        <mark key="'" line="115" column="9" />
-        <mark key="[" line="181" column="29" />
-        <mark key="]" line="181" column="31" />
-        <mark key="^" line="181" column="31" />
-        <mark key="." line="181" column="31" />
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530003538793">
+        <mark key="'" line="98" column="106" />
+        <mark key="[" line="98" column="0" />
+        <mark key="]" line="98" column="7" />
+        <mark key="^" line="98" column="7" />
+        <mark key="." line="98" column="7" />
       </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/YachtConfigurationValidatorTest.java" timestamp="1529665495085">
         <mark key="'" line="164" column="5" />
@@ -240,11 +235,6 @@
         <mark key="." line="83" column="0" />
         <mark key="^" line="78" column="45" />
       </file>
-      <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/transport/soap/endpoint/WinbankEndpoint.java" timestamp="1529326558696">
-        <mark key="[" line="43" column="0" />
-        <mark key="]" line="43" column="0" />
-        <mark key="." line="43" column="0" />
-      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/resources/locale/messages_gr.properties" timestamp="1528971904981">
         <mark key="'" line="18" column="92" />
         <mark key="[" line="18" column="69" />
@@ -317,8 +307,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml.dist" />
-      <jump line="0" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml.dist" />
       <jump line="0" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml" />
       <jump line="75" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml" />
       <jump line="452" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/stub/RedissonClient.java" />
@@ -417,10 +405,12 @@
       <jump line="108" column="85" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="13" column="21" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="116" column="9" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="99" column="10" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="100" column="106" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>'printoutConfiguration'</text>
+        <text>select</text>
       </register>
       <register name="-" type="4">
         <text>es</text>
@@ -429,37 +419,37 @@
         <text encoding="base64">XDxUT0RPXD4=</text>
       </register>
       <register name="0" type="4">
-        <text>printoutConfiguration'</text>
+        <text>{printout_type_id!escape},</text>
       </register>
-      <register name="1" type="4">
-        <text>'printoutConfiguration'</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAnIHtwcmludG91dF90eXBlX2lkIWVzY2FwZX0sJysK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>select</text>
       </register>
       <register name="4" type="4">
-        <text>PACKAGE</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9iTGlzdDogW10sCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJhbnNsYXRpb25zOiBbXSwK</text>
-      </register>
-      <register name="7" type="4">
-        <text>packageList</text>
-      </register>
-      <register name="x" type="4">
         <text>'printoutConfiguration'</text>
       </register>
-      <register name="8" type="4">
-        <text>Package</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>package</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="4">
+        <text>PACKAGE</text>
+      </register>
+      <register name="x" type="4">
+        <text>select</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbG9iTGlzdDogW10sCg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdHJhbnNsYXRpb25zOiBbXSwK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -497,9 +487,9 @@
         <entry>action VimFilePrevious</entry>
         <entry>action HideAllWindows</entry>
         <entry>action AceAction</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
