@@ -118,12 +118,12 @@
         <mark key="." line="14" column="0" />
         <mark key="^" line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530003538793">
-        <mark key="'" line="98" column="106" />
-        <mark key="[" line="98" column="0" />
-        <mark key="]" line="98" column="7" />
-        <mark key="^" line="98" column="7" />
-        <mark key="." line="98" column="7" />
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530005659544">
+        <mark key="'" line="132" column="12" />
+        <mark key="[" line="130" column="38" />
+        <mark key="]" line="131" column="15" />
+        <mark key="^" line="131" column="15" />
+        <mark key="." line="131" column="15" />
       </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/YachtConfigurationValidatorTest.java" timestamp="1529665495085">
         <mark key="'" line="164" column="5" />
@@ -307,12 +307,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml" />
-      <jump line="75" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/resources/application.yml" />
-      <jump line="452" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/stub/RedissonClient.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/PersonalAccidentConfiguration.java" />
-      <jump line="27" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/TravelConfiguration.java" />
-      <jump line="19" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/YachtConfiguration.java" />
       <jump line="0" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/YachtConfiguration.java" />
       <jump line="127" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/PersonalAccidentConfiguration.java" />
       <jump line="94" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/product/model/configuration/PersonalAccidentConfiguration.java" />
@@ -405,12 +399,18 @@
       <jump line="108" column="85" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="13" column="21" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="116" column="9" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
-      <jump line="99" column="10" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
-      <jump line="100" column="106" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="99" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="100" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="136" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="123" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="137" column="5" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="129" column="12" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="181" column="12" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="132" column="12" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>select</text>
+        <text>productDefinition</text>
       </register>
       <register name="-" type="4">
         <text>es</text>
@@ -419,37 +419,39 @@
         <text encoding="base64">XDxUT0RPXD4=</text>
       </register>
       <register name="0" type="4">
-        <text>{printout_type_id!escape},</text>
+        <text>if (data[i].productId !== productDefinition.id) {
+                continue;
+            }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlOwo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAnIHtwcmludG91dF90eXBlX2lkIWVzY2FwZX0sJysK</text>
+      <register name="2" type="4">
+        <text>productDefinition</text>
       </register>
       <register name="3" type="4">
-        <text>select</text>
+        <text>Template</text>
       </register>
       <register name="4" type="4">
-        <text>'printoutConfiguration'</text>
+        <text>product_id</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAnIHtwcmludG91dF90eXBlX2lkIWVzY2FwZX0sJysK</text>
       </register>
       <register name="7" type="4">
-        <text>PACKAGE</text>
-      </register>
-      <register name="x" type="4">
         <text>select</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9iTGlzdDogW10sCg==</text>
+      <register name="x" type="4">
+        <text>productDefinition</text>
+      </register>
+      <register name="8" type="4">
+        <text>'printoutConfiguration'</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJhbnNsYXRpb25zOiBbXSwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -487,9 +489,9 @@
         <entry>action VimFilePrevious</entry>
         <entry>action HideAllWindows</entry>
         <entry>action AceAction</entry>
-        <entry>action ReformatCode</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action Find</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
