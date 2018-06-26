@@ -118,11 +118,12 @@
         <mark key="." line="14" column="0" />
         <mark key="^" line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530017047445">
-        <mark key="[" line="97" column="89" />
-        <mark key="]" line="97" column="87" />
-        <mark key="^" line="97" column="87" />
-        <mark key="." line="97" column="87" />
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530023863487">
+        <mark key="'" line="105" column="115" />
+        <mark key="[" line="105" column="47" />
+        <mark key="]" line="105" column="48" />
+        <mark key="^" line="105" column="48" />
+        <mark key="." line="105" column="48" />
       </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/YachtConfigurationValidatorTest.java" timestamp="1529665495085">
         <mark key="'" line="164" column="5" />
@@ -311,7 +312,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="83" column="120" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="96" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="107" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="100" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
@@ -363,7 +363,6 @@
       <jump line="166" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="108" column="85" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="13" column="21" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
-      <jump line="99" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="136" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="123" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="137" column="5" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
@@ -411,19 +410,21 @@
       <jump line="106" column="5" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/insurance/entity/InsuredProduct.java" />
       <jump line="33" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/insurance/entity/InsuredProduct.java" />
       <jump line="83" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/insurance/entity/InsuredProduct.java" />
+      <jump line="99" column="12" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="105" column="115" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>ictionary_code</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">d2hlcmUgZGljdGlvbmFyeV9jb2RlID0gXCdQUk9EVUNUXCcgYW5kIA==</text>
+        <text>printout_id!escape}</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxUT0RPXD4=</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJyhTRUxFQ1QgaWQgZnJvbSBkaWN0aW9uYXJ5X2l0ZW0gd2hlcmUgZGljdGlvbmFyeV9jb2RlID0gXCdQUk9EVUNUXCcgYW5kIGNvZGUgPSB7cHJvZHVjdElkIWVzY2FwZX0pJyArCg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">CiAgICAgICAgICAgIHJlbW92YWw6ICd0cnVuY2F0ZSB0YWJsZSBwcmludG91dF90ZW1wbGF0ZSBjYXNjYWRlOyAnICsgJ3RydW5jYXRlIHRhYmxlIHByaW50b3V0X2F0dGFjaG1lbnQgY2FzY2FkZTsnLAogICAgICAgICAgICB0ZW1wbGF0ZToKICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X3RlbXBsYXRlICggcHJpbnRvdXRfdHlwZV9pZCwgcHJvZHVjdF9pZCwgdmFyaWFudF9pZCApJyArCiAgICAgICAgICAgICcgVkFMVUVTICggJyArCiAgICAgICAgICAgICcoU0VMRUNUIGlkIGZyb20gZGljdGlvbmFyeV9pdGVtIHdoZXJlIGRpY3Rpb25hcnlfY29kZSA9IFwnUFJJTlRPVVRcJyBhbmQgY29kZSA9IHtwcmludG91dFR5cGUhZXNjYXBlfSknICsKICAgICAgICAgICAgJ3twcm9kdWN0SWQhZXNjYXBlfScgKwogICAgICAgICAgICAne3ZhcmlhbnRJZCFlc2NhcGV9JyArCiAgICAgICAgICAgICcgKTsnLAogICAgICAgICAgICBhdHRhY2htZW50OgogICAgICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X2F0dGFjaG1lbnQgKCBwcmludG91dF9pZCwgbG9jYXRpb24gKSBWQUxVRVMgKCcrCiAgICAgICAgICAgICAgICcoU0VMRUNUIGlkIGZyb20gZGljdGlvbmFyeV9pdGVtIHdoZXJlIGRpY3Rpb25hcnlfY29kZSA9IFwnUFJJTlRPVVRcJyBhbmQgY29kZSA9IHtwcmludG91dFR5cGUhZXNjYXBlfSknICAne3ByaW50b3V0X2lkIWVzY2FwZX0sJyArCiAgICAgICAgICAgICAgICAnIHtsb2NhdGlvbiFlc2NhcGV9KTsn</text>
       </register>
       <register name="1" type="4">
         <text>ictionary_code</text>
@@ -456,7 +457,7 @@
         <text encoding="base64">cGFyc2VQcm9kdWN0TGlzdDogZnVuY3Rpb24gKHBhY2thZ2VEZWZpbml0aW9uKSB7CiAgICAgICAgICAgIHZhciBkYXRhID0gWExTWC51dGlscy5zaGVldF90b19qc29uKHRoaXMuc2hlZXRXaXRoTmFtZSgnUFJPRFVDVCcpKTsKICAgICAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBkYXRhLmxlbmd0aDsgaSArPSAxKSB7CiAgICAgICAgICAgICAgICBpZiAoZGF0YVtpXS5wYWNrYWdlQ29kZSAhPT0gcGFja2FnZURlZmluaXRpb24uY29kZSB8fCAiTUFJTiIgIT09IGRhdGFbaV0uY2F0ZWdvcnkpIHsKICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZhciB0cmFuc2xhdGlvbkNvZGUgPSBUUkFOU0xBVElPTl9QUkVGSVggKyAnUFJPRFVDVC4nICsgZGF0YVtpXS5jb2RlOwogICAgICAgICAgICAgICAgdmFyIHByb2R1Y3QgPSB7CiAgICAgICAgICAgICAgICAgICAgaWQ6IGRhdGFbaV0uaWQsCiAgICAgICAgICAgICAgICAgICAgcGFja2FnZUlkOiBwYWNrYWdlRGVmaW5pdGlvbi5pZCwKICAgICAgICAgICAgICAgICAgICBjb2RlOiBkYXRhW2ldLmNvZGUsCiAgICAgICAgICAgICAgICAgICAgbmFtZVRyYW5zbGF0aW9uQ29kZTogdGhpcy5hZGRUcmFuc2xhdGlvbih0cmFuc2xhdGlvbkNvZGUsIGRhdGFbaV0pLAogICAgICAgICAgICAgICAgICAgIG9yZGVySW5kZXg6IHBhcnNlSW50KGRhdGFbaV0ub3JkZXJJbmRleCksCiAgICAgICAgICAgICAgICAgICAgdmFyaWFudExpc3Q6IFtdLAogICAgICAgICAgICAgICAgICAgIGFkZG9uTGlzdDogW10KICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICB0aGlzLnBhcnNlUHJvZHVjdFZhcmlhbnQocHJvZHVjdCk7CiAgICAgICAgICAgICAgICB0aGlzLnBhcnNlQWRkb25zKHByb2R1Y3QpOwogICAgICAgICAgICAgICAgcGFja2FnZURlZmluaXRpb24ucHJvZHVjdExpc3QucHVzaChwcm9kdWN0KTsKICAgICAgICAgICAgfQogICAgICAgIH0sCgogICAgICAgIHBhcnNlUHJvZHVjdFZhcmlhbnQ6IGZ1bmN0aW9uIChwcm9kdWN0RGVmaW5pdGlvbikgewogICAgICAgICAgICB2YXIgZGF0YSA9IFhMU1gudXRpbHMuc2hlZXRfdG9fanNvbih0aGlzLnNoZWV0V2l0aE5hbWUoJ1ZBUklBTlQnKSk7CiAgICAgICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgZGF0YS5sZW5ndGg7IGkgKz0gMSkgewogICAgICAgICAgICAgICAgaWYgKGRhdGFbaV0ucHJvZHVjdElkICE9PSBwcm9kdWN0RGVmaW5pdGlvbi5pZCkgewogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcHJvZHVjdERlZmluaXRpb24udmFyaWFudExpc3QucHVzaCh7CiAgICAgICAgICAgICAgICAgICAgaWQ6IGRhdGFbaV0uaWQsCiAgICAgICAgICAgICAgICAgICAgcHJvZHVjdElkOiBwcm9kdWN0RGVmaW5pdGlvbi5pZCwKICAgICAgICAgICAgICAgICAgICBjb2RlOiBkYXRhW2ldLmlkLAogICAgICAgICAgICAgICAgICAgIG5hbWVUcmFuc2xhdGlvbkNvZGU6IHRoaXMuYWRkVHJhbnNsYXRpb24oVFJBTlNMQVRJT05fUFJFRklYICsgJ1ZBUklBTlQuJyArIGRhdGFbaV0uaWQsIGRhdGFbaV0pLAogICAgICAgICAgICAgICAgICAgIHZhcmlhbnRJbmRleDogcGFyc2VJbnQoZGF0YVtpXS52YXJpYW50SW5kZXgpLAogICAgICAgICAgICAgICAgICAgIG9yZGVySW5kZXg6IHBhcnNlSW50KGRhdGFbaV0ub3JkZXJJbmRleCkKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBwYXJzZUFkZG9uczogZnVuY3Rpb24gKHByb2R1Y3REZWZpbml0aW9uKSB7CiAgICAgICAgICAgIHZhciBkYXRhID0gWExTWC51dGlscy5zaGVldF90b19qc29uKHRoaXMuc2hlZXRXaXRoTmFtZSgnUFJPRFVDVCcpKTsKICAgICAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBkYXRhLmxlbmd0aDsgaSArPSAxKSB7CiAgICAgICAgICAgICAgICBpZiAoIkFERE9OIiAhPT0gZGF0YVtpXS5jYXRlZ29yeSB8fCBkYXRhW2ldLm1haW5Qcm9kdWN0ICE9PSBwcm9kdWN0RGVmaW5pdGlvbi5jb2RlKSB7CiAgICAgICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YXIgYWRkb24gPSB7CiAgICAgICAgICAgICAgICAgICAgaWQ6IGRhdGFbaV0uaWQsCiAgICAgICAgICAgICAgICAgICAgcHJvZHVjdElkOiBwcm9kdWN0RGVmaW5pdGlvbi5pZCwKICAgICAgICAgICAgICAgICAgICBjb2RlOiBkYXRhW2ldLmNvZGUsCiAgICAgICAgICAgICAgICAgICAgbmFtZVRyYW5zbGF0aW9uQ29kZTogdGhpcy5hZGRUcmFuc2xhdGlvbihUUkFOU0xBVElPTl9QUkVGSVggKyAnQURET04uJyArIGRhdGFbaV0uaWQsIGRhdGFbaV0pLAogICAgICAgICAgICAgICAgICAgIG9yZGVySW5kZXg6IHBhcnNlSW50KGRhdGFbaV0ub3JkZXJJbmRleCksCiAgICAgICAgICAgICAgICAgICAgdmFyaWFudExpc3Q6IFtdCiAgICAgICAgICAgICAgICB9OwoKICAgICAgICAgICAgICAgIHRoaXMucGFyc2VQcm9kdWN0VmFyaWFudChhZGRvbik7CiAgICAgICAgICAgICAgICBwcm9kdWN0RGVmaW5pdGlvbi5hZGRvbkxpc3QucHVzaChhZGRvbik7CiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGFkZFRyYW5zbGF0aW9uOiBmdW5jdGlvbiAoY29kZSwgcmVjb3JkKSB7CiAgICAgICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgbGFuZ3VhZ2VMaXN0Lmxlbmd0aDsgaSArPSAxKSB7CiAgICAgICAgICAgICAgICB0aGlzLmRhdGEub3V0cHV0LnRyYW5zbGF0aW9ucy5wdXNoKHsKICAgICAgICAgICAgICAgICAgICBjb2RlOiBjb2RlLAogICAgICAgICAgICAgICAgICAgIGxhbmd1YWdlOiBsYW5ndWFnZUxpc3RbaV0sCiAgICAgICAgICAgICAgICAgICAgdmFsdWU6IHJlY29yZFtsYW5ndWFnZUxpc3RbaV1dCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gY29kZTsKICAgICAgICB9LA==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -489,13 +490,13 @@
         <entry>action GotoClass</entry>
         <entry>action Find</entry>
         <entry>action ReformatCode</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action HideAllWindows</entry>
         <entry>action CloseContent</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
