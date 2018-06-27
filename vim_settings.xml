@@ -118,13 +118,6 @@
         <mark key="." line="14" column="0" />
         <mark key="^" line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530027391014">
-        <mark key="'" line="114" column="16" />
-        <mark key="[" line="174" column="0" />
-        <mark key="]" line="174" column="0" />
-        <mark key="^" line="103" column="21" />
-        <mark key="." line="174" column="0" />
-      </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/YachtConfigurationValidatorTest.java" timestamp="1529665495085">
         <mark key="'" line="164" column="5" />
         <mark key="[" line="164" column="5" />
@@ -459,7 +452,7 @@
         <text>ictionary_code</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action CloseAllEditors</text>
       </register>
     </registers>
     <search>
@@ -475,10 +468,6 @@
         <entry encoding="base64">XDxUT0RPXD4=</entry>
       </history-search>
       <history-cmd>
-        <entry>action FindUsages</entry>
-        <entry>action OptimizeImports</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action FileStructurePopup</entry>
@@ -486,7 +475,6 @@
         <entry>action QuickJavaDoc</entry>
         <entry>25</entry>
         <entry>actionlist</entry>
-        <entry>action CloseAllEditors</entry>
         <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action GotoClass</entry>
@@ -499,6 +487,7 @@
         <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action CloseAllEditors</entry>
       </history-cmd>
       <history-expr />
       <history-input />
