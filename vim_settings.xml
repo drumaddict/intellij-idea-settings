@@ -118,12 +118,12 @@
         <mark key="." line="14" column="0" />
         <mark key="^" line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530025642210">
-        <mark key="'" line="118" column="33" />
-        <mark key="[" line="109" column="104" />
-        <mark key="]" line="109" column="103" />
-        <mark key="^" line="109" column="103" />
-        <mark key="." line="109" column="103" />
+      <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" timestamp="1530027391014">
+        <mark key="'" line="114" column="16" />
+        <mark key="[" line="174" column="0" />
+        <mark key="]" line="174" column="0" />
+        <mark key="^" line="103" column="21" />
+        <mark key="." line="174" column="0" />
       </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/YachtConfigurationValidatorTest.java" timestamp="1529665495085">
         <mark key="'" line="164" column="5" />
@@ -312,7 +312,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="119" column="127" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="97" column="75" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="51" column="123" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="85" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
@@ -409,16 +408,17 @@
       <jump line="105" column="115" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="103" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="110" column="37" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
-      <jump line="114" column="37" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="111" column="1" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="118" column="33" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="155" column="9" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="114" column="16" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>printout_id</text>
       </register>
       <register name="-" type="4">
-        <text>printout_id!escape}</text>
+        <text>1</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxUT0RPXD4=</text>
@@ -426,35 +426,37 @@
       <register name="0" type="4">
         <text encoding="base64">ICAgICAgICAgICBhdHRhY2htZW50X3dpdGhfcHJvZHVjdF9hbmRfdmFyaWFudDoKICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X2F0dGFjaG1lbnQgKCBwcmludG91dF9pZCwgbG9jYXRpb24gKSBWQUxVRVMgKCcgKwogICAgICAgICAgICAnKFNFTEVDVCBpZCBmcm9tIHByaW50b3V0X3RlbXBsYXRlIHdoZXJlIHByb2R1Y3RfaWQ9e3Byb2R1Y3RJZCFlc2NhcGV9IGFuZCB2YXJpYW50X2lkID0ge3ZhcmlhbnRJZCFlc2NhcGV9IExJTUlUIDEpJyArCiAgICAgICAgICAgICcge2xvY2F0aW9uIWVzY2FwZX0pOyc=</text>
       </register>
-      <register name="1" type="4">
-        <text>printout_id</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>ictionary_code</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJyhTRUxFQ1QgaWQgZnJvbSBkaWN0aW9uYXJ5X2l0ZW0gd2hlcmUgZGljdGlvbmFyeV9jb2RlID0gXCdQUk9EVUNUXCcgYW5kIGNvZGUgPSB7cHJvZHVjdElkIWVzY2FwZX0pJyArCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICBwYXJzZVRlbXBsYXRlOiBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIHRoaXMuZGF0YS5vdXRwdXQudGVtcGxhdGVMaXN0ID0gW107CiAgICAgICAgICAgIHZhciBkYXRhID0gWExTWC51dGlscy5zaGVldF90b19qc29uKHRoaXMuc2hlZXRXaXRoTmFtZShQUklOVE9VVF9DT05GSUdVUkFUSU9OX1NIRUVUKSk7CiAgICAgICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgZGF0YS5sZW5ndGg7IGkgKz0gMSkgewogICAgICAgICAgICAgICAgdmFyIHBhY2thZ2VEZWZpbml0aW9uID0gewogICAgICAgICAgICAgICAgICAgIGlkOiBkYXRhW2ldLmNvZGUsCiAgICAgICAgICAgICAgICAgICAgY29kZTogZGF0YVtpXS5jb2RlLAogICAgICAgICAgICAgICAgICAgIG5hbWVUcmFuc2xhdGlvbkNvZGU6IHRoaXMuYWRkVHJhbnNsYXRpb24odHJhbnNsYXRpb25Db2RlLCBkYXRhW2ldKSwKICAgICAgICAgICAgICAgICAgICBwcm9kdWN0TGlzdDogW10KICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICB0aGlzLnBhcnNlUHJvZHVjdExpc3QocGFja2FnZURlZmluaXRpb24pOwogICAgICAgICAgICAgICAgdGhpcy5kYXRhLm91dHB1dC5wYWNrYWdlTGlzdC5wdXNoKHBhY2thZ2VEZWZpbml0aW9uKTsKICAgICAgICAgICAgfQogICAgICAgIH0s</text>
+        <text>// We need printout_id which is foreign_key to printout_template.id
+            // There's no correlation information in the data sheet between attachments and templates,
+            // so no way to relate the rows in the database.</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhciB0cmFuc2xhdGlvbkNvZGUgPSBUUkFOU0xBVElPTl9QUkVGSVggKyAnUEFDS0FHRS4nICsgZGF0YVtpXS5jb2RlOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHZhciB0cmFuc2xhdGlvbkNvZGUgPSBUUkFOU0xBVElPTl9QUkVGSVggKyAnUEFDS0FHRS4nICsgZGF0YVtpXS5jb2RlOwo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgYXR0YWNobWVudF93aXRoX3Byb2R1Y3Rfb25seToKICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X2F0dGFjaG1lbnQgKCBwcmludG91dF9pZCwgbG9jYXRpb24gKSBWQUxVRVMgKCcgKwogICAgICAgICAgICAnKFNFTEVDVCBpZCBmcm9tIHByaW50b3V0X3RlbXBsYXRlIHdoZXJlIHByb2R1Y3RfaWQ9e3Byb2R1Y3RJZCFlc2NhcGV9IGFuZCB2YXJpYW50X2lkID0gTlVMTCknICsKICAgICAgICAgICAgJyB7bG9jYXRpb24hZXNjYXBlfSk7JywKICAgICAgICAgICAgYXR0YWNobWVudF93aXRoX3Byb2R1Y3RfYW5kX3ZhcmlhbnQ6CiAgICAgICAgICAgICdJTlNFUlQgSU5UTyBwcmludG91dF9hdHRhY2htZW50ICggcHJpbnRvdXRfaWQsIGxvY2F0aW9uICkgVkFMVUVTICgnICsKICAgICAgICAgICAgJyhTRUxFQ1QgaWQgZnJvbSBwcmludG91dF90ZW1wbGF0ZSB3aGVyZSBwcm9kdWN0X2lkPXtwcm9kdWN0SWQhZXNjYXBlfSBhbmQgdmFyaWFudF9pZCA9IHt2YXJpYW50SWQhZXNjYXBlfSBMSU1JVCAxKScgKwogICAgICAgICAgICAnIHtsb2NhdGlvbiFlc2NhcGV9KTsnLAogICAgICAgICAgICBhdHRhY2htZW50X3dpdGhfcHJvZHVjdF9hbmRfdmFyaWFudDoKICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X2F0dGFjaG1lbnQgKCBwcmludG91dF9pZCwgbG9jYXRpb24gKSBWQUxVRVMgKCcgKwogICAgICAgICAgICAnKFNFTEVDVCBpZCBmcm9tIHByaW50b3V0X3RlbXBsYXRlIHdoZXJlIHByb2R1Y3RfaWQ9e3Byb2R1Y3RJZCFlc2NhcGV9IGFuZCB2YXJpYW50X2lkID0ge3ZhcmlhbnRJZCFlc2NhcGV9IExJTUlUIDEpJyArCiAgICAgICAgICAgICcge2xvY2F0aW9uIWVzY2FwZX0pOyc=</text>
       </register>
       <register name="x" type="4">
         <text>printout_id</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gdGhpcy5kYXRhLm91dHB1dC50ZW1wbGF0ZUxpc3QgPSBbXTsK</text>
+      <register name="8" type="4">
+        <text>printout_id</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="9" type="4">
+        <text>ictionary_code</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
