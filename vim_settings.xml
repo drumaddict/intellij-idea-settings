@@ -171,6 +171,13 @@
         <mark key="." line="18" column="67" />
         <mark key="^" line="18" column="67" />
       </file>
+      <file name="$USER_HOME$/cpp/roboworkers/CMakeLists.txt" timestamp="1539417899836">
+        <mark key="'" line="28" column="0" />
+        <mark key="[" line="20" column="24" />
+        <mark key="]" line="20" column="23" />
+        <mark key="." line="20" column="23" />
+        <mark key="^" line="20" column="23" />
+      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/validator/ValidTin.java" timestamp="1528271590028">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -344,11 +351,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="97" column="75" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
-      <jump line="51" column="123" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
-      <jump line="85" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
-      <jump line="132" column="4" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
-      <jump line="116" column="79" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="121" column="129" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="111" column="8" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
       <jump line="135" column="130" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/product/model/configuration/validator/PersonalAccidentConfigurationValidatorTest.java" />
@@ -444,6 +446,11 @@
       <jump line="118" column="33" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="155" column="9" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
       <jump line="114" column="16" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/tools/printout.import/index.js" />
+      <jump line="34" column="68" filename="$USER_HOME$/cpp/roboworkers/CMakeLists.txt" />
+      <jump line="20" column="0" filename="$USER_HOME$/cpp/roboworkers/CMakeLists.txt" />
+      <jump line="32" column="21" filename="$USER_HOME$/cpp/roboworkers/CMakeLists.txt" />
+      <jump line="22" column="48" filename="$USER_HOME$/cpp/roboworkers/CMakeLists.txt" />
+      <jump line="29" column="0" filename="$USER_HOME$/cpp/roboworkers/CMakeLists.txt" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -455,43 +462,43 @@
       <register name="/" type="4">
         <text encoding="base64">XDxUT0RPXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">ICAgICAgICAgICBhdHRhY2htZW50X3dpdGhfcHJvZHVjdF9hbmRfdmFyaWFudDoKICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X2F0dGFjaG1lbnQgKCBwcmludG91dF9pZCwgbG9jYXRpb24gKSBWQUxVRVMgKCcgKwogICAgICAgICAgICAnKFNFTEVDVCBpZCBmcm9tIHByaW50b3V0X3RlbXBsYXRlIHdoZXJlIHByb2R1Y3RfaWQ9e3Byb2R1Y3RJZCFlc2NhcGV9IGFuZCB2YXJpYW50X2lkID0ge3ZhcmlhbnRJZCFlc2NhcGV9IExJTUlUIDEpJyArCiAgICAgICAgICAgICcge2xvY2F0aW9uIWVzY2FwZX0pOyc=</text>
+      <register name="0" type="2">
+        <text encoding="base64">VEFSR0VUX0xJTktfTElCUkFSSUVTKCBhbnlFeGVjdXRhYmxlIExJTktfUFVCTElDICR7Qm9vc3RfTElCUkFSSUVTfSApCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">RklORF9QQUNLQUdFKCBCb29zdCAxLjQwIENPTVBPTkVOVFMgcHJvZ3JhbV9vcHRpb25zIFJFUVVJUkVEICkK</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>// We need printout_id which is foreign_key to printout_template.id
             // There's no correlation information in the data sheet between attachments and templates,
             // so no way to relate the rows in the database.</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgYXR0YWNobWVudF93aXRoX3Byb2R1Y3Rfb25seToKICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X2F0dGFjaG1lbnQgKCBwcmludG91dF9pZCwgbG9jYXRpb24gKSBWQUxVRVMgKCcgKwogICAgICAgICAgICAnKFNFTEVDVCBpZCBmcm9tIHByaW50b3V0X3RlbXBsYXRlIHdoZXJlIHByb2R1Y3RfaWQ9e3Byb2R1Y3RJZCFlc2NhcGV9IGFuZCB2YXJpYW50X2lkID0gTlVMTCknICsKICAgICAgICAgICAgJyB7bG9jYXRpb24hZXNjYXBlfSk7JywKICAgICAgICAgICAgYXR0YWNobWVudF93aXRoX3Byb2R1Y3RfYW5kX3ZhcmlhbnQ6CiAgICAgICAgICAgICdJTlNFUlQgSU5UTyBwcmludG91dF9hdHRhY2htZW50ICggcHJpbnRvdXRfaWQsIGxvY2F0aW9uICkgVkFMVUVTICgnICsKICAgICAgICAgICAgJyhTRUxFQ1QgaWQgZnJvbSBwcmludG91dF90ZW1wbGF0ZSB3aGVyZSBwcm9kdWN0X2lkPXtwcm9kdWN0SWQhZXNjYXBlfSBhbmQgdmFyaWFudF9pZCA9IHt2YXJpYW50SWQhZXNjYXBlfSBMSU1JVCAxKScgKwogICAgICAgICAgICAnIHtsb2NhdGlvbiFlc2NhcGV9KTsnLAogICAgICAgICAgICBhdHRhY2htZW50X3dpdGhfcHJvZHVjdF9hbmRfdmFyaWFudDoKICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X2F0dGFjaG1lbnQgKCBwcmludG91dF9pZCwgbG9jYXRpb24gKSBWQUxVRVMgKCcgKwogICAgICAgICAgICAnKFNFTEVDVCBpZCBmcm9tIHByaW50b3V0X3RlbXBsYXRlIHdoZXJlIHByb2R1Y3RfaWQ9e3Byb2R1Y3RJZCFlc2NhcGV9IGFuZCB2YXJpYW50X2lkID0ge3ZhcmlhbnRJZCFlc2NhcGV9IExJTUlUIDEpJyArCiAgICAgICAgICAgICcge2xvY2F0aW9uIWVzY2FwZX0pOyc=</text>
       </register>
       <register name="x" type="4">
         <text>printout_id</text>
       </register>
-      <register name="8" type="4">
-        <text>printout_id</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="4">
-        <text>ictionary_code</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXR0YWNobWVudF93aXRoX3Byb2R1Y3Rfb25seToKICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X2F0dGFjaG1lbnQgKCBwcmludG91dF9pZCwgbG9jYXRpb24gKSBWQUxVRVMgKCcgKwogICAgICAgICAgICAnKFNFTEVDVCBpZCBmcm9tIHByaW50b3V0X3RlbXBsYXRlIHdoZXJlIHByb2R1Y3RfaWQ9e3Byb2R1Y3RJZCFlc2NhcGV9IGFuZCB2YXJpYW50X2lkID0gTlVMTCknICsKICAgICAgICAgICAgJyB7bG9jYXRpb24hZXNjYXBlfSk7JywKICAgICAgICAgICAgYXR0YWNobWVudF93aXRoX3Byb2R1Y3RfYW5kX3ZhcmlhbnQ6CiAgICAgICAgICAgICdJTlNFUlQgSU5UTyBwcmludG91dF9hdHRhY2htZW50ICggcHJpbnRvdXRfaWQsIGxvY2F0aW9uICkgVkFMVUVTICgnICsKICAgICAgICAgICAgJyhTRUxFQ1QgaWQgZnJvbSBwcmludG91dF90ZW1wbGF0ZSB3aGVyZSBwcm9kdWN0X2lkPXtwcm9kdWN0SWQhZXNjYXBlfSBhbmQgdmFyaWFudF9pZCA9IHt2YXJpYW50SWQhZXNjYXBlfSBMSU1JVCAxKScgKwogICAgICAgICAgICAnIHtsb2NhdGlvbiFlc2NhcGV9KTsnLAogICAgICAgICAgICBhdHRhY2htZW50X3dpdGhfcHJvZHVjdF9hbmRfdmFyaWFudDoKICAgICAgICAgICAgJ0lOU0VSVCBJTlRPIHByaW50b3V0X2F0dGFjaG1lbnQgKCBwcmludG91dF9pZCwgbG9jYXRpb24gKSBWQUxVRVMgKCcgKwogICAgICAgICAgICAnKFNFTEVDVCBpZCBmcm9tIHByaW50b3V0X3RlbXBsYXRlIHdoZXJlIHByb2R1Y3RfaWQ9e3Byb2R1Y3RJZCFlc2NhcGV9IGFuZCB2YXJpYW50X2lkID0ge3ZhcmlhbnRJZCFlc2NhcGV9IExJTUlUIDEpJyArCiAgICAgICAgICAgICcge2xvY2F0aW9uIWVzY2FwZX0pOyc=</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -520,11 +527,11 @@
         <entry>action Compile</entry>
         <entry>action CompileProject</entry>
         <entry>action PreviousOccurence</entry>
-        <entry>action SaveAll</entry>
         <entry>action HideAllWindows</entry>
         <entry>action Debug</entry>
         <entry>action AceAction</entry>
         <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
