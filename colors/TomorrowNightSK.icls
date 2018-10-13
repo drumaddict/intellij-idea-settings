@@ -4,7 +4,7 @@
     <property name="created">2017-10-19T13:00:33</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.5.0.0</property>
-    <property name="modified">2018-06-02T16:08:48</property>
+    <property name="modified">2018-10-13T13:37:18</property>
     <property name="originalScheme">Tomorrow Night Eighties</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
@@ -17,7 +17,7 @@
     <option name="EDITOR_FONT_NAME" value="Courier New" />
     <option name="EDITOR_FONT_SIZE" value="12" />
   </font>
-  <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="5c7c3e" />
     <option name="ANNOTATIONS_COLOR" value="ffffff" />
@@ -1566,6 +1566,12 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="OC.MACRONAME">
+      <value>
+        <option name="FOREGROUND" value="3aa85f" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="OC.NUMBER">
       <value>
         <option name="FOREGROUND" value="f99157" />
@@ -1588,6 +1594,21 @@
     </option>
     <option name="OC.STRUCT_FIELD">
       <value />
+    </option>
+    <option name="OC.STRUCT_LIKE">
+      <value>
+        <option name="FOREGROUND" value="63c2f2" />
+      </value>
+    </option>
+    <option name="OC.TEMPLATE_TYPE">
+      <value>
+        <option name="FOREGROUND" value="c181b2" />
+      </value>
+    </option>
+    <option name="OC.TYPEDEF">
+      <value>
+        <option name="FOREGROUND" value="1d889f" />
+      </value>
     </option>
     <option name="OC_FORMAT_TOKEN">
       <value>
