@@ -4,21 +4,20 @@
     <property name="created">2017-10-19T13:00:33</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.5.0.0</property>
-    <property name="modified">2018-04-16T16:49:11</property>
+    <property name="modified">2018-06-02T16:08:48</property>
     <property name="originalScheme">Tomorrow Night Eighties</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
   <font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="13" />
+    <option name="EDITOR_FONT_NAME" value="Source Code Pro for Powerline" />
+    <option name="EDITOR_FONT_SIZE" value="12" />
   </font>
   <font>
-    <option name="EDITOR_FONT_NAME" value="Ubuntu Mono" />
-    <option name="EDITOR_FONT_SIZE" value="13" />
+    <option name="EDITOR_FONT_NAME" value="Courier New" />
+    <option name="EDITOR_FONT_SIZE" value="12" />
   </font>
-  <option name="CONSOLE_FONT_NAME" value="Literation Mono Powerline" />
-  <option name="CONSOLE_FONT_SIZE" value="12" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="5c7c3e" />
     <option name="ANNOTATIONS_COLOR" value="ffffff" />
@@ -583,21 +582,25 @@
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cc99cc" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cc99cc" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cc99cc" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cc99cc" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES">
@@ -620,6 +623,7 @@
     <option name="CUSTOM_STRING_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="b5bd6b" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES">
@@ -729,7 +733,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="8bb6b4" />
+        <option name="FOREGROUND" value="1177ff" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -1227,7 +1231,6 @@
     <option name="JAVA_KEYWORD">
       <value>
         <option name="FOREGROUND" value="a895c4" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
@@ -1539,11 +1542,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="OC.CONDITIONALLY_NOT_COMPILED">
-      <value>
-        <option name="FOREGROUND" value="5d754d" />
-      </value>
-    </option>
     <option name="OC.CPP_KEYWORD">
       <value>
         <option name="FOREGROUND" value="cc99cc" />
@@ -1553,38 +1551,19 @@
     <option name="OC.DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="cc99cc" />
-      </value>
-    </option>
-    <option name="OC.FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="5aa2ff" />
-      </value>
-    </option>
-    <option name="OC.GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="208389" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="OC.KEYWORD">
       <value>
         <option name="FOREGROUND" value="cc99cc" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="OC.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="999999" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="OC.MACRONAME">
-      <value>
-        <option name="FOREGROUND" value="2e844c" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="OC.NAMESPACE_LIKE">
-      <value>
-        <option name="FOREGROUND" value="4764ad" />
       </value>
     </option>
     <option name="OC.NUMBER">
@@ -1604,15 +1583,11 @@
     <option name="OC.STRING">
       <value>
         <option name="FOREGROUND" value="99cc99" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="OC.STRUCT_FIELD">
       <value />
-    </option>
-    <option name="OC.TYPEDEF">
-      <value>
-        <option name="FOREGROUND" value="5c53a3" />
-      </value>
     </option>
     <option name="OC_FORMAT_TOKEN">
       <value>
@@ -2677,6 +2652,16 @@
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="TS.CLASS">
+      <value>
+        <option name="FOREGROUND" value="ffcc66" />
+      </value>
+    </option>
+    <option name="TS.INTERFACE">
+      <value>
+        <option name="FOREGROUND" value="54cd6d" />
       </value>
     </option>
     <option name="TWIG_BACKGROUND">
