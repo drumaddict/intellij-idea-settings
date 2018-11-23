@@ -3,6 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/cpp/frogger-sfml/Game.cpp" timestamp="1543015058440">
+        <mark key="[" line="6" column="11" />
+        <mark key="]" line="6" column="10" />
+        <mark key="^" line="6" column="10" />
+        <mark key="." line="6" column="10" />
+      </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/transport/rest/PrintoutController.java" timestamp="1529573012352">
         <mark key="[" line="28" column="73" />
         <mark key="]" line="28" column="73" />
@@ -297,6 +303,13 @@
         <mark key="." line="54" column="0" />
         <mark key="^" line="54" column="0" />
       </file>
+      <file name="$USER_HOME$/cpp/frogger-sfml/CMakeLists.txt" timestamp="1543015834789">
+        <mark key="'" line="88" column="76" />
+        <mark key="[" line="79" column="0" />
+        <mark key="]" line="88" column="77" />
+        <mark key="^" line="89" column="0" />
+        <mark key="." line="79" column="0" />
+      </file>
       <file name="/Dummy.txt" timestamp="1539422186314">
         <mark key="[" line="0" column="0" />
       </file>
@@ -373,9 +386,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="65" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/underwriting/UnderwritingService.java" />
-      <jump line="85" column="4" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/underwriting/UnderwritingService.java" />
-      <jump line="79" column="101" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/underwriting/UnderwritingService.java" />
       <jump line="95" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/main/java/io/lsn/portal/domain/underwriting/UnderwritingService.java" />
       <jump line="64" column="0" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/underwriting/UnderwritingServiceTest.java" />
       <jump line="82" column="4" filename="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/underwriting/UnderwritingServiceTest.java" />
@@ -473,6 +483,9 @@
       <jump line="23" column="80" filename="$USER_HOME$/cpp/roboworkers/CMakeLists.txt" />
       <jump line="22" column="0" filename="$USER_HOME$/cpp/roboworkers/CMakeLists.txt" />
       <jump line="2" column="18" filename="$USER_HOME$/cpp/recruiting-assignment/src/backoffice.cpp" />
+      <jump line="18" column="6" filename="$USER_HOME$/cpp/frogger-sfml/CMakeLists.txt" />
+      <jump line="21" column="0" filename="$USER_HOME$/cpp/frogger-sfml/CMakeLists.txt" />
+      <jump line="88" column="76" filename="$USER_HOME$/cpp/frogger-sfml/CMakeLists.txt" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -489,35 +502,35 @@
 SET(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} &quot;/home/spiros/Workbench/boost_1_68_0/boosta/lib&quot;)</text>
       </register>
       <register name="1" type="4">
-        <text>warehouse</text>
+        <text encoding="base64">IyBCdWlsZCBzdGF0aWMgb3Igc2hhcmVkIGxpYnJhcmllcz8gU2V0IGNoYXB0ZXItc3BlY2lmaWMgRExMIGltcG9ydCBtYWNybwppZihTRk1MX1NUQVRJQ19MSUJSQVJJRVMpCiAgICBzZXRfdGFyZ2V0X3Byb3BlcnRpZXMoJHtQUk9KRUNUX05BTUV9IFBST1BFUlRJRVMgQ09NUElMRV9ERUZJTklUSU9OUyAiU0ZNTF9TVEFUSUMiKQplbmRpZigpCgojIExpbmsgU0ZNTC4gRm9yIHZlcnNpb25zIDwgMi4yLCBTRk1MX0RFUEVOREVOQ0lFUyBpcyBub3QgZGVmaW5lZCwgYW5kIHdlIGRvIG5vdCBuZWVkIHRvIGxpbmsgZGVwZW5kZW5jaWVzCmlmKFNGTUxfVkVSU0lPTl9NSU5PUiBMRVNTIDIpCiAgICBzZXQoU0ZNTF9ERVBFTkRFTkNJRVMgIiIpCmVuZGlmKCkKdGFyZ2V0X2xpbmtfbGlicmFyaWVzKCR7UFJPSkVDVF9OQU1FfSAke1NGTUxfTElCUkFSSUVTfSAke1NGTUxfREVQRU5ERU5DSUVTfSk=</text>
       </register>
       <register name="2" type="4">
-        <text>roboworkers</text>
+        <text>warehouse</text>
       </register>
       <register name="3" type="4">
-        <text>set BOOST_ROOT=C:\local\boost_1_57_0
-set BOOST_LIBRARYDIR=C:\local\boost_1_57_0\stage\lib</text>
+        <text>roboworkers</text>
       </register>
       <register name="4" type="4">
-        <text>/.../boost</text>
+        <text>set BOOST_ROOT=C:\local\boost_1_57_0
+set BOOST_LIBRARYDIR=C:\local\boost_1_57_0\stage\lib</text>
       </register>
       <register name="5" type="4">
         <text>/.../boost</text>
       </register>
       <register name="6" type="4">
-        <text>anyExecutable</text>
+        <text>/.../boost</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>anyExecutable</text>
       </register>
       <register name="x" type="4">
         <text>warehouse</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">RklORF9QQUNLQUdFKCBCb29zdCAxLjQwIENPTVBPTkVOVFMgcHJvZ3JhbV9vcHRpb25zIFJFUVVJUkVEICkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">RklORF9QQUNLQUdFKCBCb29zdCAxLjQwIENPTVBPTkVOVFMgcHJvZ3JhbV9vcHRpb25zIFJFUVVJUkVEICkK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
