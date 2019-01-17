@@ -301,7 +301,7 @@
         <mark key="." line="264" column="0" />
         <mark key="^" line="254" column="30" />
       </file>
-      <file name="/Dummy.txt" timestamp="1547735514163">
+      <file name="/Dummy.txt" timestamp="1547737760168">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -531,7 +531,7 @@ set BOOST_LIBRARYDIR=C:\local\boost_1_57_0\stage\lib</text>
         <text encoding="base64">RklORF9QQUNLQUdFKCBCb29zdCAxLjQwIENPTVBPTkVOVFMgcHJvZ3JhbV9vcHRpb25zIFJFUVVJUkVEICkK</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -560,10 +560,11 @@ set BOOST_LIBRARYDIR=C:\local\boost_1_57_0\stage\lib</text>
         <entry>action HideAllWindows</entry>
         <entry>action Debug</entry>
         <entry>action AceAction</entry>
-        <entry>action Find</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
+        <entry>action Forward</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -604,6 +605,9 @@ set BOOST_LIBRARYDIR=C:\local\boost_1_57_0\stage\lib</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
       </shortcut-conflict>
     </shortcut-conflicts>
     <editor>
