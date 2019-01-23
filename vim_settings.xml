@@ -6,17 +6,26 @@
       <file name="/Dummy.txt" timestamp="1548242844067">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/CommonUtilities.java" timestamp="1548242793057" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/WebServiceV200Dispatcher.java" timestamp="1548245188208" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/CommonUtilities.java" timestamp="1548244227521" />
     </filemarks>
     <jumps />
-    <registers />
+    <registers>
+      <register name=":" type="4">
+        <text>action GotoDeclaration</text>
+      </register>
+    </registers>
     <search>
       <last-dir>0</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search />
-      <history-cmd />
+      <history-cmd>
+        <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
+      </history-cmd>
       <history-expr />
       <history-input />
     </history>
