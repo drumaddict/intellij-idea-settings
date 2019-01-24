@@ -3,8 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1548327835220">
+      <file name="/Dummy.txt" timestamp="1548341339305">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="18" />
+        <mark key="^" line="0" column="18" />
+        <mark key="." line="0" column="18" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/buffer1.txt" timestamp="1548325604540">
         <mark key="'" line="3" column="118" />
@@ -67,8 +70,8 @@
         <mark key="]" line="245" column="0" />
         <mark key="." line="245" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1548325115656">
-        <mark key="[" line="0" column="40" />
+      <file name="/fragment.java" timestamp="1548341242693">
+        <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="39" />
         <mark key="^" line="0" column="39" />
         <mark key="." line="0" column="39" />
@@ -152,7 +155,7 @@
         <text encoding="base64">IEBBdXRvd2lyZWQKICBwcml2YXRlIENvbW1vblV0aWxpdGllcyBjb21tb25VdGlsaXRpZXM7</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action AceAction</text>
       </register>
     </registers>
     <search>
@@ -185,9 +188,9 @@
         <entry>action Find</entry>
         <entry>action Back</entry>
         <entry>action ToggleLineBreakpoint</entry>
+        <entry>action SaveAll</entry>
         <entry>action AceLineAction</entry>
         <entry>action AceAction</entry>
-        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
