@@ -12,12 +12,11 @@
         <mark key="]" line="3" column="164" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/JAXRSConfiguration.java" timestamp="1548337558167">
-        <mark key="'" line="36" column="6" />
-        <mark key="[" line="33" column="25" />
-        <mark key="]" line="33" column="23" />
-        <mark key="^" line="33" column="23" />
-        <mark key="." line="33" column="23" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/JAXRSConfiguration.java" timestamp="1548339422127">
+        <mark key="[" line="32" column="48" />
+        <mark key="]" line="33" column="7" />
+        <mark key="^" line="33" column="7" />
+        <mark key="." line="33" column="7" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/dto/BookingLeader.java" timestamp="1548256821092">
         <mark key="[" line="0" column="0" />
@@ -126,31 +125,31 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgaW50IHRlc3Q0ID0gOTk5OTk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IAo=</text>
+        <text encoding="base64">ICAgICAgaW50IHRlc3QzID0gMTIyOwo=</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">IEBBdXRvd2lyZWQKICBwcml2YXRlIENvbW1vblV0aWxpdGllcyBjb21tb25VdGlsaXRpZXM7</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgaW50IHRlc3QyID0gMjAwOwo=</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">CiAgICA=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgIGludCB0ZXN0MSA9IDQ1NjY3Owo=</text>
       </register>
-      <register name="6" type="4">
-        <text>bookingRequest</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>bookingRequest</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>bookingRequest</text>
       </register>
-      <register name="8" type="4">
-        <text>bookingRequest</text>
+      <register name="8" type="2">
+        <text encoding="base64">IAo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">IEBBdXRvd2lyZWQKICBwcml2YXRlIENvbW1vblV0aWxpdGllcyBjb21tb25VdGlsaXRpZXM7</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -176,7 +175,6 @@
         <entry encoding="base64">JzwsJz5ub3JtLg==</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gQWNlQWN0aW9u</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRm9yd2FyZA==</entry>
-        <entry>action AceAction</entry>
         <entry>action GotoFile</entry>
         <entry>action CopyElement</entry>
         <entry>action ChooseDebugConfiguration</entry>
@@ -187,6 +185,8 @@
         <entry>action Find</entry>
         <entry>action Back</entry>
         <entry>action ToggleLineBreakpoint</entry>
+        <entry>action AceLineAction</entry>
+        <entry>action AceAction</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
