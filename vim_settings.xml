@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1548342838291">
+      <file name="/Dummy.txt" timestamp="1548405563102">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="396" />
         <mark key="^" line="0" column="396" />
@@ -155,7 +155,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -187,9 +187,9 @@
         <entry>action AceAction</entry>
         <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
