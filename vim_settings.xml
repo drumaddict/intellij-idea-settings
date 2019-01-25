@@ -3,6 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/projects/port-checkin-control/port-checkin-control.properties" timestamp="1548417099274">
+        <mark key="[" line="4" column="40" />
+        <mark key="]" line="4" column="62" />
+        <mark key="^" line="4" column="62" />
+        <mark key="." line="4" column="62" />
+      </file>
       <file name="/Dummy.txt" timestamp="1548405563102">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="396" />
@@ -44,7 +50,6 @@
       <file name="$USER_HOME$/projects/crs-engine/crs-jadrolinija-api/target/generated-sources/swagger/src/test/java/io/swagger/client/api/GETApiTest.java" timestamp="1548327898128">
         <mark key="'" line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1548412503283" />
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/dto/Address.java" timestamp="1548253950765">
         <mark key="'" line="15" column="43" />
         <mark key="[" line="29" column="57" />
@@ -156,7 +161,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -188,9 +193,10 @@
         <entry>action AceAction</entry>
         <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
-        <entry>action SaveAll</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>199</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
