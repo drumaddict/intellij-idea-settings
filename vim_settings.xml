@@ -161,7 +161,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -193,10 +193,10 @@
         <entry>action AceAction</entry>
         <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>199</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
