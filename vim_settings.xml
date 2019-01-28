@@ -62,11 +62,12 @@
         <mark key="^" line="331" column="50" />
         <mark key="." line="331" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/castor.bat" timestamp="1548667694857">
-        <mark key="'" line="7" column="0" />
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="0" />
-        <mark key="." line="7" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/castor.bat" timestamp="1548669916534">
+        <mark key="'" line="5" column="0" />
+        <mark key="[" line="4" column="426" />
+        <mark key="]" line="4" column="423" />
+        <mark key="." line="4" column="423" />
+        <mark key="^" line="4" column="423" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardCheckout.java" timestamp="1548665499317">
         <mark key="'" line="7" column="0" />
@@ -117,7 +118,7 @@
         <mark key="^" line="379" column="12" />
         <mark key="." line="378" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/DataMatrixToXml.java" timestamp="1548668497394">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/DataMatrixToXml.java" timestamp="1548669362191">
         <mark key="[" line="103" column="137" />
         <mark key="]" line="103" column="124" />
         <mark key="^" line="103" column="124" />
@@ -198,57 +199,57 @@
       <jump line="2" column="0" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
       <jump line="3" column="394" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
       <jump line="5" column="419" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
-      <jump line="6" column="418" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
       <jump line="7" column="440" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
       <jump line="1" column="430" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
       <jump line="4" column="446" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
       <jump line="8" column="0" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
+      <jump line="6" column="0" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>xml-resources\XML_SCHEMAS_PORT_CONTROL\BackOfficeAnwser.xsd</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>BackOfficeAnswer</text>
+        <text>a</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">amF2YSAtY3AgIkxpYnJhcmllc1xjYXN0b3ItMS4yLWNvZGVnZW4uamFyIjsiTGlicmFyaWVzXGNhc3Rvci0xLjIuamFyIjsiTGlicmFyaWVzXGNhc3Rvci0xLjIteG1sLmphciI7IkxpYnJhcmllc1xjYXN0b3ItMS4yLXhtbC1zY2hlbWEuamFyIjsiTGlicmFyaWVzXGNvbW1vbnMtbG9nZ2luZy1hcGktMS4xLjEuamFyIjsiTGlicmFyaWVzXGNvbW1vbnMtbG9nZ2luZy0xLjEuMS5qYXIiOyJMaWJyYXJpZXNcdmVsb2NpdHktZGVwLTEuNC5qYXIiOyJMaWJyYXJpZXNcdmVsb2NpdHktMS40LmphciIgb3JnLmV4b2xhYi5jYXN0b3IuYnVpbGRlci5Tb3VyY2VHZW5lcmF0b3JNYWluIC1pICAieG1sLXJlc291cmNlc1xYTUxfU0NIRU1BU19QT1JUX0NPTlRST0xcTUUwMDFUb1BNSVMueHNkIiAtcGFja2FnZSB4bWwubWVzc2FnZXMuTUUwMDFUb1BNSVMgLWdlbmVyYXRlSW1wb3J0ZWRTY2hlbWFzIC1mICYmIF4K</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">cmVtIGphdmEgLWNwICJMaWJyYXJpZXNcY2FzdG9yLTEuMi1jb2RlZ2VuLmphciI7IkxpYnJhcmllc1xjYXN0b3ItMS4yLmphciI7IkxpYnJhcmllc1xjYXN0b3ItMS4yLXhtbC5qYXIiOyJMaWJyYXJpZXNcY2FzdG9yLTEuMi14bWwtc2NoZW1hLmphciI7IkxpYnJhcmllc1xjb21tb25zLWxvZ2dpbmctYXBpLTEuMS4xLmphciI7IkxpYnJhcmllc1xjb21tb25zLWxvZ2dpbmctMS4xLjEuamFyIjsiTGlicmFyaWVzXHZlbG9jaXR5LWRlcC0xLjQuamFyIjsiTGlicmFyaWVzXHZlbG9jaXR5LTEuNC5qYXIiIG9yZy5leG9sYWIuY2FzdG9yLmJ1aWxkZXIuU291cmNlR2VuZXJhdG9yTWFpbiAtaSAgInhtbC1yZXNvdXJjZXNcWE1MX1NDSEVNQVNfUE9SVF9DT05UUk9MXE1FMDAxVHlwZXMueHNkIiAtcGFja2FnZSB4bWwubWVzc2FnZXMuTUUwMDFUeXBlcyAmJiBeCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>xml-resources\XML_SCHEMAS_PORT_CONTROL\BackOfficeAnwser.xsd</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>xml-resources/XML_SCHEMAS_PORT_CONTROL\PanelsSOAP.xsd</text>
       </register>
-      <register name="5" type="4">
-        <text>xml-resources\XML_SCHEMAS_PORT_CONTROL\ME001Types.xsd</text>
-      </register>
-      <register name="6" type="4">
-        <text>ME001ToPMIS</text>
-      </register>
       <register name="7" type="4">
-        <text>xml-resources\XML_SCHEMAS_PORT_CONTROL\ME001ToPMIS.xsd</text>
+        <text>xml-resources\XML_SCHEMAS_PORT_CONTROL\ME001Types.xsd</text>
       </register>
       <register name="x" type="4">
         <text>xml-resources\XML_SCHEMAS_PORT_CONTROL\BackOfficeAnwser.xsd</text>
       </register>
       <register name="8" type="4">
-        <text>BoardingInformation</text>
+        <text>ME001ToPMIS</text>
       </register>
       <register name="9" type="4">
-        <text>xml-resources\XML_SCHEMAS_PORT_CONTROL\BoardingInformation.xsd</text>
+        <text>xml-resources\XML_SCHEMAS_PORT_CONTROL\ME001ToPMIS.xsd</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -282,9 +283,10 @@
         <entry>action JumpToLastWindow</entry>
         <entry>action CopyElement</entry>
         <entry>action GotoFile</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action $SelectAll</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -310,6 +312,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
