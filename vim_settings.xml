@@ -124,8 +124,8 @@
         <mark key="^" line="103" column="124" />
         <mark key="." line="103" column="124" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/CommonUtilities.java" timestamp="1548314822812">
-        <mark key="'" line="249" column="8" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/CommonUtilities.java" timestamp="1548670845331">
+        <mark key="'" line="47" column="13" />
         <mark key="[" line="245" column="0" />
         <mark key="]" line="245" column="0" />
         <mark key="." line="245" column="0" />
@@ -204,6 +204,7 @@
       <jump line="4" column="446" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
       <jump line="8" column="0" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
       <jump line="6" column="0" filename="$USER_HOME$/projects/port-checkin-control/castor.bat" />
+      <jump line="47" column="13" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/CommonUtilities.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -249,7 +250,7 @@
         <text>xml-resources\XML_SCHEMAS_PORT_CONTROL\ME001ToPMIS.xsd</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -283,10 +284,10 @@
         <entry>action JumpToLastWindow</entry>
         <entry>action CopyElement</entry>
         <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
         <entry>action $SelectAll</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
