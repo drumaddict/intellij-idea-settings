@@ -39,6 +39,12 @@
         <mark key="^" line="135" column="48" />
         <mark key="." line="135" column="48" />
       </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/swagger-ui-whatever/forbidden.html" timestamp="1548688065151">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="10" />
+        <mark key="^" line="7" column="10" />
+        <mark key="." line="7" column="10" />
+      </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-cache-utilities/src/main/java/gr/forthcrs/crs/cache/utilities/AgencyUserCache.java" timestamp="1548674137871">
         <mark key="'" line="31" column="2" />
         <mark key="[" line="17" column="19" />
@@ -83,12 +89,12 @@
         <mark key="^" line="1137" column="21" />
         <mark key="." line="1142" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" timestamp="1548676168366">
-        <mark key="'" line="138" column="103" />
-        <mark key="[" line="137" column="0" />
-        <mark key="]" line="137" column="0" />
-        <mark key="." line="137" column="0" />
-        <mark key="^" line="137" column="7" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" timestamp="1548688885265">
+        <mark key="'" line="148" column="22" />
+        <mark key="[" line="147" column="23" />
+        <mark key="]" line="147" column="23" />
+        <mark key="^" line="142" column="3" />
+        <mark key="." line="147" column="23" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1548665633132">
         <mark key="[" line="68" column="52" />
@@ -116,12 +122,11 @@
         <mark key="^" line="331" column="50" />
         <mark key="." line="331" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/swagger-ui-whatever/index.html" timestamp="1548686603425">
-        <mark key="'" line="7" column="166" />
-        <mark key="[" line="7" column="173" />
-        <mark key="]" line="7" column="176" />
-        <mark key="^" line="7" column="176" />
-        <mark key="." line="7" column="176" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/swagger-ui-whatever/index.html" timestamp="1548688221456">
+        <mark key="[" line="13" column="46" />
+        <mark key="]" line="14" column="3" />
+        <mark key="^" line="14" column="3" />
+        <mark key="." line="14" column="3" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/castor.bat" timestamp="1548669916534">
         <mark key="'" line="5" column="0" />
@@ -188,11 +193,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="259" column="16" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/CommonUtilities.java" />
-      <jump line="260" column="16" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/CommonUtilities.java" />
-      <jump line="250" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/CommonUtilities.java" />
-      <jump line="393" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/dto/BookingRequest.java" />
-      <jump line="149" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" />
       <jump line="240" column="3" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/dto/BookingRequest.java" />
       <jump line="59" column="43" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/dto/BookingRequest.java" />
       <jump line="92" column="28" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/dto/BookingRequest.java" />
@@ -259,7 +259,6 @@
       <jump line="50" column="60" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/security/WhateverSecurityInterceptor.java" />
       <jump line="41" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/security/WhateverSecurityInterceptor.java" />
       <jump line="43" column="35" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/security/WhateverSecurityInterceptor.java" />
-      <jump line="102" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
       <jump line="104" column="12" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
       <jump line="103" column="74" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
       <jump line="101" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
@@ -288,10 +287,16 @@
       <jump line="95" column="4" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/security/WhateverSecurityInterceptor.java" />
       <jump line="11" column="6" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/swagger-ui-whatever/index.html" />
       <jump line="7" column="166" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/swagger-ui-whatever/index.html" />
+      <jump line="138" column="19" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
+      <jump line="105" column="42" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
+      <jump line="146" column="17" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
+      <jump line="102" column="22" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
+      <jump line="145" column="39" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
+      <jump line="148" column="22" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>Authentication</text>
+        <text>hello</text>
       </register>
       <register name="-" type="4">
         <text>resources.add</text>
@@ -300,45 +305,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>Basic d2hhdGV2ZXI6d2hhdGV2ZXJfcHdk</text>
+        <text>WhateverConfig</text>
       </register>
       <register name="1" type="4">
-        <text>Authentication</text>
+        <text encoding="base64">ICAgICAgICA8bG9naW4tY29uZmlnPgogICAgICAgICAgICA8YXV0aC1tZXRob2Q+Rk9STTwvYXV0aC1tZXRob2Q+CiAgICAgICAgICAgIDxmb3JtLWxvZ2luLWNvbmZpZz4KICAgICAgICAgICAgICAgIDxmb3JtLWxvZ2luLXBhZ2U+L2xvZ2luLmh0bWw8L2Zvcm0tbG9naW4tcGFnZT4KICAgICAgICAgICAgICAgIDxmb3JtLWVycm9yLXBhZ2U+L2ZvcmJpZGRlbi5odG1sPC9mb3JtLWVycm9yLXBhZ2U+CiAgICAgICAgICAgIDwvZm9ybS1sb2dpbi1jb25maWc+CiAgICAgICAgPC9sb2dpbi1jb25maWc+</text>
       </register>
       <register name="2" type="4">
-        <text>Allowed</text>
+        <text>hello</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">PHNlcnZsZXQtbWFwcGluZz4KICAgICAgICAgICAgPHNlcnZsZXQtbmFtZT5oZWxsbzwvc2VydmxldC1uYW1lPgogICAgICAgICAgICA8dXJsLXBhdHRlcm4+L2Nycy13ZWItc2VydmljZS1pbnRlZ3JhdGlvbi9zd2FnZ2VyLXVpLXdoYXRldmVyLzwvdXJsLXBhdHRlcm4+CiAgICAgICAgPC9zZXJ2bGV0LW1hcHBpbmc+</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICBAT3ZlcnJpZGUK</text>
+      <register name="5" type="4">
+        <text>Authentication</text>
       </register>
       <register name="6" type="4">
         <text>Allowed</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgcmV0dXJuICJCYXNpYyI7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>Authentication</text>
+        <text>hello</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>//    ResourceMethodInvoker methodInvoker = (ResourceMethodInvoker) requestContext.getProperty(&quot;org.jboss.resteasy.core.ResourceMethodInvoker&quot;);
-//    Method method = methodInvoker.getMethod();
-//    //Access allowed for all
-//    if (!method.isAnnotationPresent(PermitAll.class)) {
-//      //Access denied for all
-//      if (method.isAnnotationPresent(DenyAll.class)) {
-//        requestContext.abortWith(ACCESS_FORBIDDEN);
-//        return;
-//      }</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICBAT3ZlcnJpZGUK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -361,13 +358,11 @@
         <entry>action Back</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action AceLineAction</entry>
-        <entry>action AceAction</entry>
         <entry>action FindUsages</entry>
         <entry>199</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRm9yd2FyZA==</entry>
         <entry>805</entry>
         <entry>action CloseContent</entry>
-        <entry>action Forward</entry>
         <entry>action JumpToLastWindow</entry>
         <entry>action CopyElement</entry>
         <entry>action $SelectAll</entry>
@@ -376,8 +371,10 @@
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
-        <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
+        <entry>action Forward</entry>
+        <entry>action AceAction</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
