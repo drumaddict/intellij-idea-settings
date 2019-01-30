@@ -1,7 +1,7 @@
 <application>
   <component name="CPPToolchains" version="4">
     <toolchains detectedVersion="5">
-      <toolchain name="MinGW" toolSetKind="MINGW" toolSetPath="F:\msys64\mingw64" customCMakePath="F:\msys64\mingw64\bin\cmake.exe" customCCompilerPath="F:\msys64\mingw64\bin\gcc.exe" customCXXCompilerPath="F:\msys64\mingw64\bin\g++.exe" debuggerKind="CUSTOM_GDB" customGDBPath="F:\msys64\mingw64\bin\gdb.exe" />
+      <toolchain name="MinGW" toolSetKind="MINGW" toolSetPath="F:\msys64\mingw64" customCMakePath="F:\msys64\mingw64\bin\cmake.exe" customMakePath="F:\msys64\usr\bin\make.exe" customCCompilerPath="F:\msys64\mingw64\bin\gcc.exe" customCXXCompilerPath="F:\msys64\mingw64\bin\g++.exe" debuggerKind="CUSTOM_GDB" customGDBPath="F:\msys64\mingw64\bin\gdb.exe" />
       <toolchain name="Visual Studio" toolSetKind="MSVC" toolSetPath="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community" debuggerKind="CUSTOM_GDB" customGDBPath="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\bin\gdb.exe" />
     </toolchains>
   </component>
