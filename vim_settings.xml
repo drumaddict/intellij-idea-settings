@@ -77,7 +77,7 @@
         <mark key="^" line="2" column="71" />
         <mark key="." line="2" column="71" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" timestamp="1549014514291">
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" timestamp="1549019318442">
         <mark key="'" line="21" column="8" />
         <mark key="[" line="21" column="8" />
         <mark key="]" line="24" column="27" />
@@ -165,13 +165,12 @@
         <mark key="." line="23" column="18" />
         <mark key="^" line="23" column="18" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/pom.xml" timestamp="1549014162918">
-        <mark key="'" line="284" column="8" />
-        <mark key="[" line="287" column="27" />
-        <mark key="]" line="287" column="25" />
-        <mark key="^" line="287" column="25" />
-        <mark key="." line="287" column="25" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/pom.xml" timestamp="1549019296021">
+        <mark key="[" line="271" column="0" />
+        <mark key="]" line="271" column="0" />
+        <mark key="." line="271" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/crs-web-service-integration-application-context.xml" timestamp="1549020278179" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/DataMatrixToXml.java" timestamp="1548669362191">
         <mark key="[" line="103" column="137" />
         <mark key="]" line="103" column="124" />
@@ -215,6 +214,12 @@
         <mark key="^" line="33" column="28" />
         <mark key="." line="33" column="28" />
       </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-parent/pom.xml" timestamp="1549019048413">
+        <mark key="[" line="49" column="26" />
+        <mark key="]" line="49" column="23" />
+        <mark key="^" line="49" column="23" />
+        <mark key="." line="49" column="23" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1548668022335">
         <mark key="[" line="135" column="49" />
         <mark key="]" line="135" column="48" />
@@ -234,7 +239,7 @@
         <mark key="^" line="42" column="34" />
         <mark key="." line="42" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1548861964163">
+      <file name="/Dummy.txt" timestamp="1549019705549">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="396" />
         <mark key="^" line="0" column="396" />
@@ -316,7 +321,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="19" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/WhateverDocs.java" />
       <jump line="12" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/WhateverDocs.java" />
       <jump line="22" column="79" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/WhateverDocs.java" />
       <jump line="31" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/BaseSwaggerDocsResources.java" />
@@ -416,6 +420,7 @@
       <jump line="294" column="12" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/pom.xml" />
       <jump line="288" column="12" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/pom.xml" />
       <jump line="284" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/pom.xml" />
+      <jump line="50" column="6" filename="$USER_HOME$/projects/crs-engine/crs-parent/pom.xml" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -427,38 +432,38 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">PCEtLTxpbml0LXBhcmFtPi0tPgogICAgICAgICAgICA8IS0tPHBhcmFtLW5hbWU+c3dhZ2dlci5hcGkuYmFzZXBhdGg8L3BhcmFtLW5hbWU+LS0+CiAgICAgICAgICAgIDwhLS08cGFyYW0tdmFsdWU+L2Nycy13ZWItc2VydmljZS1pbnRlZ3JhdGlvbi9yZXNvdXJjZXM8L3BhcmFtLXZhbHVlPi0tPgogICAgICAgIDwhLS08L2luaXQtcGFyYW0+LS0+</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIDxqZXJzZXkudmVyc2lvbj4yLjI1PC9qZXJzZXkudmVyc2lvbj4K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICAgIGJlYW5Db25maWcuc2V0U2Nhbih0cnVlKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgPGplcnNleS52ZXJzaW9uPjIuMTwvamVyc2V5LnZlcnNpb24+Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Ly8gICAgICAgIGJlYW5Db25maWcuc2V0U2Nhbih0cnVlKTsK</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Ly8gICAgICAgIGJlYW5Db25maWcuc2V0UmVzb3VyY2VQYWNrYWdlKCJpby5zd2FnZ2VyLnJlc291cmNlcyIpOwo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>localhost:8083</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>setHost</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>false</text>
-      </register>
-      <register name="6" type="4">
-        <text>SampleApplication</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">QEFwcGxpY2F0aW9uUGF0aCgiL3Jlc291cmNlcyIpCg==</text>
       </register>
       <register name="x" type="4">
         <text>localhost:8083</text>
       </register>
       <register name="8" type="4">
-        <text>register</text>
+        <text>SampleApplication</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">QEFwcGxpY2F0aW9uUGF0aCgiL3Jlc291cmNlcyIpCg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -489,13 +494,13 @@
         <entry>action RenameElement</entry>
         <entry>action SplitVertically</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action GotoFile</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action NextTab</entry>
         <entry>action OptimizeImports</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVmb3JtYXRDb2Rl</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
@@ -531,6 +536,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
