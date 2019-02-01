@@ -460,7 +460,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -492,9 +492,9 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action NextTab</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
