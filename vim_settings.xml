@@ -58,12 +58,12 @@
         <mark key="^" line="379" column="12" />
         <mark key="." line="378" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/WhateverConfigurationV200.java" timestamp="1549029814510">
-        <mark key="'" line="103" column="5" />
-        <mark key="[" line="105" column="0" />
-        <mark key="]" line="105" column="0" />
-        <mark key="^" line="103" column="33" />
-        <mark key="." line="105" column="0" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/WhateverConfigurationV200.java" timestamp="1549031756679">
+        <mark key="'" line="105" column="92" />
+        <mark key="[" line="105" column="91" />
+        <mark key="]" line="105" column="93" />
+        <mark key="^" line="105" column="93" />
+        <mark key="." line="105" column="93" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/JAXRSConfiguration.java" timestamp="1549014325235">
         <mark key="'" line="0" column="0" />
@@ -77,8 +77,8 @@
         <mark key="^" line="2" column="71" />
         <mark key="." line="2" column="71" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" timestamp="1549019318442">
-        <mark key="'" line="21" column="8" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" timestamp="1549031461928">
+        <mark key="'" line="46" column="0" />
         <mark key="[" line="21" column="8" />
         <mark key="]" line="24" column="27" />
         <mark key="." line="143" column="28" />
@@ -322,9 +322,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="79" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/WhateverDocs.java" />
-      <jump line="31" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/BaseSwaggerDocsResources.java" />
-      <jump line="19" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/OtinanaiDocs.java" />
       <jump line="14" column="24" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/SwaggerConfigurationOTINANAI.java" />
       <jump line="42" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/SwaggerConfigurationOTINANAI.java" />
       <jump line="113" column="51" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/docs/whatever/login-form.jsp" />
@@ -415,17 +412,20 @@
       <jump line="96" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/WhateverConfigurationV200.java" />
       <jump line="114" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
       <jump line="107" column="4" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/WhateverConfigurationV200.java" />
-      <jump line="105" column="5" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/WhateverConfigurationV200.java" />
       <jump line="21" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
       <jump line="294" column="12" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/pom.xml" />
       <jump line="288" column="12" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/pom.xml" />
       <jump line="284" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/pom.xml" />
       <jump line="50" column="6" filename="$USER_HOME$/projects/crs-engine/crs-parent/pom.xml" />
       <jump line="275" column="12" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/pom.xml" />
+      <jump line="46" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/web.xml" />
+      <jump line="106" column="32" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/WhateverConfigurationV200.java" />
+      <jump line="72" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/WhateverConfigurationV200.java" />
+      <jump line="105" column="92" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/WhateverConfigurationV200.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>localhost:8083</text>
+        <text>io.swagger.resources</text>
       </register>
       <register name="-" type="4">
         <text>gr.forthcrs.crs.web.service.integration.dispatcher.ws</text>
@@ -433,41 +433,41 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIDxqZXJzZXkudmVyc2lvbj4yLjI1PC9qZXJzZXkudmVyc2lvbj4K</text>
+      <register name="0" type="4">
+        <text>gr.forthcrs.crs.web.service.integration.dispatcher.jaxrs;</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPHZlcnNpb24+MS41LjIxPC92ZXJzaW9uPgo=</text>
+      <register name="1" type="4">
+        <text>io.swagger.resources</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgPHZlcnNpb24+MS41LjIxPC92ZXJzaW9uPgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgPGplcnNleS52ZXJzaW9uPjIuMTwvamVyc2V5LnZlcnNpb24+Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Ly8gICAgICAgIGJlYW5Db25maWcuc2V0U2Nhbih0cnVlKTsK</text>
+        <text encoding="base64">ICAgICAgPGplcnNleS52ZXJzaW9uPjIuMTwvamVyc2V5LnZlcnNpb24+Cg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">Ly8gICAgICAgIGJlYW5Db25maWcuc2V0U2Nhbih0cnVlKTsK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">Ly8gICAgICAgIGJlYW5Db25maWcuc2V0UmVzb3VyY2VQYWNrYWdlKCJpby5zd2FnZ2VyLnJlc291cmNlcyIpOwo=</text>
       </register>
-      <register name="6" type="4">
-        <text>localhost:8083</text>
-      </register>
       <register name="7" type="4">
-        <text>setHost</text>
+        <text>localhost:8083</text>
       </register>
       <register name="x" type="4">
-        <text>localhost:8083</text>
+        <text>io.swagger.resources</text>
       </register>
       <register name="8" type="4">
-        <text>false</text>
+        <text>setHost</text>
       </register>
       <register name="9" type="4">
-        <text>SampleApplication</text>
+        <text>false</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -499,9 +499,9 @@
         <entry>action OptimizeImports</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVmb3JtYXRDb2Rl</entry>
         <entry>action GotoFile</entry>
+        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
-        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
