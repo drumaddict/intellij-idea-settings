@@ -515,7 +515,7 @@
         <text encoding="base64">ICAgIHN3YWdnZXIuc2V0SG9zdCgibG9jYWxob3N0OjgwODAiKTsK</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -545,13 +545,13 @@
         <entry>action CloseContent</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action GotoClass</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
