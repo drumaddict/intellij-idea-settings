@@ -107,12 +107,12 @@
         <mark key="^" line="171" column="94" />
         <mark key="." line="171" column="94" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1549291036870">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1549293288176">
         <mark key="'" line="313" column="0" />
-        <mark key="[" line="19" column="20" />
-        <mark key="]" line="19" column="18" />
-        <mark key="." line="19" column="18" />
-        <mark key="^" line="19" column="18" />
+        <mark key="[" line="197" column="46" />
+        <mark key="]" line="197" column="70" />
+        <mark key="." line="197" column="70" />
+        <mark key="^" line="197" column="70" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-moby-integration/src/main/java/gr/forthcrs/crs/moby/integration/implementation/RecallMoby.java" timestamp="1548333205576">
         <mark key="[" line="122" column="31" />
@@ -446,7 +446,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -475,14 +475,14 @@
         <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action $SelectAll</entry>
         <entry>action NextTab</entry>
         <entry>action RenameElement</entry>
         <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
+        <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
