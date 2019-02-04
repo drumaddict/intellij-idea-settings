@@ -179,6 +179,12 @@
         <mark key="." line="3" column="45" />
         <mark key="^" line="3" column="45" />
       </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-jadrolinija-api/target/generated-sources/swagger/src/test/java/io/swagger/client/api/GETApiTest.java" timestamp="1549282225311">
+        <mark key="[" line="276" column="1" />
+        <mark key="]" line="276" column="0" />
+        <mark key="^" line="276" column="0" />
+        <mark key="." line="276" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/SwaggerConfigurationOTINANAI.java" timestamp="1548860977065">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -267,6 +273,9 @@
         <mark key="]" line="135" column="48" />
         <mark key="^" line="135" column="48" />
         <mark key="." line="135" column="48" />
+      </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-jadrolinija-api/src/test/java/gr/forthcrs/crs/jadrolinija/test/JadrolinijaApiCalls.java" timestamp="1549281967438">
+        <mark key="'" line="19" column="21" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/B2CConfiguration.java" timestamp="1549270976239">
         <mark key="'" line="33" column="40" />
@@ -371,7 +380,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/whatever/WebServiceWhateverDispatcher.java" />
       <jump line="45" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/B2CConfiguration.java" />
       <jump line="6" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/B2CConfiguration.java" />
       <jump line="8" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/B2CConfiguration.java" />
@@ -471,6 +479,7 @@
       <jump line="30" column="4" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/config/B2bSwaggerConfig.java" />
       <jump line="265" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/pom.xml" />
       <jump line="281" column="31" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/pom.xml" />
+      <jump line="19" column="21" filename="$USER_HOME$/projects/crs-engine/crs-jadrolinija-api/src/test/java/gr/forthcrs/crs/jadrolinija/test/JadrolinijaApiCalls.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -531,7 +540,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action FindUsages</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action $SelectAll</entry>
@@ -548,10 +556,11 @@
         <entry>action GotoClass</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action OptimizeImports</entry>
         <entry>action ReformatCode</entry>
+        <entry>action FindUsages</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
