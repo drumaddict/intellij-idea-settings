@@ -315,14 +315,14 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="7" column="438" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1549372809757">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1549376309755">
         <mark key="'" line="456" column="4" />
         <mark key="[" line="25" column="2" />
         <mark key="]" line="25" column="3" />
         <mark key="^" line="25" column="3" />
         <mark key="." line="25" column="3" />
       </file>
-      <file name="/fragment.java" timestamp="1549365320532">
+      <file name="/fragment.java" timestamp="1549376267996">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -479,7 +479,7 @@
         <text encoding="base64">ICAgICAgc3RhdHVzLnNldFN0YXR1c01lc3NhZ2UoZGJFcnJTdHIpOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -510,12 +510,12 @@
         <entry>action SplitVertically</entry>
         <entry>action ReformatCode</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action Find</entry>
         <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
         <entry>action RenameElement</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
