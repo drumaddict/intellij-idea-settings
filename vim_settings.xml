@@ -138,7 +138,7 @@
         <mark key="]" line="29" column="0" />
         <mark key="." line="29" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/ticket_req.xml" timestamp="1549359106226" />
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/ticket_req.xml" timestamp="1549364339831" />
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/docs/whatever/login-form.jsp" timestamp="1548936797416">
         <mark key="[" line="3" column="45" />
         <mark key="]" line="3" column="45" />
@@ -305,7 +305,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="7" column="438" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1549356528997">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1549363906515">
         <mark key="'" line="456" column="4" />
         <mark key="[" line="25" column="2" />
         <mark key="]" line="25" column="3" />
@@ -465,7 +465,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -495,11 +495,11 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action FindUsages</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
