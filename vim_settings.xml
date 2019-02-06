@@ -183,9 +183,10 @@
         <mark key="^" line="33" column="28" />
         <mark key="." line="33" column="28" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1549440964575">
-        <mark key="[" line="158" column="57" />
-        <mark key="]" line="158" column="57" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1549447835567">
+        <mark key="'" line="207" column="11" />
+        <mark key="[" line="207" column="11" />
+        <mark key="]" line="212" column="51" />
         <mark key="^" line="158" column="57" />
         <mark key="." line="158" column="57" />
       </file>
@@ -264,12 +265,12 @@
         <mark key="." line="42" column="34" />
         <mark key="^" line="42" column="34" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1549372058326">
-        <mark key="'" line="130" column="44" />
-        <mark key="[" line="54" column="37" />
-        <mark key="]" line="54" column="27" />
-        <mark key="^" line="54" column="27" />
-        <mark key="." line="54" column="27" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1549447849351">
+        <mark key="'" line="145" column="51" />
+        <mark key="[" line="140" column="10" />
+        <mark key="]" line="145" column="52" />
+        <mark key="^" line="140" column="9" />
+        <mark key="." line="140" column="10" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/WebServiceV200B2CDispatcher.java" timestamp="1549268241783">
         <mark key="[" line="50" column="19" />
@@ -282,7 +283,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="7" column="438" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1549441885360">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1549447774505">
         <mark key="'" line="456" column="4" />
         <mark key="[" line="25" column="2" />
         <mark key="]" line="25" column="3" />
@@ -303,11 +304,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="46" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/config/WhateverV201SwaggerConfig.java" />
-      <jump line="28" column="66" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/config/WhateverV200SwaggerConfig.java" />
-      <jump line="28" column="66" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/config/WhateverV201SwaggerConfig.java" />
-      <jump line="45" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/config/OtinanaiSwaggerConfig.java" />
-      <jump line="37" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/config/WhateverV201SwaggerConfig.java" />
       <jump line="9" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/config/WhateverV201SwaggerConfig.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/config/WhateverV201SwaggerConfig.java" />
       <jump line="44" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/config/B2cSwaggerConfig.java" />
@@ -403,10 +399,15 @@
       <jump line="29" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="84" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="38" column="20" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="55" column="23" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
+      <jump line="131" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
+      <jump line="140" column="15" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
+      <jump line="207" column="11" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" />
+      <jump line="145" column="51" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>theAnswer</text>
+        <text>ITINERARY_ENQUIRY_TICKET</text>
       </register>
       <register name="-" type="4">
         <text>s</text>
@@ -415,33 +416,36 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>/*
-     * Get CASTOR marshaller singleton and create
-     * XML string. Then log this to a file.
-     */
-    String theAnswer = Utilities.getInstance().marshalObject(xmlAnswer);
-    Utilities.getInstance().logContentsInFile(theAnswer);
-    return theAnswer;</text>
+        <text encoding="base64">IH0gZWxzZSBpZiAoKG1lc3NhZ2VpZC5lcXVhbHMoIkJPQVJEUEFTU19JU1NVRSIpKSB8fCAobWVzc2FnZWlkLnN0YXJ0c1dpdGgoIkJPQVJEUEFTU19JU1NVRV9QUklOVCIpKSB8fCAobWVzc2FnZWlkLmVxdWFscygiQk9BUkRQQVNTX1BSSU5UIikpKSB7CiAgICAgICAgICAgICAgICBCb2FyZGluZ1Bhc3NIYW5kbGVyIGJvYXJkcGFzc0hhbmRsZXIgPSBuZXcgQm9hcmRpbmdQYXNzSGFuZGxlcih4bWx0cmVlKTsKICAgICAgICAgICAgICAgIGFuc1N0ciA9IGJvYXJkcGFzc0hhbmRsZXIucHJvY2VzcygpOwogICAgICAgICAgICB9IGVsc2UgaWYgKG1lc3NhZ2VpZC5jb21wYXJlVG8oIkJPQVJEUEFTU19DQU5DRUwiKSA9PSAwKSB7CiAgICAgICAgICAgICAgICBCb2FyZGluZ1Bhc3NDYW5jZWwgYm9hcmRwYXNzSGFuZGxlciA9IG5ldyBCb2FyZGluZ1Bhc3NDYW5jZWwoeG1sdHJlZSk7CiAgICAgICAgICAgICAgICBhbnNTdHIgPSBib2FyZHBhc3NIYW5kbGVyLnByb2Nlc3MoKTs=</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>ITINERARY_ENQUIRY_TICKET</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">IGNhc2UgSVRJTkVSQVJZX0VOUVVJUlk6CiAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIlNVQ0NFU1NGVUwgUEFSU0lORyIgKyByZXFTdHIpOwogICAgICAgICAgSXRpbmVyYXJpZXNFbnF1aXJ5IGl0aW5lcmFyaWVzRW5xID0gbmV3IEl0aW5lcmFyaWVzRW5xdWlyeSh4bWx0cmVlKTsKICAgICAgICAgIGFuc1N0ciA9IGl0aW5lcmFyaWVzRW5xLnByb2Nlc3MoKTsKICAgICAgICAgIGJyZWFrOwogICAgICAgIGNhc2UgVElDS0VUX0VOUVVJUlk6CiAgICAgICAgICBUaWNrZXRFbnF1aXJ5IHRpY0VucSA9IG5ldyBUaWNrZXRFbnF1aXJ5KHhtbHRyZWUpOwogICAgICAgICAgYW5zU3RyID0gdGljRW5xLnByb2Nlc3MoKTsKICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiU1VDQ0VTU0ZVTCBQQVJTSU5HIik7CiAgICAgICAgICBicmVhazsKICAgICAgICBjYXNlIEJPQVJEUEFTU19JU1NVRV9QUklOVDoKICAgICAgICAgIEJvYXJkaW5nUGFzc0hhbmRsZXIgYm9hcmRwYXNzSGFuZGxlciA9IG5ldyBCb2FyZGluZ1Bhc3NIYW5kbGVyKHhtbHRyZWUpOwogICAgICAgICAgYW5zU3RyID0gYm9hcmRwYXNzSGFuZGxlci5wcm9jZXNzKCk7CiAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIlNVQ0NFU1NGVUwgUEFSU0lORyIpOwogICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSBDT1VOVFJJRVM6CiAgICAgICAgICBDb3VudHJpZXNMaXN0IGNvdW50cmllc0xpc3QgPSBuZXcgQ291bnRyaWVzTGlzdCh4bWx0cmVlKTsKICAgICAgICAgIGFuc1N0ciA9IGNvdW50cmllc0xpc3QucHJvY2VzcygpOwogICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJTVUNDRVNTRlVMIFBBUlNJTkcgRk9SIENPVU5UUklFUyBMSVNUIik7CiAgICAgICAgICBicmVhazsKICAgICAgICBjYXNlIENPVU5UUllfQ1JFQVRFOgogICAgICAgICAgQ291bnRyeUNyZWF0ZSBjb3VudHJ5Q3JlYXRlID0gbmV3IENvdW50cnlDcmVhdGUoeG1sdHJlZSk7CiAgICAgICAgICBhbnNTdHIgPSBjb3VudHJ5Q3JlYXRlLnByb2Nlc3MoKTsKICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiU1VDQ0VTU0ZVTCBQQVJTSU5HIEZPUiBDT1VOVFJZIENSRUFURSIpOwogICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSBDT1VOVFJZX0RFTEVURToKICAgICAgICAgIENvdW50cnlEZWxldGUgY291bnRyeURlbGV0ZSA9IG5ldyBDb3VudHJ5RGVsZXRlKHhtbHRyZWUpOwogICAgICAgICAgYW5zU3RyID0gY291bnRyeURlbGV0ZS5wcm9jZXNzKCk7CiAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIlNVQ0NFU1NGVUwgUEFSU0lORyBGT1IgQ09VTlRSWSBERUxFVEUiKTsKICAgICAgICAgIGJyZWFrOw==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="x" type="4">
+        <text>ITINERARY_ENQUIRY_TICKET</text>
+      </register>
+      <register name="8" type="4">
         <text>//    /*
 //     * Get CASTOR marshaller singleton and create
 //     * XML string. Then log this to a file.
@@ -449,17 +453,8 @@
 //    String theAnswer = Utilities.getInstance().marshalObject(xmlAnswer);
 //    Utilities.getInstance().logContentsInFile(theAnswer);</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>theAnswer</text>
-      </register>
-      <register name="x" type="4">
-        <text>theAnswer</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -493,10 +488,10 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>45</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
