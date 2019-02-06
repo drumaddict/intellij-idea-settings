@@ -201,6 +201,7 @@
         <mark key="^" line="49" column="25" />
         <mark key="." line="49" column="25" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/AccomtypesComparator.java" timestamp="1549457798488" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1548668022335">
         <mark key="[" line="135" column="49" />
         <mark key="]" line="135" column="48" />
@@ -304,10 +305,10 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="25" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1549453213450">
-        <mark key="'" line="8" column="8" />
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="12" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1549457830566">
+        <mark key="'" line="16" column="8" />
+        <mark key="[" line="16" column="8" />
+        <mark key="]" line="19" column="36" />
         <mark key="." line="12" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1549449695905">
@@ -324,7 +325,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/B2BConfiguration.java" />
       <jump line="35" column="40" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/jaxrs/B2CConfiguration.java" />
       <jump line="29" column="4" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/config/WhateverV200SwaggerConfig.java" />
       <jump line="29" column="4" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/swagger/config/WhateverV201SwaggerConfig.java" />
@@ -424,6 +424,7 @@
       <jump line="146" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
       <jump line="160" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
       <jump line="153" column="43" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
+      <jump line="16" column="8" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -436,8 +437,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>//      BoardingPassCancel boardpassHandler = new BoardingPassCancel(xmltree);
-//      ansStr = boardpassHandler.process();</text>
+        <text encoding="base64">PENvbm5DYWNoZU5hbWU+bXlUZXN0Q29ubmVjdGlvbkNhY2hlPC9Db25uQ2FjaGVOYW1lPgogICAgICAgIDxVUkw+amRiYzpvcmFjbGU6dGhpbjpAMTcyLjI2LjIuMjAyOjE1MjEveGU8L1VSTD4KICAgICAgICA8VXNlcm5hbWU+cG9ydGN0cmw8L1VzZXJuYW1lPgogICAgICAgIDxQYXNzd29yZD5hZG1pbjEyMzwvUGFzc3dvcmQ+</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -472,7 +472,7 @@
         <text>BoardingPassCancel</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -505,9 +505,9 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
