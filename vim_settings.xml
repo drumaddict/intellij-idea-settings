@@ -472,7 +472,7 @@
         <text>BoardingPassCancel</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -499,15 +499,15 @@
         <entry>action RenameElement</entry>
         <entry>action FindUsages</entry>
         <entry>45</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action OptimizeImports</entry>
         <entry>action SplitVertically</entry>
         <entry>action PreviousTab</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
-        <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
