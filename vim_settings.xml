@@ -114,7 +114,6 @@
         <mark key="^" line="14" column="3" />
         <mark key="." line="14" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/ticket_req.xml" timestamp="1549377429168" />
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/docs/whatever/login-form.jsp" timestamp="1548936797416">
         <mark key="[" line="3" column="45" />
         <mark key="]" line="3" column="45" />
@@ -455,7 +454,7 @@
         <text encoding="base64">ICAgICAgc3RhdHVzLnNldFN0YXR1c01lc3NhZ2UoZGJFcnJTdHIpOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -470,8 +469,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action RenameFile</entry>
-        <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action TabShiftActions.StretchDown</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVmb3JtYXRDb2Rl</entry>
         <entry>action Replace</entry>
@@ -490,8 +487,8 @@
         <entry>action RenameElement</entry>
         <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
