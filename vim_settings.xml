@@ -91,10 +91,12 @@
         <mark key="^" line="171" column="94" />
         <mark key="." line="171" column="94" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1549524986508">
-        <mark key="[" line="138" column="0" />
-        <mark key="]" line="138" column="0" />
-        <mark key="." line="138" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1549526984962">
+        <mark key="'" line="136" column="8" />
+        <mark key="[" line="149" column="0" />
+        <mark key="]" line="149" column="0" />
+        <mark key="." line="149" column="0" />
+        <mark key="^" line="145" column="44" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-moby-integration/src/main/java/gr/forthcrs/crs/moby/integration/implementation/RecallMoby.java" timestamp="1548333205576">
         <mark key="[" line="122" column="31" />
@@ -332,9 +334,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="58" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
-      <jump line="54" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="798" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="29" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
       <jump line="355" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
       <jump line="66" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
@@ -365,7 +364,6 @@
       <jump line="76" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="89" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="103" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
-      <jump line="71" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="101" column="33" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="61" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="65" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
@@ -432,19 +430,23 @@
       <jump line="141" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="125" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="152" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="94" column="126" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="71" column="89" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="82" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="137" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>vehicle</text>
+        <text>ticketEnquiry</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IFA=</text>
+        <text>ticketEnquiry.isDbERROR()</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">Ly8gVmVoaWNsZXMKICAgIFZlaGljbGVzIHZlaGljbGVzPSBtZXNzYWdlRGF0YS5nZXRFbWJhcmthdGlvbkRhdGEoKS5nZXRCb29raW5nKCkuZ2V0VmVoaWNsZXMoKTsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgdmVoaWNsZXMuZ2V0VmVoaWNsZUNvdW50KCk7IGkrKykgewogICAgICBWZWhpY2xlIHZlaGljbGUgPSB2ZWhpY2xlcy5nZXRWZWhpY2xlKGkpOwogICAgICBib29sZWFuIGlzQWN0aXZlID0gZmFsc2U7CiAgICAgIHRyeSB7CiAgICAgICAgaXNBY3RpdmUgPSBmZXRjaFByaW9yaXR5Q2hlY2soICh2ZWhpY2xlLmdldEJvb2tJRCgpKSApICE9IG51bGw7CiAgICAgIH0gY2F0Y2ggKERBT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKICAgICAgICBoYW5kbGVFcnJvcihlLCBzdGF0dXNJbmZvLCB0cnVlLCBlLmdldE1lc3NhZ2UoKSk7CiAgICAgIH0KICAgICAgaWYgKCFpc0FjdGl2ZSkgdmVoaWNsZXMucmVtb3ZlVmVoaWNsZUF0KGkpOwogICAgfQ==</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBoYW5kbGVFcnJvcih0cnVlLCBlLmdldE1lc3NhZ2UoKSwgc3RhdHVzSW5mbyk7Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -456,25 +458,25 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBoYW5kbGVFcnJvcihlLCBzdGF0dXNJbmZvLCB0cnVlLCBlLmdldE1lc3NhZ2UoKSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="6" type="4">
+        <text>ticketEnquiry</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="7" type="4">
+        <text>ticketEnquiry</text>
       </register>
       <register name="x" type="4">
-        <text>vehicle</text>
+        <text>ticketEnquiry</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Ly8gQW5pbWFscwogICAgQW5pbWFscyBhbmltYWxzPSBtZXNzYWdlRGF0YS5nZXRFbWJhcmthdGlvbkRhdGEoKS5nZXRCb29raW5nKCkuZ2V0QW5pbWFscygpOwogICAgZm9yIChpbnQgaSA9IDA7IGkgPCBhbmltYWxzLmdldEFuaW1hbENvdW50KCk7IGkrKykgewogICAgICBBbmltYWwgYW5pbWFsID0gYW5pbWFscy5nZXRBbmltYWwoaSk7CiAgICAgIGJvb2xlYW4gaXNBY3RpdmUgPSBmYWxzZTsKICAgICAgdHJ5IHsKICAgICAgICBpc0FjdGl2ZSA9IGZldGNoUHJpb3JpdHlDaGVjayggKGFuaW1hbC5nZSkgKSAhPSBudWxsOwogICAgICB9IGNhdGNoIChEQU9FeGNlcHRpb24gZSkgewogICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgICAgaGFuZGxlRXJyb3IoZSwgc3RhdHVzSW5mbywgdHJ1ZSwgZS5nZXRNZXNzYWdlKCkpOwogICAgICB9CiAgICAgIGlmICghaXNBY3RpdmUpIHZlaGljbGVzLnJlbW92ZVZlaGljbGVBdChpKTsKICAgIH0g</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>vehicle</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgaGFuZGxlRXJyb3IoZS5nZXRNZXNzYWdlKCksIHN0YXR1cywgaXRpbmVyYXJpZXNFbnF1aXJ5LmlzRGJFUlJPUigpLCBpdGluZXJhcmllc0VucXVpcnkuZ2V0RGJFcnJTdHIoKSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -507,12 +509,12 @@
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action Forward</entry>
-        <entry>action ReformatCode</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
         <entry>action SurroundWith</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
         <entry>action RenameElement</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
