@@ -61,12 +61,17 @@
         <mark key="^" line="2" column="71" />
         <mark key="." line="2" column="71" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1549630467255">
-        <mark key="'" line="112" column="9" />
-        <mark key="[" line="112" column="107" />
-        <mark key="]" line="112" column="111" />
-        <mark key="." line="112" column="111" />
-        <mark key="^" line="112" column="111" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1549637128152">
+        <mark key="'" line="121" column="2" />
+        <mark key="[" line="118" column="23" />
+        <mark key="]" line="118" column="4" />
+        <mark key="." line="118" column="4" />
+        <mark key="^" line="118" column="4" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/HostInfo.java" timestamp="1549632985100">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="23" column="0" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-moby-integration/src/main/java/gr/forthcrs/crs/moby/integration/implementation/RecallMoby.java" timestamp="1548333205576">
         <mark key="[" line="122" column="31" />
@@ -119,6 +124,13 @@
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="268" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/ArithmeticUtilities.java" timestamp="1549633303769">
+        <mark key="'" line="5" column="88" />
+        <mark key="[" line="2" column="34" />
+        <mark key="]" line="3" column="1" />
+        <mark key="." line="3" column="1" />
+        <mark key="^" line="3" column="1" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/DataMatrixToXml.java" timestamp="1549290522243">
         <mark key="[" line="104" column="18" />
@@ -282,6 +294,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="379" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/DateUtils.java" timestamp="1549632974307" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" timestamp="1549624553448">
         <mark key="'" line="140" column="8" />
         <mark key="[" line="137" column="42" />
@@ -296,7 +309,7 @@
         <mark key="^" line="35" column="3" />
         <mark key="." line="35" column="3" />
       </file>
-      <file name="/fragment.java" timestamp="1549624847302">
+      <file name="/fragment.java" timestamp="1549632966791">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -304,30 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="300" column="27" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/EmbarkationData.java" />
-      <jump line="71" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" />
-      <jump line="138" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" />
-      <jump line="28" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/TripData.java" />
-      <jump line="33" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="44" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="58" column="27" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="56" column="46" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="63" column="27" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="61" column="44" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="310" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/TripData.java" />
-      <jump line="88" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="106" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="145" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="196" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="226" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="588" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/TripData.java" />
-      <jump line="583" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/TripData.java" />
-      <jump line="186" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="204" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="233" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="214" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="243" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Sailing.java" />
-      <jump line="43" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Booking.java" />
       <jump line="185" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/BookingDescriptor.java" />
       <jump line="105" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/StatisticsDescriptor.java" />
       <jump line="155" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/PassengersDescriptor.java" />
@@ -387,7 +376,6 @@
       <jump line="339" column="13" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/EmbarkationData.java" />
       <jump line="100" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="125" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
-      <jump line="119" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="121" column="23" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="73" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="144" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
@@ -399,54 +387,79 @@
       <jump line="138" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="154" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="178" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="120" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
-      <jump line="113" column="40" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="112" column="9" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
-      <jump line="115" column="76" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
-      <jump line="116" column="9" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/HostInfo.java" />
+      <jump line="29" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/ArithmeticUtilities.java" />
+      <jump line="18" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/ArithmeticUtilities.java" />
+      <jump line="12" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/ArithmeticUtilities.java" />
+      <jump line="5" column="88" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/ArithmeticUtilities.java" />
+      <jump line="117" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="116" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="115" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="113" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="120" column="20" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="105" column="44" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="106" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="108" column="32" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="110" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="134" column="38" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="122" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="109" column="93" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="146" column="85" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="99" column="3" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="150" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="149" column="108" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="161" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="107" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="188" column="38" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="104" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="163" column="49" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="166" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="98" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="119" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>passengersRemaining</text>
+        <text>getItineraryData</text>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgIExvbmcgIHBhc3NlbmdlcnNSZW1haW5pbmcgPSBzYWlsaW5nQmVhbi5nZXRQYXNhdmFpbCgpIC0gcGFzc2VuZ2VyQXZhaWxhYmlsaXR5LmdldFVuaXRzcHJpb3JpdHkoKTsK</text>
+      <register name="0" type="4">
+        <text encoding="base64">ICBwcm90ZWN0ZWQgdm9pZCBhZGRTYWlsaW5nU3RhdGlzdGljc0Zvckl0aW5lcmFyeURhdGEoU2VydmljZU1lc3NhZ2Ugc2VydmljZU1lc3NhZ2UpIHsKICAgIFNhaWxpbmdzIHNhaWxpbmdzID0gbmV3IFNhaWxpbmdzKCk7CiAgICBJdGluZXJhcnlMaXN0IGl0aW5lcmFyeUxpc3QgPSBzZXJ2aWNlTWVzc2FnZS5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0SXRpbmVyYXJ5TGlzdCgpOwogICAgZm9yIChpbnQgaSA9IDA7IGkgPCBpdGluZXJhcnlMaXN0LmdldEl0aW5lcmFyeURhdGFDb3VudCgpOyBpKyspIHsKICAgICAgSXRpbmVyYXJ5RGF0YSBpdGluZXJhcnlEYXRhID0gaXRpbmVyYXJ5TGlzdC5nZXRJdGluZXJhcnlEYXRhKGkpOwogICAgICBhZGRTYWlsaW5nVG9TYWlsaW5nc1N0YXRpc3RpY3MoaXRpbmVyYXJ5RGF0YS5nZXRTYWlsSUQoKSwgc2FpbGluZ3MpOwogICAgfSAvL2VuZCBvZiBmb3IgbG9vcAogICAgc3RhdGlzdGljcy5zZXRTYWlsaW5ncyhzYWlsaW5ncyk7CiAgICBzZXJ2aWNlTWVzc2FnZS5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0RW1iYXJrYXRpb25EYXRhKCkuc2V0U3RhdGlzdGljcyhzdGF0aXN0aWNzKTsKICB9</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>getItineraryData</text>
       </register>
       <register name="2" type="4">
-        <text>passengersRemaining</text>
+        <text>itineraryList</text>
       </register>
       <register name="3" type="4">
-        <text>Long</text>
+        <text>itineraryData</text>
       </register>
       <register name="4" type="4">
-        <text>sailingBean.getPasavail() - passengerAvailability.getUnitspriority()</text>
+        <text>ItineraryData</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text>itineraryList</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgU2FpbGluZ0JlYW4gc2FpbGluZ0JlYW4gPSBmaW5kU2FpbGluZ0J5U2FpbElkKHBhc3NlbmdlckF2YWlsYWJpbGl0eS5nZXRTYWlsSWQoKSk7Cg==</text>
+      <register name="6" type="4">
+        <text>itineraryList</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>ItineraryList</text>
       </register>
       <register name="x" type="4">
-        <text>passengersRemaining</text>
+        <text>getItineraryData</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">cHJvdGVjdGVkIFByaW9jaGVja0JlYW4gZmV0Y2hQcmlvcml0eUNoZWNrKExvbmcgYm9va0lkKSB0aHJvd3MgREFPRXhjZXB0aW9uIHsKICAgIFN0cmluZyBzcWwgPSAiIFdIRVJFIEJPT0tfSUQ9JyIgKyBib29rSWQgKyAiJyBBTkQgUFJJX1NUQVRVUz0nQScgIjsKICAgIFN5c3RlbS5vdXQucHJpbnRsbigiQXR0ZW1wdGluZyBxdWVyeTogICAgIiArIHNxbCk7CiAgICBQcmlvY2hlY2tCZWFuW10gcm93cyA9IG51bGw7CiAgICBQcmlvY2hlY2tNYW5hZ2VyIG1hbmFnZXIgPSBQcmlvY2hlY2tNYW5hZ2VyLmdldEluc3RhbmNlKCk7CiAgICBQcmlvY2hlY2tCZWFuW10gcGMgPSBtYW5hZ2VyLmdldEluc3RhbmNlKCkubG9hZEJ5V2hlcmUoc3FsKTsKICAgIFByaW9jaGVja0JlYW4gUmVzdWx0ID0gbnVsbDsKICAgIGlmIChwYy5sZW5ndGggPiAwKSB7CiAgICAgIFJlc3VsdCA9IHBjWzBdOwogICAgfQogICAgcmV0dXJuIFJlc3VsdDsKICB9CgoKICAgIHByb3RlY3RlZCBBdmFpbGFiaWxpdHlCZWFuIGZldGNoQXZhaWxhYmlsaXR5KExvbmcgc2FpbElELCBTdHJpbmcgdHlwZSkgdGhyb3dzIERBT0V4Y2VwdGlvbiB7CiAgICBTdHJpbmcgc3FsID0gIiBXSEVSRSBTQUlMX0lEPSciICsgc2FpbElEICsgIicgQU5EIFBBU1ZFSD0nIiArIHR5cGUgKyInICI7CiAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkF0dGVtcHRpbmcgcXVlcnk6ICAgICIgKyBzcWwpOwogICAgQXZhaWxhYmlsaXR5TWFuYWdlciBtYW5hZ2VyID0gQXZhaWxhYmlsaXR5TWFuYWdlci5nZXRJbnN0YW5jZSgpOwogICAgQXZhaWxhYmlsaXR5QmVhbltdIGF2YWlsYWJpbGl0aWVzID0gbWFuYWdlci5nZXRJbnN0YW5jZSgpLmxvYWRCeVdoZXJlKHNxbCk7CiAgICBBdmFpbGFiaWxpdHlCZWFuIFJlc3VsdCA9IG51bGw7CiAgICBpZiAoYXZhaWxhYmlsaXRpZXMubGVuZ3RoID4gMCkgewogICAgICBSZXN1bHQgPSBhdmFpbGFiaWxpdGllc1swXTsKICAgIH0KICAgIHJldHVybiBSZXN1bHQ7CiAgfQ==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgfSBlbHNlIHsgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -464,7 +477,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
         <entry>action RenameElement</entry>
         <entry>action FindUsages</entry>
         <entry>action SurroundWith</entry>
@@ -478,11 +490,12 @@
         <entry>action NextTab</entry>
         <entry>action Replace</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action AceAction</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action AceAction</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
