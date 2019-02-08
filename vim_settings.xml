@@ -231,11 +231,8 @@
         <mark key="^" line="42" column="34" />
         <mark key="." line="42" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1549553389765">
-        <mark key="[" line="0" column="1" />
-        <mark key="]" line="0" column="0" />
-        <mark key="^" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="/Dummy.txt" timestamp="1549625163818">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1549538031323">
         <mark key="'" line="112" column="91" />
@@ -421,8 +418,8 @@
       <register name="0" type="4">
         <text encoding="base64">IHhtbEFuc3dlci5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0RW1iYXJrYXRpb25EYXRhKCkuc2V0U2FpbGluZygKICAgICAgICAgICAgcmVxWE1MLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRFbWJhcmthdGlvbkRhdGEoKS5nZXRTYWlsaW5nKCkKICAgICk7</text>
       </register>
-      <register name="1" type="4">
-        <text>Sailings</text>
+      <register name="1" type="2">
+        <text encoding="base64">QWRkZWQgU2FpbGluZyBhbmQgU3RhdGlzdGljcyBlbnRpdGllcyBpbiBFbWJhcmthdGlvbkRhdGEK</text>
       </register>
       <register name="2" type="4">
         <text>Sailings</text>
@@ -431,16 +428,16 @@
         <text>Sailings</text>
       </register>
       <register name="4" type="4">
-        <text>setSailing</text>
+        <text>Sailings</text>
       </register>
       <register name="5" type="4">
-        <text>getSailing</text>
+        <text>setSailing</text>
       </register>
       <register name="6" type="4">
-        <text>.</text>
+        <text>getSailing</text>
       </register>
       <register name="7" type="4">
-        <text>Sailings</text>
+        <text>.</text>
       </register>
       <register name="x" type="4">
         <text>Sailings</text>
