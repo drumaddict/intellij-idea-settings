@@ -126,12 +126,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="379" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" timestamp="1549969496852">
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" timestamp="1549970748614">
         <mark key="'" line="15" column="43" />
-        <mark key="[" line="18" column="68" />
-        <mark key="]" line="17" column="95" />
-        <mark key="^" line="17" column="95" />
-        <mark key="." line="17" column="95" />
+        <mark key="[" line="18" column="40" />
+        <mark key="]" line="18" column="30" />
+        <mark key="^" line="18" column="30" />
+        <mark key="." line="18" column="30" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" timestamp="1549624553448">
         <mark key="'" line="140" column="8" />
@@ -344,7 +344,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action PreviousTab</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -377,8 +377,8 @@
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action PreviousTab</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
