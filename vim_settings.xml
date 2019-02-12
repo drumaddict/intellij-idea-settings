@@ -86,7 +86,7 @@
         <mark key="[" line="583" column="0" />
         <mark key="]" line="592" column="4" />
       </file>
-      <file name="/Dummy.txt" timestamp="1549979360052">
+      <file name="/Dummy.txt" timestamp="1549982009068">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1549975642036">
@@ -152,12 +152,12 @@
         <mark key="[" line="66" column="0" />
         <mark key="]" line="109" column="41" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1549976253961">
-        <mark key="'" line="951" column="97" />
-        <mark key="[" line="482" column="0" />
-        <mark key="]" line="482" column="0" />
-        <mark key="^" line="941" column="3" />
-        <mark key="." line="482" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1549981526032">
+        <mark key="'" line="971" column="2" />
+        <mark key="[" line="958" column="0" />
+        <mark key="]" line="958" column="0" />
+        <mark key="^" line="969" column="12" />
+        <mark key="." line="958" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Booking.java" timestamp="1549619963052">
         <mark key="'" line="0" column="0" />
@@ -200,8 +200,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="229" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="277" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="167" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="190" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="196" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -291,7 +289,6 @@
       <jump line="281" column="78" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="931" column="11" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="930" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="482" column="48" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="942" column="46" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="266" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="290" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -300,10 +297,13 @@
       <jump line="949" column="9" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="955" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="953" column="97" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="482" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="941" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="971" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>PriocheckBean</text>
+        <text>passenger</text>
       </register>
       <register name="-" type="4">
         <text>CONFIRMATION_STATUS.NEW.toString()</text>
@@ -312,40 +312,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>passenger.setConfirmationStatus();</text>
+        <text encoding="base64">ICBwcml2YXRlIHZvaWQgYWRkQ29uZmlybWF0aW9uU3RhdHVzVG9QYXNzZW5nZXJzKFNlcnZpY2VNZXNzYWdlIHhtbEFuc3dlcikgewoKICAgIFBhc3NlbmdlcnMgcGFzc2VuZ2VycyA9IHhtbEFuc3dlci5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0RW1iYXJrYXRpb25EYXRhKCkuZ2V0Qm9va2luZygpLmdldFBhc3NlbmdlcnMoKTsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgcGFzc2VuZ2Vycy5nZXRQYXNzZW5nZXJDb3VudCgpOyBpKyspIHsKICAgICAgUGFzc2VuZ2VyIHBhc3NlbmdlciA9IHBhc3NlbmdlcnMuZ2V0UGFzc2VuZ2VyKGkpOwogICAgICBQcmlvY2hlY2tCZWFuIHByaW9jaGVja0JlYW4gPSBudWxsOwogICAgICB0cnkgewogICAgICAgIHByaW9jaGVja0JlYW4gPSBmZXRjaFByaW9yaXR5Q2hlY2socGFzc2VuZ2VyLmdldEJvb2tJRCgpKTsKICAgICAgfSBjYXRjaCAoREFPRXhjZXB0aW9uIGUpIHsKICAgICAgICBoYW5kbGVFcnJvcihlLmdldE1lc3NhZ2UoKSk7CiAgICAgIH0KICAgICAgaWYgKHByaW9jaGVja0JlYW4gPT0gbnVsbCkgcGFzc2VuZ2VyLnNldENvbmZpcm1hdGlvblN0YXR1cyhDT05GSVJNQVRJT05fU1RBVFVTLk5FVy50b1N0cmluZygpKTsKICAgICAgcGFzc2VuZ2VyLnNldENvbmZpcm1hdGlvblN0YXR1cyhwcmlvY2hlY2tCZWFuLmdldFByaVN0YXR1cygpKTsKICAgIH0KICB9</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>passenger</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>passenger</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>passenger</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text>getPassenger</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>passengers</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICBwYXNzZW5nZXIuc2V0Q29uZmlybWF0aW9uU3RhdHVzKCk7Cg==</text>
+      <register name="7" type="4">
+        <text>passenger</text>
       </register>
       <register name="x" type="4">
-        <text>PriocheckBean</text>
+        <text>passenger</text>
       </register>
       <register name="8" type="4">
-        <text>PriocheckBean</text>
+        <text>Passenger</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICBpZiAocHJpb2NoZQo=</text>
+      <register name="9" type="4">
+        <text>getPassengerCount</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -375,11 +375,11 @@
         <entry>action AceAction</entry>
         <entry>action Find</entry>
         <entry>action RenameElement</entry>
-        <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
