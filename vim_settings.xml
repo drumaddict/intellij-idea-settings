@@ -15,7 +15,7 @@
         <mark key="^" line="119" column="16" />
         <mark key="." line="119" column="16" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/ITE_ENQ_TICKET_REQUEST.xml" timestamp="1550059920467">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/ITE_ENQ_TICKET_REQUEST.xml" timestamp="1550063906197">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="89" column="16" />
@@ -108,7 +108,7 @@
         <mark key="^" line="51" column="42" />
         <mark key="." line="51" column="42" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/ITE_ENQ_TICKET_REQUEST_EFFECTIVE.xml" timestamp="1550051490715">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/ITE_ENQ_TICKET_REQUEST_EFFECTIVE.xml" timestamp="1550061981999">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="46" column="16" />
@@ -170,12 +170,11 @@
         <mark key="[" line="66" column="0" />
         <mark key="]" line="109" column="41" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1550057323829">
-        <mark key="'" line="534" column="6" />
-        <mark key="[" line="576" column="61" />
-        <mark key="]" line="577" column="5" />
-        <mark key="^" line="577" column="5" />
-        <mark key="." line="577" column="5" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1550064667260">
+        <mark key="'" line="982" column="4" />
+        <mark key="[" line="982" column="0" />
+        <mark key="]" line="982" column="0" />
+        <mark key="." line="982" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Booking.java" timestamp="1549619963052">
         <mark key="'" line="0" column="0" />
@@ -196,7 +195,7 @@
         <mark key="." line="3" column="1" />
         <mark key="^" line="3" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1550059588500">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1550063681940">
         <mark key="'" line="192" column="20" />
         <mark key="[" line="192" column="21" />
         <mark key="]" line="192" column="57" />
@@ -204,7 +203,7 @@
         <mark key="." line="192" column="57" />
         <mark key="n" line="227" column="37" />
       </file>
-      <file name="/fragment.java" timestamp="1550059566583">
+      <file name="/fragment.java" timestamp="1550064204904">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="37" />
@@ -218,13 +217,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="157" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="141" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="161" column="58" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="144" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="166" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="187" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="176" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="150" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="170" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="218" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -318,10 +310,17 @@
       <jump line="534" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="63" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="192" column="20" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
+      <jump line="981" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="963" column="72" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="964" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="962" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="982" column="121" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="979" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="983" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>&quot;Could not generate TICKET_ENQUIRY response&quot;</text>
+        <text>passengers</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -329,38 +328,38 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICBjb21wYW55Q29kZSA9IHJlcVhNTC5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0SXRpbmVyYXJ5RGF0YVEoKS5nZXRDb21wYW55Q29kZSgpOwo=</text>
+      <register name="0" type="4">
+        <text>Vehicles vehicles = xmlAnswer.getServiceBody().getMessageData().getEmbarkationData().getBooking().getVehicles();</text>
       </register>
-      <register name="1" type="4">
-        <text>&quot;Could not generate TICKET_ENQUIRY response&quot;</text>
-      </register>
-      <register name="2" type="2">
+      <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIFBhc3NlbmdlcnMgcGFzc2VuZ2VycyA9IHhtbEFuc3dlci5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0RW1iYXJrYXRpb25EYXRhKCkuZ2V0Qm9va2luZygpLmdldFBhc3NlbmdlcnMoKTsK</text>
+      </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRiRXJyU3RyID0gX2RiRXJyU3RyOwo=</text>
+        <text encoding="base64">ICAgIFZlaGljbGVzIHZlaGljbGVzID0geG1sQW5zd2VyLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRFbWJhcmthdGlvbkRhdGEoKS5nZXRCb29raW5nKCkuZ2V0VmVoaWNsZXMoKTsK</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGlmIChfZGJFcnJTdHIgPT0gbnVsbCApIGRiRXJyU3RyID0gIlNlcnZlciBFcnJvci4gUG9zc2libHkgTnVsbCBQb2ludGVyIEV4Y2VwdGlvbiIgOwo=</text>
+        <text encoding="base64">Ly8gICAgUGFzc2VuZ2VycyBwYXNzZW5nZXJzID0geG1sQW5zd2VyLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRFbWJhcmthdGlvbkRhdGEoKS5nZXRCb29raW5nKCkuZ2V0UGFzc2VuZ2VycygpOwo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>passengers</text>
       </register>
       <register name="x" type="4">
-        <text>&quot;Could not generate TICKET_ENQUIRY response&quot;</text>
+        <text>passengers</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgcmV0dXJuIGhhbmRsZUVycm9yKGl0aW5lcmFyaWVzRW5xdWlyeS5nZXREYkVyclN0cigpKTsK</text>
+      <register name="9" type="4">
+        <text>&quot;Could not generate TICKET_ENQUIRY response&quot;</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -392,14 +391,14 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
         <entry>action AceAction</entry>
         <entry>action RenameElement</entry>
-        <entry>action ReformatCode</entry>
         <entry>action $SelectAll</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
         <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
