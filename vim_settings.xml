@@ -194,15 +194,15 @@
         <mark key="." line="3" column="1" />
         <mark key="^" line="3" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1550135530837">
-        <mark key="'" line="193" column="8" />
-        <mark key="[" line="294" column="61" />
-        <mark key="]" line="294" column="60" />
-        <mark key="^" line="294" column="60" />
-        <mark key="." line="294" column="60" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1550136995751">
+        <mark key="'" line="284" column="66" />
+        <mark key="[" line="284" column="10" />
+        <mark key="]" line="284" column="12" />
+        <mark key="^" line="284" column="12" />
+        <mark key="." line="284" column="12" />
         <mark key="n" line="228" column="37" />
       </file>
-      <file name="/fragment.java" timestamp="1550134493390">
+      <file name="/fragment.java" timestamp="1550136751692">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="9" />
@@ -216,9 +216,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="206" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="209" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="212" column="38" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="214" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="232" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="224" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -316,10 +313,13 @@
       <jump line="69" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="245" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" />
       <jump line="353" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="283" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
+      <jump line="285" column="25" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
+      <jump line="284" column="66" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>itineraryList</text>
+        <text>String</text>
       </register>
       <register name="-" type="4">
         <text>i</text>
@@ -327,41 +327,41 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
+      <register name="0" type="4">
+        <text>crFields.getDepartureDate().trim().substring(0, 4)</text>
+      </register>
+      <register name="1" type="4">
+        <text>String</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgbmRhdGUgPSAoSW50ZWdlci5wYXJzZUludChjckZpZWxkcy5nZXREZXBhcnR1cmVEYXRlKCkudHJpbSgpLnN1YnN0cmluZygwLCA0KSArICItIiArIGNyRmllbGRzLmdldERlcGFydHVyZURhdGUoKS50cmltKCkuc3Vic3RyaW5nKDQsIDYpIC0gMSkpICsgIi0iICsgY3JGaWVsZHMuZ2V0RGVwYXJ0dXJlRGF0ZSgpLnRyaW0oKS5zdWJzdHJpbmcoNiwgOCk7Cg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgSXRpbmVyYXJ5RGF0YSBpdGluZXJhcnlEYXRhID0gaXRpbmVyYXJ5TGlzdC5nZXRJdGluZXJhcnlEYXRhKGkpOwo=</text>
-      </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgSXRpbmVyYXJ5RGF0YSBpdGluZXJhcnlEYXRhID0gaXRpbmVyYXJ5TGlzdC5nZXRJdGluZXJhcnlEYXRhKGkpOwo=</text>
-      </register>
-      <register name="2" type="4">
-        <text>itineraryList</text>
-      </register>
-      <register name="3" type="4">
-        <text>itineraryData</text>
       </register>
       <register name="4" type="4">
-        <text>ItineraryData</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">QWRkZWQgQ29uZmlybWF0aW9uUGFzcyB0byBWZWhpY2xlCg==</text>
-      </register>
-      <register name="7" type="4">
-        <text>Statistics</text>
-      </register>
-      <register name="x" type="4">
         <text>itineraryList</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgIAo=</text>
+      <register name="5" type="4">
+        <text>itineraryData</text>
       </register>
-      <register name="9" type="2">
+      <register name="6" type="4">
+        <text>ItineraryData</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="x" type="4">
+        <text>String</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">QWRkZWQgQ29uZmlybWF0aW9uUGFzcyB0byBWZWhpY2xlCg==</text>
+      </register>
+      <register name="9" type="4">
+        <text>Statistics</text>
+      </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -393,9 +393,9 @@
         <entry>action Find</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -445,6 +445,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>shift pressed ENTER</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
