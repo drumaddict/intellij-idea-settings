@@ -95,12 +95,11 @@
       <file name="/Dummy.txt" timestamp="1550067163581">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1550131311290">
-        <mark key="'" line="353" column="6" />
-        <mark key="[" line="361" column="94" />
-        <mark key="]" line="361" column="112" />
-        <mark key="." line="361" column="112" />
-        <mark key="^" line="361" column="112" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1550134009513">
+        <mark key="[" line="354" column="62" />
+        <mark key="]" line="354" column="60" />
+        <mark key="." line="354" column="60" />
+        <mark key="^" line="354" column="60" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Statistics.java" timestamp="1549622277423">
         <mark key="'" line="72" column="0" />
@@ -195,7 +194,7 @@
         <mark key="." line="3" column="1" />
         <mark key="^" line="3" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1550069952365">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1550135530837">
         <mark key="'" line="193" column="8" />
         <mark key="[" line="294" column="61" />
         <mark key="]" line="294" column="60" />
@@ -203,12 +202,12 @@
         <mark key="." line="294" column="60" />
         <mark key="n" line="228" column="37" />
       </file>
-      <file name="/fragment.java" timestamp="1550129207078">
+      <file name="/fragment.java" timestamp="1550134493390">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="37" />
-        <mark key="^" line="2" column="7" />
-        <mark key="." line="0" column="37" />
+        <mark key="]" line="0" column="9" />
+        <mark key="^" line="0" column="9" />
+        <mark key="." line="0" column="9" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/FerryCompanyR/descriptors/PassengerDescriptor.java" timestamp="1549963139732">
         <mark key="'" line="222" column="0" />
@@ -331,38 +330,38 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgSXRpbmVyYXJ5RGF0YSBpdGluZXJhcnlEYXRhID0gaXRpbmVyYXJ5TGlzdC5nZXRJdGluZXJhcnlEYXRhKGkpOwo=</text>
       </register>
-      <register name="1" type="4">
-        <text>itineraryList</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgSXRpbmVyYXJ5RGF0YSBpdGluZXJhcnlEYXRhID0gaXRpbmVyYXJ5TGlzdC5nZXRJdGluZXJhcnlEYXRhKGkpOwo=</text>
       </register>
       <register name="2" type="4">
-        <text>itineraryData</text>
+        <text>itineraryList</text>
       </register>
       <register name="3" type="4">
+        <text>itineraryData</text>
+      </register>
+      <register name="4" type="4">
         <text>ItineraryData</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">QWRkZWQgQ29uZmlybWF0aW9uUGFzcyB0byBWZWhpY2xlCg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>Statistics</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgIAo=</text>
       </register>
       <register name="x" type="4">
         <text>itineraryList</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgcmV0dXJuIGhhbmRsZUVycm9yKGl0aW5lcmFyaWVzRW5xdWlyeS5nZXREYkVyclN0cigpKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -391,12 +390,12 @@
         <entry>action SplitVertically</entry>
         <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
