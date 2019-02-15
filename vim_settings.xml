@@ -3,10 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" timestamp="1549963168931">
-        <mark key="'" line="636" column="4" />
-        <mark key="[" line="58" column="4" />
-        <mark key="]" line="61" column="36" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" timestamp="1550230490200">
+        <mark key="'" line="876" column="1" />
+        <mark key="[" line="876" column="1" />
+        <mark key="]" line="897" column="2" />
+        <mark key="." line="896" column="24" />
+        <mark key="^" line="896" column="15" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/SailingDescriptor.java" timestamp="1549893718320">
         <mark key="'" line="116" column="41" />
@@ -21,15 +23,22 @@
         <mark key="]" line="89" column="16" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Vehicle.java" timestamp="1550230501435">
+        <mark key="'" line="621" column="2" />
+        <mark key="[" line="600" column="2" />
+        <mark key="]" line="621" column="3" />
+        <mark key="." line="600" column="2" />
+        <mark key="^" line="623" column="1" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/TripData.java" timestamp="1549893228973">
         <mark key="'" line="588" column="4" />
         <mark key="[" line="588" column="4" />
         <mark key="]" line="592" column="4" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1550129281563">
-        <mark key="'" line="244" column="10" />
-        <mark key="[" line="244" column="10" />
-        <mark key="]" line="244" column="11" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1550228703550">
+        <mark key="'" line="207" column="0" />
+        <mark key="[" line="207" column="0" />
+        <mark key="]" line="212" column="51" />
         <mark key="." line="244" column="11" />
         <mark key="^" line="244" column="11" />
       </file>
@@ -88,7 +97,7 @@
         <mark key="[" line="583" column="0" />
         <mark key="]" line="592" column="4" />
       </file>
-      <file name="/Dummy.txt" timestamp="1550227697148">
+      <file name="/Dummy.txt" timestamp="1550230552017">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -128,12 +137,11 @@
         <mark key="." line="110" column="0" />
         <mark key="^" line="112" column="54" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1550217388150">
-        <mark key="'" line="164" column="15" />
-        <mark key="[" line="162" column="64" />
-        <mark key="]" line="163" column="35" />
-        <mark key="^" line="163" column="35" />
-        <mark key="." line="163" column="35" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1550228729763">
+        <mark key="[" line="143" column="0" />
+        <mark key="]" line="143" column="0" />
+        <mark key="." line="143" column="0" />
+        <mark key="n" line="145" column="39" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/HostInfo.java" timestamp="1549632985100">
         <mark key="'" line="0" column="0" />
@@ -151,6 +159,13 @@
         <mark key="]" line="5" column="25" />
         <mark key="^" line="5" column="25" />
         <mark key="." line="5" column="25" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/VehicleDescriptor.java" timestamp="1550230446852">
+        <mark key="'" line="914" column="37" />
+        <mark key="[" line="844" column="27" />
+        <mark key="]" line="844" column="32" />
+        <mark key="." line="844" column="32" />
+        <mark key="^" line="844" column="32" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" timestamp="1549624553448">
         <mark key="'" line="140" column="8" />
@@ -197,6 +212,13 @@
         <mark key="^" line="142" column="6" />
         <mark key="." line="142" column="6" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/PassengerDescriptor.java" timestamp="1550230317448">
+        <mark key="'" line="1454" column="0" />
+        <mark key="[" line="1454" column="0" />
+        <mark key="]" line="1530" column="37" />
+        <mark key="^" line="1522" column="36" />
+        <mark key="." line="1522" column="36" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/BlockingExecutor.java" timestamp="1550143934467">
         <mark key="'" line="63" column="0" />
         <mark key="[" line="13" column="0" />
@@ -208,10 +230,10 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="268" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1549538187538">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1550229163346">
         <mark key="'" line="23" column="2" />
-        <mark key="[" line="23" column="2" />
-        <mark key="]" line="29" column="4" />
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="35" column="3" />
         <mark key="^" line="35" column="3" />
         <mark key="." line="35" column="3" />
       </file>
@@ -244,30 +266,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="527" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="530" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="533" column="5" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="537" column="95" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="534" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="63" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="192" column="20" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
-      <jump line="981" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="963" column="72" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="964" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="962" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="982" column="121" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="979" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="983" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="62" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="31" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="73" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="476" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="461" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="193" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
-      <jump line="49" column="36" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
-      <jump line="52" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
-      <jump line="62" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
-      <jump line="61" column="71" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="60" column="71" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="69" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="245" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" />
@@ -344,10 +342,34 @@
       <jump line="975" column="73" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="974" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="1003" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="207" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" />
+      <jump line="148" column="51" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
+      <jump line="959" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="218" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="227" column="48" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="230" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="644" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="407" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="426" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="424" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="864" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="885" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="897" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="1409" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/PassengerDescriptor.java" />
+      <jump line="1491" column="42" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/PassengerDescriptor.java" />
+      <jump line="1530" column="37" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/PassengerDescriptor.java" />
+      <jump line="222" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="162" column="33" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Vehicle.java" />
+      <jump line="1454" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/PassengerDescriptor.java" />
+      <jump line="912" column="37" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/VehicleDescriptor.java" />
+      <jump line="416" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="431" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Vehicle.java" />
+      <jump line="876" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Passenger.java" />
+      <jump line="621" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Vehicle.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>passenger</text>
+        <text>Passenger</text>
       </register>
       <register name="-" type="4">
         <text>passenger.setConfirmationStatus(CONFIRMATION_STATUS.NEW.toString()</text>
@@ -356,45 +378,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>if (priocheckBean == null) {
-        passenger.setConfirmationStatus(CONFIRMATION_STATUS.NEW.toString());
-      } else {
-        passenger.setConfirmationStatus(priocheckBean.getPriStatus());
-      }</text>
+        <text encoding="base64">IC8qKgogICAqIFNldHMgdGhlIHZhbHVlIG9mIGZpZWxkICdlbWFpbCcuCiAgICoKICAgKiBAcGFyYW0gZW1haWwgdGhlIHZhbHVlIG9mIGZpZWxkCiAgICogICAgICAgICAgICAgICAgICAgICAgICAgICAnZW1haWwnLgogICAqLwogIHB1YmxpYyB2b2lkIHNldEVtYWlsKAogICAgICAgICAgZmluYWwgamF2YS5sYW5nLlN0cmluZyBlbWFpbCkgewogICAgdGhpcy5fZW1haWwgPSBlbWFpbDsKICB9CgoKICAvKioKICAgKiBTZXRzIHRoZSB2YWx1ZSBvZiBmaWVsZCAnbW9iaWxlJy4KICAgKgogICAqIEBwYXJhbSBtb2JpbGUgdGhlIHZhbHVlIG9mIGZpZWxkCiAgICogICAgICAgICAgICAgICAgICAgICAgICAgICAnbW9iaWxlJy4KICAgKi8KICBwdWJsaWMgdm9pZCBzZXRNb2JpbGUoCiAgICAgICAgICBmaW5hbCBqYXZhLmxhbmcuU3RyaW5nIG1vYmlsZSkgewogICAgdGhpcy5fbW9iaWxlID0gbW9iaWxlOwogIH0=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+      <register name="1" type="4">
+        <text>Passenger</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+      <register name="2" type="4">
+        <text>Passenger</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+      <register name="4" type="4">
+        <text>confirmationStatus</text>
       </register>
       <register name="5" type="4">
-        <text>passenger</text>
+        <text>etEmail</text>
       </register>
       <register name="6" type="4">
-        <text>passenger</text>
+        <text>getEmail</text>
       </register>
       <register name="7" type="4">
-        <text>if (priocheckBean == null) vehicle.setConfirmationStatus(CONFIRMATION_STATUS.NEW.toString());
-      vehicle.setConfirmationStatus(priocheckBean.getPriStatus());</text>
+        <text>Email</text>
       </register>
       <register name="x" type="4">
-        <text>passenger</text>
+        <text>Passenger</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">UmVzdWx0U2V0IHJlcGx5TWVzc2FnZSA9IHJlcGx5c3RtdC5leGVjdXRlUXVlcnkoIlNFTEVDVCAqIGZyb20gUkVQTFlNQUlMIHdoZXJlIFBBUkVOVE1FU1NBR0VJRCA9ICciICsgcGFyZW50TWVzc2FnZS5nZXRTdHJpbmcoIk1FU1NBR0VJRCIpICsgIiciKTsK</text>
+      <register name="8" type="4">
+        <text>email</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIFN0YXRlbWVudCByZXBseXN0bXQgPSBjb25uZWN0aW9uLmNyZWF0ZVN0YXRlbWVudChSZXN1bHRTZXQuVFlQRV9TQ1JPTExfSU5TRU5TSVRJVkUsIFJlc3VsdFNldC5DT05DVVJfUkVBRF9PTkxZKTsK</text>
+      <register name="9" type="4">
+        <text>confirmationStatus</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</text>
       </register>
     </registers>
     <search>
@@ -414,21 +431,21 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
         <entry>action AceAction</entry>
         <entry>action RenameElement</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
         <entry>action SplitVertically</entry>
         <entry>action OptimizeImports</entry>
         <entry>action SurroundWith</entry>
-        <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action Find</entry>
         <entry>action $SelectAll</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
+        <entry>action NextTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
       </history-cmd>
       <history-expr />
       <history-input />
