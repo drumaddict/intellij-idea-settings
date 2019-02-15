@@ -88,8 +88,10 @@
         <mark key="[" line="583" column="0" />
         <mark key="]" line="592" column="4" />
       </file>
-      <file name="/Dummy.txt" timestamp="1550137931044">
+      <file name="/Dummy.txt" timestamp="1550227697148">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1550148370973">
         <mark key="'" line="13" column="2" />
@@ -181,11 +183,12 @@
         <mark key="[" line="66" column="0" />
         <mark key="]" line="109" column="41" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1550064667260">
-        <mark key="'" line="982" column="4" />
-        <mark key="[" line="982" column="0" />
-        <mark key="]" line="982" column="0" />
-        <mark key="." line="982" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1550227604858">
+        <mark key="'" line="1000" column="6" />
+        <mark key="[" line="1001" column="0" />
+        <mark key="]" line="1001" column="0" />
+        <mark key="." line="1001" column="0" />
+        <mark key="^" line="997" column="14" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/portcontrol/Main.java" timestamp="1550215979149">
         <mark key="'" line="58" column="16" />
@@ -227,7 +230,6 @@
         <mark key="." line="247" column="87" />
         <mark key="n" line="228" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/AlertlineManager.java" timestamp="1550224216190" />
       <file name="/fragment.java" timestamp="1550219501322">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
@@ -242,9 +244,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="498" column="33" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="526" column="30" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
-      <jump line="528" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="527" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="530" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
       <jump line="533" column="5" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
@@ -342,49 +341,57 @@
       <jump line="110" column="145" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="108" column="53" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="113" column="115" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="975" column="73" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="974" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
+      <jump line="1003" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY</text>
+        <text>passenger</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHByb2Nlc3MoUHJvcGVydGllcyBwcm9wcykgew==</text>
+        <text>passenger.setConfirmationStatus(CONFIRMATION_STATUS.NEW.toString()</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY</text>
+        <text>if (priocheckBean == null) {
+        passenger.setConfirmationStatus(CONFIRMATION_STATUS.NEW.toString());
+      } else {
+        passenger.setConfirmationStatus(priocheckBean.getPriStatus());
+      }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">UmVzdWx0U2V0IHJlcGx5TWVzc2FnZSA9IHJlcGx5c3RtdC5leGVjdXRlUXVlcnkoIlNFTEVDVCAqIGZyb20gUkVQTFlNQUlMIHdoZXJlIFBBUkVOVE1FU1NBR0VJRCA9ICciICsgcGFyZW50TWVzc2FnZS5nZXRTdHJpbmcoIk1FU1NBR0VJRCIpICsgIiciKTsK</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIFN0YXRlbWVudCByZXBseXN0bXQgPSBjb25uZWN0aW9uLmNyZWF0ZVN0YXRlbWVudChSZXN1bHRTZXQuVFlQRV9TQ1JPTExfSU5TRU5TSVRJVkUsIFJlc3VsdFNldC5DT05DVVJfUkVBRF9PTkxZKTsK</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="3" type="4">
-        <text>ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">ICAgICAgICBpZiAoKG1pZCA9IGZldGNoQnVmZmVyUm93KGRiY29uKSkgPiAwKSB7CiAgICAgICAgICB4bWxTdHJpbmcgPSBmZXRjaFhNTChkYmNvbiwgbWlkKTsKICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbih4bWxTdHJpbmcpOwogICAgICAgICAgcmVtb3ZlRnJvbUJ1ZmZlcihkYmNvbiwgbWlkKTsKICAgICAgICAgIHVwZGF0ZVN0YXR1cyhkYmNvbiwgbWlkKTsKICAgICAgICB9</text>
+        <text>passenger</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgZGJjb24gPSBNYW5hZ2VyLmdldEluc3RhbmNlKCkuYmVnaW5UcmFuc2FjdGlvbigpOwo=</text>
+      <register name="6" type="4">
+        <text>passenger</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>if (priocheckBean == null) vehicle.setConfirmationStatus(CONFIRMATION_STATUS.NEW.toString());
+      vehicle.setConfirmationStatus(priocheckBean.getPriStatus());</text>
       </register>
       <register name="x" type="4">
-        <text>ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY</text>
+        <text>passenger</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">aWYgKChtaWQgPSBmZXRjaEJ1ZmZlclJvdyhkYmNvbikpID4gMCkgewogICAgICAgICAgeG1sU3RyaW5nID0gZmV0Y2hYTUwoZGJjb24sIG1pZCk7CiAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oeG1sU3RyaW5nKTsKICAgICAgICAgIHJlbW92ZUZyb21CdWZmZXIoZGJjb24sIG1pZCk7CiAgICAgICAgICB1cGRhdGVTdGF0dXMoZGJjb24sIG1pZCk7</text>
+      <register name="8" type="2">
+        <text encoding="base64">UmVzdWx0U2V0IHJlcGx5TWVzc2FnZSA9IHJlcGx5c3RtdC5leGVjdXRlUXVlcnkoIlNFTEVDVCAqIGZyb20gUkVQTFlNQUlMIHdoZXJlIFBBUkVOVE1FU1NBR0VJRCA9ICciICsgcGFyZW50TWVzc2FnZS5nZXRTdHJpbmcoIk1FU1NBR0VJRCIpICsgIiciKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgIFN0YXRlbWVudCByZXBseXN0bXQgPSBjb25uZWN0aW9uLmNyZWF0ZVN0YXRlbWVudChSZXN1bHRTZXQuVFlQRV9TQ1JPTExfSU5TRU5TSVRJVkUsIFJlc3VsdFNldC5DT05DVVJfUkVBRF9PTkxZKTsK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -418,9 +425,9 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Find</entry>
         <entry>action $SelectAll</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ToggleLineBreakpoint</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
