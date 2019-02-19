@@ -110,12 +110,11 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1550498973278">
-        <mark key="'" line="184" column="4" />
-        <mark key="[" line="183" column="24" />
-        <mark key="]" line="183" column="20" />
-        <mark key="." line="183" column="20" />
-        <mark key="^" line="183" column="20" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1550560567830">
+        <mark key="[" line="37" column="6" />
+        <mark key="]" line="37" column="4" />
+        <mark key="." line="37" column="4" />
+        <mark key="^" line="37" column="4" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Statistics.java" timestamp="1549622277423">
         <mark key="'" line="72" column="0" />
@@ -150,7 +149,6 @@
         <mark key="[" line="1912" column="0" />
         <mark key="]" line="1912" column="54" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/dist/nohup.out" timestamp="1550502351460" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/BoardPassData.java" timestamp="1550487772211">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -266,8 +264,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="163" column="45" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="1914" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="179" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="181" column="13" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="170" column="19" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
@@ -366,10 +362,12 @@
       <jump line="120" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="187" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" />
       <jump line="255" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" />
+      <jump line="101" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="28" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>BoardPassData</text>
+        <text>N</text>
       </register>
       <register name="-" type="4">
         <text>n</text>
@@ -380,38 +378,38 @@
       <register name="0" type="4">
         <text encoding="base64">ICAgICAgICAvLy0tIF9ib2FyZFBhc3NEYXRhCiAgICAgICAgZGVzYyA9IG5ldyBvcmcuZXhvbGFiLmNhc3Rvci54bWwudXRpbC5YTUxGaWVsZERlc2NyaXB0b3JJbXBsKHhtbC5tZXNzYWdlcy5TZXJ2aWNlTWVzc2FnZS5Cb2FyZFBhc3NEYXRhLmNsYXNzLCAiX2JvYXJkUGFzc0RhdGEiLCAiQm9hcmRQYXNzRGF0YSIsIG9yZy5leG9sYWIuY2FzdG9yLnhtbC5Ob2RlVHlwZS5FbGVtZW50KTsKICAgICAgICBoYW5kbGVyID0gbmV3IG9yZy5leG9sYWIuY2FzdG9yLnhtbC5YTUxGaWVsZEhhbmRsZXIoKSB7CiAgICAgICAgICAgIHB1YmxpYyBqYXZhLmxhbmcuT2JqZWN0IGdldFZhbHVlKCBqYXZhLmxhbmcuT2JqZWN0IG9iamVjdCApIAogICAgICAgICAgICAgICAgdGhyb3dzIElsbGVnYWxTdGF0ZUV4Y2VwdGlvbgogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBFbWJhcmthdGlvbkRhdGEgdGFyZ2V0ID0gKEVtYmFya2F0aW9uRGF0YSkgb2JqZWN0OwogICAgICAgICAgICAgICAgcmV0dXJuIHRhcmdldC5nZXRCb2FyZFBhc3NEYXRhKCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcHVibGljIHZvaWQgc2V0VmFsdWUoIGphdmEubGFuZy5PYmplY3Qgb2JqZWN0LCBqYXZhLmxhbmcuT2JqZWN0IHZhbHVlKSAKICAgICAgICAgICAgICAgIHRocm93cyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24sIElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbgogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIEVtYmFya2F0aW9uRGF0YSB0YXJnZXQgPSAoRW1iYXJrYXRpb25EYXRhKSBvYmplY3Q7CiAgICAgICAgICAgICAgICAgICAgdGFyZ2V0LnNldEJvYXJkUGFzc0RhdGEoICh4bWwubWVzc2FnZXMuU2VydmljZU1lc3NhZ2UuQm9hcmRQYXNzRGF0YSkgdmFsdWUpOwogICAgICAgICAgICAgICAgfSBjYXRjaCAoamF2YS5sYW5nLkV4Y2VwdGlvbiBleCkgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oZXgudG9TdHJpbmcoKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcHVibGljIGphdmEubGFuZy5PYmplY3QgbmV3SW5zdGFuY2UoamF2YS5sYW5nLk9iamVjdCBwYXJlbnQpIHsKICAgICAgICAgICAgICAgIHJldHVybiBuZXcgeG1sLm1lc3NhZ2VzLlNlcnZpY2VNZXNzYWdlLkJvYXJkUGFzc0RhdGEoKTsKICAgICAgICAgICAgfQogICAgICAgIH07CiAgICAgICAgZGVzYy5zZXRTY2hlbWFUeXBlKCJ4bWwubWVzc2FnZXMuU2VydmljZU1lc3NhZ2UuQm9hcmRQYXNzRGF0YSIpOwogICAgICAgIGRlc2Muc2V0SGFuZGxlcihoYW5kbGVyKTsKICAgICAgICBkZXNjLnNldE11bHRpdmFsdWVkKGZhbHNlKTsKICAgICAgICBhZGRGaWVsZERlc2NyaXB0b3IoZGVzYyk7CiAgICAgICAgYWRkU2VxdWVuY2VFbGVtZW50KGRlc2MpOwogICAgICAgIAogICAgICAgIC8vLS0gdmFsaWRhdGlvbiBjb2RlIGZvcjogX2JvYXJkUGFzc0RhdGEKICAgICAgICBmaWVsZFZhbGlkYXRvciA9IG5ldyBvcmcuZXhvbGFiLmNhc3Rvci54bWwuRmllbGRWYWxpZGF0b3IoKTsKICAgICAgICB7IC8vLS0gbG9jYWwgc2NvcGUKICAgICAgICB9CiAgICAgICAgZGVzYy5zZXRWYWxpZGF0b3IoZmllbGRWYWxpZGF0b3IpOw==</text>
       </register>
-      <register name="1" type="4">
-        <text>BoardPassData</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIENPTkZJUk1FRAo=</text>
       </register>
       <register name="2" type="4">
-        <text>BoardPassData</text>
+        <text>N</text>
       </register>
       <register name="3" type="4">
-        <text>BoardPassData</text>
+        <text>TRANSFERRED</text>
       </register>
-      <register name="4" type="4">
-        <text>setBoardPassData</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIEMsCg==</text>
       </register>
       <register name="5" type="4">
         <text>BoardPassData</text>
       </register>
       <register name="6" type="4">
-        <text>getBoardPassData</text>
-      </register>
-      <register name="7" type="4">
-        <text>boardPassData</text>
-      </register>
-      <register name="x" type="4">
         <text>BoardPassData</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>BoardPassData</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="x" type="4">
+        <text>N</text>
+      </register>
+      <register name="8" type="4">
+        <text>setBoardPassData</text>
+      </register>
+      <register name="9" type="4">
+        <text>BoardPassData</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -436,16 +434,16 @@
         <entry>action NextTab</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action Replace</entry>
-        <entry>action RenameElement</entry>
-        <entry>action PreviousTab</entry>
         <entry>action AceAction</entry>
         <entry>action SurroundWith</entry>
-        <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action ReformatCode</entry>
+        <entry>action RenameElement</entry>
+        <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
