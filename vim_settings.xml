@@ -231,12 +231,12 @@
         <mark key="^" line="1522" column="36" />
         <mark key="." line="1522" column="36" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1550561927647">
-        <mark key="'" line="328" column="2" />
-        <mark key="[" line="115" column="8" />
-        <mark key="]" line="115" column="8" />
-        <mark key="." line="115" column="8" />
-        <mark key="^" line="330" column="1" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1550562205206">
+        <mark key="'" line="158" column="2" />
+        <mark key="[" line="58" column="1" />
+        <mark key="]" line="58" column="0" />
+        <mark key="." line="58" column="0" />
+        <mark key="^" line="58" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/ArithmeticUtilities.java" timestamp="1549633303769">
         <mark key="'" line="5" column="88" />
@@ -271,7 +271,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="205" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="150" column="3" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="213" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="212" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
@@ -371,6 +370,7 @@
       <jump line="172" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassCancel.java" />
       <jump line="249" column="5" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="331" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="158" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -403,25 +403,25 @@
   }</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">ICBwcml2YXRlIEl0aW5lcmFyeUxpc3QgYWRkU2FpbEF2YWlsYWJpbGl0eURhdGEobG9uZyBzYWlsaWQsIGxvbmcgaXRpbmlkKSB7CiAgICAvLyBBZGQgYXZhaWxhYmlsaXR5IC8gb2NjdXBhbmN5IC8gY2hlY2tpbi1jaGVja291dCByZWxhdGVkIGRhdGEuCiAgICBJdGluZW5xVndCZWFuIGl0aW5lcmFyeSA9IGZpbmRJdGluZXJhcnkoc2FpbGlkLCBpdGluaWQpOwogICAgSXRpbmVyYXJ5TGlzdCBpdGluZXJhcmllc2xzdCA9IG5ldyBJdGluZXJhcnlMaXN0KCk7CiAgICBJdGluZXJhcnlEYXRhIG5yb3cgPSBuZXcgSXRpbmVyYXJ5RGF0YSgpOwogICAgbnJvdy5zZXRBdmFpbGFibGVQYXNzZW5nZXJzKGl0aW5lcmFyeS5nZXRQYXNhdmFpbCgpLmludFZhbHVlKCkpOwogICAgbnJvdy5zZXRBdmFpbGFibGVWZWhpY2xlcyhpdGluZXJhcnkuZ2V0VmVoYXZhaWwoKS5pbnRWYWx1ZSgpKTsKICAgIG5yb3cuc2V0T2NjdXBpZWRQYXNzZW5nZXJzKGl0aW5lcmFyeS5nZXRQYXNhdmFpbCgpLmludFZhbHVlKCkgLSBpdGluZXJhcnkuZ2V0UGFzcmVzdCgpLmludFZhbHVlKCkpOwovLyAgICAgICAgbnJvdy5zZXRPY2N1cGllZFZlaGljbGVzKGl0aW5lcmFyeS5nZXRWZWhhdmFpbCgpLmludFZhbHVlKCkgLSBpdGluZXJhcnkuZ2V0VmVocmVzdCgpLmludFZhbHVlKCkpOwogICAgbnJvdy5zZXRPY2N1cGllZFZlaGljbGVzKGl0aW5lcmFyeS5nZXRWZWhyZWdpc3RlcmVkKCkuaW50VmFsdWUoKSk7CiAgICBucm93LnNldFJlbWFpbmRlclBhc3NlbmdlcnMoaXRpbmVyYXJ5LmdldFBhc3Jlc3QoKS5pbnRWYWx1ZSgpKTsKICAgIG5yb3cuc2V0UmVtYWluZGVyVmVoaWNsZXMoaXRpbmVyYXJ5LmdldFZlaHJlc3QoKS5pbnRWYWx1ZSgpKTsKICAgIG5yb3cuc2V0Q2hlY2tlZEluUGFzc2VuZ2VycyhpdGluZXJhcnkuZ2V0UGFzY2hraW4oKS5pbnRWYWx1ZSgpKTsKICAgIG5yb3cuc2V0Q2hlY2tlZEluVmVoaWNsZXMoaXRpbmVyYXJ5LmdldFZlaGNoa2luKCkuaW50VmFsdWUoKSk7CiAgICBpdGluZXJhcmllc2xzdC5hZGRJdGluZXJhcnlEYXRhKG5yb3cpOwoKICAgIHJldHVybiBpdGluZXJhcmllc2xzdDsKICB9</text>
+      </register>
+      <register name="2" type="4">
         <text>ItinenqVwBean itinerary = findItinerary(itineraryBean.getSailId().longValue(), itineraryBean.getItinId().longValue());
         if ((itinerary.getItinAttr().substring(1, 2).compareTo(&quot;1&quot;)!=0) || (itinerary.getItinStatus().compareTo(&quot;2&quot;)!=0)) {
             throw new DataValidationException(15, reqXML.getServiceBody().getMessageData().getUserInfo().getLanguage());
         }</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ICAgIENPTkZJUk1FRAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>N</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>TRANSFERRED</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIEMsCg==</text>
-      </register>
-      <register name="6" type="4">
-        <text>BoardPassData</text>
       </register>
       <register name="7" type="4">
         <text>BoardPassData</text>
@@ -433,7 +433,7 @@
         <text>BoardPassData</text>
       </register>
       <register name="9" type="4">
-        <text>setBoardPassData</text>
+        <text>BoardPassData</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
