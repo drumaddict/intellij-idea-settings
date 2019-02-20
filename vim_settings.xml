@@ -93,7 +93,6 @@
         <mark key="." line="408" column="36" />
         <mark key="^" line="408" column="36" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/Utilities.java" timestamp="1550575488184" />
       <file name="/Dummy.txt" timestamp="1550576436333">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -114,7 +113,6 @@
         <mark key="^" line="51" column="42" />
         <mark key="." line="51" column="42" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/CONF_BUG_VEH..txt" timestamp="1550577506678" />
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/ITE_ENQ_TICKET_REQUEST_EFFECTIVE.xml" timestamp="1550061981999">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -234,13 +232,12 @@
         <mark key="^" line="1522" column="36" />
         <mark key="." line="1522" column="36" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/CONF_BUG_VEH_REQ.xml" timestamp="1550577786294" />
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1550589696453">
-        <mark key="'" line="81" column="4" />
-        <mark key="[" line="356" column="38" />
-        <mark key="]" line="356" column="37" />
-        <mark key="." line="356" column="37" />
-        <mark key="^" line="356" column="37" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1550647580983">
+        <mark key="'" line="388" column="0" />
+        <mark key="[" line="383" column="0" />
+        <mark key="]" line="386" column="3" />
+        <mark key="." line="386" column="3" />
+        <mark key="^" line="386" column="3" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/ArithmeticUtilities.java" timestamp="1549633303769">
         <mark key="'" line="5" column="88" />
@@ -275,7 +272,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="124" column="51" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="120" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="187" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" />
       <jump line="255" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" />
@@ -317,7 +313,6 @@
       <jump line="103" column="114" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="104" column="114" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="119" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="122" column="114" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="265" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="287" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="289" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
@@ -375,6 +370,8 @@
       <jump line="382" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="160" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="81" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="122" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="384" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -387,37 +384,66 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgaWYgKHZlaGljbGVzLnNpemUoKSA9PSAwKSByZXR1cm47Cg==</text>
+        <text encoding="base64">ICAgICAgLy8gVE9ETyBpbXBsZW1lbnQgUERGCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHhtbEFuc3dlci5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuc2V0RW1iYXJrYXRpb25EYXRhKG5ldyBFbWJhcmthdGlvbkRhdGEoKSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAodmVoaWNsZSA9PSBudWxsKSBjb250aW51ZTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>//  private void addConfirmationPassData() {
+//    ConfirmationPassData confirmationPassData = new ConfirmationPassData();
+//    for (Passenger passenger : passengers) {
+//
+//      updateConfirmationStatus();
+//      ConfirmationPass confirmationPass = new ConfirmationPass();
+//      confirmationPass.setBookID(passenger.getBookID());
+//      confirmationPass.setStatusCode(&quot;STATUS CODE&quot;);
+//      confirmationPass.setConfirmationID(100);
+//      confirmationPass.setStatusMessage(&quot;STATUS MESSAGE&quot;);
+//      confirmationPass.setBookType(EmbarkationItemType.P.toString());
+//      //TEST
+//      confirmationPass.setDataBinary(javax.xml.bind.DatatypeConverter.parseHexBinary(&quot;e04fd020ea3a6910a2d808002b30309d&quot;));
+//      confirmationPassData.addConfirmationPass(confirmationPass);
+//    }
+//    for (Vehicle vehicle : vehicles) {
+//
+//      updateConfirmationStatus();
+//      ConfirmationPass confirmationPass = new ConfirmationPass();
+//      confirmationPass.setBookID(vehicle.getBookID());
+//      confirmationPass.setStatusCode(&quot;STATUS CODE&quot;);
+//      confirmationPass.setConfirmationID(100);
+//      confirmationPass.setStatusMessage(&quot;STATUS MESSAGE&quot;);
+//      confirmationPass.setBookType(EmbarkationItemType.P.toString());
+//      confirmationPass.setDataBinary(javax.xml.bind.DatatypeConverter.parseHexBinary(&quot;e04fd020ea3a6910a2d808002b30309d&quot;));
+//      confirmationPassData.addConfirmationPass(confirmationPass);
+//    }
+//    xmlAnswer.getServiceBody().getMessageData().setEmbarkationData(new EmbarkationData());
+//    xmlAnswer.getServiceBody().getMessageData().getEmbarkationData().setConfirmationPassData(confirmationPassData);
+//  }</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Ly8gICByZXR1cm4gIG5ldyBQcmlvY2hlY2tCZWFuKCk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBtYW5hZ2VyLmNyZWF0ZVByaW9jaGVja0JlYW4oKTsK</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">ICAvLyBPbmx5IE5FVyBvciBDQU5DRUwgKE4sQykgc3RhdHVzZXMgYXJlIGFsbG93ZWQgZm9yIGlzc3VpbmcgYSBjb25maXJtYXRpb24gcGFzcwovLyAgcHJpdmF0ZSBib29sZWFuIGNyZWF0ZU9yVXBkYXRlQ29uZmlybWF0aW9uU3RhdHVzZXMoKSB7Ci8vICAgIGJvb2xlYW4gYWxsSGF2ZUNvbmZpcm1hdGlub25TdGF0dXNOZXdPckNhbmNlbGxlZCA9IGZhbHNlOwovLyAgICBWZWN0b3I8U3RyaW5nPiBjb25maXJtYXRpb25TdGF0dXNlcyA9IG5ldyBWZWN0b3I8U3RyaW5nPigpOwovLyAgICBDb25uZWN0aW9uIGRiY29uID0gbnVsbDsKLy8gICAgdHJ5IHsKLy8gICAgICBkYmNvbiA9IE1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5iZWdpblRyYW5zYWN0aW9uKCk7Ci8vICAgICAgdHJ5IHsKLy8gICAgICAgIGZldGNoQ29uZmlybWF0aW9uU3RhdHVzRm9yQm9va0lEcyhkYmNvbiwgcGFzc2VuZ2VyQW5kVmVoaWNsZUJvb2tJZHMoKSwgY29uZmlybWF0aW9uU3RhdHVzZXMpOwovLyAgICAgICAgYWxsSGF2ZUNvbmZpcm1hdGlub25TdGF0dXNOZXdPckNhbmNlbGxlZCA9IFZBTElEX1NUQVRVU0VTLmNvbnRhaW5zQWxsKGNvbmZpcm1hdGlvblN0YXR1c2VzKTsKLy8gICAgICB9IGNhdGNoIChTUUxFeGNlcHRpb24gc3FsZSkgewovLyAgICAgICAgc3FsZS5wcmludFN0YWNrVHJhY2UoKTsKLy8gICAgICB9IGZpbmFsbHkgewovLyAgICAgICAgTWFuYWdlci5nZXRJbnN0YW5jZSgpLmVuZFRyYW5zYWN0aW9uKHRydWUpOyAgLy8gPC0tLSBFTkQgT0YgVFJBTlNBQ1RJT046IENPTU1JVCBPUiBST0xMQkFDSyBJUyBET05FCi8vICAgICAgfQovLyAgICB9IGNhdGNoIChTUUxFeGNlcHRpb24gc3FsZSkgewovLyAgICAgIHNxbGUucHJpbnRTdGFja1RyYWNlKCk7Ci8vICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7Ci8vICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKLy8gICAgfQovLyAgICBpZiAoIWFsbEhhdmVDb25maXJtYXRpbm9uU3RhdHVzTmV3T3JDYW5jZWxsZWQpIHsKLy8gICAgICBkYkVSUk9SID0gdHJ1ZTsKLy8gICAgICBkYkVyclN0ciA9ICJPbmUgT3IgbW9yZSBwYXNzZW5nZXJzIG9yIHZlaGljbGVzIGhhdmUgbm90IGEgbmV3IG9yIGNhbmNlbGxlZCBjb25maXJtYXRpb24gc3RhdHVzIjsKLy8KLy8gICAgfQovLyAgICByZXR1cm4gYWxsSGF2ZUNvbmZpcm1hdGlub25TdGF0dXNOZXdPckNhbmNlbGxlZDsKLy8gIH0=</text>
       </register>
       <register name="x" type="4">
         <text>fetchEmbarkationItemWithConfirmationStatus</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHhtbEFuc3dlci5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuc2V0RW1iYXJrYXRpb25EYXRhKG5ldyBFbWJhcmthdGlvbkRhdGEoKSk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIFByaW9jaGVja01hbmFnZXIgbWFuYWdlciA9IFByaW9jaGVja01hbmFnZXIuZ2V0SW5zdGFuY2UoKTsK</text>
+        <text encoding="base64">ICAgICAgICBpZiAodmVoaWNsZSA9PSBudWxsKSBjb250aW51ZTsK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -435,9 +461,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action ToggleLineBreakpoint</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action $SelectAll</entry>
         <entry>action NextTab</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
@@ -449,14 +472,14 @@
         <entry>action PreviousTab</entry>
         <entry>action Forward</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action GotoFile</entry>
         <entry>action RenameElement</entry>
         <entry>action ReformatCode</entry>
         <entry>329</entry>
         <entry>action SurroundWith</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
