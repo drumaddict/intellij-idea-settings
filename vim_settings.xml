@@ -62,12 +62,12 @@
         <mark key="." line="219" column="27" />
         <mark key="^" line="219" column="27" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1550735420312">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1550736520609">
         <mark key="'" line="217" column="41" />
-        <mark key="[" line="132" column="0" />
-        <mark key="]" line="132" column="0" />
-        <mark key="^" line="156" column="29" />
-        <mark key="." line="132" column="0" />
+        <mark key="[" line="303" column="69" />
+        <mark key="]" line="303" column="72" />
+        <mark key="^" line="303" column="72" />
+        <mark key="." line="303" column="72" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/ConfirmationPassDescriptor.java" timestamp="1550493028413">
         <mark key="'" line="408" column="53" />
@@ -348,10 +348,10 @@
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>Vector</text>
+        <text>Availability</text>
       </register>
       <register name="-" type="4">
-        <text>K</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
@@ -359,14 +359,14 @@
       <register name="0" type="2">
         <text encoding="base64">Ly8gICAgICAgICAgICAgICAgYW5zd2VyTWVzc2FnZURhdGEuc2V0SXRpbmVyYXJ5TGlzdChhZGRTYWlsQXZhaWxhYmlsaXR5RGF0YSh2YlswXS5nZXRTYWlsSWQoKSwgdmJbMF0uZ2V0SXRpbklkKCkpKTsK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgYW5zd2VyTWVzc2FnZURhdGEuc2V0SXRpbmVyYXJ5TGlzdChhZGRTYWlsQXZhaWxhYmlsaXR5RGF0YSh2YlswXS5nZXRTYWlsSWQoKSwgdmJbMF0uZ2V0SXRpbklkKCkpKTsK</text>
+      <register name="1" type="4">
+        <text>Availability</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Ly8gICAgICAgICAgICAgICAgYW5zd2VyTWVzc2FnZURhdGEuc2V0SXRpbmVyYXJ5TGlzdChhZGRTYWlsQXZhaWxhYmlsaXR5RGF0YSh2YlswXS5nZXRTYWlsSWQoKSwgdmJbMF0uZ2V0SXRpbklkKCkpKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgYW5zd2VyTWVzc2FnZURhdGEuc2V0SXRpbmVyYXJ5TGlzdChhZGRTYWlsQXZhaWxhYmlsaXR5RGF0YSh2YlswXS5nZXRTYWlsSWQoKSwgdmJbMF0uZ2V0SXRpbklkKCkpKTsK</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -375,19 +375,19 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Ly8gICAgSXRpbmVucVZ3QmVhbiBpdGluZXJhcnkgPSBmaW5kSXRpbmVyYXJ5KHNhaWxpZCwgaXRpbmlkKTsK</text>
       </register>
-      <register name="7" type="4">
-        <text>Vector</text>
-      </register>
       <register name="x" type="4">
-        <text>Vector</text>
+        <text>Availability</text>
       </register>
       <register name="8" type="4">
         <text>Vector</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>Vector</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -408,7 +408,6 @@
         <entry>action Replace</entry>
         <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
-        <entry>action Forward</entry>
         <entry>329</entry>
         <entry>action SurroundWith</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
@@ -426,6 +425,7 @@
         <entry>action ReformatCode</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action Forward</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
