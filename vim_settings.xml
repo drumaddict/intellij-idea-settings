@@ -96,7 +96,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1550839322721">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1550842103197">
         <mark key="'" line="367" column="2" />
         <mark key="[" line="357" column="35" />
         <mark key="m" line="335" column="83" />
@@ -413,7 +413,7 @@
         <text>passenger</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -442,7 +442,6 @@
         <entry>action AceAction</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
@@ -450,6 +449,7 @@
         <entry>action Debug</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
