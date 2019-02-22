@@ -69,12 +69,12 @@
         <mark key="." line="219" column="27" />
         <mark key="^" line="219" column="27" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1550832828568">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1550835325010">
         <mark key="'" line="156" column="121" />
-        <mark key="[" line="285" column="67" />
-        <mark key="]" line="285" column="66" />
-        <mark key="." line="285" column="66" />
-        <mark key="^" line="285" column="66" />
+        <mark key="[" line="208" column="23" />
+        <mark key="]" line="208" column="22" />
+        <mark key="." line="208" column="22" />
+        <mark key="^" line="208" column="22" />
         <mark key="o" line="130" column="56" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/ConfirmationPassDescriptor.java" timestamp="1550754927572">
@@ -259,12 +259,12 @@
         <mark key="." line="3" column="1" />
         <mark key="^" line="3" column="1" />
       </file>
-      <file name="/fragment.java" timestamp="1550827228120">
+      <file name="/fragment.java" timestamp="1550835335979">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="5" />
-        <mark key="^" line="0" column="5" />
-        <mark key="." line="0" column="5" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -413,7 +413,7 @@
         <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -441,14 +441,14 @@
         <entry>action CloseContent</entry>
         <entry>action SurroundWith</entry>
         <entry>action ReformatCode</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
         <entry>action AceAction</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action Find</entry>
-        <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
