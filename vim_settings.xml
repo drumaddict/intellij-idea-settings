@@ -172,6 +172,12 @@
         <mark key="^" line="6" column="9" />
         <mark key="." line="6" column="9" />
       </file>
+      <file name="F:/msys64/home/spiros/cpp/game/README.md" timestamp="1550947339840">
+        <mark key="[" line="1" column="22" />
+        <mark key="]" line="1" column="21" />
+        <mark key="^" line="1" column="21" />
+        <mark key="." line="1" column="21" />
+      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/resources/winbank/wallet_quotation_request.xml" timestamp="1529498852230">
         <mark key="'" line="61" column="19" />
         <mark key="[" line="53" column="0" />
@@ -453,7 +459,7 @@
         <mark key="^" line="89" column="0" />
         <mark key="." line="79" column="0" />
       </file>
-      <file name="/GDB" timestamp="1550935033235">
+      <file name="/GDB" timestamp="1550948143406">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1548883362565">
@@ -474,12 +480,12 @@
         <mark key="^" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" timestamp="1550945870521">
-        <mark key="'" line="2" column="0" />
-        <mark key="[" line="84" column="0" />
-        <mark key="]" line="84" column="0" />
-        <mark key="^" line="80" column="7" />
-        <mark key="." line="84" column="0" />
+      <file name="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" timestamp="1550948118792">
+        <mark key="'" line="90" column="0" />
+        <mark key="[" line="92" column="0" />
+        <mark key="]" line="92" column="0" />
+        <mark key="." line="92" column="0" />
+        <mark key="^" line="90" column="54" />
       </file>
       <file name="F:/msys64/home/spiros/cpp/game/cmake_modules/FindLua.cmake" timestamp="1550925912142">
         <mark key="'" line="74" column="8" />
@@ -526,16 +532,6 @@
         <mark key="." line="264" column="0" />
         <mark key="^" line="254" column="30" />
       </file>
-      <file name="D:/java/cosmogony/src/main/java/org/kabasakalis/PdpServlet.java" timestamp="1548290877237">
-        <mark key="d" line="18" column="21" />
-        <mark key="'" line="46" column="0" />
-        <mark key="j" line="17" column="15" />
-        <mark key="[" line="19" column="23" />
-        <mark key="k" line="23" column="9" />
-        <mark key="]" line="19" column="24" />
-        <mark key="^" line="19" column="24" />
-        <mark key="." line="19" column="24" />
-      </file>
       <file name="D:/java/cosmogony/pom.xml" timestamp="1548276690041">
         <mark key="'" line="66" column="20" />
         <mark key="[" line="43" column="36" />
@@ -571,11 +567,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="19" column="8" filename="F:/projects/multimodule-with-war/multimodule-with-war-web2/src/main/java/org/apache/multimodule_with_war/web2/App.java" />
-      <jump line="19" column="8" filename="F:/projects/multimodule-with-war/multimodule-with-war-web/src/main/java/org/apache/multimodule_with_war/web/App.java" />
-      <jump line="19" column="8" filename="F:/projects/multimodule-with-war/pom.xml" />
-      <jump line="12" column="21" filename="F:/projects/multimodule-with-war/multimodule-with-war-web2/web/WEB-INF/web.xml" />
-      <jump line="23" column="0" filename="F:/projects/multimodule-with-war/multimodule-with-war-web/src/main/webappDEAD/WEB-INF/web.xml" />
       <jump line="13" column="21" filename="F:/projects/multimodule-with-war/multimodule-with-war-web2/web/WEB-INF/web.xml" />
       <jump line="61" column="16" filename="D:/java/cosmogony/pom.xml" />
       <jump line="15" column="140" filename="D:/java/cosmogony/src/main/java/org/kabasakalis/PdpServlet.java" />
@@ -671,10 +662,15 @@
       <jump line="72" column="30" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
       <jump line="48" column="0" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
       <jump line="2" column="0" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
+      <jump line="88" column="0" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
+      <jump line="69" column="8" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
+      <jump line="90" column="32" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
+      <jump line="91" column="0" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
+      <jump line="92" column="0" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>CMAKE_CXX_COMPILER</text>
+        <text>SDL2_mixer</text>
       </register>
       <register name="-" type="4">
         <text>F:\mingw-libs\SDL2-devel-2.0.9-mingw\x86_64-w64-mingw32</text>
@@ -682,8 +678,8 @@
       <register name="/" type="4">
         <text encoding="base64">XDxUT0RPXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">U0RMMlRlc3Qg</text>
+      <register name="0" type="2">
+        <text encoding="base64">TUVTU0FHRShTVEFUVVMgIlNETDJfSU1BR0VfTElCUkFSWV9ESVJTOiAiICR7U0RMMl9JTUFHRV9MSUJSQVJZX0RJUlN9KQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -694,26 +690,26 @@
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">dGFyZ2V0X2xpbmtfbGlicmFyaWVzKFNETDJUZXN0ICR7U0RMMl9MSUJSQVJZfSkK</text>
+      <register name="4" type="4">
+        <text>SDL2_mixer</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">I2luY2x1ZGVfZGlyZWN0b3JpZXMoJHtTREwyX0lOQ0xVREVfRElSfSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">I2ZpbmRfcGFja2FnZShTREwyIFJFUVVJUkVEKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">cHJvamVjdChTREwyVGVzdCkKCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>CMAKE_CXX_COMPILER</text>
+        <text>SDL2_mixer</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">cHJvamVjdChTREwyVGVzdCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">YWRkX2V4ZWN1dGFibGUoU0RMMlRlc3QgbWFpbi5jcHApCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
