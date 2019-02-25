@@ -249,6 +249,13 @@
         <mark key="^" line="7" column="26" />
         <mark key="." line="7" column="26" />
       </file>
+      <file name="F:/msys64/home/spiros/cpp/sdl2-game/src/main.cpp" timestamp="1551124845496">
+        <mark key="'" line="18" column="33" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cpp/roboworkers/src/backoffice.cpp" timestamp="1539424557209">
         <mark key="[" line="4" column="19" />
         <mark key="]" line="4" column="18" />
@@ -585,8 +592,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="16" filename="D:/java/cosmogony/pom.xml" />
-      <jump line="15" column="140" filename="D:/java/cosmogony/src/main/java/org/kabasakalis/PdpServlet.java" />
       <jump line="34" column="0" filename="D:/java/cosmogony/src/main/java/org/kabasakalis/PdpServlet.java" />
       <jump line="26" column="4" filename="D:/java/cosmogony/src/main/java/org/kabasakalis/PdpServlet.java" />
       <jump line="25" column="4" filename="D:/java/cosmogony/src/main/java/org/kabasakalis/PdpServlet.java" />
@@ -685,6 +690,8 @@
       <jump line="91" column="0" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
       <jump line="92" column="0" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
       <jump line="18" column="0" filename="F:/msys64/home/spiros/cpp/sdl2-game/.gitignore" />
+      <jump line="28" column="33" filename="F:/msys64/home/spiros/cpp/sdl2-game/src/main.cpp" />
+      <jump line="18" column="33" filename="F:/msys64/home/spiros/cpp/sdl2-game/src/main.cpp" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -700,22 +707,22 @@
         <text encoding="base64">Y21ha2UtYnVpbGQtZGVidWctbWluZ3cK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">U0RMX2dsZ2xDbGVhckNvbG9yKDAsMCwwLDEpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">U0RMX2dsZ2xDbGVhckNvbG9yKDAsMCwwLDEpOwo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>SDL2_mixer</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>SDL2_mixer</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
@@ -730,7 +737,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -757,12 +764,13 @@
         <entry>action PreviousTab</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action CloseContent</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action SplitVertically</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
-        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action Forward</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
