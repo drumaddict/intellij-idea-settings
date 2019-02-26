@@ -95,7 +95,7 @@
         <mark key="^" line="62" column="0" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1551106495271">
+      <file name="/Dummy.txt" timestamp="1551171504231">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -171,7 +171,7 @@
         <mark key="." line="28" column="48" />
         <mark key="^" line="28" column="48" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1551083537061">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1551170893162">
         <mark key="'" line="58" column="4" />
         <mark key="[" line="163" column="0" />
         <mark key="]" line="163" column="0" />
@@ -192,12 +192,12 @@
         <mark key="^" line="5" column="25" />
         <mark key="." line="5" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/VehicleDescriptor.java" timestamp="1550575675989">
-        <mark key="'" line="923" column="37" />
-        <mark key="[" line="892" column="26" />
-        <mark key="]" line="892" column="26" />
-        <mark key="." line="892" column="32" />
-        <mark key="^" line="892" column="14" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/VehicleDescriptor.java" timestamp="1551171137114">
+        <mark key="'" line="921" column="37" />
+        <mark key="[" line="897" column="28" />
+        <mark key="]" line="897" column="28" />
+        <mark key="." line="897" column="29" />
+        <mark key="^" line="897" column="16" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" timestamp="1550657724308">
         <mark key="'" line="253" column="41" />
@@ -267,14 +267,14 @@
         <mark key="." line="8" column="81" />
         <mark key="^" line="8" column="81" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1551106691036">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1551170985900">
         <mark key="f" line="307" column="43" />
         <mark key="'" line="347" column="2" />
         <mark key="k" line="495" column="65" />
-        <mark key="[" line="369" column="42" />
-        <mark key="]" line="369" column="74" />
-        <mark key="." line="369" column="74" />
-        <mark key="^" line="369" column="74" />
+        <mark key="[" line="53" column="0" />
+        <mark key="]" line="53" column="0" />
+        <mark key="." line="53" column="0" />
+        <mark key="o" line="34" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/ArithmeticUtilities.java" timestamp="1549633303769">
         <mark key="'" line="5" column="88" />
@@ -402,7 +402,7 @@
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>passengerPriocheckBean</text>
+        <text>Passenger</text>
       </register>
       <register name="-" type="4">
         <text>getMessageType().equals(HttpHandlerSecondary.MessageType.CONFPASS_TRANSFER.toString())</text>
@@ -413,35 +413,35 @@
       <register name="0" type="4">
         <text>// TODO ACTIVATE ( disabled for tests!)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIENvbmZpcm1hdGlvblN0YXR1cy5QLnRvU3RyaW5nKCksCg==</text>
+      <register name="1" type="4">
+        <text>Passenger</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>Vehicle</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIENvbmZpcm1hdGlvblN0YXR1cy5QLnRvU3RyaW5nKCksCg==</text>
+      <register name="3" type="4">
+        <text>Passenger</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIGJvb2tpbmcuZ2V0VmVoaWNsZXMoKS5nZXRWZWhpY2xlKGkpLgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIENvbmZpcm1hdGlvblN0YXR1cy5QLnRvU3RyaW5nKCksCg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIENvbmZpcm1hdGlvblN0YXR1cy5QLnRvU3RyaW5nKCksCg==</text>
       </register>
       <register name="x" type="4">
-        <text>passengerPriocheckBean</text>
+        <text>Passenger</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgaWYgKCkgewogICAgICAgICAgICB2YWxpZGF0ZVRyYW5zZmVyU2FpbElkcyhwYXNzZW5nZXJQcmlvY2hlY2tCZWFuKTsKICAgICAgICAgIH0=</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">cmV0dXJuIHRydWU7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -459,11 +459,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action HideAllWindows</entry>
-        <entry>action VimFilePrevious</entry>
-        <entry>action ShowReformatFileDialog</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action CloseContent</entry>
         <entry>action Debug</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
@@ -476,13 +471,14 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmlsZVN0cnVjdHVyZVBvcHVw</entry>
         <entry>action Forward</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
-        <entry>action OptimizeImports</entry>
-        <entry>action Find</entry>
         <entry>action FindUsages</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action Find</entry>
+        <entry>action OptimizeImports</entry>
+        <entry>action GotoFile</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
