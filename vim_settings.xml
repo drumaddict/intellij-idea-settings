@@ -143,12 +143,11 @@
         <mark key="^" line="0" column="26" />
         <mark key="." line="29" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1550836828795">
-        <mark key="'" line="63" column="6" />
-        <mark key="[" line="165" column="100" />
-        <mark key="]" line="165" column="99" />
-        <mark key="." line="165" column="99" />
-        <mark key="^" line="165" column="99" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1551176862374">
+        <mark key="'" line="93" column="10" />
+        <mark key="[" line="106" column="0" />
+        <mark key="]" line="106" column="0" />
+        <mark key="." line="106" column="0" />
       </file>
       <file name="C:/glassfish3/jdk/jre/lib/rt.jar!/java/sql/ResultSet.class" timestamp="1550658904516">
         <mark key="'" line="282" column="0" />
@@ -299,9 +298,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="330" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="329" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="417" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
       <jump line="239" column="35" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
       <jump line="202" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
       <jump line="38" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
@@ -399,52 +395,59 @@
       <jump line="431" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="11" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
       <jump line="347" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="94" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="91" column="20" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="95" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>Passenger</text>
+        <text>mbarkation</text>
       </register>
       <register name="-" type="4">
-        <text>getMessageType().equals(HttpHandlerSecondary.MessageType.CONFPASS_TRANSFER.toString())</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>// TODO ACTIVATE ( disabled for tests!)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgcGFzc2VuZ2VyLnNldEVtYWlsKHByaW9jaGVja0JlYW4uZ2V0RW1haWwoKSk7IAo=</text>
       </register>
-      <register name="1" type="4">
-        <text>Passenger</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>Vehicle</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="4">
-        <text>Passenger</text>
+        <text>} catch (Exception e) {
+          e.printStackTrace();
+          dbERROR = true;
+          dbErrStr = e.getMessage();
+        }</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgIGJvb2tpbmcuZ2V0VmVoaWNsZXMoKS5nZXRWZWhpY2xlKGkpLgo=</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgICB0cnkgewogICAgICAgICAgRW1iYXJrZHRhVndCZWFuIGVtYmFya2R0YVZ3QmVhbiA9IGZldGNoRW1iYXJrRGF0YShwYXNzZW5nZXIuZ2V0Qm9va0lEKCksIHBhc3Nlbmdlci5nZXRJdGluZXJhcnlJRCgpKTsKICAgICAgICAgIGlmIChlbWJhcmtkdGFWd0JlYW4gPT0gbnVsbCkgewogICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50KCJObyBFbWJhcmthdGlvbiBEYXRhIEZvdW5kIChubyBTYWlsIElEKSBmb3IgYm9va0lEICIgKyBwYXNzZW5nZXIuZ2V0Qm9va0lEKCkgKyAiIGFuZCBpdGluZXJhcnlJRDogIiArIHBhc3Nlbmdlci5nZXRJdGluZXJhcnlJRCgpKTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICB9CiAgICAgICAgICBQcmlvY2hlY2tCZWFuIHByaW9jaGVja0JlYW4gPSBmZXRjaFByaW9yaXR5Q2hlY2tCeUJvb2tJZFNhaWxJZChwYXNzZW5nZXIuZ2V0Qm9va0lEKCksIGVtYmFya2R0YVZ3QmVhbi5nZXRTYWlsSWQoKSk7CiAgICAgICAgICBpZiAocHJpb2NoZWNrQmVhbiA9PSBudWxsKSB7CiAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnQoIk5vIENvbmZpcm1hdGlvbiBEYXRhIEZvdW5kIGZvciBib29rSUQgIiArIHBhc3Nlbmdlci5nZXRCb29rSUQoKSArICIgYW5kIGl0aW5lcmFyeUlEOiAiICsgcGFzc2VuZ2VyLmdldEl0aW5lcmFyeUlEKCkpOwogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgIH0KICAgICAgICAgIHBhc3Nlbmdlci5zZXRFbWFpbChwcmlvY2hlY2tCZWFuLmdldEVtYWlsKCkpOwogICAgICAgICAgcGFzc2VuZ2VyLnNldENvbmZpcm1hdGlvbklEKHByaW9jaGVja0JlYW4uZ2V0UHJpb2NoZWNrSWQoKSk7CiAgICAgICAgICBwYXNzZW5nZXIuc2V0Q29uZmlybWF0aW9uU3RhdHVzKHByaW9jaGVja0JlYW4uZ2V0UHJpU3RhdHVzKCkpOwogICAgICAgICAgcGFzc2VuZ2VyLnNldE1vYmlsZShwcmlvY2hlY2tCZWFuLmdldE1vYmlsZSgpKTs=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIENvbmZpcm1hdGlvblN0YXR1cy5QLnRvU3RyaW5nKCksCg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIHByaW9jaGVja0JlYW4uZ2V0Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIENvbmZpcm1hdGlvblN0YXR1cy5QLnRvU3RyaW5nKCksCg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="x" type="4">
-        <text>Passenger</text>
+        <text>mbarkation</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>mbarkation</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -464,22 +467,22 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
         <entry>action NextTab</entry>
         <entry>action $SelectAll</entry>
-        <entry>action SurroundWith</entry>
         <entry>action RenameElement</entry>
         <entry>action GotoClass</entry>
-        <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmlsZVN0cnVjdHVyZVBvcHVw</entry>
         <entry>action Forward</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action PreviousTab</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action FindUsages</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action Find</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action SurroundWith</entry>
+        <entry>action AceAction</entry>
         <entry>action SaveAll</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
