@@ -95,8 +95,8 @@
         <mark key="^" line="62" column="0" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1551188662392">
-        <mark key="[" line="0" column="1" />
+      <file name="/Dummy.txt" timestamp="1551263890909">
+        <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
@@ -157,10 +157,11 @@
         <mark key="^" line="283" column="0" />
         <mark key="." line="283" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1551252461728">
-        <mark key="[" line="122" column="0" />
-        <mark key="]" line="122" column="0" />
-        <mark key="." line="122" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1551265839675">
+        <mark key="[" line="109" column="82" />
+        <mark key="]" line="109" column="82" />
+        <mark key="^" line="109" column="82" />
+        <mark key="." line="109" column="82" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqPriocheckIDManager.java" timestamp="1550745051682">
         <mark key="'" line="0" column="0" />
@@ -282,12 +283,12 @@
         <mark key="." line="3" column="1" />
         <mark key="^" line="3" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1551263168399">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1551264174391">
         <mark key="'" line="345" column="4" />
-        <mark key="[" line="251" column="0" />
-        <mark key="]" line="251" column="0" />
-        <mark key="^" line="347" column="40" />
-        <mark key="." line="251" column="0" />
+        <mark key="[" line="290" column="31" />
+        <mark key="]" line="290" column="65" />
+        <mark key="^" line="290" column="65" />
+        <mark key="." line="290" column="65" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/AlertlineManager.java" timestamp="1551190789991">
         <mark key="'" line="1069" column="0" />
@@ -307,23 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="349" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="342" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="402" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="398" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="52" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="49" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="128" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="64" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="280" column="55" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="290" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="37" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="336" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="332" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="340" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="85" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="84" column="39" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="150" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
       <jump line="376" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="36" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
       <jump line="375" column="39" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
@@ -407,49 +391,72 @@
       <jump line="342" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
       <jump line="343" column="82" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
       <jump line="345" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
+      <jump line="106" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="144" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="129" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="132" column="54" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="133" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="134" column="50" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="135" column="46" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="200" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="145" column="51" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="131" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="138" column="46" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="139" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="141" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="246" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="147" column="55" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="137" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="148" column="54" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>joinSQL + sql + criteriaSQL.toString() + &quot; ORDER BY DEP_DATE, SAIL_ID, ITIN_ID  &quot;</text>
+        <text>ALERT_CC</text>
       </register>
       <register name="-" type="4">
-        <text>joinSQL + sql + criteriaSQL.toString() + &quot; ORDER BY DEP_DATE, SAIL_ID, ITIN_ID  &quot;)</text>
+        <text>String select = &quot;SELECT al.ALERT_ID, al.ALERT_TYPE, al.BOOK_ID, al.EMAIL_OR_SMS, al.PENDING&quot; +</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIFN5c3RlbS5vdXQucHJpbnRsbigiU1FMPiAgIiArIGpvaW5TUUwgKyBzcWwgKyBjcml0ZXJpYVNRTC50b1N0cmluZygpICsgIiBPUkRFUiBCWSBERVBfREFURSwgU0FJTF9JRCwgSVRJTl9JRCAgIik7Cg==</text>
+      <register name="0" type="4">
+        <text>row.put(&quot;ALERT_KIND&quot;, r.getString(&quot;ALERT_KIND&quot;));
+      row.put(&quot;ALERT_TO&quot;, r.getString(&quot;ALERT_TO&quot;));
+      row.put(&quot;ALERT_CC&quot;, r.getString(&quot;ALERT_CC&quot;));
+      row.put(&quot;ALERT_SUBJ&quot;, r.getString(&quot;ALERT_SUBJ&quot;));
+      row.put(&quot;ALERT_BODY&quot;, r.getString(&quot;ALERT_BODY&quot;));</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICBpZiAoIChjckZpZWxkcy5nZXREZXBhcnR1cmVEYXRlKCkudHJpbSgpLmNvbXBhcmVUbygiMDAwMDAwMDAiKSA9PSAwICkgfHwgIGNyRmllbGRzLmdldERlcGFydHVyZURhdGUoKS5jb21wYXJlVG8oIjIwMTkwNDE0IikgPT0gMCkgewo=</text>
-      </register>
-      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
+      </register>
       <register name="3" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgQ29ubmVjdGlvbiBkYmNvbiA9IE1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5nZXRDb25uZWN0aW9uKCkuZ2V0Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIFN5c3RlbS5vdXQucHJpbnRsbigiRklOQUwgU1FMPiAgIiArIGpvaW5TUUwgKyBzcWwgKyBjcml0ZXJpYVNRTC50b1N0cmluZygpICsgIiBPUkRFUiBCWSBERVBfREFURSwgU0FJTF9JRCwgSVRJTl9JRCAgIik7Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="5" type="4">
-        <text>joinSQL + sql + criteriaSQL.toString() + &quot; ORDER BY DEP_DATE, SAIL_ID, ITIN_ID  &quot;</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="6" type="4">
-        <text>loadConfiguration().getJdbcparams(0).getPassword().equals(&quot;admin123&quot;)</text>
+        <text>bean.setAlertDate(rs.getTimestamp(&quot;ALERT_DATE&quot;));
+      bean.setAlertUserId(Manager.getLong(rs, &quot;ALERT_USER_ID&quot;));
+      bean.setAlertStatus(rs.getString(&quot;ALERT_STATUS&quot;));</text>
       </register>
-      <register name="7" type="4">
-        <text />
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgcm93LnB1dCgiQUxFUlRfQk9EWSIsIHIuZ2V0U3RyaW5nKCJBTEVSVF9CT0RZIikpOwo=</text>
       </register>
       <register name="x" type="4">
-        <text>joinSQL + sql + criteriaSQL.toString() + &quot; ORDER BY DEP_DATE, SAIL_ID, ITIN_ID  &quot;</text>
+        <text>ALERT_CC</text>
       </register>
-      <register name="8" type="4">
-        <text />
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgcm93LnB1dCgiQUxFUlRfU1VCSiIsIHIuZ2V0U3RyaW5nKCJBTEVSVF9TVUJKIikpOwo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="9" type="4">
+        <text>ALERT_CC</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -482,10 +489,10 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action RenameElement</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action ReformatCode</entry>
+        <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
