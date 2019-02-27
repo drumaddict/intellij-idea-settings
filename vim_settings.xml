@@ -282,12 +282,12 @@
         <mark key="." line="3" column="1" />
         <mark key="^" line="3" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1551258121577">
-        <mark key="'" line="290" column="12" />
-        <mark key="[" line="298" column="39" />
-        <mark key="]" line="298" column="49" />
-        <mark key="^" line="298" column="49" />
-        <mark key="." line="298" column="49" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1551262340245">
+        <mark key="'" line="345" column="4" />
+        <mark key="[" line="347" column="33" />
+        <mark key="]" line="347" column="40" />
+        <mark key="^" line="347" column="40" />
+        <mark key="." line="347" column="40" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/AlertlineManager.java" timestamp="1551190789991">
         <mark key="'" line="1069" column="0" />
@@ -298,7 +298,7 @@
         <mark key="[" line="78" column="0" />
         <mark key="]" line="78" column="65" />
       </file>
-      <file name="/fragment.java" timestamp="1551257765736">
+      <file name="/fragment.java" timestamp="1551262056484">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -307,11 +307,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="311" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="54" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="63" column="55" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="116" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
-      <jump line="58" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassTransfer.java" />
       <jump line="349" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="342" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="402" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
@@ -407,49 +402,54 @@
       <jump line="289" column="31" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
       <jump line="290" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
       <jump line="651" column="73" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="340" column="44" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
+      <jump line="341" column="114" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
+      <jump line="342" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
+      <jump line="343" column="82" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
+      <jump line="345" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>loadConfiguration().getJdbcparams(0).getPassword().equals(&quot;admin123&quot;)</text>
+        <text>joinSQL + sql + criteriaSQL.toString() + &quot; ORDER BY DEP_DATE, SAIL_ID, ITIN_ID  &quot;</text>
       </register>
       <register name="-" type="4">
-        <text>loadConfiguration();</text>
+        <text>joinSQL + sql + criteriaSQL.toString() + &quot; ORDER BY DEP_DATE, SAIL_ID, ITIN_ID  &quot;)</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>loadConfiguration().getJdbcparams(0).getPassword().equals(&quot;admin123&quot;))</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIFN5c3RlbS5vdXQucHJpbnRsbigiU1FMPiAgIiArIGpvaW5TUUwgKyBzcWwgKyBjcml0ZXJpYVNRTC50b1N0cmluZygpICsgIiBPUkRFUiBCWSBERVBfREFURSwgU0FJTF9JRCwgSVRJTl9JRCAgIik7Cg==</text>
       </register>
-      <register name="1" type="4">
-        <text>loadConfiguration().getJdbcparams(0).getPassword().equals(&quot;admin123&quot;)</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIFN5c3RlbS5vdXQucHJpbnRsbigiRklOQUwgU1FMPiAgIiArIGpvaW5TUUwgKyBzcWwgKyBjcml0ZXJpYVNRTC50b1N0cmluZygpICsgIiBPUkRFUiBCWSBERVBfREFURSwgU0FJTF9JRCwgSVRJTl9JRCAgIik7Cg==</text>
       </register>
       <register name="2" type="4">
-        <text />
+        <text>joinSQL + sql + criteriaSQL.toString() + &quot; ORDER BY DEP_DATE, SAIL_ID, ITIN_ID  &quot;</text>
       </register>
       <register name="3" type="4">
-        <text />
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIFNlcnZlckNvbmZpZ3VyZSBjb25maWcgPSAK</text>
-      </register>
-      <register name="7" type="4">
-        <text>private</text>
-      </register>
-      <register name="x" type="4">
         <text>loadConfiguration().getJdbcparams(0).getPassword().equals(&quot;admin123&quot;)</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIERCVXRpbGl0aWVzLmdldFN0YXR1c0luZm8oKQo=</text>
+      <register name="4" type="4">
+        <text />
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBuZGF0ZS5yCg==</text>
+      <register name="5" type="4">
+        <text />
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="x" type="4">
+        <text>joinSQL + sql + criteriaSQL.toString() + &quot; ORDER BY DEP_DATE, SAIL_ID, ITIN_ID  &quot;</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgIFNlcnZlckNvbmZpZ3VyZSBjb25maWcgPSAK</text>
+      </register>
+      <register name="9" type="4">
+        <text>private</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -484,8 +484,8 @@
         <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
