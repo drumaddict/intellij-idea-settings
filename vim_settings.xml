@@ -76,12 +76,12 @@
         <mark key="." line="167" column="68" />
         <mark key="^" line="167" column="68" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" timestamp="1551281323415">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" timestamp="1551339546861">
         <mark key="'" line="12" column="2" />
-        <mark key="[" line="6" column="26" />
-        <mark key="]" line="7" column="1" />
-        <mark key="^" line="7" column="1" />
-        <mark key="." line="7" column="1" />
+        <mark key="[" line="11" column="42" />
+        <mark key="]" line="20" column="30" />
+        <mark key="^" line="20" column="30" />
+        <mark key="." line="20" column="30" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/ArithmeticUtilities.java" timestamp="1549633303769">
         <mark key="'" line="5" column="88" />
@@ -198,7 +198,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1551271617505">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1551339912886">
         <mark key="'" line="29" column="1" />
         <mark key="[" line="29" column="1" />
         <mark key="m" line="354" column="83" />
@@ -316,7 +316,7 @@
         <mark key="." line="8" column="81" />
         <mark key="^" line="8" column="81" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1551187661932">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1551339651958">
         <mark key="f" line="308" column="43" />
         <mark key="'" line="203" column="6" />
         <mark key="k" line="499" column="65" />
@@ -485,7 +485,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -511,15 +511,15 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action FindUsages</entry>
         <entry>action PreviousOccurence</entry>
-        <entry>action Find</entry>
-        <entry>action GotoFile</entry>
         <entry>action RenameElement</entry>
-        <entry>action NextTab</entry>
         <entry>action OptimizeImports</entry>
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
+        <entry>action NextTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
