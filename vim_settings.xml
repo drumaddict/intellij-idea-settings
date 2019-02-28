@@ -195,20 +195,20 @@
         <mark key="." line="219" column="27" />
         <mark key="^" line="219" column="27" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1551363765570">
-        <mark key="'" line="304" column="6" />
-        <mark key="[" line="305" column="88" />
-        <mark key="]" line="305" column="118" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1551365616766">
+        <mark key="'" line="133" column="16" />
+        <mark key="[" line="133" column="16" />
+        <mark key="]" line="139" column="57" />
         <mark key="." line="305" column="118" />
         <mark key="^" line="305" column="118" />
         <mark key="o" line="131" column="56" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/ConfirmationPassDescriptor.java" timestamp="1550754927572">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/ConfirmationPassDescriptor.java" timestamp="1551365661612">
         <mark key="'" line="507" column="37" />
-        <mark key="[" line="470" column="0" />
-        <mark key="]" line="470" column="3" />
-        <mark key="." line="470" column="3" />
-        <mark key="^" line="470" column="3" />
+        <mark key="[" line="477" column="25" />
+        <mark key="]" line="477" column="32" />
+        <mark key="." line="477" column="32" />
+        <mark key="^" line="477" column="32" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqPiocheckHistoryManager.java" timestamp="1550744979922">
         <mark key="'" line="60" column="0" />
@@ -347,7 +347,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="144" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="46" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="67" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="156" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
@@ -447,10 +446,11 @@
       <jump line="129" column="18" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" />
       <jump line="304" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" />
       <jump line="75" column="32" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="133" column="16" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>false</text>
+        <text>Email</text>
       </register>
       <register name="-" type="4">
         <text>getPassengerConfirmedTripData(passenger, priocheckBean);</text>
@@ -459,22 +459,28 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAvKgogICdOJyA9IE5vbiBTaG93CiAgJ1AnID1QcmludGVkCiAgJ0MnID1DYW5jZWxsZWQKICAnUycgPU5vbiBzaG93CiAgJ1QnID1UcmFuc2ZlcmVkCiAgJ0EnID0gRGVmYXVsdCBuZXcgLy9PTkxZIElOQ09ERQogICov</text>
+        <text>insertConfPassData(ub,
+                        passenger.getBookID(),
+                        priocheckBean.getSailId(),
+                        answerMessageData,
+                        passenger.getMobile(),
+                        passenger.getEmail(),
+                        EmbarkationItemType.P.toString());</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgaWYgKCAhcHJpb2NoZWNrQmVhbi5nZXRQcmlTdGF0dXMoKS5lcXVhbHMoQ29uZmlybWF0aW9uU3RhdHVzLlAudG9TdHJpbmcoKSkpIHsK</text>
+      <register name="1" type="4">
+        <text>Email</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgaWYgKCAhcHJpb2NoZWNrQmVhbi5nZXRQcmlTdGF0dXMoKS5lcXVhbHMoQ29uZmlybWF0aW9uU3RhdHVzLlAudG9TdHJpbmcoKSkpIHsK</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgIGRlc2Muc2V0UmVxdWlyZWQodHJ1ZSk7Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>false</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>setMultivalued</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -483,16 +489,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>false</text>
+        <text>Email</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Ly8gICAgICBzdG9ja0FyciA9IHN0b2NrTGlzdC50b0FycmF5KHN0b2NrQXJyKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -517,7 +523,6 @@
         <entry>action PreviousOccurence</entry>
         <entry>action RenameElement</entry>
         <entry>action OptimizeImports</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
@@ -525,9 +530,10 @@
         <entry>action $SelectAll</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
+        <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
