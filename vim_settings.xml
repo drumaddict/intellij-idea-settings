@@ -495,7 +495,7 @@
         <text encoding="base64">ICAgICAgICAgICAgcGFzc2VuZ2VyQXZhaWxhYmlsaXR5ID0gKGF2YWlsYWJpbGl0eUJlYW4uZ2V0VW5pdHNwcmlvcml0eSgpICsgcGFzc2VuZ2Vyc0NvdW50KSA8PSBhdmFpbGFiaWxpdHlCZWFuLmdldEF2YWlsKCkubG9uZ1ZhbHVlKCk7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -524,12 +524,12 @@
         <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action ReformatCode</entry>
         <entry>action Forward</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
