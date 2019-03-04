@@ -317,9 +317,9 @@
         <mark key="^" line="149" column="41" />
         <mark key="." line="152" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1551699331296">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1551699336665">
         <mark key="'" line="174" column="4" />
-        <mark key="[" line="218" column="22" />
+        <mark key="[" line="225" column="21" />
         <mark key="]" line="218" column="27" />
         <mark key="." line="218" column="27" />
         <mark key="^" line="218" column="27" />
@@ -574,7 +574,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25maXJtZWRQYXNzZW5nZXIuc2V0Q3NuMihidmJbMF0uZ2V0Q2FiaW5OdW1iKCkpOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -607,9 +607,9 @@
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
