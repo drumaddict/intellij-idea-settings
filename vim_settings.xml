@@ -382,14 +382,14 @@
         <mark key="." line="94" column="28" />
         <mark key="^" line="94" column="28" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1551871592013">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1551882895091">
         <mark key="f" line="368" column="43" />
-        <mark key="'" line="195" column="8" />
+        <mark key="'" line="564" column="55" />
         <mark key="k" line="170" column="42" />
-        <mark key="[" line="593" column="46" />
-        <mark key="]" line="593" column="52" />
-        <mark key="." line="593" column="52" />
-        <mark key="^" line="593" column="52" />
+        <mark key="[" line="300" column="38" />
+        <mark key="]" line="301" column="35" />
+        <mark key="." line="301" column="35" />
+        <mark key="^" line="301" column="35" />
         <mark key="n" line="170" column="48" />
         <mark key="o" line="28" column="0" />
       </file>
@@ -402,17 +402,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="113" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CTicket.java" />
-      <jump line="120" column="15" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CTicket.java" />
-      <jump line="116" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CTicket.java" />
-      <jump line="158" column="66" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
-      <jump line="160" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
-      <jump line="238" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
-      <jump line="199" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
-      <jump line="149" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
-      <jump line="203" column="68" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
-      <jump line="178" column="53" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
-      <jump line="179" column="53" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="180" column="53" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="182" column="53" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="183" column="53" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
@@ -502,22 +491,37 @@
       <jump line="201" column="13" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="189" column="29" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="195" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="77" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="81" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="49" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="48" column="61" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="104" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="84" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="396" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="399" column="67" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="570" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="560" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="564" column="55" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>passenger</text>
+        <text>DAOException</text>
       </register>
       <register name="-" type="4">
-        <text>(Vpas != null) ? Vpas.getConfirmationID() + &quot;.pdf&quot; : VVeh.getConfirmationID() + &quot;.pdf&quot;;</text>
+        <text>+ priocheckBean.getPriStatus()</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBoYW5kbGVFcnJvcihzcWxlLmdldE1lc3NhZ2UoKSk7Cg==</text>
+      <register name="0" type="4">
+        <text>} catch (DAOException e) {
+      dbERROR = true;
+      dbErrStr = e.getMessage();
+      e.printStackTrace();
+      throw new DataValidationException(e.getMessage());</text>
       </register>
-      <register name="1" type="4">
-        <text>passenger</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAvLyBUT0RPIE90aGVyIHBvc3NpYmxlIHNjZW5hcmlvcyB3aWxsIGJlIGhhbmRsZWQgbGF0ZXIuCg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
@@ -526,28 +530,38 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vISEhIHdlIG5lZWQgc2FpbElELCBpdCdzIG1hbmRhdG9yeSBmb3IgUHJpb0NoZWNrIGVudHJpZXMK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Ly8gICAgICAgIEVtYmFya2R0YVZ3QmVhbiB2RW1iYXJrVndCZWFuID0gZmV0Y2hFbWJhcmtEYXRhKHZlaGljbGUuZ2V0Qm9va0lEKCkpOwo=</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
+        <text>//      EmbarkdtaVwBean embarkdtaVwBean = fetchEmbarkData(passenger.getBookID());
+//      if (embarkdtaVwBean == null) {
+//        dbERROR = true;
+//        dbErrStr = &quot;No EmbarkData found for bookID= &quot; + passenger.getBookID();
+//        return false;
+//      }</text>
+      </register>
+      <register name="6" type="4">
+        <text>//      EmbarkdtaVwBean embarkdtaVwBean = fetchEmbarkData(passenger.getBookID());
+//      if (embarkdtaVwBean == null) {
+//        dbERROR = true;
+//        dbErrStr = &quot;No EmbarkData found for bookID= &quot; + passenger.getBookID();
+//        return false;
+//      }</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaW9jaGVja0JlYW4gPSBudWxsOwo=</text>
       </register>
       <register name="x" type="4">
-        <text>passenger</text>
+        <text>DAOException</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">Ly8gICAgICAgIEVtYmFya2R0YVZ3QmVhbiBwRW1iYXJrVndCZWFuID0gZmV0Y2hFbWJhcmtEYXRhKHBhc3Nlbmdlci5nZXRCb29rSUQoKSk7Ci8vICAgICAgICBQcmlvY2hlY2tCZWFuIHBhc3NlbmdlclByaW9jaGVja0JlYW4gPQovLyAgICAgICAgICAgICAgICBmZXRjaFByaW9yaXR5Q2hlY2tCeUJvb2tJZFNhaWxJZChwYXNzZW5nZXIuZ2V0Qm9va0lEKCksIHNhaWxJRCk7Cg==</text>
+        <text>DAOException</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>975</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -576,14 +590,14 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
-        <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>75</entry>
         <entry>975</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action FindUsages</entry>
+        <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
