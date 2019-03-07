@@ -556,7 +556,7 @@
         <text encoding="base64">ICAgICAgICAgIHZhbGlkYXRlVHJhbnNmZXJTYWlsSWRzKHBhc3NlbmdlclByaW9jaGVja0JlYW4pOwo=</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -586,12 +586,12 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action FindUsages</entry>
         <entry>action ReformatCode</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
