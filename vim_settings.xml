@@ -388,18 +388,16 @@
         <mark key="." line="94" column="28" />
         <mark key="^" line="94" column="28" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1552033809005">
-        <mark key="f" line="368" column="43" />
-        <mark key="'" line="529" column="123" />
-        <mark key="k" line="170" column="42" />
-        <mark key="[" line="529" column="105" />
-        <mark key="]" line="529" column="104" />
-        <mark key="n" line="170" column="48" />
-        <mark key="^" line="529" column="104" />
-        <mark key="." line="529" column="104" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1552036057181">
+        <mark key="f" line="365" column="43" />
+        <mark key="k" line="167" column="42" />
+        <mark key="[" line="53" column="0" />
+        <mark key="]" line="53" column="0" />
+        <mark key="n" line="167" column="48" />
+        <mark key="." line="53" column="0" />
         <mark key="o" line="28" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1552032375758">
+      <file name="/fragment.java" timestamp="1552035661704">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
@@ -408,7 +406,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="131" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="223" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="40" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/PDFCreatorFull.java" />
       <jump line="403" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CTicket.java" />
@@ -508,6 +505,7 @@
       <jump line="268" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
       <jump line="100" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
       <jump line="229" column="94" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
+      <jump line="55" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -519,44 +517,42 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>String mtag = reqXML.getServiceBody().getMessageHeader().getServiceInfo().getMessageType();</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgRW1iYXJrZHRhVndCZWFuIG9sZEJvb2tpbmdEYXRhID0gZmV0Y2hFbWJhcmtEYXRhKExvbmcucGFyc2VMb25nKGJvb2tpbmdOdW1iZXIpKTsK</text>
       </register>
-      <register name="1" type="4">
-        <text>passengerPriocheckBean</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>//      EmbarkdtaVwBean oldBookingData = fetchEmbarkData(Long.parseLong(bookingNumber));
+      EmbarkdtaVwBean oldBookingData = fetchEmbarkData(bookingNumber);</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gRGVjcmVhc2UgY29uZmlybWVkIGNvdW50ZXIgZm9yIGl0aW5lcmFyeSBmb3Igd2hpY2ggY29uZmlybWF0aW9uIGlzIHRyYW5zZmVycmVkIGZyb20K</text>
+        <text encoding="base64">ICBwcm90ZWN0ZWQgRW1iYXJrZHRhVndCZWFuIG9sZEJvb2tpbmdEYXRhID0gbnVsbDsK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gRm9yayBmb3IgVFJBTlNGRVIK</text>
+      <register name="5" type="4">
+        <text>passengerPriocheckBean</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoZ2V0TWVzc2FnZVR5cGUoKS5lcXVhbHMoSHR0cEhhbmRsZXJTZWNvbmRhcnkuTWVzc2FnZVR5cGUuQ09ORlBBU1NfVFJBTlNGRVIudG9TdHJpbmcoKSkpIHsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>passengerPriocheckBean</text>
       </register>
-      <register name="8" type="4">
-        <text>// Fork for TRANSFER
-        if (getMessageType().equals(HttpHandlerSecondary.MessageType.CONFPASS_TRANSFER.toString())) {
-          long counter = updateConfirmedCounter(sailID, EmbarkationItemType.P.toString(), -1);
-        }</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLy8gRGVjcmVhc2UgY29uZmlybWVkIGNvdW50ZXIgZm9yIGl0aW5lcmFyeSBmb3Igd2hpY2ggY29uZmlybWF0aW9uIGlzIHRyYW5zZmVycmVkIGZyb20K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIHZhbGlkYXRlVHJhbnNmZXJTYWlsSWRzKHBhc3NlbmdlclByaW9jaGVja0JlYW4pOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy8gRm9yayBmb3IgVFJBTlNGRVIK</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -582,15 +578,15 @@
         <entry>975</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action PreviousTab</entry>
-        <entry>action FindUsages</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
         <entry>149</entry>
         <entry>action GotoFile</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action FindUsages</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
