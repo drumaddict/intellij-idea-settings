@@ -370,14 +370,14 @@
         <mark key="^" line="29" column="7" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1552484263083">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1552487974573">
         <mark key="'" line="672" column="98" />
         <mark key="[" line="672" column="76" />
         <mark key="]" line="672" column="99" />
         <mark key="^" line="672" column="75" />
         <mark key="." line="672" column="76" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/FetchBookingDataOnline.java" timestamp="1552484651138">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/FetchBookingDataOnline.java" timestamp="1552487220158">
         <mark key="[" line="196" column="0" />
         <mark key="]" line="196" column="0" />
         <mark key="^" line="196" column="9" />
@@ -395,7 +395,7 @@
         <mark key="^" line="527" column="7" />
         <mark key="o" line="28" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1552484383049">
+      <file name="/fragment.java" timestamp="1552486297886">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
@@ -549,7 +549,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -575,7 +575,6 @@
         <entry>action VimFilePrevious</entry>
         <entry>action RenameElement</entry>
         <entry>action SurroundWith</entry>
-        <entry>action FindUsages</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action OptimizeImports</entry>
@@ -583,10 +582,11 @@
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
         <entry>action Find</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
