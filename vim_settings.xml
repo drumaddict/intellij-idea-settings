@@ -266,7 +266,7 @@
         <mark key="^" line="62" column="0" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1552399328239">
+      <file name="/Dummy.txt" timestamp="1552468307426">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -397,11 +397,11 @@
         <mark key="^" line="672" column="75" />
         <mark key="." line="672" column="76" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/FetchBookingDataOnline.java" timestamp="1552401116131">
-        <mark key="[" line="195" column="27" />
-        <mark key="]" line="196" column="9" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/FetchBookingDataOnline.java" timestamp="1552468021148">
+        <mark key="[" line="196" column="0" />
+        <mark key="]" line="196" column="0" />
         <mark key="^" line="196" column="9" />
-        <mark key="." line="196" column="9" />
+        <mark key="." line="196" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CVehicles.java" timestamp="1551712393790">
         <mark key="[" line="94" column="15" />
@@ -543,22 +543,25 @@
       <register name="0" type="4">
         <text>ALTERNATE_TICKET_RECALL</text>
       </register>
-      <register name="1" type="4">
-        <text>ALTERNATE_ITINERARY_ENQUIRY_TICKET</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="4">
+        <text>ALTERNATE_ITINERARY_ENQUIRY_TICKET</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">ICAgUGFyYW1ldGVyc01hbmFnZXIgcGFyYW1ldGVyc01hbmFnZXIgPSBuZXcgUGFyYW1ldGVyc01hbmFnZXIoKTsKICAgICAgdHJ5IHsKICAgICAgICBwYXJhbWV0ZXJzTWFuYWdlci5sb2FkQnlQcmltYXJ5S2V5KCJBTFRFUk5BVEVfSVRJTkVSQVJZX0VOUVVJUllfVElDS0VUIik7CiAgICAgIH0gY2F0Y2ggKERBT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKICAgICAgfQ==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAK</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">ICBQYXJhbWV0ZXJzTWFuYWdlciBwYXJhbWV0ZXJzTWFuYWdlciA9IG5ldyBQYXJhbWV0ZXJzTWFuYWdlcigpOwogICAgICB0cnkgewogICAgICAgIHBhcmFtZXRlcnNNYW5hZ2VyLmxvYWRCeVByaW1hcnlLZXkoIkFMVEVSTkFURV9JVElORVJBUllfRU5RVUlSWV9USUNLRVQiKTsKICAgICAgfSBjYXRjaCAoREFPRXhjZXB0aW9uIGUpIHsKICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICB9</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>ParametersManager parametersManager = new ParametersManager();
       try {
         parametersManager.loadByPrimaryKey(&quot;ALTERNATE_ITINERARY_ENQUIRY_TICKET&quot;);
@@ -566,17 +569,14 @@
         e.printStackTrace();
       }</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="x" type="4">
         <text>ALTERNATE_ITINERARY_ENQUIRY_TICKET</text>
       </register>
-      <register name="8" type="4">
-        <text>DepartureTicketDataRQ_S</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="4">
-        <text>&quot;</text>
+        <text>DepartureTicketDataRQ_S</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
