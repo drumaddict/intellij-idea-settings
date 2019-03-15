@@ -249,7 +249,6 @@
         <mark key="^" line="7" column="26" />
         <mark key="." line="7" column="26" />
       </file>
-      <file name="F:/msys64/home/spiros/cpp/sdl2-game/src/main.cpp" timestamp="1551131945925" />
       <file name="$USER_HOME$/cpp/roboworkers/src/backoffice.cpp" timestamp="1539424557209">
         <mark key="[" line="4" column="19" />
         <mark key="]" line="4" column="18" />
@@ -421,6 +420,11 @@
         <mark key="]" line="2" column="1" />
         <mark key="^" line="2" column="1" />
         <mark key="." line="2" column="1" />
+      </file>
+      <file name="F:/cpp/vulkanDemo/CMakeLists.txt" timestamp="1552632149215">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="64" />
+        <mark key="." line="13" column="64" />
       </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/underwriting/UnderwritingServiceTest.java" timestamp="1529661391233">
         <mark key="'" line="76" column="83" />
@@ -742,7 +746,7 @@
         <text>GLEW</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -755,7 +759,6 @@
     <history>
       <history-search />
       <history-cmd>
-        <entry>action RenameElement</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>action ChangeSignature</entry>
         <entry>action Debug</entry>
@@ -764,18 +767,18 @@
         <entry>action ChooseDebugConfiguration</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action AceLineAction</entry>
-        <entry>action AceAction</entry>
         <entry>action AceTargetAction</entry>
         <entry>action PreviousTab</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action CloseContent</entry>
         <entry>action SplitVertically</entry>
         <entry>action GotoFile</entry>
-        <entry>action Forward</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Forward</entry>
+        <entry>action AceAction</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
