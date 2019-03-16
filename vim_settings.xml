@@ -421,10 +421,16 @@
         <mark key="^" line="2" column="1" />
         <mark key="." line="2" column="1" />
       </file>
-      <file name="F:/cpp/vulkanDemo/CMakeLists.txt" timestamp="1552632149215">
-        <mark key="[" line="13" column="0" />
+      <file name="F:/cpp/vulkanDemo/CMakeLists.txt" timestamp="1552723387425">
+        <mark key="[" line="48" column="16" />
         <mark key="]" line="13" column="64" />
         <mark key="." line="13" column="64" />
+      </file>
+      <file name="F:/cpp/vulkanDemo/vulkanDemo.cpp" timestamp="1552724261195">
+        <mark key="[" line="3" column="24" />
+        <mark key="]" line="3" column="22" />
+        <mark key="^" line="3" column="22" />
+        <mark key="." line="3" column="22" />
       </file>
       <file name="$USER_HOME$/logisfera/ergo.hellas.portal.backend/src/test/java/io/lsn/portal/domain/underwriting/UnderwritingServiceTest.java" timestamp="1529661391233">
         <mark key="'" line="76" column="83" />
@@ -746,7 +752,7 @@
         <text>GLEW</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -773,12 +779,12 @@
         <entry>action CloseContent</entry>
         <entry>action SplitVertically</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Forward</entry>
         <entry>action AceAction</entry>
         <entry>action ReformatCode</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
