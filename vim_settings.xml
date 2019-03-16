@@ -421,10 +421,12 @@
         <mark key="^" line="2" column="1" />
         <mark key="." line="2" column="1" />
       </file>
-      <file name="F:/cpp/vulkanDemo/CMakeLists.txt" timestamp="1552723387425">
-        <mark key="[" line="48" column="16" />
-        <mark key="]" line="13" column="64" />
-        <mark key="." line="13" column="64" />
+      <file name="F:/cpp/vulkanDemo/CMakeLists.txt" timestamp="1552727027713">
+        <mark key="'" line="37" column="0" />
+        <mark key="[" line="5" column="34" />
+        <mark key="]" line="5" column="33" />
+        <mark key="^" line="5" column="33" />
+        <mark key="." line="5" column="33" />
       </file>
       <file name="F:/cpp/vulkanDemo/vulkanDemo.cpp" timestamp="1552724261195">
         <mark key="[" line="3" column="24" />
@@ -534,6 +536,12 @@
         <mark key="." line="6" column="21" />
         <mark key="^" line="6" column="21" />
       </file>
+      <file name="F:/cpp/vulkanDemo/vulkanDemo.h" timestamp="1552726398057">
+        <mark key="[" line="7" column="65" />
+        <mark key="]" line="7" column="64" />
+        <mark key="." line="7" column="64" />
+        <mark key="^" line="7" column="64" />
+      </file>
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/tests/java/io/lsn/ergo5/TestConfiguration.java" timestamp="1529500041681">
         <mark key="'" line="37" column="8" />
         <mark key="[" line="32" column="50" />
@@ -596,11 +604,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="0" filename="D:/java/cosmogony/src/main/java/org/kabasakalis/PdpServlet.java" />
-      <jump line="18" column="0" filename="D:/java/cosmogony/src/main/java/org/kabasakalis/PdpServlet.java" />
-      <jump line="39" column="4" filename="D:/java/cosmogony/src/main/java/org/kabasakalis/PdpServlet.java" />
-      <jump line="42" column="47" filename="D:/java/cosmogony/src/main/java/org/kabasakalis/PdpServlet.java" />
-      <jump line="46" column="0" filename="D:/java/cosmogony/src/main/java/org/kabasakalis/PdpServlet.java" />
       <jump line="0" column="0" filename="F:/msys64/home/spiros/cpp/sfml-template/tasks/cmake_config_release.sh" />
       <jump line="6" column="102" filename="F:/msys64/home/spiros/cpp/sfml-template/tasks/debug.sh" />
       <jump line="4" column="45" filename="F:/msys64/home/spiros/cpp/sfml-template/tasks/debug.sh" />
@@ -696,6 +699,11 @@
       <jump line="24" column="0" filename="F:/msys64/home/spiros/cpp/sdl2-game/CMakeLists.txt" />
       <jump line="3" column="34" filename="F:/msys64/home/spiros/cpp/sdl2-game/CMakeLists.txt" />
       <jump line="63" column="61" filename="F:/msys64/home/spiros/cpp/sdl2-game/CMakeLists.txt" />
+      <jump line="5" column="47" filename="F:/cpp/vulkanDemo/CMakeLists.txt" />
+      <jump line="25" column="42" filename="F:/cpp/vulkanDemo/CMakeLists.txt" />
+      <jump line="27" column="0" filename="F:/cpp/vulkanDemo/CMakeLists.txt" />
+      <jump line="204" column="90" filename="F:/cpp/vulkanDemo/CMakeLists.txt" />
+      <jump line="38" column="0" filename="F:/cpp/vulkanDemo/CMakeLists.txt" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -714,45 +722,50 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">cHJvamVjdCh2dWxrYW5pbmZvKQo=</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ZmluZF9wYWNrYWdlKFZ1bGthbiBSRVFVSVJFRCkK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">bWFrZV9taW5pbXVtX3JlcXVpcmVkKFZFUlNJT04gMy43KQo=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>#link_directories(
-#        ${SDL2_LIBRARY_DIRS}
-#        ${SDL2_IMAGE_LIBRARY_DIRS}
-#        ${SDL2_MIXER_LIBRARY_DIRS}
-#        #        ${FREETYPE2_LIBRARY_DIRS}
-#        #        ${HARFBUZZ_LIBRARY_DIRS}
-#)</text>
+      <register name="6" type="4">
+        <text># Dependencies
+find_path(VULKAN_INCLUDE_DIR NAMES vulkan/vulkan.h HINTS
+        &quot;$ENV{VULKAN_SDK}/Include&quot;
+        &quot;$ENV{VK_SDK_PATH}/Include&quot;)
+
+
+if (CMAKE_SIZEOF_VOID_P EQUAL 8)
+    find_library(VULKAN_LIBRARY NAMES vulkan-1 HINTS
+            &quot;$ENV{VULKAN_SDK}/Lib&quot;
+            &quot;$ENV{VULKAN_SDK}/Bin&quot;
+            &quot;$ENV{VK_SDK_PATH}/Bin&quot;)
+else ()
+    find_library(VULKAN_LIBRARY NAMES vulkan-1 HINTS
+            &quot;$ENV{VULKAN_SDK}/Lib32&quot;
+            &quot;$ENV{VULKAN_SDK}/Bin32&quot;
+            &quot;$ENV{VK_SDK_PATH}/Bin32&quot;)
+endif ()</text>
       </register>
-      <register name="5" type="4">
-        <text>target_link_libraries(SDL2Test ${SDL2_LIBRARIES}
-        ${SDL2_IMAGE_LIBRARIES}
-        ${SDL2_MIXER_LIBRARIES}
-        #        ${FREETYPE2_LIBRARIES}
-        #        ${HARFBUZZ_LIBRARIES}
-        )</text>
-      </register>
-      <register name="6" type="2">
+      <register name="7" type="4">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">I3BrZ19jaGVja19tb2R1bGVzKE9wZW5HTCBSRVFVSVJFRHNvcGVuZ2wpCg==</text>
       </register>
       <register name="x" type="4">
         <text>GLEW</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">cGtnX2NoZWNrX21vZHVsZXMoT3BlbkdMIFJFUVVJUkVEIG9wa2VuZ2wzMikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>GLEW</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -774,17 +787,18 @@
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action AceLineAction</entry>
         <entry>action AceTargetAction</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>action CloseContent</entry>
-        <entry>action SplitVertically</entry>
         <entry>action GotoFile</entry>
         <entry>action Forward</entry>
         <entry>action AceAction</entry>
         <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action Find</entry>
+        <entry>action SplitVertically</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
