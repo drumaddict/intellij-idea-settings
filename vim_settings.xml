@@ -298,12 +298,12 @@
         <mark key="^" line="1" column="36" />
         <mark key="." line="1" column="36" />
       </file>
-      <file name="F:/cpp/vulkan-demo/CMakeLists.txt" timestamp="1552778595183">
+      <file name="F:/cpp/vulkan-demo/CMakeLists.txt" timestamp="1552851713424">
         <mark key="'" line="129" column="0" />
-        <mark key="[" line="52" column="41" />
-        <mark key="]" line="52" column="40" />
-        <mark key="^" line="52" column="40" />
-        <mark key="." line="52" column="40" />
+        <mark key="[" line="80" column="87" />
+        <mark key="]" line="80" column="88" />
+        <mark key="^" line="80" column="88" />
+        <mark key="." line="80" column="88" />
       </file>
       <file name="$USER_HOME$/cpp/Breakout/src/main.cpp" timestamp="1543048137735">
         <mark key="[" line="0" column="25" />
@@ -769,14 +769,14 @@
       <register name="1" type="4">
         <text>OFF</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="3" type="4">
+      <register name="2" type="4">
         <text>OFF</text>
       </register>
-      <register name="4" type="2">
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text>OFF</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
@@ -784,17 +784,17 @@
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>nit</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>OFF</text>
       </register>
       <register name="8" type="4">
-        <text>cmake</text>
+        <text>nit</text>
       </register>
       <register name="9" type="4">
-        <text>cginternals</text>
+        <text>cmake</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -827,8 +827,8 @@
         <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action Find</entry>
         <entry>action GotoFile</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
