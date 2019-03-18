@@ -218,7 +218,7 @@
         <mark key="." line="118" column="36" />
         <mark key="^" line="118" column="36" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1552894568271">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1552900326855">
         <mark key="'" line="140" column="22" />
         <mark key="n" line="150" column="36" />
       </file>
@@ -572,7 +572,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbXNnRHRhLnNldENvbXBhbnlDb2RlKHRoaXMuaW5pdFRpY2tldElzc3Vlcik7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -604,9 +604,9 @@
         <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
