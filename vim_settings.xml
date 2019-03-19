@@ -15,6 +15,9 @@
         <mark key="^" line="34" column="17" />
         <mark key="." line="34" column="17" />
       </file>
+      <file name="/a.dummy" timestamp="1552997966806">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICKET_CONF_VW.sql" timestamp="1552907696356">
         <mark key="'" line="37" column="43" />
         <mark key="[" line="83" column="47" />
@@ -93,8 +96,12 @@
         <mark key="." line="105" column="29" />
         <mark key="^" line="105" column="29" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" timestamp="1552994591979">
-        <mark key="'" line="180" column="17" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" timestamp="1552998023678">
+        <mark key="'" line="269" column="0" />
+        <mark key="[" line="269" column="0" />
+        <mark key="]" line="359" column="4" />
+        <mark key="^" line="320" column="20" />
+        <mark key="." line="320" column="20" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/DisembarkationBatchUpdate.java" timestamp="1552901236556">
         <mark key="'" line="547" column="0" />
@@ -137,6 +144,13 @@
         <mark key="]" line="7" column="18" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmaion.java" timestamp="1552997949794">
+        <mark key="'" line="2" column="0" />
+        <mark key="[" line="22" column="52" />
+        <mark key="]" line="22" column="76" />
+        <mark key="^" line="22" column="76" />
+        <mark key="." line="22" column="76" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/port-checkin-control.xml" timestamp="1551275132735">
         <mark key="'" line="167" column="8" />
         <mark key="[" line="167" column="68" />
@@ -151,14 +165,13 @@
         <mark key="^" line="152" column="13" />
         <mark key="." line="152" column="13" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1552997190776">
-        <mark key="'" line="250" column="12" />
-        <mark key="[" line="446" column="62" />
-        <mark key="m" line="1391" column="27" />
-        <mark key="]" line="446" column="56" />
-        <mark key="^" line="446" column="56" />
-        <mark key="n" line="1391" column="27" />
-        <mark key="." line="446" column="56" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1552998385710">
+        <mark key="[" line="253" column="0" />
+        <mark key="m" line="1222" column="27" />
+        <mark key="]" line="253" column="0" />
+        <mark key="n" line="1222" column="27" />
+        <mark key="^" line="252" column="78" />
+        <mark key="." line="253" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Booking.java" timestamp="1552570819453">
         <mark key="'" line="122" column="2" />
@@ -275,7 +288,7 @@
         <mark key="." line="219" column="27" />
         <mark key="^" line="219" column="27" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1552981008551">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1552999490523">
         <mark key="f" line="506" column="21" />
         <mark key="'" line="632" column="135" />
         <mark key="k" line="326" column="20" />
@@ -366,6 +379,12 @@
         <mark key="." line="40" column="36" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/DepartureTicketDataCPRQ_S_OPEN.xml" timestamp="1552987499845" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" timestamp="1552999114011">
+        <mark key="[" line="123" column="0" />
+        <mark key="]" line="123" column="0" />
+        <mark key="." line="123" column="0" />
+        <mark key="^" line="122" column="23" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1552039158469">
         <mark key="'" line="414" column="0" />
         <mark key="[" line="105" column="20" />
@@ -467,22 +486,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="43" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICKET_CONF_VW.sql" />
-      <jump line="1" column="1" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICK_CONF_VW.sql" />
-      <jump line="30" column="3" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICK_CONF_VW.sql" />
-      <jump line="63" column="13" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_VW.sql" />
-      <jump line="67" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICK_CONF_VW.sql" />
-      <jump line="127" column="42" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_VW.sql" />
-      <jump line="81" column="2" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICK_CONF_VW.sql" />
-      <jump line="152" column="48" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_VW.sql" />
-      <jump line="316" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="912" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="923" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="35" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="73" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="76" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="77" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="74" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="917" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="925" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="918" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
@@ -567,10 +570,26 @@
       <jump line="257" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="260" column="28" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="251" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
+      <jump line="221" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" />
+      <jump line="478" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
+      <jump line="271" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" />
+      <jump line="737" column="16" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
+      <jump line="648" column="111" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
+      <jump line="38" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" />
+      <jump line="10" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmaion.java" />
+      <jump line="28" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" />
+      <jump line="12" column="45" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmaion.java" />
+      <jump line="2" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmaion.java" />
+      <jump line="219" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" />
+      <jump line="90" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
+      <jump line="269" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" />
+      <jump line="183" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
+      <jump line="123" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
+      <jump line="125" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>me</text>
+        <text encoding="base64">c3RhdHVzLnRyaW0oKS5jb21wYXJlVG8oIjAwMCIpIDw9IDA=</text>
       </register>
       <register name="-" type="4">
         <text>y</text>
@@ -579,43 +598,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJvY2Vzc1hNTCh4bWx0cmVlLCBtaWQsICIiKTsK</text>
+        <text encoding="base64">ICAgICAgICBpZiAoc3RhdHVzLnRyaW0oKS5jb21wYXJlVG8oIjAwMCIpIDw9IDApIHsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgewo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">c3RhdHVzLnRyaW0oKS5jb21wYXJlVG8oIjAwMCIpIDw9IDA=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgICAgICAgIGlmIChib29rQ250ID4gMCkgewogICAgICAgICAgICBib29rQ250ID0geG1sdHJlZS5nZXRTZXJ2aWNlTWVzc2FnZUl0ZW0oMCkuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlRGF0YSgwKS5nZXRCb29raW5nSW5mb3JtYXRpb25Db3VudCgpOwovLyAgICAgICAgICAgIGlmIChib29rQ250ID4gMCkgewovLyAgICAgICAgICAgICAgICBpbnQgYyA9IHVwZGF0ZVNhaWxpbmdQcm90b2NvbHMoeG1sdHJlZSwgaXRpbmVyYXJ5KTsKLy8gICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIA==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgIEl0aW5lbnFWd0JlYW4gaXRpbmVyYXJ5ID0gbnVsbDsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">ICAgICAgICAgIGlmIChpdGluZXJhcnkgIT0gbnVsbCkgewogICAgICAgICAgfQoKICAgICAgICAgIGlmICh0cnVlICYmIGl0aW5lcmFyeSAhPSBudWxsKSB7CiAgICAgICAgICAgIGludCBydiA9IDA7CiAgICAgICAgICAgIGlmICgocnYgPSBpbnNlcnRFbWJhcmthdGlvbkRhdGEoeG1sdHJlZSwgaXRpbmVyYXJ5LCBkZWxGbGFnKSkgPT0gMCkgewogICAgICAgICAgICAgIGNvbW1pdCA9IHRydWU7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgY29tbWl0ID0gZmFsc2U7CiAgICAgICAgICAgIH0KICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGNvbW1pdCA9IGZhbHNlOwogICAgICAgICAgfQ==</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">CgovLyAgICAgICAgICAgICAgICAgICAgICB4bWx0cmVlLmdldFNlcnZpY2VNZXNzYWdlSXRlbSgwKS5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKDApLmdldEJvb2tpbmdJbmZvcm1hdGlvbigpCi8vICAgICAgICAgICAgaXRpbmVyYXJ5ID0gZmluZEl0aW5lcmFyeSgpOw==</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>me</text>
+        <text encoding="base64">c3RhdHVzLnRyaW0oKS5jb21wYXJlVG8oIjAwMCIpIDw9IDA=</text>
       </register>
-      <register name="8" type="4">
-        <text>String depDate = xmltree.getServiceMessageItem(0).getServiceBody().getMessageData(0).getDepartureDate();
-            String depTime = xmltree.getServiceMessageItem(0).getServiceBody().getMessageData(0).getDepartureTime();
-            String depCode = xmltree.getServiceMessageItem(0).getServiceBody().getMessageData(0).getDeparturePortCode();
-            itinerary = fetchItinerariesByDeparture(depDate, depTime, depCode, companyCode);</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIH0K</text>
+      <register name="9" type="4">
+        <text encoding="base64">ICAgICAgICBpZiAodHJ1ZSAmJiBpdGluZXJhcnkgPT0gbnVsbCkgewogICAgICAgICAgICBpbnQgcnYgPSAwOwogICAgICAgICAgICBpZiAoKHJ2ID0gaW5zZXJ0T3BlbnRUaWNrZXREYXRhKHhtbHRyZWUsIGl0aW5lcmFyeSwgZGVsRmxhZykpID09IDApIHsKICAgICAgICAgICAgICBjb21taXQgPSB0cnVlOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgIGNvbW1pdCA9IGZhbHNlOwogICAgICAgICAgICB9CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBjb21taXQgPSBmYWxzZTsKICAgICAgICAgIH0=</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -636,23 +652,23 @@
         <entry>178</entry>
         <entry>action Forward</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmlsZVN0cnVjdHVyZVBvcHVw</entry>
         <entry>action $SelectAll</entry>
         <entry>action SurroundWith</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>633</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTW92ZUVkaXRvclRvT3Bwb3NpdGVUYWJHcm91cA==</entry>
         <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action FindUsages</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action NextTab</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action Find</entry>
+        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
