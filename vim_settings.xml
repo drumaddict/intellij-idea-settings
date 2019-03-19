@@ -205,6 +205,9 @@
         <mark key="^" line="29" column="47" />
         <mark key="." line="29" column="47" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/sql/mySQLs/fetchItinByDate.sql" timestamp="1552921939497">
+        <mark key="[" line="8" column="101" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1551964912250">
         <mark key="'" line="207" column="0" />
         <mark key="[" line="207" column="0" />
@@ -233,13 +236,11 @@
         <mark key="." line="118" column="36" />
         <mark key="^" line="118" column="36" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1552904368977">
-        <mark key="'" line="426" column="7" />
-        <mark key="[" line="363" column="22" />
-        <mark key="]" line="363" column="21" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1552979911363">
+        <mark key="[" line="399" column="0" />
+        <mark key="]" line="399" column="0" />
         <mark key="n" line="150" column="36" />
-        <mark key="^" line="363" column="21" />
-        <mark key="." line="363" column="21" />
+        <mark key="." line="399" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/SailingsDescriptor.java" timestamp="1549620756459">
         <mark key="'" line="202" column="0" />
@@ -284,18 +285,16 @@
         <mark key="^" line="62" column="0" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1552663718413">
+      <file name="/Dummy.txt" timestamp="1552922482583">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1552915425759">
-        <mark key="'" line="797" column="4" />
-        <mark key="[" line="797" column="4" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1552979802318">
+        <mark key="'" line="900" column="2" />
+        <mark key="[" line="871" column="2" />
         <mark key="m" line="370" column="83" />
-        <mark key="]" line="797" column="5" />
-        <mark key="." line="797" column="4" />
-        <mark key="^" line="797" column="3" />
+        <mark key="]" line="900" column="3" />
+        <mark key="." line="871" column="2" />
+        <mark key="^" line="901" column="1" />
         <mark key="o" line="508" column="50" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmatinPassTransfer.java" timestamp="1551083359556">
@@ -319,7 +318,6 @@
         <mark key="^" line="283" column="0" />
         <mark key="." line="283" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdatesHandler.java" timestamp="1552904526267" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1552382910242">
         <mark key="'" line="23" column="2" />
         <mark key="[" line="23" column="36" />
@@ -442,8 +440,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="256" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="799" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="269" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="270" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="272" column="61" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
@@ -542,6 +538,8 @@
       <jump line="140" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
       <jump line="150" column="15" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
       <jump line="659" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
+      <jump line="94" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="901" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -560,41 +558,41 @@
           ansStr = ticketItinerariesEnquiry.process();
           break;</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text encoding="base64">CgoKICBwcm90ZWN0ZWQgSWZhY2VQYXJzUGVyY29tcEJlYW4gZmV0Y2hJZmFjZVBhcnMoU3RyaW5nIGNvbXBhbnkpIHsKCiAgICBJZmFjZVBhcnNQZXJjb21wTWFuYWdlciBtID0gSWZhY2VQYXJzUGVyY29tcE1hbmFnZXIuZ2V0SW5zdGFuY2UoKTsKICAgIFN0cmluZ0J1ZmZlciBjcml0ZXJpYVNRTCA9IG5ldyBTdHJpbmdCdWZmZXIoKTsKICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiIFdIRVJFIENPTVBfTlRWQz0nIiArIGNvbXBhbnkgKyAiJyBBTkQgT1BfQ09ERSBsaWtlICdBcnJpdmFsVGlja2V0RGF0YSUnIik7CiAgICBTeXN0ZW0ub3V0LnByaW50bG4oIlNRTD4iICsgY3JpdGVyaWFTUUwudG9TdHJpbmcoKSk7CiAgICB0cnkgewogICAgICBJZmFjZVBhcnNQZXJjb21wQmVhbltdIHJvd3MgPSBudWxsOwogICAgICBTdHJpbmcgc3FsID0gbnVsbDsKICAgICAgcm93cyA9IG0ubG9hZEJ5V2hlcmUoY3JpdGVyaWFTUUwudG9TdHJpbmcoKSk7CiAgICAgIGlmIChyb3dzLmxlbmd0aCA+IDApIHsKICAgICAgICByZXR1cm4gcm93c1swXTsKICAgICAgfSBlbHNlIHsKICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgfQogICAgfSBjYXRjaCAoRXhjZXB0aW9uIGRhb2UpIHsKICAgICAgZGJFUlJPUiA9IHRydWU7CiAgICAgIGRiRXJyU3RyID0gZGFvZS5nZXRMb2NhbGl6ZWRNZXNzYWdlKCk7CiAgICAgIGRhb2UucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgIHJldHVybiBudWxsOwogICAgfQogIH0KCg==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>//    String bookingNo = &quot;&quot;;
-//    if (reqXML.getServiceBody().getMessageData().getEmbarkationData().getBooking().getBookingNumber() != null) {
-//      bookingNo = reqXML.getServiceBody().getMessageData().getEmbarkationData().getBooking().getBookingNumber();
-//    }</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLy9URVNUISEhCiAgICAgICAgICAgICAgICAgICAgICBTdHJpbmcgZGVwRGF0ZSA9IHhtbHRyZWUuZ2V0U2VydmljZU1lc3NhZ2VJdGVtKDApLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoMCkuZ2V0RGVwYXJ0dXJlRGF0ZSgpOwogICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGRlcFRpbWUgPSB4bWx0cmVlLmdldFNlcnZpY2VNZXNzYWdlSXRlbSgwKS5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKDApLmdldERlcGFydHVyZVRpbWUoKTsKICAgICAgICAgICAgICAgICAgICAgIFN0cmluZyBkZXBDb2RlID0geG1sdHJlZS5nZXRTZXJ2aWNlTWVzc2FnZUl0ZW0oMCkuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlRGF0YSgwKS5nZXREZXBhcnR1cmVQb3J0Q29kZSgpOwogICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGNvbXBDb2RlID0gIlRSQVMiOwogICAgICAgICAgICAgICAgICAgICAgIGl0aW5lcmFyeSA9IGZldGNoSXRpbmVyYXJpZXNCeURlcGFydHVyZShkZXBEYXRlLGRlcFRpbWUsIGRlcENvZGUsY29tcENvZGUpOwogICAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgibG9sIik7</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">Ly8gICAgICAgIGlmIChyZXFYTUwuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlRGF0YSgpLmdldEVtYmFya2F0aW9uRGF0YSgpLmdldEJvb2tpbmcoKS5nZXRQYXNzZW5nZXJzKCkuZ2V0UGFzc2VuZ2VyQ291bnQoKSA+IDApIHsKLy8gICAgICAgICAgICBpZiAocmVxWE1MLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRFbWJhcmthdGlvbkRhdGEoKS5nZXRCb29raW5nKCkuZ2V0UGFzc2VuZ2VycygpLmdldFBhc3NlbmdlcigwKS5nZXRTdXJuYW1lKCkgIT0gbnVsbCkgewovLyAgICAgICAgICAgICAgICBjcml0ZXJpYVNRTC5hcHBlbmQoU3RyaW5nLmZvcm1hdCgiJXMgUEFTU19TTkFNRSBMSUtFICclcyUlJyIsCi8vICAgICAgICAgICAgICAgICAgICAgICAgKGNyaXRlcmlhU1FMLmxlbmd0aCgpID09IDAgPyAiIFdIRVJFICIgOiAiIEFORCAiKSwKLy8gICAgICAgICAgICAgICAgICAgICAgICByZXFYTUwuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlRGF0YSgpLmdldEVtYmFya2F0aW9uRGF0YSgpLmdldEJvb2tpbmcoKS5nZXRQYXNzZW5nZXJzKCkuZ2V0UGFzc2VuZ2VyKDApLmdldFN1cm5hbWUoKSkpOwovLyAgICAgICAgICAgIH0KLy8gICAgICAgIH0=</text>
+        <text encoding="base64">ICAgICBwcm90ZWN0ZWQgSXRpbmVucVZ3QmVhbiBmZXRjaEl0aW5lcmFyaWVzQnlEZXBhcnR1cmUoU3RyaW5nIGRlcGFydHVyZURhdGUsIFN0cmluZyBkZXBhcnR1cmVUaW1lLCBTdHJpbmcgZGVwQ29kZSwgU3RyaW5nIGNvbXBDb2RlKSB0aHJvd3MgREFPRXhjZXB0aW9uIHsKICAgIEl0aW5lbnFWd01hbmFnZXIgdmlld20gPSBJdGluZW5xVndNYW5hZ2VyLmdldEluc3RhbmNlKCk7CiAgICBpbnQgY3JpdGVyaWEgPSAwOwoKICAgIElmYWNlUGFyc1BlcmNvbXBCZWFuIGlmcGMgPSBmZXRjaElmYWNlUGFycyhjb21wQ29kZSk7CgogICAgU3RyaW5nQnVmZmVyIGNyaXRlcmlhU1FMID0gbmV3IFN0cmluZ0J1ZmZlcigpOwoKICAgIFN0cmluZyBuZGF0ZSA9IGRlcGFydHVyZURhdGUudHJpbSgpLnN1YnN0cmluZygwLCA0KSArICItIiArIGRlcGFydHVyZURhdGUuc3Vic3RyaW5nKDQsIDYpICsgIi0iICsgZGVwYXJ0dXJlRGF0ZS50cmltKCkuc3Vic3RyaW5nKDYsIDgpOwogICAgU3RyaW5nIGZUaW1lID0gIiAiICsgZGVwYXJ0dXJlVGltZS50cmltKCkuc3Vic3RyaW5nKDAsIDIpICsgIjoiICsgZGVwYXJ0dXJlVGltZS50cmltKCkuc3Vic3RyaW5nKDIsIDQpICsgIjowMCI7ClN0cmluZyB0aW1lc3RhbXAgPSAiMjAxNi0wNS0yMSAyMzo1OTowMCI7Ci8vICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiIERFUF9EQVRFPSBUSU1FU1RBTVAgJyIgKyBuZGF0ZSArIGZUaW1lICsgIicgIik7CiAgICAgICBjcml0ZXJpYVNRTC5hcHBlbmQoIiBERVBfREFURT0gVElNRVNUQU1QICciICsgdGltZXN0YW1wICsgIicgIik7CiAgICBjcml0ZXJpYVNRTC5hcHBlbmQoIiBBTkQgIik7Ci8vICAgICAgICBjcml0ZXJpYVNRTC5hcHBlbmQoIiBDT01QX0NPREU9JyIgKyBpZnBjLmdldENvbXBDb2RlKCkgKyAiJyAiKTsKLy8gICAgY3JpdGVyaWFTUUwuYXBwZW5kKCIgQ09NUF9DT0RFPSciICsgY29tcENvZGUgKyAiJyAiKTsKICAgICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiIENPTVBfQ09ERT0nIiArIGNvbXBDb2RlICsgIicgIik7CiAgICBjcml0ZXJpYVNRTC5hcHBlbmQoIiBBTkQgIik7Ci8vICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiIERFUF9DT0RFPSciICsgZGVwQ29kZSArICInICIpOwogICAgICAgY3JpdGVyaWFTUUwuYXBwZW5kKCIgREVQX0NPREU9J1BUTScgIik7CgogICAgSXRpbmVucVZ3QmVhbltdIGl0aW5yb3dzID0gbnVsbDsKICAgIFN5c3RlbS5vdXQucHJpbnRsbigiU1FMPiIgKyAiIFdIRVJFICIgKyBjcml0ZXJpYVNRTC50b1N0cmluZygpKTsKICAgIGl0aW5yb3dzID0gdmlld20ubG9hZEJ5V2hlcmUoIiBXSEVSRSAiICsgY3JpdGVyaWFTUUwudG9TdHJpbmcoKSArICIgT1JERVIgQlkgREVQX0RBVEUsIFNBSUxfSUQsIElUSU5fSUQgICIpOwogICAgaWYgKGl0aW5yb3dzLmxlbmd0aCA+IDApIHsKICAgICAgcmV0dXJuIGl0aW5yb3dzWzBdOwogICAgfSBlbHNlIHsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CiAgfQ==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Rml4ZWQgQ0lUSU5FUkFSWSBidWcK</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">aWYgKHNiLmxlbmd0aCgpID4gMCkgewogICAgICBzYi5kZWxldGUoc2IubGVuZ3RoKCkgLSAyLCBzYi5sZW5ndGgoKSAtIDEpOwogICAgICAvLyBjcml0ZXJpYVNRTC5hcHBlbmQoIldIRVJFIElUSU5fSUQgSU4gKCAiICsgc2IudG9TdHJpbmcoKSArICIpICIpOwogICAgICBJdGluZW5xVndCZWFuIGl0aW5CZWFuID0gZmV0Y2hTYWlsaW5nKHJlcVhNTC5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0RW1iYXJrYXRpb25EYXRhKCkuZ2V0VHJpcERhdGEoMCkpOwogICAgfQ==</text>
+        <text>//    String bookingNo = &quot;&quot;;
+//    if (reqXML.getServiceBody().getMessageData().getEmbarkationData().getBooking().getBookingNumber() != null) {
+//      bookingNo = reqXML.getServiceBody().getMessageData().getEmbarkationData().getBooking().getBookingNumber();
+//    }</text>
       </register>
       <register name="x" type="4">
         <text>tcktNumber</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgY3JpdGVyaWFTUUwuYXBwZW5kKCJXSEVSRSBDT01QX0NPREUgPSAnIiArIGNvbXBhbmllc0JlYW4uZ2V0Q29tcENvZGUoKS50cmltKCkgKyAiJyAiKTsK</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="9" type="4">
+        <text encoding="base64">Ly8gICAgICAgIGlmIChyZXFYTUwuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlRGF0YSgpLmdldEVtYmFya2F0aW9uRGF0YSgpLmdldEJvb2tpbmcoKS5nZXRQYXNzZW5nZXJzKCkuZ2V0UGFzc2VuZ2VyQ291bnQoKSA+IDApIHsKLy8gICAgICAgICAgICBpZiAocmVxWE1MLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRFbWJhcmthdGlvbkRhdGEoKS5nZXRCb29raW5nKCkuZ2V0UGFzc2VuZ2VycygpLmdldFBhc3NlbmdlcigwKS5nZXRTdXJuYW1lKCkgIT0gbnVsbCkgewovLyAgICAgICAgICAgICAgICBjcml0ZXJpYVNRTC5hcHBlbmQoU3RyaW5nLmZvcm1hdCgiJXMgUEFTU19TTkFNRSBMSUtFICclcyUlJyIsCi8vICAgICAgICAgICAgICAgICAgICAgICAgKGNyaXRlcmlhU1FMLmxlbmd0aCgpID09IDAgPyAiIFdIRVJFICIgOiAiIEFORCAiKSwKLy8gICAgICAgICAgICAgICAgICAgICAgICByZXFYTUwuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlRGF0YSgpLmdldEVtYmFya2F0aW9uRGF0YSgpLmdldEJvb2tpbmcoKS5nZXRQYXNzZW5nZXJzKCkuZ2V0UGFzc2VuZ2VyKDApLmdldFN1cm5hbWUoKSkpOwovLyAgICAgICAgICAgIH0KLy8gICAgICAgIH0=</text>
+      </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -622,13 +620,13 @@
         <entry>action OptimizeImports</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
+        <entry>action FileStructurePopup</entry>
         <entry>action GotoFile</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action FileStructurePopup</entry>
-        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
