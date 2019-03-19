@@ -151,14 +151,14 @@
         <mark key="^" line="152" column="13" />
         <mark key="." line="152" column="13" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1552994278435">
-        <mark key="'" line="695" column="2" />
-        <mark key="[" line="586" column="24" />
-        <mark key="m" line="1332" column="27" />
-        <mark key="]" line="586" column="38" />
-        <mark key="." line="586" column="38" />
-        <mark key="^" line="586" column="38" />
-        <mark key="n" line="1332" column="27" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1552997190776">
+        <mark key="'" line="250" column="12" />
+        <mark key="[" line="446" column="62" />
+        <mark key="m" line="1391" column="27" />
+        <mark key="]" line="446" column="56" />
+        <mark key="^" line="446" column="56" />
+        <mark key="n" line="1391" column="27" />
+        <mark key="." line="446" column="56" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/Booking.java" timestamp="1552570819453">
         <mark key="'" line="122" column="2" />
@@ -467,12 +467,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="423" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" />
-      <jump line="426" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" />
-      <jump line="62" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICKET_CONF_VW.sql" />
-      <jump line="66" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICKET_CONF_VW.sql" />
-      <jump line="67" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICKET_CONF_VW.sql" />
-      <jump line="61" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICKET_CONF_VW.sql" />
       <jump line="37" column="43" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICKET_CONF_VW.sql" />
       <jump line="1" column="1" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICK_CONF_VW.sql" />
       <jump line="30" column="3" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICK_CONF_VW.sql" />
@@ -560,59 +554,68 @@
       <jump line="1196" column="36" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="357" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="358" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
-      <jump line="359" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="41" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="368" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="388" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="474" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="695" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="180" column="17" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" />
+      <jump line="340" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
+      <jump line="495" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
+      <jump line="359" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
+      <jump line="242" column="91" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
+      <jump line="257" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
+      <jump line="260" column="28" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
+      <jump line="251" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>EmbarkationData</text>
+        <text>me</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bmRhdGUgKyBmVGltZSA=</text>
+        <text>y</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">ICBwcm90ZWN0ZWQgaW50IGluc2VydEVtYmFya2F0aW9uRGF0YSh4bWwubWVzc2FnZXMuY29tcGFuaWVzX2NoZWNraW5fYW5zLlNlcnZpY2VNZXNzYWdlIHhtbHRyZWUsIEl0aW5lbnFWd0JlYW4gaXRpbmVyYXJ5LCBTdHJpbmcgZGVsRmxhZykgdGhyb3dzIERBT0V4Y2VwdGlvbiB7CgogICAgaW50IHBjbnQgPSAwOwogICAgaW50IHZjbnQgPSAwOwogICAgbG9uZyB0Y250ID0gMDsKICAgIGxvbmcgYm9va0lEID0gMDsKICAgIGxvbmcgaGVhZElEID0gMDsKCiAgICBVc2Vyc0JlYW4gdWIgPSBudWxsOwogICAgaWYgKHVzZXIgIT0gbnVsbCkgewogICAgICB1YiA9IHVzZXI7CiAgICB9IGVsc2UgewogICAgICB1YiA9IGZpbmRVc2VyKCk7CiAgICAgIGlmICh1YiA9PSBudWxsKSB7CiAgICAgICAgcmV0dXJuIC0xOwogICAgICB9CiAgICB9CgovLyAgICAgICAgRXZhbFVzclJpZ2h0cyByaWdodHNFdmFsID0gbmV3IEV2YWxVc3JSaWdodHModWIsIHJlcVhNTC5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VIZWFkZXIoKS5nZXRHZW5lcmFsSW5mbygpLmdldFNlbmRlckluZm8oKS5nZXRTZW5kZXJJZGVudGlmaWNhdGlvbigpLnRyaW0oKSk7Ci8vICAgICAgICByaWdodHNFdmFsLmV2YWx1YXRlKCk7Ci8vICAgICAgICBpZiAoIXJpZ2h0c0V2YWwuY2FuVXNlQXBwbGljYXRpb24oKSkgewovLyAgICAgICAgICAgIHJldHVybiAtNDsKLy8gICAgICAgIH0KLy8gICAgICAgIGlmICghcmlnaHRzRXZhbC5jYW5Jc3N1ZUJQKCkpIHsKLy8gICAgICAgICAgICByZXR1cm4gLTU7Ci8vICAgICAgICB9CgogICAgbG9uZyBzYWlsSUQgPSBpdGluZXJhcnkuZ2V0U2FpbElkKCk7CiAgICBsb25nIGl0aW5JRCA9IGl0aW5lcmFyeS5nZXRJdGluSWQoKTsKCiAgICBpbnQgYm9va0NudCA9IDA7CiAgICBTdHJpbmcgc3RhdHVzID0geG1sdHJlZS5nZXRTZXJ2aWNlTWVzc2FnZUl0ZW0oMCkuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlSGVhZGVyKDApLmdldFN0YXR1c0luZm8oMCkuZ2V0U3RhdHVzQ29kZSgpOwogICAgaWYgKHN0YXR1cy50cmltKCkuY29tcGFyZVRvKCIwMDAiKSA8PSAwKSB7CiAgICAgIGJvb2tDbnQgPSB4bWx0cmVlLmdldFNlcnZpY2VNZXNzYWdlSXRlbSgwKS5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKDApLmdldEJvb2tpbmdJbmZvcm1hdGlvbkNvdW50KCk7CiAgICAgIGlmIChib29rQ250ID4gMCkgewogICAgICAgIGludCBjID0gdXBkYXRlU2FpbGluZ1Byb3RvY29scyh4bWx0cmVlLCBpdGluZXJhcnkpOwogICAgICB9CiAgICB9IGVsc2UgewogICAgICB2ZW5kb3JTdGF0dXNDb2RlID0geG1sdHJlZS5nZXRTZXJ2aWNlTWVzc2FnZUl0ZW0oMCkuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlSGVhZGVyKDApLmdldFN0YXR1c0luZm8oMCkuZ2V0U3RhdHVzQ29kZSgpOwogICAgICB2ZW5kb3JTdGF0dXNNZXNzYWdlID0geG1sdHJlZS5nZXRTZXJ2aWNlTWVzc2FnZUl0ZW0oMCkuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlSGVhZGVyKDApLmdldFN0YXR1c0luZm8oMCkuZ2V0U3RhdHVzTWVzc2FnZSgpOwogICAgfQoKICAgIGlmIChkZWxGbGFnLnRyaW0oKS5jb21wYXJlVG8oIkQiKSA9PSAwKSB7CiAgICAgIEJvb2tsaW5lTWFuYWdlciBibG0gPSBCb29rbGluZU1hbmFnZXIuZ2V0SW5zdGFuY2UoKTsKICAgICAgYmxtLmRlbGV0ZUJ5V2hlcmUoIiBXSEVSRSBCT09LTElORS5IRUFEX0lEIElOIChTRUxFQ1QgQk9PS0hFQURFUi5IRUFEX0lEIEZST00gQk9PS0hFQURFUiBXSEVSRSBCT09LSEVBREVSLklUSU5fSUQ9IiArIGl0aW5JRCArICIpICIpOwogICAgICBCb29raGVhZGVyTWFuYWdlciBiaG0gPSBCb29raGVhZGVyTWFuYWdlci5nZXRJbnN0YW5jZSgpOwogICAgICBiaG0uZGVsZXRlQnlXaGVyZSgiIFdIRVJFIEJPT0tIRUFERVIuSVRJTl9JRD0iICsgaXRpbklEKTsKICAgIH0KCiAgICBmb3IgKGludCBiaSA9IDA7IGJpIDwgYm9va0NudDsgYmkrKykgewoKICAgICAgeG1sLm1lc3NhZ2VzLmNvbXBhbmllc19jaGVja2luX2Fucy5Cb29raW5nSW5mb3JtYXRpb24gYm9va0luZm8gPSB4bWx0cmVlLmdldFNlcnZpY2VNZXNzYWdlSXRlbSgwKS5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKDApLmdldEJvb2tpbmdJbmZvcm1hdGlvbihiaSk7CiAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiQm9va2luZyBubyA6ICIgKyBiaSArICIgIiArIGJvb2tJbmZvLmdldEJvb2tpbmdOdW1iZXIoKSk7CiAgICAgIGhlYWRJRCA9IFNlcUhlYWRJRE1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5uZXh0VmFsKCk7CiAgICAgIGluc2VydEhlYWRlclJvdyhoZWFkSUQsIGl0aW5JRCk7CiAgICAgIHRyeSB7CiAgICAgICAgaW5zZXJ0SGVhZGVyRGVsSGlzdFJvdyhoZWFkSUQsIGl0aW5JRCwgdWIuZ2V0VXNlcklkKCkpOwogICAgICB9IGNhdGNoIChFeGNlcHRpb24gcnIpIHsKICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4ocnIuZ2V0TWVzc2FnZSgpKTsKICAgICAgfQogICAgICBpZiAoYm9va0luZm8uZ2V0UGFzc2VuZ2VycygpICE9IG51bGwpIHsKICAgICAgICBpZiAoYm9va0luZm8uZ2V0UGFzc2VuZ2Vyc0NvdW50KCkgPiAwKSB7CiAgICAgICAgICB4bWwubWVzc2FnZXMuY29tcGFuaWVzX2NoZWNraW5fYW5zLlBhc3NlbmdlcnMgcENvbnRhaW5lciA9IGJvb2tJbmZvLmdldFBhc3NlbmdlcnMoMCk7CiAgICAgICAgICBwY250ID0gcENvbnRhaW5lci5nZXRQYXNzZW5nZXJDb3VudCgpOwogICAgICAgICAgaWYgKHBjbnQgPiAwKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgaWYgKHBDb250YWluZXIuZ2V0UGFzc2VuZ2VyKHBjbnQgLSAxKS5nZXRTdXJOYW1lKCkudHJpbSgpLmxlbmd0aCgpID09IDApIHsKICAgICAgICAgICAgICAgIHBjbnQgPSAwOwogICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICBwY250ID0gMDsKICAgICAgICAgICAgfQogICAgICAgICAgfQogICAgICAgICAgaWYgKHBjbnQgPiAwKSB7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgcGNudDsgaSsrKSB7CiAgICAgICAgICAgICAgUGFzc2VuZ2VyIHBzZWcgPSBwQ29udGFpbmVyLmdldFBhc3NlbmdlcihpKTsKICAgICAgICAgICAgICBib29rSUQgPSBTZXFCb29rSURNYW5hZ2VyLmdldEluc3RhbmNlKCkubmV4dFZhbCgpOwogICAgICAgICAgICAgIGluc2VydFBhc3NlbmdlcnMoYm9va0luZm8sIGl0aW5lcmFyeSwgcHNlZywgYm9va0lELCBoZWFkSUQsIHRjbnQpOwogICAgICAgICAgICAgIGluc2VydEhlYWRlckhpc3RSb3coYm9va0lELCB1Yik7CiAgICAgICAgICAgICAgdGNudC0tOwogICAgICAgICAgICB9CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9CgogICAgICBpZiAoYm9va0luZm8uZ2V0VmVoaWNsZXMoKSAhPSBudWxsKSB7CiAgICAgICAgaWYgKGJvb2tJbmZvLmdldFZlaGljbGVzQ291bnQoKSA+IDApIHsKICAgICAgICAgIHhtbC5tZXNzYWdlcy5jb21wYW5pZXNfY2hlY2tpbl9hbnMuVmVoaWNsZXMgdkNvbnRhaW5lciA9IGJvb2tJbmZvLmdldFZlaGljbGVzKDApOwogICAgICAgICAgdmNudCA9IHZDb250YWluZXIuZ2V0VmVoaWNsZUNvdW50KCk7CiAgICAgICAgICBpZiAodmNudCA+IDApIHsKICAgICAgICAgICAgaWYgKHZDb250YWluZXIuZ2V0VmVoaWNsZSh2Y250IC0gMSkuZ2V0UmVnaXN0cmF0aW9uTnVtYmVyKCkgPT0gbnVsbCkgewogICAgICAgICAgICAgIHZjbnQgPSAwOwogICAgICAgICAgICB9IGVsc2UgaWYgKHZDb250YWluZXIuZ2V0VmVoaWNsZSh2Y250IC0gMSkuZ2V0UmVnaXN0cmF0aW9uTnVtYmVyKCkudHJpbSgpLmxlbmd0aCgpID09IDApIHsKICAgICAgICAgICAgICB2Y250ID0gMDsKICAgICAgICAgICAgfQogICAgICAgICAgfQogICAgICAgICAgaWYgKHZjbnQgPiAwKSB7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgdmNudDsgaSsrKSB7CiAgICAgICAgICAgICAgVmVoaWNsZSB2c2VnID0gdkNvbnRhaW5lci5nZXRWZWhpY2xlKGkpOwogICAgICAgICAgICAgIGJvb2tJRCA9IFNlcUJvb2tJRE1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5uZXh0VmFsKCk7CiAgICAgICAgICAgICAgaW5zZXJ0VmVoaWNsZShib29rSW5mbywgaXRpbmVyYXJ5LCB2c2VnLCBib29rSUQsIGhlYWRJRCwgdGNudCk7CiAgICAgICAgICAgICAgaW5zZXJ0SGVhZGVySGlzdFJvdyhib29rSUQsIHViKTsKICAgICAgICAgICAgICB0Y250LS07CiAgICAgICAgICAgIH0KICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0KICAgIH0KICAgIHJldHVybiAwOwogIH0=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJvY2Vzc1hNTCh4bWx0cmVlLCBtaWQsICIiKTsK</text>
       </register>
-      <register name="1" type="4">
-        <text>EmbarkationData</text>
-      </register>
-      <register name="2" type="2">
+      <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>backupDateExpire</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
-        <text>depTime</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgIEl0aW5lbnFWd0JlYW4gaXRpbmVyYXJ5ID0gbnVsbDsK</text>
       </register>
       <register name="5" type="4">
-        <text>depDate</text>
+        <text encoding="base64">ICAgICAgICAgIGlmIChpdGluZXJhcnkgIT0gbnVsbCkgewogICAgICAgICAgfQoKICAgICAgICAgIGlmICh0cnVlICYmIGl0aW5lcmFyeSAhPSBudWxsKSB7CiAgICAgICAgICAgIGludCBydiA9IDA7CiAgICAgICAgICAgIGlmICgocnYgPSBpbnNlcnRFbWJhcmthdGlvbkRhdGEoeG1sdHJlZSwgaXRpbmVyYXJ5LCBkZWxGbGFnKSkgPT0gMCkgewogICAgICAgICAgICAgIGNvbW1pdCA9IHRydWU7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgY29tbWl0ID0gZmFsc2U7CiAgICAgICAgICAgIH0KICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGNvbW1pdCA9IGZhbHNlOwogICAgICAgICAgfQ==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text encoding="base64">CgovLyAgICAgICAgICAgICAgICAgICAgICB4bWx0cmVlLmdldFNlcnZpY2VNZXNzYWdlSXRlbSgwKS5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKDApLmdldEJvb2tpbmdJbmZvcm1hdGlvbigpCi8vICAgICAgICAgICAgaXRpbmVyYXJ5ID0gZmluZEl0aW5lcmFyeSgpOw==</text>
       </register>
       <register name="x" type="4">
-        <text>EmbarkationData</text>
+        <text>me</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>String depDate = xmltree.getServiceMessageItem(0).getServiceBody().getMessageData(0).getDepartureDate();
+            String depTime = xmltree.getServiceMessageItem(0).getServiceBody().getMessageData(0).getDepartureTime();
+            String depCode = xmltree.getServiceMessageItem(0).getServiceBody().getMessageData(0).getDeparturePortCode();
+            itinerary = fetchItinerariesByDeparture(depDate, depTime, depCode, companyCode);</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">aW5zZXJ0IGFsbAppbnRvIHBhcmFtZXRlcnMKKGNvbXBfY29kZSwgY29tcF9udHZjLG9wX2NvZGUsIHByb3RvY29sLCB1cmwsIHVzZXJfZ3JvdXAsIHVzZXJfY29kZSwgdXNlcl9wYXNzd2QsIGN1c3RvbV9xdWVyeSwgY3JpdGVyaWFfZmllbGQgKQogdmFsdWVzCiAgKCdUUkFTJywgJzk1NCcsICdEZXBhcnR1cmVUaWNrZXREYXRhQ1BSUV9CJywgJ1hNTCcsICcnLCAnT1JBREInLCAnVDFuR0VyTTNEJywnQW40RXIyZUQnLCcnLCAnJyAgKQppbnRvIHBhcmFtZXRlcnMKKGNvbXBfY29kZSwgY29tcF9udHZjLG9wX2NvZGUsIHByb3RvY29sLCB1cmwsIHVzZXJfZ3JvdXAsIHVzZXJfY29kZSwgdXNlcl9wYXNzd2QsIGN1c3RvbV9xdWVyeSwgY3JpdGVyaWFfZmllbGQgKQogdmFsdWVzCiAoJ0ZSUycsICdGUlMnLCAnRGVwYXJ0dXJlVGlja2V0RGF0YUNQUlFfQicsICdYTUwnLCAnJywgICdPUkFEQicsICd0bXNhdXNlcicsJ0ZsZXh3YXlzJywnJywgJycgICkKU0VMRUNUICogRlJPTSBkdWFsCm9jdGV0X2xlbmd0aCA=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgIH0K</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -646,10 +649,10 @@
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
