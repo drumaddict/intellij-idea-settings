@@ -73,13 +73,13 @@
         <mark key="^" line="162" column="102" />
         <mark key="." line="168" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" timestamp="1552982401319">
-        <mark key="'" line="32" column="2" />
-        <mark key="[" line="128" column="82" />
-        <mark key="]" line="131" column="9" />
-        <mark key="n" line="234" column="38" />
-        <mark key="." line="131" column="9" />
-        <mark key="^" line="131" column="9" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" timestamp="1552986543327">
+        <mark key="'" line="17" column="30" />
+        <mark key="[" line="17" column="21" />
+        <mark key="]" line="17" column="31" />
+        <mark key="n" line="238" column="38" />
+        <mark key="^" line="17" column="20" />
+        <mark key="." line="17" column="21" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/ConfirmationPassDataDescriptor.java" timestamp="1550659915117">
         <mark key="'" line="130" column="16" />
@@ -353,7 +353,7 @@
         <mark key="." line="103" column="25" />
         <mark key="^" line="103" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/DepartureTicketDataCPRQ_S.xml" timestamp="1552981818051" />
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/DepartureTicketDataCPRQ_S.xml" timestamp="1552986861478" />
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" timestamp="1549973599101">
         <mark key="'" line="5" column="22" />
         <mark key="[" line="5" column="25" />
@@ -440,10 +440,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="268" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="262" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="361" column="79" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="254" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
       <jump line="16" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/FetchBookingDataOnline.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/FetchBookingDataOnline.java" />
@@ -540,52 +536,56 @@
       <jump line="632" column="135" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="162" column="36" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
       <jump line="32" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
+      <jump line="161" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
+      <jump line="160" column="33" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
+      <jump line="65" column="30" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
+      <jump line="17" column="30" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>itin</text>
+        <text>comp</text>
       </register>
       <register name="-" type="4">
-        <text>return viewm.loadByWhere(criteriaSQL.toString());</text>
+        <text>companiesBean.getCompBelongs() == null ? comp : companiesBean.getCompBelongs();</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEl0aW5lbnFWd0JlYW4gaXRpbiA9IG51bGw7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIHVpLnNldFBhc3N3b3JkKGlmYWNlcC5nZXRVc2VyUGFzc3dkKCkpOwo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>comp</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIGphdmEudXRpbC5WZWN0b3I8TG9uZz4gYm9va2lkcyA9IHJldHJpZXZlci5wcm9jZXNzKHViLCBtc2dUYWcpOwo=</text>
+      <register name="2" type="4">
+        <text>comp</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ICAgIFN0cmluZyBtc2dUYWcgPSAiRGVwYXJ0dXJlVGlja2V0RGF0YVJRX1MiOwogICAgUGFyYW1ldGVyc01hbmFnZXIgcGFyYW1ldGVyc01hbmFnZXIgPSBuZXcgUGFyYW1ldGVyc01hbmFnZXIoKTsKICAgIHRyeSB7CiAgICAgIFBhcmFtZXRlcnNCZWFuIGFsdGVybmF0ZVNldHRpbmcgPSBwYXJhbWV0ZXJzTWFuYWdlci5sb2FkQnlQcmltYXJ5S2V5KCJBTFRFUk5BVEVfVElDS0VUX1JFQ0FMTCIpOwogICAgICBTdHJpbmcgaXNBbHRlcm5hdGUgPSBhbHRlcm5hdGVTZXR0aW5nLmdldFBhclZhbHVlKCk7Ci8vICAgICAgaWYgKGlzQWx0ZXJuYXRlLmVxdWFscygidHJ1ZSIpKSBtc2dUYWcgPSAiRGVwYXJ0dXJlVGlja2V0RGF0YUNQUlFfUyI7CiAgICB9IGNhdGNoIChEQU9FeGNlcHRpb24gZSkgewogICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgfQ==</text>
+        <text>comp</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIEZldGNoQm9va2luZ0RhdGFPbmxpbmVGb3JDb25maXJtYXRpb24gcmV0cmlldmVyID0gbmV3IEZldGNoQm9va2luZ0RhdGFPbmxpbmVGb3JDb25maXJtYXRpb24oIlRSQVMiLCI5NTQyMDQxMjEzNzA2IiAsIiIgKTsK</text>
+      <register name="4" type="4">
+        <text>comp</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpdGluID0gbnVsbDsK</text>
+      <register name="5" type="4">
+        <text>.</text>
       </register>
-      <register name="6" type="4">
-        <text>itin</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>companiesBean</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>itin</text>
+        <text>comp</text>
       </register>
-      <register name="8" type="4">
-        <text>CompaniesBean</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>An4Er2eD</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5hY3Rpb24gTW92ZUVkaXRvclRvT3Bwb3NpdGVUYWJHcm91cA==</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -616,12 +616,12 @@
         <entry>action FindUsages</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
         <entry>633</entry>
-        <entry>action SaveAll</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTW92ZUVkaXRvclRvT3Bwb3NpdGVUYWJHcm91cA==</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
