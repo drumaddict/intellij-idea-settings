@@ -89,13 +89,13 @@
         <mark key="^" line="253" column="64" />
         <mark key="." line="253" column="64" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1553068857893">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1553074105431">
         <mark key="f" line="372" column="21" />
         <mark key="'" line="17" column="15" />
-        <mark key="[" line="91" column="5" />
-        <mark key="]" line="91" column="10" />
-        <mark key="." line="91" column="10" />
-        <mark key="^" line="91" column="10" />
+        <mark key="[" line="386" column="9" />
+        <mark key="]" line="386" column="7" />
+        <mark key="." line="386" column="7" />
+        <mark key="^" line="386" column="7" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1552640304854">
         <mark key="'" line="62" column="6" />
@@ -117,7 +117,7 @@
         <mark key="." line="77" column="0" />
         <mark key="^" line="37" column="10" />
       </file>
-      <file name="/fragment.java" timestamp="1553003174914">
+      <file name="/fragment.java" timestamp="1553074058318">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
@@ -273,7 +273,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -304,10 +304,10 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
