@@ -57,12 +57,12 @@
         <mark key="." line="514" column="0" />
         <mark key="o" line="547" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1553160673973">
-        <mark key="'" line="61" column="47" />
-        <mark key="[" line="61" column="57" />
-        <mark key="]" line="61" column="115" />
-        <mark key="^" line="61" column="115" />
-        <mark key="." line="61" column="115" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1553162594836">
+        <mark key="'" line="69" column="6" />
+        <mark key="[" line="65" column="0" />
+        <mark key="]" line="65" column="0" />
+        <mark key="." line="65" column="0" />
+        <mark key="^" line="66" column="5" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1553091961112">
         <mark key="'" line="157" column="15" />
@@ -143,7 +143,7 @@
         <mark key="^" line="2" column="207" />
         <mark key="." line="2" column="207" />
       </file>
-      <file name="/fragment.java" timestamp="1553093838272">
+      <file name="/fragment.java" timestamp="1553162143353">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
@@ -159,12 +159,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="89" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="64" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="94" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="90" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="97" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="77" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
       <jump line="238" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
       <jump line="224" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
       <jump line="236" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
@@ -256,13 +250,19 @@
       <jump line="221" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
       <jump line="220" column="32" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
       <jump line="54" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
-      <jump line="66" column="72" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
-      <jump line="62" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="61" column="47" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="68" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="64" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="77" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="62" column="97" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="72" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="66" column="118" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="67" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="70" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>openTicketForConfirmationEnquiry</text>
+        <text>e</text>
       </register>
       <register name="-" type="4">
         <text>,</text>
@@ -270,38 +270,41 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>answerMessageData.getEmbarkationData().</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgU3RyaW5nIGVycm9yTWVzc2FnZSA9ICJObyBJdGluZXJhcmllcyB3ZXJlIGZldGNoZWQgYmVjYXVzZSBvZiBlcnJvciA6IFxuIjsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>if  (StringUtils.isNotBlank(itinerariesConfirmationEnquiry.getDbErrStr())) {
+        String errorMessage = &quot;No Itineraries were fetched because of error : \n&quot;;
+        xmlAnswer.getServiceBody().getMessageHeader().getStatusInfo().setStatusMessage(errorMessage +  itinerariesConfirmationEnquiry.getDbErrStr() );
+      }</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICByZXR1cm4gaGFuZGxlRXJyb3IoaXRpbmVyYXJpZXNDb25maXJtYXRpb25FbnF1aXJ5LmdldERiRXJyU3RyKCkpOwo=</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgIC8vIFZhbGlkYXRpb24KLy8gICAgZmlsdGVyT3V0UHJpbnRlZEJvb2tJZHMoYW5zd2VyTWVzc2FnZURhdGEpOwoKICAgIC8vIEJhc2VkIG9uIGNvbmZpcm1hdGlvbiBsb2dpYyByZXF1aXJlbWVudHMKLy8gICAgaWYgKCBhbnN3ZXJNZXNzYWdlRGF0YS5nZXRFbWJhcmthdGlvbkRhdGEoKSA9PSBudWxsICkKLy8gICAgICByZXR1cm4gaGFuZGxlRXJyb3IoIk5vIHBhc3NlbmdlcnMgb2YgdmVoaWNsZXMgZm91bmQuIik7Ci8vICAgIGlmIChhbnN3ZXJNZXNzYWdlRGF0YS5nZXRFbWJhcmthdGlvbkRhdGEoKS5nZXRCb29raW5nKCkuZ2V0UGFzc2VuZ2VycygpLmdldFBhc3NlbmdlckNvdW50KCkgPT0gMCAmJgovLyAgICAgICAgICAgIGFuc3dlck1lc3NhZ2VEYXRhLmdldEVtYmFya2F0aW9uRGF0YSgpLmdldEJvb2tpbmcoKS5nZXRWZWhpY2xlcygpLmdldFZlaGljbGVDb3VudCgpID09IDApCi8vICAgICAgcmV0dXJuIGhhbmRsZUVycm9yKCJObyBwYXNzZW5nZXJzIG9mIHZlaGljbGVzIGZvdW5kLiIpOwoKICAgIFN0YXRpc3RpY3Mgc3RhdGlzdGljcyA9IG51bGw7CgogICAgLy8gQW5zd2VyIG1heSBub3QgZmV0Y2ggaXRlbmVyYXJpZXMsIHNvIHN0YXRpc3RpY3MgZG8gbm90IGFwcGx5CiAgICBpZiAoeG1sQW5zd2VyLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRJdGluZXJhcnlMaXN0KCkgIT0gbnVsbCkgewogICAgICBzdGF0aXN0aWNzID0gZ2V0U2FpbGluZ1N0YXRpc3RpY3NGb3JJdGluZXJhcnlEYXRhKHhtbEFuc3dlcik7CiAgICB9CgogICAgLy8gQW5zd2VyIG1heSBub3QgZmV0Y2ggaXRlbmVyYXJpZXMsIHNvIHN0YXRpc3RpY3MgZG8gbm90IGFwcGx5CiAgICBpZiAoeG1sQW5zd2VyLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRFbWJhcmthdGlvbkRhdGEoKSAhPSBudWxsKQogICAgICB4bWxBbnN3ZXIuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlRGF0YSgpLmdldEVtYmFya2F0aW9uRGF0YSgpLnNldFN0YXRpc3RpY3Moc3RhdGlzdGljcyk7</text>
+      <register name="4" type="2">
+        <text encoding="base64">Ly8gICAgICByZXR1cm4gIGhhbmRsZUVycm9yKCJObyBJdGluZXJhcmllcyB3ZXJlIGZldGNoZWQgYmVjYXVzZSBvZjEiKQo=</text>
       </register>
-      <register name="5" type="4">
-        <text>openTicketForConfirmationEnquiry</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgeG1sQW5zd2VyLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZUhlYWRlcigpLmdldFN0YXR1c0luZm8oKS5zZXRTdGF0dXNNZXNzYWdlKGVycm9yTWVzc2FnZSArIGUuZ2V0TWVzc2FnZSgpICk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgaWYgKGl0aW5lcmFyaWVzRW5xdWlyeS5nZXRFcnJvclR5cGUoKS5lcXVhbHMoIk5PX0lURU5FUkFSSUVTIikpIHsK</text>
+        <text encoding="base64">ICAgICAgU3RyaW5nIGVycm9yTWVzc2FnZSA9ICJObyBJdGluZXJhcmllcyB3ZXJlIGZldGNoZWQgYmVjYXVzZSBvZiBlcnJvciA6IFxuIjsK</text>
       </register>
-      <register name="7" type="4">
-        <text>itinerariesEnquiry</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>openTicketForConfirmationEnquiry</text>
+        <text>e</text>
       </register>
       <register name="8" type="4">
-        <text>itinerariesEnquiry</text>
+        <text>e</text>
       </register>
       <register name="9" type="4">
-        <text>ticketEnquiry</text>
+        <text>DataValidationException</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -335,9 +338,9 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
         <entry>action PreviousTab</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action ReformatCode</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
