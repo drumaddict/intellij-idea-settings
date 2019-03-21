@@ -6,6 +6,13 @@
       <file name="/a.dummy" timestamp="1552997966806">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" timestamp="1553156184778">
+        <mark key="'" line="36" column="45" />
+        <mark key="[" line="36" column="15" />
+        <mark key="]" line="36" column="15" />
+        <mark key="." line="36" column="15" />
+        <mark key="^" line="36" column="15" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/sql/mySQLs/fetchItinByDate.sql" timestamp="1552989998824">
         <mark key="[" line="8" column="101" />
       </file>
@@ -30,26 +37,33 @@
         <mark key="." line="77" column="0" />
         <mark key="^" line="37" column="10" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1553094676293">
-        <mark key="'" line="101" column="48" />
-        <mark key="[" line="328" column="27" />
-        <mark key="]" line="328" column="64" />
-        <mark key="." line="328" column="64" />
-        <mark key="^" line="328" column="64" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1553160029623">
+        <mark key="'" line="221" column="32" />
+        <mark key="[" line="213" column="28" />
+        <mark key="]" line="213" column="45" />
+        <mark key="^" line="213" column="45" />
+        <mark key="." line="213" column="45" />
       </file>
-      <file name="/Dummy.txt" timestamp="1553007735703">
+      <file name="/Dummy.txt" timestamp="1553095639887">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1553002922249">
-        <mark key="'" line="871" column="0" />
-        <mark key="[" line="871" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1553157832719">
+        <mark key="'" line="514" column="6" />
+        <mark key="k" line="509" column="45" />
+        <mark key="[" line="514" column="0" />
         <mark key="m" line="370" column="83" />
-        <mark key="]" line="900" column="4" />
-        <mark key="." line="871" column="2" />
-        <mark key="^" line="901" column="1" />
-        <mark key="o" line="508" column="50" />
+        <mark key="]" line="514" column="17" />
+        <mark key="^" line="508" column="5" />
+        <mark key="." line="514" column="0" />
+        <mark key="o" line="547" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1553076922890" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1553159311733">
+        <mark key="'" line="61" column="111" />
+        <mark key="[" line="66" column="5" />
+        <mark key="]" line="67" column="3" />
+        <mark key="^" line="67" column="3" />
+        <mark key="." line="67" column="3" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1553091961112">
         <mark key="'" line="157" column="15" />
         <mark key="[" line="159" column="0" />
@@ -57,16 +71,8 @@
         <mark key="." line="159" column="0" />
         <mark key="^" line="156" column="48" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" timestamp="1553001599781">
-        <mark key="[" line="170" column="0" />
-        <mark key="]" line="170" column="0" />
-        <mark key="." line="170" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1553077047120">
         <mark key="[" line="1910" column="71" />
-        <mark key="]" line="1911" column="5" />
-        <mark key="^" line="1911" column="5" />
-        <mark key="." line="1911" column="5" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" timestamp="1553080727038">
         <mark key="[" line="171" column="18" />
@@ -153,37 +159,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="326" column="102" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="19" column="3" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
-      <jump line="18" column="20" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
-      <jump line="129" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_VW.sql" />
-      <jump line="75" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICK_CONF_VW.sql" />
-      <jump line="17" column="15" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="744" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="747" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="756" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="759" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="657" column="31" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="388" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
-      <jump line="92" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/FetchBookingDataOnline.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="29" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
-      <jump line="363" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="361" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="329" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
-      <jump line="6" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="289" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="470" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="22" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="32" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="44" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="375" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="316" column="29" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="127" column="56" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
-      <jump line="38" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="55" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="32" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="89" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
       <jump line="64" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="94" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
@@ -253,64 +228,80 @@
       <jump line="104" column="48" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
       <jump line="61" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/DateUtils.java" />
       <jump line="90" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/DateUtils.java" />
+      <jump line="23" column="32" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
+      <jump line="24" column="50" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
+      <jump line="54" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
+      <jump line="25" column="51" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
+      <jump line="469" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="497" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="516" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="530" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="487" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="68" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
+      <jump line="65" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
+      <jump line="36" column="45" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
+      <jump line="503" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="510" column="103" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="505" column="11" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="493" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="504" column="25" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="500" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="509" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="514" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="149" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="219" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="150" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="36" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="40" column="59" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="221" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="220" column="32" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="54" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="66" column="72" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="61" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="62" column="111" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>DATE_FORMAT_NOW</text>
+        <text>openTicketForConfirmationEnquiry</text>
       </register>
       <register name="-" type="4">
-        <text>n</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>public static String forwardNDays(String ts, int nDays) {
-    int year = Integer.parseInt(ts.substring(0, 4));
-    int month = Integer.parseInt(ts.substring(5, 7)) - 1;
-    int dayofmonth = Integer.parseInt(ts.substring(8, 10));
-    Calendar calendar = new GregorianCalendar(year, month, dayofmonth);
-    calendar.add(Calendar.DAY_OF_MONTH, nDays);
-    SimpleDateFormat sdf = null;
-    String res = null;
-    synchronized (lockObj) {
-      sdf = new SimpleDateFormat(DATE_FORMAT_NOW);
-      res = sdf.format(calendar.getTime());
-    }
-    return res;
-  }</text>
+        <text>itinerariesAnswer.getServiceBody().getMessageData().</text>
       </register>
-      <register name="1" type="4">
-        <text>DATE_FORMAT_NOW</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
-      </register>
-      <register name="3" type="4">
-        <text encoding="base64">ICAgICAgUGFyYW1ldGVyc01hbmFnZXIgcGFyYW1ldGVyc01hbmFnZXIgPSBuZXcgUGFyYW1ldGVyc01hbmFnZXIoKTsKICAgICAgUGFyYW1ldGVyc0JlYW4gZGF5UmFuZ2VTZXR0aW5nID0gcGFyYW1ldGVyc01hbmFnZXIubG9hZEJ5UHJpbWFyeUtleSgiSVRJTkVSQVJJRVNfU0VBUkNIX0RBWV9SQU5HRSIpOwogICAgICBkYXlSYW5nZSA9IEludGVnZXIucGFyc2VJbnQoZGF5UmFuZ2VTZXR0aW5nLmdldFBhclZhbHVlKCkpOwogICAgICBTeXN0ZW0ub3V0LnByaW50KCJEQVkgUkFOR0U6ICIgKyBkYXlSYW5nZSk7</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgIC8vIFZhbGlkYXRpb24KLy8gICAgZmlsdGVyT3V0UHJpbnRlZEJvb2tJZHMoYW5zd2VyTWVzc2FnZURhdGEpOwoKICAgIC8vIEJhc2VkIG9uIGNvbmZpcm1hdGlvbiBsb2dpYyByZXF1aXJlbWVudHMKLy8gICAgaWYgKCBhbnN3ZXJNZXNzYWdlRGF0YS5nZXRFbWJhcmthdGlvbkRhdGEoKSA9PSBudWxsICkKLy8gICAgICByZXR1cm4gaGFuZGxlRXJyb3IoIk5vIHBhc3NlbmdlcnMgb2YgdmVoaWNsZXMgZm91bmQuIik7Ci8vICAgIGlmIChhbnN3ZXJNZXNzYWdlRGF0YS5nZXRFbWJhcmthdGlvbkRhdGEoKS5nZXRCb29raW5nKCkuZ2V0UGFzc2VuZ2VycygpLmdldFBhc3NlbmdlckNvdW50KCkgPT0gMCAmJgovLyAgICAgICAgICAgIGFuc3dlck1lc3NhZ2VEYXRhLmdldEVtYmFya2F0aW9uRGF0YSgpLmdldEJvb2tpbmcoKS5nZXRWZWhpY2xlcygpLmdldFZlaGljbGVDb3VudCgpID09IDApCi8vICAgICAgcmV0dXJuIGhhbmRsZUVycm9yKCJObyBwYXNzZW5nZXJzIG9mIHZlaGljbGVzIGZvdW5kLiIpOwoKICAgIFN0YXRpc3RpY3Mgc3RhdGlzdGljcyA9IG51bGw7CgogICAgLy8gQW5zd2VyIG1heSBub3QgZmV0Y2ggaXRlbmVyYXJpZXMsIHNvIHN0YXRpc3RpY3MgZG8gbm90IGFwcGx5CiAgICBpZiAoeG1sQW5zd2VyLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRJdGluZXJhcnlMaXN0KCkgIT0gbnVsbCkgewogICAgICBzdGF0aXN0aWNzID0gZ2V0U2FpbGluZ1N0YXRpc3RpY3NGb3JJdGluZXJhcnlEYXRhKHhtbEFuc3dlcik7CiAgICB9CgogICAgLy8gQW5zd2VyIG1heSBub3QgZmV0Y2ggaXRlbmVyYXJpZXMsIHNvIHN0YXRpc3RpY3MgZG8gbm90IGFwcGx5CiAgICBpZiAoeG1sQW5zd2VyLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRFbWJhcmthdGlvbkRhdGEoKSAhPSBudWxsKQogICAgICB4bWxBbnN3ZXIuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlRGF0YSgpLmdldEVtYmFya2F0aW9uRGF0YSgpLnNldFN0YXRpc3RpY3Moc3RhdGlzdGljcyk7</text>
+      </register>
+      <register name="5" type="4">
+        <text>openTicketForConfirmationEnquiry</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgaWYgKGl0aW5lcmFyaWVzRW5xdWlyeS5nZXRFcnJvclR5cGUoKS5lcXVhbHMoIk5PX0lURU5FUkFSSUVTIikpIHsK</text>
       </register>
       <register name="7" type="4">
-        <text>ParametersManager parametersManager = new ParametersManager();
-      ParametersBean dayRangeSetting = parametersManager.loadByPrimaryKey(&quot;ITINERARIES_SEARCH_DAY_RANGE&quot;);
-      dayRange = Integer.parseInt( dayRangeSetting.getParValue());</text>
+        <text>itinerariesEnquiry</text>
       </register>
       <register name="x" type="4">
-        <text>DATE_FORMAT_NOW</text>
+        <text>openTicketForConfirmationEnquiry</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>itinerariesEnquiry</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgZGF5UmFuZ2UgPSByZWFkU1FMU3RyaW5nKGNvbm4sICJJVElORVJBUklFU19TRUFSQ0hfREFZX1JBTkdFIik7Cg==</text>
+      <register name="9" type="4">
+        <text>ticketEnquiry</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -328,13 +319,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>178</entry>
-        <entry>action Forward</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gRmlsZVN0cnVjdHVyZVBvcHVw</entry>
-        <entry>action SurroundWith</entry>
-        <entry>633</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gTW92ZUVkaXRvclRvT3Bwb3NpdGVUYWJHcm91cA==</entry>
-        <entry>action TabShiftActions.StretchUp</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
@@ -345,15 +329,15 @@
         <entry>action $SelectAll</entry>
         <entry>action Debug</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action ToggleLineBreakpoint</entry>
         <entry>action FindUsages</entry>
         <entry>action AceAction</entry>
-        <entry>action ReformatCode</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
+        <entry>action PreviousTab</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action ToggleLineBreakpoint</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
