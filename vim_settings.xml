@@ -24,7 +24,12 @@
         <mark key="." line="0" column="0" />
         <mark key="^" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1553171477869" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1553172233555">
+        <mark key="[" line="73" column="43" />
+        <mark key="]" line="74" column="13" />
+        <mark key="^" line="74" column="13" />
+        <mark key="." line="74" column="13" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1553164121432">
         <mark key="'" line="410" column="4" />
         <mark key="[" line="408" column="0" />
@@ -46,7 +51,7 @@
         <mark key="^" line="213" column="45" />
         <mark key="." line="213" column="45" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/mySQLs/fetchItinByDate.sql" timestamp="1553168572050">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/mySQLs/fetchItinByDate.sql" timestamp="1553172558645">
         <mark key="[" line="19" column="0" />
         <mark key="]" line="20" column="0" />
         <mark key="^" line="20" column="0" />
@@ -65,11 +70,11 @@
         <mark key="." line="514" column="0" />
         <mark key="o" line="547" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1553162594836">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1553173363036">
         <mark key="'" line="69" column="6" />
-        <mark key="[" line="65" column="0" />
-        <mark key="]" line="65" column="0" />
-        <mark key="." line="65" column="0" />
+        <mark key="[" line="73" column="0" />
+        <mark key="]" line="73" column="0" />
+        <mark key="." line="73" column="0" />
         <mark key="^" line="66" column="5" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1553091961112">
@@ -118,7 +123,7 @@
         <mark key="." line="494" column="3" />
         <mark key="n" line="494" column="31" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_VW.sql" timestamp="1553007479614">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_VW.sql" timestamp="1553172985914">
         <mark key="'" line="129" column="4" />
         <mark key="[" line="129" column="0" />
         <mark key="]" line="129" column="41" />
@@ -132,7 +137,7 @@
         <mark key="^" line="256" column="52" />
         <mark key="." line="256" column="52" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1553080257305">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1553173910595">
         <mark key="[" line="251" column="18" />
         <mark key="m" line="1220" column="27" />
         <mark key="]" line="252" column="70" />
@@ -283,40 +288,40 @@
         <text encoding="base64">ICAgICAgU3RyaW5nIGVycm9yTWVzc2FnZSA9ICJObyBJdGluZXJhcmllcyB3ZXJlIGZldGNoZWQgYmVjYXVzZSBvZiBlcnJvciA6IFxuIjsK</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>if  (StringUtils.isNotBlank(itinerariesConfirmationEnquiry.getDbErrStr())) {
         String errorMessage = &quot;No Itineraries were fetched because of error : \n&quot;;
         xmlAnswer.getServiceBody().getMessageHeader().getStatusInfo().setStatusMessage(errorMessage +  itinerariesConfirmationEnquiry.getDbErrStr() );
       }</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Ly8gICAgICByZXR1cm4gaGFuZGxlRXJyb3IoaXRpbmVyYXJpZXNDb25maXJtYXRpb25FbnF1aXJ5LmdldERiRXJyU3RyKCkpOwo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Ly8gICAgICByZXR1cm4gIGhhbmRsZUVycm9yKCJObyBJdGluZXJhcmllcyB3ZXJlIGZldGNoZWQgYmVjYXVzZSBvZjEiKQo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgeG1sQW5zd2VyLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZUhlYWRlcigpLmdldFN0YXR1c0luZm8oKS5zZXRTdGF0dXNNZXNzYWdlKGVycm9yTWVzc2FnZSArIGUuZ2V0TWVzc2FnZSgpICk7Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgU3RyaW5nIGVycm9yTWVzc2FnZSA9ICJObyBJdGluZXJhcmllcyB3ZXJlIGZldGNoZWQgYmVjYXVzZSBvZiBlcnJvciA6IFxuIjsK</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgeG1sQW5zd2VyLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZUhlYWRlcigpLmdldFN0YXR1c0luZm8oKS5zZXRTdGF0dXNNZXNzYWdlKGVycm9yTWVzc2FnZSArIGUuZ2V0TWVzc2FnZSgpICk7Cg==</text>
       </register>
       <register name="x" type="4">
         <text>e</text>
       </register>
-      <register name="8" type="4">
-        <text>e</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgU3RyaW5nIGVycm9yTWVzc2FnZSA9ICJObyBJdGluZXJhcmllcyB3ZXJlIGZldGNoZWQgYmVjYXVzZSBvZiBlcnJvciA6IFxuIjsK</text>
       </register>
-      <register name="9" type="4">
-        <text>DataValidationException</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -341,16 +346,16 @@
         <entry>action $SelectAll</entry>
         <entry>action Debug</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action FindUsages</entry>
         <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
         <entry>action PreviousTab</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action ReformatCode</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
