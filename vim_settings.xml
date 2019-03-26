@@ -123,7 +123,6 @@
         <mark key="^" line="22" column="76" />
         <mark key="." line="22" column="76" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1553242894296" />
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_VW.sql" timestamp="1553172985914">
         <mark key="'" line="129" column="4" />
         <mark key="[" line="129" column="0" />
@@ -146,7 +145,6 @@
         <mark key="^" line="125" column="59" />
         <mark key="." line="125" column="59" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/UserLogin.java" timestamp="1553242851352" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1553263529514">
         <mark key="'" line="130" column="6" />
         <mark key="[" line="262" column="0" />
@@ -349,7 +347,7 @@
         <text encoding="base64">Ly8gIGJvb2xlYW4gdmFsaWRhdGVTdGF0dXNlcyhMaXN0PEVtYmFya2R0YUNvbmZWd0JlYW4+IGVtYmFya2R0YVZ3QmVhbkxpc3QpIHRocm93cyBEYXRhVmFsaWRhdGlvbkV4Y2VwdGlvbiwgRXhjZXB0aW9uIHsKLy8gICAgYm9vbGVhbiBpc1ZhbGlkID0gdHJ1ZTsKLy8KLy8gICAgZm9yIChFbWJhcmtkdGFDb25mVndCZWFuIGVtYmFya2R0YVZ3QmVhbiA6IGVtYmFya2R0YVZ3QmVhbkxpc3QpIHsKLy8KLy8gICAgICBpZiAoZW1iYXJrZHRhVndCZWFuLmdldEJvYXJkU3RhdHVzKCkgIT0gbnVsbCkgewovLyAgICAgICAgaWYgKCFWQUxJRF9CT0FSRF9TVEFUVVNFU19GT1JfQ09ORklSTUFUSU9OLmNvbnRhaW5zKGVtYmFya2R0YVZ3QmVhbi5nZXRCb2FyZFN0YXR1cygpLnRvU3RyaW5nKCkpKSB7Ci8vICAgICAgICAgIGlzVmFsaWQgPSBmYWxzZTsKLy8gICAgICAgICAgdGhyb3cgbmV3IERhdGFWYWxpZGF0aW9uRXhjZXB0aW9uKCJUaWNrZXQgIiArIGVtYmFya2R0YVZ3QmVhbi5nZXRUaWNrTnVtYigpICsgIiBpcyBhcHBhcmVudGx5IGJvYXJkZWQ6ICIgKwovLyAgICAgICAgICAgICAgICAgICIuIEJvYXJkU3RhdHVzOiAiICsgZW1iYXJrZHRhVndCZWFuLmdldEJvYXJkU3RhdHVzKCkpOwovLyAgICAgICAgfQovLyAgICAgIH0KLy8KLy8gICAgICBpZiAoZW1iYXJrZHRhVndCZWFuLmdldENvbmZTdGF0dXMoKSAhPSBudWxsKSB7Ci8vICAgICAgICBpZiAoIVZBTElEX0NPTkZJUk1BVElPTl9TVEFUVVNFUy5jb250YWlucyhlbWJhcmtkdGFWd0JlYW4uZ2V0Q29uZlN0YXR1cygpLnRvU3RyaW5nKCkpKSB7Ci8vICAgICAgICAgIGlzVmFsaWQgPSBmYWxzZTsKLy8gICAgICAgICAgdGhyb3cgbmV3IERhdGFWYWxpZGF0aW9uRXhjZXB0aW9uKCJUaWNrZXQgIiArIGVtYmFya2R0YVZ3QmVhbi5nZXRUaWNrTnVtYigpICsgIiBoYXMgaW52YWxpZCBjb25maXJtYXRpb24gIiArCi8vICAgICAgICAgICAgICAgICAgInN0YXR1czogQ29uZmlybWF0aW9uIFN0YXR1czogIiArIGVtYmFya2R0YVZ3QmVhbi5nZXRDb25mU3RhdHVzKCkpOwovLyAgICAgICAgfQovLyAgICAgIH0KLy8gICAgfQovLyAgICAvLyBhbHdheXMgdHJ1ZSwgc2luY2UgZXhjZXB0aW9ucyBhcmUgdGhyb3duLCBidXQgYW55d2F5Ci8vICAgIHJldHVybiBpc1ZhbGlkOwovLyAgfQ==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -364,8 +362,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action FileStructurePopup</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gT3B0aW1pemVJbXBvcnRz</entry>
         <entry>action CloseContent</entry>
         <entry>322</entry>
@@ -378,14 +374,14 @@
         <entry>864</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action SurroundWith</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
         <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
