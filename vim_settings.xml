@@ -352,7 +352,7 @@
         <text encoding="base64">ICAgICAgLy8gQWRkZWQgUGFzc2VuZ2VyIGFuZCBWZWhpY2xlIGluZm8sIG92ZXJyaWRlIFRyaXBEYXRhIG9mIHRpY2tldEFuc3dlciBpZiB0aWNrZXQgcmV0dXJucyBjb25maXJtZWQgcGFzc2VuZ2VycyBhbmQgdmVoaWNsZXMKLy8gICAgICBhZGRQYXNzZW5nZXJDb25maXJtYXRpb25EYXRhKHRpY2tldEFuc3dlcik7</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -379,15 +379,15 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action SurroundWith</entry>
         <entry>action NextTab</entry>
-        <entry>action FindUsages</entry>
         <entry>action OptimizeImports</entry>
         <entry>action SplitVertically</entry>
         <entry>action CloseContent</entry>
         <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
