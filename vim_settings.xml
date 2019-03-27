@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_email_settings.sql" timestamp="1553672773973" />
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_email_settings.sql" timestamp="1553697193949" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" timestamp="1553263396830">
         <mark key="'" line="134" column="10" />
         <mark key="[" line="134" column="10" />
@@ -18,7 +18,7 @@
         <mark key="." line="36" column="15" />
         <mark key="^" line="36" column="15" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_alternate_open_recall.sql" timestamp="1553672754069">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_alternate_open_recall.sql" timestamp="1553697162806">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="2" column="17" />
@@ -26,11 +26,6 @@
         <mark key="^" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_eai_msg_props.sql" timestamp="1553672764510" />
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1553613416159">
-        <mark key="'" line="572" column="8" />
-        <mark key="[" line="572" column="8" />
-        <mark key="]" line="578" column="39" />
-      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_subj_body_to_alertline.sql" timestamp="1553681297736">
         <mark key="[" line="0" column="14" />
         <mark key="]" line="0" column="0" />
@@ -106,6 +101,13 @@
         <mark key="^" line="156" column="48" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/CONFDTA_VW.sql" timestamp="1553672527875" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" timestamp="1553698102697">
+        <mark key="'" line="111" column="4" />
+        <mark key="[" line="111" column="22" />
+        <mark key="]" line="111" column="30" />
+        <mark key="." line="111" column="30" />
+        <mark key="^" line="111" column="30" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" timestamp="1553683230644">
         <mark key="[" line="37" column="0" />
         <mark key="]" line="37" column="0" />
@@ -174,11 +176,6 @@
         <mark key="^" line="168" column="11" />
         <mark key="." line="168" column="11" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqHeadIDManager.java" timestamp="1553599842660">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="56" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_iface_pars_per_comp.sql" timestamp="1553672784572">
         <mark key="'" line="3" column="17" />
         <mark key="[" line="2" column="207" />
@@ -186,14 +183,14 @@
         <mark key="^" line="2" column="207" />
         <mark key="." line="2" column="207" />
       </file>
-      <file name="/fragment.java" timestamp="1553682171329">
+      <file name="/fragment.java" timestamp="1553698031781">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
         <mark key="^" line="0" column="4" />
         <mark key="." line="0" column="4" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_recall_itineraries_for_confirm_day_range.sql" timestamp="1553672799116">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_recall_itineraries_for_confirm_day_range.sql" timestamp="1553697206943">
         <mark key="'" line="2" column="17" />
         <mark key="[" line="1" column="97" />
         <mark key="]" line="1" column="164" />
@@ -202,7 +199,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="441" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="465" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="112" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" />
       <jump line="116" column="106" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" />
@@ -302,10 +298,11 @@
       <jump line="1042" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1111" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="35" column="77" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="112" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
     </jumps>
     <registers>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIHRoaXMudGlja2V0Tm8gPSB0aWNrZXRubzsKICAgIHRoaXMuYm9va2luZ05vID0gYm9va2luZ25vOwo=</text>
+      <register name="*" type="4">
+        <text>xmltree.toString()</text>
       </register>
       <register name="-" type="4">
         <text>t</text>
@@ -313,35 +310,35 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">ICBwdWJsaWMgdm9pZCBjcmVhdGVBbGFybShBbGVydEhhbmRsZXIuQWxlcnRUeXBlIHR5cGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgQWxlcnRIYW5kbGVyLkFsZXJ0S2luZCBraW5kLAogICAgICAgICAgICAgICAgICAgICAgICAgIEl0aW5lbnFDb25mVndCZWFuIGl0aW5lbnFDb25mVndCZWFuLAogICAgICAgICAgICAgICAgICAgICAgICAgIEVtYmFya2F0aW9uSXRlbVR5cGUgZW1iYXJrYXRpb25JdGVtVHlwZSwKICAgICAgICAgICAgICAgICAgICAgICAgICBsb25nIGJvb2tJZCwKICAgICAgICAgICAgICAgICAgICAgICAgICBTdHJpbmcgZW1haWxfb3Jfc21zLAogICAgICAgICAgICAgICAgICAgICAgICAgIExpc3Q8U3RyaW5nPiBleHRyYUNDLAogICAgICAgICAgICAgICAgICAgICAgICAgIExpc3Q8U3RyaW5nPiBleHRyYVRvCiAgICAgICAgICAgICAgICAgICAgICAgICAgKSB0aHJvd3MgRGF0YVZhbGlkYXRpb25FeGNlcHRpb24gewogICAgaWYgKFN0cmluZ1V0aWxzLmlzQmxhbmsoZW1haWxfb3Jfc21zKSkgdGhyb3cgbmV3IERhdGFWYWxpZGF0aW9uRXhjZXB0aW9uKCJObyBlbWFpbCBvciBzbXMgIik7CiAgICBDb25uZWN0aW9uIGMgPSBudWxsOwogICAgYm9vbGVhbiBUUkFOU0FDVElPTl9TRVJJQUxJWkVEID0gdHJ1ZTsKICAgIGRvIHsKICAgICAgZGJFcnJTdHIgPSAiIjsKICAgICAgVFJBTlNBQ1RJT05fU0VSSUFMSVpFRCA9IHRydWU7CiAgICAgIHRyeSB7CiAgICAgICAgYyA9IE1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5iZWdpblRyYW5zYWN0aW9uKCk7CiAgICAgICAgYy5zZXRUcmFuc2FjdGlvbklzb2xhdGlvbihjLlRSQU5TQUNUSU9OX1NFUklBTElaQUJMRSk7CiAgICAgICAgYm9vbGVhbiBjb21taXQgPSB0cnVlOwogICAgICAgIHRyeSB7CiAgICAgICAgICBBbGVydGNvbmZpZ01hbmFnZXIgYWxlcnRjb25maWdNYW5hZ2VyID0gQWxlcnRjb25maWdNYW5hZ2VyLmdldEluc3RhbmNlKCk7CiAgICAgICAgICBBbGVydGxpbmVNYW5hZ2VyIGFsZXJ0bGluZU1hbmFnZXIgPSBBbGVydGxpbmVNYW5hZ2VyLmdldEluc3RhbmNlKCk7CiAgICAgICAgICBBbGVydGhlYWRlck1hbmFnZXIgYWxlcnRoZWFkZXJNYW5hZ2VyID0gQWxlcnRoZWFkZXJNYW5hZ2VyLmdldEluc3RhbmNlKCk7CiAgICAgICAgICBBbGVydGNvbmZpZ0JlYW4gYWxlcnRjb25maWdCZWFuID0gbnVsbDsKICAgICAgICAgIGFsZXJ0Y29uZmlnQmVhbiA9IGZldGNoQWxlcnRDb25maWcodHlwZSwga2luZCk7CiAgICAgICAgICBpZiAoYWxlcnRjb25maWdCZWFuID09IG51bGwpCiAgICAgICAgICAgIHRocm93IG5ldyBEYXRhVmFsaWRhdGlvbkV4Y2VwdGlvbihTdHJpbmcuZm9ybWF0KCJObyBBbGVydCBDb25maWd1cmF0aW9uIGZvdW5kIGZvciAlcyBhbmQgJXMiLCB0eXBlLCBraW5kKSk7CiAgICAgICAgICBsb25nIGFsZXJ0X2lkID0gU2VxQWxlcnRJRE1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5uZXh0VmFsKCk7CiAgICAgICAgICBBbGVydGhlYWRlckJlYW4gYWxlcnRoZWFkZXJCZWFuID0gQWxlcnRoZWFkZXJNYW5hZ2VyLmdldEluc3RhbmNlKCkuY3JlYXRlQWxlcnRoZWFkZXJCZWFuKCk7CiAgICAgICAgICBhbGVydGhlYWRlckJlYW4uc2V0QWxlcnREYXRlKERhdGVVdGlscy5ub3dBc0RhdGUoKSk7CiAgICAgICAgICBhbGVydGhlYWRlckJlYW4uc2V0QWxlcnRVc2VySWQodXNlci5nZXRVc2VySWQoKSk7CiAgICAgICAgICBhbGVydGhlYWRlckJlYW4uc2V0QWxlcnRDZmdJZChhbGVydGNvbmZpZ0JlYW4uZ2V0QWxlcnRDZmdJZCgpKTsKICAgICAgICAgIGFsZXJ0aGVhZGVyQmVhbi5zZXRBbGVydElkKGFsZXJ0X2lkKTsKICAgICAgICAgIGFsZXJ0aGVhZGVyTWFuYWdlci5zYXZlKGFsZXJ0aGVhZGVyQmVhbik7CgogICAgICAgICAgQWxlcnRsaW5lQmVhbiBhbGVydGxpbmVCZWFuID0gYWxlcnRsaW5lTWFuYWdlci5jcmVhdGVBbGVydGxpbmVCZWFuKCk7CiAgICAgICAgICBhbGVydGxpbmVCZWFuLnNldFBlbmRpbmcoQWxlcnRIYW5kbGVyLlBlbmRpbmcuWS50b1N0cmluZygpKTsKICAgICAgICAgIGlmIChib29rSWQgPiAwICkgYWxlcnRsaW5lQmVhbi5zZXRCb29rSWQoYm9va0lkKTsKICAgICAgICAgIGlmIChTdHJpbmdVdGlscy5pc05vdEJsYW5rKGVtYWlsX29yX3NtcykpIGFsZXJ0bGluZUJlYW4uc2V0RW1haWxPclNtcyhlbWFpbF9vcl9zbXMpOwogICAgICAgICAgYWxlcnRsaW5lQmVhbi5zZXRBbGVydFR5cGUodHlwZS50b1N0cmluZygpKTsKICAgICAgICAgIGFsZXJ0bGluZUJlYW4uc2V0QWxlcnRJZChhbGVydF9pZCk7CiAgICAgICAgICBhbGVydGxpbmVNYW5hZ2VyLnNhdmUoYWxlcnRsaW5lQmVhbik7CiAgICAgICAgfSBjYXRjaCAoREFPRXhjZXB0aW9uIGRhb2UpIHsKICAgICAgICAgIGRhb2UucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgICAgICBjb21taXQgPSBmYWxzZTsKICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKICAgICAgICAgIGNvbW1pdCA9IGZhbHNlOwogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICBNYW5hZ2VyLmdldEluc3RhbmNlKCkuZW5kVHJhbnNhY3Rpb24oY29tbWl0KTsgIC8vIDwtLS0gRU5EIE9GIFRSQU5TQUNUSU9OOiBDT01NSVQgT1IgUk9MTEJBQ0sgSVMgRE9ORQogICAgICAgICAgaWYgKGNvbW1pdCkgewogICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oVGhyZWFkLmN1cnJlbnRUaHJlYWQoKS50b1N0cmluZygpICsgIiBUcmFuc2FjdGlvbiBzdWNjZWVkZWQ6IGNvbW1pdCBPSyIpOwogICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKFRocmVhZC5jdXJyZW50VGhyZWFkKCkudG9TdHJpbmcoKSArICIgVHJhbnNhY3Rpb24gZmFpbGVkOiByb2xsYmFjayBPSyIpOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfSBjYXRjaCAoU1FMRXhjZXB0aW9uIGUpIHsKICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgIH0KCiAgICAgIGlmIChkYkVyclN0ci5jb250YWlucygiT1JBLTA4MTc3IikpIHsKICAgICAgICBUUkFOU0FDVElPTl9TRVJJQUxJWkVEID0gZmFsc2U7CiAgICAgIH0KICAgIH0gd2hpbGUgKCFUUkFOU0FDVElPTl9TRVJJQUxJWkVEKTsKCiAgICByZXR1cm47CiAgfQ==</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIFN5c3RlbS5vdXQucHJpbnRmKHhtbHRyZWUudG9TdHJpbmcoKSk7Cg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIHRoaXMudGlja2V0Tm8gPSB0aWNrZXRubzsKICAgIHRoaXMuYm9va2luZ05vID0gYm9va2luZ25vOwo=</text>
+      <register name="1" type="4">
+        <text>xmltree.toString()</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB2ZWhpY2xlLnNldFRpY2tldE51bWJlcihlbWJhcmtkdGFDb25mVndCZWFuc1tpXS5nZXRUaWNrTnVtYigpKTsK</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBpZiAob3BlblRpY2tldE51bWJlciAhPSBudWxsKSB2ZWhpY2xlLnNldFRpY2tldE51bWJlcihvcGVuVGlja2V0TnVtYmVyKTsK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB2ZWhpY2xlLnNldFRpY2tldE51bWJlcihvcGVuVGlja2V0TnVtYmVyKTsK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHRoaXMudGlja2V0Tm8gPSB0aWNrZXRubzsKICAgIHRoaXMuYm9va2luZ05vID0gYm9va2luZ25vOwo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICB2ZWhpY2xlLnNldFRpY2tldE51bWJlcihlbWJhcmtkdGFDb25mVndCZWFuc1tpXS5nZXRUaWNrTnVtYigpKTsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICBpZiAob3BlblRpY2tldE51bWJlciAhPSBudWxsKSB2ZWhpY2xlLnNldFRpY2tldE51bWJlcihvcGVuVGlja2V0TnVtYmVyKTsK</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaXRpbmVucUNvbmZWd0JlYW4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB2ZWhpY2xlLnNldFRpY2tldE51bWJlcihvcGVuVGlja2V0TnVtYmVyKTsK</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="x" type="2">
-        <text encoding="base64">ICAgIHRoaXMudGlja2V0Tm8gPSB0aWNrZXRubzsKICAgIHRoaXMuYm9va2luZ05vID0gYm9va2luZ25vOwo=</text>
+      <register name="x" type="4">
+        <text>xmltree.toString()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBJdGluZW5xQ29uZlZ3QmVhbiBpdGluZW5xQ29uZlZ3QmVhbgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaXRpbmVucUNvbmZWd0JlYW4K</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
