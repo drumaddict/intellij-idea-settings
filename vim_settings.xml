@@ -52,7 +52,7 @@
         <mark key="." line="77" column="0" />
         <mark key="^" line="37" column="10" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1553593024922">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1553784661337">
         <mark key="'" line="213" column="10" />
         <mark key="[" line="213" column="10" />
         <mark key="]" line="214" column="84" />
@@ -351,7 +351,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -383,12 +383,12 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
         <entry>1063</entry>
         <entry>action SurroundWith</entry>
-        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
+        <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
