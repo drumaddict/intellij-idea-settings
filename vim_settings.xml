@@ -81,7 +81,7 @@
         <mark key="." line="1044" column="25" />
         <mark key="o" line="598" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1553781166036">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1553782205139">
         <mark key="'" line="1078" column="140" />
         <mark key="[" line="1063" column="39" />
         <mark key="]" line="1063" column="39" />
@@ -351,7 +351,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -384,11 +384,11 @@
         <entry>1063</entry>
         <entry>action SurroundWith</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
-        <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
