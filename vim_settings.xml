@@ -53,12 +53,12 @@
         <mark key="." line="77" column="0" />
         <mark key="^" line="37" column="10" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1553845447534">
-        <mark key="'" line="214" column="10" />
-        <mark key="[" line="305" column="3" />
-        <mark key="]" line="305" column="46" />
-        <mark key="." line="305" column="46" />
-        <mark key="^" line="305" column="46" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1553850060517">
+        <mark key="'" line="53" column="6" />
+        <mark key="[" line="54" column="58" />
+        <mark key="]" line="54" column="68" />
+        <mark key="." line="54" column="68" />
+        <mark key="^" line="54" column="68" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqAlertIDManager.java" timestamp="1553599951734">
         <mark key="'" line="12" column="30" />
@@ -203,7 +203,7 @@
         <mark key="^" line="0" column="4" />
         <mark key="." line="0" column="4" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_recall_itineraries_for_confirm_day_range.sql" timestamp="1553846210687">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_recall_itineraries_for_confirm_day_range.sql" timestamp="1553848123441">
         <mark key="'" line="2" column="17" />
         <mark key="[" line="1" column="97" />
         <mark key="]" line="1" column="164" />
@@ -212,15 +212,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="214" column="16" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="185" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="219" column="16" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="343" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="248" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="249" column="42" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="182" column="44" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="410" column="78" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="173" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="53" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="52" column="3" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="270" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
@@ -312,10 +303,19 @@
       <jump line="1078" column="140" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="49" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="47" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
+      <jump line="46" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="71" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="44" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="135" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="137" column="64" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="139" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="39" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="38" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="54" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>Day range to search for confirmation itineraries starting from today</text>
+        <text>LATER_THAN</text>
       </register>
       <register name="-" type="4">
         <text>//.setSevere(false);</text>
@@ -324,44 +324,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgaWYgKG9wZW5UaWNrZXRGb3JDb25maXJtYXRpb25FbnF1aXJ5LmlzRGJFUlJPUigpKSByZXR1cm4gaGFuZGxlRXJyb3Iob3BlblRpY2tldEZvckNvbmZpcm1hdGlvbkVucXVpcnkuZ2V0RGJFcnJTdHIoKSk7Cg==</text>
+        <text encoding="base64">ICAgIE5PX0xBVEVSX1RIQU4gPSB1dGlsaXRpZXMuRGF0ZVV0aWxzLmZvcndhcmRORGF5c1Nob3J0KE5PVywgZGF5UmFuZ2UpOwo=</text>
       </register>
-      <register name="1" type="4">
-        <text>Day range to search for confirmation itineraries starting from today</text>
-      </register>
-      <register name="2" type="4">
-        <text>ITINERARIES_SEARCH_DAY_RANGE</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpdGluZXJhcmllcyA9IG51bGw7Cg==</text>
-      </register>
-      <register name="4" type="2">
+      <register name="1" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIERFUEFSVFVSRV9EQVRFID0gRGF0ZVV0aWxzLmRhc2hlcml6ZURhdGVTdHJpbmcoZGVwYXJ0dXJlRGF0ZSk7Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text>LATER_THAN</text>
+      </register>
+      <register name="4" type="4">
+        <text>LATER_THAN</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">ICAgICAgICAgIC8qCiAgICAgICAgICAgKiBOTyByb3dzIGZvdW5kLCByZXR1cm4gZXJyb3IgIQogICAgICAgICAgICovCi8vICAgICAgICAgIGFuc3dlclN0YXR1c0luZm8uc2V0U2V2ZXJlKHRydWUpOwovLyAgICAgICAgICBhbnN3ZXJTdGF0dXNJbmZvLnNldFN0YXR1c0NvZGUoIjAwMSIpOwovLyAgICAgICAgICBpZiAoZGJFUlJPUikgewovLyAgICAgICAgICAgIGFuc3dlclN0YXR1c0luZm8uc2V0U3RhdHVzTWVzc2FnZShkYkVyclN0cik7Ci8vICAgICAgICAgIH0gZWxzZSB7Ci8vICAgICAgICAgICAgYW5zd2VyU3RhdHVzSW5mby5zZXRTdGF0dXNNZXNzYWdlKCJNQVRDSElORyBPQkpFQ1RTIE5PVCBGT1VORCAhIik7Ci8vICAgICAgICAgIH0=</text>
+        <text>dayRange</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>dayRangeSetting</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgZGF5UmFuZ2UgPSBJbnRlZ2VyLnBhcnNlSW50KGRheVJhbmdlU2V0dGluZy5nZXRQYXJWYWx1ZSgpKTsK</text>
       </register>
       <register name="x" type="4">
-        <text>Day range to search for confirmation itineraries starting from today</text>
+        <text>LATER_THAN</text>
       </register>
       <register name="8" type="4">
-        <text>//      if (itinerariesAnswer.getServiceBody().getMessageData().getEmbarkationData() != null)
-//      if  (StringUtils.isNotBlank(itinerariesConfirmationEnquiry.getDbErrStr())) {
-//        String errorMessage = &quot;No Itineraries were fetched because of error.&quot;;
-//        xmlAnswer.getServiceBody().getMessageHeader().getStatusInfo().setStatusMessage(errorMessage +  itinerariesConfirmationEnquiry.getDbErrStr() );
-//      }</text>
+        <text>dayRangeSetting</text>
       </register>
       <register name="9" type="4">
-        <text>openTicketForConfirmationEnquiry</text>
+        <text>Day range to search for confirmation itineraries starting from today</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -393,9 +389,11 @@
         <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action SaveAll</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action GotoFile</entry>
+        <entry>action TabShiftActions.StretchUp</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
