@@ -3,6 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_email_settings.sql" timestamp="1553846003367" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" timestamp="1553263396830">
         <mark key="'" line="134" column="10" />
         <mark key="[" line="134" column="10" />
@@ -52,11 +53,12 @@
         <mark key="." line="77" column="0" />
         <mark key="^" line="37" column="10" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1553785962980">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1553845447534">
         <mark key="'" line="214" column="10" />
-        <mark key="[" line="155" column="0" />
-        <mark key="]" line="155" column="0" />
-        <mark key="." line="155" column="0" />
+        <mark key="[" line="305" column="3" />
+        <mark key="]" line="305" column="46" />
+        <mark key="." line="305" column="46" />
+        <mark key="^" line="305" column="46" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqAlertIDManager.java" timestamp="1553599951734">
         <mark key="'" line="12" column="30" />
@@ -181,6 +183,12 @@
         <mark key="^" line="168" column="11" />
         <mark key="." line="168" column="11" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_MINIMUM_HOURS_LIMIT_BEFORE_CONFIRMATION.sql" timestamp="1553846664146">
+        <mark key="[" line="1" column="177" />
+        <mark key="]" line="1" column="177" />
+        <mark key="." line="1" column="177" />
+        <mark key="^" line="1" column="177" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_iface_pars_per_comp.sql" timestamp="1553672784572">
         <mark key="'" line="3" column="17" />
         <mark key="[" line="2" column="207" />
@@ -195,7 +203,7 @@
         <mark key="^" line="0" column="4" />
         <mark key="." line="0" column="4" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_recall_itineraries_for_confirm_day_range.sql" timestamp="1553697206943">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_recall_itineraries_for_confirm_day_range.sql" timestamp="1553846210687">
         <mark key="'" line="2" column="17" />
         <mark key="[" line="1" column="97" />
         <mark key="]" line="1" column="164" />
@@ -307,7 +315,7 @@
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>openTicketForConfirmationEnquiry</text>
+        <text>Day range to search for confirmation itineraries starting from today</text>
       </register>
       <register name="-" type="4">
         <text>//.setSevere(false);</text>
@@ -318,42 +326,42 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgaWYgKG9wZW5UaWNrZXRGb3JDb25maXJtYXRpb25FbnF1aXJ5LmlzRGJFUlJPUigpKSByZXR1cm4gaGFuZGxlRXJyb3Iob3BlblRpY2tldEZvckNvbmZpcm1hdGlvbkVucXVpcnkuZ2V0RGJFcnJTdHIoKSk7Cg==</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>Day range to search for confirmation itineraries starting from today</text>
+      </register>
+      <register name="2" type="4">
+        <text>ITINERARIES_SEARCH_DAY_RANGE</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICBpdGluZXJhcmllcyA9IG51bGw7Cg==</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="3" type="4">
-        <text encoding="base64">ICAgICAgICAgIC8qCiAgICAgICAgICAgKiBOTyByb3dzIGZvdW5kLCByZXR1cm4gZXJyb3IgIQogICAgICAgICAgICovCi8vICAgICAgICAgIGFuc3dlclN0YXR1c0luZm8uc2V0U2V2ZXJlKHRydWUpOwovLyAgICAgICAgICBhbnN3ZXJTdGF0dXNJbmZvLnNldFN0YXR1c0NvZGUoIjAwMSIpOwovLyAgICAgICAgICBpZiAoZGJFUlJPUikgewovLyAgICAgICAgICAgIGFuc3dlclN0YXR1c0luZm8uc2V0U3RhdHVzTWVzc2FnZShkYkVyclN0cik7Ci8vICAgICAgICAgIH0gZWxzZSB7Ci8vICAgICAgICAgICAgYW5zd2VyU3RhdHVzSW5mby5zZXRTdGF0dXNNZXNzYWdlKCJNQVRDSElORyBPQkpFQ1RTIE5PVCBGT1VORCAhIik7Ci8vICAgICAgICAgIH0=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="5" type="4">
+        <text encoding="base64">ICAgICAgICAgIC8qCiAgICAgICAgICAgKiBOTyByb3dzIGZvdW5kLCByZXR1cm4gZXJyb3IgIQogICAgICAgICAgICovCi8vICAgICAgICAgIGFuc3dlclN0YXR1c0luZm8uc2V0U2V2ZXJlKHRydWUpOwovLyAgICAgICAgICBhbnN3ZXJTdGF0dXNJbmZvLnNldFN0YXR1c0NvZGUoIjAwMSIpOwovLyAgICAgICAgICBpZiAoZGJFUlJPUikgewovLyAgICAgICAgICAgIGFuc3dlclN0YXR1c0luZm8uc2V0U3RhdHVzTWVzc2FnZShkYkVyclN0cik7Ci8vICAgICAgICAgIH0gZWxzZSB7Ci8vICAgICAgICAgICAgYW5zd2VyU3RhdHVzSW5mby5zZXRTdGF0dXNNZXNzYWdlKCJNQVRDSElORyBPQkpFQ1RTIE5PVCBGT1VORCAhIik7Ci8vICAgICAgICAgIH0=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="x" type="4">
+        <text>Day range to search for confirmation itineraries starting from today</text>
+      </register>
+      <register name="8" type="4">
         <text>//      if (itinerariesAnswer.getServiceBody().getMessageData().getEmbarkationData() != null)
 //      if  (StringUtils.isNotBlank(itinerariesConfirmationEnquiry.getDbErrStr())) {
 //        String errorMessage = &quot;No Itineraries were fetched because of error.&quot;;
 //        xmlAnswer.getServiceBody().getMessageHeader().getStatusInfo().setStatusMessage(errorMessage +  itinerariesConfirmationEnquiry.getDbErrStr() );
 //      }</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>openTicketForConfirmationEnquiry</text>
-      </register>
-      <register name="x" type="4">
-        <text>openTicketForConfirmationEnquiry</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -383,11 +391,11 @@
         <entry>1063</entry>
         <entry>action SurroundWith</entry>
         <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
