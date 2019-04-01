@@ -3,7 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_email_settings.sql" timestamp="1553846003367" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CTicket.java" timestamp="1553868208291">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -23,19 +22,19 @@
         <mark key="." line="36" column="15" />
         <mark key="^" line="36" column="15" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_alternate_open_recall.sql" timestamp="1553697162806">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_alternate_open_recall.sql" timestamp="1554106430184">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="2" column="17" />
         <mark key="." line="0" column="0" />
         <mark key="^" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1553771873607">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1554106417601">
         <mark key="'" line="151" column="14" />
-        <mark key="[" line="596" column="22" />
-        <mark key="]" line="596" column="29" />
-        <mark key="." line="596" column="29" />
-        <mark key="^" line="596" column="29" />
+        <mark key="[" line="473" column="10" />
+        <mark key="]" line="473" column="19" />
+        <mark key="." line="473" column="19" />
+        <mark key="^" line="473" column="19" />
         <mark key="o" line="160" column="14" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1553263484078">
@@ -45,7 +44,6 @@
         <mark key="^" line="188" column="25" />
         <mark key="." line="236" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/ParametersManager.java" timestamp="1553853543110" />
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICK_CONF_VW.sql" timestamp="1553672648043">
         <mark key="'" line="75" column="4" />
         <mark key="[" line="77" column="0" />
@@ -59,11 +57,12 @@
         <mark key="^" line="75" column="5" />
         <mark key="." line="75" column="5" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1553868527772">
-        <mark key="'" line="161" column="4" />
-        <mark key="[" line="161" column="4" />
-        <mark key="]" line="161" column="77" />
-        <mark key="." line="160" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1554108616810">
+        <mark key="'" line="303" column="6" />
+        <mark key="[" line="306" column="40" />
+        <mark key="]" line="306" column="39" />
+        <mark key="^" line="306" column="39" />
+        <mark key="." line="306" column="39" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqAlertIDManager.java" timestamp="1553599951734">
         <mark key="'" line="12" column="30" />
@@ -108,6 +107,7 @@
         <mark key="." line="64" column="11" />
         <mark key="^" line="64" column="11" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_confrimation_switch.sql" timestamp="1554106515905" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" timestamp="1553765044161">
         <mark key="'" line="28" column="43" />
         <mark key="[" line="142" column="18" />
@@ -169,13 +169,13 @@
         <mark key="." line="281" column="70" />
         <mark key="^" line="281" column="70" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1553777454385">
-        <mark key="'" line="92" column="4" />
-        <mark key="[" line="92" column="4" />
-        <mark key="]" line="93" column="68" />
-        <mark key="n" line="306" column="20" />
-        <mark key="." line="301" column="45" />
-        <mark key="^" line="324" column="15" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1553869567367">
+        <mark key="'" line="88" column="4" />
+        <mark key="[" line="86" column="56" />
+        <mark key="]" line="87" column="34" />
+        <mark key="n" line="307" column="20" />
+        <mark key="." line="87" column="34" />
+        <mark key="^" line="87" column="34" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/cheatsheet.sql" timestamp="1553613415396">
         <mark key="'" line="19" column="0" />
@@ -204,7 +204,7 @@
         <mark key="^" line="2" column="207" />
         <mark key="." line="2" column="207" />
       </file>
-      <file name="/fragment.java" timestamp="1553857372866">
+      <file name="/fragment.java" timestamp="1554106670342">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
@@ -220,44 +220,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="221" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="206" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/DisembarkationBatchUpdate.java" />
-      <jump line="1061" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="208" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/DisembarkationBatchUpdate.java" />
-      <jump line="1067" column="31" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="1028" column="99" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="1056" column="42" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="1080" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="1060" column="42" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="237" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="277" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="284" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="283" column="27" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="299" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="277" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="322" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="291" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="303" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="317" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="311" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="296" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="109" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="320" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="1045" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="305" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="1042" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="1111" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="35" column="77" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
-      <jump line="114" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
-      <jump line="117" column="112" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
-      <jump line="118" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
-      <jump line="297" column="3" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" />
-      <jump line="122" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
-      <jump line="127" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
-      <jump line="112" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
-      <jump line="49" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
-      <jump line="85" column="49" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" />
-      <jump line="357" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="368" column="51" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="363" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="152" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
@@ -320,43 +282,81 @@
       <jump line="194" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="21" column="0" filename="$USER_HOME$/projects/port-checkin-control/Libraries/iText-5.0.1.jar!/com/itextpdf/text/PageSize.class" />
       <jump line="161" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="87" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="426" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="415" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="463" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="451" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="455" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="247" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="478" column="30" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="441" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="481" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="470" column="28" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="184" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="477" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="483" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="487" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="490" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="464" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="482" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="185" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="475" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="493" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="186" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="486" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="504" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="187" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="497" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="423" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="314" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="424" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="175" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="421" column="61" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="427" column="133" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="428" column="33" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="429" column="140" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="416" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="507" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="499" column="59" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="303" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>CTicket</text>
+        <text>580</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBwdWJsaWMgc3RhdGljIGZpbmFsIFJlY3RhbmdsZSBBNCA9IG5ldyBSZWN0YW5nbGVSZWFkT25seSg1OTUuMEYsIDg0Mi4wRik7Cg==</text>
+        <text encoding="base64">ICAgICAgY29kZTEyOC5zZXRDb2RlKFZwYXMuZ2V0Q29uZmlybWF0aW9uSUQoKSk7Cg==</text>
       </register>
       <register name="1" type="4">
-        <text>CTicket</text>
+        <text>580</text>
       </register>
-      <register name="2" type="4">
-        <text>CTicket</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgY2FudmFzLnNob3dUZXh0QWxpZ25lZCgwLCAiKiBFc3RlIGRvY3VtZW50byBubyByZWVtcGxhemEgbGEgdGFyamV0YSBkZSBlbWJhcnF1ZSwgYSBsYSBsbGVnYWRhIGFsIHB1ZXJ0bywgcG9yIGZhdm9yIHByb2NlZGEgYWwgY2hlY2staW4uIiwgMTIwLCA1ODUsIDApOwo=</text>
       </register>
-      <register name="3" type="4">
-        <text>CTicket</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgY2FudmFzLnNob3dUZXh0QWxpZ25lZCgwLCIqIENlIGRvY3VtZW50IG5lIHJlbXBsYWNlIHBhcyBsYSBjYXJ0ZSBkJ2VtYmFycXVlbWVudCwgPyB2b3RyZSBhcnJpdj9lIGF1IHBvcnQgVGFuZ2VyIE1lZCBQYXNzYWdlcnMgLCBtZXJjaSBkJ2VucmVnaXN0ZXIgdm90cmUgYmlsbGV0LiIgLCAxMjAsIDU5NSwgMCk7Cg==</text>
       </register>
       <register name="4" type="4">
-        <text>CTicket</text>
+        <text>* This document does not replace the boarding pass, at your port arrival, please proceed to check-in.</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">cGFja2FnZSB0bXNhY29uZnBkZjsK</text>
+      <register name="5" type="4">
+        <text>isAlternate</text>
       </register>
-      <register name="6" type="2">
+      <register name="6" type="4">
+        <text>isAlternate</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAgIC8vIEJsb2JEYXRhIHZhbGlkYXRpb24KLy8gICAgdHJ5IHsKLy8gICAgICBpZiAoIShibG9iRGF0YS5nZXRCbG9icygpLmdldEJsb2JDb3VudCgpID4gMCkgfHwKLy8gICAgICAgICAgICAgICghYmxvYkRhdGEuZ2V0QmxvYnMoKS5nZXRCbG9iKDApLmhhc0lEKCkpIHx8Ci8vICAgICAgICAgICAgICAhKGJsb2JEYXRhLmdldEJsb2JzKCkuZ2V0QmxvYigwKS5nZXRJRCgpID4gMCkpCi8vICAgICAgICB0aHJvdyBuZXcgVmFsaWRhdGlvbkV4Y2VwdGlvbigiUGxlYXNlIHByb3ZpZGUgYSB2YWxpZCBCbG9iZGF0YSBvYmplY3QgaW4geW91ciByZXF1ZXN0LCB3aXRoICIgKwovLyAgICAgICAgICAgICAgICAib25lIEJsb2IgYW5kIElEIGJpZ2dlciB0aGFuIHplcm8iKTsKLy8gICAgfSBjYXRjaCAoSW5kZXhPdXRPZkJvdW5kc0V4Y2VwdGlvbiBlKSB7Ci8vICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKLy8gICAgICB0aHJvdyBuZXcgVmFsaWRhdGlvbkV4Y2VwdGlvbihlLmdldE1lc3NhZ2UoKSk7Ci8vICAgIH0gY2F0Y2ggKFZhbGlkYXRpb25FeGNlcHRpb24gZSkgewovLyAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7Ci8vICAgICAgdGhyb3cgbmV3IFZhbGlkYXRpb25FeGNlcHRpb24oZS5nZXRNZXNzYWdlKCkpOwovLyAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewovLyAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7Ci8vICAgICAgdGhyb3cgbmV3IFZhbGlkYXRpb25FeGNlcHRpb24oZS5nZXRNZXNzYWdlKCkpOwovLyAgICB9</text>
-      </register>
       <register name="x" type="4">
-        <text>CTicket</text>
+        <text>580</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
@@ -380,11 +380,8 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action OptimizeImports</entry>
-        <entry>action SplitVertically</entry>
         <entry>action CloseContent</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action RenameElement</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action NextTab</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
@@ -393,14 +390,16 @@
         <entry>1063</entry>
         <entry>action SurroundWith</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action VimFilePrevious</entry>
-        <entry>action FindUsages</entry>
-        <entry>action ReformatCode</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
+        <entry>action RenameElement</entry>
+        <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
+        <entry>action FindUsages</entry>
+        <entry>500</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action VimFilePrevious</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
