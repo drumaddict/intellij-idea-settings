@@ -118,6 +118,7 @@
         <mark key="^" line="46" column="102" />
         <mark key="." line="50" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1554206428155" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1553868301678">
         <mark key="'" line="64" column="4" />
         <mark key="[" line="64" column="21" />
@@ -396,7 +397,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -422,16 +423,20 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action ShowReformatFileDialog</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>335</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action FindUsages</entry>
-        <entry>action Find</entry>
         <entry>action SurroundWith</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action SplitVertically</entry>
+        <entry>action CloseContent</entry>
+        <entry>action AceAction</entry>
+        <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
