@@ -8,12 +8,12 @@
         <mark key="[" line="0" column="40" />
         <mark key="]" line="0" column="60" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" timestamp="1553263396830">
-        <mark key="'" line="134" column="10" />
-        <mark key="[" line="134" column="10" />
-        <mark key="]" line="138" column="10" />
-        <mark key="^" line="132" column="56" />
-        <mark key="." line="132" column="56" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" timestamp="1554190691534">
+        <mark key="'" line="139" column="0" />
+        <mark key="[" line="137" column="89" />
+        <mark key="]" line="137" column="89" />
+        <mark key="^" line="137" column="89" />
+        <mark key="." line="137" column="89" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" timestamp="1554186965740">
         <mark key="'" line="74" column="53" />
@@ -71,9 +71,10 @@
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/OPEN_TICK_CONF_VW.sql" timestamp="1554114709147">
         <mark key="'" line="37" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1553858928339">
-        <mark key="[" line="74" column="105" />
-        <mark key="]" line="75" column="5" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1554190079196">
+        <mark key="'" line="52" column="2" />
+        <mark key="[" line="52" column="2" />
+        <mark key="]" line="79" column="4" />
         <mark key="^" line="75" column="5" />
         <mark key="." line="75" column="5" />
       </file>
@@ -188,10 +189,10 @@
         <mark key="." line="281" column="70" />
         <mark key="^" line="281" column="70" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1554188292580">
-        <mark key="'" line="113" column="4" />
-        <mark key="[" line="116" column="69" />
-        <mark key="]" line="116" column="69" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1554189566182">
+        <mark key="'" line="46" column="4" />
+        <mark key="[" line="46" column="4" />
+        <mark key="]" line="52" column="6" />
         <mark key="n" line="308" column="20" />
         <mark key="." line="116" column="69" />
         <mark key="^" line="116" column="69" />
@@ -239,12 +240,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="42" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_semaphore_to_sailing.sql" />
-      <jump line="5" column="23" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_semaphore_to_sailing.sql" />
-      <jump line="9" column="41" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_semaphore_to_sailing.sql" />
-      <jump line="74" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
-      <jump line="37" column="20" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
-      <jump line="38" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
       <jump line="0" column="40" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_pas_avail_sema_to_sailing.sql" />
       <jump line="76" column="59" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
       <jump line="22" column="21" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/CONFDTA_VW.sql" />
@@ -339,10 +334,16 @@
       <jump line="97" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="114" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="113" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="52" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
+      <jump line="223" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" />
+      <jump line="46" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="48" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" />
+      <jump line="41" column="119" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" />
+      <jump line="135" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>Exception</text>
+        <text>departureDate</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -351,42 +352,34 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>// Check if request data is right
-    if (dbERROR)
-      return handleError(dbErrStr);</text>
+        <text encoding="base64">ICB0cnkgewogICAgICAgIFBhcmFtZXRlcnNNYW5hZ2VyIHBhcmFtZXRlcnNNYW5hZ2VyID0gbmV3IFBhcmFtZXRlcnNNYW5hZ2VyKCk7CiAgICAgICAgUGFyYW1ldGVyc0JlYW4gYWx0ZXJuYXRlU2V0dGluZyA9IHBhcmFtZXRlcnNNYW5hZ2VyLmxvYWRCeVByaW1hcnlLZXkoIkNPTkZJUk1BVElPTl9TV0lUQ0giKTsKICAgICAgICBjb25maXJtYXRpb25Td2l0Y2ggPSBhbHRlcm5hdGVTZXR0aW5nLmdldFBhclZhbHVlKCk7CiAgICAgIH0gY2F0Y2ggKERBT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKICAgICAgfQ==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="3" type="4">
+        <text encoding="base64">ICAgICBpZiAodmFsaWQpIHsKICAgICAgICB2aXNpYmxlSXRpbmVyYXJpZXMuYWRkKGl0aW5lcmFyeSk7Ci8vICAgICAgfQ==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>if (!confSwitch.equals(&quot;true&quot;))
-          throw new DataValidationException(&quot;Confirmations are disabled by Confirmation Switch.&quot;);</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgCg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">Ly8gICAgIExpc3Q8SXRpbmVucUNvbmZWd0JlYW4+IHZpc2libGVJdGluZXJhcmllcyA9IG5ldyBBcnJheUxpc3Q8SXRpbmVucUNvbmZWd0JlYW4+KCk7Ci8vICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaXRpbmVyYXJpZXMubGVuZ3RoOyBpKyspIHsKLy8gICAgICBJdGluZW5xQ29uZlZ3QmVhbiBpdGluZXJhcnkgPSBpdGluZXJhcmllc1tpXTs=</text>
       </register>
       <register name="6" type="4">
-        <text>catch (Da e) {
-      dbERROR = true;
-      dbErrStr = &quot;Request is not valid.&quot;;
-      e.printStackTrace();
-      handleError(e.getMessage());
-    }</text>
+        <text>departureDate</text>
       </register>
       <register name="7" type="4">
-        <text>Exception</text>
+        <text>itinenqConfVwBean</text>
       </register>
       <register name="x" type="4">
-        <text>Exception</text>
+        <text>departureDate</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Rml4ZWQgQ0lUSU5FUkFSWSBidWcK</text>
+      <register name="8" type="4">
+        <text>CONFIRMATION_SWITCH</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -419,12 +412,12 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action ShowReformatFileDialog</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoFile</entry>
-        <entry>action NextTab</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action GotoFile</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
