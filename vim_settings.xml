@@ -134,6 +134,13 @@
         <mark key="^" line="1580" column="27" />
         <mark key="." line="1580" column="27" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE.sql" timestamp="1554280862425">
+        <mark key="'" line="13" column="411" />
+        <mark key="[" line="13" column="64" />
+        <mark key="]" line="13" column="64" />
+        <mark key="^" line="13" column="64" />
+        <mark key="." line="13" column="64" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1554276556703">
         <mark key="'" line="44" column="0" />
         <mark key="[" line="126" column="35" />
@@ -196,13 +203,13 @@
         <mark key="." line="281" column="70" />
         <mark key="^" line="281" column="70" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1554278541695">
-        <mark key="'" line="391" column="16" />
-        <mark key="[" line="388" column="86" />
-        <mark key="]" line="388" column="86" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1554279896372">
+        <mark key="'" line="392" column="16" />
+        <mark key="[" line="311" column="25" />
+        <mark key="]" line="311" column="23" />
         <mark key="n" line="304" column="20" />
-        <mark key="^" line="388" column="86" />
-        <mark key="." line="388" column="86" />
+        <mark key="^" line="311" column="23" />
+        <mark key="." line="311" column="23" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/cheatsheet.sql" timestamp="1553613415396">
         <mark key="'" line="19" column="0" />
@@ -247,8 +254,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="127" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
-      <jump line="419" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="131" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="125" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="255" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
@@ -347,6 +352,8 @@
       <jump line="397" column="49" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="390" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="391" column="16" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="9" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE.sql" />
+      <jump line="13" column="411" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE.sql" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -359,7 +366,8 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgIEJvYXJkcGFzc1Z3QmVhbiBib2FyZHBhc3NWd0JlYW4gPSBmZXRjaEJvYXJkUGFzc0RhdGEoYm9va0lkLCAwKTsKICAgIC8vIE5vIGJvYXJkIGFjdGl2aXR5LCBPSy4KICAgIGlmIChib2FyZHBhc3NWd0JlYW4gPT0gbnVsbCkgcmV0dXJuIHRydWU7CiAgICAvLyBDaGVjayBpZiBib2FyZGVkLgogICAgaWYgKFZBTElEX0JPQVJEX1NUQVRVU0VTX0ZPUl9DT05GSVJNQVRJT04uY29udGFpbnMoYm9hcmRwYXNzVndCZWFuLmdldEJvYXJkU3RhdHVzKCkudG9TdHJpbmcoKSkpewogICAgICBkYkVSUk9SID0gdHJ1ZTsKICAgICAgZGJFcnJTdHIgPSBpdGVtVHlwZSArICIgd2l0aCBCT09LX0lEID0gIiArIGJvb2tJZCArICIgaGFzIGFscmVhZHkgYmVlbiBib2FyZGVkLiI7CiAgICAgIHRocm93IG5ldyBEYXRhVmFsaWRhdGlvbkV4Y2VwdGlvbihkYkVyclN0cik7CiAgICB9CiAgICByZXR1cm4gIHRydWU7</text>
+        <text>-- Availability body
+-- Availability for vessel [vessName] of company [compName]  with sailId [sailId], itineraryID [itinId] , departure date [departureDate] departure port [departurePortDescr], arrivalPort [arrivalPortDescr], [embarkationType] capacity [avail] has reached the threshold value of [alarmCount], ( [alarmPercent] %) as there are already [confirmedCounter] confirmed [embarkationType]s. This email is sent as a warning.</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -433,14 +441,14 @@
         <entry>action CloseContent</entry>
         <entry>action AceAction</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action PreviousTab</entry>
         <entry>130</entry>
-        <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
         <entry>action Find</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
