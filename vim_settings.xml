@@ -3,6 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/projects/port-checkin-control/Libraries/commons-email-1.5.jar!/org/apache/commons/mail/Email.class" timestamp="1554386247374" />
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alertline_alter.sql" timestamp="1554281611859">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -110,12 +111,12 @@
         <mark key="^" line="46" column="102" />
         <mark key="." line="50" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1554381880157">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1554385182239">
         <mark key="'" line="119" column="12" />
-        <mark key="[" line="118" column="0" />
-        <mark key="]" line="118" column="0" />
-        <mark key="^" line="118" column="11" />
-        <mark key="." line="118" column="0" />
+        <mark key="[" line="74" column="25" />
+        <mark key="]" line="74" column="33" />
+        <mark key="^" line="74" column="33" />
+        <mark key="." line="74" column="33" />
         <mark key="o" line="113" column="5" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1554298718290">
@@ -226,12 +227,12 @@
         <mark key="." line="281" column="70" />
         <mark key="^" line="281" column="70" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" timestamp="1554382344630">
-        <mark key="'" line="70" column="8" />
-        <mark key="[" line="35" column="15" />
-        <mark key="]" line="35" column="0" />
-        <mark key="^" line="35" column="0" />
-        <mark key="." line="35" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" timestamp="1554386502077">
+        <mark key="'" line="43" column="6" />
+        <mark key="[" line="43" column="30" />
+        <mark key="]" line="43" column="31" />
+        <mark key="." line="43" column="31" />
+        <mark key="^" line="43" column="31" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1554293454348">
         <mark key="'" line="344" column="6" />
@@ -274,7 +275,7 @@
         <mark key="^" line="2" column="207" />
         <mark key="." line="2" column="207" />
       </file>
-      <file name="/fragment.java" timestamp="1554367090222">
+      <file name="/fragment.java" timestamp="1554385197233">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
@@ -290,14 +291,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="13" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
-      <jump line="15" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
-      <jump line="16" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
-      <jump line="23" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
-      <jump line="25" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
-      <jump line="26" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
-      <jump line="30" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
-      <jump line="31" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
       <jump line="29" column="2" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
       <jump line="34" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
       <jump line="35" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
@@ -331,11 +324,8 @@
       <jump line="15" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
       <jump line="20" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
       <jump line="11" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
-      <jump line="130" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
       <jump line="72" column="78" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="18" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
       <jump line="42" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
-      <jump line="43" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
       <jump line="45" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
       <jump line="35" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
       <jump line="48" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
@@ -390,46 +380,57 @@
       <jump line="70" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
       <jump line="120" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="119" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="130" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
+      <jump line="121" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
+      <jump line="122" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
+      <jump line="127" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
+      <jump line="128" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
+      <jump line="126" column="55" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
+      <jump line="50" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
+      <jump line="51" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
+      <jump line="44" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
+      <jump line="18" column="71" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
+      <jump line="43" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>length</text>
+        <text>no-reply@mailto:boarding.tm@tangermed.ma-crs.gr</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IE1hcDxMb25nLCBGdXR1cmU8Qm9vbGVhbj4+IGFsZXJ0SWRUb1N1Y2Nlc3MgPSBuZXcgSGFzaE1hcDxMb25nLCBGdXR1cmU8Qm9vbGVhbj4+KCk7</text>
+        <text>(</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIpOwo=</text>
+        <text encoding="base64">ICAgICAgZW1haWwuc2V0U3RhcnRUTFNFbmFibGVkKHRydWUpOwo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>no-reply@mailto:boarding.tm@tangermed.ma-crs.gr</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgZW1haWwuc2V0VG8oRlJPTV9BRERSRVNTKTsK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgfSBlbHNlIHsK</text>
+      <register name="3" type="4">
+        <text>SMTP_USERNAME</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBTZXQgUGVuZGluZyB0byBObwo=</text>
+      <register name="4" type="4">
+        <text>USERNAME</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgaWYgKHN1Y2Nlc3MpIHsK</text>
+        <text encoding="base64">ICAgIFN5c3RlbS5vdXQucHJpbnRsbigiYXNkZmtsYWoiKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgfSBlbHNlIHsK</text>
+        <text encoding="base64">Ly8gICAgU3lzdGVtLm91dC5wcmludGxuKCJhc2Rma2xhaiIpOwo=</text>
       </register>
       <register name="x" type="4">
-        <text>length</text>
+        <text>no-reply@mailto:boarding.tm@tangermed.ma-crs.gr</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkNvdWxkIG5vdCBzZW5kIGVtYWlsIHdpdGggYWxlcnQgSUQgIiArIGFsZXJ0SUQpOwo=</text>
+        <text encoding="base64">ICAgIHJldHVybiBTTVRQX1VTRVJOQU1FLnJlcGxhY2UoIlxcIiwgIlxcXFwiKTsK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -462,15 +463,15 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action AceAction</entry>
         <entry>action SurroundWith</entry>
-        <entry>action FindUsages</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action Find</entry>
         <entry>action RenameElement</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
