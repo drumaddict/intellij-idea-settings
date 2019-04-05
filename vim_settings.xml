@@ -109,12 +109,12 @@
         <mark key="^" line="46" column="102" />
         <mark key="." line="50" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1554465154760">
-        <mark key="'" line="77" column="6" />
-        <mark key="[" line="211" column="0" />
-        <mark key="]" line="211" column="0" />
-        <mark key="^" line="208" column="29" />
-        <mark key="." line="211" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1554466566348">
+        <mark key="'" line="85" column="59" />
+        <mark key="[" line="84" column="31" />
+        <mark key="]" line="84" column="30" />
+        <mark key="^" line="84" column="30" />
+        <mark key="." line="84" column="30" />
         <mark key="o" line="118" column="5" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1554465218542">
@@ -232,12 +232,12 @@
         <mark key="." line="281" column="70" />
         <mark key="^" line="281" column="70" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" timestamp="1554460017406">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" timestamp="1554466543884">
         <mark key="'" line="54" column="6" />
-        <mark key="[" line="16" column="36" />
-        <mark key="]" line="16" column="40" />
-        <mark key="." line="16" column="40" />
-        <mark key="^" line="16" column="40" />
+        <mark key="[" line="20" column="48" />
+        <mark key="]" line="20" column="52" />
+        <mark key="." line="20" column="52" />
+        <mark key="^" line="20" column="52" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1554293454348">
         <mark key="'" line="344" column="6" />
@@ -296,7 +296,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="151" column="33" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="129" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="134" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="164" column="103" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
@@ -396,10 +395,11 @@
       <jump line="186" column="37" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
       <jump line="57" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" />
       <jump line="256" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
+      <jump line="85" column="59" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>ParametersBean[] _settings</text>
+        <text>false</text>
       </register>
       <register name="-" type="4">
         <text>(</text>
@@ -408,38 +408,38 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHVibGljIFBhcmFtZXRlcnNCZWFuW10gZmV0Y2hTTVRQU2V0dGluZ3MoKSB0aHJvd3MgU1FMRXhjZXB0aW9uIHsKCiAgICBQYXJhbWV0ZXJzTWFuYWdlciBwYXJhbWV0ZXJzTWFuYWdlciA9IFBhcmFtZXRlcnNNYW5hZ2VyLmdldEluc3RhbmNlKCk7CiAgICBTdHJpbmdCdWZmZXIgY3JpdGVyaWFTUUwgPSBuZXcgU3RyaW5nQnVmZmVyKCk7CiAgICBjcml0ZXJpYVNRTC5hcHBlbmQoIiBXSEVSRSAgUEFSX05BTUUgTElLRSAnU01UUCUnIik7CiAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkZldGNoaW5nIFNNVFAgc2V0dGluZ3MgcXVlcnk6ICAgICIgKyBjcml0ZXJpYVNRTCk7CiAgICB0cnkgewogICAgICBQYXJhbWV0ZXJzQmVhbltdIHNtdHBQYXJhbWV0ZXJzID0gbnVsbDsKICAgICAgc210cFBhcmFtZXRlcnMgPSBwYXJhbWV0ZXJzTWFuYWdlci5sb2FkQnlXaGVyZShjcml0ZXJpYVNRTC50b1N0cmluZygpKTsKICAgICAgaWYgKHNtdHBQYXJhbWV0ZXJzLmxlbmd0aCA+IDApIHsKICAgICAgICByZXR1cm4gc210cFBhcmFtZXRlcnM7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgIH0KICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBkYW9lKSB7Ci8vICAgICAgZGJFUlJPUiA9IHRydWU7Ci8vICAgICAgZGJFcnJTdHIgPSBkYW9lLmdldE1lc3NhZ2UoKTsKICAgICAgZGFvZS5wcmludFN0YWNrVHJhY2UoKTsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CiAgfQ==</text>
+        <text>boarding.tm@tangermed.ma</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIHNtdHBTZXR0aW5ncyA9IF9zZXR0aW5nczsK</text>
+      <register name="1" type="4">
+        <text>false</text>
       </register>
       <register name="2" type="4">
-        <text>ParametersBean[] _settings</text>
+        <text>tmsa@tmsa.com</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgIHNtdHBTZXR0aW5ncyA9IF9zZXR0aW5nczsK</text>
+      </register>
+      <register name="4" type="4">
+        <text>ParametersBean[] _settings</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgIAo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="4">
-        <text>AlertHandler alertHandler = new AlertHandler(xmltree);
-          alertHandler.handleAlerts();</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="7" type="4">
+        <text>AlertHandler alertHandler = new AlertHandler(xmltree);
+          alertHandler.handleAlerts();</text>
       </register>
       <register name="x" type="4">
-        <text>ParametersBean[] _settings</text>
+        <text>false</text>
       </register>
-      <register name="8" type="4">
-        <text>smtpSettings</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgc210cFNldHRpbmdzID0gZmV0Y2hTTVRQU2V0dGluZ3MoKTsK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
