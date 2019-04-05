@@ -27,6 +27,13 @@
         <mark key="^" line="137" column="69" />
         <mark key="." line="137" column="69" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" timestamp="1554470489404">
+        <mark key="'" line="158" column="17" />
+        <mark key="[" line="148" column="19" />
+        <mark key="]" line="148" column="19" />
+        <mark key="^" line="148" column="19" />
+        <mark key="." line="148" column="19" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_alternate_open_recall.sql" timestamp="1554106430184">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -80,7 +87,7 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1554467824665">
+      <file name="/Dummy.txt" timestamp="1554469833510">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -109,12 +116,12 @@
         <mark key="^" line="46" column="102" />
         <mark key="." line="50" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1554467461437">
-        <mark key="'" line="85" column="59" />
-        <mark key="[" line="84" column="31" />
-        <mark key="]" line="84" column="30" />
-        <mark key="^" line="84" column="30" />
-        <mark key="." line="84" column="30" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1554469557142">
+        <mark key="'" line="67" column="94" />
+        <mark key="[" line="224" column="0" />
+        <mark key="]" line="224" column="0" />
+        <mark key="^" line="67" column="3" />
+        <mark key="." line="224" column="0" />
         <mark key="o" line="118" column="5" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1554465218542">
@@ -204,10 +211,10 @@
         <mark key="^" line="1004" column="57" />
         <mark key="." line="1004" column="57" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1554465766056">
-        <mark key="'" line="170" column="17" />
-        <mark key="[" line="162" column="25" />
-        <mark key="]" line="162" column="24" />
+      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1554470473240">
+        <mark key="'" line="157" column="0" />
+        <mark key="[" line="157" column="0" />
+        <mark key="]" line="170" column="17" />
         <mark key="^" line="162" column="24" />
         <mark key="." line="162" column="24" />
       </file>
@@ -296,10 +303,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="129" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="134" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="164" column="103" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="154" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="170" column="103" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="161" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="34" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
@@ -396,41 +399,44 @@
       <jump line="57" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" />
       <jump line="256" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
       <jump line="85" column="59" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="68" column="71" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="67" column="94" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="157" column="0" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
+      <jump line="158" column="17" filename="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>false</text>
       </register>
       <register name="-" type="4">
-        <text>(</text>
+        <text encoding="base64">cHJpdmF0ZSBNYXA8TG9uZywgRnV0dXJlPEJvb2xlYW4+PiBhbGVydElkVG9TdWNjZXNzID0gbmV3IEhhc2hNYXA8TG9uZywgRnV0dXJlPEJvb2xlYW4+PigpOw==</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>boarding.tm@tangermed.ma</text>
+        <text encoding="base64">ICAgICAgICA8c2VydmljZT4KICAgICAgICAgICAgPE5hbWU+QUxFUlREQUVNT048L05hbWU+CiAgICAgICAgICAgIDxNb2RlbD5USU1FUl9CQVNFRDwvTW9kZWw+CiAgICAgICAgICAgIDxQb3J0PjU8L1BvcnQ+CiAgICAgICAgICAgIDxTZXJ2aWNlQ2xhc3M+c2VydmVycmVwb3NpdG9yeS5BbGVydERhZW1vbjwvU2VydmljZUNsYXNzPgogICAgICAgICAgICA8TWF4VGhyZWFkcz4xPC9NYXhUaHJlYWRzPgogICAgICAgICAgICA8TW9kZT5EZWJ1ZzwvTW9kZT4KICAgICAgICAgICAgPEFjdGl2ZT5ZZXM8L0FjdGl2ZT4KICAgICAgICAgICAgPFNTTENvbnRleHQ+PC9TU0xDb250ZXh0PgogICAgICAgICAgICA8U1NMcGFzc3dvcmQ+PC9TU0xwYXNzd29yZD4KICAgICAgICAgICAgPEtleVN0b3JlPjwvS2V5U3RvcmU+CiAgICAgICAgICAgIDxLZXlTdG9yZUZpbGU+PC9LZXlTdG9yZUZpbGU+CiAgICAgICAgICAgIDxLZXlNYW5hZ2VyPjwvS2V5TWFuYWdlcj4KICAgICAgICA8L3NlcnZpY2U+</text>
       </register>
-      <register name="1" type="4">
-        <text>false</text>
-      </register>
-      <register name="2" type="4">
-        <text>tmsa@tmsa.com</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIHNtdHBTZXR0aW5ncyA9IF9zZXR0aW5nczsK</text>
-      </register>
-      <register name="4" type="4">
-        <text>ParametersBean[] _settings</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
-      </register>
-      <register name="6" type="2">
+      <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>AlertHandler alertHandler = new AlertHandler(xmltree);
-          alertHandler.handleAlerts();</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICBwcm90ZWN0ZWQgU3RyaW5nIGdldFNNVFBTZXR0aW5nKFN0cmluZyBuYW1lKSB7Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">Ly8gIHB1YmxpYyBQYXJhbWV0ZXJzQmVhbltdIGZldGNoU01UUFNldHRpbmdzKCkgdGhyb3dzIFNRTEV4Y2VwdGlvbiB7Ci8vCi8vICAgIFBhcmFtZXRlcnNNYW5hZ2VyIHBhcmFtZXRlcnNNYW5hZ2VyID0gUGFyYW1ldGVyc01hbmFnZXIuZ2V0SW5zdGFuY2UoKTsKLy8gICAgU3RyaW5nQnVmZmVyIGNyaXRlcmlhU1FMID0gbmV3IFN0cmluZ0J1ZmZlcigpOwovLyAgICBjcml0ZXJpYVNRTC5hcHBlbmQoIiBXSEVSRSAgUEFSX05BTUUgTElLRSAnU01UUCUnIik7Ci8vICAgIFN5c3RlbS5vdXQucHJpbnRsbigiRmV0Y2hpbmcgU01UUCBzZXR0aW5ncyBxdWVyeTogICAgIiArIGNyaXRlcmlhU1FMKTsKLy8gICAgdHJ5IHsKLy8gICAgICBQYXJhbWV0ZXJzQmVhbltdIHNtdHBQYXJhbWV0ZXJzID0gbnVsbDsKLy8gICAgICBzbXRwUGFyYW1ldGVycyA9IHBhcmFtZXRlcnNNYW5hZ2VyLmxvYWRCeVdoZXJlKGNyaXRlcmlhU1FMLnRvU3RyaW5nKCkpOwovLyAgICAgIGlmIChzbXRwUGFyYW1ldGVycy5sZW5ndGggPiAwKSB7Ci8vICAgICAgICByZXR1cm4gc210cFBhcmFtZXRlcnM7Ci8vICAgICAgfSBlbHNlIHsKLy8gICAgICAgIHJldHVybiBudWxsOwovLyAgICAgIH0KLy8gICAgfSBjYXRjaCAoRXhjZXB0aW9uIGRhb2UpIHsKLy8gICAgICBkYkVSUk9SID0gdHJ1ZTsKLy8gICAgICBkYkVyclN0ciA9IGRhb2UuZ2V0TWVzc2FnZSgpOwovLyAgICAgIGRhb2UucHJpbnRTdGFja1RyYWNlKCk7Ci8vICAgICAgcmV0dXJuIG51bGw7Ci8vICAgIH0KLy8gIH0=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">ICBwdWJsaWMgTGlzdDxBbGVydFZ3QmVhbj4gZ2V0U3VjY2Vzc2Z1bEFsZXJ0cygpIHsKICAgIHJldHVybiBzdWNjZXNzZnVsQWxlcnRzOwogIH0KCiAgcHVibGljIHZvaWQgc2V0U3VjY2Vzc2Z1bEFsZXJ0cyhMaXN0PEFsZXJ0VndCZWFuPiBzdWNjZXNzZnVsQWxlcnRzKSB7CiAgICB0aGlzLnN1Y2Nlc3NmdWxBbGVydHMgPSBzdWNjZXNzZnVsQWxlcnRzOwogIH0KCiAgcHVibGljIExpc3Q8QWxlcnRWd0JlYW4+IGdldEZhaWxlZEFsZXJ0cygpIHsKICAgIHJldHVybiBmYWlsZWRBbGVydHM7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRGYWlsZWRBbGVydHMoTGlzdDxBbGVydFZ3QmVhbj4gZmFpbGVkQWxlcnRzKSB7CiAgICB0aGlzLmZhaWxlZEFsZXJ0cyA9IGZhaWxlZEFsZXJ0czsKICB9</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgU1lTVEVNID0gU3lzdGVtLmdldFByb3BlcnR5KCJvcy5uYW1lIik7Cg==</text>
       </register>
       <register name="x" type="4">
         <text>false</text>
@@ -439,7 +445,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -470,13 +476,13 @@
         <entry>action VimFilePrevious</entry>
         <entry>action Find</entry>
         <entry>action FindUsages</entry>
-        <entry>action PreviousTab</entry>
         <entry>action AceAction</entry>
         <entry>action SurroundWith</entry>
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action ReformatCode</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
