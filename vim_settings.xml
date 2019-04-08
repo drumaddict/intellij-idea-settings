@@ -96,12 +96,12 @@
         <mark key="^" line="46" column="102" />
         <mark key="." line="50" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1554726772829">
-        <mark key="'" line="207" column="8" />
-        <mark key="[" line="96" column="0" />
-        <mark key="]" line="96" column="0" />
-        <mark key="." line="96" column="0" />
-        <mark key="^" line="88" column="83" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1554732654055">
+        <mark key="'" line="412" column="2" />
+        <mark key="[" line="397" column="4" />
+        <mark key="]" line="397" column="19" />
+        <mark key="." line="397" column="19" />
+        <mark key="^" line="397" column="19" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1554723944266">
         <mark key="'" line="188" column="106" />
@@ -116,6 +116,13 @@
         <mark key="]" line="44" column="53" />
         <mark key="^" line="36" column="30" />
         <mark key="." line="36" column="30" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" timestamp="1554732547556">
+        <mark key="'" line="51" column="0" />
+        <mark key="[" line="51" column="7" />
+        <mark key="]" line="52" column="41" />
+        <mark key="." line="52" column="41" />
+        <mark key="^" line="52" column="41" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/OpenTicketReaderForConfirmation.java" timestamp="1553765044161">
         <mark key="'" line="28" column="43" />
@@ -152,10 +159,10 @@
         <mark key="^" line="43" column="7" />
         <mark key="." line="43" column="7" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" timestamp="1554723270022">
-        <mark key="'" line="29" column="6" />
-        <mark key="[" line="29" column="6" />
-        <mark key="]" line="30" column="106" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" timestamp="1554732082599">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="62" column="0" />
         <mark key="^" line="41" column="123" />
         <mark key="." line="41" column="123" />
       </file>
@@ -271,11 +278,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="186" column="37" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
-      <jump line="256" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
-      <jump line="85" column="59" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="68" column="71" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="67" column="94" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="157" column="0" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
       <jump line="158" column="17" filename="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" />
       <jump line="57" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" />
@@ -371,10 +373,15 @@
       <jump line="190" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="207" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="181" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" />
+      <jump line="62" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" />
+      <jump line="50" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" />
+      <jump line="367" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="417" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>true</text>
+        <text>ConfdtaVwBean</text>
       </register>
       <register name="-" type="4">
         <text>getVessName</text>
@@ -383,40 +390,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgICAgICBpZiAoaXRpbmVyYXJ5ID09IG51bGwpIHsKICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiQXR0ZW1wdGVkIHRvIHNlbmQgYWxlcnQgIiArIGVtYWlsQWxlcnQuZ2V0QWxlcnRJZCgpICsgIih0cmFuc2ZlciBub3RpZmljYXRpb24gZW1haWwpIGJ1dCBubyBpdGluZXJhcnkgZGF0YSBmb3VuZC4iKTsKICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9</text>
+        <text encoding="base64">ICBwcml2YXRlIEFsZXJ0VndCZWFuW10gZmV0Y2hBbGVydHMoU3RyaW5nIHBlbmRpbmcsIC8vIG9ubHkgbWFuZGF0b3J5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFN0cmluZyBkYXRlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTdHJpbmcgdHlwZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGtpbmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvbmcgYWxlcnRJZAogICkgdGhyb3dzIERBT0V4Y2VwdGlvbiB7CgogICAgU3RyaW5nIHRoZURhdGUgPSAoZGF0ZSA9PSBudWxsKSA/IERhdGVVdGlscy5ub3dTaG9ydCgpIDogZGF0ZTsKCiAgICBBbGVydFZ3TWFuYWdlciB2aWV3bSA9IEFsZXJ0VndNYW5hZ2VyLmdldEluc3RhbmNlKCkuZ2V0SW5zdGFuY2UoKTsKICAgIFN0cmluZ0J1ZmZlciBjcml0ZXJpYVNRTCA9IG5ldyBTdHJpbmdCdWZmZXIoKTsKICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiIFdIRVJFIFBFTkRJTkcgPSAnIiArIHBlbmRpbmcgKyAiJyIpOyAvLyBtYW5kYXRvcnkKICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiIEFORCBBTEVSVF9EQVRFID49IERBVEUgJyIgKyB0aGVEYXRlICsgIiciKTsKICAgIGlmIChhbGVydElkID4gMCkgY3JpdGVyaWFTUUwuYXBwZW5kKCIgQU5EIEFMRVJUX0lEID0gJyIgKyBhbGVydElkICsgIiciKTsKICAgIGlmICh0eXBlICE9IG51bGwpIGNyaXRlcmlhU1FMLmFwcGVuZCgiIEFORCBBTEVSVF9UWVBFID0gJyIgKyB0eXBlICsgIiciKTsKICAgIGlmIChraW5kICE9IG51bGwpIGNyaXRlcmlhU1FMLmFwcGVuZCgiIEFORCBBTEVSVF9LSU5EID0gJyIgKyBraW5kICsgIiciKTsKCiAgICBBbGVydFZ3QmVhbltdIGFsZXJ0cyA9IG51bGw7CiAgICBhbGVydHMgPSB2aWV3bS5sb2FkQnlXaGVyZShjcml0ZXJpYVNRTC50b1N0cmluZygpKTsKICAgIGlmIChhbGVydHMubGVuZ3RoID4gMCkgewogICAgICByZXR1cm4gYWxlcnRzOwogICAgfSBlbHNlIHsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CiAgfQ==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="1" type="4">
+        <text>ConfdtaVwBean</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>AlertVwManager</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+      <register name="3" type="4">
+        <text>AlertVwManager</text>
       </register>
-      <register name="4" type="4">
-        <text>true</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIFN0cmluZyBwZW5kaW5nLCAvLyBvbmx5IG1hbmRhdG9yeQo=</text>
       </register>
-      <register name="5" type="4">
-        <text>true</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9uZyBhbGVydElkCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>transfer</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGtpbmQsCg==</text>
       </register>
-      <register name="7" type="4">
-        <text>confirmation</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIHR5cGUsCg==</text>
       </register>
       <register name="x" type="4">
-        <text>true</text>
+        <text>ConfdtaVwBean</text>
       </register>
       <register name="8" type="4">
-        <text>confdtaVwBean</text>
+        <text>AlertDaemon</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>AlertDaemon</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -431,28 +438,28 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action CloseContent</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action RenameElement</entry>
-        <entry>action OptimizeImports</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action SurroundWith</entry>
         <entry>200</entry>
         <entry>220</entry>
         <entry>action $SelectAll</entry>
         <entry>360</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action ShowReformatFileDialog</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action Find</entry>
         <entry>action AceAction</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoFile</entry>
+        <entry>action OptimizeImports</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action ReformatCode</entry>
+        <entry>action CloseContent</entry>
+        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
