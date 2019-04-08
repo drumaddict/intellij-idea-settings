@@ -295,8 +295,8 @@
         <mark key="^" line="1" column="36" />
         <mark key="." line="1" column="36" />
       </file>
-      <file name="F:/cpp/vulkan-demo/CMakeLists.txt" timestamp="1553805002403">
-        <mark key="'" line="129" column="0" />
+      <file name="F:/cpp/vulkan-demo/CMakeLists.txt" timestamp="1554743986204">
+        <mark key="'" line="19" column="26" />
         <mark key="[" line="68" column="14" />
         <mark key="]" line="68" column="13" />
         <mark key="^" line="68" column="13" />
@@ -645,10 +645,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="66" column="45" filename="F:/msys64/home/spiros/cpp/gameLIME/cmake/FindSFML.cmake" />
-      <jump line="104" column="6" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
-      <jump line="83" column="0" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
-      <jump line="56" column="48" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
       <jump line="57" column="114" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
       <jump line="61" column="42" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
       <jump line="59" column="8" filename="F:/msys64/home/spiros/cpp/game/cmake_modules/FindLua.cmake" />
@@ -745,6 +741,10 @@
       <jump line="37" column="0" filename="F:/cpp/vulkan-demo/vulkan-demo-config.cmake" />
       <jump line="31" column="12" filename="F:/cpp/vulkan-demo/vulkan-demo-config.cmake" />
       <jump line="20" column="0" filename="F:/cpp/vulkan-demo/vulkan-demo-config.cmake" />
+      <jump line="16" column="26" filename="F:/cpp/vulkan-demo/CMakeLists.txt" />
+      <jump line="17" column="26" filename="F:/cpp/vulkan-demo/CMakeLists.txt" />
+      <jump line="18" column="26" filename="F:/cpp/vulkan-demo/CMakeLists.txt" />
+      <jump line="19" column="26" filename="F:/cpp/vulkan-demo/CMakeLists.txt" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -754,7 +754,7 @@
         <text encoding="base64">W2NvbW1lbnRdOiA8PiAoVGhpcyBpcyBhIGNvbW1lbnQsIGl0IHdpbGwgbm90IGJlIGluY2x1ZGVkKQ==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxUT0RPXD4=</text>
+        <text encoding="base64">XDxFTkFCTEVcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">IyBNYWNybyB0byBzZWFyY2ggZm9yIGEgc3BlY2lmaWMgbW9kdWxlCg==</text>
@@ -794,14 +794,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxUT0RPXD4=</last-search>
+      <last-search encoding="base64">XDxFTkFCTEVcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxUT0RPXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxFTkFCTEVcPg==</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
-      <history-search />
+      <history-search>
+        <entry encoding="base64">XDxFTkFCTEVcPg==</entry>
+      </history-search>
       <history-cmd>
         <entry>action Run</entry>
         <entry>action ChooseRunConfiguration</entry>
