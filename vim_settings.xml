@@ -107,7 +107,7 @@
         <mark key="^" line="36" column="30" />
         <mark key="." line="36" column="30" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" timestamp="1554803598371">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" timestamp="1554805892848">
         <mark key="'" line="114" column="8" />
         <mark key="[" line="114" column="0" />
         <mark key="]" line="114" column="0" />
@@ -175,8 +175,8 @@
         <mark key="^" line="22" column="76" />
         <mark key="." line="22" column="76" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1554803525040">
-        <mark key="'" line="184" column="17" />
+      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1554806118743">
+        <mark key="'" line="54" column="39" />
         <mark key="[" line="174" column="19" />
         <mark key="]" line="174" column="18" />
         <mark key="." line="174" column="18" />
@@ -263,7 +263,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="212" column="32" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="239" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="238" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
@@ -363,6 +362,7 @@
       <jump line="157" column="0" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
       <jump line="184" column="17" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
       <jump line="115" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" />
+      <jump line="54" column="39" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -444,8 +444,8 @@
         <entry>action NextTab</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action SurroundWith</entry>
-        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
+        <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
