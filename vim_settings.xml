@@ -128,11 +128,12 @@
         <mark key="^" line="2" column="15" />
         <mark key="." line="2" column="16" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1554891153089">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1554899413931">
         <mark key="'" line="1925" column="8" />
-        <mark key="[" line="1925" column="8" />
-        <mark key="]" line="1926" column="56" />
-        <mark key="." line="1925" column="0" />
+        <mark key="[" line="447" column="39" />
+        <mark key="]" line="447" column="38" />
+        <mark key="." line="447" column="38" />
+        <mark key="^" line="447" column="38" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1554713467677">
         <mark key="'" line="379" column="34" />
@@ -414,7 +415,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action FileStructurePopup</text>
       </register>
     </registers>
     <search>
@@ -438,18 +439,18 @@
         <entry>action NextTab</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action PreviousTab</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>.,.+1action SurroundWith</entry>
         <entry>action $SelectAll</entry>
-        <entry>action Find</entry>
-        <entry>action FindUsages</entry>
         <entry>action RenameElement</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
         <entry>action AceAction</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action FileStructurePopup</entry>
       </history-cmd>
       <history-expr />
       <history-input />
