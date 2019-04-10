@@ -414,7 +414,7 @@
         <text encoding="base64">ICAgICAgICAgIGZvciAoTG9uZyBib29rSUQgOiBib29raW5nSWRzKSB7CgogICAgICAgICAgICAvLyBDaGVjayBpZiBpdCBoYXMgYWxyZWFkeSBiZWVuIHNhdmVkIQogICAgICAgICAgICBBbGVydFZ3QmVhbltdIGFsZXJ0VndCZWFucyA9CiAgICAgICAgICAgICAgICAgICAgQmFzZVdvcmtlci5mZXRjaEFsZXJ0cygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJZIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBBbGVydEhhbmRsZXIuQWxlcnRUeXBlLkUudG9TdHJpbmcoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFsZXJ0SGFuZGxlci5BbGVydEtpbmQuTi50b1N0cmluZygpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvb2tJRCk7CgogICAgICAgICAgICAvLyBDcmVhdGUgbm9uIHNob3cgYWxlcnQgb25seSBpZiBpdCBoYXMgbm90IGJlZW4gYWxyZWFkeSBzYXZlZAogICAgICAgICAgICBpZiAoYWxlcnRWd0JlYW5zID09IG51bGwpIHsKICAgICAgICAgICAgICBCYXNlV29ya2VyLmNyZWF0ZU5vblNob3dBbGFybSgKICAgICAgICAgICAgICAgICAgICAgIEFsZXJ0SGFuZGxlci5BbGVydFR5cGUuRSwKICAgICAgICAgICAgICAgICAgICAgIEFsZXJ0SGFuZGxlci5BbGVydEtpbmQuTiwKICAgICAgICAgICAgICAgICAgICAgIGJvb2tJRCwKICAgICAgICAgICAgICAgICAgICAgIG51bGwsCiAgICAgICAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICAgKTsKCiAgICAgICAgICAgICAgQmFzZVdvcmtlci51cGRhdGVDb25maXJtZWRDb3VudGVyKAogICAgICAgICAgICAgICAgICAgICAgYm9va0lkVG9TYWlsSWQuZ2V0KGJvb2tJRCksCiAgICAgICAgICAgICAgICAgICAgICBib29rSWRUb1Bhc1ZlaC5nZXQoYm9va0lEKSwKICAgICAgICAgICAgICAgICAgICAgIC0xCiAgICAgICAgICAgICAgKTsKCiAgICAgICAgICAgIH0KCiAgICAgICAgICB9</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action PreviousTab</text>
       </register>
     </registers>
     <search>
@@ -440,15 +440,15 @@
         <entry>action Debug</entry>
         <entry>action RenameElement</entry>
         <entry>action $SelectAll</entry>
-        <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action FindUsages</entry>
-        <entry>action Find</entry>
         <entry>action NextTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
+        <entry>action FindUsages</entry>
+        <entry>action PreviousTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
