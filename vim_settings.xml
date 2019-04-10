@@ -24,6 +24,12 @@
         <mark key="^" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1554901038821" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1554905032657">
+        <mark key="[" line="609" column="102" />
+        <mark key="]" line="609" column="5" />
+        <mark key="^" line="609" column="5" />
+        <mark key="." line="609" column="5" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" timestamp="1554361552345">
         <mark key="'" line="39" column="4" />
         <mark key="[" line="47" column="2" />
@@ -417,7 +423,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action FileStructurePopup</text>
       </register>
     </registers>
     <search>
@@ -449,10 +455,10 @@
         <entry>action AceAction</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
+        <entry>action FileStructurePopup</entry>
       </history-cmd>
       <history-expr />
       <history-input />
