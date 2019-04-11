@@ -16,6 +16,11 @@
         <mark key="." line="162" column="20" />
         <mark key="^" line="162" column="20" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/HistoryWorker.java" timestamp="1554964398920">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="210" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_alternate_open_recall.sql" timestamp="1554106430184">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -23,7 +28,13 @@
         <mark key="." line="0" column="0" />
         <mark key="^" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1554901038821" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" timestamp="1554964576041">
+        <mark key="'" line="212" column="0" />
+        <mark key="[" line="44" column="22" />
+        <mark key="]" line="44" column="21" />
+        <mark key="." line="44" column="21" />
+        <mark key="^" line="44" column="21" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1554905032657">
         <mark key="[" line="609" column="102" />
         <mark key="]" line="609" column="5" />
@@ -128,7 +139,6 @@
         <mark key="^" line="142" column="11" />
         <mark key="." line="142" column="11" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/TicketHistory.xml" timestamp="1554901527835" />
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE.sql" timestamp="1554285771336">
         <mark key="'" line="1" column="0" />
         <mark key="[" line="1" column="0" />
@@ -278,11 +288,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="98" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" />
-      <jump line="24" column="49" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" />
-      <jump line="36" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" />
-      <jump line="33" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" />
-      <jump line="65" column="67" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" />
       <jump line="1220" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1271" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1247" column="94" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -378,43 +383,48 @@
       <jump line="172" column="17" filename="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" />
       <jump line="62" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" />
+      <jump line="137" column="54" filename="$USER_HOME$/projects/port-checkin-control/src/workers/HistoryWorker.java" />
+      <jump line="25" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/HistoryWorker.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/HistoryWorker.java" />
+      <jump line="210" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
+      <jump line="209" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>toString</text>
+        <text>Worker</text>
       </register>
       <register name="-" type="4">
-        <text>public class AlertDaemon extends DaemonService {</text>
+        <text>n</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgICAgICA8c2VydmljZT4KICAgICAgICAgICAgPE5hbWU+Tk9OU0hPV19EQUVNT048L05hbWU+CiAgICAgICAgICAgIDxNb2RlbD5USU1FUl9CQVNFRDwvTW9kZWw+CiAgICAgICAgICAgIDxQb3J0PjEwMDA8L1BvcnQ+CiAgICAgICAgICAgIDxTZXJ2aWNlQ2xhc3M+c2VydmVycmVwb3NpdG9yeS5Ob25TaG93RGFlbW9uPC9TZXJ2aWNlQ2xhc3M+CiAgICAgICAgICAgIDxNYXhUaHJlYWRzPjE8L01heFRocmVhZHM+CiAgICAgICAgICAgIDxNb2RlPkRlYnVnPC9Nb2RlPgogICAgICAgICAgICA8QWN0aXZlPlllczwvQWN0aXZlPgogICAgICAgICAgICA8U1NMQ29udGV4dD48L1NTTENvbnRleHQ+CiAgICAgICAgICAgIDxTU0xwYXNzd29yZD48L1NTTHBhc3N3b3JkPgogICAgICAgICAgICA8S2V5U3RvcmU+PC9LZXlTdG9yZT4KICAgICAgICAgICAgPEtleVN0b3JlRmlsZT48L0tleVN0b3JlRmlsZT4KICAgICAgICAgICAgPEtleU1hbmFnZXI+PC9LZXlNYW5hZ2VyPgogICAgICAgIDwvc2VydmljZT4=</text>
+        <text encoding="base64">LyoKICogVG8gY2hhbmdlIHRoaXMgbGljZW5zZSBoZWFkZXIsIGNob29zZSBMaWNlbnNlIEhlYWRlcnMgaW4gUHJvamVjdCBQcm9wZXJ0aWVzLgogKiBUbyBjaGFuZ2UgdGhpcyB0ZW1wbGF0ZSBmaWxlLCBjaG9vc2UgVG9vbHMgfCBUZW1wbGF0ZXMKICogYW5kIG9wZW4gdGhlIHRlbXBsYXRlIGluIHRoZSBlZGl0b3IuCiAqLwpwYWNrYWdlIHdvcmtlcnM7CgppbXBvcnQgZGF0YWJhc2Uub3JhY2xlLnBvcnRjb250cm9sLkhpc3RvcnlkZXRhaWxzVndCZWFuOwppbXBvcnQgZGF0YWJhc2Uub3JhY2xlLnBvcnRjb250cm9sLkhpc3RvcnlkZXRhaWxzVndNYW5hZ2VyOwppbXBvcnQgZGF0YWJhc2Uub3JhY2xlLnBvcnRjb250cm9sLkhpc3RvcnltYWluVndCZWFuOwppbXBvcnQgZGF0YWJhc2Uub3JhY2xlLnBvcnRjb250cm9sLkhpc3RvcnltYWluVndNYW5hZ2VyOwppbXBvcnQgZGF0YWJhc2Uub3JhY2xlLnBvcnRjb250cm9sLk1hbmFnZXI7CmltcG9ydCBkYXRhYmFzZS5vcmFjbGUucG9ydGNvbnRyb2wuVXNlckNvbXBhbnlSaWdodHNCZWFuOwppbXBvcnQgZGF0YWJhc2Uub3JhY2xlLnBvcnRjb250cm9sLlVzZXJDb21wYW55UmlnaHRzTWFuYWdlcjsKaW1wb3J0IGRhdGFiYXNlLm9yYWNsZS5wb3J0Y29udHJvbC5Vc2Vyc0JlYW47CmltcG9ydCBkYXRhYmFzZS5vcmFjbGUucG9ydGNvbnRyb2wuVXNlcnNNYW5hZ2VyOwppbXBvcnQgZGF0YWJhc2Uub3JhY2xlLnBvcnRjb250cm9sLmV4Y2VwdGlvbi5EQU9FeGNlcHRpb247CmltcG9ydCBqYXZhLnNxbC5TUUxFeGNlcHRpb247CmltcG9ydCBqYXZhLnRleHQuU2ltcGxlRGF0ZUZvcm1hdDsKaW1wb3J0IHhtbC5tZXNzYWdlSGlzdG9yeS4qOwoKLyoqCiAqCiAqIEBhdXRob3IgZWxpYXMKICovCnB1YmxpYyBjbGFzcyBIaXN0b3J5V29ya2VyIHsKCiAgICBwcml2YXRlIGJvb2xlYW4gZGJFUlJPUiA9IGZhbHNlOwogICAgcHJpdmF0ZSBTdHJpbmcgZGJFcnJTdHIgPSBuZXcgU3RyaW5nKCIiKTsKICAgIHByaXZhdGUgU2VydmljZU1lc3NhZ2VIaXN0b3J5IHhtbEFuc3dlciA9IG5ldyBTZXJ2aWNlTWVzc2FnZUhpc3RvcnkoKTsKICAgIHByaXZhdGUgTWVzc2FnZUhlYWRlciBtc2dIZWFkZXIgPSBuZXcgTWVzc2FnZUhlYWRlcigpOwogICAgcHJpdmF0ZSBTZXJ2aWNlQm9keUhpc3Rvcnkgc2IgPSBuZXcgU2VydmljZUJvZHlIaXN0b3J5KCk7CiAgICBwcml2YXRlIFN0YXR1c0luZm8gc3RhdHVzID0gbmV3IFN0YXR1c0luZm8oKTsKICAgIHByaXZhdGUgU2VydmljZU1lc3NhZ2VIaXN0b3J5IGFjdE9CSiA9IG51bGw7CiAgICBwcml2YXRlIFVzZXJJbmZvIHVzZXIgPSBudWxsOwogICAgcHJpdmF0ZSBCb29raW5nIGJvb2tpbmcgPSBudWxsOwogICAgcHJpdmF0ZSBFbWJhcmthdGlvbkRhdGEgZW1iZCA9IG51bGw7CiAgICBwcml2YXRlIE1lc3NhZ2VEYXRhIG1zZ0RhdGEgPSBuZXcgTWVzc2FnZURhdGEoKTsKICAgIHByaXZhdGUgZmluYWwgU2ltcGxlRGF0ZUZvcm1hdCBzZGYgPSBuZXcgU2ltcGxlRGF0ZUZvcm1hdCgiZGQvTU0veXl5eSBISDptbSIpOwogICAgcHJpdmF0ZSBUaWNrZXRzIHRpY2tldHMgPSBuZXcgVGlja2V0cygpOwoKICAgIHB1YmxpYyBIaXN0b3J5V29ya2VyKFNlcnZpY2VNZXNzYWdlSGlzdG9yeSByZXFPYmopIHsKICAgICAgICBhY3RPQkogPSByZXFPYmo7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBwcm9jZXNzKCkgewogICAgICAgIFN0cmluZ0J1aWxkZXIgc3FsV2hlcmUgPSBuZXcgU3RyaW5nQnVpbGRlcigpOwoKICAgICAgICBtc2dIZWFkZXIuc2V0U3RhdHVzSW5mbyhzdGF0dXMpOwogICAgICAgIG1zZ0hlYWRlci5zZXRTdGF0dXNJbmZvKHN0YXR1cyk7CiAgICAgICAgeG1sQW5zd2VyLnNldFNlcnZpY2VCb2R5SGlzdG9yeShzYik7CiAgICAgICAgc2Iuc2V0TWVzc2FnZURhdGEobXNnRGF0YSk7CiAgICAgICAgc2Iuc2V0TWVzc2FnZUhlYWRlcihtc2dIZWFkZXIpOwovLyAgICAgICAgbXNnRGF0YS5nZXRFbWJhcmthdGlvbkRhdGEoKS5nZXRCb29raW5nKCkuZ2V0VGlja2V0cygpLmdldFRpY2tldHNBbmFseXNpcygpLmFkZChpbmRleCwgbnVsbCk7CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIE1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5iZWdpblRyYW5zYWN0aW9uKCk7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB1c2VyID0gYWN0T0JKLmdldFNlcnZpY2VCb2R5SGlzdG9yeSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0VXNlckluZm8oKTsKICAgICAgICAgICAgICAgIGJvb2tpbmcgPSBhY3RPQkouZ2V0U2VydmljZUJvZHlIaXN0b3J5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRFbWJhcmthdGlvbkRhdGEoKS5nZXRCb29raW5nKCk7CiAgICAgICAgICAgICAgICBlbWJkID0gYWN0T0JKLmdldFNlcnZpY2VCb2R5SGlzdG9yeSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0RW1iYXJrYXRpb25EYXRhKCk7CiAgICAgICAgICAgICAgICBtc2dIZWFkZXIgPSBhY3RPQkouZ2V0U2VydmljZUJvZHlIaXN0b3J5KCkuZ2V0TWVzc2FnZUhlYWRlcigpOwogICAgICAgICAgICAgICAgVXNlcnNCZWFuIHViID0gZmluZFVzZXIoKTsKICAgICAgICAgICAgICAgIGlmICh1YiA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgdGhyb3cgbmV3IERhdGFWYWxpZGF0aW9uRXhjZXB0aW9uKDE3LCBhY3RPQkouZ2V0U2VydmljZUJvZHlIaXN0b3J5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRVc2VySW5mbygpLmdldExhbmd1YWdlKCkpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIFVzZXJDb21wYW55UmlnaHRzTWFuYWdlciB2bXUgPSBVc2VyQ29tcGFueVJpZ2h0c01hbmFnZXIuZ2V0SW5zdGFuY2UoKTsKICAgICAgICAgICAgICAgIFVzZXJDb21wYW55UmlnaHRzQmVhbiB2bXViID0gdm11LmxvYWRCeVByaW1hcnlLZXkodWIuZ2V0VXNlcklkKCksIGJvb2tpbmcuZ2V0Q29tcGFueSgpLnRvU3RyaW5nKCkpOwogICAgICAgICAgICAgICAgaWYgKHZtdWIgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBEYXRhVmFsaWRhdGlvbkV4Y2VwdGlvbigxNywgYWN0T0JKLmdldFNlcnZpY2VCb2R5SGlzdG9yeSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0VXNlckluZm8oKS5nZXRMYW5ndWFnZSgpKTsKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBzcWxXaGVyZS5hcHBlbmQoIiBXSEVSRSBDT01QX0NPREUgPSciKTsKICAgICAgICAgICAgICAgIHNxbFdoZXJlLmFwcGVuZChib29raW5nLmdldENvbXBhbnkoKSk7CiAgICAgICAgICAgICAgICBzcWxXaGVyZS5hcHBlbmQoIicgIik7CgogICAgICAgICAgICAgICAgaWYgKGJvb2tpbmcuZ2V0VGlja2V0TnVtYmVyKCkhPW51bGwgJiYgIWJvb2tpbmcuZ2V0VGlja2V0TnVtYmVyKCkuZXF1YWxzKCIiKSkgewogICAgICAgICAgICAgICAgICAgIHNxbFdoZXJlLmFwcGVuZCgiIEFORCBUSUNLX05VTUIgPSciKTsKICAgICAgICAgICAgICAgICAgICBzcWxXaGVyZS5hcHBlbmQoYm9va2luZy5nZXRUaWNrZXROdW1iZXIoKSk7CiAgICAgICAgICAgICAgICAgICAgc3FsV2hlcmUuYXBwZW5kKCInICIpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBzcWxXaGVyZS5hcHBlbmQoIiBBTkQgUkVTRVJWQ09ERSA9JyIpOwogICAgICAgICAgICAgICAgICAgIHNxbFdoZXJlLmFwcGVuZChib29raW5nLmdldEJvb2tpbmdOdW1iZXIoKSk7CiAgICAgICAgICAgICAgICAgICAgc3FsV2hlcmUuYXBwZW5kKCInICIpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIEhpc3RvcnltYWluVndNYW5hZ2VyIGh2bSA9IEhpc3RvcnltYWluVndNYW5hZ2VyLmdldEluc3RhbmNlKCk7CgogICAgICAgICAgICAgICAgSGlzdG9yeW1haW5Wd0JlYW5bXSBodmIgPSBodm0ubG9hZEJ5V2hlcmUoc3FsV2hlcmUudG9TdHJpbmcoKSk7CgogICAgICAgICAgICAgICAgaWYgKGh2Yi5sZW5ndGggPT0gMCkgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBEYXRhVmFsaWRhdGlvbkV4Y2VwdGlvbigyMiwgYWN0T0JKLmdldFNlcnZpY2VCb2R5SGlzdG9yeSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0VXNlckluZm8oKS5nZXRMYW5ndWFnZSgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAsIlRpY2tlZHQvUmVzZXJ2YXRpb24gbm90IGZvdW5kIik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBIaXN0b3J5ZGV0YWlsc1Z3TWFuYWdlciBoZG0gPSBIaXN0b3J5ZGV0YWlsc1Z3TWFuYWdlci5nZXRJbnN0YW5jZSgpOwoKICAgICAgICAgICAgICAgIGZvciAoSGlzdG9yeW1haW5Wd0JlYW4gaHZiT25lIDogaHZiKSB7CgogICAgICAgICAgICAgICAgICAgIFRpY2tldHNBbmFseXNpcyB0aWNrID0gbmV3IFRpY2tldHNBbmFseXNpcygpOwogICAgICAgICAgICAgICAgICAgIHRpY2suc2V0Qm9va0lkKGh2Yk9uZS5nZXRCb29rSWQoKS50b1N0cmluZygpKTsKICAgICAgICAgICAgICAgICAgICB0aWNrLnNldEJvb2tpbmdOdW1iZXIoaHZiT25lLmdldFJlc2VydmNvZGUoKSk7CiAgICAgICAgICAgICAgICAgICAgdGljay5zZXRDb21wYW55KGh2Yk9uZS5nZXRDb21wQ29kZSgpKTsKICAgICAgICAgICAgICAgICAgICBpZiAoaHZiT25lLmdldERlbGV0ZURhdGUoKSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRpY2suc2V0RGVsZXRlRGF0ZShzZGYuZm9ybWF0KGh2Yk9uZS5nZXREZWxldGVEYXRlKCkpKTsKICAgICAgICAgICAgICAgICAgICAgICAgdGljay5zZXREZWxldGVVc2VyKGh2Yk9uZS5nZXREZWx1c2VyKCkpOwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRpY2suc2V0RGVsZXRlRGF0ZSgiIik7CiAgICAgICAgICAgICAgICAgICAgICAgIHRpY2suc2V0RGVsZXRlVXNlcigiIik7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHRpY2suc2V0RGVwYXJ0dXJlRGF0ZShzZGYuZm9ybWF0KGh2Yk9uZS5nZXREZXBEYXRlKCkpKTsKICAgICAgICAgICAgICAgICAgICB0aWNrLnNldElNTyhodmJPbmUuZ2V0VmVzc0ltbygpKTsKICAgICAgICAgICAgICAgICAgICB0aWNrLnNldEluc2VydERhdGUoc2RmLmZvcm1hdChodmJPbmUuZ2V0SW5zZXJ0RGF0ZSgpKSk7CiAgICAgICAgICAgICAgICAgICAgdGljay5zZXRJbnNlcnRVc2VyKGh2Yk9uZS5nZXRJbnN1c2VyKCkpOwogICAgICAgICAgICAgICAgICAgIHRpY2suc2V0TmFtZShodmJPbmUuZ2V0UGFzc0ZuYW1lKCkpOwogICAgICAgICAgICAgICAgICAgIGlmIChodmJPbmUuZ2V0Qm9va1R5cGUoKS5lcXVhbHMoIlAiKSkgewogICAgICAgICAgICAgICAgICAgICAgICB0aWNrLnNldFN1cm5hbWVQbGF0ZXMoaHZiT25lLmdldFBhc3NTbmFtZSgpKTsKICAgICAgICAgICAgICAgICAgICAgICAgdGljay5zZXRUeXBlKCJQYXNzZW5nZXIiKTsKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICB0aWNrLnNldFN1cm5hbWVQbGF0ZXMoaHZiT25lLmdldFZlaFBsYXRlKCkpOwogICAgICAgICAgICAgICAgICAgICAgICB0aWNrLnNldFR5cGUoIlZlaGljbGUiKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgdGljay5zZXRUaWNrZXROdW1iZXIoaHZiT25lLmdldFRpY2tOdW1iKCkpOwogICAgICAgICAgICAgICAgICAgIHRpY2suc2V0VmVzc2VsbmFtZShodmJPbmUuZ2V0VmVzc05hbWUoKSk7CgogICAgICAgICAgICAgICAgICAgIEhpc3RvcnlkZXRhaWxzVndCZWFuW10gaGRiID0gaGRtLmxvYWRCeVdoZXJlKCJXSEVSRSBCT09LSUQgPSAiICsgaHZiT25lLmdldEJvb2tJZCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICArICIgT1JERVIgQlkgQk9BUkREQVRFIik7CiAgICAgICAgICAgICAgICAgICAgQm9va0lkQW5hbHlzaXMgb25lQW4gPSBuZXcgQm9va0lkQW5hbHlzaXMoKTsKICAgICAgICAgICAgICAgICAgICBvbmVBbi5zZXREZXBhcnR1cmVEYXRlKHNkZi5mb3JtYXQoaHZiT25lLmdldERlcERhdGUoKSkpOwogICAgICAgICAgICAgICAgICAgIG9uZUFuLnNldFRyYW5zRGF0ZShzZGYuZm9ybWF0KGh2Yk9uZS5nZXRJbnNlcnREYXRlKCkpKTsKICAgICAgICAgICAgICAgICAgICBvbmVBbi5zZXRUcmFuc1R5cGUoIkluc2VydGVkIik7CiAgICAgICAgICAgICAgICAgICAgb25lQW4uc2V0VXNlcihodmJPbmUuZ2V0SW5zdXNlcigpKTsKICAgICAgICAgICAgICAgICAgICBvbmVBbi5zZXRWZXNzZWxOYW1lKGh2Yk9uZS5nZXRWZXNzTmFtZSgpKTsKICAgICAgICAgICAgICAgICAgICB0aWNrLmFkZEJvb2tJZEFuYWx5c2lzKG9uZUFuKTsKCgogICAgICAgICAgICAgICAgICAgIGlmIChoZGIgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICBmb3IgKEhpc3RvcnlkZXRhaWxzVndCZWFuIGhkYk9uZSA6IGhkYikgeyAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uZUFuID0gbmV3IEJvb2tJZEFuYWx5c2lzKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbmVBbi5zZXREZXBhcnR1cmVEYXRlKHNkZi5mb3JtYXQoaGRiT25lLmdldERlcGRhdGUoKSkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25lQW4uc2V0VHJhbnNEYXRlKHNkZi5mb3JtYXQoaGRiT25lLmdldEJvYXJkZGF0ZSgpKSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbmVBbi5zZXRUcmFuc1R5cGUoaGRiT25lLmdldFN0YXR1cygpKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uZUFuLnNldFVzZXIoaGRiT25lLmdldFVzZXJOYW1lKCkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25lQW4uc2V0VmVzc2VsTmFtZShoZGJPbmUuZ2V0VmVzc2VsKCkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGljay5hZGRCb29rSWRBbmFseXNpcyhvbmVBbik7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgdGlja2V0cy5hZGRUaWNrZXRzQW5hbHlzaXModGljayk7CgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYm9va2luZy5zZXRUaWNrZXRzKHRpY2tldHMpOwogICAgICAgICAgICAgICAgZW1iZC5zZXRCb29raW5nKGJvb2tpbmcpOwogICAgICAgICAgICAgICAgc2IuZ2V0TWVzc2FnZURhdGEoKS5zZXRVc2VySW5mbyh1c2VyKTsKICAgICAgICAgICAgICAgIHNiLmdldE1lc3NhZ2VEYXRhKCkuc2V0RW1iYXJrYXRpb25EYXRhKGVtYmQpOwogICAgICAgICAgICAgICAgc3RhdHVzLnNldFNldmVyZShmYWxzZSk7CiAgICAgICAgICAgICAgICBzdGF0dXMuc2V0U3RhdHVzQ29kZSgiIik7CiAgICAgICAgICAgICAgICBzdGF0dXMuc2V0U3RhdHVzTWVzc2FnZSgiIik7CgogICAgICAgICAgICB9IGNhdGNoIChEQU9FeGNlcHRpb24gZGFvZSkgewogICAgICAgICAgICAgICAgZGJFcnJTdHIgPSBkYW9lLmdldE1lc3NhZ2UoKTsKICAgICAgICAgICAgICAgIGRiRVJST1IgPSB0cnVlOwogICAgICAgICAgICAgICAgc3RhdHVzLnNldFNldmVyZSh0cnVlKTsKICAgICAgICAgICAgICAgIHN0YXR1cy5zZXRTdGF0dXNDb2RlKCIwMDEiKTsKICAgICAgICAgICAgICAgIHN0YXR1cy5zZXRTdGF0dXNNZXNzYWdlKGRiRXJyU3RyKTsKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIE1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5lbmRUcmFuc2FjdGlvbih0cnVlKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKFNRTEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIC8vc2UucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgICAgICAgIGRiRXJyU3RyID0gZS5nZXRNZXNzYWdlKCk7CiAgICAgICAgICAgIGRiRVJST1IgPSB0cnVlOwogICAgICAgICAgICBzdGF0dXMuc2V0U2V2ZXJlKHRydWUpOwogICAgICAgICAgICBzdGF0dXMuc2V0U3RhdHVzQ29kZSgiMDAxIik7CiAgICAgICAgICAgIHN0YXR1cy5zZXRTdGF0dXNNZXNzYWdlKGRiRXJyU3RyKTsKICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICAvL3NlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgICAgICBkYkVyclN0ciA9IGUuZ2V0TWVzc2FnZSgpOwogICAgICAgICAgICBkYkVSUk9SID0gdHJ1ZTsKICAgICAgICAgICAgc3RhdHVzLnNldFNldmVyZSh0cnVlKTsKICAgICAgICAgICAgc3RhdHVzLnNldFN0YXR1c0NvZGUoIjAwMSIpOwogICAgICAgICAgICBzdGF0dXMuc2V0U3RhdHVzTWVzc2FnZSgiVGlja2V0L1Jlc2VydmF0aW9uIG5vdCBmb3VuZC4iKTsKICAgICAgICB9CgogICAgICAgIFN0cmluZyB0aGVBbnN3ZXIgPSBVdGlsaXRpZXMuZ2V0SW5zdGFuY2UoKS5tYXJzaGFsT2JqZWN0KHhtbEFuc3dlcik7CiAgICAgICAgVXRpbGl0aWVzLmdldEluc3RhbmNlKCkubG9nQ29udGVudHNJbkZpbGUodGhlQW5zd2VyKTsKCiAgICAgICAgcmV0dXJuIHRoZUFuc3dlcjsKCiAgICB9CgogICAgcHJvdGVjdGVkIFVzZXJzQmVhbiBmaW5kVXNlcigpIHsKICAgICAgICBVc2Vyc01hbmFnZXIgdXNybSA9IFVzZXJzTWFuYWdlci5nZXRJbnN0YW5jZSgpOwogICAgICAgIFN0cmluZyBzcWwgPSAiIGpvaW4gdXNlcmdyb3VwcyBvbiAodXNlcmdyb3Vwcy51c2VyZ3JwX2NvZGU9JyIgKyB1c2VyLmdldFVzckdycENvZGUoKS50cmltKCkgKyAiJyBhbmQgdXNlcmdyb3Vwcy51c2VyZ3JwX2lkPXVzZXJzLnVzZXJncnBfaWQpIgogICAgICAgICAgICAgICAgKyAiIHdoZXJlIHVzZXJzLnVzZXJfY29kZT0nIiArIHVzZXIuZ2V0Q29kZSgpLnRyaW0oKSArICInICAiOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIFVzZXJzQmVhbltdIHVzcnJvd3MgPSBudWxsOwogICAgICAgICAgICB1c3Jyb3dzID0gdXNybS5sb2FkQnlXaGVyZShzcWwpOwogICAgICAgICAgICBpZiAodXNycm93cy5sZW5ndGggPiAwKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gdXNycm93c1swXTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGRhb2UpIHsKICAgICAgICAgICAgZGJFUlJPUiA9IHRydWU7CiAgICAgICAgICAgIGRiRXJyU3RyID0gZGFvZS5nZXRMb2NhbGl6ZWRNZXNzYWdlKCk7CiAgICAgICAgICAgIGRhb2UucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgIH0KCiAgICB9Cn0=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>Worker</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuOwo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgTWFwPExvbmcsIExvbmc+IGJvb2tJZFRvU2FpbElkID0gbmV3IEhhc2hNYXA8TG9uZywgTG9uZz4oKTsK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgTWFwPExvbmcsIFN0cmluZz4gYm9va0lkVG9QYXNWZWggPSBuZXcgSGFzaE1hcDxMb25nLCBTdHJpbmc+KCk7Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBib29rSWRUb1NhaWxJZC5wdXQobm9uU2hvdy5nZXRCb29rSWQoKSwgbm9uU2hvdy5nZXRDb25mU2FpbElkKCkpOwo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBib29rSWRUb1Bhc1ZlaC5wdXQobm9uU2hvdy5nZXRCb29rSWQoKSwgbm9uU2hvdy5nZXRDb25mUGFzdmVoKCkpOwo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuOwo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgTWFwPExvbmcsIExvbmc+IGJvb2tJZFRvU2FpbElkID0gbmV3IEhhc2hNYXA8TG9uZywgTG9uZz4oKTsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgTWFwPExvbmcsIFN0cmluZz4gYm9va0lkVG9QYXNWZWggPSBuZXcgSGFzaE1hcDxMb25nLCBTdHJpbmc+KCk7Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgICBib29rSWRUb1NhaWxJZC5wdXQobm9uU2hvdy5nZXRCb29rSWQoKSwgbm9uU2hvdy5nZXRDb25mU2FpbElkKCkpOwo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgICBib29rSWRUb1Bhc1ZlaC5wdXQobm9uU2hvdy5nZXRCb29rSWQoKSwgbm9uU2hvdy5nZXRDb25mUGFzdmVoKCkpOwo=</text>
+      </register>
       <register name="x" type="4">
-        <text>toString</text>
+        <text>Worker</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
@@ -423,7 +433,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action FileStructurePopup</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -438,13 +448,11 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action VimFilePrevious</entry>
         <entry>1266</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action SurroundWith</entry>
         <entry>action Debug</entry>
-        <entry>action NextTab</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action PreviousTab</entry>
         <entry>.,.+1action SurroundWith</entry>
@@ -455,10 +463,11 @@
         <entry>action AceAction</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
         <entry>action FileStructurePopup</entry>
+        <entry>action NextTab</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
