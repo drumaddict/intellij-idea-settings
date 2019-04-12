@@ -253,6 +253,7 @@
         <mark key="." line="160" column="25" />
         <mark key="^" line="160" column="25" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1555072414184" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/FetchBookingDataOnline.java" timestamp="1553079718714">
         <mark key="'" line="92" column="2" />
         <mark key="[" line="290" column="2" />
@@ -444,7 +445,7 @@
         <text>getReportType</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -480,10 +481,10 @@
         <entry>action PreviousTab</entry>
         <entry>action CloseContent</entry>
         <entry>action NextTab</entry>
+        <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
