@@ -14,11 +14,11 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="210" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FerryOperatorDashboardHandler.java" timestamp="1555065903454">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FerryOperatorDashboardHandler.java" timestamp="1555065908866">
         <mark key="'" line="36" column="6" />
-        <mark key="[" line="30" column="0" />
-        <mark key="]" line="30" column="0" />
-        <mark key="." line="30" column="0" />
+        <mark key="[" line="48" column="0" />
+        <mark key="]" line="48" column="0" />
+        <mark key="." line="48" column="0" />
         <mark key="^" line="37" column="5" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1555053617902">
@@ -437,29 +437,29 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>getSailID</text>
-      </register>
-      <register name="4" type="4">
-        <text>sailID</text>
-      </register>
-      <register name="5" type="2">
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="4">
+        <text>getSailID</text>
+      </register>
+      <register name="5" type="4">
+        <text>sailID</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgUmVwb3J0VHlwZUVudW0uCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgbXRhZyA9IHJlcVhNTC5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VIZWFkZXIoKS5nZXRTZXJ2aWNlSW5mbygpLmdldE1lc3NhZ2VUeXBlKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgUmVwb3J0VHlwZUVudW0uCg==</text>
       </register>
       <register name="x" type="4">
         <text>getSailID</text>
       </register>
-      <register name="8" type="4">
-        <text>getReportType</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgbXRhZyA9IHJlcVhNTC5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VIZWFkZXIoKS5nZXRTZXJ2aWNlSW5mbygpLmdldE1lc3NhZ2VUeXBlKCk7Cg==</text>
       </register>
       <register name="9" type="4">
-        <text>ReportTypeEnum</text>
+        <text>getReportType</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
