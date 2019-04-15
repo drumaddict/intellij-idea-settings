@@ -89,7 +89,7 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1555329129183">
+      <file name="/Dummy.txt" timestamp="1555334357133">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -460,7 +460,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -489,7 +489,6 @@
         <entry>action NextTab</entry>
         <entry>action FileStructurePopup</entry>
         <entry>121</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action RenameElement</entry>
@@ -497,6 +496,7 @@
         <entry>action PreviousTab</entry>
         <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
