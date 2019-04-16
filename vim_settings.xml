@@ -460,7 +460,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -485,16 +485,16 @@
         <entry>action AceAction</entry>
         <entry>action OptimizeImports</entry>
         <entry>action NextTab</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>121</entry>
         <entry>action ReformatCode</entry>
         <entry>action RenameElement</entry>
         <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
+        <entry>action FileStructurePopup</entry>
         <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
