@@ -49,7 +49,7 @@
         <mark key="[" line="148" column="4" />
         <mark key="]" line="150" column="87" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1555399131362">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1555399634417">
         <mark key="'" line="156" column="24" />
         <mark key="[" line="156" column="24" />
         <mark key="]" line="156" column="78" />
@@ -241,12 +241,12 @@
         <mark key="^" line="256" column="52" />
         <mark key="." line="256" column="52" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1555399485334">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1555400715140">
         <mark key="'" line="172" column="67" />
-        <mark key="[" line="172" column="12" />
-        <mark key="]" line="172" column="4" />
-        <mark key="." line="172" column="4" />
-        <mark key="^" line="172" column="4" />
+        <mark key="[" line="284" column="30" />
+        <mark key="]" line="284" column="29" />
+        <mark key="." line="284" column="29" />
+        <mark key="^" line="284" column="29" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CVehicles.java" timestamp="1554705155485">
         <mark key="'" line="172" column="2" />
@@ -426,7 +426,7 @@
         <text>There is no Itinerary for the provided sailID and itineraryID</text>
       </register>
       <register name="-" type="4">
-        <text>\</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
@@ -465,7 +465,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -481,7 +481,6 @@
       </history-search>
       <history-cmd>
         <entry>action SplitVertically</entry>
-        <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action Replace</entry>
         <entry>action CloseContent</entry>
         <entry>action SurroundWith</entry>
@@ -496,11 +495,15 @@
         <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action TabShiftActions.StretchLeft</entry>
+        <entry>action ToggleBookmark</entry>
+        <entry encoding="base64">YWN0aW9uIEdlbmVyYXRlVGVzdE1ldGhvZCA=</entry>
+        <entry>action ShowBookmarks</entry>
         <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
