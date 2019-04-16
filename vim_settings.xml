@@ -179,12 +179,12 @@
         <mark key="." line="45" column="22" />
         <mark key="^" line="45" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" timestamp="1555398201488">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" timestamp="1555401303948">
         <mark key="'" line="297" column="3" />
-        <mark key="[" line="353" column="12" />
-        <mark key="]" line="353" column="11" />
-        <mark key="^" line="353" column="11" />
-        <mark key="." line="353" column="11" />
+        <mark key="[" line="53" column="1" />
+        <mark key="]" line="53" column="0" />
+        <mark key="^" line="53" column="0" />
+        <mark key="." line="53" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/DateUtils.java" timestamp="1554979459296">
         <mark key="'" line="26" column="2" />
@@ -241,12 +241,12 @@
         <mark key="^" line="256" column="52" />
         <mark key="." line="256" column="52" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1555400715140">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1555402359028">
         <mark key="'" line="172" column="67" />
-        <mark key="[" line="284" column="30" />
-        <mark key="]" line="284" column="29" />
-        <mark key="." line="284" column="29" />
-        <mark key="^" line="284" column="29" />
+        <mark key="[" line="265" column="104" />
+        <mark key="]" line="266" column="7" />
+        <mark key="." line="266" column="7" />
+        <mark key="^" line="266" column="7" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CVehicles.java" timestamp="1554705155485">
         <mark key="'" line="172" column="2" />
@@ -426,7 +426,7 @@
         <text>There is no Itinerary for the provided sailID and itineraryID</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
@@ -465,7 +465,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -493,17 +493,18 @@
         <entry>action FileStructurePopup</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action GotoFile</entry>
-        <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action ToggleBookmark</entry>
         <entry encoding="base64">YWN0aW9uIEdlbmVyYXRlVGVzdE1ldGhvZCA=</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>action FindUsages</entry>
+        <entry>action ToggleLineBreakpoint</entry>
+        <entry>action NextTab</entry>
+        <entry>action ShowBookmarks</entry>
+        <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
