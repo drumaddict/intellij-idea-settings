@@ -93,7 +93,7 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1555336108486">
+      <file name="/Dummy.txt" timestamp="1555498718565">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -164,12 +164,12 @@
         <mark key="^" line="2" column="15" />
         <mark key="." line="2" column="16" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1555496383474">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1555499869206">
         <mark key="'" line="518" column="11" />
-        <mark key="[" line="626" column="32" />
-        <mark key="]" line="626" column="31" />
-        <mark key="." line="626" column="31" />
-        <mark key="^" line="626" column="31" />
+        <mark key="[" line="518" column="11" />
+        <mark key="]" line="518" column="51" />
+        <mark key="." line="518" column="51" />
+        <mark key="^" line="518" column="51" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1555330373016">
         <mark key="'" line="379" column="34" />
@@ -199,7 +199,7 @@
         <mark key="^" line="41" column="123" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/BooklineManager.java" timestamp="1555497189240" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/BooklineManager.java" timestamp="1555498877565" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CPassengers.java" timestamp="1554705150241">
         <mark key="'" line="251" column="0" />
         <mark key="[" line="251" column="0" />
@@ -455,7 +455,7 @@
         <text>ToPassenger</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -486,12 +486,12 @@
         <entry>action AceAction</entry>
         <entry>action FindUsages</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action SaveAll</entry>
         <entry>action Find</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0RlY2xhcmF0aW9u</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
