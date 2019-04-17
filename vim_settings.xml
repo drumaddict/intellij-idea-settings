@@ -455,7 +455,7 @@
         <text>ToPassenger</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -485,13 +485,13 @@
         <entry>action ReformatCode</entry>
         <entry>action AceAction</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action Find</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0RlY2xhcmF0aW9u</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
         <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
