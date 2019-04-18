@@ -98,14 +98,14 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1555505047200">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1555569668054">
         <mark key="'" line="1709" column="24" />
         <mark key="k" line="594" column="45" />
-        <mark key="[" line="1710" column="22" />
+        <mark key="[" line="1669" column="0" />
         <mark key="m" line="430" column="83" />
-        <mark key="]" line="1710" column="21" />
-        <mark key="^" line="1710" column="21" />
-        <mark key="." line="1710" column="21" />
+        <mark key="]" line="1669" column="0" />
+        <mark key="^" line="1669" column="0" />
+        <mark key="." line="1669" column="0" />
         <mark key="o" line="632" column="50" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1553785502156">
@@ -164,12 +164,12 @@
         <mark key="^" line="2" column="15" />
         <mark key="." line="2" column="16" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1555509825069">
-        <mark key="'" line="530" column="12" />
-        <mark key="[" line="532" column="58" />
-        <mark key="]" line="532" column="58" />
-        <mark key="." line="532" column="58" />
-        <mark key="^" line="532" column="58" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1555569376271">
+        <mark key="'" line="519" column="100" />
+        <mark key="[" line="521" column="51" />
+        <mark key="]" line="522" column="17" />
+        <mark key="." line="522" column="17" />
+        <mark key="^" line="522" column="17" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1555330373016">
         <mark key="'" line="379" column="34" />
@@ -199,7 +199,6 @@
         <mark key="^" line="41" column="123" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/BooklineManager.java" timestamp="1555498877565" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CPassengers.java" timestamp="1554705150241">
         <mark key="'" line="251" column="0" />
         <mark key="[" line="251" column="0" />
@@ -221,7 +220,6 @@
         <mark key="." line="160" column="25" />
         <mark key="^" line="160" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1555490942885" />
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_VW.sql" timestamp="1555314924557">
         <mark key="'" line="132" column="4" />
         <mark key="[" line="59" column="2" />
@@ -385,7 +383,6 @@
       <jump line="502" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="503" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="507" column="63" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="519" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="517" column="56" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1646" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1685" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -410,13 +407,14 @@
       <jump line="529" column="61" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="592" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="530" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="519" column="100" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>overwrite</text>
       </register>
       <register name="-" type="4">
-        <text>a</text>
+        <text>openTickConfVwManager.createOpenTickConfVwBean();</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
@@ -425,34 +423,34 @@
         <text encoding="base64">ICAgICAgICAgICAgLy8gd3JpdGUgbmV3IGhlYWRlciBzbyB0aGUgZW1iYXJrZHRhdmlldyBmZXRjaGVzIGNvbmZpcm1lZGl0aW5lcmFyeQo=</text>
       </register>
       <register name="1" type="4">
-        <text>overwrite</text>
+        <text encoding="base64">ICBDb21wYW5pZXNNYW5hZ2VyIGNvbXBhbmllc01hbmFnZXIgPSBDb21wYW5pZXNNYW5hZ2VyLmdldEluc3RhbmNlKCk7CiAgICAgICAgICAgIENvbXBhbmllc0JlYW4gY29tcGFuaWVzQmVhbiA9IGNvbXBhbmllc01hbmFnZXIubG9hZEJ5UHJpbWFyeUtleShpdGluZXJhcnkuZ2V0Q29tcENvZGUoKSk7</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAK</text>
-      </register>
-      <register name="3" type="4">
-        <text>TripData</text>
-      </register>
-      <register name="4" type="4">
-        <text>ticket</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIHhtbHRyZWUuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlRGF0YSgpLnNldFVzZXJJbmZvKHVzZXJJbmZvKTsK</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgaGVhZElEID0gU2VxSGVhZElETWFuYWdlci5nZXRJbnN0YW5jZSgpLm5leHRWYWwoKTsKICAgICAgICAgICAgaW5zZXJ0SGVhZGVyUm93KGhlYWRJRCwgaXRpbmVyYXJ5LmdldEl0aW5JZCgpKTs=</text>
+      </register>
+      <register name="6" type="4">
+        <text>overwrite</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIFVzZXJJbmZvIHVzZXJJbmZvID0geG1sdHJlZS5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0VXNlckluZm8oKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAK</text>
       </register>
       <register name="x" type="4">
         <text>overwrite</text>
       </register>
       <register name="8" type="4">
-        <text>passenger</text>
+        <text>TripData</text>
       </register>
       <register name="9" type="4">
-        <text>pseg</text>
+        <text>ticket</text>
       </register>
       <register name=":" type="4">
         <text>action GotoDeclaration</text>
@@ -470,27 +468,25 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>121</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry encoding="base64">YWN0aW9uIEdlbmVyYXRlVGVzdE1ldGhvZCA=</entry>
-        <entry>action ToggleLineBreakpoint</entry>
         <entry>action $SelectAll</entry>
-        <entry>action RenameElement</entry>
         <entry>action ToggleBookmark</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action NextTab</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action ReformatCode</entry>
-        <entry>action AceAction</entry>
-        <entry>action ShowBookmarks</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0RlY2xhcmF0aW9u</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
+        <entry>action FindUsages</entry>
+        <entry>action ShowBookmarks</entry>
+        <entry>action ToggleLineBreakpoint</entry>
+        <entry>action RenameElement</entry>
+        <entry>action NextTab</entry>
+        <entry>action AceAction</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
-        <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
