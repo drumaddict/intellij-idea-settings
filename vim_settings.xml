@@ -164,7 +164,7 @@
         <mark key="^" line="2" column="15" />
         <mark key="." line="2" column="16" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1555577362768">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1555580352344">
         <mark key="'" line="450" column="98" />
         <mark key="[" line="575" column="0" />
         <mark key="]" line="575" column="0" />
@@ -292,12 +292,12 @@
         <mark key="^" line="139" column="37" />
         <mark key="." line="139" column="37" />
       </file>
-      <file name="/fragment.java" timestamp="1555496432398">
+      <file name="/fragment.java" timestamp="1555580353260">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
+        <mark key="]" line="1" column="0" />
         <mark key="^" line="0" column="23" />
-        <mark key="." line="0" column="0" />
+        <mark key="." line="1" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_recall_itineraries_for_confirm_day_range.sql" timestamp="1553848123441">
         <mark key="'" line="2" column="17" />
@@ -422,36 +422,36 @@
       <register name="0" type="4">
         <text encoding="base64">aWYgKCAgIShvcGVuVGlja2V0LmdldFZlaExlbmd0aCgpID4gMCkgfHwgKG9wZW5UaWNrZXQuZ2V0VmVoTGVuZ3RoKCkgPT0gbnVsbCkgICkgew==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgKHRpY2tldFdpdGhDb25maXJtYXRpb24gIT0gbnVsbCkgJiYKICAgICAgICAgICAgICAgICAg</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">ICAgICAgQ29tcGFuaWVzTWFuYWdlciBjb21wYW5pZXNNYW5hZ2VyID0gQ29tcGFuaWVzTWFuYWdlci5nZXRJbnN0YW5jZSgpOwogICAgICAgICAgQ29tcGFuaWVzQmVhbiBjb21wYW5pZXNCZWFuID0gY29tcGFuaWVzTWFuYWdlci5sb2FkQnlQcmltYXJ5S2V5KGl0aW5lcmFyeS5nZXRDb21wQ29kZSgpKTs=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>CompaniesManager companiesManager = CompaniesManager.getInstance();
           CompaniesBean companiesBean = companiesManager.loadByPrimaryKey(itinerary.getCompCode());</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>getBrand</text>
       </register>
-      <register name="6" type="4">
-        <text>vseg</text>
-      </register>
       <register name="7" type="4">
-        <text>etBrand</text>
+        <text>vseg</text>
       </register>
       <register name="x" type="4">
         <text>getBrand</text>
       </register>
       <register name="8" type="4">
-        <text>vseg</text>
+        <text>etBrand</text>
       </register>
       <register name="9" type="4">
-        <text>getBrand</text>
+        <text>vseg</text>
       </register>
       <register name=":" type="4">
         <text>action GotoDeclaration</text>
