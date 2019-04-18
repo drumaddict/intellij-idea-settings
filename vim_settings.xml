@@ -220,6 +220,7 @@
         <mark key="." line="160" column="25" />
         <mark key="^" line="160" column="25" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1555585498233" />
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_VW.sql" timestamp="1555314924557">
         <mark key="'" line="132" column="4" />
         <mark key="[" line="59" column="2" />
@@ -454,7 +455,7 @@
         <text>vseg</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -485,10 +486,10 @@
         <entry>action ShowBookmarks</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
