@@ -100,7 +100,7 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1555660039996">
+      <file name="/Dummy.txt" timestamp="1555661554204">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -421,7 +421,7 @@
         <text>false, &quot;000&quot;, ticketAnswer.getServiceBody().getMessageHeader().getStatusInfo().getStatusMessage()</text>
       </register>
       <register name="-" type="4">
-        <text>ticketAnswer.getServiceBody().getMessageHeader().getStatusInfo().getStatusMessage();</text>
+        <text>Fixed CITINERARY bug</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
