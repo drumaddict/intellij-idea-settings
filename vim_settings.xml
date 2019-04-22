@@ -38,11 +38,12 @@
         <mark key="." line="53" column="17" />
         <mark key="^" line="53" column="17" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1555921123972">
-        <mark key="'" line="385" column="26" />
-        <mark key="[" line="54" column="0" />
-        <mark key="]" line="54" column="0" />
-        <mark key="." line="54" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1555924798073">
+        <mark key="'" line="1737" column="45" />
+        <mark key="[" line="1738" column="0" />
+        <mark key="]" line="1738" column="0" />
+        <mark key="^" line="1737" column="17" />
+        <mark key="." line="1738" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1555659209194">
         <mark key="'" line="41" column="6" />
@@ -327,7 +328,7 @@
         <mark key="^" line="2" column="207" />
         <mark key="." line="2" column="207" />
       </file>
-      <file name="/fragment.java" timestamp="1555917831314">
+      <file name="/fragment.java" timestamp="1555924757250">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -343,9 +344,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="92" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="99" column="82" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="160" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
       <jump line="163" column="113" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" />
       <jump line="156" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" />
       <jump line="172" column="67" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
@@ -443,10 +441,13 @@
       <jump line="289" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/BoardPass.java" />
       <jump line="396" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/ConfirmationPassDescriptor.java" />
       <jump line="269" column="37" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/BoardPassDescriptor.java" />
+      <jump line="347" column="42" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1736" column="31" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1737" column="45" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>ConfirmationPass</text>
+        <text>Long</text>
       </register>
       <register name="-" type="4">
         <text>statusCode</text>
@@ -455,40 +456,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgIC8vLS0gX3BkZlVybAogICAgZGVzYyA9IG5ldyBvcmcuZXhvbGFiLmNhc3Rvci54bWwudXRpbC5YTUxGaWVsZERlc2NyaXB0b3JJbXBsKGphdmEubGFuZy5TdHJpbmcuY2xhc3MsICJfcGRmVXJsIiwgIlBkZlVybCIsIG9yZy5leG9sYWIuY2FzdG9yLnhtbC5Ob2RlVHlwZS5BdHRyaWJ1dGUpOwogICAgZGVzYy5zZXRJbW11dGFibGUodHJ1ZSk7CiAgICBoYW5kbGVyID0gbmV3IG9yZy5leG9sYWIuY2FzdG9yLnhtbC5YTUxGaWVsZEhhbmRsZXIoKSB7CiAgICAgIHB1YmxpYyBqYXZhLmxhbmcuT2JqZWN0IGdldFZhbHVlKGphdmEubGFuZy5PYmplY3Qgb2JqZWN0KQogICAgICAgICAgICAgIHRocm93cyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24gewogICAgICAgIENvbmZpcm1hdGlvblBhc3MgdGFyZ2V0ID0gKENvbmZpcm1hdGlvblBhc3MpIG9iamVjdDsKICAgICAgICByZXR1cm4gdGFyZ2V0LmdldFBkZlVybCgpOwogICAgICB9CgogICAgICBwdWJsaWMgdm9pZCBzZXRWYWx1ZShqYXZhLmxhbmcuT2JqZWN0IG9iamVjdCwgamF2YS5sYW5nLk9iamVjdCB2YWx1ZSkKICAgICAgICAgICAgICB0aHJvd3MgSWxsZWdhbFN0YXRlRXhjZXB0aW9uLCBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24gewogICAgICAgIHRyeSB7CiAgICAgICAgICBDb25maXJtYXRpb25QYXNzIHRhcmdldCA9IChDb25maXJtYXRpb25QYXNzKSBvYmplY3Q7CiAgICAgICAgICB0YXJnZXQuc2V0UGRmVXJsKChqYXZhLmxhbmcuU3RyaW5nKSB2YWx1ZSk7CiAgICAgICAgfSBjYXRjaCAoamF2YS5sYW5nLkV4Y2VwdGlvbiBleCkgewogICAgICAgICAgdGhyb3cgbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbihleC50b1N0cmluZygpKTsKICAgICAgICB9CiAgICAgIH0KCiAgICAgIHB1YmxpYyBqYXZhLmxhbmcuT2JqZWN0IG5ld0luc3RhbmNlKGphdmEubGFuZy5PYmplY3QgcGFyZW50KSB7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgIH0KICAgIH07CiAgICBkZXNjLnNldFNjaGVtYVR5cGUoInN0cmluZyIpOwogICAgZGVzYy5zZXRIYW5kbGVyKGhhbmRsZXIpOwogICAgZGVzYy5zZXRNdWx0aXZhbHVlZChmYWxzZSk7CiAgICBhZGRGaWVsZERlc2NyaXB0b3IoZGVzYyk7CgogICAgLy8tLSB2YWxpZGF0aW9uIGNvZGUgZm9yOiBfcGRmVXJsCiAgICBmaWVsZFZhbGlkYXRvciA9IG5ldyBvcmcuZXhvbGFiLmNhc3Rvci54bWwuRmllbGRWYWxpZGF0b3IoKTsKICAgIHsgLy8tLSBsb2NhbCBzY29wZQogICAgICBvcmcuZXhvbGFiLmNhc3Rvci54bWwudmFsaWRhdG9ycy5TdHJpbmdWYWxpZGF0b3IgdHlwZVZhbGlkYXRvcjsKICAgICAgdHlwZVZhbGlkYXRvciA9IG5ldyBvcmcuZXhvbGFiLmNhc3Rvci54bWwudmFsaWRhdG9ycy5TdHJpbmdWYWxpZGF0b3IoKTsKICAgICAgZmllbGRWYWxpZGF0b3Iuc2V0VmFsaWRhdG9yKHR5cGVWYWxpZGF0b3IpOwogICAgICB0eXBlVmFsaWRhdG9yLnNldFdoaXRlU3BhY2UoInByZXNlcnZlIik7CiAgICB9CiAgICBkZXNjLnNldFZhbGlkYXRvcihmaWVsZFZhbGlkYXRvcik7</text>
+        <text>boardIdToPDFUrl.get(boardID)</text>
       </register>
-      <register name="1" type="4">
-        <text>ConfirmationPass</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>ConfirmationPass</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>ConfirmationPass</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYm9hcmRJZFRvUERGVXJsLnB1dChWcGFzLmdldEJvYXJkSUQoKSwgd2J0Y2t0KQo=</text>
       </register>
       <register name="4" type="4">
-        <text>ConfirmationPass</text>
+        <text>Long</text>
       </register>
       <register name="5" type="4">
-        <text>statusCode</text>
+        <text>Long</text>
       </register>
       <register name="6" type="4">
-        <text>confirmations</text>
+        <text>bookIdToPDFUrl</text>
       </register>
       <register name="7" type="4">
-        <text>confirmations</text>
-      </register>
-      <register name="x" type="4">
         <text>ConfirmationPass</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICBwcml2YXRlIFN0cmluZyBwZGZVcmwgPSBudWxsOwo=</text>
+      <register name="x" type="4">
+        <text>Long</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcGRmVXJsID0gd2J0Y2t0LmdldFBkZlVybCgpOwo=</text>
+      <register name="8" type="4">
+        <text>ConfirmationPass</text>
+      </register>
+      <register name="9" type="4">
+        <text>ConfirmationPass</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -508,21 +509,21 @@
         <entry>action RenameElement</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action ToggleLineBreakpoint</entry>
-        <entry>action ToggleBookmark</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gVG9nZ2xlTGluZUJyZWFrcG9pbnQ=</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU2hvd0Jvb2ttYXJrcw==</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action FileStructurePopup</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZFVzYWdlcw==</entry>
         <entry>action PreviousTab</entry>
-        <entry>action FindUsages</entry>
         <entry>action AceAction</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
+        <entry>action ToggleBookmark</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
