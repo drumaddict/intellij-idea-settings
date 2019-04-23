@@ -9,7 +9,7 @@
         <mark key="]" line="286" column="3" />
         <mark key="." line="278" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/_BUG.sql" timestamp="1555654829198">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/_BUG.sql" timestamp="1556008365855">
         <mark key="[" line="14" column="0" />
         <mark key="]" line="14" column="61" />
         <mark key="^" line="13" column="0" />
@@ -38,12 +38,12 @@
         <mark key="." line="53" column="17" />
         <mark key="^" line="53" column="17" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1555931618658">
-        <mark key="'" line="1285" column="20" />
-        <mark key="[" line="1285" column="0" />
-        <mark key="]" line="1285" column="0" />
-        <mark key="^" line="1468" column="83" />
-        <mark key="." line="1285" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1556006464593">
+        <mark key="'" line="1179" column="30" />
+        <mark key="[" line="1174" column="0" />
+        <mark key="]" line="1175" column="65" />
+        <mark key="^" line="1175" column="65" />
+        <mark key="." line="1175" column="65" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" timestamp="1555659209194">
         <mark key="'" line="41" column="6" />
@@ -188,13 +188,13 @@
         <mark key="^" line="46" column="56" />
         <mark key="." line="47" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1555659464452">
-        <mark key="'" line="362" column="49" />
-        <mark key="[" line="362" column="49" />
-        <mark key="]" line="362" column="78" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1556007397512">
+        <mark key="'" line="475" column="115" />
+        <mark key="[" line="470" column="30" />
+        <mark key="]" line="471" column="3" />
         <mark key="m" line="125" column="0" />
-        <mark key="." line="514" column="28" />
-        <mark key="^" line="514" column="28" />
+        <mark key="." line="471" column="3" />
+        <mark key="^" line="471" column="3" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1556002704789">
         <mark key="'" line="64" column="6" />
@@ -328,12 +328,12 @@
         <mark key="^" line="173" column="1" />
         <mark key="." line="158" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1556003601029">
-        <mark key="'" line="48" column="0" />
-        <mark key="[" line="48" column="0" />
-        <mark key="]" line="58" column="6" />
-        <mark key="." line="112" column="42" />
-        <mark key="^" line="112" column="42" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1556007981867">
+        <mark key="'" line="104" column="7" />
+        <mark key="[" line="38" column="0" />
+        <mark key="]" line="38" column="0" />
+        <mark key="." line="38" column="0" />
+        <mark key="^" line="96" column="29" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_iface_pars_per_comp.sql" timestamp="1553672784572">
         <mark key="'" line="3" column="17" />
@@ -342,7 +342,7 @@
         <mark key="^" line="2" column="207" />
         <mark key="." line="2" column="207" />
       </file>
-      <file name="/fragment.java" timestamp="1555931399114">
+      <file name="/fragment.java" timestamp="1556007957376">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -358,13 +358,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1646" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="1685" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="1669" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="498" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="573" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="1706" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="509" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="568" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1704" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1697" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -458,49 +451,62 @@
       <jump line="275" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="263" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="261" column="60" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="1246" column="35" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1542" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1179" column="30" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="96" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="104" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="474" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
+      <jump line="475" column="115" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>itinAttr</text>
+        <text>TripData</text>
       </register>
       <register name="-" type="4">
-        <text>ItineraryAttri</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">IHB1YmxpYyBzdGF0aWMgYm9vbGVhbiB2YWxpZGF0ZUdsb2JhbENvbmZpcm1hdGlvblN3aXRjaCgpIHs=</text>
+        <text>delete from bookline_del_hist b where b.reservcode = 'R458306'</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBwcm90ZWN0ZWQgU3RyaW5nIGNvbmZpcm1hdGlvblN3aXRjaCA9IG51bGw7Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>itinAttr</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBjb25maXJtYXRpb25Td2l0Y2ggPSBhbHRlcm5hdGVTZXR0aW5nLmdldFBhclZhbHVlKCk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIFRPRE8gLy8gICByZXR1cm4gaXRpbkF0dHIuY2hhckF0KDUpID09ICcxJzsK</text>
+        <text encoding="base64">ICAgICAgICBQYXJhbWV0ZXJzQmVhbiBhbHRlcm5hdGVTZXR0aW5nID0gcGFyYW1ldGVyc01hbmFnZXIubG9hZEJ5UHJpbWFyeUtleSgiQ09ORklSTUFUSU9OX1NXSVRDSCIpOwo=</text>
       </register>
-      <register name="4" type="4">
-        <text>compAttr</text>
-      </register>
-      <register name="5" type="4">
-        <text>CompanyForConfirmation</text>
-      </register>
-      <register name="6" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>BoardingPdf</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
+        <text>//      ParametersBean alternateSetting = parametersManager.loadByPrimaryKey(&quot;CONFIRMATION_SWITCH&quot;);
+//      String confSwitch = alternateSetting.getParValue();
+//      if (confSwitch.equals(&quot;Y&quot;)) msgTag = &quot;DepartureTicketDataCPRQ_S&quot;;</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHRyeSB7Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>itinAttr</text>
+        <text>TripData</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>//      ParametersBean alternateSetting = parametersManager.loadByPrimaryKey(&quot;CONFIRMATION_SWITCH&quot;);
+//      String confSwitch = alternateSetting.getParValue();
+//      if (confSwitch.equals(&quot;Y&quot;)) msgTag = &quot;DepartureTicketDataCPRQ_S&quot;;</text>
       </register>
       <register name="9" type="4">
-        <text>true</text>
+        <text>//    } catch (DAOException e) {
+//      e.printStackTrace();
+//    }</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -529,15 +535,15 @@
         <entry>action ShowBookmarks</entry>
         <entry>action VimWindowClose</entry>
         <entry>action SplitVertically</entry>
-        <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FileStructurePopup</entry>
+        <entry>action OptimizeImports</entry>
         <entry>action GotoFile</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action OptimizeImports</entry>
         <entry>action ReformatCode</entry>
+        <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
