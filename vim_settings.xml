@@ -136,6 +136,13 @@
         <mark key="^" line="139" column="37" />
         <mark key="." line="139" column="37" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/_OPEN_POST_BUG.sql" timestamp="1556009645779">
+        <mark key="'" line="5" column="62" />
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="63" />
+        <mark key="^" line="1" column="0" />
+        <mark key="." line="5" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" timestamp="1554894981278">
         <mark key="'" line="172" column="17" />
         <mark key="[" line="162" column="22" />
@@ -358,7 +365,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="568" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1704" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1697" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1666" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -458,13 +464,14 @@
       <jump line="104" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="474" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="475" column="115" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
+      <jump line="5" column="62" filename="$USER_HOME$/projects/port-checkin-control/documentation/sql/_OPEN_POST_BUG.sql" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>TripData</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
@@ -473,40 +480,36 @@
         <text>delete from bookline_del_hist b where b.reservcode = 'R458306'</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBwcm90ZWN0ZWQgU3RyaW5nIGNvbmZpcm1hdGlvblN3aXRjaCA9IG51bGw7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBjb25maXJtYXRpb25Td2l0Y2ggPSBhbHRlcm5hdGVTZXR0aW5nLmdldFBhclZhbHVlKCk7Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBQYXJhbWV0ZXJzQmVhbiBhbHRlcm5hdGVTZXR0aW5nID0gcGFyYW1ldGVyc01hbmFnZXIubG9hZEJ5UHJpbWFyeUtleSgiQ09ORklSTUFUSU9OX1NXSVRDSCIpOwo=</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">CgoKCgoK</text>
       </register>
-      <register name="6" type="4">
-        <text>//      ParametersBean alternateSetting = parametersManager.loadByPrimaryKey(&quot;CONFIRMATION_SWITCH&quot;);
-//      String confSwitch = alternateSetting.getParValue();
-//      if (confSwitch.equals(&quot;Y&quot;)) msgTag = &quot;DepartureTicketDataCPRQ_S&quot;;</text>
+      <register name="4" type="4">
+        <text>--delete  from bookline  bo where bo.book_id in ( 9131894, 9131905,9131906, 9131907 )
+--delete  from bookline  bo where bo.book_id in ( 9131891, 9131948)</text>
+      </register>
+      <register name="5" type="4">
+        <text>--select * from bookline_open bo where bo.reservcode = 'R458306' order by bo.book_id
+--select * from bookline  bo where bo.reservcode = 'R458306' order by bo.book_id</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">LS1kZWxldGUgIGZyb20gYm9va2xpbmUgYm8gd2hlcmUgYm8ucmVzZXJ2Y29kZSA9ICdSNDU4MzA2Jwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHRyeSB7Cg==</text>
+        <text encoding="base64">LS1kZWxldGUgIGZyb20gYm9va2xpbmVfb3BlbiBibyB3aGVyZSBiby5yZXNlcnZjb2RlID0gJ1I0NTgzMDYnCg==</text>
       </register>
       <register name="x" type="4">
         <text>TripData</text>
       </register>
-      <register name="8" type="4">
-        <text>//      ParametersBean alternateSetting = parametersManager.loadByPrimaryKey(&quot;CONFIRMATION_SWITCH&quot;);
-//      String confSwitch = alternateSetting.getParValue();
-//      if (confSwitch.equals(&quot;Y&quot;)) msgTag = &quot;DepartureTicketDataCPRQ_S&quot;;</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICBwcm90ZWN0ZWQgU3RyaW5nIGNvbmZpcm1hdGlvblN3aXRjaCA9IG51bGw7Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>//    } catch (DAOException e) {
-//      e.printStackTrace();
-//    }</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBjb25maXJtYXRpb25Td2l0Y2ggPSBhbHRlcm5hdGVTZXR0aW5nLmdldFBhclZhbHVlKCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
