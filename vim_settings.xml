@@ -197,12 +197,12 @@
         <mark key="." line="471" column="3" />
         <mark key="^" line="471" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1556002704789">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1556025927401">
         <mark key="'" line="64" column="6" />
-        <mark key="[" line="64" column="62" />
-        <mark key="]" line="64" column="61" />
-        <mark key="^" line="64" column="61" />
-        <mark key="." line="64" column="61" />
+        <mark key="[" line="282" column="12" />
+        <mark key="]" line="282" column="36" />
+        <mark key="^" line="282" column="36" />
+        <mark key="." line="282" column="36" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/ConfirmationPassDescriptor.java" timestamp="1555922719101">
         <mark key="'" line="396" column="0" />
@@ -469,7 +469,7 @@
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>historyconfdetailsVwBeans</text>
+        <text>itineraryId</text>
       </register>
       <register name="-" type="4">
         <text>HistoryconfdetailsVwBean[]</text>
@@ -481,37 +481,37 @@
         <text>if (!ArrayUtils.isEmpty(historyconfdetailsVwBeans)) {</text>
       </register>
       <register name="1" type="4">
+        <text>itineraryId</text>
+      </register>
+      <register name="2" type="4">
         <text>historyconfdetailsVwBeans</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>showBoardings</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>Confirmations</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>ALL</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>CNF</text>
       </register>
-      <register name="7" type="4">
-        <text>onfirmations</text>
-      </register>
       <register name="x" type="4">
-        <text>historyconfdetailsVwBeans</text>
+        <text>itineraryId</text>
       </register>
       <register name="8" type="4">
+        <text>onfirmations</text>
+      </register>
+      <register name="9" type="4">
         <text>null</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIGlmIChoaSkK</text>
-      </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -539,15 +539,15 @@
         <entry>action SplitVertically</entry>
         <entry>action OptimizeImports</entry>
         <entry>action GotoSymbol</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
