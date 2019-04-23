@@ -175,12 +175,12 @@
         <mark key="^" line="246" column="18" />
         <mark key="." line="246" column="38" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" timestamp="1556023009367">
-        <mark key="'" line="218" column="39" />
-        <mark key="[" line="106" column="27" />
-        <mark key="]" line="106" column="25" />
-        <mark key="." line="106" column="25" />
-        <mark key="^" line="106" column="25" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" timestamp="1556024255025">
+        <mark key="'" line="168" column="61" />
+        <mark key="[" line="168" column="33" />
+        <mark key="]" line="168" column="53" />
+        <mark key="." line="168" column="53" />
+        <mark key="^" line="168" column="53" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" timestamp="1554361552345">
         <mark key="'" line="39" column="4" />
@@ -366,15 +366,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="521" column="52" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="800" column="23" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="1415" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="589" column="61" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="497" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="595" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="594" column="16" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="1728" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="1729" column="110" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1739" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1996" column="35" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1825" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
@@ -466,52 +457,61 @@
       <jump line="70" column="125" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
       <jump line="205" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
       <jump line="218" column="39" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
+      <jump line="47" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
+      <jump line="74" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
+      <jump line="144" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
+      <jump line="149" column="29" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
+      <jump line="143" column="44" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
+      <jump line="152" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
+      <jump line="145" column="62" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
+      <jump line="181" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
+      <jump line="168" column="61" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>SQLException</text>
+        <text>historyconfdetailsVwBeans</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>HistoryconfdetailsVwBean[]</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgIH0gY2F0Y2ggKFNRTEV4Y2VwdGlvbiBlKSB7CiAgICAgIC8vc2UucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgIGRiRXJyU3RyID0gZS5nZXRNZXNzYWdlKCk7CiAgICAgIGRiRVJST1IgPSB0cnVlOwogICAgICBzdGF0dXMuc2V0U2V2ZXJlKHRydWUpOwogICAgICBzdGF0dXMuc2V0U3RhdHVzQ29kZSgiMDAxIik7CiAgICAgIHN0YXR1cy5zZXRTdGF0dXNNZXNzYWdlKGRiRXJyU3RyKTs=</text>
+        <text>if (!ArrayUtils.isEmpty(historyconfdetailsVwBeans)) {</text>
       </register>
       <register name="1" type="4">
-        <text>SQLException</text>
+        <text>historyconfdetailsVwBeans</text>
       </register>
-      <register name="2" type="4">
-        <text>17, actOBJ.getServiceBodyHistory().getMessageData().getUserInfo().getLanguage()</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBoaXN0b3J5VHlwZSA9IGFjdE9CSi5nZXRTZXJ2aWNlQm9keUhpc3RvcnkoKS5nZXRNZXNzYWdlRGF0YSgpLmdldEVtYmFya2F0aW9uRGF0YSgpLmdldEJvb2tpbmcoKS5nZXRIaXN0b3J5VHlwZSgpOwo=</text>
-      </register>
-      <register name="4" type="2">
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="3" type="4">
+        <text>showBoardings</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="4" type="4">
+        <text>Confirmations</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="x" type="4">
-        <text>SQLException</text>
-      </register>
-      <register name="8" type="4">
-        <text>CNF</text>
-      </register>
-      <register name="9" type="4">
+      <register name="5" type="4">
         <text>ALL</text>
       </register>
+      <register name="6" type="4">
+        <text>CNF</text>
+      </register>
+      <register name="7" type="4">
+        <text>onfirmations</text>
+      </register>
+      <register name="x" type="4">
+        <text>historyconfdetailsVwBeans</text>
+      </register>
+      <register name="8" type="4">
+        <text>null</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgIGlmIChoaSkK</text>
+      </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -538,16 +538,16 @@
         <entry>action VimWindowClose</entry>
         <entry>action SplitVertically</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action FindUsages</entry>
-        <entry>action GotoFile</entry>
         <entry>action GotoSymbol</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
