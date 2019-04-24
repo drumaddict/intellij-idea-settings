@@ -3,6 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/HISTORYCONFDETAILS_VW.sql" timestamp="1556029620816">
+        <mark key="'" line="38" column="17" />
+        <mark key="[" line="41" column="13" />
+        <mark key="]" line="41" column="0" />
+        <mark key="." line="41" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/BoardPass.java" timestamp="1555922618772">
         <mark key="'" line="286" column="2" />
         <mark key="[" line="278" column="2" />
@@ -175,12 +181,12 @@
         <mark key="^" line="246" column="18" />
         <mark key="." line="246" column="38" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" timestamp="1556024255025">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" timestamp="1556029738592">
         <mark key="'" line="168" column="61" />
-        <mark key="[" line="168" column="33" />
-        <mark key="]" line="168" column="53" />
-        <mark key="." line="168" column="53" />
-        <mark key="^" line="168" column="53" />
+        <mark key="[" line="185" column="75" />
+        <mark key="]" line="185" column="88" />
+        <mark key="." line="185" column="88" />
+        <mark key="^" line="185" column="88" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" timestamp="1554361552345">
         <mark key="'" line="39" column="4" />
@@ -189,6 +195,7 @@
         <mark key="^" line="46" column="56" />
         <mark key="." line="47" column="2" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/amp/chat/amp.txt" timestamp="1556087376265" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1556007397512">
         <mark key="'" line="475" column="115" />
         <mark key="[" line="470" column="30" />
@@ -366,11 +373,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1739" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="1996" column="35" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="1825" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="1835" column="86" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="450" column="98" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="362" column="49" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="36" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
       <jump line="51" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketItinerariesEnquiry.java" />
@@ -466,10 +468,15 @@
       <jump line="145" column="62" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
       <jump line="181" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
       <jump line="168" column="61" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
+      <jump line="24" column="2" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/HISTORYCONFDETAILS_VW.sql" />
+      <jump line="70" column="2" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/HISTORYCONFDETAILS_VW.sql" />
+      <jump line="34" column="17" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/HISTORYCONFDETAILS_VW.sql" />
+      <jump line="36" column="17" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/HISTORYCONFDETAILS_VW.sql" />
+      <jump line="38" column="17" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/HISTORYCONFDETAILS_VW.sql" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>itineraryId</text>
+        <text>getConfdate</text>
       </register>
       <register name="-" type="4">
         <text>HistoryconfdetailsVwBean[]</text>
@@ -478,37 +485,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>if (!ArrayUtils.isEmpty(historyconfdetailsVwBeans)) {</text>
+        <text encoding="base64">RlVMTCBPVVRFUiBKT0lOIA==</text>
       </register>
       <register name="1" type="4">
-        <text>itineraryId</text>
+        <text>getConfdate</text>
       </register>
-      <register name="2" type="4">
-        <text>historyconfdetailsVwBeans</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>showBoardings</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>Confirmations</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>ALL</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>CNF</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>itineraryId</text>
+        <text>getConfdate</text>
       </register>
-      <register name="8" type="4">
-        <text>onfirmations</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>null</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -526,8 +533,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action RenameElement</entry>
-        <entry>action TabShiftActions.StretchUp</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gVG9nZ2xlTGluZUJyZWFrcG9pbnQ=</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU2hvd0Jvb2ttYXJrcw==</entry>
