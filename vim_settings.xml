@@ -30,10 +30,10 @@
         <mark key="^" line="16" column="0" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1556090415106">
-        <mark key="'" line="355" column="6" />
-        <mark key="[" line="355" column="6" />
-        <mark key="]" line="355" column="119" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1556193515904">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="426" column="0" />
         <mark key="^" line="355" column="37" />
         <mark key="." line="355" column="37" />
       </file>
@@ -44,10 +44,10 @@
         <mark key="." line="53" column="17" />
         <mark key="^" line="53" column="17" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1556006464593">
-        <mark key="'" line="1179" column="30" />
-        <mark key="[" line="1174" column="0" />
-        <mark key="]" line="1175" column="65" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1556193806094">
+        <mark key="'" line="269" column="4" />
+        <mark key="[" line="269" column="4" />
+        <mark key="]" line="269" column="67" />
         <mark key="^" line="1175" column="65" />
         <mark key="." line="1175" column="65" />
       </file>
@@ -326,6 +326,13 @@
         <mark key="^" line="58" column="33" />
         <mark key="." line="58" column="33" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/AmpPdf.java" timestamp="1556193528074">
+        <mark key="'" line="425" column="0" />
+        <mark key="[" line="30" column="14" />
+        <mark key="]" line="30" column="18" />
+        <mark key="." line="30" column="18" />
+        <mark key="^" line="30" column="18" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1555680348558">
         <mark key="'" line="2075" column="0" />
         <mark key="[" line="1082" column="35" />
@@ -440,12 +447,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="456" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="39" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="631" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="629" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="80" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
-      <jump line="90" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocHandler.java" />
       <jump line="78" column="3" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="92" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocHandler.java" />
       <jump line="20" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
@@ -540,10 +541,16 @@
       <jump line="227" column="28" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocHandler.java" />
       <jump line="226" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocPrint.java" />
       <jump line="166" column="106" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocHandler.java" />
+      <jump line="152" column="70" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="2" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
+      <jump line="426" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/AmpPdf.java" />
+      <jump line="425" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/AmpPdf.java" />
+      <jump line="269" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>confirmationPassPrinter.getPdfBlobData()</text>
+        <text>onfirmationPdf</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IFByaW9jaGVja0JlYW4gY29uZmlybWF0aW9uID0gUHJpb2NoZWNrTWFuYWdlci5nZXRJbnN0YW5jZSgpLmxvYWRCeVByaW1hcnlLZXkodmVoaWNsZS5nZXRDb25maXJtYXRpb25JRCgpKTs=</text>
@@ -552,48 +559,43 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>//    if (bs.getBlobCount() == 0) {
-//      throw new DataValidationException(&quot;No documents were printed&quot;);
-//    }
-//    BlobData blobData = new BlobData();
-//    blobData.setBlobs(bs);
-//    pdfBlobData = blobData;</text>
+        <text>SimpleDateFormat sdf = new SimpleDateFormat(&quot;dd/MM/yyyy HH:mm&quot;);</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>onfirmationPdf</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Ly8gICAgICAgICB2YWxpZGF0ZUFNUCgpOwo=</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">Ly8gICAgICAgICB2YWxpZGF0ZUFNUCgpOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
         <text>//            answerMessageData.setEmbarkationData(ticketAnswer.getServiceBody().getMessageData().getEmbarkationData());
 //            if (answerMessageData.getEmbarkationData() == null) {
 //              return handleError(ticketAnswer.getServiceBody().getMessageHeader().getStatusInfo().getStatusMessage());
 //            }</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAgICAgICAgIC8vR2V0IGJvb2tpbmcKICAgICAgICAgIC8vIFVzZXIgVmFsaWRhdGlvbiBoYXBwZW5zIGluIHRpY2tldEVucXVpcnkucHJvY2Vzc09iamVjdCgpOw==</text>
       </register>
       <register name="x" type="4">
-        <text>confirmationPassPrinter.getPdfBlobData()</text>
+        <text>onfirmationPdf</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgICAgICAgIC8vR2V0IGJvb2tpbmcKICAgICAgICAgIC8vIFVzZXIgVmFsaWRhdGlvbiBoYXBwZW5zIGluIHRpY2tldEVucXVpcnkucHJvY2Vzc09iamVjdCgpOw==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -625,14 +627,14 @@
         <entry>action OptimizeImports</entry>
         <entry>action NextTab</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action Find</entry>
         <entry>action RenameElement</entry>
         <entry>action GotoClass</entry>
-        <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
         <entry>action ReformatCode</entry>
         <entry>action GotoFile</entry>
+        <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
