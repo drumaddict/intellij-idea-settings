@@ -793,7 +793,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action NextTab</text>
+        <text>action QuickJavaDoc</text>
       </register>
     </registers>
     <search>
@@ -817,7 +817,6 @@
         <entry>action ReformatCode</entry>
         <entry>action SplitVertically</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action Find</entry>
         <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
@@ -828,6 +827,7 @@
         <entry>action AceAction</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
+        <entry>action QuickJavaDoc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
