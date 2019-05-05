@@ -299,7 +299,7 @@
         <mark key="^" line="1" column="36" />
         <mark key="." line="1" column="36" />
       </file>
-      <file name="F:/cpp/vulkan-demo/CMakeLists.txt" timestamp="1557041340381">
+      <file name="F:/cpp/vulkan-demo/CMakeLists.txt" timestamp="1557042767338">
         <mark key="'" line="19" column="26" />
         <mark key="[" line="16" column="80" />
         <mark key="]" line="16" column="80" />
@@ -573,7 +573,7 @@
         <mark key="." line="54" column="0" />
         <mark key="^" line="54" column="0" />
       </file>
-      <file name="F:/cpp/vulkan-demo/cmake/HealthCheck.cmake" timestamp="1557042521766" />
+      <file name="F:/cpp/vulkan-demo/cmake/HealthCheck.cmake" timestamp="1557042614250" />
       <file name="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" timestamp="1550948118792">
         <mark key="'" line="90" column="0" />
         <mark key="[" line="92" column="0" />
@@ -796,7 +796,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -822,7 +822,6 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gQWNlVGFyZ2V0QWN0aW9u</entry>
         <entry>action VimFilePrevious</entry>
@@ -831,6 +830,7 @@
         <entry>action NextTab</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action GotoFile</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
