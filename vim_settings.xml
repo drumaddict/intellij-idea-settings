@@ -3,6 +3,9 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="F:/cpp/vulkan-demo/cmake/Custom.cmake" timestamp="1557036660631">
+        <mark key="'" line="13" column="0" />
+      </file>
       <file name="$USER_HOME$/cpp/frogger-sfml/Game.cpp" timestamp="1543018029015">
         <mark key="[" line="6" column="11" />
         <mark key="]" line="6" column="10" />
@@ -413,7 +416,6 @@
         <mark key="^" line="4" column="13" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="F:/cpp/vulkan-demo/.travis.yml" timestamp="1557001627160" />
       <file name="$USER_HOME$/logisfera/e5-greece.backend/src/main/java/io/lsn/ergo5/domain/winbank/helper/ProductStructureMapper.java" timestamp="1528799643524">
         <mark key="'" line="302" column="22" />
         <mark key="[" line="301" column="22" />
@@ -646,7 +648,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="114" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
       <jump line="61" column="42" filename="F:/msys64/home/spiros/cpp/game/CMakeLists.txt" />
       <jump line="59" column="8" filename="F:/msys64/home/spiros/cpp/game/cmake_modules/FindLua.cmake" />
       <jump line="75" column="8" filename="F:/msys64/home/spiros/cpp/game/cmake_modules/FindLua.cmake" />
@@ -746,6 +747,7 @@
       <jump line="17" column="26" filename="F:/cpp/vulkan-demo/CMakeLists.txt" />
       <jump line="18" column="26" filename="F:/cpp/vulkan-demo/CMakeLists.txt" />
       <jump line="19" column="26" filename="F:/cpp/vulkan-demo/CMakeLists.txt" />
+      <jump line="13" column="0" filename="F:/cpp/vulkan-demo/cmake/Custom.cmake" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -791,7 +793,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action AceAction</text>
+        <text>action NextTab</text>
       </register>
     </registers>
     <search>
@@ -816,8 +818,6 @@
         <entry>action SplitVertically</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action Find</entry>
         <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
@@ -826,6 +826,8 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gQWNlVGFyZ2V0QWN0aW9u</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action AceAction</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
