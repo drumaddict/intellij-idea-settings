@@ -230,8 +230,8 @@
         <mark key="^" line="46" column="56" />
         <mark key="." line="47" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1556187008361">
-        <mark key="'" line="572" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1557129866909">
+        <mark key="'" line="311" column="24" />
         <mark key="[" line="339" column="0" />
         <mark key="m" line="129" column="0" />
         <mark key="]" line="339" column="0" />
@@ -433,7 +433,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="207" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="61" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="73" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="37" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -533,6 +532,7 @@
       <jump line="341" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/AmpPdf.java" />
       <jump line="375" column="32" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/AmpPdf.java" />
       <jump line="356" column="57" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/AmpPdf.java" />
+      <jump line="311" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -589,7 +589,7 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -621,9 +621,9 @@
         <entry>action SaveAll</entry>
         <entry>action FindUsages</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
