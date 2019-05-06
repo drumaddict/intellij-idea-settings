@@ -389,11 +389,11 @@
         <mark key="^" line="173" column="1" />
         <mark key="." line="158" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1557134646778">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1557135720331">
         <mark key="'" line="566" column="74" />
-        <mark key="[" line="532" column="0" />
-        <mark key="]" line="532" column="0" />
-        <mark key="." line="532" column="0" />
+        <mark key="[" line="67" column="0" />
+        <mark key="]" line="67" column="0" />
+        <mark key="." line="67" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/AmpDocDescriptor.java" timestamp="1556110195283">
         <mark key="'" line="364" column="37" />
@@ -547,15 +547,18 @@
         <text>addVehicleConfirmationPass(vehicle, updatedOrCreatedPriocheckBean);</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIHBhc3Nlbmdlci5nZXQK</text>
+        <text encoding="base64">ICAgICAgICBwYXNzZW5nZXJzLmdldChpKS5nZXRSRQo=</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgIHBhc3Nlbmdlci5nZXQK</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgQW1wQmVhbiBhbXBCZWFuID0gbnVsbDsK</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>570</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>public static void createTimeRectangle(PdfContentByte canvas) throws BadElementException, MalformedURLException, IOException, DocumentException {
     canvas.setLineWidth(1.00f);
     Rectangle rect = new Rectangle(95, 600, 570, 635);
@@ -565,11 +568,8 @@
     canvas.stroke();
   }</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>640</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
@@ -580,12 +580,8 @@
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>//    canvas.beginText();
-//    canvas.setFontAndSize(bb_helv, 14);
-//    canvas.setColorFill(BaseColor.BLUE);
-//    canvas.showTextAligned(0, &quot;VEH&quot;, 40, 650, 0);
-//    canvas.endText();</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action GotoDeclaration</text>
