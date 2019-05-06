@@ -280,7 +280,7 @@
         <mark key="^" line="285" column="40" />
         <mark key="." line="285" column="40" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1556195293817">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1557141844271">
         <mark key="'" line="201" column="15" />
         <mark key="[" line="199" column="19" />
         <mark key="]" line="199" column="31" />
@@ -390,12 +390,12 @@
         <mark key="^" line="173" column="1" />
         <mark key="." line="158" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1557139647078">
-        <mark key="'" line="301" column="75" />
-        <mark key="[" line="301" column="54" />
-        <mark key="]" line="301" column="60" />
-        <mark key="^" line="301" column="60" />
-        <mark key="." line="301" column="60" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1557142010327">
+        <mark key="'" line="711" column="4" />
+        <mark key="[" line="711" column="59" />
+        <mark key="]" line="711" column="71" />
+        <mark key="." line="711" column="71" />
+        <mark key="^" line="711" column="71" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/AmpDocDescriptor.java" timestamp="1556110195283">
         <mark key="'" line="364" column="37" />
@@ -434,7 +434,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="72" column="39" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
       <jump line="1078" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1080" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="73" column="81" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/HistoryWithConfirmationsWorker.java" />
@@ -534,10 +533,11 @@
       <jump line="289" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="302" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="301" column="75" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="711" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>passenger</text>
+        <text>passengersCount</text>
       </register>
       <register name="-" type="4">
         <text>EmbarkationItemType.V.toString()</text>
@@ -545,32 +545,32 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>bookIdToBookType.get(passenger.getBookID())</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGlmIChib29rVHlwZS5lcXVhbHMoRW1iYXJrYXRpb25JdGVtVHlwZS5QLnRvU3RyaW5nKCkpKSBwYXNzZW5nZXJzQ291bnQgKz0gMTsK</text>
       </register>
       <register name="1" type="4">
+        <text>passengersCount</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGJvb2tUeXBlLmVxdWFscyhFbWJhcmthdGlvbkl0ZW1UeXBlLlAudG9TdHJpbmcoKSkgPyAocGFzc2VuZ2Vyc0NvdW50ICs9IDEpIDogKHZlaGljbGVzQ291bnQgKz0xKTsK</text>
+      </register>
+      <register name="3" type="4">
         <text>passenger</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>EmbarkationItemType.V.toString()</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgZGJFcnJTdHIgPSAiUmVxdWVzdCBpcyBub3QgdmFsaWQuIjsK</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>Exception</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="x" type="4">
-        <text>passenger</text>
+        <text>passengersCount</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
@@ -579,7 +579,7 @@
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -611,12 +611,12 @@
         <entry>action FileStructurePopup</entry>
         <entry>action $SelectAll</entry>
         <entry>70</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action FindUsages</entry>
         <entry>action ReformatCode</entry>
         <entry>action AceAction</entry>
-        <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action SaveAll</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
