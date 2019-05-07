@@ -226,6 +226,11 @@
         <mark key="^" line="302" column="32" />
         <mark key="." line="302" column="32" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/AMP_VALIDATION_REQ.xml" timestamp="1557234977093">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" timestamp="1554361552345">
         <mark key="'" line="39" column="4" />
         <mark key="[" line="47" column="2" />
@@ -261,7 +266,7 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1557150249244">
+      <file name="/Dummy.txt" timestamp="1557235100468">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -547,7 +552,7 @@
         <text>sql</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Q29uZmlybWF0aW9uU3dpdGNoKCkgJiY=</text>
+        <text encoding="base64">PCEtLVNhbXBsZSBYTUwgZmlsZSBnZW5lcmF0ZWQgYnkgWE1MU3B5IHYyMDA5IChodHRwOi8vd3d3LmFsdG92YS5jb20pLS0+</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
@@ -558,7 +563,10 @@
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
         <text>//    VALID_CONFIRMATION_STATUSES.add(ConfirmationStatus.N.toString());
 //    checkPointToValidAMPs.put(AMPCheckPoint.REGULATION_AREA_ENTRY, Arrays.asList(AMPStatus.N));
 //    checkPointToValidAMPs.put(AMPCheckPoint.REGULATION_AREA_EXIT, Arrays.asList(AMPStatus.P));
@@ -568,29 +576,26 @@
 //    checkPointToValidConfirmations.put(AMPCheckPoint.REGULATION_AREA_EXIT, Arrays.asList(ConfirmationStatus.P));
 //    checkPointToValidConfirmations.put(AMPCheckPoint.PORT, Arrays.asList(ConfirmationStatus.P));</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdmFsaWRhdGVBTVBEYXRlUmFuZ2UoKSAmJgo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgLy8gVE9ETyBhZGQgcGVyIGNvbXBhbnkgYW5kIGl0aW5lcmFyeSB2YWxpZGF0aW9uCg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgLy8gVGltZWZyYW1lIGhhcyBwYXNzZWQuCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgLy8gVGltZWZyYW1lIGhhcyBwYXNzZWQuCg==</text>
       </register>
       <register name="x" type="4">
         <text>sql</text>
       </register>
-      <register name="8" type="4">
-        <text>sql</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgU3RyaW5nIHNxbCA9ICIiOwo=</text>
+      <register name="9" type="4">
+        <text>sql</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
