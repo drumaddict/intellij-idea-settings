@@ -275,7 +275,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1557319470225">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1557322111536">
         <mark key="'" line="283" column="58" />
         <mark key="j" line="358" column="14" />
         <mark key="k" line="725" column="45" />
@@ -611,7 +611,7 @@
         <text>orm</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action ToggleBookmark</text>
       </register>
     </registers>
     <search>
@@ -645,12 +645,12 @@
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action ToggleBookmark</entry>
         <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
-        <entry>action Find</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action ToggleBookmark</entry>
       </history-cmd>
       <history-expr />
       <history-input />
