@@ -38,7 +38,7 @@
         <mark key="." line="53" column="17" />
         <mark key="^" line="53" column="17" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1556194749208">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1557317684957">
         <mark key="'" line="269" column="4" />
         <mark key="[" line="269" column="4" />
         <mark key="]" line="269" column="67" />
@@ -270,7 +270,7 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1557314692372">
+      <file name="/Dummy.txt" timestamp="1557317170977">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -611,7 +611,7 @@
         <text>orm</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -645,12 +645,12 @@
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action FindUsages</entry>
         <entry>action ToggleBookmark</entry>
         <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
