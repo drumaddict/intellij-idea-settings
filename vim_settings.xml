@@ -289,12 +289,13 @@
         <mark key="^" line="283" column="58" />
         <mark key="o" line="763" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1557304481429">
-        <mark key="'" line="212" column="91" />
-        <mark key="[" line="213" column="89" />
-        <mark key="]" line="213" column="92" />
-        <mark key="^" line="213" column="92" />
-        <mark key="." line="213" column="92" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1557305461579">
+        <mark key="'" line="216" column="8" />
+        <mark key="[" line="215" column="0" />
+        <mark key="]" line="215" column="0" />
+        <mark key="m" line="267" column="0" />
+        <mark key="^" line="215" column="7" />
+        <mark key="." line="215" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1557222062045">
         <mark key="'" line="69" column="4" />
@@ -373,8 +374,8 @@
         <mark key="." line="187" column="20" />
         <mark key="^" line="187" column="20" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1556181851788">
-        <mark key="'" line="171" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1557305572515">
+        <mark key="'" line="9" column="0" />
         <mark key="[" line="160" column="19" />
         <mark key="]" line="160" column="25" />
         <mark key="." line="25" column="62" />
@@ -452,9 +453,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="45" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" />
-      <jump line="43" column="59" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
-      <jump line="32" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
       <jump line="167" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/AmpDocData.java" />
       <jump line="64" column="25" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
       <jump line="95" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassRetrieve.java" />
@@ -552,6 +550,9 @@
       <jump line="283" column="58" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="198" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="212" column="91" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="216" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="48" column="0" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
+      <jump line="9" column="0" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -563,41 +564,50 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>ConfdtaVwBean confdtaVwBean = fetchConfirmationDataByBookID(emailAlert.getBookId());</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgZW1haWxBbGVydC5zZXRBbGVydFRvKGVtYWlsQWxlcnQuZ2V0QWxlcnRUbygpLmNvbmNhdCgiLCIpLmNvbmNhdChlbWFpbEFsZXJ0LmdldEVtYWlsT3JTbXMoKSkpOwo=</text>
       </register>
-      <register name="1" type="4">
-        <text>orm</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>f</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgZmluYWxBbGVydFRvID0gZW1haWxBbGVydC5nZXRBbGVydFRvKCk7Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>onfdtaVwBean</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>ConfdtaVwBean</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="4">
-        <text>fetchConfirmationDataByBookID</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>//        if (confdtaVwBean == null) {
+//          System.out.println(&quot;Attempted to send alert &quot; + emailAlert.getAlertId() + &quot;(non show notification email) but no confirmation data found.&quot;);
+//          return false;
+//        }
+//        ItinenqConfVwBean itinerary = fetchItineraryWithAvailabilities(confdtaVwBean.getSailId(), confdtaVwBean.getItinId());
+//        if (itinerary == null) {
+//          System.out.println(&quot;Attempted to send alert &quot; + emailAlert.getAlertId() + &quot;(non show notification email) but no itinerary data found.&quot;);
+//          return false;
+//        }
+//        emailAlert = parseNonShowTemplate(emailAlert, confdtaVwBean, itinerary);</text>
       </register>
       <register name="x" type="4">
         <text>orm</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBDb25mZHRhVndCZWFuIGNvbmZkdGFWd0JlYW4gPSBmZXRjaENvbmZpcm1hdGlvbkRhdGFCeUJvb2tJRChlbWFpbEFsZXJ0LmdldEJvb2tJZCgpKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="9" type="4">
+        <text>orm</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -623,16 +633,20 @@
         <entry>action PreviousOccurence</entry>
         <entry>action $SelectAll</entry>
         <entry>action SplitVertically</entry>
-        <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
+        <entry>action Back</entry>
+        <entry>action ToggleLineBreakpoint</entry>
+        <entry>action ToggleBookmark</entry>
+        <entry>action Find</entry>
+        <entry>action ShowBookmarks</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
