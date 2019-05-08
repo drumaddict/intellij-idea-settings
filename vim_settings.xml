@@ -611,7 +611,7 @@
         <text>orm</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -649,8 +649,8 @@
         <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
