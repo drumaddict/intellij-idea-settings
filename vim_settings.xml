@@ -184,12 +184,12 @@
         <mark key="[" line="120" column="0" />
         <mark key="]" line="126" column="66" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" timestamp="1555329971813">
-        <mark key="'" line="15" column="0" />
-        <mark key="[" line="84" column="19" />
-        <mark key="]" line="84" column="18" />
-        <mark key="^" line="84" column="18" />
-        <mark key="." line="84" column="18" />
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" timestamp="1557301071939">
+        <mark key="'" line="11" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="103" column="28" />
+        <mark key="^" line="49" column="41" />
+        <mark key="." line="49" column="41" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_alternate_open_recall.sql" timestamp="1554106430184">
         <mark key="'" line="0" column="0" />
@@ -278,18 +278,18 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1557233077539">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1557300730586">
         <mark key="'" line="364" column="40" />
         <mark key="j" line="358" column="14" />
         <mark key="k" line="725" column="45" />
-        <mark key="[" line="326" column="0" />
+        <mark key="[" line="1474" column="142" />
         <mark key="m" line="515" column="83" />
-        <mark key="]" line="326" column="0" />
-        <mark key="." line="326" column="0" />
-        <mark key="^" line="326" column="36" />
+        <mark key="]" line="1475" column="9" />
+        <mark key="." line="1475" column="9" />
+        <mark key="^" line="1475" column="9" />
         <mark key="o" line="763" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1556114517801">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1557300561667">
         <mark key="'" line="23" column="26" />
         <mark key="[" line="23" column="26" />
         <mark key="]" line="23" column="45" />
@@ -452,8 +452,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
-      <jump line="300" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
       <jump line="282" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
       <jump line="1581" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="54" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -552,10 +550,12 @@
       <jump line="85" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocHandler.java" />
       <jump line="368" column="48" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="173" column="59" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
+      <jump line="49" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
+      <jump line="11" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>book</text>
+        <text>ATTR</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">PCEtLVNhbXBsZSBYTUwgZmlsZSBnZW5lcmF0ZWQgYnkgWE1MU3B5IHYyMDA5IChodHRwOi8vd3d3LmFsdG92YS5jb20pLS0+</text>
@@ -564,40 +564,143 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>(</text>
+        <text>CREATE OR REPLACE FORCE VIEW &quot;PORTCTRL&quot;.&quot;ITINENQ_CONF_VW&quot;
+(
+&quot;SAIL_ID&quot;,
+&quot;ITIN_ID&quot;,
+&quot;VESS_IMO&quot;,
+&quot;VESS_NAME&quot;,
+&quot;COMP_CODE&quot;,
+&quot;COMP_NAME&quot;,
+&quot;COMP_GRPCD&quot;,
+&quot;COMP_ATTR&quot;,
+&quot;COMP_EMAIL&quot;,
+&quot;DEP_CODE&quot;,
+&quot;DEP_PORT_DESCR&quot;,
+&quot;DEP_DATE&quot;,
+&quot;ARR_CODE&quot;,
+&quot;ARR_PORT_DESCR&quot;,
+&quot;ARR_DATE&quot;,
+&quot;PLATF_NUM&quot;,
+&quot;ITIN_STATUS&quot;,
+&quot;CONDITION&quot;,
+&quot;STAT_DESCR&quot;,
+&quot;ITIN_ATTR&quot;,
+&quot;PASAVAIL&quot;,
+&quot;VEHAVAIL&quot;,
+&quot;PASREST&quot;,
+&quot;VEHREST&quot;,
+&quot;PAS_CONFIRMED_COUNT&quot;,
+&quot;VEH_CONFIRMED_COUNT&quot;,
+&quot;VEHREGISTERED&quot;,
+&quot;PASCHKIN&quot;,&quot;VEHCHKIN&quot;,
+&quot;CHECKINSTARTDATE&quot;,
+&quot;CALL_NUM&quot;,
+&quot;ACTUAL_DEP_DATE&quot;,
+&quot;REMARKS&quot;,
+&quot;PAS_ALARM&quot;,
+&quot;VEH_ALARM&quot;,
+&quot;PAS_ALARM_SENT&quot;,
+&quot;VEH_ALARM_SENT&quot;
+
+
+) AS
+  SELECT SAILING.SAIL_ID     AS SAIL_ID,
+    ITINERARY.ITIN_ID        AS ITIN_ID,
+    SAILING.VESS_IMO         AS VESS_IMO,
+    VESSELS.VESS_NAME        AS VESS_NAME,
+    SAILING.COMP_CODE        AS COMP_CODE,
+    COMPANIES.COMP_NAME      AS COMP_NAME,
+    COMPANIES.COMP_BELONGS   AS COMP_GRPCD,
+    COMPANIES.COMP_ATTR      AS COMP_ATTR,
+    COMPANIES.COMP_EMAIL     AS COMP_EMAIL,
+    SAILING.DEP_CODE         AS DEP_CODE,
+    L1.LOC_NAME              AS DEP_PORT_DESCR,
+    SAILING.DEP_DATE         AS DEP_DATE,
+    ITINERARY.ARR_CODE       AS ARR_CODE,
+    L2.LOC_NAME              AS ARR_PORT_DESCR,
+    ITINERARY.ARR_DATE       AS ARR_DATE,
+    SAILING.PLATF_NUM        AS PLATF_NUM,
+    SAILING.ITIN_STATUS      AS ITIN_STATUS,
+    SAILING.CONDITION        AS CONDITION,
+    ITINSTATUS.STAT_MESSAGE  AS STAT_DESCR,
+    SAILING.ITIN_ATTR        AS ITIN_ATTR,
+    SAILING.PASAVAIL         AS PASAVAIL,
+    SAILING.VEHAVAIL         AS VEHAVAIL,
+    AVAIL_PAS.AVAIL          AS PASREST,
+    AVAIL_VEH.AVAIL          AS VEHREST,
+    AVAIL_PAS.UNITSPRIORITY  AS PAS_CONFIRMED_COUNT,
+    AVAIL_VEH.UNITSPRIORITY  AS VEH_CONFIRMED_COUNT,
+    AVAIL_VEH.UNITSIO        AS VEHREGISTERED,
+    ONBRD_PAS.ONBOARD_CNT    AS PASCHKIN,
+    ONBRD_VEH.ONBOARD_CNT    AS VEHCHKIN,
+    SAILING.CHECKINSTARTDATE AS CHECKINSTARTDATE,
+    SAILING.CALL_NUM         AS CALL_NUM,
+    SAILING.ACTUAL_DEP_DATE  AS ACTUAL_DEP_DATE,
+    SAILING.REMARKS          AS REMARKS,
+    SAILING.PAS_ALARM        AS PAS_ALARM,
+    SAILING.VEH_ALARM        AS VEH_ALARM,
+    SAILING.PAS_ALARM_SENT   AS PAS_ALARM_SENT,
+    SAILING.VEH_ALARM_SENT   AS VEH_ALARM_SENT
+
+  FROM ITINERARY ITINERARY
+  JOIN SAILING
+  ON (SAILING.SAIL_ID=ITINERARY.SAIL_ID)
+  JOIN VESSELS
+  ON (VESSELS.VESS_IMO=SAILING.VESS_IMO)
+  JOIN COMPANIES
+  ON (COMPANIES.COMP_CODE=SAILING.COMP_CODE)
+  JOIN LOCATIONS L1
+  ON (L1.LOC_CODE=SAILING.DEP_CODE)
+  JOIN LOCATIONS L2
+  ON (L2.LOC_CODE=ITINERARY.ARR_CODE)
+  JOIN ITINSTATUS
+  ON (ITINSTATUS.ITIN_STATUS=SAILING.ITIN_STATUS)
+  JOIN AVAILABILITY AVAIL_PAS
+  ON (AVAIL_PAS.SAIL_ID=ITINERARY.SAIL_ID
+  AND AVAIL_PAS.PASVEH ='P')
+  JOIN AVAILABILITY AVAIL_VEH
+  ON (AVAIL_VEH.SAIL_ID=ITINERARY.SAIL_ID
+  AND AVAIL_VEH.PASVEH ='V')
+  JOIN ONBOARD ONBRD_PAS
+  ON (ONBRD_PAS.SAIL_ID=ITINERARY.SAIL_ID
+  AND ONBRD_PAS.PASVEH ='P')
+  JOIN ONBOARD ONBRD_VEH
+  ON (ONBRD_VEH.SAIL_ID=ITINERARY.SAIL_ID
+  AND ONBRD_VEH.PASVEH ='V');</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBhbnN3ZXJTdGF0dXNJbmZvLnNldFN0YXR1c01lc3NhZ2UodmVuZG9yU3RhdHVzTWVzc2FnZSk7Cg==</text>
+      <register name="1" type="4">
+        <text>ATTR</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBhbnN3ZXJTdGF0dXNJbmZvLnNldFN0YXR1c0NvZGUodmVuZG9yU3RhdHVzQ29kZSk7Cg==</text>
+      <register name="2" type="4">
+        <text>ATTR</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBhbnN3ZXJTdGF0dXNJbmZvLnNldFNldmVyZSh0cnVlKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBhbnN3ZXJTdGF0dXNJbmZvLnNldFN0YXR1c01lc3NhZ2UodmVuZG9yU3RhdHVzTWVzc2FnZSk7Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>book</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICBhbnN3ZXJTdGF0dXNJbmZvLnNldFN0YXR1c0NvZGUodmVuZG9yU3RhdHVzQ29kZSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vIFVzZXIgQXV0aGVudGljYXRpb24K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBhbnN3ZXJTdGF0dXNJbmZvLnNldFNldmVyZSh0cnVlKTsK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">IyBUYW5nZXIgTWVkICBQb3J0IENoZWNraW4gQ29udHJvbAo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">IyBUYW5nZXIgTWVkICBQb3J0IENoZWNraW4gQ29udHJvbAo=</text>
-      </register>
-      <register name="x" type="4">
+      <register name="6" type="4">
         <text>book</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIC8vIFVzZXIgQXV0aGVudGljYXRpb24K</text>
+      </register>
+      <register name="x" type="4">
+        <text>ATTR</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBwcml2YXRlIHN0YXRpYyBMaXN0PEFNUFN0YXR1cz4gVkFMSURfUFJFVklPVVNfQU1QX1NUQVRVU0VTID0gbmV3IEFycmF5TGlzdDxBTVBTdGF0dXM+KCk7Cg==</text>
+        <text encoding="base64">IyBUYW5nZXIgTWVkICBQb3J0IENoZWNraW4gQ29udHJvbAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IyBUYW5nZXIgTWVkICBQb3J0IENoZWNraW4gQ29udHJvbAo=</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -618,21 +721,21 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action CloseContent</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action RenameElement</entry>
-        <entry>action NextTab</entry>
         <entry>action AceAction</entry>
-        <entry>action FindUsages</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action $SelectAll</entry>
         <entry>action SplitVertically</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action FindUsages</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
