@@ -325,7 +325,7 @@
         <mark key="." line="375" column="99" />
         <mark key="^" line="375" column="99" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1557326120319">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1557384706893">
         <mark key="'" line="2075" column="0" />
         <mark key="[" line="1082" column="35" />
         <mark key="]" line="1082" column="34" />
@@ -607,7 +607,7 @@
         <text>orm</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -640,8 +640,8 @@
         <entry>action SaveAll</entry>
         <entry>action ToggleBookmark</entry>
         <entry>action FindUsages</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
