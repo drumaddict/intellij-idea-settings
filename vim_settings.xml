@@ -325,12 +325,12 @@
         <mark key="." line="375" column="99" />
         <mark key="^" line="375" column="99" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1557394320132">
-        <mark key="'" line="601" column="22" />
-        <mark key="[" line="602" column="34" />
-        <mark key="]" line="602" column="40" />
-        <mark key="^" line="602" column="40" />
-        <mark key="." line="602" column="40" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1557402207479">
+        <mark key="'" line="529" column="63" />
+        <mark key="[" line="529" column="0" />
+        <mark key="]" line="529" column="0" />
+        <mark key="^" line="529" column="13" />
+        <mark key="." line="529" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1556185693073">
         <mark key="'" line="0" column="0" />
@@ -459,7 +459,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="52" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
       <jump line="54" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
       <jump line="149" column="173" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
       <jump line="49" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
@@ -556,9 +555,10 @@
       <jump line="691" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="529" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="547" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="530" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="528" column="16" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="601" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="528" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="602" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="530" column="63" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -571,45 +571,43 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>String tmp = String.format(&quot;%010d-%s-%05d&quot;, normalTicket.getBookId(), &quot;P&quot;, tcnt);
-                boardData.add(tmp);
-                tcnt--;</text>
+        <text>// tickets from Bookline, and go to next iteration</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAvLyB0aWNrZXRzIGZyb20gQm9va2xpbmUK</text>
+      </register>
+      <register name="2" type="4">
         <text>Ticket</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>setStatusCode</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>alse</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>setSevere</text>
       </register>
-      <register name="6" type="4">
-        <text>ServiceMessage</text>
-      </register>
       <register name="7" type="4">
-        <text>new</text>
+        <text>ServiceMessage</text>
       </register>
       <register name="x" type="4">
         <text>Ticket</text>
       </register>
       <register name="8" type="4">
+        <text>new</text>
+      </register>
+      <register name="9" type="4">
         <text>MessageHeader header = new MessageHeader();
       header.getStatusInfo().setSevere(false);
       header.getStatusInfo().setStatusCode(&quot;000&quot;);
       header.getStatusInfo().setStatusMessage(&quot;NO OPEN POST happened&quot;);</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -633,20 +631,20 @@
         <entry>action Back</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action GotoFile</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action NextTab</entry>
         <entry>action AceAction</entry>
         <entry>action SurroundWith</entry>
         <entry>action RenameElement</entry>
-        <entry>action ReformatCode</entry>
         <entry>450</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action ToggleBookmark</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
-        <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
