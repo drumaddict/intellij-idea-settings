@@ -46,6 +46,13 @@
         <mark key="^" line="1175" column="65" />
         <mark key="." line="1175" column="65" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_TRANSFER.sql" timestamp="1557494568307">
+        <mark key="'" line="2" column="211" />
+        <mark key="[" line="5" column="45" />
+        <mark key="]" line="5" column="44" />
+        <mark key="." line="5" column="44" />
+        <mark key="^" line="5" column="44" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" timestamp="1555321761378">
         <mark key="'" line="183" column="4" />
         <mark key="[" line="195" column="0" />
@@ -67,10 +74,10 @@
         <mark key="^" line="53" column="0" />
         <mark key="." line="53" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_NON_SHOW.sql" timestamp="1557476276355">
-        <mark key="'" line="1" column="107" />
-        <mark key="[" line="5" column="79" />
-        <mark key="]" line="5" column="77" />
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_NON_SHOW.sql" timestamp="1557494281178">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="6" column="45" />
         <mark key="." line="5" column="77" />
         <mark key="^" line="5" column="77" />
       </file>
@@ -261,7 +268,7 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1557482125214">
+      <file name="/Dummy.txt" timestamp="1557493809111">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -456,10 +463,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocHandler.java" />
-      <jump line="116" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
-      <jump line="85" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocHandler.java" />
-      <jump line="368" column="48" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="173" column="59" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
       <jump line="49" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
       <jump line="11" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
@@ -556,36 +559,55 @@
       <jump line="64" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" />
       <jump line="52" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" />
       <jump line="1332" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_NON_SHOW.sql" />
+      <jump line="6" column="45" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_TRANSFER.sql" />
+      <jump line="1" column="45" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_TRANSFER.sql" />
+      <jump line="2" column="211" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_TRANSFER.sql" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>criteriaSQL</text>
+        <text>Mr/Mrs [passSname], you are kindly informed that you did not show up in time for the boarding process of your confirmed trip with itinerary of  [vessName] of company [compName]  with  departure date [departureDate],  departure port [departurePortDescr], arrivalPort [arrivalPortDescrj. Therefore your confirmation is no longer valid.</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Qm9va2xpbmVPcGVuQmVhbiA=</text>
+        <text>]</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIFN0cmluZ0J1ZmZlciBjcml0ZXJpYVNRTCA9IG5ldyBTdHJpbmdCdWZmZXIoKTsK</text>
+      <register name="0" type="4">
+        <text>update alertconfig a
+set a.alert_subj = 'Non Show  Notification for Ticket with reservation code [bookingNumber], ticket number [ticketNumber]',
+a.alert_body = 'Mr/Mrs [passSname], you are kindly informed that you did not show up in time for the boarding process of your confirmed trip with itinerary of  [vessName] of company [compName]  with  departure date [departureDate],  departure port [departurePortDescr], arrivalPort [arrivalPortDescr].
+Therefore your confirmation is no longer valid.',
+a.alert_cc = 'boarding.tm@tangermed.ma',
+a.alert_to = 'spiros.kabasakalis@liknoss.com;manos@gmail.com;baddr@morocco.com'
+where a.alert_type ='E' and a.alert_kind = 'N'</text>
       </register>
       <register name="1" type="4">
+        <text>Mr/Mrs [passSname], you are kindly informed that you did not show up in time for the boarding process of your confirmed trip with itinerary of  [vessName] of company [compName]  with  departure date [departureDate],  departure port [departurePortDescr], arrivalPort [arrivalPortDescrj. Therefore your confirmation is no longer valid.</text>
+      </register>
+      <register name="2" type="4">
+        <text>Non Show  Notification for Ticket with reservation code [bookingNumber], ticket number [ticketNumber]</text>
+      </register>
+      <register name="3" type="4">
         <text>criteriaSQL</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Ly8gICAgaWYgKHByaW9jaGVja0JlYW4uZ2V0UHJpU3RhdHVzKCkuY29tcGFyZVRvKENvbmZpcm1hdGlvblN0YXR1cy5QLnRvU3RyaW5nKCkpICE9IDApIHsK</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">Ly8gICAgaWYgKHByaW9jaGVja0JlYW4uZ2V0UHJpU3RhdHVzKCkuY29tcGFyZVRvKENvbmZpcm1hdGlvblN0YXR1cy5QLnRvU3RyaW5nKCkpICE9IDApIHsK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="x" type="4">
+        <text>Mr/Mrs [passSname], you are kindly informed that you did not show up in time for the boarding process of your confirmed trip with itinerary of  [vessName] of company [compName]  with  departure date [departureDate],  departure port [departurePortDescr], arrivalPort [arrivalPortDescrj. Therefore your confirmation is no longer valid.</text>
+      </register>
+      <register name="8" type="4">
         <text>//    PriocheckBean[] priocheckBeans = PriocheckManager.getInstance().loadByWhere(String.format(&quot;WHERE BOOK_ID= %d ORDER BY PRIOCHECK_ID DESC &quot;, BookId));
 //    // can't cancel someone who was not confirmed in the first place.
 //    if (priocheckBeans.length == 0) {
@@ -606,17 +628,8 @@
 //
 //    PriocheckBean priocheckBean = priocheckBeans[0];</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICBFbWJhcmthdGlvbkl0ZW1UeXBlLlYudG9TdHJpbmcoKQo=</text>
-      </register>
-      <register name="x" type="4">
-        <text>criteriaSQL</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICBFbWJhcmthdGlvbkl0ZW1UeXBlLlAudG9TdHJpbmcoKSwK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICBFbWJhcmthdGlvbkl0ZW1UeXBlLlYudG9TdHJpbmcoKQo=</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -652,10 +665,10 @@
         <entry>action Find</entry>
         <entry>action RenameElement</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
