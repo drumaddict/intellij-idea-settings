@@ -17,6 +17,7 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="27" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/NONSHOW_NOTE_BUG.sql" timestamp="1557474904234" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/AmpDocDataDescriptor.java" timestamp="1556109598831">
         <mark key="'" line="207" column="0" />
         <mark key="[" line="13" column="35" />
@@ -66,12 +67,12 @@
         <mark key="^" line="53" column="0" />
         <mark key="." line="53" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_NON_SHOW.sql" timestamp="1557470818045">
-        <mark key="'" line="4" column="42" />
-        <mark key="[" line="6" column="45" />
-        <mark key="]" line="6" column="44" />
-        <mark key="." line="6" column="44" />
-        <mark key="^" line="6" column="44" />
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_NON_SHOW.sql" timestamp="1557476276355">
+        <mark key="'" line="1" column="107" />
+        <mark key="[" line="5" column="79" />
+        <mark key="]" line="5" column="77" />
+        <mark key="." line="5" column="77" />
+        <mark key="^" line="5" column="77" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/BoardingPdf.java" timestamp="1556090435488">
         <mark key="'" line="356" column="0" />
@@ -168,6 +169,12 @@
         <mark key="]" line="2" column="82" />
         <mark key="^" line="1" column="0" />
         <mark key="." line="5" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_AVAILAB.sql" timestamp="1557476266263">
+        <mark key="[" line="4" column="79" />
+        <mark key="]" line="4" column="77" />
+        <mark key="^" line="4" column="77" />
+        <mark key="." line="4" column="77" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messageHistory/descriptors/BookingDescriptor.java" timestamp="1556092164519">
         <mark key="'" line="106" column="0" />
@@ -266,25 +273,25 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1557472565347">
-        <mark key="'" line="1601" column="2" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1557476151881">
+        <mark key="'" line="1736" column="0" />
         <mark key="j" line="358" column="14" />
         <mark key="k" line="725" column="45" />
-        <mark key="[" line="1566" column="36" />
+        <mark key="[" line="1737" column="0" />
         <mark key="m" line="1333" column="16" />
-        <mark key="]" line="1566" column="36" />
-        <mark key="^" line="1566" column="36" />
-        <mark key="." line="1566" column="36" />
+        <mark key="]" line="1737" column="0" />
+        <mark key="^" line="1735" column="3" />
+        <mark key="." line="1737" column="0" />
         <mark key="o" line="763" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1557472861739">
-        <mark key="'" line="294" column="6" />
-        <mark key="[" line="260" column="100" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1557474502655">
+        <mark key="'" line="288" column="78" />
+        <mark key="[" line="288" column="16" />
         <mark key="m" line="267" column="0" />
-        <mark key="]" line="261" column="5" />
+        <mark key="]" line="288" column="22" />
         <mark key="n" line="188" column="8" />
-        <mark key="." line="261" column="5" />
-        <mark key="^" line="261" column="5" />
+        <mark key="." line="288" column="22" />
+        <mark key="^" line="288" column="22" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1557222062045">
         <mark key="'" line="69" column="4" />
@@ -369,12 +376,12 @@
         <mark key="." line="187" column="20" />
         <mark key="^" line="187" column="20" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1557306434010">
+      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1557476192993">
         <mark key="'" line="9" column="0" />
-        <mark key="[" line="160" column="26" />
-        <mark key="]" line="160" column="25" />
-        <mark key="." line="25" column="62" />
-        <mark key="^" line="160" column="25" />
+        <mark key="[" line="160" column="20" />
+        <mark key="]" line="160" column="24" />
+        <mark key="." line="160" column="24" />
+        <mark key="^" line="160" column="24" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/TicketEnquiry.java" timestamp="1555941105730">
         <mark key="'" line="1016" column="93" />
@@ -455,13 +462,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="314" column="106" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="310" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="318" column="84" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="339" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="289" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="328" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="309" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="356" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="97" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="42" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
@@ -548,17 +548,24 @@
       <jump line="1913" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="300" column="88" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="3" column="46" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_NON_SHOW.sql" />
-      <jump line="1" column="41" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_NON_SHOW.sql" />
       <jump line="4" column="42" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_NON_SHOW.sql" />
       <jump line="219" column="89" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="295" column="108" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="1528" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1601" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="294" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="262" column="106" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="265" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="2" column="23" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_NON_SHOW.sql" />
+      <jump line="295" column="37" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="296" column="42" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="1" column="107" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_NON_SHOW.sql" />
+      <jump line="297" column="40" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="288" column="78" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="1736" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>acc@acc.com</text>
+        <text>body</text>
       </register>
       <register name="-" type="4">
         <text>{</text>
@@ -567,40 +574,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>String finalAlertTo = StringUtils.defaultIfEmpty(alertVwBean.getAlertTo(), &quot;&quot;).concat(&quot;,&quot;).
-              concat(StringUtils.defaultIfEmpty(embarkdtaConfVwBean.getConfEmail(), &quot;&quot;)).replace(&quot;;&quot;, &quot;,&quot;);</text>
+        <text>[ticketNumber]</text>
       </register>
-      <register name="1" type="4">
-        <text>acc@acc.com</text>
-      </register>
-      <register name="2" type="4">
-        <text>LOW AVAILABILITY  for [vessName] - [compName], departure date: [departureDate].</text>
-      </register>
-      <register name="3" type="4">
-        <text>Availability for vessel [vessName] of company [compName]  with sailId [sailId], itineraryID [itinId] , departure date [departureDate] departure port [departurePortDescr], arrivalPort [arrivalPortDescr], [embarkationType] capacity [avail] has reached the threshold value of [alarmCount], ( [alarmPercent] %) as there are already [confirmedCounter] confirmed [embarkationType]s. This email is sent as a warning.</text>
-      </register>
-      <register name="4" type="2">
+      <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgYWxlcnRWd0JlYW4uc2V0RW1haWxPclNtcyhTdHJpbmdVdGlscy5kZWZhdWx0SWZFbXB0eShlbWJhcmtkdGFDb25mVndCZWFuLmdldENvbmZFbWFpbCgpLCAiIikpOwo=</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Ly8gICAgU3RyaW5nIE5PVyA9ICIyMDE5LTA1LTA5IDE0OjUwOjUyIjsK</text>
+      </register>
+      <register name="4" type="4">
+        <text>body</text>
+      </register>
+      <register name="5" type="4">
+        <text>body</text>
       </register>
       <register name="6" type="4">
-        <text>String finalAlertTo = (StringUtils.isEmpty(alertVwBean.getAlertTo())) ?
-              alertVwBean.getEmailOrSms() :
-              alertVwBean.getAlertTo().concat(&quot;,&quot;).concat(alertVwBean.getEmailOrSms());</text>
+        <text>body</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgYWxlcnRWd0JlYW4uCg==</text>
+      <register name="7" type="4">
+        <text>body</text>
       </register>
       <register name="x" type="4">
-        <text>acc@acc.com</text>
+        <text>body</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgYWxlcnRWd0JlYW4uc2V0RW1haWxPclNtcyhlbWJhcmtkdGFDb25mVndCZWFuLmdldENvbmZFbWFpbCgpKTsK</text>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgICAgYm9keSA9IGJvZHkucmVwbGFjZSgiW2Jvb2tpbmdOdW1iZXJdIiwgZW1iYXJrZHRhQ29uZlZ3QmVhbi5nZXRSZXNlcnZjb2RlKCkpOwogICAgICBib2R5ID0gYm9keS5yZXBsYWNlKCJbdGlja2V0TnVtYmVyXSIsIGVtYmFya2R0YUNvbmZWd0JlYW4uZ2V0VGlja051bWIoKSk7</text>
       </register>
       <register name="9" type="4">
-        <text>confdtaVwBean</text>
+        <text>getReservcode</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -618,7 +622,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Back</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action VimFilePrevious</entry>
@@ -630,13 +633,14 @@
         <entry>action FileStructurePopup</entry>
         <entry>action RenameElement</entry>
         <entry>1333</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
