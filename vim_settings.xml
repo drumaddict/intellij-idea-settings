@@ -632,7 +632,7 @@ where a.alert_type ='E' and a.alert_kind = 'N'</text>
         <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICBFbWJhcmthdGlvbkl0ZW1UeXBlLlYudG9TdHJpbmcoKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -661,7 +661,6 @@ where a.alert_type ='E' and a.alert_kind = 'N'</text>
         <entry>action AceAction</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
         <entry>action RenameElement</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
         <entry>action NextTab</entry>
@@ -670,6 +669,7 @@ where a.alert_type ='E' and a.alert_kind = 'N'</text>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
