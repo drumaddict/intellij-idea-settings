@@ -610,7 +610,7 @@
         <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgREVQX0RBVEUgPD0gREFURSAnIiArIERhdGVVdGlscy5kYXNoZXJpemVEYXRlU3RyaW5nKGRlcGFydHVyZVRvKSArICInIik7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -642,12 +642,12 @@
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Forward</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
