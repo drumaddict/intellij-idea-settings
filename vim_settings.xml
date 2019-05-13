@@ -240,12 +240,13 @@
         <mark key="^" line="46" column="56" />
         <mark key="." line="47" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1557491501155">
-        <mark key="'" line="51" column="8" />
-        <mark key="[" line="51" column="0" />
-        <mark key="]" line="51" column="0" />
-        <mark key="n" line="55" column="77" />
-        <mark key="." line="51" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1557740750944">
+        <mark key="'" line="42" column="4" />
+        <mark key="[" line="42" column="57" />
+        <mark key="]" line="42" column="60" />
+        <mark key="n" line="56" column="77" />
+        <mark key="." line="42" column="60" />
+        <mark key="^" line="42" column="60" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1555332994322">
         <mark key="'" line="163" column="113" />
@@ -412,12 +413,12 @@
         <mark key="^" line="173" column="1" />
         <mark key="." line="158" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1557483374036">
-        <mark key="'" line="124" column="4" />
-        <mark key="[" line="131" column="0" />
-        <mark key="]" line="131" column="0" />
-        <mark key="." line="131" column="0" />
-        <mark key="^" line="131" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1557740925149">
+        <mark key="'" line="126" column="4" />
+        <mark key="[" line="126" column="70" />
+        <mark key="]" line="126" column="49" />
+        <mark key="." line="126" column="49" />
+        <mark key="^" line="126" column="49" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/DATA_RANGE_BUG.sql" timestamp="1557728440294" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/AmpDocDescriptor.java" timestamp="1556110195283">
@@ -464,8 +465,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="279" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="283" column="58" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="198" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="212" column="91" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="216" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
@@ -564,10 +563,12 @@
       <jump line="174" column="11" filename="$USER_HOME$/projects/port-checkin-control/src/workers/CountriesIndex.java" />
       <jump line="173" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/CountriesIndex.java" />
       <jump line="175" column="37" filename="$USER_HOME$/projects/port-checkin-control/src/workers/CountriesIndex.java" />
+      <jump line="42" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" />
+      <jump line="126" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text encoding="base64">IFdIRVJFIA==</text>
+        <text>BoardStatus.N.toString()</text>
       </register>
       <register name="-" type="4">
         <text>xed CITINERARY bug</text>
@@ -575,41 +576,41 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">IE9SREVSIEJZIENOVFJfTkFNRSA=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIFZBTElEX0JPQVJEX1NUQVRVU0VTX0ZPUl9DT05GSVJNQVRJT04uYWRkKEJvYXJkU3RhdHVzLk4udG9TdHJpbmcoKSk7Cg==</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>BoardStatus.N.toString()</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgIH0gZWxzZSB7Cg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">IFdIRVJFIA==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>ordersql</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Ly8gICAgICAgICAgICBzcWwgPSAiIE9SREVSIEJZIENOVFJfQ09ERSAiOwo=</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIGlmIChjb0ZpZWxkcy5nZXRDb3VudHJ5KDApLmdldFRocmVlTHRyQ29kZSgpLnRyaW0oKS5jb21wYXJlVG8oIiIpICE9IDApIHsK</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIH0K</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgIHNxbCA9IHNxbCArICJPUkRFUiBCWSBDTlRSX05BTSIK</text>
-      </register>
       <register name="x" type="4">
-        <text encoding="base64">IFdIRVJFIA==</text>
+        <text>BoardStatus.N.toString()</text>
       </register>
       <register name="8" type="2">
+        <text encoding="base64">ICAgICAgIHNxbCA9IHNxbCArICJPUkRFUiBCWSBDTlRSX05BTSIK</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgREVQX0RBVEUgPD0gREFURSAnIiArIERhdGVVdGlscy5kYXNoZXJpemVEYXRlU3RyaW5nKGRlcGFydHVyZVRvKSArICInIik7Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>Mr/Mrs [passSname], you are kindly informed that you did not show up in time for the boarding process of your confirmed trip with itinerary of  [vessName] of company [compName]  with  departure date [departureDate],  departure port [departurePortDescr], arrivalPort [arrivalPortDescrj. Therefore your confirmation is no longer valid.</text>
-      </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -638,8 +639,6 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action RenameElement</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
-        <entry>action FindUsages</entry>
-        <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action Find</entry>
@@ -647,6 +646,8 @@
         <entry>action Forward</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
