@@ -331,6 +331,11 @@
         <mark key="^" line="529" column="13" />
         <mark key="." line="529" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/EMBDTA_ERADICATE_MJLTIPLES.sql" timestamp="1557748426856">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1556185693073">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -572,7 +577,7 @@
         <text>BoardStatus.N.toString()</text>
       </register>
       <register name="-" type="4">
-        <text>xed CITINERARY bug</text>
+        <text>documentation/sql/EMBDTA_ERADICATE_MJLTIPLES.sql:1</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
@@ -611,7 +616,7 @@
         <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgREVQX0RBVEUgPD0gREFURSAnIiArIERhdGVVdGlscy5kYXNoZXJpemVEYXRlU3RyaW5nKGRlcGFydHVyZVRvKSArICInIik7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -645,10 +650,10 @@
         <entry>action Find</entry>
         <entry>action Forward</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
