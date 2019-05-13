@@ -261,10 +261,10 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1557493809111">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="/Dummy.txt" timestamp="1557737719046">
+        <mark key="[" line="0" column="2" />
+        <mark key="]" line="0" column="2" />
+        <mark key="." line="0" column="2" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1557730785879">
         <mark key="b" line="110" column="7" />
@@ -350,6 +350,13 @@
         <mark key="^" line="41" column="123" />
         <mark key="." line="12" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/CountriesIndex.java" timestamp="1557737554608">
+        <mark key="'" line="174" column="37" />
+        <mark key="[" line="174" column="58" />
+        <mark key="]" line="174" column="52" />
+        <mark key="." line="174" column="52" />
+        <mark key="^" line="174" column="52" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" timestamp="1556110590871">
         <mark key="'" line="288" column="37" />
         <mark key="[" line="284" column="47" />
@@ -434,7 +441,7 @@
         <mark key="^" line="2" column="207" />
         <mark key="." line="2" column="207" />
       </file>
-      <file name="/fragment.java" timestamp="1557730096530">
+      <file name="/fragment.java" timestamp="1557737476925">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -457,12 +464,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="49" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
-      <jump line="11" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" />
-      <jump line="197" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="223" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="257" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="302" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="279" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="283" column="58" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="198" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
@@ -557,70 +558,58 @@
       <jump line="1" column="45" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_TRANSFER.sql" />
       <jump line="2" column="211" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_TRANSFER.sql" />
       <jump line="446" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="150" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/CountriesIndex.java" />
+      <jump line="164" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/CountriesIndex.java" />
+      <jump line="167" column="3" filename="$USER_HOME$/projects/port-checkin-control/src/workers/CountriesIndex.java" />
+      <jump line="174" column="11" filename="$USER_HOME$/projects/port-checkin-control/src/workers/CountriesIndex.java" />
+      <jump line="173" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/CountriesIndex.java" />
+      <jump line="175" column="37" filename="$USER_HOME$/projects/port-checkin-control/src/workers/CountriesIndex.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>Mr/Mrs [passSname], you are kindly informed that you did not show up in time for the boarding process of your confirmed trip with itinerary of  [vessName] of company [compName]  with  departure date [departureDate],  departure port [departurePortDescr], arrivalPort [arrivalPortDescrj. Therefore your confirmation is no longer valid.</text>
+        <text encoding="base64">IFdIRVJFIA==</text>
       </register>
       <register name="-" type="4">
-        <text>DateUtils.forwardNDaysShort(de)</text>
+        <text>xed CITINERARY bug</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgREVQX0RBVEUgPD0gREFURSAnIiArIERhdGVVdGlscy5kYXNoZXJpemVEYXRlU3RyaW5nKGRlcGFydHVyZVRvKSArICInIik7CiAgICAgICAgICAgICAgICAgICAgIiBERVBfREFURSA8PSBEQVRFICciICsgRGF0ZVV0aWxzLmZvcndhcmRORGF5c1Nob3J0KGRlcGFydHVyZVRvLCAxKSArICInIik7Cg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">IE9SREVSIEJZIENOVFJfTkFNRSA=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgREVQX0RBVEUgPD0gREFURSAnIiArIERhdGVVdGlscy5kYXNoZXJpemVEYXRlU3RyaW5nKGRlcGFydHVyZVRvKSArICInIik7Cg==</text>
+        <text encoding="base64">ICAgIH0gZWxzZSB7Cg==</text>
       </register>
       <register name="2" type="4">
-        <text>Mr/Mrs [passSname], you are kindly informed that you did not show up in time for the boarding process of your confirmed trip with itinerary of  [vessName] of company [compName]  with  departure date [departureDate],  departure port [departurePortDescr], arrivalPort [arrivalPortDescrj. Therefore your confirmation is no longer valid.</text>
+        <text encoding="base64">IFdIRVJFIA==</text>
       </register>
       <register name="3" type="4">
-        <text>Non Show  Notification for Ticket with reservation code [bookingNumber], ticket number [ticketNumber]</text>
+        <text>ordersql</text>
       </register>
-      <register name="4" type="4">
-        <text>criteriaSQL</text>
+      <register name="4" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgICBzcWwgPSAiIE9SREVSIEJZIENOVFJfQ09ERSAiOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGlmIChjb0ZpZWxkcy5nZXRDb3VudHJ5KDApLmdldFRocmVlTHRyQ29kZSgpLnRyaW0oKS5jb21wYXJlVG8oIiIpICE9IDApIHsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgaWYgKHByaW9jaGVja0JlYW4uZ2V0UHJpU3RhdHVzKCkuY29tcGFyZVRvKENvbmZpcm1hdGlvblN0YXR1cy5QLnRvU3RyaW5nKCkpICE9IDApIHsK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgIHNxbCA9IHNxbCArICJPUkRFUiBCWSBDTlRSX05BTSIK</text>
       </register>
       <register name="x" type="4">
-        <text>Mr/Mrs [passSname], you are kindly informed that you did not show up in time for the boarding process of your confirmed trip with itinerary of  [vessName] of company [compName]  with  departure date [departureDate],  departure port [departurePortDescr], arrivalPort [arrivalPortDescrj. Therefore your confirmation is no longer valid.</text>
+        <text encoding="base64">IFdIRVJFIA==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgREVQX0RBVEUgPD0gREFURSAnIiArIERhdGVVdGlscy5kYXNoZXJpemVEYXRlU3RyaW5nKGRlcGFydHVyZVRvKSArICInIik7Cg==</text>
       </register>
       <register name="9" type="4">
-        <text>//    PriocheckBean[] priocheckBeans = PriocheckManager.getInstance().loadByWhere(String.format(&quot;WHERE BOOK_ID= %d ORDER BY PRIOCHECK_ID DESC &quot;, BookId));
-//    // can't cancel someone who was not confirmed in the first place.
-//    if (priocheckBeans.length == 0) {
-//      dbERROR = true;
-//      dbErrStr = &quot;Passenger/vehicle with bookID: &quot;
-//              + BookId + &quot; has not been confirmed in the first place, so cannot be cancelled.&quot;;
-//      throw new DataValidationException(dbErrStr);
-//    }
-//
-//    if (!VALID_STATUSES_FOR_CANCELLATION.contains(priocheckBeans[0].getPriStatus())) {
-//      dbERROR = true;
-//      dbErrStr =
-//              &quot;BookID &quot; + BookId +
-//                      &quot; possibly already cancelled: It has Confirmation Status: &quot; +
-//                      priocheckBeans[0].getPriStatus();
-//      throw new DataValidationException(dbErrStr);
-//    }
-//
-//    PriocheckBean priocheckBean = priocheckBeans[0];</text>
+        <text>Mr/Mrs [passSname], you are kindly informed that you did not show up in time for the boarding process of your confirmed trip with itinerary of  [vessName] of company [compName]  with  departure date [departureDate],  departure port [departurePortDescr], arrivalPort [arrivalPortDescrj. Therefore your confirmation is no longer valid.</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -649,14 +638,15 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action RenameElement</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
-        <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
+        <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Forward</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
