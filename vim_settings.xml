@@ -17,6 +17,12 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="27" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FerryOperatorDashboardHandler.java" timestamp="1557757396954">
+        <mark key="[" line="116" column="50" />
+        <mark key="]" line="116" column="53" />
+        <mark key="^" line="116" column="53" />
+        <mark key="." line="116" column="53" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/AmpDocDataDescriptor.java" timestamp="1556109598831">
         <mark key="'" line="207" column="0" />
         <mark key="[" line="13" column="35" />
@@ -171,12 +177,6 @@
         <mark key="^" line="1" column="0" />
         <mark key="." line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_AVAILAB.sql" timestamp="1557476266263">
-        <mark key="[" line="4" column="79" />
-        <mark key="]" line="4" column="77" />
-        <mark key="^" line="4" column="77" />
-        <mark key="." line="4" column="77" />
-      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messageHistory/descriptors/BookingDescriptor.java" timestamp="1556092164519">
         <mark key="'" line="106" column="0" />
         <mark key="[" line="106" column="0" />
@@ -273,16 +273,16 @@
         <mark key="]" line="0" column="2" />
         <mark key="." line="0" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1557743649880">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1557757427514">
         <mark key="b" line="110" column="7" />
-        <mark key="'" line="1337" column="3" />
+        <mark key="'" line="2106" column="2" />
         <mark key="j" line="358" column="14" />
         <mark key="k" line="726" column="45" />
-        <mark key="[" line="1337" column="3" />
+        <mark key="[" line="2096" column="62" />
         <mark key="m" line="1334" column="16" />
-        <mark key="]" line="1337" column="50" />
-        <mark key="^" line="446" column="31" />
-        <mark key="." line="446" column="31" />
+        <mark key="]" line="2096" column="65" />
+        <mark key="^" line="2096" column="65" />
+        <mark key="." line="2096" column="65" />
         <mark key="o" line="764" column="50" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1557222062045">
@@ -327,12 +327,12 @@
         <mark key="^" line="529" column="13" />
         <mark key="." line="529" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/EMBDTA_ERADICATE_MJLTIPLES.sql" timestamp="1557755961153">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/EMBDTA_ERADICATE_MJLTIPLES.sql" timestamp="1557757089212">
         <mark key="'" line="31" column="35" />
         <mark key="[" line="67" column="5" />
-        <mark key="]" line="67" column="4" />
-        <mark key="." line="67" column="4" />
-        <mark key="^" line="67" column="4" />
+        <mark key="]" line="53" column="23" />
+        <mark key="." line="53" column="23" />
+        <mark key="^" line="53" column="23" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1556185693073">
         <mark key="'" line="0" column="0" />
@@ -362,18 +362,17 @@
         <mark key="." line="174" column="52" />
         <mark key="^" line="174" column="52" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_LAST_VW.sql" timestamp="1557757093493">
+        <mark key="]" line="68" column="4" />
+        <mark key="^" line="68" column="4" />
+        <mark key="." line="68" column="4" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" timestamp="1556110590871">
         <mark key="'" line="288" column="37" />
         <mark key="[" line="284" column="47" />
         <mark key="]" line="284" column="36" />
         <mark key="." line="284" column="36" />
         <mark key="^" line="284" column="36" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassCancel.java" timestamp="1557390217486">
-        <mark key="[" line="303" column="2" />
-        <mark key="]" line="303" column="14" />
-        <mark key="." line="303" column="14" />
-        <mark key="^" line="303" column="14" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messageHistory/Booking.java" timestamp="1556091996276">
         <mark key="'" line="180" column="0" />
@@ -469,14 +468,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="255" column="74" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/EmbarkationBatchUpdatePoller.java" />
-      <jump line="193" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/CompaniesIndex.java" />
-      <jump line="205" column="52" filename="$USER_HOME$/projects/port-checkin-control/src/workers/CompaniesIndex.java" />
-      <jump line="1959" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="1989" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="516" column="92" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="522" column="136" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="511" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="580" column="87" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="583" column="140" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1936" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
@@ -569,10 +560,18 @@
       <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_VW.sql" />
       <jump line="160" column="43" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_LAST.sql" />
       <jump line="105" column="43" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_LAST.sql" />
+      <jump line="1770" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="1858" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="1992" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2031" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2055" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2078" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2083" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2106" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>BoardStatus.N.toString()</text>
+        <text>EmbarkdtaConfVwManager</text>
       </register>
       <register name="-" type="4">
         <text>documentation/sql/EMBDTA_ERADICATE_MJLTIPLES.sql:1</text>
@@ -581,200 +580,50 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>CREATE OR REPLACE FORCE VIEW &quot;PORTCTRL&quot;.&quot;EMBARKDTA_CONF_VW&quot;
-(
- &quot;BOOK_ID&quot;,
- &quot;BOOK_TYPE&quot;,
- &quot;SAIL_ID&quot;,
- &quot;COMP_CODE&quot;,
- &quot;COMP_NAME&quot;,
- &quot;DEP_CODE&quot;,
- &quot;DEP_LOC_NAME&quot;,
- &quot;DEP_DATE&quot;,
- &quot;ITIN_ID&quot;,
- &quot;ARR_CODE&quot;,
- &quot;ARR_LOC_NAME&quot;,
- &quot;ARR_DATE&quot;,
- &quot;VESS_IMO&quot;,
- &quot;VESS_NAME&quot;,
- &quot;PASS_SNAME&quot;,
- &quot;PASS_FNAME&quot;,
- &quot;AGE_CATEG&quot;,
- &quot;GENDER&quot;,
- &quot;NATIONALITY&quot;,
- &quot;DOC_TYPE&quot;,
- &quot;PASPRT_NUM&quot;,
- &quot;PASPRT_ISS&quot;,
- &quot;VISA_NUMBER&quot;,
- &quot;BIRTH_PLACE&quot;,
- &quot;BIRTH_DATE&quot;,
- &quot;TICK_NUMB&quot;,
- &quot;TICK_ISS&quot;,
- &quot;TICK_EXP&quot;,
- &quot;RESERVCODE&quot;,
- &quot;CABIN_ABBR&quot;,
- &quot;CABIN_NUMB&quot;,
- &quot;CABIN_BED&quot;,
- &quot;DISABLED&quot;,
- &quot;MAIDEN_NAME&quot;,
- &quot;RESID_COUNTRY&quot;,
- &quot;OCCUPATION&quot;,
- &quot;COMMING_FROM&quot;,
- &quot;GOING_TO&quot;,
- &quot;LOCAL_ADDRESS&quot;,
- &quot;PHONE_NO&quot;,
- &quot;VISIT_REASON&quot;,
- &quot;VEH_CLASS&quot;,
- &quot;VEH_BRAND&quot;,
- &quot;VEH_MODEL&quot;,
- &quot;VEH_PLATE&quot;,
- &quot;VEH_LENGTH&quot;,
- &quot;VEH_HEIGHT&quot;,
- &quot;VEH_DRIVER&quot;,
- &quot;INIT_TICKET_ISSUER&quot;,
- &quot;BOARD_ID&quot;,
- &quot;BOARD_STATUS&quot;,
---  &quot;BOARD_USER_ID&quot;,
---  &quot;BOARD_TYPE&quot;,
---  &quot;BOARD_DATE&quot;,
---  &quot;USER_NAME&quot;,
- &quot;CONF_SAIL_ID&quot;,
- &quot;CONF_ITIN_ID&quot;,
- &quot;CONF_PASVEH&quot;,
- &quot;CONF_MOBILE&quot;,
- &quot;CONF_EMAIL&quot;,
- &quot;CONF_STATUS&quot;,
- &quot;CONF_DATE&quot;,
- &quot;CONF_ID&quot;,
-&quot;PAS_ALARM_SENT&quot;,
-&quot;VEH_ALARM_SENT&quot;
+        <text>protected Vehicle mapEmbardtaConfToVehicle(EmbarkdtaConfVwBean embarkdtaConfVwBean) {
+    Vehicle vehicle = new Vehicle();
+    vehicle.setRegistrationNumber(embarkdtaConfVwBean.getVehPlate());
+    vehicle.setBrand(embarkdtaConfVwBean.getVehBrand());
+    vehicle.setVehicleType(embarkdtaConfVwBean.getVehClass());
+    vehicle.setConfirmationID(embarkdtaConfVwBean.getConfId());
+    vehicle.setConfirmationStatus(embarkdtaConfVwBean.getConfStatus());
+    vehicle.setBookID(embarkdtaConfVwBean.getBookId());
+    return vehicle;
 
- ) AS
-  SELECT BOOKLINE.BOOK_ID             AS BOOK_ID,
-    BOOKLINE.BOOK_TYPE                AS BOOK_TYPE,
-    SAILING.SAIL_ID                   AS SAIL_ID,
-    SAILING.COMP_CODE                 AS COMP_CODE,
-    COMPANIES.COMP_NAME               AS COMP_NAME,
-    SAILING.DEP_CODE                  AS DEP_CODE,
-    LOC1.LOC_NAME                     AS DEP_LOC_NAME,
-    SAILING.DEP_DATE                  AS DEP_DATE,
-    ITINERARY.ITIN_ID                 AS ITIN_ID,
-    ITINERARY.ARR_CODE                AS ARR_CODE,
-    LOC2.LOC_NAME                     AS ARR_LOC_NAME,
-    ITINERARY.ARR_DATE                AS ARR_DATE,
-    VESSELS.VESS_IMO                  AS VESS_IMO,
-    VESSELS.VESS_NAME                 AS VESS_NAME,
-    BOOKLINE.PASS_SNAME               AS PASS_SNAME,
-    BOOKLINE.PASS_FNAME               AS PASS_FNAME,
-    BOOKLINE.AGE_CATEG                AS AGE_CATEG,
-    BOOKLINE.GENDER                   AS GENDER,
-    BOOKLINE.NATIONALITY              AS NATIONALITY,
-    BOOKLINE.DOC_TYPE                 AS DOC_TYPE,
-    BOOKLINE.PASPRT_NUM               AS PASPRT_NUM,
-    BOOKLINE.PASPRT_ISS               AS PASPRT_ISS,
-    BOOKLINE.VISA_NUMBER              AS VISA_NUMBER,
-    BOOKLINE.BIRTH_PLACE              AS BIRTH_PLACE,
-    BOOKLINE.BIRTH_DATE               AS BIRTH_DATE,
-    BOOKLINE.TICK_NUMB                AS TICK_NUMB,
-    BOOKLINE.TICK_ISS                 AS TICK_ISS,
-    BOOKLINE.TICK_EXP                 AS TICK_EXP,
-    bookline.reservcode               AS RESERVCODE,
-    BOOKLINE.CABIN_ABBR               AS CABIN_ABBR,
-    BOOKLINE.CABIN_NUMB               AS CABIN_NUMB,
-    BOOKLINE.CABIN_BED                AS CABIN_BED,
-    BOOKLINE.DISABLED                 AS DISABLED,
-    BOOKLINE.MAIDENNAME               AS MAIDEN_NAME,
-    BOOKLINE.RCOUNTRY                 AS RESID_COUNTRY,
-    BOOKLINE.OCCUPATION               AS OCCUPATION,
-    BOOKLINE.CFROM                    AS COMMING_FROM,
-    BOOKLINE.GTO                      AS GOING_TO,
-    BOOKLINE.MADDRESS                 AS LOCAL_ADDRESS,
-    BOOKLINE.PHONE                    AS PHONE_NO,
-    BOOKLINE.VREASON                  AS VISIT_REASON,
-    BOOKLINE.VEH_CLASS                AS VEH_CLASS,
-    BOOKLINE.VEH_BRAND                AS VEH_BRAND,
-    BOOKLINE.VEH_MODEL                AS VEH_MODEL,
-    BOOKLINE.VEH_PLATE                AS VEH_PLATE,
-    BOOKLINE.VEH_LENGTH               AS VEH_LENGTH,
-    BOOKLINE.VEH_HEIGHT               AS VEH_HEIGHT,
-    BOOKLINE.VEH_DRIVER               AS VEH_DRIVER,
-    BOOKLINE.INIT_TICKET_ISSUER       AS INIT_TICKET_ISSUER,
-    BOARDING_TRANS.BOARD_ID           AS BOARD_ID,
-    BOARDING_TRANS.BOARD_STATUS       AS BOARD_STATUS,
---     BOARDING_TRANS_HIST.BOARD_USER_ID AS BOARD_USER_ID,
---     BOARDING_TRANS_HIST.BOARD_TYPE    AS BOARD_TYPE,
---     BOARDING_TRANS_HIST.BOARD_DATE    AS BOARD_DATE,
---     USERS.USER_NAME                   AS USER_NAME,
-    PRIOCHECK.SAIL_ID          AS CONF_SAIL_ID,
-    PRIOCHECK.ITIN_ID          AS CONF_ITIN_ID,
-    PRIOCHECK.PASVEH           AS CONF_PASVEH,
-    PRIOCHECK.MOBILE           AS CONF_MOBILE,
-    PRIOCHECK.EMAIL            AS CONF_EMAIL,
-    PRIOCHECK.PRI_STATUS       AS CONF_STATUS,
-    PRIOCHECK.PRIOCHECK_DATE   AS CONF_DATE,
-    PRIOCHECK.PRIOCHECK_ID     AS CONF_ID,
-    SAILING.PAS_ALARM_SENT     AS PAS_ALARM_SENT,
-    SAILING.VEH_ALARM_SENT     AS VEH_ALARM_SENT
-
-
-  FROM BOOKLINE
-  JOIN BOOKHEADER
-  ON (BOOKLINE.HEAD_ID=BOOKHEADER.HEAD_ID)
-  JOIN BOOKHEADER_HIST
-  ON (BOOKHEADER_HIST.BOOK_ID=BOOKLINE.BOOK_ID)
-  JOIN ITINERARY
-  ON (ITINERARY.ITIN_ID=BOOKHEADER.ITIN_ID)
-  JOIN SAILING
-  ON (SAILING.SAIL_ID=ITINERARY.SAIL_ID)
-  JOIN VESSELS
-  ON (VESSELS.VESS_IMO=SAILING.VESS_IMO)
-  JOIN LOCATIONS LOC1
-  ON (LOC1.LOC_CODE=SAILING.DEP_CODE)
-  JOIN LOCATIONS LOC2
-  ON (LOC2.LOC_CODE=ITINERARY.ARR_CODE)
-  JOIN COMPANIES
-  ON (COMPANIES.COMP_CODE=SAILING.COMP_CODE)
-  LEFT JOIN BOARDING_TRANS
-  ON (BOARDING_TRANS.BOOK_ID=BOOKLINE.BOOK_ID )
---   LEFT JOIN BOARDING_TRANS_HIST
---   ON (BOARDING_TRANS_HIST.BOARD_ID=BOARDING_TRANS.BOARD_ID)
---   LEFT JOIN USERS
---   ON (USERS.USER_ID=BOARDING_TRANS_HIST.BOARD_USER_ID)
-  LEFT OUTER JOIN PRIOCHECK
-  ON (BOOKLINE.BOOK_ID = PRIOCHECK.BOOK_ID);</text>
+  }</text>
       </register>
       <register name="1" type="4">
+        <text>EmbarkdtaConfVwManager</text>
+      </register>
+      <register name="2" type="4">
         <text>BoardStatus.N.toString()</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ICAgIH0gZWxzZSB7Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">IFdIRVJFIA==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>ordersql</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Ly8gICAgICAgICAgICBzcWwgPSAiIE9SREVSIEJZIENOVFJfQ09ERSAiOwo=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIGlmIChjb0ZpZWxkcy5nZXRDb3VudHJ5KDApLmdldFRocmVlTHRyQ29kZSgpLnRyaW0oKS5jb21wYXJlVG8oIiIpICE9IDApIHsK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIH0K</text>
-      </register>
       <register name="x" type="4">
-        <text>BoardStatus.N.toString()</text>
+        <text>EmbarkdtaConfVwManager</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgIHNxbCA9IHNxbCArICJPUkRFUiBCWSBDTlRSX05BTSIK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgREVQX0RBVEUgPD0gREFURSAnIiArIERhdGVVdGlscy5kYXNoZXJpemVEYXRlU3RyaW5nKGRlcGFydHVyZVRvKSArICInIik7Cg==</text>
+        <text encoding="base64">ICAgICAgIHNxbCA9IHNxbCArICJPUkRFUiBCWSBDTlRSX05BTSIK</text>
       </register>
       <register name=":" type="4">
-        <text>action NextTab</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -803,15 +652,16 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action RenameElement</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
-        <entry>action Find</entry>
         <entry>action Forward</entry>
         <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action GotoFile</entry>
-        <entry>action SaveAll</entry>
         <entry>action PreviousTab</entry>
+        <entry>action CloseContent</entry>
         <entry>action NextTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
