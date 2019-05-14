@@ -17,11 +17,11 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="27" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FerryOperatorDashboardHandler.java" timestamp="1557757396954">
-        <mark key="[" line="116" column="50" />
-        <mark key="]" line="116" column="53" />
-        <mark key="^" line="116" column="53" />
-        <mark key="." line="116" column="53" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FerryOperatorDashboardHandler.java" timestamp="1557758149498">
+        <mark key="[" line="116" column="54" />
+        <mark key="]" line="116" column="49" />
+        <mark key="^" line="116" column="49" />
+        <mark key="." line="116" column="49" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/AmpDocDataDescriptor.java" timestamp="1556109598831">
         <mark key="'" line="207" column="0" />
@@ -51,6 +51,7 @@
         <mark key="^" line="1175" column="65" />
         <mark key="." line="1175" column="65" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sms/account.txt" timestamp="1557816732789" />
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_TRANSFER.sql" timestamp="1557494568307">
         <mark key="'" line="2" column="211" />
         <mark key="[" line="5" column="45" />
@@ -260,7 +261,6 @@
         <mark key="." line="149" column="23" />
         <mark key="^" line="149" column="23" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/README.md" timestamp="1557743319166" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqAlertIDManager.java" timestamp="1553599951734">
         <mark key="'" line="12" column="30" />
         <mark key="[" line="16" column="18" />
@@ -268,8 +268,8 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1557737719046">
-        <mark key="[" line="0" column="2" />
+      <file name="/Dummy.txt" timestamp="1557815589611">
+        <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="2" />
         <mark key="." line="0" column="2" />
       </file>
@@ -362,7 +362,7 @@
         <mark key="." line="174" column="52" />
         <mark key="^" line="174" column="52" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_LAST_VW.sql" timestamp="1557757093493">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/EMBARKDTA_CONF_LAST_VW.sql" timestamp="1557815274415">
         <mark key="]" line="68" column="4" />
         <mark key="^" line="68" column="4" />
         <mark key="." line="68" column="4" />
@@ -423,7 +423,6 @@
         <mark key="." line="126" column="49" />
         <mark key="^" line="126" column="49" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/DATA_RANGE_BUG.sql" timestamp="1557728440294" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/AmpDocDescriptor.java" timestamp="1556110195283">
         <mark key="'" line="364" column="37" />
         <mark key="[" line="341" column="20" />
@@ -623,7 +622,7 @@
         <text encoding="base64">ICAgICAgIHNxbCA9IHNxbCArICJPUkRFUiBCWSBDTlRSX05BTSIK</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -640,8 +639,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action ShowBookmarks</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>450</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action FileStructurePopup</entry>
@@ -660,8 +657,8 @@
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
