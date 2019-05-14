@@ -30,6 +30,11 @@
         <mark key="." line="13" column="44" />
         <mark key="^" line="13" column="44" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/castor_gen_scripts/castor.bat" timestamp="1557817490092">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="439" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1556193515904">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -285,6 +290,13 @@
         <mark key="." line="2096" column="65" />
         <mark key="o" line="764" column="50" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/castor_gen_scripts/castor_sms.bat" timestamp="1557818132138">
+        <mark key="'" line="1" column="432" />
+        <mark key="[" line="1" column="409" />
+        <mark key="]" line="1" column="409" />
+        <mark key="." line="1" column="409" />
+        <mark key="^" line="1" column="379" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1557222062045">
         <mark key="'" line="69" column="4" />
         <mark key="[" line="69" column="8" />
@@ -373,6 +385,11 @@
         <mark key="]" line="284" column="36" />
         <mark key="." line="284" column="36" />
         <mark key="^" line="284" column="36" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/castor_gen_scripts/castor2.bat" timestamp="1557817773880">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="432" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messageHistory/Booking.java" timestamp="1556091996276">
         <mark key="'" line="180" column="0" />
@@ -467,10 +484,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="580" column="87" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="583" column="140" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="1936" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="1092" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1041" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1037" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1085" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
@@ -567,10 +580,14 @@
       <jump line="2078" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="2083" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="2106" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="1" column="0" filename="$USER_HOME$/projects/port-checkin-control/castor_gen_scripts/castor.bat" />
+      <jump line="0" column="439" filename="$USER_HOME$/projects/port-checkin-control/castor_gen_scripts/castor_sms.bat" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/castor_gen_scripts/castor2.bat" />
+      <jump line="1" column="432" filename="$USER_HOME$/projects/port-checkin-control/castor_gen_scripts/castor_sms.bat" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>EmbarkdtaConfVwManager</text>
+        <text>erviceMessage</text>
       </register>
       <register name="-" type="4">
         <text>documentation/sql/EMBDTA_ERADICATE_MJLTIPLES.sql:1</text>
@@ -579,50 +596,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>protected Vehicle mapEmbardtaConfToVehicle(EmbarkdtaConfVwBean embarkdtaConfVwBean) {
-    Vehicle vehicle = new Vehicle();
-    vehicle.setRegistrationNumber(embarkdtaConfVwBean.getVehPlate());
-    vehicle.setBrand(embarkdtaConfVwBean.getVehBrand());
-    vehicle.setVehicleType(embarkdtaConfVwBean.getVehClass());
-    vehicle.setConfirmationID(embarkdtaConfVwBean.getConfId());
-    vehicle.setConfirmationStatus(embarkdtaConfVwBean.getConfStatus());
-    vehicle.setBookID(embarkdtaConfVwBean.getBookId());
-    return vehicle;
-
-  }</text>
+        <text>java -cp &quot;Libraries\castor-1.2-codegen.jar&quot;;&quot;Libraries\castor-1.2.jar&quot;;&quot;Libraries\castor-1.2-xml.jar&quot;;&quot;Libraries\castor-1.2-xml-schema.jar&quot;;&quot;Libraries\commons-logging-api-1.1.1.jar&quot;;&quot;Libraries\commons-logging-1.1.1.jar&quot;;&quot;Libraries\velocity-dep-1.4.jar&quot;;&quot;Libraries\velocity-1.4.jar&quot; org.exolab.castor.builder.SourceGeneratorMain -i -f -h &quot;xml-resources/XML_SCHEMAS_PORT_CONTROL/ServiceMessage.xsd&quot; -package xml.messages.ServiceMessage</text>
       </register>
       <register name="1" type="4">
-        <text>EmbarkdtaConfVwManager</text>
+        <text>erviceMessage</text>
       </register>
       <register name="2" type="4">
-        <text>BoardStatus.N.toString()</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIH0gZWxzZSB7Cg==</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">IFdIRVJFIA==</text>
-      </register>
-      <register name="5" type="4">
-        <text>ordersql</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBzcWwgPSAiIE9SREVSIEJZIENOVFJfQ09ERSAiOwo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGlmIChjb0ZpZWxkcy5nZXRDb3VudHJ5KDApLmdldFRocmVlTHRyQ29kZSgpLnRyaW0oKS5jb21wYXJlVG8oIiIpICE9IDApIHsK</text>
-      </register>
-      <register name="x" type="4">
         <text>EmbarkdtaConfVwManager</text>
       </register>
+      <register name="3" type="4">
+        <text>BoardStatus.N.toString()</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIH0gZWxzZSB7Cg==</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">IFdIRVJFIA==</text>
+      </register>
+      <register name="6" type="4">
+        <text>ordersql</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgICBzcWwgPSAiIE9SREVSIEJZIENOVFJfQ09ERSAiOwo=</text>
+      </register>
+      <register name="x" type="4">
+        <text>erviceMessage</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgIGlmIChjb0ZpZWxkcy5nZXRDb3VudHJ5KDApLmdldFRocmVlTHRyQ29kZSgpLnRyaW0oKS5jb21wYXJlVG8oIiIpICE9IDApIHsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgIHNxbCA9IHNxbCArICJPUkRFUiBCWSBDTlRSX05BTSIK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -656,9 +663,9 @@
         <entry>action CloseContent</entry>
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
