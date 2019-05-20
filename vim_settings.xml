@@ -64,8 +64,8 @@
         <mark key="." line="53" column="17" />
         <mark key="^" line="53" column="17" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1558334487865">
-        <mark key="'" line="1673" column="130" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1558336886272">
+        <mark key="'" line="1485" column="33" />
         <mark key="[" line="269" column="4" />
         <mark key="]" line="269" column="67" />
         <mark key="^" line="1175" column="65" />
@@ -617,7 +617,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="98" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/sms/McmsWebService.java" />
       <jump line="72" column="5" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="138" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/sms/McmsWebService.java" />
       <jump line="43" column="40" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
@@ -717,6 +716,7 @@
       <jump line="134" column="88" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="144" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="1673" column="130" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1485" column="33" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -766,7 +766,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action PreviousTab</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -799,10 +799,10 @@
         <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
-        <entry>action FindUsages</entry>
+        <entry>action PreviousTab</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action PreviousTab</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
