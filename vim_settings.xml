@@ -109,6 +109,12 @@
         <mark key="." line="241" column="47" />
         <mark key="^" line="241" column="47" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_confit_export.sql" timestamp="1558342911977">
+        <mark key="[" line="22" column="76" />
+        <mark key="]" line="23" column="0" />
+        <mark key="^" line="23" column="0" />
+        <mark key="." line="23" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" timestamp="1555401303948">
         <mark key="'" line="297" column="3" />
         <mark key="[" line="53" column="1" />
@@ -394,12 +400,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1558076370932">
-        <mark key="'" line="84" column="6" />
-        <mark key="[" line="84" column="6" />
-        <mark key="]" line="84" column="70" />
-        <mark key="." line="88" column="67" />
-        <mark key="^" line="88" column="67" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1558343708098">
+        <mark key="'" line="265" column="0" />
+        <mark key="[" line="264" column="48" />
+        <mark key="]" line="264" column="63" />
+        <mark key="." line="264" column="63" />
+        <mark key="^" line="264" column="63" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1558077748656">
         <mark key="[" line="221" column="11" />
@@ -617,20 +623,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="72" column="5" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="138" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/sms/McmsWebService.java" />
-      <jump line="43" column="40" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="84" column="3" filename="$USER_HOME$/projects/port-checkin-control/documentation/sms/McmsWebService.java" />
-      <jump line="9" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="54" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="15" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/SmsHandler.java" />
-      <jump line="125" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="13" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/SmsHandler.java" />
-      <jump line="19" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" />
-      <jump line="29" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" />
-      <jump line="240" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="67" column="17" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="231" column="65" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="84" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="34" column="43" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="35" column="56" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
@@ -717,10 +709,24 @@
       <jump line="144" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="1673" column="130" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1485" column="33" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="169" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="5" column="151" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_confit_export.sql" />
+      <jump line="7" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_confit_export.sql" />
+      <jump line="12" column="49" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_confit_export.sql" />
+      <jump line="9" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_confit_export.sql" />
+      <jump line="11" column="108" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_confit_export.sql" />
+      <jump line="313" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="328" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="303" column="48" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="299" column="93" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="300" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="298" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="262" column="87" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="265" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>DataValidationException</text>
+        <text>nonShowContact</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IFVSSSB1cmkgPSBidWlsZGVyLmJ1aWxkKCk7</text>
@@ -729,44 +735,43 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>doc.getElementsByTagName(&quot;statuscode&quot;).item(0).getTextContent().</text>
+        <text>String nonShowContact = null;
+
+      if (isEmaillert(alertVwBean)) nonShowContact = embarkdtaConfVwBean.getConfEmail();
+      if (isSMSAlert(alertVwBean)) nonShowContact = embarkdtaConfVwBean.getConfMobile();</text>
       </register>
       <register name="1" type="4">
-        <text>} catch (DataValidationException e) {
-      dbERROR = true;
-      dbErrStr = e.getMessage();
-      e.printStackTrace();
-    }</text>
+        <text>nonShowContact</text>
       </register>
       <register name="2" type="4">
-        <text>DataValidationException</text>
+        <text>nonShowContact</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAvLyBNQ01TIGVudW1lcmF0aW9uIGFzIGRlc2NyaWJlZCBpbiBNQ01TIGludGVyZmFjZSBkb2Mgb3Igd3NkbAo=</text>
+      <register name="3" type="4">
+        <text>nonShowContact</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">ICAvLyBEZWZhdWx0LCBUaGVzZSBhcmUgb3ZlcnJpZGVuIGZyb20gUGFyYW1ldGVycyBmZXRjaGVkIGZyb20gYWRtaW4KLy8gIHByaXZhdGUgc3RhdGljIFN0cmluZyBNQ01TX0VORFBPSU5UID0gImh0dHBzOi8vd3d3LnNtcy5tYS9tY21zIjsKLy8gIHByaXZhdGUgc3RhdGljIFN0cmluZyBNQ01TX1VTRVJOQU1FID0gInRhbmdlck1lZCI7Ci8vICBwcml2YXRlIHN0YXRpYyBTdHJpbmcgTUNNU19QQVNTV09SRCA9IG9yZy5hcGFjaGUuY29tbW9ucy5jb2RlYy5kaWdlc3QuRGlnZXN0VXRpbHMuc2hhSGV4KCJ0YUNWQDc4ZCIpOwovLyAgcHJpdmF0ZSBzdGF0aWMgU3RyaW5nIE1DTVNfU0VOREVSID0gIlRBTkdFUk1FRCI7CgogIC8vICBodHRwczovL3d3dy5zbXMubWEvbWNtcy9zZW5kc21zLz9sb2dpbj10YW5nZXJNZWQmcGFzc3dvcmQ9dGFDVkA3OGQmb2FkYz1UQU5HRVJNRUQmbXNpc2RuX3RvPSszMDY5MzgzNzAwNDImYm9keT1oaV9mcm9tX1BDUzI=</text>
-      </register>
-      <register name="6" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGJvb2xlYW4gc3VjY2VzcyA9IGZhbHNlOwo=</text>
+      <register name="6" type="4">
+        <text>ConfMobile</text>
+      </register>
+      <register name="7" type="4">
+        <text>itinenqConfVwBean</text>
       </register>
       <register name="x" type="4">
-        <text>DataValidationException</text>
+        <text>nonShowContact</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>embarkdtaConfVwBean</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>getConfEmail</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -793,17 +798,18 @@
         <entry>action Forward</entry>
         <entry>action SurroundWith</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
         <entry>action CloseContent</entry>
-        <entry>action SaveAll</entry>
-        <entry>action GotoFile</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action Find</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
+        <entry>action NextTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action RenameElement</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
