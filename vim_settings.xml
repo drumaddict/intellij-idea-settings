@@ -381,16 +381,16 @@
         <mark key="]" line="186" column="19" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1558513255559">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1558516857062">
         <mark key="b" line="110" column="7" />
-        <mark key="'" line="1663" column="69" />
+        <mark key="'" line="1665" column="69" />
         <mark key="j" line="366" column="14" />
         <mark key="k" line="734" column="45" />
-        <mark key="[" line="285" column="0" />
+        <mark key="[" line="1631" column="21" />
         <mark key="m" line="1353" column="16" />
-        <mark key="]" line="285" column="0" />
-        <mark key="^" line="1663" column="53" />
-        <mark key="." line="285" column="0" />
+        <mark key="]" line="1633" column="23" />
+        <mark key="^" line="1633" column="23" />
+        <mark key="." line="1633" column="23" />
         <mark key="o" line="772" column="50" />
       </file>
       <file name="/Dummy.txt" timestamp="1558103116020">
@@ -470,11 +470,12 @@
         <mark key="^" line="55" column="3" />
         <mark key="." line="55" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1558514148881">
-        <mark key="[" line="375" column="51" />
-        <mark key="]" line="375" column="51" />
-        <mark key="." line="375" column="51" />
-        <mark key="^" line="375" column="51" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1558517233698">
+        <mark key="'" line="316" column="2" />
+        <mark key="[" line="291" column="10" />
+        <mark key="]" line="291" column="37" />
+        <mark key="." line="291" column="37" />
+        <mark key="^" line="291" column="37" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_sms_settings.sql" timestamp="1558094278619">
         <mark key="'" line="1" column="77" />
@@ -567,11 +568,11 @@
         <mark key="^" line="173" column="1" />
         <mark key="." line="158" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1558513842200">
-        <mark key="'" line="210" column="103" />
-        <mark key="[" line="210" column="18" />
-        <mark key="]" line="210" column="104" />
-        <mark key="." line="210" column="18" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1558516287216">
+        <mark key="'" line="684" column="0" />
+        <mark key="[" line="731" column="0" />
+        <mark key="]" line="731" column="0" />
+        <mark key="." line="731" column="0" />
         <mark key="^" line="210" column="17" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/AmpDocDescriptor.java" timestamp="1556110195283">
@@ -618,10 +619,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="180" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="103" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
-      <jump line="24" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" />
-      <jump line="30" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="29" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="16" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
       <jump line="15" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
@@ -718,10 +715,14 @@
       <jump line="345" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="179" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="210" column="103" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="190" column="45" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="684" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="197" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="308" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>DepPortDescr</text>
+        <text>TransferAlarms</text>
       </register>
       <register name="-" type="4">
         <text>//    } while (!TRANSACTION_SERIALIZED);</text>
@@ -730,37 +731,39 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>getMessageType().equals(HttpHandlerSecondary.MessageType.CONFPASS_TRANSFER.toString())</text>
+        <text>//        if (getMessageType().equals(HttpHandlerSecondary.MessageType.CONFPASS_TRANSFER.toString())) {
+//          createTransferAlarms(updatedOrCreatedPriocheckBean.getEmail(), updatedOrCreatedPriocheckBean.getMobile(), updatedOrCreatedPriocheckBean.getBookId());
+//        }</text>
       </register>
       <register name="1" type="4">
-        <text>DepPortDescr</text>
+        <text>TransferAlarms</text>
       </register>
       <register name="2" type="4">
-        <text>DepPortDescr</text>
+        <text encoding="base64">ICBwcm90ZWN0ZWQgdm9pZCBjcmVhdGVUcmFuc2ZlckFsYXJtcyhTdHJpbmcgZW1haWwsIFN0cmluZyBtb2JpbGUsIGxvbmcgYm9va0lEKSB0aHJvd3MgRGF0YVZhbGlkYXRpb25FeGNlcHRpb24gewogICAgaWYgKFN0cmluZ1V0aWxzLmlzTm90QmxhbmsoZW1haWwpKQogICAgICBjcmVhdGVHZW5lcmljQWxhcm0oCiAgICAgICAgICAgICAgQWxlcnRIYW5kbGVyLkFsZXJ0VHlwZS5FLAogICAgICAgICAgICAgIEFsZXJ0SGFuZGxlci5BbGVydEtpbmQuVCwKICAgICAgICAgICAgICBib29rSUQsCiAgICAgICAgICAgICAgdXNlci5nZXRVc2VySWQoKQogICAgICApOwoKICAgIGlmIChTdHJpbmdVdGlscy5pc05vdEJsYW5rKG1vYmlsZSkpCiAgICAgIGNyZWF0ZUdlbmVyaWNBbGFybSgKICAgICAgICAgICAgICBBbGVydEhhbmRsZXIuQWxlcnRUeXBlLlMsCiAgICAgICAgICAgICAgQWxlcnRIYW5kbGVyLkFsZXJ0S2luZC5ULAogICAgICAgICAgICAgIGJvb2tJRCwKICAgICAgICAgICAgICB1c2VyLmdldFVzZXJJZCgpCiAgICAgICk7CiAgfQ==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIFN0cmluZyBzbXNNZXNzYWdlID0gIiI7Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIFN0cmluZyBzbXNNZXNzYWdlID0gU3RyaW47Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgaWYgKGlzVHJhbnNmZXIpIHsK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgX2lzVHJhbnNmZXIK</text>
+      <register name="5" type="4">
+        <text>getMessageType().equals(HttpHandlerSecondary.MessageType.CONFPASS_TRANSFER.toString())</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAvLyAgcHJvdGVjdGVkIHN0YXRpYyBmaW5hbCBWZWN0b3I8U3RyaW5nPiBWQUxJRF9CT0FSRF9TVEFUVVNFU19GT1JfUFJJTlRJTkcgPSBuZXcgVmVjdG9yPFN0cmluZz4oKTsK</text>
-      </register>
-      <register name="7" type="4">
-        <text>getArrLocName</text>
-      </register>
-      <register name="x" type="4">
+      <register name="6" type="4">
         <text>DepPortDescr</text>
       </register>
-      <register name="8" type="4">
-        <text>ticket</text>
+      <register name="7" type="4">
+        <text>DepPortDescr</text>
       </register>
-      <register name="9" type="4">
-        <text>ticket</text>
+      <register name="x" type="4">
+        <text>TransferAlarms</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIFN0cmluZyBzbXNNZXNzYWdlID0gIiI7Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIFN0cmluZyBzbXNNZXNzYWdlID0gU3RyaW47Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -792,13 +795,13 @@
         <entry>action CloseContent</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action GotoFile</entry>
-        <entry>action ReformatCode</entry>
         <entry>1633</entry>
         <entry>action FindUsages</entry>
-        <entry>action PreviousTab</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action NextTab</entry>
         <entry>action Find</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action ReformatCode</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
