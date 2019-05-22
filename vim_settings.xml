@@ -45,6 +45,7 @@
         <mark key="." line="13" column="44" />
         <mark key="^" line="13" column="44" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_subj_body_to_alertline.sql" timestamp="1558519516795" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1556193515904">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -127,6 +128,13 @@
         <mark key="]" line="16" column="66" />
         <mark key="." line="4" column="0" />
         <mark key="^" line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_pdf_url_and_path_to_alertline.sql" timestamp="1558519731818">
+        <mark key="'" line="6" column="21" />
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="5" column="0" />
+        <mark key="^" line="3" column="8" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocHandler.java" timestamp="1557298008488">
         <mark key="'" line="84" column="34" />
@@ -263,6 +271,11 @@
         <mark key="." line="8" column="85" />
         <mark key="^" line="8" column="85" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alter_alterlineconfig_subject_body_types.sql" timestamp="1558519590866">
+        <mark key="'" line="2" column="39" />
+        <mark key="[" line="2" column="39" />
+        <mark key="]" line="2" column="58" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" timestamp="1554894981278">
         <mark key="'" line="172" column="17" />
         <mark key="[" line="162" column="22" />
@@ -333,12 +346,12 @@
         <mark key="." line="71" column="40" />
         <mark key="^" line="71" column="40" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" timestamp="1554361552345">
-        <mark key="'" line="39" column="4" />
-        <mark key="[" line="47" column="2" />
-        <mark key="]" line="47" column="2" />
-        <mark key="^" line="46" column="56" />
-        <mark key="." line="47" column="2" />
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" timestamp="1558519822016">
+        <mark key="'" line="11" column="12" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="50" column="58" />
+        <mark key="^" line="30" column="44" />
+        <mark key="." line="30" column="44" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1558007157643">
         <mark key="'" line="172" column="14" />
@@ -375,37 +388,25 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/devLibs/axis2/bin/Axis2UserGuide.wsdl" timestamp="1557989622712">
-        <mark key="'" line="174" column="18" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="186" column="19" />
-        <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1558516857062">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1558521140398">
         <mark key="b" line="110" column="7" />
-        <mark key="'" line="1665" column="69" />
+        <mark key="'" line="1662" column="73" />
         <mark key="j" line="366" column="14" />
         <mark key="k" line="734" column="45" />
-        <mark key="[" line="1631" column="21" />
+        <mark key="[" line="1662" column="96" />
         <mark key="m" line="1353" column="16" />
-        <mark key="]" line="1633" column="23" />
-        <mark key="^" line="1633" column="23" />
-        <mark key="." line="1633" column="23" />
+        <mark key="]" line="1662" column="94" />
+        <mark key="^" line="1662" column="94" />
+        <mark key="." line="1662" column="94" />
         <mark key="o" line="772" column="50" />
       </file>
-      <file name="/Dummy.txt" timestamp="1558103116020">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1558515012020">
-        <mark key="'" line="78" column="2" />
-        <mark key="[" line="399" column="67" />
-        <mark key="]" line="399" column="80" />
-        <mark key="^" line="399" column="80" />
-        <mark key="." line="399" column="80" />
-        <mark key="n" line="229" column="27" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1558521651807">
+        <mark key="'" line="461" column="2" />
+        <mark key="[" line="399" column="83" />
+        <mark key="]" line="399" column="94" />
+        <mark key="^" line="399" column="94" />
+        <mark key="." line="399" column="94" />
+        <mark key="n" line="233" column="27" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1558443699234">
         <mark key="'" line="218" column="133" />
@@ -470,12 +471,12 @@
         <mark key="^" line="55" column="3" />
         <mark key="." line="55" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1558518701854">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1558521717177">
         <mark key="'" line="268" column="118" />
-        <mark key="[" line="267" column="10" />
-        <mark key="]" line="268" column="119" />
-        <mark key="^" line="267" column="9" />
-        <mark key="." line="267" column="10" />
+        <mark key="[" line="331" column="0" />
+        <mark key="]" line="331" column="0" />
+        <mark key="^" line="268" column="127" />
+        <mark key="." line="331" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_sms_settings.sql" timestamp="1558094278619">
         <mark key="'" line="1" column="77" />
@@ -619,16 +620,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="124" column="13" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" />
-      <jump line="111" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" />
-      <jump line="119" column="62" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" />
-      <jump line="76" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
-      <jump line="148" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="135" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="134" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="142" column="5" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="140" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="150" column="78" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="138" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="182" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="169" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
@@ -719,10 +710,20 @@
       <jump line="57" column="74" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="201" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="268" column="118" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="4" column="3" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_pdf_url_and_path_to_alertline.sql" />
+      <jump line="2" column="39" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alter_alterlineconfig_subject_body_types.sql" />
+      <jump line="7" column="21" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_pdf_url_and_path_to_alertline.sql" />
+      <jump line="29" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
+      <jump line="30" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
+      <jump line="11" column="12" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ALERT_VW.sql" />
+      <jump line="1659" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="1660" column="31" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="1661" column="73" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="456" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>email</text>
+        <text>TransferTemplate</text>
       </register>
       <register name="-" type="4">
         <text>//    } while (!TRANSACTION_SERIALIZED);</text>
@@ -731,41 +732,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>//Here create Confirmation Alarms SMS and email
-          createConfirmationAlarms(bookIdToConfirmations.get(bookinData.getBookId()),user,wbtckt.getPdfUrl(), webpdf );</text>
+        <text>StringUtils.defaultIfEmpty(pdfPath, &quot;&quot;))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="4">
-        <text>email</text>
+        <text encoding="base64">cHJpdmF0ZSB2b2lkIHNlbmRDb25maXJtYXRpb25QZGYoU3RyaW5nIGVtYWlsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEVtYmFya2R0YUNvbmZWd0JlYW4gdGlja2V0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEl0aW5lbnFDb25mVndCZWFuIGNvbmZpcm1lZEl0aW5lcmFyeSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTdHJpbmcgcGRmUGF0aCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTdHJpbmcgcGRmVXJsCiAgKSB7CgogICAgaWYgKFN0cmluZ1V0aWxzLmlzTm90QmxhbmsodGlja2V0LmdldENvbmZFbWFpbCgpKSkgewogICAgICBNYXA8U3RyaW5nLCBTdHJpbmc+IGF0dGFjaG1lbnRzID0gbmV3IEhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+KCk7CiAgICAgIGF0dGFjaG1lbnRzLnB1dCgiQ29uZmlybWF0b25fdGlja2V0XyIgKyB0aWNrZXQuZ2V0VGlja051bWIoKSArICIucGRmIiwgcGRmUGF0aCk7CiAgICAgIEVtYWlsU2VuZGVyIGVtYWlsU2VuZGVyID0gbmV3IEVtYWlsU2VuZGVyKHNtdHBTZXR0aW5ncyk7CiAgICAgIFN0cmluZyBlbWFpbFN1YmplY3QgPSBTdHJpbmcuZm9ybWF0KCJDb25maXJtYXRpb24gZm9yIHlvdXIgdHJpcCB3aXRoICVzLCBvbiAlcyBhbmQgZGVzdGluYXRpb24gJXMgLiIsCiAgICAgICAgICAgICAgY29uZmlybWVkSXRpbmVyYXJ5LmdldENvbXBOYW1lKCksCiAgICAgICAgICAgICAgY29uZmlybWVkSXRpbmVyYXJ5LmdldERlcERhdGUoKSwKICAgICAgICAgICAgICBjb25maXJtZWRJdGluZXJhcnkuZ2V0QXJyUG9ydERlc2NyKCkKICAgICAgKTsKICAgICAgU3RyaW5nIGVtYWlsQm9keSA9IGdldEFsZXJ0TWVzc2FnZUZvckNvbmZpcm1hdGlvbih0aWNrZXQsIGNvbmZpcm1lZEl0aW5lcmFyeSk7CiAgICAgIGVtYWlsU2VuZGVyLnNlbmRFbWFpbFdpdGhBdHRhY2htZW50KAogICAgICAgICAgICAgIGVtYWlsLAogICAgICAgICAgICAgICIsIiwKICAgICAgICAgICAgICBlbWFpbFN1YmplY3QsCiAgICAgICAgICAgICAgZW1haWxCb2R5LAogICAgICAgICAgICAgIGF0dGFjaG1lbnRzCiAgICAgICk7CiAgICB9CgogICAgaWYgKFN0cmluZ1V0aWxzLmlzTm90QmxhbmsodGlja2V0LmdldENvbmZNb2JpbGUoKSkpIHsKICAgICAgU21zU2VuZGVyIHNtc1NlbmRlciA9IG5ldyBTbXNTZW5kZXIobWNtc1NldHRpbmdzKTsKICAgICAgU3RyaW5nIHNtc01lc3NhZ2UgPSBnZXRBbGVydE1lc3NhZ2VGb3JDb25maXJtYXRpb24odGlja2V0LCBjb25maXJtZWRJdGluZXJhcnkpOwogICAgICBzbXNNZXNzYWdlID0gc21zTWVzc2FnZS5jb25jYXQocGRmVXJsKTsKICAgICAgdHJ5IHsKICAgICAgICBib29sZWFuIHN1Y2Nlc3MgPSBzbXNTZW5kZXIuc2VuZEh0dHBTTVMoCiAgICAgICAgICAgICAgICAiIiwKICAgICAgICAgICAgICAgIHRpY2tldC5nZXRDb25mTW9iaWxlKCksCiAgICAgICAgICAgICAgICBzbXNNZXNzYWdlCiAgICAgICAgKTsKICAgICAgICBpZiAoIXN1Y2Nlc3MpIGxvZ2dlci5lcnJvcigiQ29uZmlybWF0aW9uIFBhc3MgbGluayBjb3VsZCBub3QgYmUgc2VudCBmb3IgYm9va0lEICIgKyB0aWNrZXQuZ2V0Qm9va0lkKCkpOwogICAgICB9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgbG9nZ2VyLmVycm9yKGUuZ2V0TWVzc2FnZSgpKTsKICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICB9IGNhdGNoIChQYXJzZXJDb25maWd1cmF0aW9uRXhjZXB0aW9uIGUpIHsKICAgICAgICBsb2dnZXIuZXJyb3IoZS5nZXRNZXNzYWdlKCkpOwogICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgIH0gY2F0Y2ggKFNBWEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgbG9nZ2VyLmVycm9yKGUuZ2V0TWVzc2FnZSgpKTsKICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICB9IGNhdGNoIChVUklTeW50YXhFeGNlcHRpb24gZSkgewogICAgICAgIGxvZ2dlci5lcnJvcihlLmdldE1lc3NhZ2UoKSk7CiAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKICAgICAgfSBjYXRjaCAoREFPRXhjZXB0aW9uIGUpIHsKICAgICAgICBsb2dnZXIuZXJyb3IoZS5nZXRNZXNzYWdlKCkpOwogICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgIH0KICAgIH0KCiAgfQoKICBwcml2YXRlIFN0cmluZyBnZXRBbGVydE1lc3NhZ2VGb3JDb25maXJtYXRpb24oRW1iYXJrZHRhQ29uZlZ3QmVhbiB0aWNrZXQsIEl0aW5lbnFDb25mVndCZWFuIGNvbmZpcm1lZEl0aW5lcmFyeSkgewoKICAgIFN0cmluZyBzbXNNZXNzYWdlID0gKGlzVHJhbnNmZXIpID8gIkNPTkZJUk1BVElPTiBJVElORVJBUlkgVFJBTlNGRVI6IFxuIiA6ICIiOwogICAgaWYgKHRpY2tldC5nZXRCb29rVHlwZSgpLmVxdWFscyhCYXNlV29ya2VyLkVtYmFya2F0aW9uSXRlbVR5cGUuUC50b1N0cmluZygpKSkKICAgICAgc21zTWVzc2FnZSA9IHNtc01lc3NhZ2UuY29uY2F0KFN0cmluZy5mb3JtYXQoCiAgICAgICAgICAgICAgIkRlYXIgTXIvTXJzICVzICVzICwgdGhpcyBpcyB0aGUgdGhlIGNvbmZpcm1hdGlvbiBwYXNzIGZvciB5b3VyIHRpY2tldCAlcyAsIiArCiAgICAgICAgICAgICAgICAgICAgICAiIHJlc2VydmF0aW9uIGNvZGUgJXMgLGZvciB5b3VyIHVwY29taW5nIHRyaXAgIHdpdGggICVzICBvbiAlcyAsIHdpdGggZGVzdGluYXRpb24gJXMgLiBcbiIsCiAgICAgICAgICAgICAgdGlja2V0LmdldFBhc3NGbmFtZSgpLAogICAgICAgICAgICAgIHRpY2tldC5nZXRQYXNzU25hbWUoKSwKICAgICAgICAgICAgICB0aWNrZXQuZ2V0VGlja051bWIoKSwKICAgICAgICAgICAgICB0aWNrZXQuZ2V0UmVzZXJ2Y29kZSgpLAogICAgICAgICAgICAgIGNvbmZpcm1lZEl0aW5lcmFyeS5nZXRDb21wTmFtZSgpLAogICAgICAgICAgICAgIGNvbmZpcm1lZEl0aW5lcmFyeS5nZXREZXBEYXRlKCksCiAgICAgICAgICAgICAgY29uZmlybWVkSXRpbmVyYXJ5LmdldEFyclBvcnREZXNjcigpCiAgICAgICkpOwoKICAgIGlmICh0aWNrZXQuZ2V0Qm9va1R5cGUoKS5lcXVhbHMoQmFzZVdvcmtlci5FbWJhcmthdGlvbkl0ZW1UeXBlLlYudG9TdHJpbmcoKSkpIHsKICAgICAgc21zTWVzc2FnZSA9IHNtc01lc3NhZ2UuY29uY2F0KFN0cmluZy5mb3JtYXQoCiAgICAgICAgICAgICAgIlRoaXMgaXMgdGhlIGNvbmZpcm1hdGlvbiBwYXNzIGZvciB0aWNrZXQgJXMgLCIgKwogICAgICAgICAgICAgICAgICAgICAgIiByZXNlcnZhdGlvbiBjb2RlICVzLCBmb3IgdGhlIGVtYmFya2F0aW9uIG9mIHZlaGljbGUgd2l0aCByZWdpc3RyYXRpb24gTnVtYmVyICIgKwogICAgICAgICAgICAgICAgICAgICAgIiVzICwgKG1vZGVsOiAlcywgYnJhbmQ6ICVzLCBkcml2ZXI6ICVzICkgZm9yIHRoZSB1cGNvbWluZyB0cmlwIHdpdGggJXMgIiArCiAgICAgICAgICAgICAgICAgICAgICAib24gJXMgLCB3aXRoIGRlc3RpbmF0aW9uICVzIC4gXG4iLAogICAgICAgICAgICAgIHRpY2tldC5nZXRUaWNrTnVtYigpLAogICAgICAgICAgICAgIHRpY2tldC5nZXRSZXNlcnZjb2RlKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldFZlaFBsYXRlKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldFZlaE1vZGVsKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldFZlaEJyYW5kKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldFZlaERyaXZlcigpLAogICAgICAgICAgICAgIGNvbmZpcm1lZEl0aW5lcmFyeS5nZXRDb21wTmFtZSgpLAogICAgICAgICAgICAgIGNvbmZpcm1lZEl0aW5lcmFyeS5nZXREZXBEYXRlKCksCiAgICAgICAgICAgICAgY29uZmlybWVkSXRpbmVyYXJ5LmdldEFyclBvcnREZXNjcigpKSk7CiAgICB9CiAgICByZXR1cm4gc21zTWVzc2FnZTsKICB9</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb25nIGJvb2tJRCwK</text>
+      <register name="3" type="4">
+        <text>TransferTemplate</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTdHJpbmcgbW9iaWxlLAo=</text>
+      <register name="4" type="4">
+        <text>fUrl</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTdHJpbmcgZW1haWwsCg==</text>
+      <register name="5" type="4">
+        <text>Pdfurl</text>
       </register>
       <register name="6" type="4">
-        <text>String</text>
+        <text>FURL</text>
       </register>
       <register name="7" type="4">
-        <text>bookIdToConfirmations</text>
+        <text>PENDING</text>
       </register>
       <register name="x" type="4">
-        <text>email</text>
+        <text>TransferTemplate</text>
       </register>
       <register name="8" type="4">
-        <text>String</text>
+        <text>PENDING</text>
       </register>
-      <register name="9" type="4">
-        <text>BookType</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -787,22 +787,22 @@
         <entry>action AceAction</entry>
         <entry>action SurroundWith</entry>
         <entry>300</entry>
-        <entry>action RenameElement</entry>
         <entry>1599</entry>
         <entry>action CloseContent</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>1633</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
-        <entry>action FindUsages</entry>
-        <entry>action Find</entry>
         <entry>action HideAllWindows</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action SaveAll</entry>
+        <entry>action RenameElement</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
