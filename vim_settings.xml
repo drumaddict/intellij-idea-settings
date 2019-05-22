@@ -399,12 +399,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1558512325833">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1558515012020">
         <mark key="'" line="78" column="2" />
-        <mark key="[" line="78" column="2" />
-        <mark key="]" line="78" column="75" />
-        <mark key="^" line="22" column="0" />
-        <mark key="." line="22" column="0" />
+        <mark key="[" line="399" column="67" />
+        <mark key="]" line="399" column="80" />
+        <mark key="^" line="399" column="80" />
+        <mark key="." line="399" column="80" />
         <mark key="n" line="229" column="27" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1558443699234">
@@ -721,7 +721,7 @@
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>getArrLocName</text>
+        <text>DepPortDescr</text>
       </register>
       <register name="-" type="4">
         <text>//    } while (!TRANSACTION_SERIALIZED);</text>
@@ -732,35 +732,35 @@
       <register name="0" type="4">
         <text>getMessageType().equals(HttpHandlerSecondary.MessageType.CONFPASS_TRANSFER.toString())</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIFN0cmluZyBzbXNNZXNzYWdlID0gIiI7Cg==</text>
+      <register name="1" type="4">
+        <text>DepPortDescr</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIFN0cmluZyBzbXNNZXNzYWdlID0gU3RyaW47Cg==</text>
+      <register name="2" type="4">
+        <text>DepPortDescr</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgX2lzVHJhbnNmZXIK</text>
+        <text encoding="base64">ICAgIFN0cmluZyBzbXNNZXNzYWdlID0gIiI7Cg==</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgIFN0cmluZyBzbXNNZXNzYWdlID0gU3RyaW47Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgX2lzVHJhbnNmZXIK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAvLyAgcHJvdGVjdGVkIHN0YXRpYyBmaW5hbCBWZWN0b3I8U3RyaW5nPiBWQUxJRF9CT0FSRF9TVEFUVVNFU19GT1JfUFJJTlRJTkcgPSBuZXcgVmVjdG9yPFN0cmluZz4oKTsK</text>
       </register>
-      <register name="5" type="4">
-        <text>getArrLocName</text>
-      </register>
-      <register name="6" type="4">
-        <text>ticket</text>
-      </register>
       <register name="7" type="4">
-        <text>ticket</text>
+        <text>getArrLocName</text>
       </register>
       <register name="x" type="4">
-        <text>getArrLocName</text>
+        <text>DepPortDescr</text>
       </register>
       <register name="8" type="4">
         <text>ticket</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIEl0aW5lbnFDb25mVndCZWFuIGNvbmZpcm1lZEl0aW5lcmFyeSA9IEJhc2VXb3JrZXIuZmluZEl0aW5lcmFyeSh0aWNrZXQuZ2V0Q29uZlNhaWxJZCgpLCB0aWNrZXQuZ2V0Q29uZkl0aW5JZCgpKTsK</text>
+      <register name="9" type="4">
+        <text>ticket</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -794,10 +794,10 @@
         <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>1633</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>action FindUsages</entry>
-        <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action NextTab</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
