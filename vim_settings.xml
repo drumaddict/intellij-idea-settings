@@ -121,7 +121,7 @@
         <mark key="." line="5" column="77" />
         <mark key="^" line="5" column="77" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/OPEN_POST_BUG2.sql" timestamp="1558347365114">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/OPEN_POST_BUG2.sql" timestamp="1558508367062">
         <mark key="'" line="16" column="66" />
         <mark key="[" line="6" column="0" />
         <mark key="]" line="16" column="66" />
@@ -196,6 +196,10 @@
         <mark key="]" line="111" column="8" />
         <mark key="^" line="111" column="8" />
         <mark key="." line="111" column="8" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/SMSALERTS.sql" timestamp="1558507463201">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="1" column="80" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/cheatsheet.sql" timestamp="1553613415396">
         <mark key="'" line="19" column="0" />
@@ -466,12 +470,12 @@
         <mark key="^" line="55" column="3" />
         <mark key="." line="55" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1558448334171">
-        <mark key="'" line="333" column="48" />
-        <mark key="[" line="324" column="17" />
-        <mark key="]" line="324" column="19" />
-        <mark key="." line="324" column="19" />
-        <mark key="^" line="324" column="19" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" timestamp="1558510100200">
+        <mark key="'" line="375" column="21" />
+        <mark key="[" line="344" column="27" />
+        <mark key="]" line="345" column="3" />
+        <mark key="^" line="345" column="3" />
+        <mark key="." line="345" column="3" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_sms_settings.sql" timestamp="1558094278619">
         <mark key="'" line="1" column="77" />
@@ -615,22 +619,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="76" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="79" column="63" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="63" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="66" column="54" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="380" column="11" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="378" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="379" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="376" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="384" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="374" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="436" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="389" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="36" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="24" column="72" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" />
-      <jump line="64" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" />
-      <jump line="67" column="19" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/AlertDaemon.java" />
       <jump line="87" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="26" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
       <jump line="27" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/EmailSender.java" />
@@ -685,7 +673,6 @@
       <jump line="338" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="341" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="344" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
-      <jump line="347" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="335" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="333" column="48" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="214" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
@@ -715,52 +702,113 @@
       <jump line="682" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="610" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="685" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="307" column="84" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="348" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="347" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="361" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="310" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="366" column="45" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="354" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="373" column="35" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="376" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="379" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="357" column="80" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="381" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="364" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="358" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="375" column="38" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="352" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
+      <jump line="383" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>passenger</text>
+        <text>email_message</text>
       </register>
       <register name="-" type="4">
-        <text>t</text>
+        <text>String.format(&quot;You will find the confirmation for your imminent trip as &quot; +</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBDcmVhdGUgVHJhbnNmZXIgQWxhcm1zIGZvciBWZWhpY2xlCg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">ICAgIFN0cmluZyBzbXNNZXNzYWdlID0gIiI7CgogICAgaWYgKHRpY2tldC5nZXRCb29rVHlwZSgpLmVxdWFscyhCYXNlV29ya2VyLkVtYmFya2F0aW9uSXRlbVR5cGUuUC50b1N0cmluZygpKSkKICAgICAgc21zTWVzc2FnZSA9IFN0cmluZy5mb3JtYXQoCiAgICAgICAgICAgICAgIkRlYXIgTXIvTXJzICVzICVzICwgdGhpcyBpcyB0aGUgbGluayBvZiB0aGUgY29uZmlybWF0aW9uIHBhc3MgZm9yIHlvdXIgdGlja2V0ICVzICwiICsKICAgICAgICAgICAgICAgICAgICAgICIgcmVzZXJ2YXRpb24gY29kZSAlcyAsZm9yIHlvdXIgdXBjb21pbmcgdHJpcCAgd2l0aCAgJXMgIG9uICVzICwgd2l0aCBkZXN0aW5hdGlvbiAlcyAuIFxuIiwKICAgICAgICAgICAgICB0aWNrZXQuZ2V0UGFzc0ZuYW1lKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldFBhc3NTbmFtZSgpLAogICAgICAgICAgICAgIHRpY2tldC5nZXRUaWNrTnVtYigpLAogICAgICAgICAgICAgIHRpY2tldC5nZXRSZXNlcnZjb2RlKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldENvbXBOYW1lKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldERlcERhdGUoKSwKICAgICAgICAgICAgICB0aWNrZXQuZ2V0QXJyTG9jTmFtZSgpCgogICAgICApOwoKICAgIGlmICh0aWNrZXQuZ2V0Qm9va1R5cGUoKS5lcXVhbHMoQmFzZVdvcmtlci5FbWJhcmthdGlvbkl0ZW1UeXBlLlYudG9TdHJpbmcoKSkpIHsKICAgICAgc21zTWVzc2FnZSA9IFN0cmluZy5mb3JtYXQoCiAgICAgICAgICAgICAgIlRoaXMgaXMgdGhlIGxpbmsgb2YgdGhlIGNvbmZpcm1hdGlvbiBwYXNzIGZvciB0aWNrZXQgJXMgLCIgKwogICAgICAgICAgICAgICAgICAgICAgIiByZXNlcnZhdGlvbiBjb2RlICVzLCBmb3IgdGhlIGVtYmFya2F0aW9uIG9mIHZlaGljbGUgd2l0aCByZWdpc3RyYXRpb24gTnVtYmVyICIgKwogICAgICAgICAgICAgICAgICAgICAgIiVzICwgKG1vZGVsOiAlcywgYnJhbmQ6ICVzLCBkcml2ZXI6ICVzICkgZm9yIHRoZSB1cGNvbWluZyB0cmlwIHdpdGggJXMgIiArCiAgICAgICAgICAgICAgICAgICAgICAib24gJXMgLCB3aXRoIGRlc3RpbmF0aW9uICVzIC4gXG4iLAogICAgICAgICAgICAgIHRpY2tldC5nZXRUaWNrTnVtYigpLAogICAgICAgICAgICAgIHRpY2tldC5nZXRSZXNlcnZjb2RlKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldFZlaFBsYXRlKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldFZlaE1vZGVsKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldFZlaEJyYW5kKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldFZlaERyaXZlcigpLAogICAgICAgICAgICAgIHRpY2tldC5nZXRDb21wTmFtZSgpLAogICAgICAgICAgICAgIHRpY2tldC5nZXREZXBEYXRlKCksCiAgICAgICAgICAgICAgdGlja2V0LmdldEFyckxvY05hbWUoKSk7CiAgICB9CgogICAgc21zTWVzc2FnZSA9IHNtc01lc3NhZ2UuY29uY2F0KHBkZlVybCk7CiAgICByZXR1cm4gc21zTWVzc2FnZTs=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICAvLyBDcmVhdGUgVHJhbnNmZXIgQWxhcm1zIGZvciBWZWhpY2xlCiAgICAgICAgaWYgKGdldE1lc3NhZ2VUeXBlKCkuZXF1YWxzKEh0dHBIYW5kbGVyU2Vjb25kYXJ5Lk1lc3NhZ2VUeXBlLkNPTkZQQVNTX1RSQU5TRkVSLnRvU3RyaW5nKCkpKSB7CiAgICAgICAgICBjcmVhdGVUcmFuc2ZlckFsYXJtcyh2ZWhpY2xlLmdldEVtYWlsKCksIHZlaGljbGUuZ2V0TW9iaWxlKCksIHZlaGljbGUuZ2V0Qm9va0lEKCkpOwogICAgICAgIH0=</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Ly8gICAgICAgIGFkZFZlaGljbGVDb25maXJtYXRpb25QYXNzKHZlaGljbGUsIHVwZGF0ZWRPckNyZWF0ZWRQcmlvY2hlY2tCZWFuKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="4">
-        <text>passenger</text>
+        <text>private String getMessageForSms(EmbarkdtaConfVwBean ticket, String pdfUrl) {
+    String smsMessage = &quot;&quot;;
+
+    if (ticket.getBookType().equals(BaseWorker.EmbarkationItemType.P.toString()))
+      smsMessage = String.format(
+              &quot;Dear Mr/Mrs %s %s , this is the link of the confirmation pass for your ticket %s ,&quot; +
+                      &quot; reservation code %s ,for your upcoming trip  with  %s  on %s , with destination %s . \n&quot;,
+              ticket.getPassFname(),
+              ticket.getPassSname(),
+              ticket.getTickNumb(),
+              ticket.getReservcode(),
+              ticket.getCompName(),
+              ticket.getDepDate(),
+              ticket.getArrLocName()
+
+      );
+
+    if (ticket.getBookType().equals(BaseWorker.EmbarkationItemType.V.toString())) {
+      smsMessage = String.format(
+              &quot;This is the link of the confirmation pass for ticket %s ,&quot; +
+                      &quot; reservation code %s, for the embarkation of vehicle with registration Number &quot; +
+                      &quot;%s , (model: %s, brand: %s, driver: %s ) for the upcoming trip with %s &quot; +
+                      &quot;on %s , with destination %s . \n&quot;,
+              ticket.getTickNumb(),
+              ticket.getReservcode(),
+              ticket.getVehPlate(),
+              ticket.getVehModel(),
+              ticket.getVehBrand(),
+              ticket.getVehDriver(),
+              ticket.getCompName(),
+              ticket.getDepDate(),
+              ticket.getArrLocName());
+    }
+
+    smsMessage = smsMessage.concat(pdfUrl);
+    return smsMessage;
+  }</text>
       </register>
       <register name="6" type="4">
-        <text>passenger</text>
+        <text>email_message</text>
       </register>
-      <register name="7" type="4">
-        <text>passenger</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAiYW4gYXR0YWNoZWQgcGRmLiIpOwo=</text>
       </register>
       <register name="x" type="4">
-        <text>passenger</text>
+        <text>email_message</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>email_subject</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>String.format(
+              &quot;Dear Mr/Mrs %s %s , this is the link of your confirmation pass for ticket %s ,&quot; +
+                      &quot; reservation code %s,  for your imminent trip with %s &quot; +
+                      &quot;as an attached pdf.\n&quot;,
+              ticket.getPassFname(),
+              ticket.getPassSname(),
+              ticket.getTickNumb(),
+              ticket.getReservcode(),
+              ticket.getCompName());</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -777,14 +825,8 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action Forward</entry>
-        <entry>action $SelectAll</entry>
-        <entry>action VimFilePrevious</entry>
-        <entry>action TabShiftActions.StretchRight</entry>
         <entry encoding="base64">JzwsJz5ub3JtLg==</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action AceAction</entry>
         <entry>action SurroundWith</entry>
         <entry>300</entry>
@@ -793,15 +835,16 @@
         <entry>1599</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action HideAllWindows</entry>
-        <entry>action Find</entry>
         <entry>action CloseContent</entry>
+        <entry>action GotoFile</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action FindUsages</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
