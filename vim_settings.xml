@@ -31,6 +31,13 @@
         <mark key="." line="53" column="17" />
         <mark key="^" line="53" column="17" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sms/account.txt" timestamp="1558621045398">
+        <mark key="'" line="20" column="0" />
+        <mark key="[" line="17" column="8" />
+        <mark key="]" line="18" column="0" />
+        <mark key="." line="18" column="0" />
+        <mark key="^" line="18" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/alert_config_UPDATE_TRANSFER.sql" timestamp="1557494568307">
         <mark key="'" line="2" column="211" />
         <mark key="[" line="5" column="45" />
@@ -658,7 +665,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="611" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="685" column="87" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="84" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="85" column="45" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
@@ -758,6 +764,7 @@
       <jump line="137" column="51" filename="$USER_HOME$/projects/port-checkin-control/nbproject/project.properties" />
       <jump line="114" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="63" column="63" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
+      <jump line="19" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/sms/account.txt" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -803,7 +810,7 @@
         <text>trace</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -841,8 +848,8 @@
         <entry>73</entry>
         <entry>90</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
