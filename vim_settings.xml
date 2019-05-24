@@ -455,8 +455,8 @@
         <mark key="." line="5" column="77" />
         <mark key="^" line="5" column="77" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/OPEN_POST_BUG2.sql" timestamp="1558605828432">
-        <mark key="'" line="16" column="66" />
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/OPEN_POST_BUG2.sql" timestamp="1558695118154">
+        <mark key="'" line="6" column="0" />
         <mark key="[" line="6" column="0" />
         <mark key="]" line="16" column="66" />
         <mark key="." line="4" column="0" />
@@ -718,7 +718,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1785" column="42" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="264" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="242" column="93" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
       <jump line="251" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
@@ -818,6 +817,7 @@
       <jump line="384" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/MessageData.java" />
       <jump line="72" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpHandler.java" />
       <jump line="71" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpHandler.java" />
+      <jump line="6" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/sql/OPEN_POST_BUG2.sql" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -829,8 +829,18 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">Ly8gICAgTWVzc2FnZUhlYWRlciBtc2dIZWFkZXIgPSBuZXcgTWVzc2FnZUhlYWRlcigpOwo=</text>
+      <register name="0" type="4">
+        <text>select o.book_id,
+      o. board_id,
+       o.reservcode,
+       o.tick_numb,
+       o.pass_sname,
+       o.book_type,
+       o.conf_status,
+       o.board_status,
+       o.sail_id from
+       embarkdta_conf_vw  o
+       where o.reservcode = 'ACC0905201915' and book_id = '9132527'</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
