@@ -393,7 +393,7 @@
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/amp/NEW_AMS_SPECS.txt" timestamp="1558687100338" />
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1558697935245">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1558699605634">
         <mark key="'" line="60" column="2" />
         <mark key="[" line="1664" column="103" />
         <mark key="]" line="1664" column="103" />
@@ -863,7 +863,7 @@
         <text encoding="base64">Ly8K</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -886,7 +886,6 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action Forward</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
-        <entry>action FindUsages</entry>
         <entry>10</entry>
         <entry>73</entry>
         <entry>90</entry>
@@ -905,6 +904,7 @@
         <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
