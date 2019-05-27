@@ -412,13 +412,13 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1558963717061">
-        <mark key="'" line="292" column="77" />
-        <mark key="[" line="292" column="6" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1558965020483">
+        <mark key="'" line="1633" column="101" />
+        <mark key="[" line="1710" column="15" />
         <mark key="k" line="1666" column="33" />
-        <mark key="]" line="292" column="78" />
-        <mark key="." line="292" column="6" />
-        <mark key="^" line="292" column="5" />
+        <mark key="]" line="1710" column="30" />
+        <mark key="." line="1710" column="30" />
+        <mark key="^" line="1710" column="30" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/NonShowDaemon.java" timestamp="1558613142778">
         <mark key="'" line="20" column="75" />
@@ -742,7 +742,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="137" column="51" filename="$USER_HOME$/projects/port-checkin-control/nbproject/project.properties" />
       <jump line="114" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="63" column="63" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="19" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/sms/account.txt" />
@@ -804,7 +803,6 @@
       <jump line="1688" column="88" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="855" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1664" column="54" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1665" column="32" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1668" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1666" column="50" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1670" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
@@ -840,12 +838,14 @@
       <jump line="1660" column="74" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1402" column="32" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1713" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1704" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="292" column="77" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1704" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1665" column="101" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1633" column="101" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>values</text>
+        <text>valid</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
@@ -854,40 +854,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZmlsbE1hcHBlZFRpY2tldHMobmV3IEFycmF5TGlzdDxTdHJpbmc+KHRpY2tldE51bWJlclRvQm9va0lkLmtleVNldCgpKSk7</text>
+        <text encoding="base64">Ym9vbGVhbiB2YWxpZCA9IGZpbGxNYXBwZWRUaWNrZXRzKG5ldyBBcnJheUxpc3Q8U3RyaW5nPih0aWNrZXROdW1iZXJUb0Jvb2tJZC5rZXlTZXQoKSkpOw==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBib29sZWFuIGIgPSBmaWxsTWFwcGVkVGlja2V0cyggbmV3IEFycmF5TGlzdDxTdHJpbmc+KHRpY2tldE51bWJlclRvQm9va0lkLmtleVNldCgpKSk7Cg==</text>
+      <register name="1" type="4">
+        <text>valid</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBtYXBwZWRUaWNrZXRzID0gbnVsbDsK</text>
+      <register name="2" type="4">
+        <text>boolean</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBib29sZWFuIGIgPSBmaWxsTWFwcGVkVGlja2V0cyggbmV3IEFycmF5TGlzdDxTdHJpbmc+KHRpY2tldE51bWJlclRvQm9va0lkLmtleVNldCgpKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgZmlsbE1hcHBlZFRpY2tldHMobmV3IEFycmF5TGlzdDxTdHJpbmc+KHRpY2tldE51bWJlclRvQm9va0lkLmtleVNldCgpKSk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgKiBAcGFyYW0gcGFzdmVoIFN0cmluZyAtIFBLIyAyCg==</text>
+        <text encoding="base64">ICAgICAgICBib29sZWFuIGIgPSBmaWxsTWFwcGVkVGlja2V0cyggbmV3IEFycmF5TGlzdDxTdHJpbmc+KHRpY2tldE51bWJlclRvQm9va0lkLmtleVNldCgpKSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgKiBAcGFyYW0gc2FpbElkTG9uZyAtIFBLIyAxCg==</text>
+        <text encoding="base64">ICAgICAgICBtYXBwZWRUaWNrZXRzID0gbnVsbDsK</text>
       </register>
-      <register name="6" type="4">
-        <text>values</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBib29sZWFuIGIgPSBmaWxsTWFwcGVkVGlja2V0cyggbmV3IEFycmF5TGlzdDxTdHJpbmc+KHRpY2tldE51bWJlclRvQm9va0lkLmtleVNldCgpKSk7Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>bookId</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgKiBAcGFyYW0gcGFzdmVoIFN0cmluZyAtIFBLIyAyCg==</text>
       </register>
       <register name="x" type="4">
-        <text>values</text>
+        <text>valid</text>
       </register>
-      <register name="8" type="4">
-        <text>bookIds</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgKiBAcGFyYW0gc2FpbElkTG9uZyAtIFBLIyAxCg==</text>
       </register>
       <register name="9" type="4">
-        <text>bookIds</text>
+        <text>values</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -923,10 +923,10 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
