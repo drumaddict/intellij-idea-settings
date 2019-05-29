@@ -324,11 +324,11 @@
         <mark key="^" line="263" column="48" />
         <mark key="." line="273" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_registration_number_to_AMP_HISTORY.sql" timestamp="1559116355067">
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_registration_number_to_AMP_HISTORY.sql" timestamp="1559129239243">
         <mark key="'" line="7" column="61" />
         <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="65" />
-        <mark key="." line="7" column="43" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
         <mark key="^" line="7" column="43" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_iface_pars_per_comp.sql" timestamp="1553672784572">
@@ -632,14 +632,14 @@
         <mark key="^" line="463" column="11" />
         <mark key="." line="463" column="11" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" timestamp="1559124754961">
-        <mark key="'" line="113" column="0" />
-        <mark key="[" line="51" column="79" />
-        <mark key="]" line="51" column="78" />
-        <mark key="^" line="51" column="78" />
-        <mark key="." line="51" column="78" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" timestamp="1559129037786">
+        <mark key="'" line="85" column="123" />
+        <mark key="[" line="84" column="55" />
+        <mark key="]" line="84" column="55" />
+        <mark key="^" line="84" column="55" />
+        <mark key="." line="84" column="55" />
       </file>
-      <file name="/fragment.java" timestamp="1559113041180">
+      <file name="/fragment.java" timestamp="1559128821200">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="3" />
@@ -662,10 +662,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1585" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1584" column="25" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1708" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1736" column="99" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1397" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1391" column="148" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1390" column="18" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
@@ -762,10 +758,14 @@
       <jump line="154" column="29" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpHandler.java" />
       <jump line="126" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/AmpPdf.java" />
       <jump line="73" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/AmpPdf.java" />
+      <jump line="64" column="39" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
+      <jump line="65" column="106" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
+      <jump line="66" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
+      <jump line="85" column="123" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocCheckHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>null</text>
+        <text>newAmpStatus</text>
       </register>
       <register name="-" type="4">
         <text>ampVehicle.getRegistrationNumber().replace(&quot; &quot;, &quot;_&quot;).trim());</text>
@@ -773,38 +773,38 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgbG9nZ2VyLmVycm9yKGRiRXJyU3RyKTsK</text>
+      <register name="0" type="4">
+        <text>throw new DataValidationException(&quot;Valid AMP Statuses are &quot; + Arrays.toString(VALID_INCOMING_AMP_STATUSES.toArray()));</text>
       </register>
-      <register name="1" type="4">
-        <text>null</text>
+      <register name="1" type="2">
+        <text encoding="base64">Q1JFQVRFIFVOSVFVRSBJTkRFWCBBTVBfSElTVF9JRFggT04gQU1QX0hJU1QoUkVHSVNUUkFUSU9OX05VTUJFUik7Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>newAmpStatus</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICAgIFByaW9jaGVja0JlYW4gY29uZmlybWF0aW9uID0gUHJpb2NoZWNrTWFuYWdlci5nZXRJbnN0YW5jZSgpLmxvYWRCeVByaW1hcnlLZXkoYW1wQmVhbi5nZXRQcmlvY2hlY2tJZCgpKTsKICAgICAgICAgIGlmIChjb25maXJtYXRpb24gPT0gbnVsbCkKICAgICAgICAgICAgdGhyb3cgbmV3IERhdGFWYWxpZGF0aW9uRXhjZXB0aW9uKCJObyBjb25maXJtYXRpb24gZm91bmQgZm9yIGNvbmZpcm1hdGlvbklEOiAiICsgYW1wQmVhbi5nZXRQcmlvY2hlY2tJZCgpKTsKCi8vICAgICAgICAgIGlmICghVkFMSURfQ09ORklSTUFUSU9OX1NUQVRVU0VTLmNvbnRhaW5zKENvbmZpcm1hdGlvblN0YXR1cy52YWx1ZU9mKGNvbmZpcm1hdGlvbi5nZXRQcmlTdGF0dXMoKSkpKSB7Ci8vICAgICAgICAgICAgdGhyb3cgbmV3IERhdGFWYWxpZGF0aW9uRXhjZXB0aW9uKAovLyAgICAgICAgICAgICAgICAgICAgIkFNUCB3aXRoICBjb25maXJtYXRpb24gSUQ6ICIgKyBhbXBCZWFuLmdldFByaW9jaGVja0lkKCkgKyAiIGhhcyBhbiBpbnZhbGlkIGNvbmZpcm1hdGlvbiBzdGF0dXMgIiArIGNvbmZpcm1hdGlvbi5nZXRQcmlTdGF0dXMoKSArCi8vICAgICAgICAgICAgICAgICAgICAgICAgICAgICIuIFZhbGlkIENvbmZpcm1hdGlvbiBzdGF0dXNlcyBhcmUgIiArIEFycmF5cy50b1N0cmluZyhWQUxJRF9DT05GSVJNQVRJT05fU1RBVFVTRVMudG9BcnJheSgpKSk7Ci8vICAgICAgICAgIH0=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIHVwZGF0ZWRBbXBEb2Muc2V0Qm9va0lEKGNvbmZpcm1hdGlvbi5nZXRCb29rSWQoKSk7Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIHVwZGF0ZWRBbXBEb2Muc2V0TW9iaWxlKGNvbmZpcm1hdGlvbi5nZXRNb2JpbGUoKSk7Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIHVwZGF0ZWRBbXBEb2Muc2V0RW1haWwoY29uZmlybWF0aW9uLmdldEVtYWlsKCkpOwo=</text>
-      </register>
-      <register name="x" type="4">
         <text>null</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIHVwZGF0ZWRBbXBEb2Muc2V0Q29uZmlybWF0aW9uU3RhdHVzKGNvbmZpcm1hdGlvbi5nZXRQcmlTdGF0dXMoKSk7Cg==</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>setConfirmationID</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgICAgIFByaW9jaGVja0JlYW4gY29uZmlybWF0aW9uID0gUHJpb2NoZWNrTWFuYWdlci5nZXRJbnN0YW5jZSgpLmxvYWRCeVByaW1hcnlLZXkoYW1wQmVhbi5nZXRQcmlvY2hlY2tJZCgpKTsKICAgICAgICAgIGlmIChjb25maXJtYXRpb24gPT0gbnVsbCkKICAgICAgICAgICAgdGhyb3cgbmV3IERhdGFWYWxpZGF0aW9uRXhjZXB0aW9uKCJObyBjb25maXJtYXRpb24gZm91bmQgZm9yIGNvbmZpcm1hdGlvbklEOiAiICsgYW1wQmVhbi5nZXRQcmlvY2hlY2tJZCgpKTsKCi8vICAgICAgICAgIGlmICghVkFMSURfQ09ORklSTUFUSU9OX1NUQVRVU0VTLmNvbnRhaW5zKENvbmZpcm1hdGlvblN0YXR1cy52YWx1ZU9mKGNvbmZpcm1hdGlvbi5nZXRQcmlTdGF0dXMoKSkpKSB7Ci8vICAgICAgICAgICAgdGhyb3cgbmV3IERhdGFWYWxpZGF0aW9uRXhjZXB0aW9uKAovLyAgICAgICAgICAgICAgICAgICAgIkFNUCB3aXRoICBjb25maXJtYXRpb24gSUQ6ICIgKyBhbXBCZWFuLmdldFByaW9jaGVja0lkKCkgKyAiIGhhcyBhbiBpbnZhbGlkIGNvbmZpcm1hdGlvbiBzdGF0dXMgIiArIGNvbmZpcm1hdGlvbi5nZXRQcmlTdGF0dXMoKSArCi8vICAgICAgICAgICAgICAgICAgICAgICAgICAgICIuIFZhbGlkIENvbmZpcm1hdGlvbiBzdGF0dXNlcyBhcmUgIiArIEFycmF5cy50b1N0cmluZyhWQUxJRF9DT05GSVJNQVRJT05fU1RBVFVTRVMudG9BcnJheSgpKSk7Ci8vICAgICAgICAgIH0=</text>
+      </register>
+      <register name="x" type="4">
+        <text>newAmpStatus</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgIHVwZGF0ZWRBbXBEb2Muc2V0Qm9va0lEKGNvbmZpcm1hdGlvbi5nZXRCb29rSWQoKSk7Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgIHVwZGF0ZWRBbXBEb2Muc2V0TW9iaWxlKGNvbmZpcm1hdGlvbi5nZXRNb2JpbGUoKSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -841,11 +841,11 @@
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action OptimizeImports</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
+        <entry>action OptimizeImports</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
