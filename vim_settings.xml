@@ -142,12 +142,6 @@
         <mark key="^" line="67" column="58" />
         <mark key="." line="67" column="59" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_MINIMUM_HOURS_LIMIT_BEFORE_CONFIRMATION.sql" timestamp="1559201496199">
-        <mark key="'" line="1" column="0" />
-        <mark key="[" line="1" column="0" />
-        <mark key="]" line="1" column="232" />
-        <mark key="o" line="1" column="60" />
-      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/ItineraryData.java" timestamp="1556097131372">
         <mark key="'" line="1615" column="2" />
         <mark key="[" line="1564" column="39" />
@@ -237,6 +231,12 @@
         <mark key="^" line="30" column="44" />
         <mark key="." line="30" column="44" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/0100_create_alert_config.sql" timestamp="1559205304852">
+        <mark key="'" line="69" column="78" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="69" column="79" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/security/PasswordService.java" timestamp="1558088171087">
         <mark key="'" line="71" column="0" />
         <mark key="[" line="51" column="11" />
@@ -244,7 +244,19 @@
         <mark key="^" line="51" column="21" />
         <mark key="." line="51" column="21" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkListForVendors.java" timestamp="1559198355459" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1559206697483">
+        <mark key="b" line="107" column="7" />
+        <mark key="'" line="1014" column="18" />
+        <mark key="j" line="363" column="14" />
+        <mark key="k" line="731" column="45" />
+        <mark key="[" line="1414" column="2" />
+        <mark key="m" line="1382" column="16" />
+        <mark key="]" line="1414" column="14" />
+        <mark key="n" line="1789" column="34" />
+        <mark key="." line="1414" column="14" />
+        <mark key="^" line="1414" column="14" />
+        <mark key="o" line="769" column="50" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/companies_checkin_req/MessageData.java" timestamp="1559136016878">
         <mark key="'" line="408" column="2" />
         <mark key="[" line="407" column="29" />
@@ -572,6 +584,13 @@
         <mark key="^" line="139" column="37" />
         <mark key="." line="139" column="37" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/0110_create_amp_dates.sql" timestamp="1559206265277">
+        <mark key="'" line="4" column="66" />
+        <mark key="[" line="4" column="3" />
+        <mark key="]" line="4" column="0" />
+        <mark key="^" line="4" column="0" />
+        <mark key="." line="4" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/_OPEN_POST_BUG.sql" timestamp="1557324152260">
         <mark key="'" line="5" column="62" />
         <mark key="[" line="2" column="0" />
@@ -621,6 +640,12 @@
         <mark key="^" line="158" column="41" />
         <mark key="." line="158" column="41" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/0080_create_alertline.sql" timestamp="1559205674939">
+        <mark key="[" line="10" column="2" />
+        <mark key="]" line="10" column="2" />
+        <mark key="^" line="10" column="2" />
+        <mark key="." line="10" column="2" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1555332994322">
         <mark key="'" line="163" column="113" />
         <mark key="[" line="149" column="22" />
@@ -642,7 +667,7 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1559133058094">
+      <file name="/Dummy.txt" timestamp="1559210433832">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -757,11 +782,14 @@
         <mark key="^" line="10" column="48" />
         <mark key="." line="10" column="48" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/amp_dates_company_emails.sql" timestamp="1559206301032">
+        <mark key="[" line="0" column="2" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="35" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/amp/issue_report.txt" />
-      <jump line="37" column="109" filename="$USER_HOME$/projects/port-checkin-control/documentation/amp/issue_report.txt" />
-      <jump line="66" column="84" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/1_companies_checkin_req.xsd" />
       <jump line="67" column="80" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/1_companies_checkin_req.xsd" />
       <jump line="33" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/companies_checkin_req/MessageData.java" />
       <jump line="43" column="5" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/companies_checkin_req/MessageData.java" />
@@ -859,6 +887,9 @@
       <jump line="6" column="24" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/0020_add_iface_pars_percomp.sql" />
       <jump line="33" column="27" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/0060_create_priocheck.sql" />
       <jump line="35" column="27" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/0070_add_priocheck_history.sql" />
+      <jump line="69" column="78" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/0100_create_alert_config.sql" />
+      <jump line="4" column="3" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/amp_dates_company_emails.sql" />
+      <jump line="4" column="66" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/0110_create_amp_dates.sql" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -871,25 +902,29 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">aWZhY2VfcGFyc19wZXJjb21wIA==</text>
+        <text>CREATE INDEX AMP_DATES_IDX ON AMP_DATES (START_DATE, END_DATE) ;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>INTO</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="4">
-        <text>INSERT</text>
+        <text>CREATE TABLE AMP_DATES
+   (           START_DATE  TIMESTAMP (6) DEFAULT CURRENT_TIMESTAMP NOT NULL,
+                                END_DATE TIMESTAMP (6) DEFAULT CURRENT_TIMESTAMP NOT NULL
+   );
+   CREATE INDEX AMP_DATES_IDX ON AMP_DATES (START_DATE, END_DATE) ;</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">aW50byBpZmFjZV9wYXJzX3BlcmNvbXAgKGNvbXBfY29kZSwgY29tcF9udHZjLG9wX2NvZGUsIHByb3RvY29sLCB1cmwsIHVzZXJfZ3JvdXAsIHVzZXJfY29kZSwgdXNlcl9wYXNzd2QsIGN1c3RvbV9xdWVyeSwgY3JpdGVyaWFfZmllbGQgKSB2YWx1ZXMoJ0FDQycsICc5NTQnLCAnR2V0QWxsVGlja2V0c1JRJywgJ1hNTCcsICAnT1JBREInLCAnICcsICdUMW5HRXJNM0QnLCdUMU1zNEFuMkVyJywnICcsICcgJyAgKQo=</text>
+      <register name="5" type="4">
+        <text>INTO</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">aW50byBpZmFjZV9wYXJzX3BlcmNvbXAgKGNvbXBfY29kZSwgY29tcF9udHZjLG9wX2NvZGUsIHByb3RvY29sLCB1cmwsIHVzZXJfZ3JvdXAsIHVzZXJfY29kZSwgdXNlcl9wYXNzd2QsIGN1c3RvbV9xdWVyeSwgY3JpdGVyaWFfZmllbGQgKSB2YWx1ZXMoJ0FDQycsICc5NTQnLCAnR2V0QWxsVGlja2V0c1JRJywgJ1hNTCcsICAnT1JBREInLCAnICcsICdUMW5HRXJNM0QnLCdUMU1zNEFuMkVyJywnICcsICcgJyAgKQo=</text>
+      <register name="6" type="4">
+        <text>INSERT</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
@@ -898,26 +933,13 @@
         <text>INTO</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW50byBpZmFjZV9wYXJzX3BlcmNvbXAgKGNvbXBfY29kZSwgY29tcF9udHZjLG9wX2NvZGUsIHByb3RvY29sLCB1cmwsIHVzZXJfZ3JvdXAsIHVzZXJfY29kZSwgdXNlcl9wYXNzd2QsIGN1c3RvbV9xdWVyeSwgY3JpdGVyaWFfZmllbGQgKSB2YWx1ZXMoJ0FDQycsICc5NTQnLCAnR2V0QWxsVGlja2V0c1JRJywgJ1hNTCcsICAnT1JBREInLCAnICcsICdUMW5HRXJNM0QnLCdUMU1zNEFuMkVyJywnICcsICcgJyAgKQo=</text>
       </register>
-      <register name="9" type="4">
-        <text>-- IFACE
-into iface_pars_percomp (comp_code, comp_ntvc,op_code, protocol, url, user_group, user_code, user_passwd, custom_query, criteria_field ) values  ('TRAS', '954', 'DepartureTicketDataCPRQ_B', 'XML', 'ORADB', ' ', 'T1nGErM3D','An4Er2eD',' ', ' '  )
-into iface_pars_percomp (comp_code, comp_ntvc,op_code, protocol, url, user_group, user_code, user_passwd, custom_query, criteria_field ) values('FRS', 'FRS', 'DepartureTicketDataCPRQ_B', 'XML',  'ORADB', ' ', 'tmsauser','Flexways',' ', ' '  )
-into iface_pars_percomp (comp_code, comp_ntvc,op_code, protocol, url, user_group, user_code, user_passwd, custom_query, criteria_field ) values  ('TRAS', '954', 'GetAllTicketsRQ', 'XML', 'ORADB', ' ', 'T1nGErM3D','An4Er2eD',' ', ' '  )
-into iface_pars_percomp (comp_code, comp_ntvc,op_code, protocol, url, user_group, user_code, user_passwd, custom_query, criteria_field ) values('FRS', 'FRS', 'GetAllTicketsRQ', 'XML',  'ORADB', ' ', 'tmsauser','Flexways',' ', ' '  )
-into iface_pars_percomp (comp_code, comp_ntvc,op_code, protocol, url, user_group, user_code, user_passwd, custom_query, criteria_field ) values('ACC', '954', 'GetAllTicketsRQ', 'XML',  'ORADB', ' ', 'T1nGErM3D','T1Ms4An2Er',' ', ' '  )
-
-
-into eai_msg_props (message_type, interactv) values ('DepartureTicketDataCPRQ_S', 'Y')
-into eai_msg_props (message_type, interactv) values ('DepartureTicketDataCPRS_S', 'Y')
-into eai_msg_props (message_type, interactv) values ('TicketVerifyCPRQ', 'Y')
-into eai_msg_props (message_type, interactv) values ('TicketVerifyCPRS', 'Y')
-into eai_msg_props (message_type, interactv) values ('GetAllTicketsRQ', 'Y')
-into eai_msg_props (message_type, interactv) values ('GetAllTicketsRS', 'Y')</text>
+      <register name="9" type="2">
+        <text encoding="base64">aW50byBpZmFjZV9wYXJzX3BlcmNvbXAgKGNvbXBfY29kZSwgY29tcF9udHZjLG9wX2NvZGUsIHByb3RvY29sLCB1cmwsIHVzZXJfZ3JvdXAsIHVzZXJfY29kZSwgdXNlcl9wYXNzd2QsIGN1c3RvbV9xdWVyeSwgY3JpdGVyaWFfZmllbGQgKSB2YWx1ZXMoJ0FDQycsICc5NTQnLCAnR2V0QWxsVGlja2V0c1JRJywgJ1hNTCcsICAnT1JBREInLCAnICcsICdUMW5HRXJNM0QnLCdUMU1zNEFuMkVyJywnICcsICcgJyAgKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</text>
       </register>
     </registers>
     <search>
@@ -934,8 +956,6 @@ into eai_msg_props (message_type, interactv) values ('GetAllTicketsRS', 'Y')</te
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gU2F2ZUFsbA==</entry>
-        <entry>action VimWindowClose</entry>
         <entry>action SplitVertically</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action Debug</entry>
@@ -945,16 +965,17 @@ into eai_msg_props (message_type, interactv) values ('GetAllTicketsRS', 'Y')</te
         <entry>action QuickJavaDoc</entry>
         <entry>action Find</entry>
         <entry>action RenameElement</entry>
-        <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action CloseContent</entry>
-        <entry>action AceAction</entry>
-        <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action NextTab</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action AceAction</entry>
         <entry>action SaveAll</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
       </history-cmd>
       <history-expr />
       <history-input />
