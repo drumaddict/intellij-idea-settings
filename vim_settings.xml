@@ -24,12 +24,6 @@
         <mark key="." line="13" column="44" />
         <mark key="^" line="13" column="44" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/AMP_ISSUE_PRINT.xml" timestamp="1559130506701">
-        <mark key="'" line="239" column="16" />
-        <mark key="[" line="65" column="0" />
-        <mark key="]" line="65" column="0" />
-        <mark key="." line="65" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/companies_checkin_req/descriptors/MessageDataDescriptor.java" timestamp="1559136425828">
         <mark key="'" line="256" column="37" />
         <mark key="[" line="258" column="0" />
@@ -133,6 +127,12 @@
         <mark key="^" line="67" column="58" />
         <mark key="." line="67" column="59" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_MINIMUM_HOURS_LIMIT_BEFORE_CONFIRMATION.sql" timestamp="1559201496199">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="232" />
+        <mark key="o" line="1" column="60" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/ItineraryData.java" timestamp="1556097131372">
         <mark key="'" line="1615" column="2" />
         <mark key="[" line="1564" column="39" />
@@ -160,6 +160,13 @@
         <mark key="]" line="143" column="37" />
         <mark key="." line="135" column="41" />
         <mark key="^" line="135" column="41" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_parameters.sql" timestamp="1559201783449">
+        <mark key="'" line="10" column="27" />
+        <mark key="[" line="10" column="31" />
+        <mark key="]" line="10" column="31" />
+        <mark key="^" line="10" column="31" />
+        <mark key="." line="10" column="31" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" timestamp="1554894981278">
         <mark key="'" line="172" column="17" />
@@ -273,10 +280,10 @@
         <mark key="^" line="268" column="127" />
         <mark key="." line="331" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_sms_settings.sql" timestamp="1559045717972">
-        <mark key="'" line="3" column="100" />
-        <mark key="[" line="3" column="87" />
-        <mark key="]" line="3" column="76" />
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_sms_settings.sql" timestamp="1559201358869">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="6" column="17" />
         <mark key="." line="3" column="76" />
         <mark key="^" line="3" column="76" />
       </file>
@@ -357,10 +364,10 @@
         <mark key="^" line="5" column="211" />
         <mark key="." line="5" column="212" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_recall_itineraries_for_confirm_day_range.sql" timestamp="1553848123441">
-        <mark key="'" line="2" column="17" />
-        <mark key="[" line="1" column="97" />
-        <mark key="]" line="1" column="164" />
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_recall_itineraries_for_confirm_day_range.sql" timestamp="1559201751549">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="166" />
         <mark key="." line="1" column="164" />
         <mark key="^" line="1" column="164" />
       </file>
@@ -534,12 +541,6 @@
         <mark key="^" line="178" column="22" />
         <mark key="." line="178" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/AMP_ISSUE_PRINT_RESPONSE.xml" timestamp="1559131158002">
-        <mark key="'" line="55" column="16" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="55" column="17" />
-        <mark key="." line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1557734488541">
         <mark key="'" line="167" column="84" />
         <mark key="[" line="167" column="82" />
@@ -628,12 +629,6 @@
         <mark key="]" line="16" column="34" />
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1559133058094">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/devLibs/axis2/bin/sms.bat" timestamp="1557991128462">
         <mark key="'" line="6" column="0" />
@@ -742,14 +737,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="104" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocPrint.java" />
-      <jump line="139" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocPrint.java" />
-      <jump line="127" column="5" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocPrint.java" />
-      <jump line="111" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocPrint.java" />
-      <jump line="190" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocPrint.java" />
-      <jump line="72" column="58" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocPrint.java" />
-      <jump line="355" column="45" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
-      <jump line="24" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpHandler.java" />
       <jump line="54" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpHandler.java" />
       <jump line="68" column="28" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpHandler.java" />
       <jump line="69" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpHandler.java" />
@@ -842,6 +829,14 @@
       <jump line="189" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/DateUtils.java" />
       <jump line="185" column="67" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/DateUtils.java" />
       <jump line="164" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchAllTicketsFromFerryCompany.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_sms_settings.sql" />
+      <jump line="6" column="17" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_parameters.sql" />
+      <jump line="1" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_MINIMUM_HOURS_LIMIT_BEFORE_CONFIRMATION.sql" />
+      <jump line="8" column="50" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_parameters.sql" />
+      <jump line="11" column="17" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_parameters.sql" />
+      <jump line="7" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_parameters.sql" />
+      <jump line="1" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_recall_itineraries_for_confirm_day_range.sql" />
+      <jump line="10" column="27" filename="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/add_parameters.sql" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -853,8 +848,8 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgIG1zZ0R0YS5zZXRUaWNrZXRJc3N1ZURhdGVUaW1lU3RhcnQoRGF0ZVV0aWxzLnVuRGFzaGVyaXplRGF0ZVN0cmluZyh0aWNrZXRJc3N1ZURhdGVUaW1lU3RhcnQpKTsK</text>
+      <register name="0" type="4">
+        <text>ITINERARIES_SEARCH_DAY_RANGE</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICBwcml2YXRlIFN0cmluZyBkZXBhcnR1cmVEYXRlID0gbnVsbDsK</text>
@@ -910,19 +905,20 @@
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action Debug</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action AceAction</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action CloseContent</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action Find</entry>
         <entry>action RenameElement</entry>
         <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action AceAction</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action NextTab</entry>
+        <entry>action CloseContent</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
