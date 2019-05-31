@@ -109,13 +109,12 @@
         <mark key="." line="154" column="0" />
         <mark key="^" line="154" column="46" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" timestamp="1559222658170">
-        <mark key="'" line="93" column="17" />
-        <mark key="[" line="78" column="0" />
-        <mark key="]" line="78" column="2" />
+      <file name="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" timestamp="1559226111916">
+        <mark key="[" line="97" column="98" />
+        <mark key="]" line="97" column="98" />
         <mark key="n" line="55" column="51" />
-        <mark key="." line="78" column="2" />
-        <mark key="^" line="78" column="2" />
+        <mark key="^" line="97" column="98" />
+        <mark key="." line="97" column="98" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1559139643552">
         <mark key="'" line="1294" column="0" />
@@ -227,7 +226,7 @@
         <mark key="]" line="5" column="235" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/docs/assets/ITINERARY_ENQUIRY_TICKET_RS.xml" timestamp="1559222699578">
+      <file name="$USER_HOME$/projects/port-checkin-control/docs/assets/ITINERARY_ENQUIRY_TICKET_RS.xml" timestamp="1559223579548">
         <mark key="'" line="46" column="16" />
         <mark key="[" line="13" column="44" />
         <mark key="]" line="13" column="43" />
@@ -684,7 +683,7 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1559212508808">
+      <file name="/Dummy.txt" timestamp="1559226302295">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -807,10 +806,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="200" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchAllTicketsFromFerryCompany.java" />
-      <jump line="48" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchAllTicketsFromFerryCompany.java" />
-      <jump line="308" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchAllTicketsFromFerryCompany.java" />
-      <jump line="302" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchAllTicketsFromFerryCompany.java" />
       <jump line="12" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" />
       <jump line="1294" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/FetchAllTicketsFromCompanyResponseHandler.java" />
@@ -907,10 +902,14 @@
       <jump line="71" column="49" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
       <jump line="61" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
       <jump line="94" column="17" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
+      <jump line="87" column="3" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
+      <jump line="88" column="3" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
+      <jump line="86" column="3" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
+      <jump line="93" column="3" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>Parameters</text>
+        <text>Email</text>
       </register>
       <register name="-" type="4">
         <text>Sample XML:</text>
@@ -918,41 +917,45 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">ICAgUmVxdWVzdCBQYXJhbWV0ZXJzOgogICBQb3J0OiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDgwMTEKICAgU2VydmljZUluZm8jTWVzc2FnZVR5cGU6ICAgICAgICAgICAgICAgICAgICBTdHJpbmcgICAgSVRJTkVSQVJZX0VOUVVJUllfVElDS0VUCiAgIEJvb2tpbmcjT3BlblRpY2tldE51bWJlciAgICAgICAgICAgICAgICAgICAgU3RyaW5nCiAgIEJvb2tpbmcjQm9va2luZ051bWJlciAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nCgogICBJdGluZXJhcnlDcml0ZXJpYSNEZXBhcnR1cmVEYXRlICAgICAgICAgICAgIFN0cmluZyAgICBbWUVBUl1bTU9OVEhdW0RBWV0gZXguMjAxOTA1MzAKICAgSXRpbmVyYXJ5Q3JpdGVyaWEjQ29tcGFueSAgICAgICAgICAgICAgICAgICBTdHJpbmcgICAgW0NPTVBBTllfQ09ERV0gZXguIEFDQwoKICBWYWxpZGF0aW9uczoKICAxKSBBdCBsZWFzdCBvbmUgb2YgT3BlblRpY2tldE51bWJlciBvciBCb29raW5nTnVtYmVyIChSZXNlcnZhdGlvbiBDb2RlKSBtdXN0IGJlIHByb3ZpZGVkLgogIEVycm9yIGlzIHJldHVybmVkIGlmIGJvdGggYXJlIGVtcHR5LgogIDIpIERlcGFydHVyZURhdGUgbXVzdCBiZSBpbmNsdWRlZCB3aXRoaW4gYSB0aW1lIGZyYW1lIHN0YXJ0aW5nIGZyb20gdG9kYXkgdXAgdG8gYSBudW1iZXIgb2YgZGF5cwogICAgYXMgZGVmaW5lZCBieSB0aGUgSVRJTkVSQVJJRVNfU0VBUkNIX0RBWV9SQU5HRSBwYXJhbWV0ZXIgd2hpY2ggY2FuIGJlIGNvbmZpZ3VyZWQgZnJvbSB0aGUgYWRtaW4uCgogICBTYW1wbGUgWE1MOiAuLi4=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgUGFzc2VuZ2VyI0NvbmZpcm1hdGlvblN0YXR1cyAgICAgICAgICAgICAgICAgIFN0cmluZwogICBQYXNzZW5nZXIjRW1haWwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgUG9ydDogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4MDExCg==</text>
+      <register name="1" type="4">
+        <text>Email</text>
       </register>
       <register name="2" type="4">
-        <text>Parameters</text>
+        <text>ConfirmationStatus</text>
       </register>
       <register name="3" type="4">
-        <text>Request</text>
+        <text>returned</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>Validations:
+  1) At least one of OpenTicketNumber or BookingNumber (Reservation Code) must be provided.
+  Error is returned if both are empty.
+  2) DepartureDate must be included within a time frame starting from today up to a number of days
+    as defined by the ITINERARIES_SEARCH_DAY_RANGE parameter which can be configured from the admin.</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">ICAgU2VydmljZUluZm8jTWVzc2FnZVR5cGU6ICAgICAgICAgICAgICAgICAgICBTdHJpbmcgICAgSVRJTkVSQVJZX0VOUVVJUllfVElDS0VUCiAgIEJvb2tpbmcjT3BlblRpY2tldE51bWJlciAgICAgICAgICAgICAgICAgICAgU3RyaW5nCiAgIEJvb2tpbmcjQm9va2luZ051bWJlciAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nCgogICBJdGluZXJhcnlDcml0ZXJpYSNEZXBhcnR1cmVEYXRlICAgICAgICAgICAgIFN0cmluZyAgICBbWUVBUl1bTU9OVEhdW0RBWV0gZXguMjAxOTA1MzAKICAgSXRpbmVyYXJ5Q3JpdGVyaWEjQ29tcGFueSAgICAgICAgICAgICAgICAgICBTdHJpbmcgICAgW0NPTVBBTllfQ09ERV0gZXguIEFDQw==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgUG9ydDogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4MDExCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="x" type="4">
+      <register name="7" type="4">
         <text>Parameters</text>
       </register>
+      <register name="x" type="4">
+        <text>Email</text>
+      </register>
       <register name="8" type="4">
-        <text encoding="base64">PEJvYXJkUGFzc0RhdGE+CiAgICAgICAgICAgICAgICAgICAgPEJvYXJkUGFzcyBCb2FyZElEPSIiIEJvb2tJRD0iIiBEYXRlVGltZT0iU3RyaW5nIiBCb2FyZFN0YXR1cz0iU3RyaW5nIiBFbWJhcmtTZXE9IiIgQm9va1R5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgPC9Cb2FyZFBhc3NEYXRhPg==</text>
+        <text>Request</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxUcmlwRGF0YSBEZXBhcnR1cmVUaW1lPSIiIEFycml2YWxQb3J0Q29kZT0iIiBEZXBhcnR1cmVEYXRlPSIiIERlcGFydHVyZVBvcnRDb2RlPSIiIENoZWNraW5TdGFydFRpbWU9IiIgSXRpbmVyYXJ5SUQ9IjAiIEFycml2YWxUaW1lPSIiIEFycml2YWxQb3J0RGVzY3JpcHRpb249IiIgQXJyaXZhbERhdGU9IiIgVmVzc2VsTmFtZT0iIiBDb21wYW55Q29kZT0iIiBDaGVja2luU3RhcnREYXRlPSIiIENvbXBhbnlEZXNjcmlwdGlvbj0iIiBUb3RhbFBhc3NlbmdlclByb3RvY29sPSIwIiBWZXNzZWxJTU89IiIgU2FpbElEPSIwIiBEZXBhcnR1cmVQb3J0RGVzY3JpcHRpb249IiIgVG90YWxWZWhpY2xlVW5pdHM9IjAiLz4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action MoveEditorToOppositeTabGroup</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -975,7 +978,6 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
         <entry>action SplitVertically</entry>
@@ -985,11 +987,12 @@
         <entry>action RenameElement</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action $SelectAll</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action PreviousTab</entry>
         <entry>action Find</entry>
         <entry>action GotoFile</entry>
-        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
       </history-cmd>
       <history-expr />
       <history-input />
