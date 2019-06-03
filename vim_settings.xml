@@ -941,7 +941,7 @@
         <text>with</text>
       </register>
       <register name=":" type="4">
-        <text>action NextTab</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -971,13 +971,13 @@
         <entry>action FileStructurePopup</entry>
         <entry>action ReformatCode</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
-        <entry>action Find</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
