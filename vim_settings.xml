@@ -433,6 +433,13 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/departureTicketCP/DepartureTicketDataCPRS_S.xml" timestamp="1559551488008">
+        <mark key="'" line="125" column="15" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="126" column="18" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/FetchAllTicketsFromCompanyResponseHandler.java" timestamp="1559139466347">
         <mark key="'" line="1292" column="0" />
         <mark key="[" line="64" column="9" />
@@ -792,8 +799,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="85" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
-      <jump line="49" column="3" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
       <jump line="53" column="3" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
       <jump line="35" column="67" filename="$USER_HOME$/projects/port-checkin-control/docs/assets/ITINERARY_ENQUIRY_TICKET_RQ.xml" />
       <jump line="64" column="76" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
@@ -892,6 +897,8 @@
       <jump line="323" column="3" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
       <jump line="1003" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" />
       <jump line="274" column="77" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
+      <jump line="126" column="17" filename="$USER_HOME$/projects/port-checkin-control/documentation/departureTicketCP/DepartureTicketDataCPRS_S.xml" />
+      <jump line="125" column="15" filename="$USER_HOME$/projects/port-checkin-control/documentation/departureTicketCP/DepartureTicketDataCPRS_S.xml" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -1003,7 +1010,7 @@ o	εάν έχει εκδοθεί ή όχι και κάρτα επιβίβαση�
         <text>ConfirmationID</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -1033,13 +1040,13 @@ o	εάν έχει εκδοθεί ή όχι και κάρτα επιβίβαση�
         <entry>action ReformatCode</entry>
         <entry>action NextTab</entry>
         <entry>action CloseContent</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action AceAction</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action Find</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
