@@ -948,7 +948,7 @@
         <text>with</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -979,13 +979,13 @@
         <entry>action ReformatCode</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action PreviousTab</entry>
-        <entry>action SaveAll</entry>
         <entry>action NextTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action FindUsages</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
