@@ -926,7 +926,7 @@
             fillMappedTicketsWithValidForPrintingTickets(ticketNumbers);</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -964,9 +964,9 @@
         <entry>action PreviousTab</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action FindUsages</entry>
-        <entry>action Find</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
