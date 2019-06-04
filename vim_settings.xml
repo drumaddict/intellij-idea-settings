@@ -648,6 +648,7 @@
         <mark key="." line="110" column="42" />
         <mark key="^" line="110" column="42" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" timestamp="1559631826353" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1559550629501">
         <mark key="'" line="172" column="14" />
         <mark key="[" line="320" column="72" />
@@ -945,7 +946,7 @@
         <text>with</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -978,10 +979,10 @@
         <entry>action NextTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
