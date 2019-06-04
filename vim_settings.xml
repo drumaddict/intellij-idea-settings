@@ -31,7 +31,7 @@
         <mark key="^" line="248" column="52" />
         <mark key="." line="258" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/sql_snippets/OPEN_POST_BUG2.sql" timestamp="1559629950537" />
+      <file name="$USER_HOME$/projects/port-checkin-control/sql_snippets/OPEN_POST_BUG2.sql" timestamp="1559637609347" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1559122904040">
         <mark key="'" line="355" column="45" />
         <mark key="[" line="355" column="5" />
@@ -946,7 +946,7 @@
         <text>with</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -975,14 +975,15 @@
         <entry>action FileStructurePopup</entry>
         <entry>action ReformatCode</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action Find</entry>
-        <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action SplitVertically</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
