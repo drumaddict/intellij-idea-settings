@@ -199,7 +199,7 @@
         <mark key="." line="8" column="0" />
         <mark key="^" line="8" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1559640460763">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1559641617840">
         <mark key="'" line="1003" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/devLibs/axis2/build.xml" timestamp="1557997300127">
@@ -443,11 +443,11 @@
         <mark key="." line="2011" column="2" />
         <mark key="^" line="2011" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1559639280034">
-        <mark key="[" line="1493" column="23" />
-        <mark key="]" line="1493" column="23" />
-        <mark key="^" line="1722" column="17" />
-        <mark key="." line="1493" column="23" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1559642985555">
+        <mark key="[" line="1705" column="5" />
+        <mark key="]" line="1705" column="80" />
+        <mark key="^" line="1705" column="80" />
+        <mark key="." line="1705" column="80" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/amp/issue_report.txt" timestamp="1559132054091">
         <mark key="'" line="37" column="109" />
@@ -737,7 +737,7 @@
         <mark key="^" line="161" column="96" />
         <mark key="." line="34" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/FetchBookingDataOnline.java" timestamp="1559640404348">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/FetchBookingDataOnline.java" timestamp="1559641766887">
         <mark key="'" line="92" column="2" />
         <mark key="[" line="309" column="5" />
         <mark key="]" line="309" column="2" />
@@ -765,7 +765,7 @@
         <mark key="^" line="84" column="55" />
         <mark key="." line="84" column="55" />
       </file>
-      <file name="/fragment.java" timestamp="1559639900044">
+      <file name="/fragment.java" timestamp="1559642954751">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="3" />
@@ -934,7 +934,7 @@
         <text>statistics</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -964,15 +964,16 @@
         <entry>action ReformatCode</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action SplitVertically</entry>
-        <entry>action Find</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action FindUsages</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
+        <entry>action ToggleBookmark</entry>
+        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
