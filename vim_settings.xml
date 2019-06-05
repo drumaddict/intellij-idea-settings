@@ -676,6 +676,9 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="406" />
       </file>
+      <file name="/Dummy.txt" timestamp="1559735334501">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/devLibs/axis2/bin/sms.bat" timestamp="1557991128462">
         <mark key="'" line="6" column="0" />
         <mark key="[" line="6" column="0" />
@@ -928,7 +931,7 @@
         <text encoding="base64">ICBwcml2YXRlICBjb25maXJtZWRUcmlwRGF0YSA9IG51bGw7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action PreviousTab</text>
       </register>
     </registers>
     <search>
@@ -945,7 +948,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action SplitVertically</entry>
         <entry>action NextTab</entry>
@@ -954,7 +956,6 @@
         <entry>action RenameElement</entry>
         <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action PreviousTab</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
@@ -965,6 +966,8 @@
         <entry>action FileStructurePopup</entry>
         <entry>action SaveAll</entry>
         <entry>action Find</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action PreviousTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
