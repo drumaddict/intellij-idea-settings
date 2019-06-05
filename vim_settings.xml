@@ -933,7 +933,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -964,12 +964,12 @@
         <entry>action SaveAll</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action PreviousTab</entry>
-        <entry>action FindUsages</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
