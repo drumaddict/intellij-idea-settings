@@ -452,12 +452,12 @@
         <mark key="." line="2011" column="2" />
         <mark key="^" line="2011" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1559898490683">
-        <mark key="'" line="1772" column="10" />
-        <mark key="[" line="1726" column="8" />
-        <mark key="]" line="1739" column="9" />
-        <mark key="^" line="1728" column="7" />
-        <mark key="." line="1726" column="8" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1559900673730">
+        <mark key="'" line="1762" column="10" />
+        <mark key="[" line="1761" column="0" />
+        <mark key="]" line="1761" column="0" />
+        <mark key="^" line="1751" column="9" />
+        <mark key="." line="1761" column="0" />
         <mark key="n" line="1757" column="39" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/amp/issue_report.txt" timestamp="1559132054091">
@@ -467,8 +467,8 @@
         <mark key="^" line="38" column="47" />
         <mark key="." line="38" column="47" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandlerOLD.java" timestamp="1559898397251">
-        <mark key="'" line="1382" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandlerOLD.java" timestamp="1559899877417">
+        <mark key="'" line="283" column="50" />
         <mark key="[" line="1382" column="0" />
         <mark key="]" line="1395" column="8" />
         <mark key="^" line="48" column="30" />
@@ -815,12 +815,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="342" column="65" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
-      <jump line="351" column="106" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
-      <jump line="67" column="57" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
-      <jump line="68" column="78" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
-      <jump line="352" column="99" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
-      <jump line="353" column="3" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
       <jump line="354" column="100" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
       <jump line="339" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
       <jump line="399" column="13" filename="$USER_HOME$/projects/port-checkin-control/docs/Confrimation_Module.txt" />
@@ -915,59 +909,58 @@
       <jump line="1746" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1739" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1772" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1642" column="19" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="256" column="29" filename="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandlerOLD.java" />
+      <jump line="128" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandlerOLD.java" />
+      <jump line="283" column="50" filename="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandlerOLD.java" />
+      <jump line="1725" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1762" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>icket</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IFQgTnVtYmVy</text>
+        <text>u</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgICAgICAvLyBPbi1saW5lIGZvciB0aWNrdCB2ZXJpZnkKICAgICAgICBpZiAoY2IuZ2V0Q29tcEF0dHIoKS5zdWJzdHJpbmcoMiwgMykuY29tcGFyZVRvKCIxIikgPT0gMCkgewogICAgICAgICAgRW1iYXJrZHRhVndNYW5hZ2VyIG0gPSBFbWJhcmtkdGFWd01hbmFnZXIuZ2V0SW5zdGFuY2UoKTsKICAgICAgICAgIEVtYmFya2R0YVZ3QmVhbltdIHZiID0gbS5sb2FkQnlXaGVyZShTdHJpbmcuZm9ybWF0KCIgd2hlcmUgVElDS19OVU1CPSclcycgIiwgdGNrdE51bWJlci50cmltKCkpKTsKICAgICAgICAgIGlmICh2Yi5sZW5ndGggPiAwKSB7CiAgICAgICAgICAgIGZvciAoaW50IHJuID0gMDsgcm4gPCB2Yi5sZW5ndGg7IHJuKyspIHsKICAgICAgICAgICAgICBpZiAodmJbcm5dLmdldEJvYXJkU3RhdHVzKCkgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgaWYgKHZiW3JuXS5nZXRCb2FyZFN0YXR1cygpLnRyaW0oKS5jb21wYXJlVG8oIkEiKSA9PSAwKSB7CiAgICAgICAgICAgICAgICAgIHJldHVybiAiMDAwOk9LIjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgIH0KICAgICAgICB9</text>
+        <text encoding="base64">Ly8gICAgICAgIGlmIChjYi5nZXRDb21wQXR0cigpLnN1YnN0cmluZygyLCAzKS5jb21wYXJlVG8oIjEiKSA9PSAwKSB7Ci8vICAgICAgICAgIEVtYmFya2R0YVZ3TWFuYWdlciBtID0gRW1iYXJrZHRhVndNYW5hZ2VyLmdldEluc3RhbmNlKCk7Ci8vICAgICAgICAgIEVtYmFya2R0YVZ3QmVhbltdIHZiID0gbS5sb2FkQnlXaGVyZShTdHJpbmcuZm9ybWF0KCIgd2hlcmUgVElDS19OVU1CPSclcycgIiwgdGNrdE51bWJlci50cmltKCkpKTsKLy8gICAgICAgICAgaWYgKHZiLmxlbmd0aCA+IDApIHsKLy8gICAgICAgICAgICBmb3IgKGludCBybiA9IDA7IHJuIDwgdmIubGVuZ3RoOyBybisrKSB7Ci8vICAgICAgICAgICAgICBpZiAodmJbcm5dLmdldEJvYXJkU3RhdHVzKCkgIT0gbnVsbCkgewovLyAgICAgICAgICAgICAgICBpZiAodmJbcm5dLmdldEJvYXJkU3RhdHVzKCkudHJpbSgpLmNvbXBhcmVUbygiQSIpID09IDApIHsKLy8gICAgICAgICAgICAgICAgICByZXR1cm4gIjAwMDpPSyI7Ci8vICAgICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICB9Ci8vICAgICAgICAgIH0KLy8gICAgICAgIH0=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">cGx1cyBhbnkgZGVmYXVsdCBlbWFpbCBhbmQgc21zIGNvbmZpZ3VyZWQgaW4gIEFMRVJUX0NPTkZJRyB0YWJsZS4K</text>
+        <text encoding="base64">Ly8gICAgICAgIH0K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIC8vICAgICAgICBpZiAoY2IuZ2V0Q29tcEF0dHIoKS5zdWJzdHJpbmcoMiwgMykuY29tcGFyZVRvKCIxIikgPT0gMCkgewo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB0aWNrZXROdW1iZXJzLmFkZCh2YlswXS5nZXRUaWNrTnVtYigpKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB0aWNrZXROdW1iZXJzLmFkZCh2YlswXS5nZXRUaWNrTnVtYigpKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB0aWNrZXROdW1iZXJzLmFkZCh2YlswXS5nZXRUaWNrTnVtYigpKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">cGx1cyBhbnkgZGVmYXVsdCBlbWFpbCBhbmQgc21zIGNvbmZpZ3VyZWQgaW4gIEFMRVJUX0NPTkZJRyB0YWJsZS4K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Tm9uIFNob3cgIE5vdGlmaWNhdGlvbiBmb3IgVGlja2V0IHdpdGggcmVzZXJ2YXRpb24gY29kZSBbYm9va2luZ051bWJlcl0sIHRpY2tldCBudW1iZXIgW3RpY2tldE51bWJlcl0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>icket</text>
       </register>
-      <register name="8" type="4">
-        <text>[reservationCode]                                  Reservation Code
-[vessName]                                         Name of the Vessel
-[compName]                                         Company Name
-[departureDate]                                    Departure Date of the confirmed trip
-[departurePortDescr]                               Departure Port Description
-[arrivalPortDescr]                                 Arrival Port Description</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>Mr/Mrs [passSname], you are kindly informed that you did not show up in time for the boarding process
- of your confirmed trip with itinerary of  [vessName] of company [compName]  with  departure date [departureDate],  departure port [departurePortDescr], arrivalPort [arrivalPortDescr].
-Therefore your confirmation is no longer valid.</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action FileStructurePopup</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -997,13 +990,13 @@ Therefore your confirmation is no longer valid.</text>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action AceAction</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action FindUsages</entry>
         <entry>action Find</entry>
         <entry>action FileStructurePopup</entry>
+        <entry>action FindUsages</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
