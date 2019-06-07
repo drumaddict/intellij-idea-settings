@@ -285,7 +285,7 @@
         <mark key="^" line="49" column="24" />
         <mark key="." line="49" column="24" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1559744597064">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1559896902283">
         <mark key="'" line="589" column="42" />
         <mark key="[" line="1840" column="8" />
         <mark key="]" line="1844" column="7" />
@@ -975,7 +975,7 @@
 Therefore your confirmation is no longer valid.</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
@@ -999,19 +999,19 @@ Therefore your confirmation is no longer valid.</text>
         <entry>action RenameElement</entry>
         <entry>1833</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action ShowBookmarks</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
         <entry>action $SelectAll</entry>
         <entry>action Find</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action AceAction</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
