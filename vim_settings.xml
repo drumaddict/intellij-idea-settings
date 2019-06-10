@@ -242,6 +242,10 @@
         <mark key="[" line="34" column="1" />
         <mark key="]" line="34" column="72" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/dist/logOPEN_POST.txt" timestamp="1560149137165">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="474" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/companies_checkin_req/MessageData.java" timestamp="1559136016878">
         <mark key="'" line="408" column="2" />
         <mark key="[" line="407" column="29" />
@@ -922,7 +926,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>select * from embarkdta_conf_vw e where e.conf_status in ('C', 'N') and e.board_status IS NULL</text>
+        <text encoding="base64">SU5GTyBbcG9vbC00LXRocmVhZC0yXSAoU21zU2VuZGVyLmphdmE6NjMpIC0gU2VuZGluZyBTTVMgdG8gZW5kcG9pbnQgOiBodHRwczovLzE3Mi4xNi4xLjQxL21jbXMvc2VuZHNtcz9sb2dpbj10YW5NZWRpbnRlJnBhc3N3b3JkPXRhQ1YlNDA3OGQmb2FkYz1UQU5HRVJNRUQmbXNpc2RuX3RvPSUyQjMwNjkzODM3MDA0MiZib2R5PVRoaXMraXMrdGhlK2NvbmZpcm1hdGlvbitwYXNzK2Zvcit0aWNrZXQrVEVTVDI5MDUyMSUyQytyZXNlcnZhdGlvbitjb2RlK1RFU1QyOTA1MiUyQytmb3IrdGhlK3VwY29taW5nK3RyaXArd2l0aCt2ZXNzZWwrTk9WQVNUQVIrb2YrY29tcGFueSsrSU5URVJTSElQUElORysrb24rMDItMDUtMjAxOSsxMiUzQTQwKyUyQyt3aXRoK2Rlc3RpbmF0aW9uK0FMR0VDSVJBUy4lMEEraHR0cCUzQSUyRiUyRjE5Mi4xNjguNy44MyUyRmNvbmZpcm1hdGlvbnMlMkZDT05GXzQ5MF9OT1ZBU1RBUl8yMDE5LTA1LTAyLnBkZg==</text>
       </register>
       <register name="1" type="4">
         <text>alertId</text>
