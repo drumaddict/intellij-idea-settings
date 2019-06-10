@@ -481,6 +481,14 @@
         <mark key="." line="2011" column="2" />
         <mark key="^" line="2011" column="1" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1560174676539">
+        <mark key="'" line="1703" column="87" />
+        <mark key="[" line="1704" column="0" />
+        <mark key="]" line="1704" column="0" />
+        <mark key="^" line="1703" column="5" />
+        <mark key="." line="1704" column="0" />
+        <mark key="n" line="1757" column="39" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/amp/issue_report.txt" timestamp="1559132054091">
         <mark key="'" line="37" column="109" />
         <mark key="[" line="37" column="110" />
@@ -573,6 +581,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="50" column="58" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/sql_snippets/ticket_issue.sql" timestamp="1560173451762" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CPassengers.java" timestamp="1554705150241">
         <mark key="'" line="251" column="0" />
         <mark key="[" line="251" column="0" />
@@ -996,7 +1005,7 @@
         <text>onlineInvalidTicketNumbers</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -1024,15 +1033,15 @@
         <entry>action $SelectAll</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action SaveAll</entry>
-        <entry>action Find</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
