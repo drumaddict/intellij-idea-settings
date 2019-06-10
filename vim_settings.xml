@@ -456,12 +456,12 @@
         <mark key="." line="2011" column="2" />
         <mark key="^" line="2011" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1559917228908">
-        <mark key="'" line="396" column="22" />
-        <mark key="[" line="390" column="15" />
-        <mark key="]" line="396" column="23" />
-        <mark key="^" line="360" column="23" />
-        <mark key="." line="390" column="15" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1560155382683">
+        <mark key="'" line="1295" column="86" />
+        <mark key="[" line="1295" column="57" />
+        <mark key="]" line="1295" column="56" />
+        <mark key="^" line="1295" column="56" />
+        <mark key="." line="1295" column="56" />
         <mark key="n" line="1757" column="39" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/amp/issue_report.txt" timestamp="1559132054091">
@@ -561,6 +561,12 @@
         <mark key="]" line="22" column="76" />
         <mark key="^" line="22" column="76" />
         <mark key="." line="22" column="76" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/dist/BoardingPassHandler.java" timestamp="1560154496229">
+        <mark key="[" line="1677" column="46" />
+        <mark key="]" line="1677" column="45" />
+        <mark key="^" line="1677" column="45" />
+        <mark key="." line="1677" column="45" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/FetchAllTicketsFromFerryCompanyReader.java" timestamp="1559139677190">
         <mark key="'" line="45" column="93" />
@@ -814,13 +820,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="44" column="7" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
-      <jump line="47" column="4" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
-      <jump line="46" column="14" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
-      <jump line="49" column="218" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
-      <jump line="34" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
-      <jump line="53" column="12" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
-      <jump line="36" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
       <jump line="37" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
       <jump line="56" column="62" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
       <jump line="40" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
@@ -914,10 +913,17 @@
       <jump line="57" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="62" column="76" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
       <jump line="18" column="0" filename="$USER_HOME$/projects/port-checkin-control/sql_snippets/OPEN_POST_BUG2.sql" />
+      <jump line="1687" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1690" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="61" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="299" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="422" column="82" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1229" column="86" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1295" column="86" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>alertId</text>
+        <text>ticketNumbers</text>
       </register>
       <register name="-" type="4">
         <text>//  mappedTicket.getStatusCode()</text>
@@ -926,37 +932,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>--select * from bookline  b where b.reservcode = '3482802'</text>
+        <text>if (onlineInvalidTicketNumbers.contains(p.getTicketNumber())) continue;</text>
       </register>
       <register name="1" type="4">
+        <text>ticketNumbers</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgLy8gIFN0cmluZyByZXMgPSByZXRyaWV2ZXIuZ2V0VmVuZG9yU3RhdHVzQ29kZSgpICsgIjoiICsgcmV0cmlldmVyLmdldFZlbmRvclN0YXR1c01lc3NhZ2UoKTsK</text>
+      </register>
+      <register name="3" type="4">
         <text>alertId</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>warn</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgIFZwYXMuc2V0UG1zaWQoYnZiWzBdLmdldENhbGxOdW0oKS50b1N0cmluZygpKTsKICAgICAgICAgICAgICAgICAgICAgIFZwYXMuc2V0UGJkKHNkcy5mb3JtYXQoYnZiWzBdLmdldEJpcnRoRGF0ZSgpKSk7Cg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgd2VicGRmID0gd2J0Y2t0LmNyZWF0ZVRpY2tldCgpOwo=</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>createTicket</text>
       </register>
-      <register name="6" type="4">
-        <text>WebTicket</text>
-      </register>
-      <register name="7" type="4">
-        <text>Ticket</text>
-      </register>
       <register name="x" type="4">
-        <text>alertId</text>
+        <text>ticketNumbers</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">Ly8gIHByaXZhdGUgYm9vbGVhbiBmaWxsTWFwcGVkVGlja2V0cyhMaXN0PFN0cmluZz4gdGNrdE51bWJlcnMpIHsKLy8gICAgYm9vbGVhbiByZXN1bHQgPSBmYWxzZTsKLy8gICAgaWYgKChtYXBwZWRUaWNrZXRzID09IG51bGwpIHx8IChtYXBwZWRUaWNrZXRzLmlzRW1wdHkoKSkpIHsKLy8gICAgICB0cnkgewovLyAgICAgICAgRW1iYXJrZHRhVndNYW5hZ2VyIG0gPSBFbWJhcmtkdGFWd01hbmFnZXIuZ2V0SW5zdGFuY2UoKTsKLy8gICAgICAgIFN0cmluZ0J1aWxkZXIgc2IgPSBuZXcgU3RyaW5nQnVpbGRlcigiICgiKTsKLy8gICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgdGNrdE51bWJlcnMuc2l6ZSgpOyBpKyspIHsKLy8gICAgICAgICAgc2IuYXBwZW5kKFN0cmluZy5mb3JtYXQoIiAoVElDS19OVU1CID0gJyVzJykgIiwgdGNrdE51bWJlcnMuZ2V0KGkpLnRyaW0oKSkpOwovLyAgICAgICAgICBpZiAoaSA8IHRja3ROdW1iZXJzLnNpemUoKSAtIDEpIHsKLy8gICAgICAgICAgICBzYi5hcHBlbmQoIiBvciAiKTsKLy8gICAgICAgICAgfQovLyAgICAgICAgfQovLyAgICAgICAgc2IuYXBwZW5kKCIpIik7Ci8vCi8vICAgICAgICBtYXBwZWRUaWNrZXRzID0gbmV3IEhhc2hNYXA8U3RyaW5nLCBUaWNrZXQ+KCk7Ci8vCi8vICAgICAgICBFbWJhcmtkdGFWd0JlYW5bXSB2YiA9IG0ubG9hZEJ5V2hlcmUoU3RyaW5nLmZvcm1hdCgiIHdoZXJlICVzICIsIHNiLnRvU3RyaW5nKCkpKTsKLy8gICAgICAgIGlmICh2Yi5sZW5ndGggPiAwKSB7Ci8vCi8vICAgICAgICAgIGZvciAoaW50IHJuID0gMDsgcm4gPCB2Yi5sZW5ndGg7IHJuKyspIHsKLy8gICAgICAgICAgICBpZiAodmJbcm5dLmdldEJvYXJkU3RhdHVzKCkgIT0gbnVsbCkgewovLyAgICAgICAgICAgICAgU3RyaW5nIHRpY2tOdW1iID0gdmJbcm5dLmdldFRpY2tOdW1iKCk7Ci8vICAgICAgICAgICAgICBUaWNrZXQgdGlja2V0ID0gbmV3IFRpY2tldCgpOwovLyAgICAgICAgICAgICAgbWFwcGVkVGlja2V0cy5wdXQodGlja051bWIsIHRpY2tldCk7Ci8vICAgICAgICAgICAgICB0aWNrZXQuc2V0VGlja2V0TnVtYmVyKHRpY2tOdW1iKTsKLy8gICAgICAgICAgICAgIGlmICh2Yltybl0uZ2V0Qm9hcmRTdGF0dXMoKS50cmltKCkuY29tcGFyZVRvKCJBIikgPT0gMCkgewovLyAgICAgICAgICAgICAgICB0aWNrZXQuc2V0U3RhdHVzQ29kZSgiMDAwIik7Ci8vICAgICAgICAgICAgICAgIHRpY2tldC5zZXRTdGF0dXNNZXNzYWdlKCJPSyIpOwovLyAgICAgICAgICAgICAgICBpZiAoIXJlc3VsdCkgewovLyAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IHRydWU7Ci8vICAgICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgICAgIHJldHVybiAiMDAwOk9LIjsKLy8gICAgICAgICAgICAgIH0gZWxzZSB7Ci8vICAgICAgICAgICAgICAgIHRpY2tldC5zZXRTdGF0dXNDb2RlKCI5OTgiKTsKLy8gICAgICAgICAgICAgICAgdGlja2V0LnNldFN0YXR1c01lc3NhZ2UoIk5vdCBWYWxpZCIpOwovLyAgICAgICAgICAgICAgfQovLyAgICAgICAgICAgIH0KLy8gICAgICAgICAgfQovLwovLyAgICAgICAgfQovLyAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7Ci8vICAgICAgICBMb2dnZXIuZ2V0TG9nZ2VyKHRoaXMuZ2V0Q2xhc3MoKSkud2FybihTdHJpbmcuZm9ybWF0KCJmaWxsTWFwcGVkVGlja2V0cygpIGZhaWxlZCB3aXRoICVzIiwgZS5nZXRNZXNzYWdlKCkpKTsKLy8gICAgICB9Ci8vICAgIH0KLy8gICAgcmV0dXJuIHJlc3VsdDsKLy8gIH0KCi8vICBwcml2YXRlIGJvb2xlYW4gZmlsbE1hcHBlZFRpY2tldHNXaXRoVmFsaWRGb3JQcmludGluZ1RpY2tldHMoTGlzdDxTdHJpbmc+IHRja3ROdW1iZXJzKSB7Ci8vICAgIGJvb2xlYW4gcmVzdWx0ID0gZmFsc2U7Ci8vICAgIGlmICgobG9jYWxseW1hcHBlZHRpY2tldHNXaXRoVmFsaWRGb3JQcmludGluZ1N0YXR1cyA9PSBudWxsKSB8fCAobG9jYWxseW1hcHBlZHRpY2tldHNXaXRoVmFsaWRGb3JQcmludGluZ1N0YXR1cy5pc0VtcHR5KCkpKSB7Ci8vICAgICAgdHJ5IHsKLy8gICAgICAgIEVtYmFya2R0YVZ3TWFuYWdlciBtID0gRW1iYXJrZHRhVndNYW5hZ2VyLmdldEluc3RhbmNlKCk7Ci8vICAgICAgICBTdHJpbmdCdWlsZGVyIHNiID0gbmV3IFN0cmluZ0J1aWxkZXIoIiAoIik7Ci8vICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHRja3ROdW1iZXJzLnNpemUoKTsgaSsrKSB7Ci8vICAgICAgICAgIHNiLmFwcGVuZChTdHJpbmcuZm9ybWF0KCIgKFRJQ0tfTlVNQiA9ICclcycpICIsIHRja3ROdW1iZXJzLmdldChpKS50cmltKCkpKTsKLy8gICAgICAgICAgaWYgKGkgPCB0Y2t0TnVtYmVycy5zaXplKCkgLSAxKSB7Ci8vICAgICAgICAgICAgc2IuYXBwZW5kKCIgb3IgIik7Ci8vICAgICAgICAgIH0KLy8gICAgICAgIH0KLy8gICAgICAgIHNiLmFwcGVuZCgiKSIpOwovLwovLyAgICAgICAgbG9jYWxseW1hcHBlZHRpY2tldHNXaXRoVmFsaWRGb3JQcmludGluZ1N0YXR1cyA9IG5ldyBIYXNoTWFwPFN0cmluZywgVGlja2V0PigpOwovLwovLyAgICAgICAgRW1iYXJrZHRhVndCZWFuW10gdmIgPSBtLmxvYWRCeVdoZXJlKFN0cmluZy5mb3JtYXQoIiB3aGVyZSAlcyAiLCBzYi50b1N0cmluZygpKSk7Ci8vICAgICAgICBpZiAodmIubGVuZ3RoID4gMCkgewovLyAgICAgICAgICBmb3IgKGludCBybiA9IDA7IHJuIDwgdmIubGVuZ3RoOyBybisrKSB7Ci8vICAgICAgICAgICAgaWYgKHZiW3JuXS5nZXRCb2FyZFN0YXR1cygpICE9IG51bGwpIHsKLy8gICAgICAgICAgICAgIFN0cmluZyB0aWNrTnVtYiA9IHZiW3JuXS5nZXRUaWNrTnVtYigpOwovLyAgICAgICAgICAgICAgVGlja2V0IHRpY2tldCA9IG5ldyBUaWNrZXQoKTsKLy8gICAgICAgICAgICAgIGxvY2FsbHltYXBwZWR0aWNrZXRzV2l0aFZhbGlkRm9yUHJpbnRpbmdTdGF0dXMucHV0KHRpY2tOdW1iLCB0aWNrZXQpOwovLyAgICAgICAgICAgICAgdGlja2V0LnNldFRpY2tldE51bWJlcih0aWNrTnVtYik7Ci8vICAgICAgICAgICAgICBpZiAoCi8vICAgICAgICAgICAgICAgICAgICAgICh2Yltybl0uZ2V0Qm9hcmRTdGF0dXMoKS50cmltKCkuY29tcGFyZVRvKCJOIikgPT0gMCkgfHwKLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAodmJbcm5dLmdldEJvYXJkU3RhdHVzKCkudHJpbSgpLmNvbXBhcmVUbygiQyIpID09IDApCi8vICAgICAgICAgICAgICApIHsKLy8gICAgICAgICAgICAgICAgdGlja2V0LnNldFN0YXR1c0NvZGUoIjAwMCIpOwovLyAgICAgICAgICAgICAgICB0aWNrZXQuc2V0U3RhdHVzTWVzc2FnZSgiT0siKTsKLy8gICAgICAgICAgICAgICAgaWYgKCFyZXN1bHQpIHsKLy8gICAgICAgICAgICAgICAgICByZXN1bHQgPSB0cnVlOwovLyAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICByZXR1cm4gIjAwMDpPSyI7Ci8vICAgICAgICAgICAgICB9IGVsc2UgewovLyAgICAgICAgICAgICAgICB0aWNrZXQuc2V0U3RhdHVzQ29kZSgiOTk4Iik7Ci8vICAgICAgICAgICAgICAgIHRpY2tldC5zZXRTdGF0dXNNZXNzYWdlKCJOb3QgVmFsaWQiKTsKLy8gICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICB9Ci8vICAgICAgICAgIH0KLy8KLy8gICAgICAgIH0KLy8gICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewovLyAgICAgICAgTG9nZ2VyLmdldExvZ2dlcih0aGlzLmdldENsYXNzKCkpLndhcm4oU3RyaW5nLmZvcm1hdCgiZmlsbE1hcHBlZFRpY2tldHNXaXRoVmFsaWRGb3JQcmludGluZ1RpY2tldHMgZmFpbGVkIHdpdGggJXMiLCBlLmdldE1lc3NhZ2UoKSkpOwovLyAgICAgIH0KLy8gICAgfQovLyAgICByZXR1cm4gcmVzdWx0OwovLyAgfQ==</text>
+        <text>WebTicket</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>Ticket</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -987,14 +993,14 @@
         <entry>action AceAction</entry>
         <entry>action $SelectAll</entry>
         <entry>action ReformatCode</entry>
-        <entry>action ShowBookmarks</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action FindUsages</entry>
-        <entry>action Find</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action GotoFile</entry>
+        <entry>action ShowBookmarks</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
