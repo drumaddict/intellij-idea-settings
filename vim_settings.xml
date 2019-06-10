@@ -17,6 +17,7 @@
         <mark key="." line="23" column="27" />
         <mark key="^" line="23" column="27" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0120_create_amp.sql" timestamp="1560162441615" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/AmpDocDataDescriptor.java" timestamp="1556109598831">
         <mark key="'" line="207" column="0" />
         <mark key="[" line="13" column="35" />
@@ -31,10 +32,10 @@
         <mark key="^" line="248" column="52" />
         <mark key="." line="258" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0100_create_alert_config.sql" timestamp="1559890966449">
-        <mark key="'" line="20" column="0" />
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="36" column="49" />
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0040_add_pas_avail_sema_to_sailing.sql" timestamp="1560161959280" />
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0130_create_amp_history.sql" timestamp="1560162567406">
+        <mark key="[" line="38" column="2" />
+        <mark key="]" line="38" column="72" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/sql_snippets/OPEN_POST_BUG2.sql" timestamp="1560151469791">
         <mark key="'" line="18" column="0" />
@@ -55,6 +56,11 @@
         <mark key="." line="53" column="17" />
         <mark key="^" line="53" column="17" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0170_EMBARKDTA_CONF_VW.sql" timestamp="1560162725456">
+        <mark key="'" line="11" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="160" column="43" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/sms/account.txt" timestamp="1559044260135">
         <mark key="'" line="20" column="0" />
         <mark key="[" line="36" column="0" />
@@ -68,6 +74,10 @@
         <mark key="]" line="5" column="44" />
         <mark key="." line="5" column="44" />
         <mark key="^" line="5" column="44" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0190_HISTORYCONFDETAILS_VW.sql" timestamp="1560162780198">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="39" column="54" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocHandler.java" timestamp="1559118704804">
         <mark key="'" line="0" column="0" />
@@ -125,6 +135,10 @@
         <mark key="^" line="67" column="58" />
         <mark key="." line="67" column="59" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0020_add_iface_pars_percomp.sql" timestamp="1560161878711">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="386" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/ItineraryData.java" timestamp="1556097131372">
         <mark key="'" line="1615" column="2" />
         <mark key="[" line="1564" column="39" />
@@ -145,6 +159,11 @@
         <mark key="]" line="0" column="461" />
         <mark key="." line="0" column="461" />
         <mark key="^" line="0" column="461" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/dist/pc.sh" timestamp="1560163222007">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="5" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messageHistory/descriptors/BookingDescriptor.java" timestamp="1556092164519">
         <mark key="'" line="106" column="0" />
@@ -167,11 +186,6 @@
         <mark key="." line="162" column="20" />
         <mark key="^" line="162" column="20" />
       </file>
-      <file name="/BoardingPassHandler.java" timestamp="1559889847158">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="1737" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" timestamp="1557301071939">
         <mark key="'" line="11" column="0" />
         <mark key="[" line="0" column="0" />
@@ -192,9 +206,6 @@
         <mark key="]" line="7" column="61" />
         <mark key="." line="8" column="0" />
         <mark key="^" line="8" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReader.java" timestamp="1559641617840">
-        <mark key="'" line="1003" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/devLibs/axis2/build.xml" timestamp="1557997300127">
         <mark key="'" line="69" column="0" />
@@ -228,19 +239,12 @@
         <mark key="^" line="51" column="21" />
         <mark key="." line="51" column="21" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0000_add_parameters.sql" timestamp="1559891074321">
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0000_add_parameters.sql" timestamp="1560161133430">
         <mark key="'" line="20" column="174" />
-        <mark key="[" line="20" column="111" />
-        <mark key="]" line="20" column="175" />
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="32" column="17" />
         <mark key="^" line="20" column="110" />
         <mark key="." line="20" column="111" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1559891780380">
-        <mark key="'" line="1846" column="4" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0080_create_alertline.sql" timestamp="1559891626399">
-        <mark key="[" line="34" column="1" />
-        <mark key="]" line="34" column="72" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/dist/logOPEN_POST.txt" timestamp="1560149137165">
         <mark key="[" line="4" column="0" />
@@ -322,6 +326,11 @@
         <mark key="]" line="422" column="22" />
         <mark key="." line="381" column="0" />
         <mark key="^" line="381" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0210_OPEN_TICK_CONF_VW.sql" timestamp="1560163164814">
+        <mark key="'" line="20" column="2" />
+        <mark key="[" line="0" column="2" />
+        <mark key="]" line="83" column="49" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/EmbarkationDataDescriptor.java" timestamp="1556110590871">
         <mark key="'" line="288" column="37" />
@@ -435,6 +444,13 @@
         <mark key="^" line="0" column="12" />
         <mark key="." line="0" column="12" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/dist/pcs_84.sh" timestamp="1560163228681">
+        <mark key="'" line="1" column="6" />
+        <mark key="[" line="1" column="1" />
+        <mark key="]" line="1" column="0" />
+        <mark key="^" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/departureTicketCP/DepartureTicketDataCPRS_S.xml" timestamp="1559551488008">
         <mark key="'" line="125" column="15" />
         <mark key="[" line="0" column="0" />
@@ -478,6 +494,7 @@
         <mark key="^" line="48" column="30" />
         <mark key="." line="48" column="30" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0140_add_comp_email_to_companies.sql" timestamp="1560162581719" />
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/AMP_ISSUE_PRINT_REQ2.xsd" timestamp="1558688751664">
         <mark key="'" line="4" column="54" />
         <mark key="[" line="4" column="0" />
@@ -499,6 +516,7 @@
         <mark key="." line="241" column="47" />
         <mark key="^" line="241" column="47" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0010_add_eai_msg_props.sql" timestamp="1560161236549" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateOpenTickReader.java" timestamp="1555401303948">
         <mark key="'" line="297" column="3" />
         <mark key="[" line="53" column="1" />
@@ -520,6 +538,7 @@
         <mark key="." line="5" column="77" />
         <mark key="^" line="5" column="77" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0110_create_amp_dates.sql" timestamp="1560162192253" />
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/OPEN_POST_BUG2.sql" timestamp="1558695118154">
         <mark key="'" line="6" column="0" />
         <mark key="[" line="6" column="0" />
@@ -548,6 +567,11 @@
         <mark key="." line="74" column="13" />
         <mark key="^" line="74" column="13" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0150_ALERT_VW.sql" timestamp="1560162631166">
+        <mark key="'" line="21" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="50" column="58" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/CPassengers.java" timestamp="1554705150241">
         <mark key="'" line="251" column="0" />
         <mark key="[" line="251" column="0" />
@@ -561,12 +585,6 @@
         <mark key="]" line="22" column="76" />
         <mark key="^" line="22" column="76" />
         <mark key="." line="22" column="76" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/dist/BoardingPassHandler.java" timestamp="1560154496229">
-        <mark key="[" line="1677" column="46" />
-        <mark key="]" line="1677" column="45" />
-        <mark key="^" line="1677" column="45" />
-        <mark key="." line="1677" column="45" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/FetchAllTicketsFromFerryCompanyReader.java" timestamp="1559139677190">
         <mark key="'" line="45" column="93" />
@@ -631,6 +649,7 @@
         <mark key="." line="117" column="131" />
         <mark key="^" line="117" column="131" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0180_EMBARKDTA_CONF_LAST_VW.sql" timestamp="1560162758389" />
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/insert_alternate_open_recall.sql" timestamp="1554106430184">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -680,10 +699,6 @@
         <mark key="^" line="320" column="67" />
         <mark key="." line="320" column="67" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0090_create_alertheader.sql" timestamp="1559891422770">
-        <mark key="[" line="34" column="0" />
-        <mark key="]" line="44" column="74" />
-      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ItinerariesConfirmationEnquiry.java" timestamp="1555332994322">
         <mark key="'" line="163" column="113" />
         <mark key="[" line="149" column="22" />
@@ -708,14 +723,6 @@
       <file name="$USER_HOME$/projects/port-checkin-control/sql_snippets/TICKETVERIFYBUG.sql" timestamp="1560156356714">
         <mark key="[" line="19" column="0" />
         <mark key="]" line="19" column="94" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1559918969155">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1559894477559">
-        <mark key="'" line="30" column="2" />
-        <mark key="[" line="41" column="1" />
-        <mark key="]" line="44" column="4" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/devLibs/axis2/bin/sms.bat" timestamp="1557991128462">
         <mark key="'" line="6" column="0" />
@@ -744,6 +751,11 @@
         <mark key="]" line="49" column="44" />
         <mark key="^" line="55" column="3" />
         <mark key="." line="55" column="3" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0160_CONFDTA_VW.sql" timestamp="1560162667619">
+        <mark key="'" line="14" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="57" column="45" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/CountriesIndex.java" timestamp="1557737554608">
         <mark key="'" line="174" column="37" />
@@ -801,6 +813,11 @@
         <mark key="^" line="84" column="55" />
         <mark key="." line="84" column="55" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0200_ITINENQ_CONF_VW.sql" timestamp="1560162824730">
+        <mark key="'" line="13" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="103" column="28" />
+      </file>
       <file name="/fragment.java" timestamp="1560158357918">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
@@ -824,15 +841,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="54" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
-      <jump line="71" column="15" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
-      <jump line="73" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/Alertline.txt" />
-      <jump line="1727" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1382" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandlerOLD.java" />
-      <jump line="1746" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1739" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1772" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1642" column="19" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="256" column="29" filename="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandlerOLD.java" />
       <jump line="128" column="0" filename="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandlerOLD.java" />
       <jump line="283" column="50" filename="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandlerOLD.java" />
@@ -924,6 +932,15 @@
       <jump line="1636" column="74" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="424" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1703" column="87" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="21" column="0" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0150_ALERT_VW.sql" />
+      <jump line="14" column="0" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0160_CONFDTA_VW.sql" />
+      <jump line="11" column="0" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0170_EMBARKDTA_CONF_VW.sql" />
+      <jump line="13" column="0" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0200_ITINENQ_CONF_VW.sql" />
+      <jump line="20" column="2" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0210_OPEN_TICK_CONF_VW.sql" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/dist/pc.sh" />
+      <jump line="0" column="8" filename="$USER_HOME$/projects/port-checkin-control/dist/pcs_84.sh" />
+      <jump line="1" column="0" filename="$USER_HOME$/projects/port-checkin-control/dist/pc.sh" />
+      <jump line="1" column="6" filename="$USER_HOME$/projects/port-checkin-control/dist/pcs_84.sh" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -935,8 +952,8 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKG9ubGluZUludmFsaWRUaWNrZXROdW1iZXJzLmNvbnRhaW5zKGJvb2tJZFRvVGlja2V0TnVtYmVyLmdldChwLmdldEJvb2tJRCgpKSkpIGNvbnRpbnVlOwo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">bm9odXAg</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -993,7 +1010,6 @@
         <entry>1530</entry>
         <entry>action RenameElement</entry>
         <entry>1833</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action AceAction</entry>
         <entry>action $SelectAll</entry>
@@ -1006,6 +1022,7 @@
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
