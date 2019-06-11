@@ -479,12 +479,12 @@
         <mark key="." line="2011" column="2" />
         <mark key="^" line="2011" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1560235139209">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1560241306016">
         <mark key="'" line="1844" column="0" />
-        <mark key="[" line="1704" column="0" />
-        <mark key="]" line="1704" column="0" />
-        <mark key="^" line="1703" column="5" />
-        <mark key="." line="1704" column="0" />
+        <mark key="[" line="1000" column="173" />
+        <mark key="]" line="994" column="170" />
+        <mark key="^" line="994" column="170" />
+        <mark key="." line="994" column="170" />
         <mark key="n" line="1757" column="39" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/amp/issue_report.txt" timestamp="1559132054091">
@@ -998,7 +998,7 @@
         <text>onlineInvalidTicketNumbers</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -1031,10 +1031,10 @@
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action SaveAll</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
