@@ -1014,7 +1014,7 @@
         <text encoding="base64">ICAgIHN0b3BXYXRjaC5yZQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -1048,13 +1048,13 @@
         <entry encoding="base64">JzwsJz5ub3JtLg==</entry>
         <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
         <entry>1123</entry>
         <entry>action SaveAll</entry>
         <entry>839</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
