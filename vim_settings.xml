@@ -186,13 +186,24 @@
         <mark key="." line="140" column="30" />
         <mark key="^" line="140" column="30" />
       </file>
-      <file name="/BoardingPassHandler.java" timestamp="1560246940169" />
+      <file name="/BoardingPassHandler.java" timestamp="1560249005126">
+        <mark key="'" line="326" column="18" />
+        <mark key="[" line="69" column="14" />
+        <mark key="]" line="327" column="42" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/db_migrations/ITINENQ_CONF_VW.sql" timestamp="1557301071939">
         <mark key="'" line="11" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="103" column="28" />
         <mark key="^" line="49" column="41" />
         <mark key="." line="49" column="41" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/sql_snippets/boarding.sql" timestamp="1560248371789">
+        <mark key="'" line="1" column="75" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="76" />
+        <mark key="^" line="0" column="81" />
+        <mark key="." line="1" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/EmbarkationData.java" timestamp="1556110394490">
         <mark key="'" line="296" column="40" />
@@ -480,13 +491,13 @@
         <mark key="." line="2011" column="2" />
         <mark key="^" line="2011" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1560244167732">
-        <mark key="'" line="1844" column="0" />
-        <mark key="[" line="994" column="164" />
-        <mark key="]" line="994" column="170" />
-        <mark key="^" line="994" column="170" />
-        <mark key="." line="994" column="170" />
-        <mark key="n" line="1757" column="39" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1560250436079">
+        <mark key="'" line="447" column="40" />
+        <mark key="[" line="1057" column="4" />
+        <mark key="]" line="1057" column="5" />
+        <mark key="^" line="1057" column="5" />
+        <mark key="." line="1057" column="5" />
+        <mark key="n" line="1776" column="39" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/amp/issue_report.txt" timestamp="1559132054091">
         <mark key="'" line="37" column="109" />
@@ -830,7 +841,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="103" column="28" />
       </file>
-      <file name="/fragment.java" timestamp="1560158357918">
+      <file name="/fragment.java" timestamp="1560250428872">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="3" />
@@ -853,22 +864,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="35" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="34" column="51" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="29" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="114" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="113" column="40" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="112" column="69" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="31" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
-      <jump line="1751" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1745" column="31" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1736" column="49" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1754" column="16" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1740" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1778" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1601" column="23" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1589" column="35" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1590" column="19" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1743" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1789" column="57" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1790" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
@@ -953,19 +948,36 @@
       <jump line="1" column="32" filename="$USER_HOME$/projects/port-checkin-control/dist/pc.sh" />
       <jump line="1" column="305" filename="$USER_HOME$/projects/port-checkin-control/dist/pcs_84.bash" />
       <jump line="1844" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="284" column="10" filename="/BoardingPassHandler.java" />
+      <jump line="292" column="0" filename="/BoardingPassHandler.java" />
+      <jump line="305" column="43" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="305" column="8" filename="/BoardingPassHandler.java" />
+      <jump line="309" column="43" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="327" column="18" filename="/BoardingPassHandler.java" />
+      <jump line="449" column="9" filename="/BoardingPassHandler.java" />
+      <jump line="435" column="39" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="476" column="18" filename="/BoardingPassHandler.java" />
+      <jump line="444" column="38" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="1" column="75" filename="$USER_HOME$/projects/port-checkin-control/sql_snippets/boarding.sql" />
+      <jump line="326" column="18" filename="/BoardingPassHandler.java" />
+      <jump line="319" column="42" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="446" column="17" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="318" column="16" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="447" column="40" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>ArrayList</text>
       </register>
       <register name="-" type="4">
-        <text>if (onlineInvalidTicketNumbers.contains(p.getTicketNumber())) continue;</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">JiB0YWlsIC1mIG5vaHVwLm91dA==</text>
+        <text>p.setStatusCode(&quot;000&quot;);
+                p.setStatusMessage(&quot;OK&quot;);</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -999,7 +1011,7 @@
         <text>onlineInvalidTicketNumbers</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -1026,16 +1038,18 @@
         <entry>action AceAction</entry>
         <entry>action $SelectAll</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action ReformatCode</entry>
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action SaveAll</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action PreviousTab</entry>
+        <entry>action Replace</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action FindUsages</entry>
+        <entry encoding="base64">JzwsJz5ub3JtLg==</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
         <entry>action Find</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
