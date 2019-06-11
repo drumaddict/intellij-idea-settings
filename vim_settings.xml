@@ -479,9 +479,9 @@
         <mark key="." line="2011" column="2" />
         <mark key="^" line="2011" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1560241306016">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1560244167732">
         <mark key="'" line="1844" column="0" />
-        <mark key="[" line="1000" column="173" />
+        <mark key="[" line="994" column="164" />
         <mark key="]" line="994" column="170" />
         <mark key="^" line="994" column="170" />
         <mark key="." line="994" column="170" />
@@ -998,7 +998,7 @@
         <text>onlineInvalidTicketNumbers</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -1026,15 +1026,15 @@
         <entry>action $SelectAll</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action FindUsages</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action ReformatCode</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
