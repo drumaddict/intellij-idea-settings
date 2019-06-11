@@ -998,7 +998,7 @@
         <text>onlineInvalidTicketNumbers</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -1025,7 +1025,6 @@
         <entry>action AceAction</entry>
         <entry>action $SelectAll</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action FindUsages</entry>
         <entry>action ReformatCode</entry>
         <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
@@ -1035,6 +1034,7 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action PreviousTab</entry>
         <entry>action Find</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
