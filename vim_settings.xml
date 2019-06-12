@@ -35,10 +35,10 @@
         <mark key="[" line="38" column="2" />
         <mark key="]" line="38" column="72" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/sql_snippets/OPEN_POST_BUG2.sql" timestamp="1560335541505">
+      <file name="$USER_HOME$/projects/port-checkin-control/sql_snippets/OPEN_POST_BUG2.sql" timestamp="1560347953229">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="29" column="67" />
+        <mark key="]" line="29" column="54" />
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1559122904040">
@@ -994,7 +994,36 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>cal.add(Calendar.YEAR, 1);</text>
+        <text>--
+--select o.book_id,
+----      o. board_id,
+--       o.reservcode,
+--       o.tick_numb,
+--       o.pass_sname,
+--       o.book_type,
+--       o.conf_status
+----       o.board_status
+----       o.sail_id
+--       from
+--    embarkdta_conf_vw  o
+----       where o.reservcode = 'R458306 '
+--       where o.reservcode = 'R422921 '
+
+select * from bookline  b where b.reservcode = 'CBM7RRJ'
+--delete  from bookline  b where b.reservcode = 'CBM7RRJ'
+
+--select * from bookline_open  b where b.reservcode = 'CBM7RRJ'
+--delete  from bookline_open  b where b.reservcode = 'CBM7RRJ'
+
+
+--select * from embarkdta_conf_vw  o where o.reservcode = '3482802'
+
+
+-- THESE MUST BE RUN WHENEVER WE DELETE BOOKLINE
+--delete  from bookheader_hist  bo where bo.book_id in ( 9132689, 9132690,9132691 )
+--select *   from bookheader_hist  bo where bo.book_id in ( 9132689, 9132690,9132691 )
+--delete from bookline_del_hist b where b.reservcode = 'CBM7RRJ'
+--select *  from bookline_del_hist b where b.reservcode</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgY2FsLmFkZChDYWxlbmRhci5ZRUFSLCAxKTsK</text>
