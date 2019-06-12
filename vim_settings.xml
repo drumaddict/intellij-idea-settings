@@ -35,10 +35,11 @@
         <mark key="[" line="38" column="2" />
         <mark key="]" line="38" column="72" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/sql_snippets/OPEN_POST_BUG2.sql" timestamp="1560329416889">
-        <mark key="'" line="11" column="18" />
+      <file name="$USER_HOME$/projects/port-checkin-control/sql_snippets/OPEN_POST_BUG2.sql" timestamp="1560335541505">
+        <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="22" column="51" />
+        <mark key="]" line="29" column="67" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1559122904040">
         <mark key="'" line="355" column="45" />
@@ -300,12 +301,12 @@
         <mark key="^" line="49" column="24" />
         <mark key="." line="49" column="24" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1560331491854">
-        <mark key="'" line="1614" column="114" />
-        <mark key="[" line="1613" column="104" />
-        <mark key="]" line="1613" column="116" />
-        <mark key="^" line="1613" column="116" />
-        <mark key="." line="1613" column="116" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1560335283536">
+        <mark key="'" line="867" column="30" />
+        <mark key="[" line="856" column="36" />
+        <mark key="]" line="856" column="35" />
+        <mark key="^" line="856" column="35" />
+        <mark key="." line="856" column="35" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/sql/EMBDTA_ERADICATE_MJLTIPLES.sql" timestamp="1557757089212">
         <mark key="'" line="31" column="35" />
@@ -851,7 +852,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="103" column="28" />
       </file>
-      <file name="/fragment.java" timestamp="1560250428872">
+      <file name="/fragment.java" timestamp="1560334737404">
         <mark key="'" line="0" column="39" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="3" />
@@ -874,15 +875,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="447" column="40" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="277" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="598" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="599" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1717" column="90" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1724" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1719" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1093" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="1729" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1123" column="87" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="1805" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1786" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
@@ -974,10 +966,19 @@
       <jump line="754" column="119" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1614" column="114" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="11" column="18" filename="$USER_HOME$/projects/port-checkin-control/sql_snippets/OPEN_POST_BUG2.sql" />
+      <jump line="1657" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="1658" column="32" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="1655" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="856" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="858" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="859" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="870" column="33" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="867" column="30" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/sql_snippets/OPEN_POST_BUG2.sql" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>getCompCode</text>
+        <text>TickNumb</text>
       </register>
       <register name="-" type="4">
         <text>;</text>
@@ -989,37 +990,40 @@
         <text encoding="base64">Ci0tc2VsZWN0ICogZnJvbSBlbWJhcmtkdGFfY29uZl92dyAgbyB3aGVyZSBvLnJlc2VydmNvZGUgPSAnMzQ4MjgwMicKCgoKCnNlbGVjdCBvLmJvb2tfaWQsCiAgICAgIG8uIGJvYXJkX2lkLAogICAgICAgby5yZXNlcnZjb2RlLAogICAgICAgby50aWNrX251bWIsCiAgICAgICBvLnBhc3Nfc25hbWUsCiAgICAgICBvLmJvb2tfdHlwZSwKICAgICAgIG8uY29uZl9zdGF0dXMsCiAgICAgICBvLmJvYXJkX3N0YXR1cywKICAgICAgIG8uc2FpbF9pZCBmcm9tCiAgICAgICBlbWJhcmtkdGFfY29uZl92dyAgbwogICAgICAgd2hlcmUgby5yZXNlcnZjb2RlID0gJ0FDQzA5MDUyMDE5MTUnIGFuZCBib29rX2lkID0gJzkxMzI1MjcnCgotLXNlbGVjdCAqIGZyb20gYm9va2xpbmUgIGIgd2hlcmUgYi5yZXNlcnZjb2RlID0gJzM0ODI4MDInCgotLWRlbGV0ZSAgZnJvbSBib29rbGluZSAgYm8gd2hlcmUgYm8uYm9va19pZCBpbiAoIDkxMzIyMTAsIDkxMzIyMTEsOTEzMjIxMiApCi0tZGVsZXRlICBmcm9tIGJvb2toZWFkZXJfaGlzdCAgYm8gd2hlcmUgYm8uYm9va19pZCBpbiAoIDkxMzIyMTAsIDkxMzIyMTEsOTEzMjIxMiApCi0tZGVsZXRlIGZyb20gYm9va2xpbmVfZGVsX2hpc3QgYiB3aGVyZSBiLnJlc2VydmNvZGU=</text>
       </register>
       <register name="1" type="4">
-        <text>getCompCode</text>
+        <text>booklinerow.setBoardId(0);
+    booklinerow.setAnimlSpc(&quot; &quot;);
+    booklinerow.setAnimlNum(0);</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIC8vIGhhbmRsZSA6IFRJQ0tfSU5JVF9JU1NVRVIK</text>
+      <register name="2" type="4">
+        <text>booklinerow.setInsertStatus(messageid.contains(&quot;_INSERT&quot;) ? &quot;M&quot; : &quot;A&quot;);
+    booklinerow.setUserId(userId);</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGJvb2tsaW5lcm93LnNldEFuaW1sTnVtKDApOwo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGJvb2tsaW5lcm93LnNldEFuaW1sU3BjKCIgIik7Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAvLyBoYW5kbGUgOiBJTklUSUFMX1RJQ0tFVF9JU1NVRVIKICAgIGJvb2tsaW5lcm93LnNldEluaXRUaWNrZXRJc3N1ZXIoU3RyaW5nVXRpbHMuZGVmYXVsdElmRW1wdHkocHNlZy5nZXRJbml0aWFsVGlja2V0SXNzdWVyKCksIGl0aW5lcmFyeS5nZXRDb21wQ29kZSgpKSk7</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGJvb2tsaW5lcm93LnNldEJvYXJkSWQoMCk7Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>getCompCode</text>
+        <text>TickNumb</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -1053,15 +1057,15 @@
         <entry>action ToggleBookmark</entry>
         <entry>action AceAction</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action ReformatCode</entry>
         <entry>action GotoFile</entry>
-        <entry>action SaveAll</entry>
-        <entry>action Find</entry>
-        <entry>action FileStructurePopup</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmlsZVN0cnVjdHVyZVBvcHVw</entry>
         <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
