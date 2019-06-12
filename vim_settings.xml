@@ -762,7 +762,7 @@
         <mark key="[" line="19" column="0" />
         <mark key="]" line="19" column="94" />
       </file>
-      <file name="/Dummy.txt" timestamp="1560254179028">
+      <file name="/Dummy.txt" timestamp="1560344366014">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/devLibs/axis2/bin/sms.bat" timestamp="1557991128462">
@@ -1027,7 +1027,7 @@
         <text>Rcountry</text>
       </register>
       <register name=":" type="4">
-        <text>action FileStructurePopup</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -1060,8 +1060,6 @@
         <entry>action AceAction</entry>
         <entry>action ShowBookmarks</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmlsZVN0cnVjdHVyZVBvcHVw</entry>
-        <entry>action FindUsages</entry>
-        <entry>action GotoFile</entry>
         <entry>action SurroundWith</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
@@ -1071,8 +1069,10 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action ReformatCode</entry>
         <entry>action Find</entry>
-        <entry>action SaveAll</entry>
         <entry>action FileStructurePopup</entry>
+        <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
