@@ -452,10 +452,10 @@
         <mark key="." line="48" column="21" />
         <mark key="^" line="48" column="21" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FerryOperatorDashboardHandler.java" timestamp="1560407414804">
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="17" column="0" />
-        <mark key="." line="17" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FerryOperatorDashboardHandler.java" timestamp="1560408189094">
+        <mark key="[" line="80" column="0" />
+        <mark key="]" line="80" column="0" />
+        <mark key="." line="80" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/gen_scripts/castor_sms.bat" timestamp="1558689069887">
         <mark key="'" line="0" column="396" />
@@ -886,8 +886,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1853" column="74" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="1855" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1862" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1851" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1872" column="67" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
@@ -986,6 +984,8 @@
       <jump line="1610" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1604" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="733" column="31" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="80" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FerryOperatorDashboardHandler.java" />
+      <jump line="81" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FerryOperatorDashboardHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -997,42 +997,19 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>--
---select o.book_id,
-----      o. board_id,
---       o.reservcode,
---       o.tick_numb,
---       o.pass_sname,
---       o.book_type,
---       o.conf_status
-----       o.board_status
-----       o.sail_id
---       from
---    embarkdta_conf_vw  o
-----       where o.reservcode = 'R458306 '
---       where o.reservcode = 'R422921 '
-
-select * from bookline  b where b.reservcode = 'CBM7RRJ'
---delete  from bookline  b where b.reservcode = 'CBM7RRJ'
-
---select * from bookline_open  b where b.reservcode = 'CBM7RRJ'
---delete  from bookline_open  b where b.reservcode = 'CBM7RRJ'
-
-
---select * from embarkdta_conf_vw  o where o.reservcode = '3482802'
-
-
--- THESE MUST BE RUN WHENEVER WE DELETE BOOKLINE
---delete  from bookheader_hist  bo where bo.book_id in ( 9132689, 9132690,9132691 )
---select *   from bookheader_hist  bo where bo.book_id in ( 9132689, 9132690,9132691 )
---delete from bookline_del_hist b where b.reservcode = 'CBM7RRJ'
---select *  from bookline_del_hist b where b.reservcode</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBjb25maXJtYXRpb25zTGlzdC5hZGQoQ29uZmlybWF0aW9uU3RhdHVzLk4udG9TdHJpbmcoKSk7Cg==</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBjb25maXJtYXRpb25zTGlzdC5hZGQoQ29uZmlybWF0aW9uU3RhdHVzLk4udG9TdHJpbmcoKSk7Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBjb25maXJtYXRpb25zTGlzdC5hZGQoQ29uZmlybWF0aW9uU3RhdHVzLkMudG9TdHJpbmcoKSk7Cg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>//  public enum ReportType {
 //    CONFIRMATION_ISSUED,
 //    CONFIRMATION_CHECKED,
@@ -1041,32 +1018,26 @@ select * from bookline  b where b.reservcode = 'CBM7RRJ'
 //    NON_SHOW
 //  }</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgY2FsLmFkZChDYWxlbmRhci5ZRUFSLCAxKTsK</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>nDays</text>
       </register>
-      <register name="5" type="4">
-        <text>DAY_OF_MONTH</text>
-      </register>
-      <register name="6" type="4">
-        <text>Phone</text>
-      </register>
       <register name="7" type="4">
-        <text>Maddress</text>
+        <text>DAY_OF_MONTH</text>
       </register>
       <register name="x" type="4">
         <text>nDays</text>
       </register>
       <register name="8" type="4">
-        <text>to</text>
+        <text>Phone</text>
       </register>
       <register name="9" type="4">
-        <text>Cfrom</text>
+        <text>Maddress</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action MoveEditorToOppositeTabGroup</text>
       </register>
     </registers>
     <search>
@@ -1094,7 +1065,6 @@ select * from bookline  b where b.reservcode = 'CBM7RRJ'
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>440</entry>
-        <entry>action GotoDeclaration</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action ReformatCode</entry>
@@ -1103,6 +1073,8 @@ select * from bookline  b where b.reservcode = 'CBM7RRJ'
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
       </history-cmd>
       <history-expr />
       <history-input />
