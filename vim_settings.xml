@@ -90,8 +90,11 @@
         <mark key="." line="64" column="24" />
         <mark key="^" line="64" column="24" />
       </file>
-      <file name="/Dummy.txt" timestamp="1560935597355">
+      <file name="/Dummy.txt" timestamp="1560936743289">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/docs/assets/FERRY_OPERATOR_DASHBOARD_ITINERARIES_RQ.xml" timestamp="1560851800461">
         <mark key="'" line="12" column="0" />
@@ -301,7 +304,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -336,8 +339,8 @@
         <entry>action ReformatCode</entry>
         <entry>action Replace</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
