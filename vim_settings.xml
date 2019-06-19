@@ -90,7 +90,7 @@
         <mark key="." line="64" column="24" />
         <mark key="^" line="64" column="24" />
       </file>
-      <file name="/Dummy.txt" timestamp="1560941955273">
+      <file name="/Dummy.txt" timestamp="1560946753099">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -122,6 +122,13 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="55" column="16" />
       </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" timestamp="1560948764582">
+        <mark key="'" line="1663" column="68" />
+        <mark key="[" line="1675" column="0" />
+        <mark key="]" line="1675" column="11" />
+        <mark key="." line="1675" column="11" />
+        <mark key="^" line="1675" column="11" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/docs/assets/CONFPASS_RETRIEVE_RS.xml" timestamp="1560851256225">
         <mark key="'" line="15" column="0" />
         <mark key="[" line="0" column="0" />
@@ -149,6 +156,13 @@
         <mark key="." line="339" column="3" />
         <mark key="^" line="339" column="3" />
       </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" timestamp="1560948596820">
+        <mark key="'" line="299" column="20" />
+        <mark key="[" line="299" column="20" />
+        <mark key="]" line="301" column="68" />
+        <mark key="." line="309" column="27" />
+        <mark key="^" line="309" column="27" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/docs/assets/DepartureTicketDataCPRS_INTS.xml" timestamp="1560859396803">
         <mark key="'" line="10" column="0" />
         <mark key="[" line="0" column="0" />
@@ -159,13 +173,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="114" column="100" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
-      <jump line="116" column="110" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
-      <jump line="122" column="109" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
-      <jump line="123" column="92" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
-      <jump line="127" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
-      <jump line="121" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
-      <jump line="129" column="401" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="136" column="121" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="133" column="60" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="138" column="31" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
@@ -259,52 +266,59 @@
       <jump line="10" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/assets/DepartureTicketDataCPRS_INTS.xml" />
       <jump line="22" column="0" filename="$USER_HOME$/projects/crs-engine/crs-jadrolinija-api/target/generated-sources/swagger/src/test/java/io/swagger/client/api/GETApiTest.java" />
       <jump line="20" column="0" filename="$USER_HOME$/projects/crs-engine/crs-jadrolinija-api/target/generated-sources/swagger/src/test/java/io/swagger/client/api/POSTApiTest.java" />
+      <jump line="75" column="4" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" />
+      <jump line="79" column="43" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" />
+      <jump line="271" column="12" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" />
+      <jump line="1662" column="131" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" />
+      <jump line="1660" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" />
+      <jump line="299" column="20" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" />
+      <jump line="1663" column="68" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>equest</text>
+        <text>commonUtilities</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">PFNlcnZpY2VNZXNzYWdlPgogICAgPFNlcnZpY2VCb2R5PgogICAgICAgIDxNZXNzYWdlSGVhZGVyPgogICAgICAgICAgICA8R2VuZXJhbEluZm8+CiAgICAgICAgICAgICAgICA8U3ludGF4SW5mbyBTeW50YXhJZGVudGlmaWVyPSIxIiBWZXJzaW9uPSIxIi8+CiAgICAgICAgICAgICAgICA8U2VuZGVySW5mbyBTZW5kZXJJZGVudGlmaWNhdGlvbj0iUEMiIElkZW50Q29kZVF1YWxpZmllcj0iMSIvPgogICAgICAgICAgICAgICAgPFJlY2lwaWVudEluZm8gUmVjaXBpZW50SWRlbnRDb2RlPSIxIiBJZGVudENvZGVRdWFsaWZpZXI9IjEiLz4KICAgICAgICAgICAgICAgIDxUcmFuc21pdGlvblRpbWVzdGFtcCBEYXRlVGltZT0iMjAxOS0wNS0wOCAxNDo1OToxOSIvPgogICAgICAgICAgICAgICAgPFNOUkYgSW50ZXJjaGFuZ2VDdHJsUmVmPSIwMDAwIi8+CiAgICAgICAgICAgIDwvR2VuZXJhbEluZm8+CiAgICAgICAgICAgIDxTZXJ2aWNlSW5mbyBNZXNzYWdlVHlwZT0iT1BFTl9QT1NUIiBNZXNzYWdlVmVyc2lvbk5vPSIiLz4KICAgICAgICAgICAgPFN0YXR1c0luZm8+CiAgICAgICAgICAgICAgICA8U3RhdHVzQ29kZT4wMDA8L1N0YXR1c0NvZGU+CiAgICAgICAgICAgICAgICA8U3RhdHVzTWVzc2FnZT5PSzwvU3RhdHVzTWVzc2FnZT4KICAgICAgICAgICAgICAgIDxTZXZlcmU+ZmFsc2U8L1NldmVyZT4KICAgICAgICAgICAgPC9TdGF0dXNJbmZvPgogICAgICAgIDwvTWVzc2FnZUhlYWRlcj4KICAgICAgICA8TWVzc2FnZURhdGE+CiAgICAgICAgICAgIDxVc2VySW5mbyBVc3JHcnBDb2RlPSJCR1IxIiBDb2RlPSJCR1IxIiBQYXNzd29yZD0iQkdSMSIgTGFuZ3VhZ2U9IkVOIi8+CiAgICAgICAgICAgIDxFbWJhcmthdGlvbkRhdGE+CiAgICAgICAgICAgICAgICA8Qm9va2luZyBCb29raW5nTnVtYmVyPSIzNDgyODAyIj4KICAgICAgICAgICAgICAgICAgICA8UGFzc2VuZ2Vycz4KICAgICAgICAgICAgICAgICAgICAgICAgPFBhc3NlbmdlciBTdXJuYW1lPSJHQVJDPz9BIEw/P1BFWiIgSXRpbmVyYXJ5SUQ9IjAiIE5hbWU9IkZSQU5DSVNDTyBKT1M/PyIgTWFpZGVuTmFtZT0iIiBBZ2VDYXRlZ29yeT0iQUQiIEdlbmRlcj0iTSIgQmlydGhEYXRlPSIxOTgwMTAyMCIgQmlydGhQbGFjZT0iICIgTmF0aW9uYWxpdHk9IkVTIiBEb2NUeXBlPSIwMDAwNSAgICAgICAgICAgICAgICAgICAgIiBQYXNzcG9ydE51bWJlcj0iMTIzNDU2NzdKIiBQYXNzcG9ydERlbERhdGU9IiAgICAgICAgIiBWaXNhTnVtYmVyPSIiIE9jY3VwYXRpb249IiAiIFNwZWNpYWxTZXJ2aWNlc1JlcT0iTiIgQWNjb21tb2RhdGlvblR5cGU9IkJZIiBDYWJpblNlYXROdW1iZXI9IiAiIEJlcnRoPSIgIiBUaWNrZXROdW1iZXI9Ijk1NDIwNDEzMTI2MjUiIEluaXRpYWxUaWNrZXRJc3N1ZXI9IkFDQyIgQ291bnRyeU9mVXN1YWxSZXNpZGVuY2U9IiIgR29pbmdUbz0iICIgQ29tbWluZ0Zyb209IiIgQWRkcmVzc0luTW9yb2Njbz0iIiBQaG9uZUR1cmluZ1N0YXk9IiIgTWFpblJlYXNvbkZvclZpc2l0PSIiIFRpY2tldEV4cGlyYXRpb25EYXRlPSIyMDIwMDMyOSIgQm9va0lEPSI5MTMxNjc1IiBCb2FyZElEPSIwIiBCb2FyZFN0YXR1cz0iTiIgQ29uZmlybWF0aW9uSUQ9IjE4OCIgQ29uZmlybWF0aW9uU3RhdHVzPSJQIiBFbWFpbD0ibC5oYWNodGlAdG1zYS5tYSIgTW9iaWxlPSIwMDIxMjY2MTM2MTA5NyIvPgogICAgICAgICAgICAgICAgICAgICAgICA8UGFzc2VuZ2VyIFN1cm5hbWU9IkZFUk4/P05ERVogR0FSQz8/QSIgSXRpbmVyYXJ5SUQ9IjAiIE5hbWU9IkFOQSBJU0FCRUwiIE1haWRlbk5hbWU9IiIgQWdlQ2F0ZWdvcnk9IkFEIiBHZW5kZXI9IkYiIEJpcnRoRGF0ZT0iMTk3MDEwMjAiIEJpcnRoUGxhY2U9IiAiIE5hdGlvbmFsaXR5PSJFUyIgRG9jVHlwZT0iMDAwMDUgICAgICAgICAgICAgICAgICAgICIgUGFzc3BvcnROdW1iZXI9IjEyMzQ1Njc5UyIgUGFzc3BvcnREZWxEYXRlPSIgICAgICAgICIgVmlzYU51bWJlcj0iIiBPY2N1cGF0aW9uPSIgIiBTcGVjaWFsU2VydmljZXNSZXE9Ik4iIEFjY29tbW9kYXRpb25UeXBlPSJCWSIgQ2FiaW5TZWF0TnVtYmVyPSIgIiBCZXJ0aD0iICIgVGlja2V0TnVtYmVyPSI5NTQyMDQxMzEyNjI2IiBJbml0aWFsVGlja2V0SXNzdWVyPSJBQ0MiIENvdW50cnlPZlVzdWFsUmVzaWRlbmNlPSIiIEdvaW5nVG89IiAiIENvbW1pbmdGcm9tPSIiIEFkZHJlc3NJbk1vcm9jY289IiIgUGhvbmVEdXJpbmdTdGF5PSIiIE1haW5SZWFzb25Gb3JWaXNpdD0iIiBUaWNrZXRFeHBpcmF0aW9uRGF0ZT0iMjAyMDAzMjkiIEJvb2tJRD0iOTEzMTY3NiIgQm9hcmRJRD0iMCIgQm9hcmRTdGF0dXM9Ik4iIENvbmZpcm1hdGlvbklEPSIxODkiIENvbmZpcm1hdGlvblN0YXR1cz0iQyIgRW1haWw9ImwuaGFjaHRpQHRtc2EubWEiIE1vYmlsZT0iMDAyMTI2NjEzNjEwOTciLz4KICAgICAgICAgICAgICAgICAgICA8L1Bhc3NlbmdlcnM+CiAgICAgICAgICAgICAgICAgICAgPFZlaGljbGVzPgogICAgICAgICAgICAgICAgICAgICAgICA8VmVoaWNsZSBJdGluZXJhcnlJRD0iMCIgVmVoaWNsZVR5cGU9IkNBUiIgTGVuZ3RoPSIxMDAiIEhlaWdodD0iMTAwIiBSZWdpc3RyYXRpb25OdW1iZXI9IjU1NTVISEgiIERyaXZlck5hbWU9IiAiIEJyYW5kPSJIT05EQSIgTW9kZWw9IkFDQ09SRCIgVGlja2V0TnVtYmVyPSI5NTQyMDQxMzEyNjI1IiBJbml0aWFsVGlja2V0SXNzdWVyPSJBQ0MiIFRpY2tldEV4cGlyYXRpb25EYXRlPSIyMDk5MTIzMSIgQm9va0lEPSI5MTMxNjc3IiBCb2FyZElEPSIwIiBCb2FyZFN0YXR1cz0iTiIgQ29uZmlybWF0aW9uSUQ9IjE5MCIgQ29uZmlybWF0aW9uU3RhdHVzPSJQIiBFbWFpbD0ibC5oYWNodGlAdG1zYS5tYSIgTW9iaWxlPSIwMDIxMjY2MTM2MTA5NyIgU3RhdHVzQ29kZT0ibC5oYWNodGlAdG1zYS5tYSIgU3RhdHVzTWVzc2FnZT0ibC5oYWNodGlAdG1zYS5tYSIvPgogICAgICAgICAgICAgICAgICAgIDwvVmVoaWNsZXM+CiAgICAgICAgICAgICAgICA8L0Jvb2tpbmc+CiAgICAgICAgICAgICAgICA8VHJpcERhdGEgU2FpbElEPSIxMzQ0NTkiIEJvb2tJRD0iOTEzMTY3NSIgSXRpbmVyYXJ5SUQ9IjEzNzA0OSIgQ29tcGFueUNvZGU9IkFDQyIgQ29tcGFueURlc2NyaXB0aW9uPSJUUkFTTUVESVRFUlJBTkVBIiBEZXBhcnR1cmVQb3J0Q29kZT0iIiBEZXBhcnR1cmVEYXRlPSJXZWQgYXkwOCIgRGVwYXJ0dXJlVGltZT0iMTQ1OSIgQXJyaXZhbFBvcnRDb2RlPSIiIEFycml2YWxEYXRlPSJXZWQgYXkwOCIgQXJyaXZhbFRpbWU9IjE0NTkiLz4KICAgICAgICAgICAgICAgIDxUcmlwRGF0YSBTYWlsSUQ9IjAiIEJvb2tJRD0iOTEzMTY3NiIgSXRpbmVyYXJ5SUQ9IjAiIENvbXBhbnlDb2RlPSJBQ0MiIENvbXBhbnlEZXNjcmlwdGlvbj0iVFJBU01FRElURVJSQU5FQSIgRGVwYXJ0dXJlUG9ydENvZGU9IiIgRGVwYXJ0dXJlRGF0ZT0iV2VkIGF5MDgiIERlcGFydHVyZVRpbWU9IjE0NTkiIEFycml2YWxQb3J0Q29kZT0iIiBBcnJpdmFsRGF0ZT0iV2VkIGF5MDgiIEFycml2YWxUaW1lPSIxNDU5Ii8+CiAgICAgICAgICAgICAgICA8VHJpcERhdGEgU2FpbElEPSIwIiBCb29rSUQ9IjkxMzE2NzciIEl0aW5lcmFyeUlEPSIwIiBDb21wYW55Q29kZT0iQUNDIiBDb21wYW55RGVzY3JpcHRpb249IlRSQVNNRURJVEVSUkFORUEiIERlcGFydHVyZVBvcnRDb2RlPSIiIERlcGFydHVyZURhdGU9IldlZCBheTA4IiBEZXBhcnR1cmVUaW1lPSIxNDU5IiBBcnJpdmFsUG9ydENvZGU9IiIgQXJyaXZhbERhdGU9IldlZCBheTA4IiBBcnJpdmFsVGltZT0iMTQ1OSIvPgogICAgICAgICAgICA8L0VtYmFya2F0aW9uRGF0YT4KICAgICAgICA8L01lc3NhZ2VEYXRhPgogICAgPC9TZXJ2aWNlQm9keT4KPC9TZXJ2aWNlTWVzc2FnZT4=</text>
+        <text encoding="base64">TGlzdDxDb21wYW55PiBjb21wYW5pZXNzID0gcmVzdWx0LmdldFRyaXBzKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5zdHJlYW0oKS5tYXAobSAtPiBtLmdldFZlc3NlbCgpLmdldENvbXBhbnkoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5kaXN0aW5jdCgpLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">RG9jcyBhbmQgZGV2ZWxvcGVyIGd1aWRlCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">TGlzdDxDb21wYW55PiBjb21wYW5pZXNzID0gcmVzdWx0LmdldFRyaXBzKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5zdHJlYW0oKS5tYXAobSAtPiBtLmdldFZlc3NlbCgpLmdldENvbXBhbnkoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5kaXN0aW5jdCgpLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICA7OzsK</text>
       </register>
-      <register name="4" type="4">
-        <text>equest</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICA7Owo=</text>
       </register>
-      <register name="5" type="4">
-        <text>must</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICB0cmlwLmdldAo=</text>
       </register>
       <register name="6" type="4">
-        <text>join</text>
+        <text>commonUtilities</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>CommonUtilities</text>
       </register>
       <register name="x" type="4">
-        <text>equest</text>
+        <text>commonUtilities</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBDb25maXJtUGF5bWVudFV0aWxpdGllcyAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">RG9jcyBhbmQgZGV2ZWxvcGVyIGd1aWRlCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action PreviousTab</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -329,19 +343,23 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
         <entry>action VimWindowClose</entry>
         <entry>action AceAction</entry>
-        <entry>action HideAllWindows</entry>
-        <entry>action SplitVertically</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action NextTab</entry>
-        <entry>action ReformatCode</entry>
         <entry>action Replace</entry>
-        <entry>action GotoFile</entry>
-        <entry>action SaveAll</entry>
-        <entry>action Find</entry>
-        <entry>action FileStructurePopup</entry>
-        <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action ToggleBookmark</entry>
+        <entry>action HideAllWindows</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action CloseContent</entry>
+        <entry>action GotoFile</entry>
+        <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action ShowBookmarks</entry>
+        <entry>action NextTab</entry>
+        <entry>action SplitVertically</entry>
         <entry>action PreviousTab</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
