@@ -54,7 +54,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="128" column="23" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2BDispatcher.java" timestamp="1561017028738">
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2BDispatcher.java" timestamp="1561022898430">
         <mark key="'" line="482" column="2" />
         <mark key="[" line="470" column="58" />
         <mark key="]" line="470" column="71" />
@@ -76,7 +76,7 @@
         <mark key="." line="25" column="65" />
         <mark key="^" line="25" column="64" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/ConfirmPaymentUtilities.java" timestamp="1561017421997">
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/ConfirmPaymentUtilities.java" timestamp="1561022476662">
         <mark key="[" line="105" column="33" />
         <mark key="]" line="105" column="32" />
         <mark key="^" line="105" column="32" />
@@ -148,12 +148,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="55" column="16" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" timestamp="1561019935923">
-        <mark key="'" line="1662" column="9" />
-        <mark key="[" line="1660" column="112" />
-        <mark key="]" line="1660" column="110" />
-        <mark key="." line="1660" column="110" />
-        <mark key="^" line="1660" column="110" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" timestamp="1561022656496">
+        <mark key="'" line="1659" column="152" />
+        <mark key="[" line="1658" column="0" />
+        <mark key="]" line="1658" column="0" />
+        <mark key="." line="1658" column="0" />
+        <mark key="^" line="1659" column="47" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/docs/assets/CONFPASS_RETRIEVE_RS.xml" timestamp="1560851256225">
         <mark key="'" line="15" column="0" />
@@ -182,7 +182,7 @@
         <mark key="." line="339" column="3" />
         <mark key="^" line="339" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" timestamp="1561021548977">
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" timestamp="1561022832574">
         <mark key="'" line="603" column="6" />
         <mark key="[" line="598" column="60" />
         <mark key="]" line="598" column="39" />
@@ -199,7 +199,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="208" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="210" column="33" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="206" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="181" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
@@ -299,13 +298,14 @@
       <jump line="599" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" />
       <jump line="587" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" />
       <jump line="604" column="6" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" />
+      <jump line="1659" column="152" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>return</text>
       </register>
       <register name="-" type="4">
-        <text>@PathParam(&quot;crs_reservation_id&quot;) Integer crsReservationId,</text>
+        <text>confirmPaymentUtilities.doConfirmPayment(bookingLeader, approvalCode, crsReservationId, companies, user);</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
@@ -316,20 +316,20 @@
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">Ly8gICAgICBpZiAoYm9va2luZ1JlcXVlc3QuaXNHb1RvUGF5bWVudCgpKSB7Ci8vLy8gICAgICAgIEJvb2tpbmdMZWFkZXIgbGVhZGVyID0gbmV3IEJvb2tpbmdMZWFkZXIoIiIsIiIsIG5ldyBBZGRyZXNzKCIiLCAiIiwiIiwiIiksICIiLCAiIiwiIiApOwovLyAgICAgICAgTGlzdDxDb21wYW55PiBjb21wYW5pZXMgPSBib29raW5nUmVxdWVzdC5nZXRUcmlwcygpLnN0cmVhbSgpCi8vICAgICAgICAgICAgICAgIC5tYXAoVHJpcDo6Z2V0VmVzc2VsKQovLyAgICAgICAgICAgICAgICAubWFwKFZlc3NlbDo6Z2V0Q29tcGFueSkKLy8gICAgICAgICAgICAgICAgLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7Ci8vICAgICAgICBjb25maXJtUGF5bWVudFV0aWxpdGllcy5kb0NvbmZpcm1QYXltZW50KGJvb2tpbmdSZXF1ZXN0LmdldExlYWRlcigpLCByZXN1bHQuZ2V0Q3JzUmVzZXJ2YXRpb25JZCgpLCBjb21wYW5pZXMsIE1vbmV5VHlwZS5aRVJPLCB1c2VyKTsKLy8gICAgICB9</text>
-      </register>
-      <register name="3" type="2">
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICBpZiAoYm9va2luZ1JlcXVlc3QuaXNHb1RvUGF5bWVudCgpKSB7Ci8vICAgICAgICBCb29raW5nTGVhZGVyIGxlYWRlciA9IG5ldyBCb29raW5nTGVhZGVyKCIiLCIiLCBuZXcgQWRkcmVzcygiIiwgIiIsIiIsIiIpLCAiIiwgIiIsIiIgKTsKICAgICAgICBMaXN0PENvbXBhbnk+IGNvbXBhbmllc3MgPSBib29raW5nUmVxdWVzdC5nZXRUcmlwcygpLnN0cmVhbSgpCiAgICAgICAgICAgICAgICAubWFwKFRyaXA6OmdldFZlc3NlbCkKICAgICAgICAgICAgICAgIC5tYXAoVmVzc2VsOjpnZXRDb21wYW55KQogICAgICAgICAgICAgICAgLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7CiAgICAgICAgY29uZmlybVBheW1lbnRVdGlsaXRpZXMuZG9Db25maXJtUGF5bWVudChib29raW5nUmVxdWVzdC5nZXRMZWFkZXIoKSwgcmVzdWx0LmdldENyc1Jlc2VydmF0aW9uSWQoKSwgY29tcGFuaWVzcywgTW9uZXlUeXBlLlpFUk8sIHVzZXIpOwogICAgICB9</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICByZXR1cm4gcmVzdWx0Owo=</text>
+        <text encoding="base64">ICAgICAgICB9IGVsc2Ugewo=</text>
       </register>
-      <register name="6" type="4">
-        <text>return</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgIGNvbmZpcm1QYXltZW50VXRpbGl0aWVzLmRvQ29uZmlybVBheW1lbnQoYm9va2luZ0xlYWRlciwgY3JzUmVzZXJ2YXRpb25JZCwgY29tcGFuaWVzLCBNb25leVR5cGUuWkVSTywgdXNlcik7Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
@@ -337,14 +337,14 @@
       <register name="x" type="4">
         <text>return</text>
       </register>
-      <register name="8" type="2">
+      <register name="8" type="4">
+        <text encoding="base64">Ly8gICAgICBpZiAoYm9va2luZ1JlcXVlc3QuaXNHb1RvUGF5bWVudCgpKSB7Ci8vLy8gICAgICAgIEJvb2tpbmdMZWFkZXIgbGVhZGVyID0gbmV3IEJvb2tpbmdMZWFkZXIoIiIsIiIsIG5ldyBBZGRyZXNzKCIiLCAiIiwiIiwiIiksICIiLCAiIiwiIiApOwovLyAgICAgICAgTGlzdDxDb21wYW55PiBjb21wYW5pZXMgPSBib29raW5nUmVxdWVzdC5nZXRUcmlwcygpLnN0cmVhbSgpCi8vICAgICAgICAgICAgICAgIC5tYXAoVHJpcDo6Z2V0VmVzc2VsKQovLyAgICAgICAgICAgICAgICAubWFwKFZlc3NlbDo6Z2V0Q29tcGFueSkKLy8gICAgICAgICAgICAgICAgLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7Ci8vICAgICAgICBjb25maXJtUGF5bWVudFV0aWxpdGllcy5kb0NvbmZpcm1QYXltZW50KGJvb2tpbmdSZXF1ZXN0LmdldExlYWRlcigpLCByZXN1bHQuZ2V0Q3JzUmVzZXJ2YXRpb25JZCgpLCBjb21wYW5pZXMsIE1vbmV5VHlwZS5aRVJPLCB1c2VyKTsKLy8gICAgICB9</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgICAgaWYgKGJvb2tpbmdSZXF1ZXN0LmlzR29Ub1BheW1lbnQoKSkgewovLyAgICAgICAgQm9va2luZ0xlYWRlciBsZWFkZXIgPSBuZXcgQm9va2luZ0xlYWRlcigiIiwiIiwgbmV3IEFkZHJlc3MoIiIsICIiLCIiLCIiKSwgIiIsICIiLCIiICk7CiAgICAgICAgTGlzdDxDb21wYW55PiBjb21wYW5pZXMgPSBib29raW5nUmVxdWVzdC5nZXRUcmlwcygpLnN0cmVhbSgpCiAgICAgICAgICAgICAgICAubWFwKFRyaXA6OmdldFZlc3NlbCkKICAgICAgICAgICAgICAgIC5tYXAoVmVzc2VsOjpnZXRDb21wYW55KQogICAgICAgICAgICAgICAgLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7CiAgICAgICAgY29uZmlybVBheW1lbnRVdGlsaXRpZXMuZG9Db25maXJtUGF5bWVudChib29raW5nUmVxdWVzdC5nZXRMZWFkZXIoKSwgcmVzdWx0LmdldENyc1Jlc2VydmF0aW9uSWQoKSwgY29tcGFuaWVzLCBNb25leVR5cGUuWkVSTywgdXNlcik7CiAgICAgIH0=</text>
-      </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action NextTab</text>
       </register>
     </registers>
     <search>
@@ -370,17 +370,18 @@
         <entry>action CloseContent</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action NextTab</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action GotoFile</entry>
-        <entry>action FileStructurePopup</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>action ToggleBookmark</entry>
-        <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action PreviousTab</entry>
+        <entry>action Debug</entry>
         <entry>action ReformatCode</entry>
+        <entry>action ShowBookmarks</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action NextTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
