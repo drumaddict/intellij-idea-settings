@@ -76,6 +76,7 @@
         <mark key="." line="25" column="65" />
         <mark key="^" line="25" column="64" />
       </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/ConfirmPaymentUtilities.java" timestamp="1561014134382" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1560843578712">
         <mark key="'" line="154" column="24" />
         <mark key="[" line="154" column="24" />
@@ -341,7 +342,7 @@
         <text encoding="base64">Ly8gICAgICAgIExpc3Q8U3RyaW5nPiBjb21wYW5pZXMgPSB0cmlwcy5zdHJlYW0oKS5tYXAobSAtPiBtLmdldFZlc3NlbCgpLmdldENvbXBhbnkoKS5nZXRBYmJyZXZpYXRpb24oKSkuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKTsK</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action FileStructurePopup</text>
       </register>
     </registers>
     <search>
@@ -367,17 +368,17 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action CloseContent</entry>
         <entry>action SplitVertically</entry>
-        <entry>action GotoFile</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action FileStructurePopup</entry>
-        <entry>action Find</entry>
-        <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action FindUsages</entry>
+        <entry>action FileStructurePopup</entry>
       </history-cmd>
       <history-expr />
       <history-input />
