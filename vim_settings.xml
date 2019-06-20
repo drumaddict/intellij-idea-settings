@@ -175,6 +175,12 @@
       <file name="$USER_HOME$/projects/crs-engine/crs-jadrolinija-api/target/generated-sources/swagger/src/test/java/io/swagger/client/api/GETApiTest.java" timestamp="1560929337911">
         <mark key="'" line="22" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1561026048592">
+        <mark key="[" line="160" column="24" />
+        <mark key="]" line="160" column="19" />
+        <mark key="^" line="160" column="19" />
+        <mark key="." line="160" column="19" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1560857542537">
         <mark key="'" line="328" column="59" />
         <mark key="[" line="328" column="59" />
@@ -344,7 +350,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action NextTab</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -368,20 +374,21 @@
         <entry>action HideAllWindows</entry>
         <entry>action SplitVertically</entry>
         <entry>action CloseContent</entry>
-        <entry>action FindUsages</entry>
         <entry>action GotoImplementation</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action GotoFile</entry>
         <entry>action ToggleBookmark</entry>
         <entry>action Debug</entry>
         <entry>action ReformatCode</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action Find</entry>
-        <entry>action SaveAll</entry>
         <entry>action PreviousTab</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action NextTab</entry>
+        <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>183</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
