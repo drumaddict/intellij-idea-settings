@@ -54,6 +54,13 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="128" column="23" />
       </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2BDispatcher.java" timestamp="1561012411788">
+        <mark key="'" line="459" column="107" />
+        <mark key="[" line="447" column="53" />
+        <mark key="]" line="447" column="52" />
+        <mark key="^" line="447" column="52" />
+        <mark key="." line="447" column="52" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/open_post/xml/OPEN_POSTB_BUG2.xml" timestamp="1560860604695">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="35" column="16" />
@@ -82,6 +89,12 @@
         <mark key="]" line="42" column="16" />
         <mark key="." line="37" column="31" />
         <mark key="^" line="37" column="31" />
+      </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200Dispatcher.java" timestamp="1560953595157">
+        <mark key="[" line="893" column="0" />
+        <mark key="]" line="893" column="0" />
+        <mark key="^" line="892" column="68" />
+        <mark key="." line="893" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/docs/assets/AMP_ISSUE_PRINT_REQ.xml" timestamp="1560857556689">
         <mark key="'" line="10" column="0" />
@@ -128,7 +141,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="55" column="16" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" timestamp="1560952347276">
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" timestamp="1561012813978">
         <mark key="'" line="1652" column="68" />
         <mark key="[" line="1667" column="0" />
         <mark key="]" line="1667" column="0" />
@@ -179,8 +192,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="138" column="31" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
-      <jump line="148" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="160" column="43" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="168" column="50" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="209" column="34" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
@@ -279,53 +290,55 @@
       <jump line="1661" column="68" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" />
       <jump line="299" column="20" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" />
       <jump line="1652" column="68" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" />
+      <jump line="456" column="12" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2BDispatcher.java" />
+      <jump line="457" column="107" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2BDispatcher.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>company</text>
+        <text>crsReservat</text>
       </register>
       <register name="-" type="4">
-        <text>}</text>
+        <text>@PathParam(&quot;crs_reservation_id&quot;) Integer crsReservationId,</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">TGlzdDxDb21wYW55PiBjb21wYW5pZXNzID0gcmVzdWx0LmdldFRyaXBzKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5zdHJlYW0oKS5tYXAobSAtPiBtLmdldFZlc3NlbCgpLmdldENvbXBhbnkoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5kaXN0aW5jdCgpLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7</text>
+        <text>@PathParam(&quot;crs_reservation_id&quot;) Integer crsReservationId,</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>crsReservat</text>
+      </register>
+      <register name="2" type="4">
+        <text>Integer</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text>private boolean sendApprovalCodesToCompanies() {
 
     return true;
 
   }</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBTdHJpbmcgYXBwcm92YWxDb2RlID0gIiI7Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Ly8gICAgICAgIExpc3Q8Q29tcGFueVRPPiBjb21wYW55SWRzID0K</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgICAgIExpc3Q8U3RyaW5nPiBjb21wYW5pZXMgPSB0cmlwcy5zdHJlYW0oKS5tYXAobSAtPiBtLmdldFZlc3NlbCgpLmdldENvbXBhbnkoKS5nZXRBYmJyZXZpYXRpb24oKSkuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKTsK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICAuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKTsK</text>
-      </register>
       <register name="x" type="4">
-        <text>company</text>
+        <text>crsReservat</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Ly8gICAgICAgIExpc3Q8Q29tcGFueVRPPiBjb21wYW55SWRzID0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgIExpc3Q8U3RyaW5nPiBjb21wYW5pZXMgPSB0cmlwcy5zdHJlYW0oKS5tYXAobSAtPiBtLmdldFZlc3NlbCgpLmdldENvbXBhbnkoKS5nZXRBYmJyZXZpYXRpb24oKSkuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKTsK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -345,12 +358,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action Debug</entry>
-        <entry>.,.+7action AceAction</entry>
-        <entry>action AceTargetAction</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gTmV4dFRhYg==</entry>
-        <entry>action $SelectAll</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
         <entry>action VimWindowClose</entry>
         <entry>action AceAction</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
@@ -362,14 +369,14 @@
         <entry>action SplitVertically</entry>
         <entry>action GotoFile</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action ReformatCode</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action FindUsages</entry>
-        <entry>action Find</entry>
-        <entry>action PreviousTab</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action NextTab</entry>
+        <entry>action Find</entry>
+        <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
