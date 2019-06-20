@@ -96,11 +96,12 @@
         <mark key="." line="37" column="31" />
         <mark key="^" line="37" column="31" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200Dispatcher.java" timestamp="1560953595157">
-        <mark key="[" line="893" column="0" />
-        <mark key="]" line="893" column="0" />
-        <mark key="^" line="892" column="68" />
-        <mark key="." line="893" column="0" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200Dispatcher.java" timestamp="1561019450296">
+        <mark key="'" line="91" column="51" />
+        <mark key="[" line="780" column="123" />
+        <mark key="]" line="780" column="104" />
+        <mark key="^" line="780" column="104" />
+        <mark key="." line="780" column="104" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/docs/assets/AMP_ISSUE_PRINT_REQ.xml" timestamp="1560857556689">
         <mark key="'" line="10" column="0" />
@@ -181,12 +182,11 @@
         <mark key="." line="339" column="3" />
         <mark key="^" line="339" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" timestamp="1560950485729">
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" timestamp="1561018805993">
         <mark key="'" line="299" column="20" />
-        <mark key="[" line="649" column="81" />
-        <mark key="]" line="649" column="101" />
-        <mark key="." line="649" column="101" />
-        <mark key="^" line="649" column="101" />
+        <mark key="[" line="579" column="0" />
+        <mark key="]" line="579" column="0" />
+        <mark key="." line="579" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/docs/assets/DepartureTicketDataCPRS_INTS.xml" timestamp="1560859396803">
         <mark key="'" line="10" column="0" />
@@ -198,9 +198,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="209" column="34" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
-      <jump line="192" column="29" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
-      <jump line="186" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="165" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="171" column="21" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
       <jump line="172" column="46" filename="$USER_HOME$/projects/port-checkin-control/docs/PCSDeveloperGuide.txt" />
@@ -298,10 +295,13 @@
       <jump line="445" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2BDispatcher.java" />
       <jump line="483" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2BDispatcher.java" />
       <jump line="1662" column="9" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" />
+      <jump line="805" column="51" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200Dispatcher.java" />
+      <jump line="86" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200Dispatcher.java" />
+      <jump line="90" column="51" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200Dispatcher.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>crsReservat</text>
+        <text>eservationUtilities</text>
       </register>
       <register name="-" type="4">
         <text>@PathParam(&quot;crs_reservation_id&quot;) Integer crsReservationId,</text>
@@ -309,42 +309,38 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgY29uZmlybVBheW1lbnRVdGlsaXRpZXMuZG9Db25maXJtUGF5bWVudChib29raW5nTGVhZGVyLCBhcHByb3ZhbENvZGUsIGNyc1Jlc2VydmF0aW9uSWQsIGNvbXBhbmllcywgdXNlcik7Cg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">ICBAQXV0b3dpcmVkCiAgcHJpdmF0ZSBSZXNlcnZhdGlvblV0aWxpdGllcyByZXNlcnZhdGlvblV0aWxpdGllczs=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBib29raW5nUmVxdWVzdC5nZXRMCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQFBhdGhQYXJhbSgiYXBwcm92YWxfY29kZSIpIFN0cmluZyBhcHByb3ZhbENvZGUK</text>
+        <text encoding="base64">ICAgICAgcmVzdWx0Lgo=</text>
       </register>
       <register name="3" type="4">
-        <text>crsReservat</text>
+        <text>eservationUtilities</text>
       </register>
       <register name="4" type="4">
-        <text>Integer</text>
+        <text>ReservationUtilities</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICBpZiAoYm9va2luZ1JlcXVlc3QuaXNHb1RvUGF5bWVudCgpKSBjb25maXJtUGF5bWVudFV0aWxpdGllcy5kb0NvbmZpcm1QYXltZW50KGxlKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYm9va2luZ1JlcXVlc3QuaXMK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
+        <text>eservationUtilities</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQFBhdGhQYXJhbSgiYXBwcm92YWxfY29kZSIpIFN0cmluZyBhcHByb3ZhbENvZGUK</text>
+      </register>
+      <register name="9" type="4">
         <text>crsReservat</text>
-      </register>
-      <register name="8" type="4">
-        <text>private boolean sendApprovalCodesToCompanies() {
-
-    return true;
-
-  }</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgYXBwcm92YWxDb2RlID0gIiI7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -369,20 +365,20 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Replace</entry>
         <entry>action HideAllWindows</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action SplitVertically</entry>
-        <entry>action ShowBookmarks</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action CloseContent</entry>
-        <entry>action FindUsages</entry>
-        <entry>action ToggleBookmark</entry>
         <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
-        <entry>action FileStructurePopup</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action NextTab</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoImplementation</entry>
         <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action ToggleBookmark</entry>
+        <entry>action ShowBookmarks</entry>
+        <entry>action QuickJavaDoc</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
