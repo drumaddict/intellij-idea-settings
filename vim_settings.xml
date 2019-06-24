@@ -388,7 +388,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
@@ -410,23 +410,23 @@
         <entry>action SplitVertically</entry>
         <entry>action CloseContent</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action ToggleBookmark</entry>
         <entry>action Debug</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>183</entry>
         <entry>action ReformatCode</entry>
-        <entry>action FindUsages</entry>
         <entry>action Replace</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVwbGFjZQ==</entry>
         <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action GotoImplementation</entry>
-        <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action ToggleBookmark</entry>
+        <entry>action FindUsages</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
