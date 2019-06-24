@@ -65,12 +65,12 @@
         <mark key="^" line="69" column="40" />
         <mark key="." line="69" column="40" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" timestamp="1561375831268">
+      <file name="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" timestamp="1561379225428">
         <mark key="'" line="112" column="26" />
-        <mark key="[" line="121" column="43" />
-        <mark key="]" line="121" column="43" />
-        <mark key="^" line="121" column="43" />
-        <mark key="." line="121" column="43" />
+        <mark key="[" line="116" column="85" />
+        <mark key="]" line="116" column="100" />
+        <mark key="^" line="116" column="100" />
+        <mark key="." line="116" column="100" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/WebServiceImpl.java" timestamp="1561369280045">
         <mark key="'" line="109" column="0" />
@@ -329,7 +329,7 @@
         <text>StaticDataUtilities</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -361,15 +361,15 @@
         <entry>action CloseContent</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action Forward</entry>
-        <entry>action NextTab</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action SaveAll</entry>
-        <entry>action PreviousTab</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
+        <entry>action NextTab</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
