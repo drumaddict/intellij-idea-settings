@@ -3,11 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2CDispatcher.java" timestamp="1561368613995">
-        <mark key="'" line="58" column="0" />
-        <mark key="[" line="58" column="0" />
-        <mark key="]" line="66" column="4" />
-      </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-db-service/src/main/java/gr/forthcrs/crs/db/service/utilities/AdminCrsDbServices.java" timestamp="1561372127213">
         <mark key="'" line="221" column="0" />
         <mark key="[" line="55" column="12" />
@@ -32,11 +27,6 @@
         <mark key="^" line="146" column="37" />
         <mark key="." line="146" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIV200Dispatcher.java" timestamp="1561368865280">
-        <mark key="'" line="186" column="0" />
-        <mark key="[" line="186" column="0" />
-        <mark key="]" line="197" column="28" />
-      </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/ConfirmPaymentUtilities.java" timestamp="1561033540287">
         <mark key="[" line="105" column="33" />
         <mark key="]" line="105" column="32" />
@@ -57,16 +47,23 @@
         <mark key="." line="201" column="24" />
         <mark key="^" line="201" column="24" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-db-service/src/main/java/gr/forthcrs/crs/db/service/api/impl/LocationServiceImpl.java" timestamp="1561374442287">
+      <file name="$USER_HOME$/projects/crs-engine/crs-db-service/src/main/java/gr/forthcrs/crs/db/service/api/impl/LocationServiceImpl.java" timestamp="1561377329109">
         <mark key="'" line="647" column="4" />
-        <mark key="[" line="546" column="8" />
-        <mark key="]" line="546" column="3" />
-        <mark key="^" line="546" column="3" />
-        <mark key="." line="546" column="3" />
+        <mark key="[" line="602" column="43" />
+        <mark key="]" line="602" column="47" />
+        <mark key="^" line="602" column="47" />
+        <mark key="." line="602" column="47" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-cache-utilities/src/main/java/gr/forthcrs/crs/cache/utilities/WSLocationCache.java" timestamp="1561371385577">
         <mark key="[" line="40" column="0" />
         <mark key="]" line="105" column="4" />
+      </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/CrsLocationDAO.java" timestamp="1561377302085">
+        <mark key="'" line="72" column="66" />
+        <mark key="[" line="69" column="36" />
+        <mark key="]" line="69" column="40" />
+        <mark key="^" line="69" column="40" />
+        <mark key="." line="69" column="40" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" timestamp="1561375831268">
         <mark key="'" line="112" column="26" />
@@ -187,9 +184,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="456" column="12" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2BDispatcher.java" />
-      <jump line="457" column="107" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2BDispatcher.java" />
-      <jump line="445" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2BDispatcher.java" />
       <jump line="483" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200B2BDispatcher.java" />
       <jump line="1662" column="9" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/utilities/BookingUtilities.java" />
       <jump line="805" column="51" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/WebServiceV200Dispatcher.java" />
@@ -287,6 +281,9 @@
       <jump line="671" column="4" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
       <jump line="80" column="0" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
       <jump line="142" column="26" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
+      <jump line="75" column="0" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/CrsLocationDAO.java" />
+      <jump line="64" column="2" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/CrsLocationDAO.java" />
+      <jump line="72" column="66" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/CrsLocationDAO.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -299,7 +296,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgICAgICAgIFNRTF9GT1JfV1NfQUdFTkNZID0gInNlbGVjdCBkaXN0aW5jdCBsLmlkIGFzIGxfaWQsIGwuY29kZSBhcyBsX2NvZGUsICIgKwogICAgICAgICAgImwubGF0aXR1ZGUgYXMgbF9sYXRpdHVkZSwgbC5sb25naXR1ZGUgYXMgbF9sb25naXR1ZGUsICIgKwogICAgICAgICAgImwubG9jYXRpb25fdHlwZSBhcyBsX2xvY2F0aW9uX3R5cGUsICIgKwogICAgICAgICAgIkNPQUxFU0NFKGxsYWwubmFtZSwgbGxhZC5uYW1lLCBsbHdsLm5hbWUsIGxsd2QubmFtZSwgbGwubmFtZSkgYXMgbGxfbmFtZSwgIiArCiAgICAgICAgICAiQ09BTEVTQ0UobGxhbC5jaGFubmVsLCBsbGFkLmNoYW5uZWwsIGxsd2wuY2hhbm5lbCwgbGx3ZC5jaGFubmVsLCBsbC5jaGFubmVsKSBhcyBsbF9jaGFubmVsLCAiICsKICAgICAgICAgICJjLmlkIGFzIGNfaWQsIGMuY29kZSBhcyBjX2NvZGUsICIgKwogICAgICAgICAgIkNPQUxFU0NFKGNhbC5uYW1lLCBjYWQubmFtZSkgYXMgY19uYW1lLCAiICsKICAgICAgICAgICJtYWwuaWQgYXMgbWFsX2lkLCBjYS5jb2RlIGFzIGFyZWFfY29kZSwgQ09BTEVTQ0UoYWxhbC5uYW1lLCBhbGFkLm5hbWUpIGFzIGFyZWFfbmFtZSwgbC50aW1lem9uZSAiICsKICAgICAgICAgICJmcm9tIGNyc19sb2NhdGlvbiBsICIgKwogICAgICAgICAgImxlZnQgam9pbiBjcnNfbG9jYXRpb25fdmFsaWQgdmFsIG9uIChsLmlkID0gdmFsLmNyc19sb2NhdGlvbl9pZCBhbmQgdmFsLmNoYW5uZWwgPSA6Y2hhbm5lbF9hIGFuZCB2YWwuYWN0aXZlKSAiICsKICAgICAgICAgICJsZWZ0IGpvaW4gY3JzX2xvY2F0aW9uX2xhbmd1YWdlIGxsYWwgb24gKGwuaWQgPSBsbGFsLmxvY2F0aW9uX2lkIGFuZCB2YWwuY2hhbm5lbCA9IGxsYWwuY2hhbm5lbCBhbmQgbGxhbC5sYW5ndWFnZV9pZCA9IDpsYW5ndWFnZV9pZCkgIiArCiAgICAgICAgICAibGVmdCBqb2luIGNyc19sb2NhdGlvbl92YWxpZCB2YWQgb24gKGwuaWQgPSB2YWQuY3JzX2xvY2F0aW9uX2lkIGFuZCB2YWQuY2hhbm5lbCA9IDpjaGFubmVsX2EgYW5kIHZhZC5hY3RpdmUpICIgKwogICAgICAgICAgImxlZnQgam9pbiBjcnNfbG9jYXRpb25fbGFuZ3VhZ2UgbGxhZCBvbiAobC5pZCA9IGxsYWQubG9jYXRpb25faWQgYW5kIHZhZC5jaGFubmVsID0gbGxhZC5jaGFubmVsIGFuZCBsbGFkLmxhbmd1YWdlX2lkID0gOmRlZl9sYW5ndWFnZV9pZCkgIiArCiAgICAgICAgICAibGVmdCBqb2luIGNyc19sb2NhdGlvbl92YWxpZCB2d2wgb24gKGwuaWQgPSB2d2wuY3JzX2xvY2F0aW9uX2lkIGFuZCB2d2wuY2hhbm5lbCA9IDpjaGFubmVsX3cgYW5kIHZ3bC5hY3RpdmUpICIgKwogICAgICAgICAgImxlZnQgam9pbiBjcnNfbG9jYXRpb25fbGFuZ3VhZ2UgbGx3bCBvbiAobC5pZCA9IGxsd2wubG9jYXRpb25faWQgYW5kIHZ3bC5jaGFubmVsID0gbGx3bC5jaGFubmVsIGFuZCBsbHdsLmxhbmd1YWdlX2lkID0gOmxhbmd1YWdlX2lkKSAiICsKICAgICAgICAgICJsZWZ0IGpvaW4gY3JzX2xvY2F0aW9uX3ZhbGlkIHZ3ZCBvbiAobC5pZCA9IHZ3ZC5jcnNfbG9jYXRpb25faWQgYW5kIHZ3ZC5jaGFubmVsID0gOmNoYW5uZWxfdyBhbmQgdndkLmFjdGl2ZSkgIiArCiAgICAgICAgICAibGVmdCBqb2luIGNyc19sb2NhdGlvbl9sYW5ndWFnZSBsbHdkIG9uIChsLmlkID0gbGx3ZC5sb2NhdGlvbl9pZCBhbmQgdndkLmNoYW5uZWwgPSBsbHdkLmNoYW5uZWwgYW5kIGxsd2QubGFuZ3VhZ2VfaWQgPSA6ZGVmX2xhbmd1YWdlX2lkKSAiICsKICAgICAgICAgICJsZWZ0IGpvaW4gY3JzX2xvY2F0aW9uX3ZhbGlkIHYgb24gKGwuaWQgPSB2LmNyc19sb2NhdGlvbl9pZCBhbmQgdi5jaGFubmVsID0gOmRlZl9jaGFubmVsIGFuZCB2LmFjdGl2ZSkgIiArCiAgICAgICAgICAibGVmdCBqb2luIGNyc19sb2NhdGlvbl9sYW5ndWFnZSBsbCBvbiAobC5pZCA9IGxsLmxvY2F0aW9uX2lkIGFuZCB2LmNoYW5uZWwgPSBsbC5jaGFubmVsIGFuZCBsbC5sYW5ndWFnZV9pZCA9IDpkZWZfbGFuZ3VhZ2VfaWQpICIgKwogICAgICAgICAgImpvaW4gY3JzX2NvdW50cnkgYyBvbiAobC5jb3VudHJ5X2lkID0gYy5pZCkgIiArCiAgICAgICAgICAibGVmdCBqb2luIGNyc19jb3VudHJ5X2xhbmd1YWdlIGNhbCBvbiAoYy5pZCA9IGNhbC5jcnNfY291bnRyeV9pZCBhbmQgY2FsLmxhbmd1YWdlX2lkID0gOmxhbmd1YWdlX2lkKSAiICsKICAgICAgICAgICJsZWZ0IGpvaW4gY3JzX2NvdW50cnlfbGFuZ3VhZ2UgY2FkIG9uIChjLmlkID0gY2FkLmNyc19jb3VudHJ5X2lkIGFuZCBjYWQubGFuZ3VhZ2VfaWQgPSA6ZGVmX2xhbmd1YWdlX2lkKSAiICsKICAgICAgICAgICJsZWZ0IGpvaW4gbWFwX2FyZWFfbG9jYXRpb24gbWFsIG9uIChsLmlkID0gbWFsLmxvY2F0aW9uX2lkKSAiICsgCiAgICAgICAgICAibGVmdCBqb2luIGNyc19hcmVhIGNhIG9uIChtYWwuYXJlYV9pZCA9IGNhLmlkKSAiICsKICAgICAgICAgICJsZWZ0IGpvaW4gY3JzX2FyZWFfbGFuZ3VhZ2UgYWxhbCBvbiAoY2EuaWQgPSBhbGFsLmFyZWFfaWQgYW5kIGFsYWwubGFuZ3VhZ2VfaWQgPSA6bGFuZ3VhZ2VfaWQpICAiICsKICAgICAgICAgICJsZWZ0IGpvaW4gY3JzX2FyZWFfbGFuZ3VhZ2UgYWxhZCBvbiAoY2EuaWQgPSBhbGFkLmFyZWFfaWQgYW5kIGFsYWQubGFuZ3VhZ2VfaWQgPSA6ZGVmX2xhbmd1YWdlX2lkKSAiICsKICAgICAgICAgICJqb2luIGNtcF9zY19sb2NhdGlvbiBjc2wgb24gKGwuaWQgPSBjc2wuY3JzX2xvY2F0aW9uX2lkKSAiICsKICAgICAgICAgICJqb2luIGNtcF9pdGluZXJhcnlfY29tYmluYXRpb24gY2ljIG9uIChjc2wuY3JzX2xvY2F0aW9uX2lkID0gY2ljLmNyc19kZXBfbG9jYXRpb25faWQgYW5kIGNzbC5jbXBfaWQgPSBjaWMuY29tcGFueV9pZCkgIiArCiAgICAgICAgICAiV0hFUkUgbC5sb2NhdGlvbl90eXBlID0gOmxvY2F0aW9uX3R5cGUgIiArCiAgICAgICAgICAiYW5kIENPQUxFU0NFKGxsYWwubmFtZSwgbGxhZC5uYW1lLCBsbHdsLm5hbWUsIGxsd2QubmFtZSwgbGwubmFtZSkgaXMgbm90IG51bGwgJXMgIiArCiAgICAgICAgICAib3JkZXIgYnkgbC5pZCAiLA==</text>
+        <text encoding="base64">cHVibGljIExpc3Q8Q3JzTG9jYXRpb25UTz4gZmluZEZvcldTQWdlbmNpZXMoCiAgICAgICAgICBTdHJpbmcgYWdlbmN5Q2hhbm5lbCwKICAgICAgICAgIGludCBsYW5ndWFnZUlkLCBpbnQgZGVmYXVsdExhbmd1YWdlSWQsCiAgICAgICAgICBMb2NhdGlvblR5cGVFbnVtIGxvY2F0aW9uVHlwZSwgTGlzdDxJbnRlZ2VyPiBjb21wYW55SWRzKTs=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -332,7 +329,7 @@
         <text>StaticDataUtilities</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -363,16 +360,16 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action CloseContent</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action GotoFile</entry>
         <entry>action Forward</entry>
-        <entry>action FindUsages</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action NextTab</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
+        <entry>action GotoFile</entry>
+        <entry>action GotoImplementation</entry>
         <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
