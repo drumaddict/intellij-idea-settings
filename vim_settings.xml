@@ -201,14 +201,14 @@
         <mark key="^" line="160" column="19" />
         <mark key="." line="160" column="19" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" timestamp="1561443805768">
-        <mark key="'" line="690" column="50" />
-        <mark key="[" line="690" column="55" />
-        <mark key="k" line="695" column="37" />
-        <mark key="]" line="690" column="55" />
-        <mark key="m" line="695" column="37" />
-        <mark key="." line="690" column="55" />
-        <mark key="^" line="690" column="55" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" timestamp="1561448239107">
+        <mark key="'" line="689" column="50" />
+        <mark key="k" line="694" column="37" />
+        <mark key="[" line="115" column="0" />
+        <mark key="m" line="694" column="37" />
+        <mark key="]" line="115" column="0" />
+        <mark key="." line="115" column="0" />
+        <mark key="^" line="120" column="38" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/LocationWebServiceV200B2BDispatcher.java" timestamp="1561358845157">
         <mark key="'" line="32" column="70" />
@@ -385,37 +385,37 @@
         <text encoding="base64">YWdlbmN5X3NhbGVzX2NoYW5uZWxfaWQg</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIiBjbGwubmFtZSBhcyBsX25hbWUsIiArCg==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>agencyChannel</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>channel_a</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>l_whow_port</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>s</text>
       </register>
-      <register name="6" type="4">
-        <text>asc_allow_new_locations</text>
-      </register>
       <register name="7" type="4">
-        <text>companies</text>
+        <text>asc_allow_new_locations</text>
       </register>
       <register name="x" type="4">
         <text>agencyChannel</text>
       </register>
       <register name="8" type="4">
-        <text>cl_order</text>
+        <text>companies</text>
       </register>
       <register name="9" type="4">
-        <text>INTEGER</text>
+        <text>cl_order</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action GotoImplementation</text>
       </register>
     </registers>
     <search>
@@ -444,14 +444,14 @@
         <entry>action FileStructurePopup</entry>
         <entry>action Forward</entry>
         <entry>action ReformatCode</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action FindUsages</entry>
         <entry>action Find</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action GotoFile</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action GotoImplementation</entry>
       </history-cmd>
       <history-expr />
       <history-input />
