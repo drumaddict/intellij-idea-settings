@@ -13,6 +13,12 @@
       <file name="/a.dummy" timestamp="1561368038655">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dmo/CrsLocationLanguage.java" timestamp="1561455438171">
+        <mark key="[" line="54" column="36" />
+        <mark key="]" line="54" column="38" />
+        <mark key="^" line="54" column="38" />
+        <mark key="." line="54" column="38" />
+      </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-db-service/src/main/java/gr/forthcrs/crs/db/service/admin/api/LocationService.java" timestamp="1561371934904">
         <mark key="'" line="142" column="0" />
         <mark key="[" line="0" column="35" />
@@ -415,7 +421,7 @@
         <text>cl_order</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -450,8 +456,8 @@
         <entry>action GotoImplementation</entry>
         <entry>action PreviousTab</entry>
         <entry>action Find</entry>
-        <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
