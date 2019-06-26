@@ -303,13 +303,11 @@
         <mark key="." line="48" column="88" />
         <mark key="^" line="48" column="88" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" timestamp="1561535735932">
-        <mark key="'" line="257" column="10" />
-        <mark key="[" line="258" column="0" />
-        <mark key="]" line="258" column="0" />
-        <mark key="m" line="262" column="39" />
-        <mark key="." line="258" column="0" />
-        <mark key="^" line="257" column="9" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" timestamp="1561540711787">
+        <mark key="[" line="257" column="0" />
+        <mark key="m" line="261" column="39" />
+        <mark key="]" line="257" column="0" />
+        <mark key="." line="257" column="0" />
       </file>
       <file name="/fragment.java" timestamp="1561469371605">
         <mark key="[" line="0" column="0" />
@@ -431,38 +429,38 @@
         <text encoding="base64">ICAgICAgICAgIExPR0dFUi5kZWJ1ZygiZnNkZiIpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIExPR0dFUi5kZWJ1ZygiZnNkZiIpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Ly8gICAgICAgICAgbG9jYXRpb25MYW5ndWFnZS5zZXRMYW5ndWFnZShjcnNMb2NhdGlvbkxhbmd1YWdlVE8uZ2V0TGFuZ3VhZ2UoKSk7Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>Language language = new Language();
           language.setId(crsLocationLanguageTO.getLanguage().getId());
           language.setCode(crsLocationLanguageTO.getLanguage().getCode());
           language.setName(crsLocationLanguageTO.getLanguage().getName());
           locationLanguage.setLanguage(language);</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgIGxhbmd1YWdlLnNldChjcnNMb2NhdGlvbkxhbmd1YWdlVE8uZ2V0TGFuZ3VhZ2UoKS5nZXROYW1lKCkpOyAK</text>
-      </register>
-      <register name="7" type="4">
-        <text>setName</text>
       </register>
       <register name="x" type="4">
         <text>setName</text>
       </register>
       <register name="8" type="4">
-        <text>.</text>
+        <text>setName</text>
       </register>
       <register name="9" type="4">
-        <text>getId</text>
+        <text>.</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
