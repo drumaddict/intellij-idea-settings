@@ -44,12 +44,12 @@
         <mark key="^" line="32" column="24" />
         <mark key="." line="32" column="24" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" timestamp="1561554615060">
-        <mark key="'" line="137" column="154" />
-        <mark key="[" line="137" column="151" />
-        <mark key="]" line="137" column="149" />
-        <mark key="^" line="137" column="149" />
-        <mark key="." line="137" column="149" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" timestamp="1561557108875">
+        <mark key="'" line="144" column="63" />
+        <mark key="[" line="155" column="102" />
+        <mark key="]" line="155" column="102" />
+        <mark key="." line="155" column="102" />
+        <mark key="^" line="155" column="102" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-db-service/src/main/java/gr/forthcrs/crs/db/service/api/LocationService.java" timestamp="1561553865143">
         <mark key="'" line="146" column="88" />
@@ -323,17 +323,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="29" column="4" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/utilities/CrsWsServices.java" />
-      <jump line="30" column="70" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/utilities/CrsWsServices.java" />
-      <jump line="48" column="4" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/webapp/WEB-INF/crs-web-service-integration-application-context.xml" />
-      <jump line="115" column="18" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
-      <jump line="665" column="12" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
-      <jump line="670" column="12" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
-      <jump line="672" column="12" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
-      <jump line="673" column="12" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
-      <jump line="677" column="12" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
-      <jump line="679" column="12" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
-      <jump line="688" column="50" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
       <jump line="690" column="12" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
       <jump line="662" column="12" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
       <jump line="671" column="57" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
@@ -423,53 +412,64 @@
       <jump line="58" column="165" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/AdminWebService.java" />
       <jump line="152" column="132" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
       <jump line="137" column="154" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
+      <jump line="68" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
+      <jump line="69" column="118" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
+      <jump line="89" column="120" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
+      <jump line="71" column="6" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
+      <jump line="142" column="151" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
+      <jump line="141" column="274" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
+      <jump line="136" column="36" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
+      <jump line="139" column="84" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
+      <jump line="146" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
+      <jump line="154" column="6" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
+      <jump line="144" column="63" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>int</text>
+        <text>String</text>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>createUser(headers, request, false, agencySalesChannelId),</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>int agencySalesChannelId)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgZGlzcGF0Y2hlclV0aWxpdGllcy5oYW5kbGVFeGNlcHRpb24ocmVzcG9uc2UsIGUsIGxhbmdDb2RlLCBhZ2VuY3lDaGFubmVsSWQpOwo=</text>
       </register>
-      <register name="1" type="4">
-        <text>int</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgTGlzdDxMb2NhdGlvbj4gcmVzdWx0ID0gZG9Mb2NhdGlvbnMoY3JlYXRlVXNlcihoZWFkZXJzLCByZXF1ZXN0LCBmYWxzZSwgYWdlbmN5Q2hhbm5lbElkKSwgY29tcGFueUFiYnJldmlhdGlvbnMsIGxvY2F0aW9uVHlwZSxMaXN0PExvY2F0aW9uPiByZXN1bHQgPSBkb0xvY2F0aW9ucyhjcmVhdGVVc2VyKGhlYWRlcnMsIHJlcXVlc3QsIGZhbHNlLCBhZ2VuY3lDaGFubmVsKSwgY29tcGFueUFiYnJldmlhdGlvbnMsIGxvY2F0aW9uVHlwZSwgYWdlbmN5U2FsZXNDaGFubmVsSWQpOyk7Cg==</text>
       </register>
       <register name="2" type="4">
-        <text>etchAdminLocations</text>
+        <text>String</text>
       </register>
-      <register name="3" type="4">
-        <text>.</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIFN0cmluZyBjaGFubmVsID0gIkIyQiI7Cg==</text>
       </register>
       <register name="4" type="4">
+        <text>channel</text>
+      </register>
+      <register name="5" type="4">
+        <text>int</text>
+      </register>
+      <register name="6" type="4">
+        <text>etchAdminLocations</text>
+      </register>
+      <register name="7" type="4">
+        <text>.</text>
+      </register>
+      <register name="x" type="4">
+        <text>String</text>
+      </register>
+      <register name="8" type="4">
         <text>//            .addScalar(&quot;cl_id&quot;, StandardBasicTypes.INTEGER)
 //            .addScalar(&quot;cl_name&quot;, StandardBasicTypes.STRING)</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLnNldFBhcmFtZXRlcigibGFuZ3VhZ2VfaWQiLCBsYW5ndWFnZUlkKQo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLnNldFBhcmFtZXRlcigibGFuZ3VhZ2VfaWQiLCBsYW5ndWFnZUlkKQo=</text>
-      </register>
-      <register name="7" type="4">
-        <text>agency_sales_channel_id</text>
-      </register>
-      <register name="x" type="4">
-        <text>int</text>
-      </register>
-      <register name="8" type="4">
-        <text>agency_sales_channel_id</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIExPR0dFUi5kZWJ1ZygiZnNkZiIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLnNldFBhcmFtZXRlcigibGFuZ3VhZ2VfaWQiLCBsYW5ndWFnZUlkKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -501,12 +501,12 @@
         <entry>action GotoImplementation</entry>
         <entry>action RenameElement</entry>
         <entry>action GotoFile</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action SaveAll</entry>
-        <entry>action Find</entry>
+        <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
