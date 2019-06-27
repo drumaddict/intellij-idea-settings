@@ -246,14 +246,14 @@
         <mark key="^" line="160" column="19" />
         <mark key="." line="160" column="19" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" timestamp="1561633761712">
-        <mark key="'" line="158" column="99" />
+      <file name="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" timestamp="1561637821069">
+        <mark key="'" line="161" column="65" />
         <mark key="k" line="739" column="37" />
-        <mark key="[" line="148" column="9" />
+        <mark key="[" line="113" column="2" />
         <mark key="m" line="739" column="37" />
-        <mark key="]" line="147" column="11" />
-        <mark key="." line="147" column="11" />
-        <mark key="^" line="147" column="11" />
+        <mark key="]" line="113" column="9" />
+        <mark key="." line="113" column="9" />
+        <mark key="^" line="113" column="9" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/LocationWebServiceV200B2BDispatcher.java" timestamp="1561358845157">
         <mark key="'" line="32" column="70" />
@@ -323,7 +323,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="674" column="12" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
       <jump line="683" column="12" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
       <jump line="678" column="12" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
       <jump line="125" column="48" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
@@ -423,6 +422,7 @@
       <jump line="135" column="56" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
       <jump line="146" column="62" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
       <jump line="158" column="99" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
+      <jump line="160" column="65" filename="$USER_HOME$/projects/crs-engine/crs-db-model/src/main/java/gr/forthcrs/crs/db/model/dao/impl/CrsLocationDAOImpl.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -438,9 +438,18 @@
         <text>v.crs_location_code                   as l_code</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICIgIiwK</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
         <text>//                  &quot; v.agency_sales_channel_id as asc_id,&quot; +
 //                  &quot; v.sales_channel as  asc_sc,&quot; +
 //                  &quot; v.agency_id as asc_agency_id,&quot; +
@@ -458,32 +467,23 @@
           &quot; AND v.location_type = :location_type %s &quot; +
           &quot; ORDER BY channel_allowed desc, display_order, crs_location_code &quot;,</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">LS0gICAgIGNyc19sYW5ndWFnZQo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgTGlzdDxMb2NhdGlvbj4gcmVzdWx0ID0gZG9Mb2NhdGlvbnMoY3JlYXRlVXNlcihoZWFkZXJzLCByZXF1ZXN0LCBmYWxzZSwgYWdlbmN5Q2hhbm5lbElkKSwgY29tcGFueUFiYnJldmlhdGlvbnMsIGxvY2F0aW9uVHlwZSxMaXN0PExvY2F0aW9uPiByZXN1bHQgPSBkb0xvY2F0aW9ucyhjcmVhdGVVc2VyKGhlYWRlcnMsIHJlcXVlc3QsIGZhbHNlLCBhZ2VuY3lDaGFubmVsKSwgY29tcGFueUFiYnJldmlhdGlvbnMsIGxvY2F0aW9uVHlwZSwgYWdlbmN5U2FsZXNDaGFubmVsSWQpOyk7Cg==</text>
-      </register>
-      <register name="5" type="4">
-        <text>String</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIFN0cmluZyBjaGFubmVsID0gIkIyQiI7Cg==</text>
-      </register>
-      <register name="7" type="4">
-        <text>channel</text>
       </register>
       <register name="x" type="4">
         <text>String</text>
       </register>
       <register name="8" type="4">
-        <text>int</text>
+        <text>String</text>
       </register>
-      <register name="9" type="4">
-        <text>etchAdminLocations</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIFN0cmluZyBjaGFubmVsID0gIkIyQiI7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -516,10 +516,10 @@
         <entry>action GotoImplementation</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
-        <entry>action SaveAll</entry>
         <entry>action ReformatCode</entry>
+        <entry>action GotoFile</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
