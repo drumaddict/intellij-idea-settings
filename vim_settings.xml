@@ -206,12 +206,12 @@
         <mark key="^" line="23" column="68" />
         <mark key="." line="23" column="70" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" timestamp="1561726641657">
-        <mark key="'" line="125" column="42" />
-        <mark key="[" line="126" column="41" />
-        <mark key="]" line="126" column="56" />
-        <mark key="^" line="126" column="56" />
-        <mark key="." line="126" column="56" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" timestamp="1561729421168">
+        <mark key="'" line="48" column="4" />
+        <mark key="[" line="20" column="69" />
+        <mark key="]" line="20" column="88" />
+        <mark key="^" line="20" column="88" />
+        <mark key="." line="20" column="88" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" timestamp="1561557815678">
         <mark key="'" line="144" column="63" />
@@ -333,10 +333,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="247" column="10" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" />
-      <jump line="248" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" />
-      <jump line="249" column="10" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" />
-      <jump line="251" column="10" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" />
       <jump line="255" column="48" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" />
       <jump line="32" column="4" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/utilities/CrsWsServices.java" />
       <jump line="256" column="10" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" />
@@ -433,52 +429,56 @@
       <jump line="187" column="18" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
       <jump line="125" column="42" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
       <jump line="30" column="55" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
+      <jump line="32" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
+      <jump line="40" column="78" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
+      <jump line="47" column="229" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
+      <jump line="48" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
         <text>daysBeforeToDeleteBoardingPasses</text>
       </register>
       <register name="-" type="4">
-        <text>R</text>
+        <text>ONE_YEAR_BACK_FROM_NOW_TILL</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>172.16.1.41/</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKCJPTkVfWUVBUl9CQUNLX0ZST01fTk9XIHRvIGRlbGV0ZSBkZWFkIGJvYXJkaW5nIHBhc3NlcyBhbmQgY29uZmlybWF0aW9ucyAiICsgT05FX1lFQVJfQkFDS19GUk9NX05PVyk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgYnQuQk9BUkRfSUQgPSAyNzQzICI7Cg==</text>
+        <text encoding="base64">ICAvLyAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgSFRNTExvZ2dlciBsb2dnZXIgPSBIVE1MTG9nZ2VyLmdldEluc3RhbmNlKCk7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgUk9XTlVNIDw9IDEwMCAiOwo=</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgYnQuQk9BUkRfSUQgPSAyNzQzICI7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgbGF0ZXN0X2RhdGUgPj0gJyIgKyAiIDIwMTEtMDQtMDEgMDA6MDA6MDAiICsgICInIGFuZCAiICsK</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgUk9XTlVNIDw9IDEwMCAiOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgbGF0ZXN0X2RhdGUgPj0gJyIgKyAiIDIwMTEtMDQtMDEgMDA6MDA6MDAiICsgICInIGFuZCAiICsK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAiIGxhdGVzdF9kYXRlIDw9IERBVEUgJyIgKyBkYXlzQmVmb3JlVG9EZWxldGVCb2FyZGluZ1Bhc3NlcyArICAiJyAiOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>daysBeforeToDeleteBoardingPasses</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAiIGxhdGVzdF9kYXRlIDw9IERBVEUgJyIgKyBkYXlzQmVmb3JlVG9EZWxldGVCb2FyZGluZ1Bhc3NlcyArICAiJyAiOwo=</text>
       </register>
       <register name="x" type="4">
         <text>daysBeforeToDeleteBoardingPasses</text>
       </register>
       <register name="8" type="4">
-        <text>btrnshrow</text>
+        <text>daysBeforeToDeleteBoardingPasses</text>
       </register>
       <register name="9" type="4">
-        <text>btrnshm</text>
+        <text>btrnshrow</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -514,8 +514,8 @@
         <entry>action FindUsages</entry>
         <entry>action PreviousTab</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
