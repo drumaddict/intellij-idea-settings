@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/BoardingTransManager.java" timestamp="1561721152739">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/BoardingTransManager.java" timestamp="1561731436290">
         <mark key="'" line="1295" column="36" />
         <mark key="[" line="46" column="4" />
         <mark key="]" line="66" column="43" />
@@ -269,11 +269,12 @@
         <mark key="^" line="26" column="178" />
         <mark key="." line="26" column="178" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1561725334547">
-        <mark key="[" line="584" column="80" />
-        <mark key="]" line="584" column="84" />
-        <mark key="^" line="584" column="84" />
-        <mark key="." line="584" column="84" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1561730934932">
+        <mark key="'" line="606" column="6" />
+        <mark key="[" line="585" column="70" />
+        <mark key="]" line="585" column="51" />
+        <mark key="^" line="585" column="51" />
+        <mark key="." line="585" column="51" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/dto/Language.java" timestamp="1561472172799">
         <mark key="'" line="12" column="0" />
@@ -301,12 +302,12 @@
         <mark key="[" line="245" column="4" />
         <mark key="]" line="251" column="27" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1561726961020">
+      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1561731065210">
         <mark key="'" line="187" column="18" />
-        <mark key="[" line="189" column="22" />
-        <mark key="]" line="189" column="22" />
-        <mark key="^" line="189" column="22" />
-        <mark key="." line="189" column="22" />
+        <mark key="[" line="189" column="23" />
+        <mark key="]" line="189" column="18" />
+        <mark key="^" line="189" column="18" />
+        <mark key="." line="189" column="18" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/LocationWebServiceV200B2BDispatcher.java" timestamp="1561358845157">
         <mark key="'" line="32" column="70" />
@@ -405,7 +406,6 @@
       <jump line="1295" column="36" filename="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/BoardingTransManager.java" />
       <jump line="596" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="616" column="43" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="606" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="607" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="608" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="609" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -433,6 +433,7 @@
       <jump line="40" column="78" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
       <jump line="47" column="229" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
       <jump line="48" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
+      <jump line="606" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -445,7 +446,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKCJPTkVfWUVBUl9CQUNLX0ZST01fTk9XIHRvIGRlbGV0ZSBkZWFkIGJvYXJkaW5nIHBhc3NlcyBhbmQgY29uZmlybWF0aW9ucyAiICsgT05FX1lFQVJfQkFDS19GUk9NX05PVyk7Cg==</text>
+        <text encoding="base64">ICAgICAgbG9nZ2VyLmVycm9yKCJFUlJPUiBjYW5jZWxsaW5nIEJvYXJkUGFzc2VzIDogIiArIGUuZ2V0TWVzc2FnZSgpKTsK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAvLyAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgSFRNTExvZ2dlciBsb2dnZXIgPSBIVE1MTG9nZ2VyLmdldEluc3RhbmNlKCk7Cg==</text>
@@ -478,7 +479,7 @@
         <text>btrnshrow</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -510,12 +511,12 @@
         <entry>action ReformatCode</entry>
         <entry>action CloseContent</entry>
         <entry>action NextTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
         <entry>action PreviousTab</entry>
         <entry>action OptimizeImports</entry>
         <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
