@@ -234,6 +234,13 @@
         <mark key="^" line="470" column="71" />
         <mark key="." line="470" column="71" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" timestamp="1561727790185">
+        <mark key="'" line="30" column="55" />
+        <mark key="[" line="30" column="55" />
+        <mark key="]" line="30" column="66" />
+        <mark key="^" line="30" column="51" />
+        <mark key="." line="30" column="51" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/docs/assets/ITINERARY_ENQUIRY_TICKET_RS.xml" timestamp="1560846659425">
         <mark key="'" line="17" column="0" />
         <mark key="[" line="0" column="0" />
@@ -321,21 +328,11 @@
         <mark key="^" line="233" column="39" />
         <mark key="." line="233" column="39" />
       </file>
-      <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" timestamp="1561554055276">
-        <mark key="'" line="234" column="58" />
-        <mark key="j" line="258" column="22" />
-        <mark key="[" line="234" column="37" />
-        <mark key="m" line="264" column="39" />
-        <mark key="]" line="234" column="32" />
-        <mark key="." line="234" column="32" />
-        <mark key="^" line="234" column="32" />
-      </file>
       <file name="/fragment.java" timestamp="1561719608282">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/dto/LocationLanguage.java" />
       <jump line="247" column="10" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" />
       <jump line="248" column="0" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" />
       <jump line="249" column="10" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" />
@@ -435,6 +432,7 @@
       <jump line="585" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="187" column="18" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
       <jump line="125" column="42" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
+      <jump line="30" column="55" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SmsSender.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
@@ -447,7 +445,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>BP_CNF_CANCEL_DAEMON</text>
+        <text>172.16.1.41/</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICIgYnQuQk9BUkRfSUQgPSAyNzQzICI7Cg==</text>
@@ -480,7 +478,7 @@
         <text>btrnshm</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -515,9 +513,9 @@
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
