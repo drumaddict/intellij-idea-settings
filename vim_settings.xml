@@ -205,7 +205,6 @@
         <mark key="." line="155" column="102" />
         <mark key="^" line="155" column="102" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0180_EMBARKDTA_CONF_LAST_VW.sql" timestamp="1561643895786" />
       <file name="$USER_HOME$/projects/crs-engine/crs-db-service/src/main/java/gr/forthcrs/crs/db/service/utilities/CrsDbServices.java" timestamp="1561371546608">
         <mark key="'" line="40" column="0" />
         <mark key="[" line="0" column="0" />
@@ -253,12 +252,12 @@
         <mark key="^" line="15" column="39" />
         <mark key="." line="15" column="39" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0000_add_parameters.sql" timestamp="1561640751742">
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0000_add_parameters.sql" timestamp="1561703661453">
         <mark key="'" line="26" column="166" />
-        <mark key="[" line="26" column="99" />
-        <mark key="]" line="26" column="103" />
-        <mark key="^" line="26" column="103" />
-        <mark key="." line="26" column="103" />
+        <mark key="[" line="26" column="102" />
+        <mark key="]" line="26" column="201" />
+        <mark key="^" line="26" column="178" />
+        <mark key="." line="26" column="178" />
       </file>
       <file name="/Dummy.txt" timestamp="1561550709602">
         <mark key="[" line="0" column="0" />
@@ -266,7 +265,7 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1561643498578">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1561703581390">
         <mark key="'" line="548" column="23" />
         <mark key="[" line="569" column="71" />
         <mark key="]" line="572" column="3" />
@@ -455,7 +454,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>DAYS_SINCE_TO_DELETE_BP</text>
+        <text>Days back since to to delete New or Printed Boarding passes and Confirmations than never checked in.</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICBGZXRjaCBhCg==</text>
@@ -493,7 +492,7 @@
         <text>minutesToAutomaticallyApplyNonshowBean</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -510,7 +509,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action VimFilePrevious</entry>
         <entry>action AceLineAction</entry>
         <entry>action AceAction</entry>
         <entry>action CloseContent</entry>
@@ -521,16 +519,16 @@
         <entry>action FileStructurePopup</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action TabShiftActions.StretchUp</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action SplitVertically</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action RenameElement</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action TabShiftActions.StretchUp</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
