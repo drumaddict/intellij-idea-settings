@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/BoardingTransManager.java" timestamp="1561964375842">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/BoardingTransManager.java" timestamp="1561967253341">
         <mark key="'" line="1295" column="36" />
         <mark key="[" line="46" column="4" />
         <mark key="]" line="66" column="43" />
@@ -207,12 +207,12 @@
         <mark key="^" line="23" column="68" />
         <mark key="." line="23" column="70" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" timestamp="1561962855850">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" timestamp="1561967822873">
         <mark key="'" line="131" column="88" />
-        <mark key="[" line="129" column="0" />
-        <mark key="]" line="129" column="0" />
-        <mark key="^" line="131" column="77" />
-        <mark key="." line="129" column="0" />
+        <mark key="[" line="101" column="77" />
+        <mark key="]" line="101" column="88" />
+        <mark key="^" line="101" column="88" />
+        <mark key="." line="101" column="88" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" timestamp="1561557815678">
         <mark key="'" line="144" column="63" />
@@ -270,12 +270,12 @@
         <mark key="^" line="26" column="178" />
         <mark key="." line="26" column="178" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1561732169213">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1561966901677">
         <mark key="'" line="606" column="6" />
-        <mark key="[" line="585" column="70" />
-        <mark key="]" line="585" column="51" />
-        <mark key="^" line="585" column="51" />
-        <mark key="." line="585" column="51" />
+        <mark key="[" line="585" column="80" />
+        <mark key="]" line="585" column="80" />
+        <mark key="^" line="585" column="80" />
+        <mark key="." line="585" column="80" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/dto/Language.java" timestamp="1561472172799">
         <mark key="'" line="12" column="0" />
@@ -481,7 +481,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAiIGxhdGVzdF9kYXRlIDw9IERBVEUgJyIgKyBkYXlzQmVmb3JlVG9EZWxldGVCb2FyZGluZ1Bhc3NlcyArICAiJyAiOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -516,8 +516,8 @@
         <entry>action NextTab</entry>
         <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
