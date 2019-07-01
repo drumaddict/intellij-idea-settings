@@ -295,12 +295,12 @@
         <mark key="^" line="58" column="158" />
         <mark key="." line="58" column="158" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1561982155237">
-        <mark key="'" line="2608" column="10" />
-        <mark key="[" line="2602" column="10" />
-        <mark key="]" line="2608" column="11" />
-        <mark key="." line="2602" column="10" />
-        <mark key="^" line="2602" column="9" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1561983078785">
+        <mark key="'" line="622" column="61" />
+        <mark key="[" line="766" column="4" />
+        <mark key="]" line="766" column="4" />
+        <mark key="." line="766" column="4" />
+        <mark key="^" line="766" column="4" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/AdminWebService.java" timestamp="1561554557899">
         <mark key="'" line="58" column="165" />
@@ -351,7 +351,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="137" column="154" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
       <jump line="68" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
       <jump line="69" column="118" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
       <jump line="89" column="120" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
@@ -451,50 +450,54 @@
       <jump line="2498" column="76" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="2562" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="2608" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="622" column="61" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>pseg.getBookID()</text>
+        <text>pseg</text>
       </register>
       <register name="-" type="4">
-        <text>embarkRows[i].getBookId()</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAgICAgICAgIGNvbmZpcm1hdGlvbkRhdGEuc2V0Qm9va0lkKG5yb3cuZ2V0Qm9va0lEKCkpOwogICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgcHJpb2NoZWNrTWFuYWdlci5zYXZlKGNvbmZpcm1hdGlvbkRhdGEpOwogICAgICAgICAgfSBjYXRjaCAoREFPRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKCJGYWlsZWQgdG8gdXBkYXRlIENvbmZpcm1hdGlvbiB3aXRoIGJvb2tJRCAiICsgbnJvdy5nZXRCb29rSUQoKSk7CiAgICAgICAgICB9</text>
+        <text>NewToOldBookIds.put(bookID, pseg.getBookID());
+          PriocheckBean confirmation = BaseWorker.fetchPriorityCheck(pseg.getBookID());
+          if (confirmation != null)
+            newBookIdToConfirmation.put(bookID, confirmation);</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>pseg</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>try {
         confirmationData = BaseWorker.f
       } catch (DAOException e) {
         e.printStackTrace();
       }</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>pseg.getBookID()</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgQ29sbGVjdGlvblV0aWxzLnB1dAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIFRvQ29uZmkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgQ29sbGVjdGlvblV0aWxzLnB1dAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIElkc1RvCg==</text>
+        <text encoding="base64">ICAgICAgICAgIFRvQ29uZmkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgIElkc1RvCg==</text>
       </register>
       <register name="x" type="4">
-        <text>pseg.getBookID()</text>
+        <text>pseg</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -538,6 +541,7 @@
         <entry>action SurroundWith</entry>
         <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
+        <entry>action ShowBookmarks</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
