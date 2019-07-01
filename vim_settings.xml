@@ -221,6 +221,10 @@
         <mark key="." line="155" column="102" />
         <mark key="^" line="155" column="102" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1561977248472">
+        <mark key="k" line="202" column="8" />
+        <mark key="m" line="202" column="8" />
+      </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-db-service/src/main/java/gr/forthcrs/crs/db/service/utilities/CrsDbServices.java" timestamp="1561371546608">
         <mark key="'" line="40" column="0" />
         <mark key="[" line="0" column="0" />
@@ -342,7 +346,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="216" column="16" />
       </file>
-      <file name="/fragment.java" timestamp="1561976140121">
+      <file name="/fragment.java" timestamp="1561977775745">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -492,7 +496,7 @@
         <text>setConfirmationStatus</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -523,12 +527,12 @@
         <entry>action RenameElement</entry>
         <entry>action SurroundWith</entry>
         <entry>action ReformatCode</entry>
-        <entry>action GotoFile</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>action SaveAll</entry>
         <entry>action Find</entry>
-        <entry>action FindUsages</entry>
+        <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
