@@ -295,7 +295,7 @@
         <mark key="^" line="58" column="158" />
         <mark key="." line="58" column="158" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1561976810615">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1561980285300">
         <mark key="'" line="155" column="5" />
         <mark key="[" line="2475" column="88" />
         <mark key="]" line="2475" column="3" />
@@ -346,7 +346,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="216" column="16" />
       </file>
-      <file name="/fragment.java" timestamp="1561977775745">
+      <file name="/fragment.java" timestamp="1561980289172">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -496,7 +496,7 @@
         <text>setConfirmationStatus</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -530,9 +530,9 @@
         <entry>action SaveAll</entry>
         <entry>action Find</entry>
         <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
