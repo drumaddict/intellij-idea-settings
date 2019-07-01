@@ -295,12 +295,12 @@
         <mark key="^" line="58" column="158" />
         <mark key="." line="58" column="158" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1561980285300">
-        <mark key="'" line="155" column="5" />
-        <mark key="[" line="2475" column="88" />
-        <mark key="]" line="2475" column="3" />
-        <mark key="." line="2475" column="3" />
-        <mark key="^" line="2475" column="3" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1561982155237">
+        <mark key="'" line="2608" column="10" />
+        <mark key="[" line="2602" column="10" />
+        <mark key="]" line="2608" column="11" />
+        <mark key="." line="2602" column="10" />
+        <mark key="^" line="2602" column="9" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/AdminWebService.java" timestamp="1561554557899">
         <mark key="'" line="58" column="165" />
@@ -351,13 +351,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="234" column="58" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/common/AdminUtilities.java" />
-      <jump line="58" column="185" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/WebService.java" />
-      <jump line="191" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/AdminWebServiceImpl.java" />
-      <jump line="195" column="8" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/AdminWebServiceImpl.java" />
-      <jump line="200" column="46" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/impl/v200/AdminWebServiceImpl.java" />
-      <jump line="58" column="165" filename="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/api/AdminWebService.java" />
-      <jump line="152" column="132" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
       <jump line="137" column="154" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
       <jump line="68" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
       <jump line="69" column="118" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
@@ -451,52 +444,63 @@
       <jump line="2538" column="23" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="2495" column="90" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="155" column="5" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="541" column="16" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="544" column="47" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="543" column="57" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2499" column="32" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2498" column="76" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2562" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2608" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>Email</text>
+        <text>pseg.getBookID()</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>embarkRows[i].getBookId()</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>embarkRows[i].getBookId())</text>
+        <text encoding="base64">ICAgICAgICAgIGNvbmZpcm1hdGlvbkRhdGEuc2V0Qm9va0lkKG5yb3cuZ2V0Qm9va0lEKCkpOwogICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgcHJpb2NoZWNrTWFuYWdlci5zYXZlKGNvbmZpcm1hdGlvbkRhdGEpOwogICAgICAgICAgfSBjYXRjaCAoREFPRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKCJGYWlsZWQgdG8gdXBkYXRlIENvbmZpcm1hdGlvbiB3aXRoIGJvb2tJRCAiICsgbnJvdy5nZXRCb29rSUQoKSk7CiAgICAgICAgICB9</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>try {
+        confirmationData = BaseWorker.f
+      } catch (DAOException e) {
+        e.printStackTrace();
+      }</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgbnJvdy5zZXQK</text>
+      <register name="3" type="4">
+        <text>pseg.getBookID()</text>
       </register>
-      <register name="4" type="4">
-        <text>Email</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgQ29sbGVjdGlvblV0aWxzLnB1dAo=</text>
       </register>
-      <register name="5" type="4">
-        <text>Email</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgIFRvQ29uZmkK</text>
       </register>
-      <register name="6" type="4">
-        <text>getPriocheckId</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgIElkc1RvCg==</text>
       </register>
-      <register name="7" type="4">
-        <text>setConfirmationID</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="x" type="4">
-        <text>Email</text>
+        <text>pseg.getBookID()</text>
       </register>
-      <register name="8" type="4">
-        <text>getPriStatus</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>setConfirmationStatus</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -524,15 +528,17 @@
         <entry>action OptimizeImports</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>541</entry>
+        <entry>action Find</entry>
+        <entry>action ToggleBookmark</entry>
         <entry>action RenameElement</entry>
         <entry>action SurroundWith</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
-        <entry>action Find</entry>
-        <entry>action GotoFile</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
