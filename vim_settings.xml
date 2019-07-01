@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/BoardingTransManager.java" timestamp="1561967253341">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/database/oracle/portcontrol/BoardingTransManager.java" timestamp="1561985317003">
         <mark key="'" line="1295" column="36" />
         <mark key="[" line="46" column="4" />
         <mark key="]" line="66" column="43" />
@@ -207,12 +207,12 @@
         <mark key="^" line="23" column="68" />
         <mark key="." line="23" column="70" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" timestamp="1561969895161">
-        <mark key="'" line="131" column="88" />
-        <mark key="[" line="92" column="74" />
-        <mark key="]" line="92" column="97" />
-        <mark key="^" line="92" column="97" />
-        <mark key="." line="92" column="97" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" timestamp="1561987642236">
+        <mark key="'" line="74" column="54" />
+        <mark key="[" line="74" column="21" />
+        <mark key="]" line="74" column="55" />
+        <mark key="." line="74" column="21" />
+        <mark key="^" line="25" column="44" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" timestamp="1561557815678">
         <mark key="'" line="144" column="63" />
@@ -267,6 +267,11 @@
         <mark key="^" line="468" column="3" />
         <mark key="." line="468" column="3" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" timestamp="1561985466271">
+        <mark key="'" line="282" column="0" />
+        <mark key="[" line="282" column="0" />
+        <mark key="]" line="294" column="5" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0000_add_parameters.sql" timestamp="1561715726507">
         <mark key="'" line="24" column="0" />
         <mark key="[" line="26" column="0" />
@@ -274,12 +279,15 @@
         <mark key="^" line="26" column="178" />
         <mark key="." line="26" column="178" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1561971238742">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1561986491966">
         <mark key="'" line="587" column="4" />
-        <mark key="[" line="735" column="15" />
-        <mark key="]" line="735" column="14" />
-        <mark key="^" line="735" column="14" />
-        <mark key="." line="735" column="14" />
+        <mark key="[" line="605" column="53" />
+        <mark key="]" line="605" column="66" />
+        <mark key="^" line="605" column="66" />
+        <mark key="." line="605" column="66" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1561987844937">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/dto/Language.java" timestamp="1561472172799">
         <mark key="'" line="12" column="0" />
@@ -314,7 +322,7 @@
         <mark key="[" line="245" column="4" />
         <mark key="]" line="251" column="27" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1561974524381">
+      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1561988252504">
         <mark key="'" line="187" column="18" />
         <mark key="[" line="193" column="23" />
         <mark key="]" line="193" column="21" />
@@ -346,16 +354,11 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="216" column="16" />
       </file>
-      <file name="/fragment.java" timestamp="1561980289172">
+      <file name="/fragment.java" timestamp="1561985889494">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="2" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
-      <jump line="69" column="118" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
-      <jump line="89" column="120" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
-      <jump line="71" column="6" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
-      <jump line="142" column="151" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
       <jump line="141" column="274" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
       <jump line="136" column="36" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
       <jump line="139" column="84" filename="$USER_HOME$/projects/crs-engine/crs-web-service-integration/src/main/java/gr/forthcrs/crs/web/service/integration/dispatcher/ws/v200/admin/AdminAPIDispatcher.java" />
@@ -451,10 +454,15 @@
       <jump line="2562" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="2608" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="622" column="61" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="127" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
+      <jump line="282" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassCancel.java" />
+      <jump line="139" column="5" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
+      <jump line="22" column="13" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
+      <jump line="74" column="54" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BoardPassConfirmationCancelDaemon.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>pseg</text>
+        <text>500</text>
       </register>
       <register name="-" type="4">
         <text>}</text>
@@ -463,47 +471,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>NewToOldBookIds.put(bookID, pseg.getBookID());
-          PriocheckBean confirmation = BaseWorker.fetchPriorityCheck(pseg.getBookID());
-          if (confirmation != null)
-            newBookIdToConfirmation.put(bookID, confirmation);</text>
+        <text encoding="base64">Qm9hcmRQYXNzQ29uZmlybWF0aW9uQ2FuY2VsRGFlbW9uIA==</text>
       </register>
       <register name="1" type="4">
-        <text>pseg</text>
+        <text>500</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
-      </register>
-      <register name="3" type="4">
-        <text>try {
-        confirmationData = BaseWorker.f
-      } catch (DAOException e) {
-        e.printStackTrace();
-      }</text>
-      </register>
-      <register name="4" type="4">
-        <text>pseg.getBookID()</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgQ29sbGVjdGlvblV0aWxzLnB1dAo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIFRvQ29uZmkK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIElkc1RvCg==</text>
-      </register>
-      <register name="x" type="4">
-        <text>pseg</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIFN5c3RlbS5vdXQucHJpbnRsbigiRmV0Y2hpbmcgUHJpb2NoZWNrIGJ5IGJvb2tJRDogICAgIiArIHNxbCk7Cg==</text>
+      </register>
+      <register name="5" type="4">
+        <text>passveh</text>
+      </register>
+      <register name="6" type="4">
+        <text>email</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">IA==</text>
+      </register>
+      <register name="x" type="4">
+        <text>500</text>
+      </register>
+      <register name="8" type="4">
+        <text>mobile</text>
+      </register>
+      <register name="9" type="4">
+        <text>sailId</text>
+      </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -520,7 +521,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action GotoSymbol</entry>
         <entry>action GotoImplementation</entry>
         <entry>action SplitVertically</entry>
         <entry>action TabShiftActions.StretchUp</entry>
@@ -529,20 +529,21 @@
         <entry>action AceAction</entry>
         <entry>action CloseContent</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action GotoFile</entry>
         <entry>541</entry>
-        <entry>action Find</entry>
         <entry>action ToggleBookmark</entry>
         <entry>action RenameElement</entry>
         <entry>action SurroundWith</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action FindUsages</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
+        <entry>action GotoSymbol</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
