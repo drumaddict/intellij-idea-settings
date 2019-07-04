@@ -182,9 +182,9 @@
         <mark key="." line="74" column="13" />
         <mark key="^" line="74" column="13" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0150_ALERT_VW.sql" timestamp="1562231302357">
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0150_ALERT_VW.sql" timestamp="1562232582211">
         <mark key="'" line="32" column="4" />
-        <mark key="[" line="32" column="38" />
+        <mark key="[" line="27" column="51" />
         <mark key="]" line="32" column="48" />
         <mark key="." line="32" column="48" />
         <mark key="^" line="32" column="48" />
@@ -358,8 +358,10 @@
         <mark key="^" line="26" column="178" />
         <mark key="." line="26" column="178" />
       </file>
-      <file name="/Dummy.txt" timestamp="1562151755161">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1562233199431">
+        <mark key="'" line="1697" column="35" />
+        <mark key="[" line="1697" column="35" />
+        <mark key="]" line="1697" column="56" />
       </file>
       <file name="$USER_HOME$/projects/crs-engine/crs-web-service/src/main/java/gr/forthcrs/crs/web/service/dto/Language.java" timestamp="1561472172799">
         <mark key="'" line="12" column="0" />
@@ -367,6 +369,13 @@
         <mark key="]" line="12" column="42" />
         <mark key="^" line="66" column="45" />
         <mark key="." line="53" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" timestamp="1562233527358">
+        <mark key="'" line="246" column="6" />
+        <mark key="[" line="246" column="34" />
+        <mark key="]" line="246" column="54" />
+        <mark key="^" line="246" column="54" />
+        <mark key="." line="246" column="54" />
       </file>
       <file name="$USER_HOME$/projects/pcs/pcs-base/base_pom.xml" timestamp="1562076309447">
         <mark key="'" line="15" column="10" />
@@ -464,15 +473,8 @@
         <mark key="." line="107" column="0" />
         <mark key="^" line="133" column="41" />
       </file>
-      <file name="/fragment.java" timestamp="1562135309358">
-        <mark key="[" line="0" column="0" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="113" column="24" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="118" column="24" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="124" column="24" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="130" column="24" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="135" column="12" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="134" column="20" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="133" column="8" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
@@ -569,31 +571,35 @@
       <jump line="0" column="86" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0145_add_last_update_date_to_alertline.sql" />
       <jump line="10" column="0" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0150_ALERT_VW.sql" />
       <jump line="32" column="4" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0150_ALERT_VW.sql" />
+      <jump line="1697" column="35" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="129" column="36" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="130" column="65" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
+      <jump line="246" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>PDFPATH</text>
+        <text>Pending.N.toString()</text>
       </register>
       <register name="-" type="4">
-        <text>-</text>
+        <text>DateUtils.nowAsDate())</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEFMRVJUTElORS5QREZQQVRIICAgICAgICAgICAgICBBUyBQREZQQVRILAo=</text>
+        <text encoding="base64">ICAgICAgYWxlcnRsaW5lQmVhbi5zZXRQZW5kaW5nKFBlbmRpbmcuTi50b1N0cmluZygpKTsK</text>
       </register>
       <register name="1" type="4">
-        <text>PDFPATH</text>
+        <text>Pending.N.toString()</text>
       </register>
       <register name="2" type="4">
-        <text>PDFPATH</text>
+        <text>Pending</text>
       </register>
-      <register name="3" type="4">
-        <text>PDFPATH</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICBBbGVydGxpbmVNYW5hZ2VyIGFsZXJ0bGluZU1hbmFnZXIgPSBBbGVydGxpbmVNYW5hZ2VyLmdldEluc3RhbmNlKCk7Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>COMPANIES</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICBBbGVydGxpbmVCZWFuIGFsZXJ0bGluZUJlYW4gPWFsZXJ0bGluZU1hbmFnZXIK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
@@ -602,16 +608,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICA8bW9kdWxlPnJob2RlczwvbW9kdWxlPgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
+        <text>Pending.N.toString()</text>
+      </register>
+      <register name="8" type="4">
         <text>PDFPATH</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICA8bW9kdWxlPmRiLXNlcnZpY2U8L21vZHVsZT4K</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>PDFPATH</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -637,18 +643,18 @@
         <entry>action SurroundWith</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action FindUsages</entry>
         <entry>action GotoSymbol</entry>
-        <entry>action SplitVertically</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action GotoFile</entry>
         <entry>123</entry>
         <entry>action CloseContent</entry>
         <entry>action AceAction</entry>
-        <entry>action Find</entry>
         <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
+        <entry>action SplitVertically</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
