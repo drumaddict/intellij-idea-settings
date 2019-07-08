@@ -134,12 +134,12 @@
         <mark key="[" line="240" column="6" />
         <mark key="]" line="243" column="15" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1562580857255">
-        <mark key="'" line="2759" column="153" />
-        <mark key="[" line="2761" column="52" />
-        <mark key="]" line="2761" column="80" />
-        <mark key="^" line="2761" column="80" />
-        <mark key="." line="2761" column="80" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1562583464581">
+        <mark key="'" line="2756" column="153" />
+        <mark key="[" line="1558" column="0" />
+        <mark key="]" line="1558" column="0" />
+        <mark key="^" line="2758" column="80" />
+        <mark key="." line="1558" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/pom.xml" timestamp="1562569252252">
         <mark key="'" line="72" column="118" />
@@ -338,38 +338,38 @@
       <register name="0" type="4">
         <text>BooklineHistoryBean[] previousHistoryBeans = booklineHistoryManager.loadByWhere(&quot; WHERE PREVIOUS_BOOK_ID = &quot; + newToOldBookIds.get(bookline.getBookId()));</text>
       </register>
-      <register name="1" type="4">
-        <text>previousHistoryBeans</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>previousHistoryBeans</text>
+      <register name="2" type="2">
+        <text encoding="base64">Ly8gICAgaWYgKG1lc3NhZ2VpZC5jb250YWlucygiX1VQREFURSIpKSBpbnNlcnRCb29rbGluZUhpc3RvcnlSb3coYm9va2xpbmVCZWFuLCAiVVBEQVRFIiwgYm9va2xpbmVCZWFuLmdldEJvb2tJZCgpKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBib29rbGluZUhpc3RvcnlCZWFuLnNldE9yaWdpbmFsQm9va0lkKGJvb2tsaW5lLmdldEJvb2tJZCgpKTsK</text>
+        <text encoding="base64">Ly8gICAgaWYgKG1lc3NhZ2VpZC5jb250YWlucygiX0lOU0VSVCIpKSBpbnNlcnRCb29rbGluZUhpc3RvcnlSb3coYm9va2xpbmVCZWFuLCAiSU5TRVJUIiwgYm9va2xpbmVCZWFuLmdldEJvb2tJZCgpKTsK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBib29rbGluZUhpc3RvcnlCZWFuLnNldFByZXZpb3VzQm9va0lkKGJvb2tsaW5lLmdldEJvb2tJZCgpKTsK</text>
+      <register name="4" type="4">
+        <text>previousHistoryBeans</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBib29rbGluZUhpc3RvcnlCZWFuLnNldE9yaWdpbmFsQm9va0lkKGJvb2tsaW5lLmdldEJvb2tJZCgpKTsK</text>
+      <register name="5" type="4">
+        <text>previousHistoryBeans</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBib29rbGluZUhpc3RvcnlCZWFuLnNldE9yaWdpbmFsQm9va0lkKGJvb2tsaW5lLmdldEJvb2tJZCgpKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBib29rbGluZUhpc3RvcnlCZWFuLnNldFByZXZpb3VzQm9va0lkKGJvb2tsaW5lLmdldEJvb2tJZCgpKTsK</text>
       </register>
       <register name="x" type="4">
         <text>previousHistoryBeans</text>
       </register>
-      <register name="8" type="4">
-        <text>getBookId</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBib29rbGluZUhpc3RvcnlCZWFuLnNldE9yaWdpbmFsQm9va0lkKGJvb2tsaW5lLmdldEJvb2tJZCgpKTsK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -403,12 +403,12 @@
         <entry>action AceAction</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action Find</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action SaveAll</entry>
         <entry>action ReformatCode</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
