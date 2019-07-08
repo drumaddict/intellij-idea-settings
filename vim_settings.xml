@@ -104,7 +104,7 @@
       <file name="/Dummy.txt" timestamp="1562330811570">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1562245199124">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1562576446766">
         <mark key="'" line="1758" column="6" />
         <mark key="[" line="1758" column="0" />
         <mark key="]" line="1758" column="0" />
@@ -129,12 +129,12 @@
         <mark key="^" line="246" column="19" />
         <mark key="." line="244" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1562570830014">
-        <mark key="'" line="624" column="10" />
-        <mark key="[" line="2240" column="66" />
-        <mark key="]" line="2240" column="3" />
-        <mark key="." line="2240" column="3" />
-        <mark key="^" line="2240" column="3" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1562576538824">
+        <mark key="'" line="1559" column="4" />
+        <mark key="[" line="1559" column="85" />
+        <mark key="]" line="1559" column="84" />
+        <mark key="^" line="1559" column="84" />
+        <mark key="." line="1559" column="84" />
       </file>
       <file name="$USER_HOME$/projects/pcs/pom.xml" timestamp="1562569252252">
         <mark key="'" line="72" column="118" />
@@ -189,6 +189,13 @@
         <mark key="^" line="17" column="33" />
         <mark key="." line="13" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0220_add_bookline_history.sql" timestamp="1562573782941">
+        <mark key="'" line="3" column="4" />
+        <mark key="[" line="2" column="70" />
+        <mark key="]" line="2" column="57" />
+        <mark key="." line="2" column="57" />
+        <mark key="^" line="2" column="57" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/pcs-base/src/main/resources/banner.txt" timestamp="1562163805039">
         <mark key="[" line="27" column="38" />
         <mark key="]" line="28" column="37" />
@@ -212,57 +219,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="13" filename="$USER_HOME$/projects/pcs/pom.xml" />
-      <jump line="19" column="0" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="20" column="12" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="29" column="16" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="23" column="17" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="34" column="17" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="30" column="16" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="27" column="20" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="75" column="15" filename="$USER_HOME$/projects/pcs/pom.xml" />
-      <jump line="214" column="8" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="26" column="7" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="0" column="43" filename="$USER_HOME$/projects/pcs/pcs-base/src/main/resources/application.properties" />
-      <jump line="25" column="17" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/pcs-base/src/main/resources/application-dev.properties" />
-      <jump line="10" column="64" filename="$USER_HOME$/projects/pcs/pcs-base/src/main/resources/application-rel.properties" />
-      <jump line="121" column="0" filename="$USER_HOME$/projects/pcs/pcs-base/src/main/resources/db/changelog.yml" />
-      <jump line="0" column="8" filename="$USER_HOME$/projects/pcs/pcs-base/src/main/java/gr/liknosscrs/pcs/PcsEngineApplication.java" />
-      <jump line="2" column="31" filename="$USER_HOME$/projects/pcs/pcs-base/src/main/resources/application.properties" />
-      <jump line="4" column="56" filename="$USER_HOME$/projects/pcs/pcs-base/src/main/resources/application-dev.properties" />
-      <jump line="1" column="0" filename="$USER_HOME$/projects/pcs/pcs-base/src/main/resources/application-dev.properties" />
-      <jump line="22" column="56" filename="$USER_HOME$/projects/pcs/pcs-base/src/main/resources/application.properties" />
-      <jump line="18" column="4" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="22" column="18" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="28" column="0" filename="$USER_HOME$/projects/pcs/pom.xml" />
-      <jump line="57" column="17" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="42" column="0" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="75" column="20" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="1" column="0" filename="$USER_HOME$/projects/pcs/pcs-base/src/main/resources/application.properties" />
-      <jump line="51" column="24" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="64" column="24" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="71" column="24" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="73" column="24" filename="$USER_HOME$/projects/pcs/pcs-base/pom.xml" />
-      <jump line="101" column="8" filename="$USER_HOME$/projects/pcs/pom.xml" />
-      <jump line="102" column="32" filename="$USER_HOME$/projects/pcs/pom.xml" />
-      <jump line="104" column="8" filename="$USER_HOME$/projects/pcs/pom.xml" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0140_add_comp_email_to_companies.sql" />
-      <jump line="0" column="86" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0145_add_last_update_date_to_alertline.sql" />
-      <jump line="10" column="0" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0150_ALERT_VW.sql" />
-      <jump line="32" column="4" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0150_ALERT_VW.sql" />
-      <jump line="1697" column="35" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="129" column="36" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="130" column="65" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="249" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="49" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/DateUtils.java" />
-      <jump line="69" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/DateUtils.java" />
-      <jump line="1598" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="246" column="57" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="1710" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="247" column="28" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="248" column="43" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AlertHandler.java" />
-      <jump line="1672" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1607" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1673" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="1612" column="50" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -312,68 +268,103 @@
       <jump line="18" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase.properties" />
       <jump line="6" column="41" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase.properties" />
       <jump line="9" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase.properties" />
+      <jump line="5" column="4" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0220_add_bookline_history.sql" />
+      <jump line="7" column="4" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0220_add_bookline_history.sql" />
+      <jump line="4" column="4" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0220_add_bookline_history.sql" />
+      <jump line="972" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2731" column="113" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2739" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2740" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2741" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2742" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2743" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2744" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2745" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2746" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2747" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2748" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2749" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2750" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2751" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2752" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2753" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2754" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2755" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2756" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2757" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2758" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2759" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2760" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2761" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2762" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2763" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2764" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2765" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2766" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2767" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2768" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2769" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2770" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2771" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2772" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2773" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2774" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2775" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2776" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2777" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2778" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2779" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2780" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2781" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2782" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2733" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="1559" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>iquibase</text>
+        <text>INSERT</text>
       </register>
       <register name="-" type="4">
-        <text>b</text>
+        <text>(</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">c3ByaW5nLmxpcXVpYmFzZS5sYWJlbHM9Cg==</text>
+        <text encoding="base64">ICAgaWYgKG1lc3NhZ2VpZC5jb250YWlucygiX0lOU0VSVCIpKSAgaW5zZXJ0Qm9va2xpbmVIaXN0b3J5Um93KGJvb2tsaW5lQmVhbiwgIklOU0VSVCIsIGJvb2tsaW5lQmVhbi5nZXRCb29rSWQoKSk7Cg==</text>
       </register>
       <register name="1" type="4">
-        <text>iquibase</text>
+        <text>INSERT</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">IyBMaXF1aWJhc2UK</text>
+        <text encoding="base64">ICAgIGJvb2tsaW5lSGlzdG9yeUJlYW4uc2V0QWN0aW9uKGFjdGlvbik7Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">c3ByaW5nLmxpcXVpYmFzZS5jaGFuZ2UtbG9nPS9zcmMvbWFpbi9yZXNvdXJjZXMvZGIvY2hhbmdlbG9nLnltbAo=</text>
+      <register name="3" type="4">
+        <text>getVreason</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>Vreason</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">IyMgcnVuIExpcXVpYmFzZSBtYW51YWxseSB3aXRoIGNvbW1hbmQgbGluZQo=</text>
+      <register name="5" type="4">
+        <text>getPhone</text>
       </register>
       <register name="6" type="4">
-        <text>spring.liquibase.enabled=false
-spring.liquibase.change-log=/src/main/resources/db/changelog.yml
-spring.liquibase.contexts=
-spring.liquibase.default-schema=
-spring.liquibase.drop-first=false
-spring.liquibase.labels=
-spring.liquibase.parameters.*=
-spring.liquibase.rollback-file=## Liquibase</text>
+        <text>Phone</text>
       </register>
       <register name="7" type="4">
-        <text># Liquibase
-# run Liquibase manually with command line
-spring.liquibase.enabled=false
-spring.liquibase.change-log=/src/main/resources/db/changelog.yml
-spring.liquibase.contexts=
-spring.liquibase.default-schema=
-spring.liquibase.drop-first=false
-spring.liquibase.labels=
-spring.liquibase.parameters.*=
-spring.liquibase.rollback-file=</text>
+        <text>Maddress</text>
       </register>
       <register name="x" type="4">
-        <text>iquibase</text>
+        <text>INSERT</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>Maddress</text>
       </register>
       <register name="9" type="4">
-        <text>static</text>
+        <text>Gtobookline</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -395,22 +386,22 @@ spring.liquibase.rollback-file=</text>
         <entry>action GotoSymbol</entry>
         <entry>123</entry>
         <entry>action CloseContent</entry>
-        <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action SplitVertically</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action ReformatCode</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action PreviousTab</entry>
+        <entry>action FindUsages</entry>
+        <entry>action AceAction</entry>
+        <entry>action ReformatCode</entry>
         <entry>action NextTab</entry>
-        <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action SplitVertically</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
-        <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
