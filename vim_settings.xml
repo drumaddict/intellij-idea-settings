@@ -134,7 +134,7 @@
         <mark key="[" line="240" column="6" />
         <mark key="]" line="243" column="15" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1562654234236">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1562654898396">
         <mark key="'" line="2301" column="51" />
         <mark key="k" line="2811" column="40" />
         <mark key="[" line="2301" column="52" />
@@ -375,7 +375,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action FileStructurePopup</text>
       </register>
     </registers>
     <search>
@@ -408,10 +408,10 @@
         <entry>action NextTab</entry>
         <entry>action GotoImplementation</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>action Find</entry>
         <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
+        <entry>action FileStructurePopup</entry>
       </history-cmd>
       <history-expr />
       <history-input />
