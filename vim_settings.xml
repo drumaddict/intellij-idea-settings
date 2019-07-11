@@ -85,11 +85,11 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" timestamp="1562748398238">
-        <mark key="'" line="2" column="0" />
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" timestamp="1562828848553">
+        <mark key="'" line="1" column="6" />
+        <mark key="[" line="1" column="25" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
         <mark key="^" line="1" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exceptions/AssociationNotFoundException.java" timestamp="1562760189918">
@@ -169,6 +169,7 @@
         <mark key="." line="6" column="0" />
         <mark key="^" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/JwtAuthFilter.java" timestamp="1562829594189" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/JwtAuthenticatedUser.java" timestamp="1562762673287">
         <mark key="'" line="1" column="0" />
         <mark key="[" line="1" column="0" />
@@ -250,12 +251,12 @@
         <mark key="." line="0" column="13" />
         <mark key="^" line="0" column="13" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" timestamp="1562827956487">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" timestamp="1562831068884">
         <mark key="'" line="47" column="57" />
-        <mark key="[" line="47" column="65" />
-        <mark key="]" line="47" column="83" />
-        <mark key="." line="47" column="83" />
-        <mark key="^" line="47" column="83" />
+        <mark key="[" line="47" column="84" />
+        <mark key="]" line="48" column="53" />
+        <mark key="." line="48" column="53" />
+        <mark key="^" line="48" column="53" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/serializers/RoleResource.java" timestamp="1562762753710">
         <mark key="'" line="0" column="0" />
@@ -311,6 +312,9 @@
         <mark key="]" line="0" column="41" />
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1562830896341">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/target/classes/db/liquibase.properties" timestamp="1562681425333">
         <mark key="[" line="4" column="14" />
@@ -477,7 +481,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-rel.properties" />
       <jump line="69" column="28" filename="$USER_HOME$/projects/pcs/rhodes/pom.xml" />
       <jump line="46" column="16" filename="$USER_HOME$/projects/pcs/rhodes/pom.xml" />
       <jump line="92" column="29" filename="$USER_HOME$/projects/pcs/rhodes/pom.xml" />
@@ -577,10 +580,11 @@
       <jump line="60" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" />
       <jump line="46" column="57" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" />
       <jump line="47" column="57" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" />
+      <jump line="1" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>aay</text>
+        <text>spring</text>
       </register>
       <register name="-" type="4">
         <text>.kabasakalis.springifyapi.controllers;</text>
@@ -592,34 +596,34 @@
         <text>http.cors().and().csrf().disable().authorizeRequests()</text>
       </register>
       <register name="1" type="4">
+        <text>spring</text>
+      </register>
+      <register name="2" type="4">
+        <text>spirng</text>
+      </register>
+      <register name="3" type="4">
         <text>aay</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGh0dHAuYW55UmVxdWVzdCgpLnBlcm1pdEFsbCgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="4">
-        <text>findOne</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGh0dHAuYW55UmVxdWVzdCgpLnBlcm1pdEFsbCgpCg==</text>
       </register>
-      <register name="7" type="4">
-        <text>indOne</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="x" type="4">
-        <text>aay</text>
+        <text>spring</text>
       </register>
       <register name="8" type="4">
         <text>findOne</text>
       </register>
       <register name="9" type="4">
-        <text>findOne</text>
+        <text>indOne</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -645,19 +649,19 @@
         <entry>action ShowBookmarks</entry>
         <entry>action GotoImplementation</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action FindUsages</entry>
         <entry>action SplitVertically</entry>
         <entry>action AceAction</entry>
         <entry>action GotoFile</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVuYW1lRWxlbWVudA==</entry>
-        <entry>action NextTab</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action RenameElement</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action FindUsages</entry>
+        <entry>action NextTab</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
