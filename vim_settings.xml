@@ -20,11 +20,11 @@
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/repository/UserRepository.java" timestamp="1562941192582">
         <mark key="'" line="1" column="43" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/assembler/UserResourceAssembler.java" timestamp="1563175530171">
-        <mark key="[" line="34" column="121" />
-        <mark key="]" line="22" column="33" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/assembler/UserResourceAssembler.java" timestamp="1563179617382">
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="0" />
         <mark key="^" line="22" column="33" />
-        <mark key="." line="22" column="33" />
+        <mark key="." line="35" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1562756198075">
         <mark key="'" line="0" column="39" />
@@ -501,28 +501,28 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgbG9nZ2VyLmluZm8oIlNNUyBSRVNQT05TRToiKTsK</text>
+        <text encoding="base64">ICAgIGVudGl0eUxpbmtzLgo=</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIGVudGl0eUxpbmtzLgo=</text>
+      </register>
+      <register name="2" type="4">
         <text>SMS</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgZG9jLmdldAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>controllerClass</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Ly8gICAgICAgIHJlc291cmNlLmFkZChnZXRDb2xsZWN0aW9uTGlua0J1aWxkZXIoKS53aXRoUmVsKHRoaXMucmVsUHJvdmlkZXIuZ2V0Q29sbGVjdGlvblJlc291cmNlUmVsRm9yKHRoaXMucmVzb3VyY2VUeXBlKSkpOwo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgICAgIHJlc291cmNlLmFkZChnZXRDb2xsZWN0aW9uTGlua0J1aWxkZXIoKS5zbGFzaChyZXNvdXJjZS5nZXRFbnRpdHkoKSkud2l0aFNlbGZSZWwoKSk7Cg==</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgIHJlc291cmNlLmFkZChnZXRDb2xsZWN0aW9uTGlua0J1aWxkZXIoKS5zbGFzaChyZXNvdXJjZS5nZXRFbnRpdHkoKSkud2l0aFNlbGZSZWwoKSk7Cg==</text>
       </register>
       <register name="x" type="4">
         <text>SMS</text>
