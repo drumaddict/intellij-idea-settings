@@ -23,6 +23,12 @@
         <mark key="." line="12" column="21" />
         <mark key="^" line="12" column="21" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/repository/UserRepository.java" timestamp="1562941192582">
+        <mark key="'" line="1" column="43" />
+      </file>
+      <file name="/a.dummy" timestamp="1563184915394">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/assembler/UserResourceAssembler.java" timestamp="1563183911988">
         <mark key="'" line="39" column="2" />
         <mark key="[" line="34" column="0" />
@@ -117,6 +123,9 @@
         <mark key="]" line="2" column="65" />
         <mark key="." line="2" column="65" />
         <mark key="^" line="2" column="65" />
+      </file>
+      <file name="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.9.RELEASE/spring-data-commons-2.1.9.RELEASE.jar!/org/springframework/data/repository/query/QueryByExampleExecutor.class" timestamp="1563184198695">
+        <mark key="'" line="13" column="17" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/filters/dev/db.properties" timestamp="1562743522658">
         <mark key="'" line="1" column="0" />
@@ -298,6 +307,9 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="/Dummy.txt" timestamp="1562936625063">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/JwtAuthToken.java" timestamp="1562838504075">
         <mark key="'" line="1" column="0" />
         <mark key="[" line="1" column="0" />
@@ -360,11 +372,12 @@
         <mark key="^" line="3" column="47" />
         <mark key="." line="3" column="47" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" timestamp="1563183299436">
-        <mark key="[" line="77" column="59" />
-        <mark key="]" line="77" column="58" />
-        <mark key="^" line="77" column="58" />
-        <mark key="." line="77" column="58" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" timestamp="1563186973324">
+        <mark key="'" line="55" column="2" />
+        <mark key="[" line="50" column="0" />
+        <mark key="]" line="55" column="3" />
+        <mark key="." line="50" column="0" />
+        <mark key="^" line="165" column="105" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/liquibase-rel.properties" timestamp="1562744756774">
         <mark key="'" line="9" column="16" />
@@ -414,22 +427,11 @@
         <mark key="^" line="19" column="27" />
         <mark key="." line="19" column="27" />
       </file>
+      <file name="/fragment.java" timestamp="1562929092852">
+        <mark key="[" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="2" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/assembler/UserResourceAssembler.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/assembler/RoleResourceAssembler.java" />
-      <jump line="1" column="42" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/assembler/UserResourceAssembler.java" />
-      <jump line="1" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" />
-      <jump line="50" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/AbstractBaseRestController.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/CoreController.java" />
-      <jump line="1" column="43" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/LoginController.java" />
-      <jump line="1" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" />
-      <jump line="46" column="57" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" />
-      <jump line="47" column="57" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" />
-      <jump line="1" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" />
-      <jump line="14" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConstants.java" />
-      <jump line="11" column="22" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConstants.java" />
-      <jump line="33" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" />
       <jump line="42" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" />
       <jump line="60" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" />
       <jump line="61" column="64" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" />
@@ -516,10 +518,24 @@
       <jump line="35" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/assembler/UserResourceAssembler.java" />
       <jump line="24" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/assembler/RoleResourceAssembler.java" />
       <jump line="39" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/assembler/UserResourceAssembler.java" />
+      <jump line="13" column="17" filename="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.9.RELEASE/spring-data-commons-2.1.9.RELEASE.jar!/org/springframework/data/repository/query/QueryByExampleExecutor.class" />
+      <jump line="67" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="76" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="88" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="99" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="117" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="114" column="14" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="113" column="42" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="121" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="138" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="164" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="291" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="54" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
+      <jump line="55" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>page</text>
+        <text>ResponseEntity</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
@@ -527,38 +543,42 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">ICBAT3ZlcnJpZGUKICBwdWJsaWMgdm9pZCBhZGRMaW5rcyhQYWdlZFJlc291cmNlczxSZXNvdXJjZVN1cHBvcnQ+IHBhZ2VkUmVzb3VyY2VzKSB7CiAgICBzdXBlci5hZGRMaW5rcyhwYWdlZFJlc291cmNlcyk7Ci8vICAgICAgUGFnZVJlcXVlc3QgcGFnZVJlcXVlc3QgPSBnZXRQYWdlUmVxdWVzdCgwLCAyMCwgbnVsbCk7CiAgfQ==</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgIExvbmcgaWQsCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>public enum Association {
+    ONE_TO_MANY,
+    MANY_TO_MANY,
+    ONE_TO_ONE
+  }</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZW50aXR5TGlua3MK</text>
+      <register name="2" type="4">
+        <text>ResponseEntity</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGlua1RvKG1ldGhvZE9uKFVzZXJDb250cm9sbGVyLmNsYXNzKS5nZXRSb2xlcyhwYWdlUmVxdWVzdCwgcmVzb3VyY2UuZ2V0RW50aXR5KCkuZ2V0SWQoKSkpLndpdGhSZWwoInJvbGVzIiksCg==</text>
+      <register name="3" type="4">
+        <text>repository.getOne(id)</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICk7Cg==</text>
+      <register name="4" type="4">
+        <text>id</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZW50aXR5TGlua3MuCg==</text>
+      <register name="5" type="4">
+        <text>resourceId</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZW50aXR5TGlua3MubGlua0ZvcihSb2xlLCkK</text>
+      <register name="6" type="4">
+        <text>repository.getOne(resourceId)</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>ResponseEntity</text>
       </register>
       <register name="x" type="4">
-        <text>page</text>
+        <text>ResponseEntity</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>ResponseEntity</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>@PathVariable Long id</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -590,14 +610,14 @@
         <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action RenameElement</entry>
-        <entry>action FindUsages</entry>
         <entry>action AceAction</entry>
-        <entry>action GotoDeclaration</entry>
+        <entry>action FindUsages</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
+        <entry>action RenameElement</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
