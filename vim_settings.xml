@@ -29,7 +29,7 @@
         <mark key="^" line="31" column="45" />
         <mark key="." line="34" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" timestamp="1563262982403">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" timestamp="1563268470576">
         <mark key="'" line="69" column="92" />
         <mark key="[" line="69" column="88" />
         <mark key="]" line="70" column="3" />
@@ -86,7 +86,12 @@
         <mark key="]" line="190" column="0" />
         <mark key="." line="190" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/EntityNotFoundException.java" timestamp="1563258768600" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/EntityNotFoundException.java" timestamp="1563268074728">
+        <mark key="[" line="8" column="45" />
+        <mark key="]" line="8" column="85" />
+        <mark key="^" line="8" column="85" />
+        <mark key="." line="8" column="85" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/ResponseEntityUtils.java" timestamp="1563190903164">
         <mark key="[" line="3" column="2" />
         <mark key="]" line="4" column="1" />
@@ -111,10 +116,12 @@
       <file name="/Dummy.txt" timestamp="1562936625063">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/BaseExceptionHandler.java" timestamp="1563263327246">
-        <mark key="'" line="120" column="8" />
-        <mark key="[" line="120" column="8" />
-        <mark key="]" line="129" column="108" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/BaseExceptionHandler.java" timestamp="1563268296365">
+        <mark key="'" line="58" column="20" />
+        <mark key="[" line="58" column="21" />
+        <mark key="]" line="58" column="43" />
+        <mark key="." line="58" column="43" />
+        <mark key="^" line="58" column="43" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/RepositoryUtilsFactory.java" timestamp="1563190944008">
         <mark key="'" line="0" column="0" />
@@ -127,7 +134,6 @@
         <mark key="^" line="18" column="20" />
         <mark key="." line="18" column="20" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" timestamp="1563258144715" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-dev.properties" timestamp="1563258059723">
         <mark key="[" line="0" column="44" />
         <mark key="]" line="0" column="47" />
@@ -155,7 +161,7 @@
         <mark key="." line="67" column="51" />
         <mark key="^" line="67" column="51" />
       </file>
-      <file name="/fragment.java" timestamp="1563263233555">
+      <file name="/fragment.java" timestamp="1563268297820">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -163,8 +169,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="53" column="55" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" />
-      <jump line="51" column="52" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RoleController.java" />
       <jump line="52" column="92" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" />
       <jump line="31" column="9" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" />
       <jump line="32" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" />
@@ -263,10 +267,12 @@
       <jump line="67" column="38" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" />
       <jump line="83" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" />
       <jump line="68" column="92" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" />
+      <jump line="56" column="105" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/BaseExceptionHandler.java" />
+      <jump line="57" column="20" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/BaseExceptionHandler.java" />
     </jumps>
     <registers>
       <register name="*" type="4">
-        <text>Optional</text>
+        <text>BaseException</text>
       </register>
       <register name="-" type="4">
         <text>;</text>
@@ -274,41 +280,41 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>//      return userResponseEntityUtils.getSingleResourceResponseEntity(user, HttpStatus.OK);</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB7Tm9IYW5kbGVyRm91bmRFeGNlcHRpb24uY2xhc3MsIE5PVF9GT1VORH0sCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICA8L2RlcGVuZGVuY2llcz4K</text>
+      <register name="1" type="4">
+        <text>BaseException</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICA8ZGVwZW5kZW5jaWVzPgo=</text>
+      <register name="2" type="4">
+        <text>NoHandlerFoundException</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsK</text>
+        <text encoding="base64">ICAgICAgICA8L2RlcGVuZGVuY2llcz4K</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">RXJyb3JSZXNwb25zZSBkZT0gIG5ldyBFcnJvclJlc3BvbnNlKCIiLCAxLCAiIiwgIiIpOwogICAgICBFcnJvclJlc3BvbnNlIGN1c3RvbUVycm9yUmVzcG9uc2UgPSBuZXcgRXJyb3JSZXNwb25zZShFbnRpdHlOb3RGb3VuZEV4Y2VwdGlvbi5jbGFzcy5nZXRTaW1wbGVOYW1lKCksIDQwNCwiZXJyIiwgImFzZmRhc2YiKTsKICAgICAgICBFcnJvclJlc3BvbnNlIGVycm9yUmVzcG9uc2UgPSBPcHRpb25hbC5vZk51bGxhYmxlKGN1c3RvbUVycm9yUmVzcG9uc2UpLm1hcChlciAtPiB7Ci8vICAgICAgICAgICAgZXIuc2V0VGltZXN0YW1wKHRpbWVzdGFtcCk7Ci8vICAgICAgICAgICAgZXIuc2V0UGF0aChwYXRoKTsKICAgICAgICAgICAgcmV0dXJuIGVyOwogICAgICAgIH0pLm9yRWxzZShkZSk7CiAgICAgICAgSHR0cEhlYWRlcnMgaHR0cEhlYWRlcnMgPSBuZXcgSHR0cEhlYWRlcnMoKTsKICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlRW50aXR5KGVycm9yUmVzcG9uc2UsIGh0dHBIZWFkZXJzLCBIdHRwU3RhdHVzLnZhbHVlT2YoZXJyb3JSZXNwb25zZS5nZXRTdGF0dXMoKSkpOw==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICA8ZGVwZW5kZW5jaWVzPgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB9KS5vckVsc2UoKTsK</text>
+      <register name="6" type="4">
+        <text encoding="base64">RXJyb3JSZXNwb25zZSBkZT0gIG5ldyBFcnJvclJlc3BvbnNlKCIiLCAxLCAiIiwgIiIpOwogICAgICBFcnJvclJlc3BvbnNlIGN1c3RvbUVycm9yUmVzcG9uc2UgPSBuZXcgRXJyb3JSZXNwb25zZShFbnRpdHlOb3RGb3VuZEV4Y2VwdGlvbi5jbGFzcy5nZXRTaW1wbGVOYW1lKCksIDQwNCwiZXJyIiwgImFzZmRhc2YiKTsKICAgICAgICBFcnJvclJlc3BvbnNlIGVycm9yUmVzcG9uc2UgPSBPcHRpb25hbC5vZk51bGxhYmxlKGN1c3RvbUVycm9yUmVzcG9uc2UpLm1hcChlciAtPiB7Ci8vICAgICAgICAgICAgZXIuc2V0VGltZXN0YW1wKHRpbWVzdGFtcCk7Ci8vICAgICAgICAgICAgZXIuc2V0UGF0aChwYXRoKTsKICAgICAgICAgICAgcmV0dXJuIGVyOwogICAgICAgIH0pLm9yRWxzZShkZSk7CiAgICAgICAgSHR0cEhlYWRlcnMgaHR0cEhlYWRlcnMgPSBuZXcgSHR0cEhlYWRlcnMoKTsKICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlRW50aXR5KGVycm9yUmVzcG9uc2UsIGh0dHBIZWFkZXJzLCBIdHRwU3RhdHVzLnZhbHVlT2YoZXJyb3JSZXNwb25zZS5nZXRTdGF0dXMoKSkpOw==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBodHRwUmVzcG9uc2Uuc2V0U3RhdHVzKGVycm9yUmVzcG9uc2UuZ2V0U3RhdHVzKCkpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>Optional</text>
+        <text>BaseException</text>
       </register>
-      <register name="8" type="4">
-        <text>Optional</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICB9KS5vckVsc2UoKTsK</text>
       </register>
-      <register name="9" type="4">
-        <text>exception</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBodHRwUmVzcG9uc2Uuc2V0U3RhdHVzKGVycm9yUmVzcG9uc2UuZ2V0U3RhdHVzKCkpOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -325,7 +331,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action Replace</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action GotoImplementation</entry>
         <entry>122</entry>
@@ -343,9 +348,9 @@
         <entry>action SurroundWith</entry>
         <entry>action Find</entry>
         <entry>action ReformatCode</entry>
+        <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
