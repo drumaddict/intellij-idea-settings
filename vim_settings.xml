@@ -19,11 +19,11 @@
       <file name="/a.dummy" timestamp="1563347877705">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/repository/UserRepository.java" timestamp="1563351664529">
-        <mark key="[" line="19" column="14" />
-        <mark key="]" line="19" column="20" />
-        <mark key="." line="19" column="20" />
-        <mark key="^" line="19" column="20" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/repository/UserRepository.java" timestamp="1563357560865">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="16" column="1" />
+        <mark key="." line="16" column="1" />
+        <mark key="^" line="16" column="1" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/assembler/UserResourceAssembler.java" timestamp="1563282672890">
         <mark key="'" line="33" column="12" />
@@ -72,9 +72,10 @@
         <mark key="^" line="20" column="42" />
         <mark key="." line="20" column="42" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntityDao.java" timestamp="1563348874143">
-        <mark key="[" line="45" column="31" />
-        <mark key="]" line="45" column="27" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntityDao.java" timestamp="1563357660173">
+        <mark key="'" line="13" column="4" />
+        <mark key="[" line="13" column="4" />
+        <mark key="]" line="17" column="22" />
         <mark key="." line="45" column="27" />
         <mark key="^" line="45" column="27" />
       </file>
@@ -118,6 +119,13 @@
         <mark key="." line="4" column="69" />
         <mark key="^" line="4" column="69" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/IGenericDao.java" timestamp="1563357699391">
+        <mark key="'" line="18" column="2" />
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="^" line="17" column="1" />
+        <mark key="." line="16" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" timestamp="1563349120549">
         <mark key="[" line="2" column="62" />
         <mark key="]" line="2" column="65" />
@@ -142,11 +150,6 @@
         <mark key="]" line="139" column="0" />
         <mark key="." line="139" column="0" />
         <mark key="^" line="54" column="59" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/RepositoryUtilsFactory.java" timestamp="1563285132837">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="38" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/assembler/PagedPCSResourcesAssembler.java" timestamp="1563182600493">
         <mark key="[" line="18" column="38" />
@@ -193,6 +196,14 @@
         <mark key="." line="65" column="0" />
         <mark key="^" line="65" column="11" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/AbstractGenericDao.java" timestamp="1563358103675">
+        <mark key="'" line="42" column="0" />
+        <mark key="[" line="22" column="27" />
+        <mark key="]" line="22" column="28" />
+        <mark key="." line="22" column="28" />
+        <mark key="^" line="22" column="28" />
+        <mark key="n" line="20" column="34" />
+      </file>
       <file name="/fragment.java" timestamp="1563273788832">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -201,16 +212,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/RepositoryUtilsFactory.java" />
-      <jump line="40" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/ResponseEntityUtilsFactory.java" />
-      <jump line="266" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
-      <jump line="60" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/ResponseEntityUtils.java" />
-      <jump line="76" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
-      <jump line="69" column="66" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/ResponseEntityUtils.java" />
-      <jump line="70" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/ResponseEntityUtils.java" />
-      <jump line="208" column="96" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
-      <jump line="25" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
-      <jump line="29" column="43" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/RepositoryUtils.java" />
       <jump line="31" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" />
       <jump line="45" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" />
       <jump line="39" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" />
@@ -301,49 +302,66 @@
       <jump line="133" column="9" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/UserDao.java" />
       <jump line="124" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/UserDao.java" />
       <jump line="131" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/UserDao.java" />
+      <jump line="6" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/IGenericDao.java" />
+      <jump line="11" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/IGenericDao.java" />
+      <jump line="13" column="18" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/IGenericDao.java" />
+      <jump line="15" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntityDao.java" />
+      <jump line="15" column="35" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/IGenericDao.java" />
+      <jump line="13" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntityDao.java" />
+      <jump line="17" column="22" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/IGenericDao.java" />
+      <jump line="19" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/IGenericDao.java" />
+      <jump line="34" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/AbstractGenericDao.java" />
+      <jump line="36" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/AbstractGenericDao.java" />
     </jumps>
     <registers>
+      <register name="&quot;" type="4">
+        <text />
+      </register>
       <register name="*" type="4">
-        <text>userEntityDao</text>
+        <text>klass</text>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text>l</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHVibGljIEpwYVJlcG9zaXRvcnk8VXNlciwgTG9uZz4gZ2V0UmVwb3NpdG9yeSgpIHsKICAgIHJldHVybiB1c2VyUmVwb3NpdG9yeTsKICB9</text>
+        <text>T save(T entity);
+
+    T update(long id, T entityPatch);
+
+    T delete(T entity);</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIFBhZ2U8VXNlcj4gZmluZEZpcnN0QnkK</text>
+      <register name="1" type="4">
+        <text>klass</text>
       </register>
       <register name="2" type="4">
-        <text>userEntityDao</text>
+        <text>clazzToSet</text>
       </register>
       <register name="3" type="4">
-        <text>userEntityDao</text>
+        <text>clazz</text>
       </register>
       <register name="4" type="4">
-        <text>userEntityDao</text>
+        <text>clazz</text>
       </register>
       <register name="5" type="4">
-        <text>userEntityDao</text>
+        <text>clazzToSet</text>
       </register>
       <register name="6" type="4">
-        <text>userEntityDao</text>
+        <text>Serializable</text>
       </register>
       <register name="7" type="4">
-        <text>userEntityDao</text>
+        <text>JpaDao</text>
       </register>
       <register name="x" type="4">
-        <text>userEntityDao</text>
+        <text>klass</text>
       </register>
-      <register name="8" type="4">
-        <text>userEntityDao</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">PA==</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICBUIGRlbGV0ZShUIGVudGl0eSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -376,12 +394,12 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action RenameElement</entry>
-        <entry>action ReformatCode</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
