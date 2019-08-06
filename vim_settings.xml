@@ -8,6 +8,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="460" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/gen_scripts/apba_rq.bat" timestamp="1565088208563" />
       <file name="/a.dummy" timestamp="1563455922699">
         <mark key="[" line="0" column="0" />
       </file>
@@ -17,12 +18,6 @@
         <mark key="]" line="0" column="414" />
         <mark key="." line="0" column="414" />
         <mark key="^" line="0" column="414" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/BackOfficeAnswer.xsd" timestamp="1565010511631">
-        <mark key="'" line="53" column="71" />
-        <mark key="[" line="53" column="71" />
-        <mark key="k" line="52" column="53" />
-        <mark key="]" line="53" column="106" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/apbacheckinrs/.castor.cdr" timestamp="1565077411141">
         <mark key="'" line="1" column="0" />
@@ -34,7 +29,7 @@
         <mark key="[" line="179" column="0" />
         <mark key="]" line="238" column="4" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xml" timestamp="1565073525397">
+      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xml" timestamp="1565087867549">
         <mark key="[" line="31" column="0" />
         <mark key="]" line="31" column="0" />
         <mark key="." line="31" column="0" />
@@ -67,14 +62,14 @@
       <file name="$USER_HOME$/projects/port-checkin-control/gen_scripts/apba_rs.bat" timestamp="1565075732153">
         <mark key="[" line="0" column="392" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1565073791003">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1565088809353">
         <mark key="'" line="209" column="15" />
         <mark key="[" line="212" column="19" />
         <mark key="]" line="212" column="37" />
         <mark key="." line="212" column="37" />
         <mark key="^" line="212" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" timestamp="1565012017261">
+      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" timestamp="1565087933926">
         <mark key="'" line="76" column="40" />
         <mark key="[" line="62" column="69" />
         <mark key="]" line="62" column="67" />
@@ -88,7 +83,7 @@
         <mark key="." line="349" column="2" />
         <mark key="^" line="349" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" timestamp="1565006352449">
+      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" timestamp="1565088886442">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="60" column="16" />
@@ -100,12 +95,12 @@
         <mark key="." line="17" column="31" />
         <mark key="^" line="17" column="31" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" timestamp="1565078100492">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" timestamp="1565089307055">
         <mark key="'" line="23" column="2" />
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="0" />
-        <mark key="^" line="84" column="42" />
-        <mark key="." line="23" column="0" />
+        <mark key="[" line="87" column="97" />
+        <mark key="]" line="91" column="16" />
+        <mark key="^" line="91" column="16" />
+        <mark key="." line="91" column="16" />
       </file>
     </filemarks>
     <jumps>
@@ -215,7 +210,7 @@
         <text />
       </register>
       <register name="*" type="4">
-        <text>ItineraryDataStats</text>
+        <text>setItineraryDataStats</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">dGFyZ2V0TmFtZXNwYWNlPSJodHRwOi8vY29tLnRtc2Euc2VuZC5jaGVja2luLnJxIiA=</text>
@@ -226,16 +221,19 @@
       <register name="0" type="4">
         <text>private ItineraryDataStats itineraryDataStats = null;</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICBwcml2YXRlIEFtcERvY0RhdGEgYW1wRG9jRGF0YSA9IG51bGw7Cg==</text>
+      <register name="1" type="4">
+        <text>setItineraryDataStats</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgUGFyYW1ldGVyc0JlYW5bXSBzbXRwU2V0dGluZ3MgPSBmZXRjaFNNVFBTZXR0aW5ncygpOwo=</text>
+        <text encoding="base64">ICBwcml2YXRlIEFtcERvY0RhdGEgYW1wRG9jRGF0YSA9IG51bGw7Cg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgUGFyYW1ldGVyc0JlYW5bXSBzbXRwU2V0dGluZ3MgPSBmZXRjaFNNVFBTZXR0aW5ncygpOwo=</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgIHhtbEFuc3dlci5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0RW1iYXJrYXRpb25EYXRhKCkuc2V0QW1wRG9jRGF0YShhbXBEb2NEYXRhKTsK</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>for (AmpVehicle ampVehicle : ampVehiclesList) {
             // Check if AMP already printed
             AmpBean ampBean = fetchAMP(ampVehicle.getRegistrationNumber());
@@ -274,20 +272,20 @@
           }
 //          blobData.setBlobs(blobs);</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>//    BlobData blobData = new BlobData();
 //    Blobs blobs = new Blobs();</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>ItineraryDataStats</text>
-      </register>
       <register name="x" type="4">
-        <text>ItineraryDataStats</text>
+        <text>setItineraryDataStats</text>
       </register>
       <register name="8" type="4">
+        <text>ItineraryDataStats</text>
+      </register>
+      <register name="9" type="4">
         <text>//     MessageData messageData = new MessageData();
 //     messageData.getItineraryDataStats().getPassengerStats()
       // set up embarkation Data
@@ -296,11 +294,8 @@
 //      booking.setVehicles(new Vehicles());
 //      embarkationData.setBooking(booking);</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -329,14 +324,15 @@
         <entry>action AceAction</entry>
         <entry>action RenameElement</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action FindUsages</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action Find</entry>
         <entry>action GotoFile</entry>
+        <entry>action $SelectAll</entry>
+        <entry>action Find</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
