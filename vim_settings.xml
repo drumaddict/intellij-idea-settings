@@ -11,7 +11,12 @@
       <file name="/a.dummy" timestamp="1563455922699">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/schema/update.xml" timestamp="1565161730574" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/schema/update.xml" timestamp="1565163068549">
+        <mark key="[" line="22" column="19" />
+        <mark key="]" line="22" column="33" />
+        <mark key="." line="22" column="18" />
+        <mark key="^" line="22" column="18" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/gen_scripts/apba.bat" timestamp="1565075541481">
         <mark key="'" line="0" column="460" />
         <mark key="[" line="0" column="436" />
@@ -65,6 +70,13 @@
         <mark key="'" line="245" column="0" />
         <mark key="[" line="245" column="0" />
         <mark key="]" line="254" column="4" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" timestamp="1565163448513">
+        <mark key="'" line="39" column="38" />
+        <mark key="[" line="42" column="23" />
+        <mark key="]" line="42" column="18" />
+        <mark key="^" line="42" column="18" />
+        <mark key="." line="42" column="18" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpHandler.java" timestamp="1565072618810">
         <mark key="'" line="23" column="0" />
@@ -151,10 +163,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="14" column="108" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="16" column="52" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/BackOfficeAnswer.xsd" />
-      <jump line="19" column="65" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="22" column="0" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/BackOfficeAnswer.xsd" />
       <jump line="26" column="65" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
       <jump line="28" column="40" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/BackOfficeAnswer.xsd" />
       <jump line="34" column="52" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/BackOfficeAnswer.xsd" />
@@ -251,13 +259,17 @@
       <jump line="3" column="37" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-dev.properties" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-dev.properties" />
       <jump line="7" column="15" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-rel.properties" />
+      <jump line="47" column="19" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" />
+      <jump line="21" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" />
+      <jump line="28" column="43" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" />
+      <jump line="39" column="38" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>postgres</text>
+        <text>schema_v1_0.xml</text>
       </register>
       <register name="-" type="4">
         <text>PassengerStats[] passengerStatsArray = new PassengerStats[1];</text>
@@ -266,45 +278,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>url: jdbc:oracle:thin:@172.26.2.202:1521:xe 
-username: portcontrol
-password: likno$$ 
-driver: oracle.jdbc.driver.OracleDriver 
-contexts: ${liquibase.contexts} 
-changeLogFile: /src/main/resources/db/changelog.yml
-verbose: true 
-dropFirst: false</text>
+        <text>schema_v1_0.xml</text>
       </register>
       <register name="1" type="4">
-        <text>postgres</text>
+        <text>schema_v1_0.xml</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>#      - runningAs:
+  #          - username: postgres
+  #      - dbms:
+  #          - type: postgresql</text>
       </register>
       <register name="4" type="4">
-        <text>#hibernate config
-spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect</text>
+        <text encoding="base64">ICAjICAgICAgLSBydW5uaW5nQXM6CiAgIyAgICAgICAgICAtIHVzZXJuYW1lOiBwb3N0Z3JlcwogICMgICAgICAtIGRibXM6CiAgIyAgICAgICAgICAtIHR5cGU6IHBvc3RncmVzcWw=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">I3NwcmluZy5kYXRhc291cmNlLmRyaXZlci1jbGFzcy1uYW1lPW9yYWNsZS5qZGJjLk9yYWNsZURyaXZlcgo=</text>
+      <register name="5" type="4">
+        <text>portcontrol</text>
       </register>
       <register name="6" type="4">
-        <text>system</text>
+        <text>oracle</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>postgres</text>
       </register>
       <register name="x" type="4">
-        <text>postgres</text>
+        <text>schema_v1_0.xml</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgUGFzc2VuZ2VyU3RhdHNbXSBwYXNzZW5nZXJTdGF0c0FycmF5ID0gbmV3IFBhc3NlbmdlclN0YXRzW2NvbHVtbmNvdW50XTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -339,10 +346,10 @@ spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect</text>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action CloseContent</entry>
         <entry>action AceAction</entry>
-        <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action NextTab</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
