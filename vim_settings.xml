@@ -71,12 +71,12 @@
         <mark key="[" line="245" column="0" />
         <mark key="]" line="254" column="4" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" timestamp="1565163448513">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" timestamp="1565165141860">
         <mark key="'" line="39" column="38" />
-        <mark key="[" line="42" column="23" />
-        <mark key="]" line="42" column="18" />
-        <mark key="^" line="42" column="18" />
-        <mark key="." line="42" column="18" />
+        <mark key="[" line="41" column="0" />
+        <mark key="]" line="41" column="0" />
+        <mark key="^" line="36" column="25" />
+        <mark key="." line="41" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpHandler.java" timestamp="1565072618810">
         <mark key="'" line="23" column="0" />
@@ -110,6 +110,13 @@
         <mark key="]" line="212" column="37" />
         <mark key="." line="212" column="37" />
         <mark key="^" line="212" column="37" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" timestamp="1565166285148">
+        <mark key="'" line="6" column="73" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="6" column="74" />
+        <mark key="^" line="327" column="34" />
+        <mark key="." line="2" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" timestamp="1565087933926">
         <mark key="'" line="76" column="40" />
@@ -163,25 +170,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="26" column="65" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="28" column="40" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/BackOfficeAnswer.xsd" />
-      <jump line="34" column="52" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/BackOfficeAnswer.xsd" />
-      <jump line="41" column="65" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="47" column="72" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/BackOfficeAnswer.xsd" />
-      <jump line="48" column="44" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/BackOfficeAnswer.xsd" />
-      <jump line="61" column="61" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="53" column="71" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/BackOfficeAnswer.xsd" />
-      <jump line="62" column="106" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="40" column="102" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="71" column="48" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="18" column="0" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="91" column="11" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="1" column="0" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="2" column="79" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xsd" />
-      <jump line="12" column="40" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
-      <jump line="55" column="52" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xsd" />
-      <jump line="56" column="40" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
       <jump line="72" column="40" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xsd" />
       <jump line="76" column="40" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" />
       <jump line="87" column="102" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xsd" />
@@ -263,13 +251,32 @@
       <jump line="21" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" />
       <jump line="28" column="43" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" />
       <jump line="39" column="38" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" />
+      <jump line="13" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="47" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="45" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="76" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="74" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="128" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="126" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="157" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="155" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="207" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="205" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="227" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="225" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="273" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="271" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="302" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="300" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="348" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
+      <jump line="6" column="73" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>schema_v1_0.xml</text>
+        <text>000000</text>
       </register>
       <register name="-" type="4">
         <text>PassengerStats[] passengerStatsArray = new PassengerStats[1];</text>
@@ -278,40 +285,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>schema_v1_0.xml</text>
+        <text encoding="base64">PGNoYW5nZXM+CiAgICAgICAgICAgIDx0YWdEYXRhQmFzZSB0YWc9IjEuNS41Ii8+CiAgICAgICAgPC9jaGFuZ2VzPg==</text>
       </register>
-      <register name="1" type="4">
-        <text>schema_v1_0.xml</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICA8L2NoYW5nZXM+Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICA8Y2hhbmdlcz4K</text>
       </register>
-      <register name="3" type="4">
-        <text>#      - runningAs:
-  #          - username: postgres
-  #      - dbms:
-  #          - type: postgresql</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICA8L2NoYW5nZXM+Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAjICAgICAgLSBydW5uaW5nQXM6CiAgIyAgICAgICAgICAtIHVzZXJuYW1lOiBwb3N0Z3JlcwogICMgICAgICAtIGRibXM6CiAgIyAgICAgICAgICAtIHR5cGU6IHBvc3RncmVzcWw=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICA8Y2hhbmdlcz4K</text>
       </register>
-      <register name="5" type="4">
-        <text>portcontrol</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICA8L2NoYW5nZXM+Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>oracle</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICA8Y2hhbmdlcz4K</text>
       </register>
-      <register name="7" type="4">
-        <text>postgres</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICA8L2NoYW5nZXM+Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>schema_v1_0.xml</text>
+        <text>000000</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICA8Y2hhbmdlcz4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICA8L2NoYW5nZXM+Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -340,15 +344,15 @@
         <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action Find</entry>
         <entry>action $SelectAll</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action CloseContent</entry>
-        <entry>action AceAction</entry>
         <entry>action PreviousTab</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action NextTab</entry>
+        <entry>action Find</entry>
+        <entry>action AceAction</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
