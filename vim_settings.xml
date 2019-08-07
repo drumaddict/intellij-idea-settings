@@ -327,7 +327,7 @@
         <text>baeldung_test</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -350,7 +350,6 @@
         <entry>action RenameElement</entry>
         <entry>action OptimizeImports</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoImplementation</entry>
         <entry>action $SelectAll</entry>
@@ -364,6 +363,7 @@
         <entry>action ReformatCode</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
