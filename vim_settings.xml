@@ -84,12 +84,12 @@
         <mark key="^" line="82" column="75" />
         <mark key="." line="82" column="75" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1565249323274">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1565250991630">
         <mark key="k" line="685" column="48" />
-        <mark key="[" line="676" column="0" />
-        <mark key="]" line="676" column="0" />
-        <mark key="." line="676" column="0" />
-        <mark key="^" line="675" column="109" />
+        <mark key="[" line="680" column="50" />
+        <mark key="]" line="680" column="54" />
+        <mark key="." line="680" column="54" />
+        <mark key="^" line="680" column="54" />
       </file>
       <file name="/Dummy.txt" timestamp="1565081692605">
         <mark key="[" line="0" column="0" />
@@ -179,12 +179,12 @@
         <mark key="^" line="89" column="11" />
         <mark key="." line="89" column="11" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" timestamp="1565249422381">
-        <mark key="'" line="80" column="124" />
-        <mark key="[" line="80" column="0" />
-        <mark key="]" line="80" column="0" />
-        <mark key="^" line="7" column="34" />
-        <mark key="." line="80" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" timestamp="1565250882955">
+        <mark key="'" line="55" column="25" />
+        <mark key="[" line="48" column="101" />
+        <mark key="]" line="48" column="137" />
+        <mark key="^" line="48" column="137" />
+        <mark key="." line="48" column="137" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/PassengerStatsDescriptor.java" timestamp="1565187889121">
         <mark key="[" line="13" column="20" />
@@ -197,14 +197,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="28" column="43" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" />
-      <jump line="39" column="38" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/changelog.yml" />
-      <jump line="13" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
-      <jump line="47" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
-      <jump line="45" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
-      <jump line="76" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
-      <jump line="157" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
-      <jump line="155" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
       <jump line="207" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
       <jump line="205" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
       <jump line="227" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
@@ -274,10 +266,8 @@
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-dev.properties" />
       <jump line="1" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-dev.properties" />
       <jump line="59" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpHandler.java" />
-      <jump line="33" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
       <jump line="151" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpHandler.java" />
       <jump line="78" column="28" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
-      <jump line="31" column="56" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
       <jump line="673" column="31" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="124" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
       <jump line="91" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
@@ -297,13 +287,23 @@
       <jump line="605" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="111" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/ItineraryDataStats.java" />
       <jump line="679" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="31" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
+      <jump line="32" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
+      <jump line="33" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
+      <jump line="34" column="46" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
+      <jump line="40" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
+      <jump line="41" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
+      <jump line="42" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
+      <jump line="43" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
+      <jump line="53" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
+      <jump line="55" column="25" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>vehicleStatsArray</text>
+        <text>ValidationException e</text>
       </register>
       <register name="-" type="4">
         <text>172.26.2.216</text>
@@ -311,38 +311,42 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICByZXN1bHQuc2V0VmVoaWNsZVN0YXRzKHZlaGljbGVTdGF0c0FycmF5KTsK</text>
+      <register name="0" type="4">
+        <text>dbERROR = true;
+      dbErrStr = &quot;Request is not valid.&quot;;
+      logger.error(dbErrStr);
+      logger.error(e.getMessage());
+      e.printStackTrace();</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgYW5zd2VyTWVzc2FnZURhdGEuc2V0SXRpbmVyYXJ5RGF0YVN0YXRzKGl0aW5lcmFyeURhdGFTdGF0cyk7Cg==</text>
+      <register name="1" type="4">
+        <text>ValidationException e</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXN1bHQuc2V0UGFzc2VuZ2VyU3RhdHMobmV3IFBhc3NlbmdlclN0YXRzWzBdKTsK</text>
+      <register name="2" type="4">
+        <text>vesselIMO</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBWZWhpY2xlU3RhdHNbXSB2ZWhpY2xlU3RhdHNBcnJheSA9IG5ldyBWZWhpY2xlU3RhdHNbY29sdW1uY291bnRdOwo=</text>
+      <register name="3" type="4">
+        <text>arrivalPortCode</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Ly8gICAgICAgIHJlc3VsdC5zZXRWZWhpY2xlU3RhdHMobmV3IFZlaGljbGVTdGF0c1swXSk7Cg==</text>
+      <register name="4" type="4">
+        <text>departurePortCode</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Ly8gICAgICAgIFBhc3NlbmdlclN0YXRzW10gcGFzc2VuZ2VyU3RhdHNBcnJheSA9IG5ldyBQYXNzZW5nZXJTdGF0c1tjb2x1bW5jb3VudF07Cg==</text>
+      <register name="5" type="4">
+        <text>departureTime</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>c</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByZXN1bHQuc2V0UGFzc2VuZ2VyU3RhdHMobmV3IFBhc3NlbmdlclN0YXRzW10pOwo=</text>
+      <register name="7" type="4">
+        <text>VesselIMO</text>
       </register>
       <register name="x" type="4">
-        <text>vehicleStatsArray</text>
+        <text>ValidationException e</text>
       </register>
       <register name="8" type="4">
-        <text>vehicleStatsArray</text>
+        <text>vesselIMO</text>
       </register>
       <register name="9" type="4">
-        <text>VehicleStats</text>
+        <text>arrivalPortCode</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -369,18 +373,19 @@
         <entry>action $SelectAll</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action CloseContent</entry>
-        <entry>action AceAction</entry>
         <entry>action SplitVertically</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action OptimizeImports</entry>
         <entry>action PreviousTab</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Find</entry>
+        <entry>action AceAction</entry>
         <entry>action ReformatCode</entry>
+        <entry>action Debug</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
