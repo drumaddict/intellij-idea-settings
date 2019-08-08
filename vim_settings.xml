@@ -163,6 +163,9 @@
         <mark key="^" line="147" column="57" />
         <mark key="." line="147" column="57" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/1_companies_checkin_ans.xsd" timestamp="1565260705554">
+        <mark key="'" line="11" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchange.java" timestamp="1565073768419">
         <mark key="'" line="213" column="0" />
         <mark key="[" line="17" column="24" />
@@ -198,7 +201,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="227" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
       <jump line="225" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
       <jump line="273" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
       <jump line="271" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
@@ -298,6 +300,7 @@
       <jump line="93" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
       <jump line="235" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
       <jump line="63" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" />
+      <jump line="11" column="0" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/1_companies_checkin_ans.xsd" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -352,7 +355,7 @@
         <text>vesselIMO</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -385,11 +388,11 @@
         <entry>action SaveAll</entry>
         <entry>action AceAction</entry>
         <entry>action GotoFile</entry>
-        <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action FindUsages</entry>
         <entry>action Find</entry>
+        <entry>action NextTab</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
