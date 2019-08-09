@@ -44,12 +44,12 @@
         <mark key="^" line="2" column="31" />
         <mark key="." line="2" column="31" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" timestamp="1565342400795">
-        <mark key="'" line="51" column="13" />
-        <mark key="[" line="39" column="15" />
-        <mark key="]" line="39" column="18" />
-        <mark key="." line="39" column="18" />
-        <mark key="^" line="39" column="18" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" timestamp="1565344905512">
+        <mark key="'" line="156" column="51" />
+        <mark key="[" line="142" column="0" />
+        <mark key="]" line="142" column="0" />
+        <mark key="^" line="156" column="34" />
+        <mark key="." line="142" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdatesHandler.java" timestamp="1565332098684">
         <mark key="'" line="33" column="34" />
@@ -86,6 +86,12 @@
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/FetchBookingDataOnlineForConfirmation.java" timestamp="1565259569901">
         <mark key="'" line="63" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" timestamp="1565344250976">
+        <mark key="[" line="72" column="125" />
+        <mark key="]" line="72" column="103" />
+        <mark key="^" line="72" column="103" />
+        <mark key="." line="72" column="103" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/MessageData.java" timestamp="1565269690478">
         <mark key="'" line="359" column="4" />
         <mark key="[" line="139" column="22" />
@@ -105,10 +111,10 @@
       <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/1_companies_checkin_ans.xsd" timestamp="1565260705554">
         <mark key="'" line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BackOfficeServices.java" timestamp="1565342441957">
-        <mark key="'" line="192" column="8" />
-        <mark key="[" line="192" column="8" />
-        <mark key="]" line="192" column="122" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BackOfficeServices.java" timestamp="1565345243804">
+        <mark key="'" line="202" column="8" />
+        <mark key="[" line="202" column="8" />
+        <mark key="]" line="205" column="41" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1565266859985">
         <mark key="[" line="1134" column="44" />
@@ -129,6 +135,7 @@
         <mark key="^" line="77" column="30" />
         <mark key="." line="77" column="30" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/BackOfficeRequest.xsd" timestamp="1565343323462" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/PassengerStatsDescriptor.java" timestamp="1565187889121">
         <mark key="[" line="13" column="20" />
         <mark key="]" line="13" column="34" />
@@ -143,18 +150,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="79" column="84" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
-      <jump line="139" column="94" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/migrations/000010_schema_v1_0.xml" />
-      <jump line="657" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="686" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="656" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="680" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="687" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="675" column="83" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="89" column="29" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
-      <jump line="94" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
-      <jump line="102" column="68" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
-      <jump line="104" column="86" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
       <jump line="9" column="11" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" />
       <jump line="10" column="52" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-dev.properties" />
@@ -230,7 +225,6 @@
       <jump line="106" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
       <jump line="83" column="89" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="85" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="86" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="87" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="27" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
       <jump line="90" column="45" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
@@ -239,56 +233,73 @@
       <jump line="122" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="124" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="125" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="192" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BackOfficeServices.java" />
       <jump line="153" column="47" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="49" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="51" column="13" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="98" column="25" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="86" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="102" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="103" column="53" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="104" column="53" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="105" column="53" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="106" column="53" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="100" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="99" column="81" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="192" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BackOfficeServices.java" />
+      <jump line="149" column="46" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="202" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BackOfficeServices.java" />
+      <jump line="159" column="51" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>COMP_CODE</text>
+        <text>TMSA_APBA_5903083</text>
       </register>
       <register name="-" type="4">
-        <text>itineraryData.getVesselIMO();</text>
+        <text>addServiceMessageItem(new ServiceMessageItem());</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">NzgyNDkxMiA=</text>
+        <text>TMSA_APBA_5903083</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="4">
-        <text>COMP_CODE</text>
+        <text>//    xml.messages.apbacheckinrq.RecipientInfo rcpinfo = new xml.messages.apbacheckinrq.RecipientInfo();
+//    gi[0].setRecipientInfo(rcpinfo);
+//    rcpinfo.setRecipientIdentCode(&quot;APBA&quot;);</text>
       </register>
       <register name="3" type="4">
-        <text>DATESTART</text>
+        <text>//    xml.messages.apbacheckinrq.SNRF snrf = new xml.messages.apbacheckinrq.SNRF();
+//    snrf.setInterchangeCtrlRef(&quot;TMSA_APBA_5903083&quot;);
+//    gi[0].setSNRF(snrf);</text>
       </register>
       <register name="4" type="4">
-        <text>KIND</text>
+        <text>TMSA_APBA_5903083</text>
       </register>
       <register name="5" type="4">
-        <text>setVesselIMO</text>
+        <text>send_backoffice_data</text>
       </register>
       <register name="6" type="4">
-        <text>PMIS_ID</text>
+        <text>send_backoffice_data</text>
       </register>
       <register name="7" type="4">
-        <text>VESSEL_IMO</text>
+        <text>send_backoffice_data</text>
       </register>
       <register name="x" type="4">
-        <text>COMP_CODE</text>
+        <text>TMSA_APBA_5903083</text>
       </register>
       <register name="8" type="4">
-        <text>PANIK</text>
+        <text>BO</text>
       </register>
       <register name="9" type="4">
-        <text>bckoffice</text>
+        <text>send_backoffice_data</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -310,7 +321,6 @@
       <history-cmd>
         <entry>action $SelectAll</entry>
         <entry>action TabShiftActions.StretchRight</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Debug</entry>
         <entry>action GotoSymbol</entry>
@@ -318,15 +328,17 @@
         <entry>action SplitVertically</entry>
         <entry>action FindUsages</entry>
         <entry>action CloseContent</entry>
-        <entry>action GotoFile</entry>
         <entry>action AceAction</entry>
         <entry>action OptimizeImports</entry>
         <entry>action Replace</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action Find</entry>
+        <entry>action GotoFile</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
