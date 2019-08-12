@@ -16,11 +16,12 @@
         <mark key="." line="24" column="30" />
         <mark key="^" line="24" column="30" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1565613146834">
-        <mark key="'" line="273" column="60" />
-        <mark key="[" line="282" column="0" />
-        <mark key="]" line="282" column="0" />
-        <mark key="." line="282" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1565615137727">
+        <mark key="'" line="66" column="2" />
+        <mark key="[" line="66" column="2" />
+        <mark key="]" line="66" column="57" />
+        <mark key="." line="66" column="56" />
+        <mark key="^" line="66" column="56" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/UserLoginHistory.java" timestamp="1565599801215">
         <mark key="[" line="68" column="32" />
@@ -28,12 +29,12 @@
         <mark key="." line="68" column="43" />
         <mark key="^" line="68" column="43" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" timestamp="1565605998079">
-        <mark key="'" line="17" column="2" />
-        <mark key="[" line="14" column="22" />
-        <mark key="]" line="14" column="21" />
-        <mark key="." line="14" column="21" />
-        <mark key="^" line="14" column="21" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" timestamp="1565615161430">
+        <mark key="'" line="27" column="90" />
+        <mark key="[" line="27" column="34" />
+        <mark key="]" line="27" column="56" />
+        <mark key="." line="27" column="56" />
+        <mark key="^" line="27" column="56" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/.castor.cdr" timestamp="1565186534932">
         <mark key="[" line="49" column="0" />
@@ -100,7 +101,7 @@
         <mark key="." line="69" column="49" />
         <mark key="^" line="69" column="49" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/JwtAuthentication.java" timestamp="1565613599300">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/JwtAuthentication.java" timestamp="1565615049365">
         <mark key="[" line="37" column="44" />
         <mark key="]" line="37" column="5" />
         <mark key="^" line="37" column="5" />
@@ -347,7 +348,7 @@
         <mark key="." line="13" column="34" />
         <mark key="^" line="13" column="34" />
       </file>
-      <file name="/fragment.java" timestamp="1565613605040">
+      <file name="/fragment.java" timestamp="1565615196684">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="36" />
         <mark key="^" line="0" column="36" />
@@ -355,8 +356,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="186" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="135" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="660" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="662" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="668" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -455,6 +454,8 @@
       <jump line="283" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
       <jump line="263" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
       <jump line="272" column="60" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="66" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="27" column="90" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -470,7 +471,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>if (getPermissions().isEmpty()) return StringUtils.EMPTY;</text>
+        <text>@ManyToMany(mappedBy = &quot;users&quot;, fetch = FetchType.EAGER)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGkK</text>
@@ -503,7 +504,7 @@
         <text encoding="base64">ICAgIEBJZAo=</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -533,14 +534,14 @@
         <entry>action AceAction</entry>
         <entry>action GotoImplementation</entry>
         <entry>action NextTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
         <entry>action PreviousTab</entry>
         <entry>action RenameElement</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
