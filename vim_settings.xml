@@ -3,18 +3,24 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/data_insert_users.xml" timestamp="1565602679410">
+        <mark key="'" line="13" column="12" />
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="53" />
+        <mark key="." line="13" column="0" />
+        <mark key="^" line="17" column="43" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/UserRepository.java" timestamp="1565600034397">
         <mark key="[" line="24" column="36" />
         <mark key="]" line="24" column="30" />
         <mark key="." line="24" column="30" />
         <mark key="^" line="24" column="30" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1565595329586">
-        <mark key="'" line="53" column="3" />
-        <mark key="[" line="50" column="0" />
-        <mark key="]" line="50" column="3" />
-        <mark key="^" line="50" column="3" />
-        <mark key="." line="50" column="3" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1565607794840">
+        <mark key="'" line="15" column="2" />
+        <mark key="[" line="15" column="2" />
+        <mark key="]" line="23" column="32" />
+        <mark key="." line="20" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/UserLoginHistory.java" timestamp="1565599801215">
         <mark key="[" line="68" column="32" />
@@ -22,18 +28,24 @@
         <mark key="." line="68" column="43" />
         <mark key="^" line="68" column="43" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" timestamp="1565599383329">
-        <mark key="'" line="19" column="242" />
-        <mark key="[" line="27" column="38" />
-        <mark key="]" line="28" column="17" />
-        <mark key="." line="28" column="17" />
-        <mark key="^" line="28" column="17" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" timestamp="1565605998079">
+        <mark key="'" line="17" column="2" />
+        <mark key="[" line="14" column="22" />
+        <mark key="]" line="14" column="21" />
+        <mark key="." line="14" column="21" />
+        <mark key="^" line="14" column="21" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/.castor.cdr" timestamp="1565186534932">
         <mark key="[" line="49" column="0" />
         <mark key="]" line="49" column="0" />
         <mark key="." line="49" column="0" />
         <mark key="^" line="49" column="73" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/AbstractCoreDao.java" timestamp="1565607297922">
+        <mark key="[" line="44" column="24" />
+        <mark key="]" line="44" column="24" />
+        <mark key="^" line="44" column="24" />
+        <mark key="." line="44" column="24" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Company.java" timestamp="1565599732055">
         <mark key="'" line="191" column="1" />
@@ -67,25 +79,18 @@
         <mark key="^" line="16" column="34" />
         <mark key="." line="16" column="34" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/gen_scripts/apba_send.bat" timestamp="1565353258389">
-        <mark key="'" line="0" column="460" />
-        <mark key="[" line="0" column="435" />
-        <mark key="]" line="0" column="429" />
-        <mark key="." line="0" column="429" />
-        <mark key="^" line="0" column="429" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" timestamp="1565602930853">
+        <mark key="'" line="43" column="32" />
+        <mark key="[" line="43" column="0" />
+        <mark key="]" line="43" column="6" />
+        <mark key="^" line="42" column="32" />
+        <mark key="." line="43" column="6" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" timestamp="1565597247222">
         <mark key="[" line="69" column="32" />
         <mark key="]" line="69" column="49" />
         <mark key="." line="69" column="49" />
         <mark key="^" line="69" column="49" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/APBA_SEND.xml" timestamp="1565352444035">
-        <mark key="'" line="18" column="12" />
-        <mark key="[" line="18" column="12" />
-        <mark key="]" line="26" column="27" />
-        <mark key="^" line="43" column="41" />
-        <mark key="." line="43" column="41" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" timestamp="1565344250976">
         <mark key="[" line="72" column="125" />
@@ -98,6 +103,17 @@
         <mark key="]" line="152" column="94" />
         <mark key="." line="152" column="94" />
         <mark key="^" line="152" column="94" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/domain_old/BaseEntity.java" timestamp="1565603313539">
+        <mark key="'" line="24" column="4" />
+        <mark key="[" line="24" column="4" />
+        <mark key="]" line="24" column="54" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-dev.properties" timestamp="1565601821783">
+        <mark key="[" line="5" column="37" />
+        <mark key="]" line="5" column="37" />
+        <mark key="^" line="5" column="37" />
+        <mark key="." line="5" column="37" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/ItineraryDataStatsDescriptor.java" timestamp="1565187717341">
         <mark key="[" line="147" column="44" />
@@ -148,19 +164,19 @@
         <mark key="^" line="108" column="33" />
         <mark key="." line="108" column="33" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Agency.java" timestamp="1565595997148">
-        <mark key="'" line="141" column="61" />
-        <mark key="[" line="180" column="122" />
-        <mark key="]" line="180" column="127" />
-        <mark key="." line="180" column="127" />
-        <mark key="^" line="180" column="127" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Agency.java" timestamp="1565605905047">
+        <mark key="'" line="16" column="2" />
+        <mark key="[" line="11" column="23" />
+        <mark key="]" line="11" column="32" />
+        <mark key="." line="11" column="32" />
+        <mark key="^" line="11" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" timestamp="1565356188630">
-        <mark key="'" line="27" column="6" />
-        <mark key="[" line="106" column="10" />
-        <mark key="]" line="106" column="49" />
-        <mark key="^" line="106" column="49" />
-        <mark key="." line="106" column="49" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/BaseEntity.java" timestamp="1565607815787">
+        <mark key="'" line="18" column="32" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="^" line="10" column="3" />
+        <mark key="." line="10" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AgencyCompany.java" timestamp="1565592715362">
         <mark key="[" line="6" column="53" />
@@ -179,6 +195,17 @@
         <mark key="]" line="22" column="33" />
         <mark key="." line="22" column="18" />
         <mark key="^" line="22" column="18" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" timestamp="1565603932028">
+        <mark key="'" line="144" column="0" />
+        <mark key="[" line="144" column="0" />
+        <mark key="]" line="146" column="67" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" timestamp="1565603027814">
+        <mark key="[" line="88" column="33" />
+        <mark key="]" line="88" column="33" />
+        <mark key="." line="88" column="33" />
+        <mark key="^" line="88" column="33" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1565259427699">
         <mark key="[" line="575" column="5" />
@@ -204,6 +231,9 @@
         <mark key="^" line="31" column="60" />
         <mark key="." line="31" column="60" />
       </file>
+      <file name="/Dummy.txt" timestamp="1565607433080">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CompanyAccommodation.java" timestamp="1565599629260">
         <mark key="'" line="110" column="0" />
         <mark key="[" line="95" column="77" />
@@ -211,24 +241,31 @@
         <mark key="." line="95" column="99" />
         <mark key="^" line="95" column="99" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/VAppUserPermission.java" timestamp="1565607582653">
+        <mark key="'" line="28" column="4" />
+        <mark key="[" line="7" column="33" />
+        <mark key="]" line="8" column="1" />
+        <mark key="." line="8" column="1" />
+        <mark key="^" line="8" column="1" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatistics.java" timestamp="1565269302673">
         <mark key="[" line="2" column="30" />
         <mark key="]" line="2" column="31" />
         <mark key="^" line="2" column="31" />
         <mark key="." line="2" column="31" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdatesHandler.java" timestamp="1565356001469">
-        <mark key="'" line="33" column="34" />
-        <mark key="[" line="34" column="15" />
-        <mark key="]" line="34" column="39" />
-        <mark key="^" line="34" column="39" />
-        <mark key="." line="34" column="39" />
-      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/gen_scripts/apba_rs.bat" timestamp="1565245148501">
         <mark key="[" line="0" column="435" />
         <mark key="]" line="0" column="39" />
         <mark key="^" line="0" column="39" />
         <mark key="." line="0" column="39" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" timestamp="1565607238611">
+        <mark key="'" line="20" column="46" />
+        <mark key="[" line="20" column="2" />
+        <mark key="]" line="20" column="47" />
+        <mark key="." line="20" column="2" />
+        <mark key="^" line="20" column="1" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/VehicleStatsDescriptor.java" timestamp="1565187923392">
         <mark key="[" line="13" column="20" />
@@ -249,25 +286,23 @@
         <mark key="^" line="68" column="45" />
         <mark key="." line="68" column="45" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/RoleRS.java" timestamp="1565607496211">
+        <mark key="[" line="7" column="20" />
+        <mark key="]" line="7" column="20" />
+        <mark key="." line="7" column="20" />
+        <mark key="^" line="7" column="20" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CountryTranslation.java" timestamp="1565597446018">
         <mark key="[" line="68" column="49" />
         <mark key="]" line="68" column="75" />
         <mark key="." line="68" column="75" />
         <mark key="^" line="68" column="75" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" timestamp="1565354382595">
-        <mark key="'" line="48" column="17" />
-        <mark key="[" line="110" column="35" />
-        <mark key="]" line="110" column="35" />
-        <mark key="^" line="110" column="35" />
-        <mark key="." line="110" column="35" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1565355962736">
-        <mark key="'" line="44" column="12" />
-        <mark key="[" line="44" column="20" />
-        <mark key="]" line="44" column="22" />
-        <mark key="." line="44" column="22" />
-        <mark key="^" line="44" column="22" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" timestamp="1565607727728">
+        <mark key="[" line="76" column="30" />
+        <mark key="]" line="76" column="30" />
+        <mark key="." line="76" column="30" />
+        <mark key="^" line="76" column="30" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Sailing.java" timestamp="1565598098311">
         <mark key="'" line="248" column="0" />
@@ -282,7 +317,7 @@
         <mark key="." line="13" column="34" />
         <mark key="^" line="13" column="34" />
       </file>
-      <file name="/fragment.java" timestamp="1565359518835">
+      <file name="/fragment.java" timestamp="1565607695894">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="18" />
         <mark key="^" line="0" column="18" />
@@ -290,51 +325,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="202" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BackOfficeServices.java" />
-      <jump line="159" column="51" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="200" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="578" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BackOfficeServices.java" />
-      <jump line="235" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="552" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BackOfficeServices.java" />
-      <jump line="273" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="156" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BackOfficeServices.java" />
-      <jump line="123" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="176" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="174" column="31" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="212" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BackOfficeServices.java" />
-      <jump line="219" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="179" column="33" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="182" column="33" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="128" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="141" column="51" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
-      <jump line="37" column="32" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/APBA_SEND.xml" />
-      <jump line="58" column="36" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/APBA_SEND.xml" />
-      <jump line="46" column="20" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/APBA_SEND.xml" />
-      <jump line="53" column="36" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/APBA_SEND.xml" />
-      <jump line="30" column="36" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/APBA_SEND.xml" />
-      <jump line="45" column="16" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/APBA_SEND.xml" />
-      <jump line="29" column="12" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/APBA_SEND.xml" />
-      <jump line="54" column="36" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="18" column="12" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/APBA_SEND.xml" />
-      <jump line="26" column="27" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="28" column="31" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="27" column="31" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="21" column="40" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="53" column="16" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="73" column="20" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="80" column="36" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="81" column="20" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="88" column="34" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="85" column="20" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="92" column="34" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="19" column="16" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="38" column="17" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="29" column="16" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="48" column="17" filename="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/gen_scripts/amp.bat" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/gen_scripts/apba_rq.bat" />
-      <jump line="0" column="460" filename="$USER_HOME$/projects/port-checkin-control/gen_scripts/apba_send.bat" />
-      <jump line="103" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="97" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="607" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="20" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -390,52 +380,105 @@
       <jump line="20" column="242" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" />
       <jump line="110" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CompanyAccommodation.java" />
       <jump line="191" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Company.java" />
+      <jump line="31" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
+      <jump line="37" column="34" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
+      <jump line="35" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
+      <jump line="40" column="34" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
+      <jump line="38" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
+      <jump line="43" column="32" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
+      <jump line="14" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/data_insert_users.xml" />
+      <jump line="15" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/data_insert_users.xml" />
+      <jump line="16" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/data_insert_users.xml" />
+      <jump line="13" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/data_insert_users.xml" />
+      <jump line="24" column="4" filename="$USER_HOME$/projects/pcs/rhodes/domain_old/BaseEntity.java" />
+      <jump line="14" column="54" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/BaseEntity.java" />
+      <jump line="144" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" />
+      <jump line="71" column="67" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" />
+      <jump line="74" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" />
+      <jump line="75" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" />
+      <jump line="72" column="24" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" />
+      <jump line="76" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" />
+      <jump line="16" column="53" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="12" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/BaseEntity.java" />
+      <jump line="22" column="54" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="198" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Agency.java" />
+      <jump line="50" column="3" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Agency.java" />
+      <jump line="230" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Agency.java" />
+      <jump line="10" column="56" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Agency.java" />
+      <jump line="67" column="32" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="16" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Agency.java" />
+      <jump line="46" column="3" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" />
+      <jump line="10" column="56" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" />
+      <jump line="16" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" />
+      <jump line="16" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
+      <jump line="40" column="3" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
+      <jump line="19" column="56" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
+      <jump line="11" column="54" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
+      <jump line="20" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
+      <jump line="21" column="46" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
+      <jump line="25" column="46" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="23" column="46" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="18" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="21" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="72" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="21" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/BaseEntity.java" />
+      <jump line="29" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/VAppUserPermission.java" />
+      <jump line="15" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="20" column="32" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/BaseEntity.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>name</text>
+        <text>IDENTITY</text>
       </register>
       <register name="-" type="4">
-        <text>@ManyToMany(mappedBy = &quot;roles&quot;)</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIF9pdGluZXJhcnlEYXRhU3RhdHMuc2V0U2FpbElEKHBhc3Nlbmdlckl0aW5lcmFyeURhdGFTdGF0cy5nZXRTYWlsSUQoKSk7Cg==</text>
+      <register name="0" type="4">
+        <text>@SequenceGenerator(
+          name = &quot;user_seq&quot;,
+          sequenceName = &quot;APP_USER_ID_SEQ&quot;,
+          allocationSize = 1
+  )
+  @Id
+  @GeneratedValue(
+          strategy = GenerationType.SEQUENCE,
+          generator = &quot;user_seq&quot;)</text>
       </register>
-      <register name="1" type="4">
-        <text>name</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIEBHZW5lcmF0ZWRWYWx1ZShzdHJhdGVneSA9IEdlbmVyYXRpb25UeXBlLlNFUVVFTkNFKQo=</text>
       </register>
-      <register name="2" type="4">
-        <text>Username</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIEBJZAo=</text>
       </register>
       <register name="3" type="4">
-        <text>appUserId</text>
+        <text>IDENTITY</text>
       </register>
       <register name="4" type="4">
-        <text>appUserId</text>
+        <text>extends</text>
       </register>
       <register name="5" type="4">
-        <text>appUserId</text>
+        <text>BaseEntity</text>
       </register>
       <register name="6" type="4">
-        <text>countryId</text>
+        <text>extends</text>
       </register>
       <register name="7" type="4">
-        <text>countryId</text>
+        <text>BaseEntity</text>
       </register>
       <register name="x" type="4">
-        <text>name</text>
+        <text>IDENTITY</text>
       </register>
       <register name="8" type="4">
-        <text>countryId</text>
+        <text>save</text>
       </register>
-      <register name="9" type="4">
-        <text>entrantDataTypeId</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -466,15 +509,15 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action OptimizeImports</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
-        <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
-        <entry>action AceAction</entry>
-        <entry>action GotoFile</entry>
         <entry>action RenameElement</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action AceAction</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
