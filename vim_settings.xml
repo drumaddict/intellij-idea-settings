@@ -279,11 +279,11 @@
         <mark key="." line="154" column="20" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" timestamp="1565687722941" />
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" timestamp="1565609809232">
-        <mark key="[" line="76" column="30" />
-        <mark key="]" line="76" column="30" />
-        <mark key="." line="76" column="30" />
-        <mark key="^" line="76" column="30" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" timestamp="1565697260710">
+        <mark key="[" line="69" column="51" />
+        <mark key="]" line="69" column="65" />
+        <mark key="." line="69" column="65" />
+        <mark key="^" line="69" column="65" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1565685108204" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/data_insert_roles.xml" timestamp="1565694106660">
@@ -418,7 +418,7 @@
         <text />
       </register>
       <register name="*" type="4">
-        <text>permission_data</text>
+        <text>ENTRANT_DATA_VALIDATOR</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4=</text>
@@ -430,34 +430,34 @@
         <text encoding="base64">PCEtLSBDaGVja3BvaW50IHBlcm1pc3Npb25zIC0tPgogICAgICAgIDxpbnNlcnQgdGFibGVOYW1lPSJhcHBfcm9sZV9wZXJtaXNzaW9uIj4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJpZCIgdmFsdWU9IjEzIi8+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0iYXBwX3JvbGVfaWQiIHZhbHVlPSI3Ii8+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0iYXBwX3Blcm1pc3Npb25faWQiIHZhbHVlPSIxMyIvPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9ImFwcF9wZXJtaXNzaW9uX3ZhbHVlIiB2YWx1ZT0iMiIvPgogICAgICAgIDwvaW5zZXJ0PgoKICAgICAgICA8aW5zZXJ0IHRhYmxlTmFtZT0iYXBwX3JvbGVfcGVybWlzc2lvbiI+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0iaWQiIHZhbHVlPSIxNCIvPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9ImFwcF9yb2xlX2lkIiB2YWx1ZT0iNyIvPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9ImFwcF9wZXJtaXNzaW9uX2lkIiB2YWx1ZT0iMTQiLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJhcHBfcGVybWlzc2lvbl92YWx1ZSIgdmFsdWU9IjIiLz4KICAgICAgICA8L2luc2VydD4KCiAgICAgICAgPGluc2VydCB0YWJsZU5hbWU9ImFwcF9yb2xlX3Blcm1pc3Npb24iPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9ImlkIiB2YWx1ZT0iMTUiLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJhcHBfcm9sZV9pZCIgdmFsdWU9IjciLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJhcHBfcGVybWlzc2lvbl9pZCIgdmFsdWU9IjE1Ii8+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0iYXBwX3Blcm1pc3Npb25fdmFsdWUiIHZhbHVlPSIyIi8+CiAgICAgICAgPC9pbnNlcnQ+</text>
       </register>
       <register name="1" type="4">
-        <text>permission_data</text>
+        <text>ENTRANT_DATA_VALIDATOR</text>
       </register>
       <register name="2" type="4">
-        <text>user_data</text>
+        <text>GUEST</text>
       </register>
       <register name="3" type="4">
-        <text>inserts</text>
+        <text>MAINTAINER</text>
       </register>
       <register name="4" type="4">
-        <text>inserts</text>
+        <text>ADMIN</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">CgoKCgoKCgoK</text>
-      </register>
-      <register name="6" type="4">
-        <text>Checkpoint</text>
-      </register>
-      <register name="7" type="4">
-        <text>User</text>
-      </register>
-      <register name="x" type="4">
         <text>permission_data</text>
       </register>
+      <register name="6" type="4">
+        <text>user_data</text>
+      </register>
+      <register name="7" type="4">
+        <text>inserts</text>
+      </register>
+      <register name="x" type="4">
+        <text>ENTRANT_DATA_VALIDATOR</text>
+      </register>
       <register name="8" type="4">
-        <text>aintainer</text>
+        <text>inserts</text>
       </register>
       <register name="9" type="4">
-        <text>Admin</text>
+        <text encoding="base64">CgoKCgoKCgoK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -489,9 +489,7 @@
         <entry>action $SelectAll</entry>
         <entry>action RenameElement</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
@@ -499,6 +497,8 @@
         <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTW92ZUVkaXRvclRvT3Bwb3NpdGVUYWJHcm91cA==</entry>
         <entry>action ReformatCode</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
