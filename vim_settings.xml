@@ -81,12 +81,12 @@
         <mark key="." line="69" column="47" />
         <mark key="^" line="69" column="47" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserResource.java" timestamp="1565684278041">
-        <mark key="'" line="17" column="2" />
-        <mark key="[" line="26" column="45" />
-        <mark key="]" line="27" column="32" />
-        <mark key="." line="27" column="32" />
-        <mark key="^" line="27" column="32" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserResource.java" timestamp="1565690284349">
+        <mark key="'" line="15" column="2" />
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="^" line="24" column="32" />
+        <mark key="." line="16" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CompanyPassengerType.java" timestamp="1565596222026">
         <mark key="'" line="63" column="48" />
@@ -205,12 +205,10 @@
         <mark key="^" line="44" column="18" />
         <mark key="." line="44" column="18" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/BaseEntity.java" timestamp="1565682734178">
-        <mark key="'" line="19" column="19" />
-        <mark key="[" line="18" column="2" />
-        <mark key="]" line="19" column="20" />
-        <mark key="." line="18" column="2" />
-        <mark key="^" line="18" column="1" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/BaseEntity.java" timestamp="1565690233637">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" timestamp="1565685976010" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/logging/HttpLogger.java" timestamp="1565619135788">
@@ -516,37 +514,46 @@
         <text encoding="base64">ICBwdWJsaWMgU3RyaW5nIHBlcm1pc3Npb25zOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgcHVibGljIFN0cmluZyBjcmVhdGVkX2RhdGU7Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>ermissions</text>
+      <register name="2" type="2">
+        <text encoding="base64">Ly8gICAgICAgIHVwZGF0ZWRfZGF0ZSA9IHVzZXIuZ2V0Rm9ybWF0dGVkVXBkYXRlZERhdGUoKTsK</text>
       </register>
-      <register name="3" type="4">
-        <text>p</text>
+      <register name="3" type="2">
+        <text encoding="base64">Ly8gICAgICAgIGNyZWF0ZWRfZGF0ZSA9IHVzZXIuZ2V0RigpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWFwKFJvbGU6OmdldFBlcikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ZmxhdE1hcChwIC0+IHAuc3RyZWFtKCkpLgogICAgICAgICAgICBtYXAoUGVybWlzc2lvbjo6Z2V0UGVybWlzc2lvbkNvZGUp</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>Permissions</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>ermissions</text>
       </register>
       <register name="8" type="4">
-        <text>permissionsString</text>
+        <text>//  @Access(AccessType.PROPERTY)
+//  protected Long id;
+//  @Id
+//  public Long getId() {
+//    return id;
+//  }
+//
+//  public void setId(Long id) {
+//    this.id = id;
+//  }</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -578,13 +585,13 @@
         <entry>action $SelectAll</entry>
         <entry>action PreviousTab</entry>
         <entry>action RenameElement</entry>
-        <entry>action ReformatCode</entry>
         <entry>action GotoImplementation</entry>
         <entry>action FindUsages</entry>
-        <entry>action SaveAll</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
