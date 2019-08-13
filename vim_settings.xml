@@ -16,11 +16,12 @@
         <mark key="." line="24" column="30" />
         <mark key="^" line="24" column="30" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1565619977488">
-        <mark key="[" line="47" column="0" />
-        <mark key="]" line="47" column="0" />
-        <mark key="^" line="186" column="70" />
-        <mark key="." line="47" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1565677092804">
+        <mark key="'" line="231" column="25" />
+        <mark key="[" line="44" column="2" />
+        <mark key="]" line="49" column="26" />
+        <mark key="^" line="44" column="1" />
+        <mark key="." line="44" column="2" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/UserLoginHistory.java" timestamp="1565599801215">
         <mark key="[" line="68" column="32" />
@@ -74,7 +75,6 @@
         <mark key="^" line="34" column="38" />
         <mark key="." line="34" column="38" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" timestamp="1565592425102" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CompanyPassengerType.java" timestamp="1565596222026">
         <mark key="'" line="63" column="48" />
         <mark key="[" line="80" column="41" />
@@ -107,7 +107,6 @@
         <mark key="^" line="20" column="42" />
         <mark key="." line="20" column="42" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/JwtAuthFilter.java" timestamp="1565617508621" />
       <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRQ_A.xsd" timestamp="1565344250976">
         <mark key="[" line="72" column="125" />
         <mark key="]" line="72" column="103" />
@@ -231,7 +230,6 @@
         <mark key="." line="88" column="33" />
         <mark key="^" line="88" column="33" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/BaseResourceSupport.java" timestamp="1565611807392" />
       <file name="$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.25.1.RELEASE/spring-hateoas-0.25.1.RELEASE.jar!/org/springframework/hateoas/ResourceSupport.class" timestamp="1565612117035">
         <mark key="'" line="98" column="2" />
         <mark key="[" line="98" column="2" />
@@ -296,7 +294,6 @@
         <mark key="^" line="0" column="39" />
         <mark key="." line="0" column="39" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/JwtAuthenticationProvider.java" timestamp="1565618128139" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" timestamp="1565619704471">
         <mark key="'" line="14" column="2" />
         <mark key="[" line="18" column="0" />
@@ -369,8 +366,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="677" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="667" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="684" column="37" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="115" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="102" column="45" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
@@ -469,6 +464,8 @@
       <jump line="14" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
       <jump line="20" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/BaseEntity.java" />
       <jump line="28" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="50" column="25" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="231" column="25" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -487,42 +484,34 @@
         <text>(claims.getBody().getSubject());</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">Ly8gICAgcHJpdmF0ZSBMb25nIHVzZXJBZ2VuY3lJZDsKLy8gICAgcHJpdmF0ZSBDb2xsZWN0aW9uPFJvbGVVc2VyPiBhcHBSb2xlVXNlcnNCeUlkOw==</text>
+        <text encoding="base64">IEBUcmFuc2llbnQKICBwcml2YXRlIFN0cmluZyBwYXNzd29yZENvbmZpcm07CgogIEBUcmFuc2llbnQKICBwcml2YXRlIFN0cmluZyBqd3RUb2tlbjs=</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgIGFsbG9jYXRpb25TaXplID0gMQo=</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">Ly8gICAgcHJpdmF0ZSBMb25nIHVzZXJBZ2VuY3lJZDsKLy8gICAgcHJpdmF0ZSBDb2xsZWN0aW9uPFJvbGVVc2VyPiBhcHBSb2xlVXNlcnNCeUlkOw==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">Ly8gICAgQE9uZVRvTWFueShtYXBwZWRCeSA9ICJhcHBVc2VyQnlBcHBVc2VySWQiKQovLyAgICBwdWJsaWMgQ29sbGVjdGlvbjxSb2xlVXNlcj4gZ2V0QXBwUm9sZVVzZXJzQnlJZCgpIHsKLy8gICAgICAgIHJldHVybiBhcHBSb2xlVXNlcnNCeUlkOwovLyAgICB9Ci8vCi8vICAgIHB1YmxpYyB2b2lkIHNldEFwcFJvbGVVc2Vyc0J5SWQoQ29sbGVjdGlvbjxSb2xlVXNlcj4gYXBwUm9sZVVzZXJzQnlJZCkgewovLyAgICAgICAgdGhpcy5hcHBSb2xlVXNlcnNCeUlkID0gYXBwUm9sZVVzZXJzQnlJZDsKLy8gICAgfQ==</text>
-      </register>
-      <register name="5" type="4">
-        <text>userAgencyId</text>
       </register>
       <register name="6" type="4">
-        <text>userAgencyId</text>
+        <text encoding="base64">Ly8gICAgQE9uZVRvTWFueShtYXBwZWRCeSA9ICJhcHBVc2VyQnlBcHBVc2VySWQiKQovLyAgICBwdWJsaWMgQ29sbGVjdGlvbjxSb2xlVXNlcj4gZ2V0QXBwUm9sZVVzZXJzQnlJZCgpIHsKLy8gICAgICAgIHJldHVybiBhcHBSb2xlVXNlcnNCeUlkOwovLyAgICB9Ci8vCi8vICAgIHB1YmxpYyB2b2lkIHNldEFwcFJvbGVVc2Vyc0J5SWQoQ29sbGVjdGlvbjxSb2xlVXNlcj4gYXBwUm9sZVVzZXJzQnlJZCkgewovLyAgICAgICAgdGhpcy5hcHBSb2xlVXNlcnNCeUlkID0gYXBwUm9sZVVzZXJzQnlJZDsKLy8gICAgfQ==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>userAgencyId</text>
       </register>
       <register name="x" type="4">
         <text>userAgencyId</text>
       </register>
       <register name="8" type="4">
-        <text>//    @Basic
-//    @Column(name = &quot;USER_AGENCY_ID&quot;, nullable = true, precision = 0)
-//    public Long getUserAgencyId() {
-//        return userAgencyId;
-//    }
-//
-//    public void setUserAgencyId(Long userAgencyId) {
-//        this.userAgencyId = userAgencyId;
-//    }</text>
+        <text>userAgencyId</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBASWQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -542,13 +531,7 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action Debug</entry>
-        <entry>action GotoSymbol</entry>
-        <entry>action SplitVertically</entry>
-        <entry>action CloseContent</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>action Replace</entry>
-        <entry>action OptimizeImports</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
         <entry>action AceAction</entry>
         <entry>action NextTab</entry>
@@ -565,6 +548,7 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action PreviousTab</entry>
         <entry>action VimFilePrevious</entry>
+        <entry>action OptimizeImports</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
