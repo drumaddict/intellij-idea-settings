@@ -10,26 +10,26 @@
         <mark key="^" line="36" column="58" />
         <mark key="." line="39" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/UserRepository.java" timestamp="1565706080240">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/UserRepository.java" timestamp="1565766245178">
         <mark key="[" line="17" column="39" />
         <mark key="]" line="17" column="38" />
         <mark key="." line="17" column="38" />
         <mark key="^" line="17" column="38" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" timestamp="1565703810660">
-        <mark key="'" line="153" column="79" />
-        <mark key="[" line="150" column="103" />
-        <mark key="]" line="150" column="102" />
-        <mark key="." line="150" column="102" />
-        <mark key="^" line="150" column="102" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" timestamp="1565766341682">
+        <mark key="'" line="152" column="6" />
+        <mark key="[" line="151" column="43" />
+        <mark key="]" line="151" column="43" />
+        <mark key="." line="151" column="43" />
+        <mark key="^" line="151" column="43" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1565706593995">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1565766875803">
         <mark key="f" line="37" column="2" />
-        <mark key="'" line="71" column="2" />
-        <mark key="[" line="71" column="32" />
-        <mark key="]" line="71" column="13" />
-        <mark key="." line="71" column="13" />
-        <mark key="^" line="71" column="13" />
+        <mark key="'" line="76" column="27" />
+        <mark key="[" line="70" column="32" />
+        <mark key="]" line="70" column="35" />
+        <mark key="." line="70" column="35" />
+        <mark key="^" line="70" column="35" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/UserLoginHistory.java" timestamp="1565599801215">
         <mark key="[" line="68" column="32" />
@@ -394,7 +394,7 @@
         <mark key="." line="13" column="34" />
         <mark key="^" line="13" column="34" />
       </file>
-      <file name="/fragment.java" timestamp="1565704202347">
+      <file name="/fragment.java" timestamp="1565766791423">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="36" />
         <mark key="^" line="0" column="36" />
@@ -402,10 +402,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
-      <jump line="29" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/BaseResourceSupport.java" />
-      <jump line="13" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserResource.java" />
-      <jump line="16" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/BaseResourceSupport.java" />
       <jump line="25" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserResource.java" />
       <jump line="24" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserResource.java" />
       <jump line="16" column="33" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/RoleResource.java" />
@@ -502,55 +498,56 @@
       <jump line="30" column="3" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/AbstractCoreDao.java" />
       <jump line="20" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/UserRepository.java" />
       <jump line="71" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="151" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" />
+      <jump line="70" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="23" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="76" column="27" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>fetch = FetchType.EAGER</text>
+        <text>EAGER</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4=</text>
+        <text>O</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBATWFueVRvTWFueShmZXRjaCA9IEZldGNoVHlwZS5FQUdFUikK</text>
+        <text encoding="base64">Ly8gIEBNYW55VG9NYW55KGZldGNoID0gRmV0Y2hUeXBlLkVBR0VSKQo=</text>
       </register>
       <register name="1" type="4">
-        <text>fetch = FetchType.EAGER</text>
+        <text>EAGER</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>Many</text>
       </register>
       <register name="3" type="4">
-        <text>//            @NamedAttributeNode(&quot;customer&quot;),
-//            @NamedAttributeNode(&quot;handling_employee&quot;),
-//            @NamedAttributeNode(&quot;genre&quot;),
-//            @NamedAttributeNode(&quot;complaintMessages&quot;)</text>
+        <text>fetch =  FetchType.LAZY</text>
       </register>
       <register name="4" type="4">
-        <text>allJoinsButMessages</text>
+        <text>ne</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIFVzZXIgZ2V0T25lKExvbmcgaWQpIHsK</text>
+      <register name="5" type="4">
+        <text>;</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gZ2V0UmVwb3NpdG9yeSgpLmdldE9uZShpZCk7Cg==</text>
+        <text encoding="base64">ICBATWFueVRvT25lKGZldGNoID0gRmV0Y2hUeXBlLkVBR0VSKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">Ly8gIEBNYW55VG9NYW55KCkK</text>
       </register>
       <register name="x" type="4">
-        <text>fetch = FetchType.EAGER</text>
+        <text>EAGER</text>
       </register>
       <register name="8" type="4">
-        <text>public</text>
+        <text>EAGER</text>
       </register>
-      <register name="9" type="4">
-        <text>Collection</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -570,10 +567,6 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action Replace</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
-        <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZFVzYWdlcw==</entry>
         <entry>action SurroundWith</entry>
         <entry>action VimFilePrevious</entry>
