@@ -256,12 +256,12 @@
         <mark key="^" line="21" column="26" />
         <mark key="." line="21" column="26" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" timestamp="1565958714562">
-        <mark key="'" line="21" column="66" />
-        <mark key="[" line="21" column="67" />
-        <mark key="]" line="21" column="65" />
-        <mark key="." line="21" column="65" />
-        <mark key="^" line="21" column="65" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" timestamp="1565961180468">
+        <mark key="'" line="43" column="79" />
+        <mark key="[" line="15" column="59" />
+        <mark key="]" line="15" column="58" />
+        <mark key="." line="15" column="58" />
+        <mark key="^" line="15" column="58" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/sailings.xml" timestamp="1565956651967">
         <mark key="'" line="20" column="19" />
@@ -523,8 +523,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="324" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantData.java" />
-      <jump line="145" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantData.java" />
       <jump line="17" column="41" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/SailingCargo.java" />
       <jump line="16" column="39" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/SailingCargo.java" />
       <jump line="21" column="80" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/SailingCargo.java" />
@@ -603,7 +601,6 @@
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/vessels.xml" />
       <jump line="12" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
       <jump line="13" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
-      <jump line="15" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
       <jump line="16" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
       <jump line="17" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
       <jump line="18" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
@@ -623,13 +620,16 @@
       <jump line="35" column="50" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
       <jump line="49" column="66" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
       <jump line="21" column="66" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
+      <jump line="15" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
+      <jump line="29" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
+      <jump line="43" column="79" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/companies.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>role_permission</text>
+        <text>11</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">Lm9yRWxzZVRocm93KCgpIC0+IG5ldyBQY3NFbnRpdHlOb3RGb3VuZEV4Y2VwdGlvbihyZXNvdXJjZUNsYXNzKSk7</text>
@@ -638,37 +638,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>type=&quot;number(4)&quot;/</text>
+        <text encoding="base64">PGNvbHVtbiBuYW1lPSJjcmVhdGVkIiB2YWx1ZT0iMjAxMy0xMS0xMCAxMDozMy4wMCIgdHlwZT0idGltZXN0YW1wIi8+</text>
       </register>
       <register name="1" type="4">
-        <text>role_permission</text>
+        <text>11</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>00</text>
       </register>
       <register name="3" type="4">
-        <text>12233</text>
+        <text>00</text>
       </register>
       <register name="4" type="4">
-        <text>12233</text>
+        <text>21</text>
       </register>
       <register name="5" type="4">
-        <text>20</text>
+        <text>2018T13</text>
       </register>
       <register name="6" type="4">
-        <text>Alkiviadou</text>
-      </register>
-      <register name="7" type="4">
-        <text>11921</text>
-      </register>
-      <register name="x" type="4">
         <text>role_permission</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="x" type="4">
+        <text>11</text>
+      </register>
       <register name="8" type="4">
-        <text>87664445</text>
+        <text>12233</text>
       </register>
       <register name="9" type="4">
-        <text>11921</text>
+        <text>12233</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
