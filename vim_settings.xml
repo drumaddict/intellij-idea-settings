@@ -275,12 +275,12 @@
         <mark key="^" line="24" column="36" />
         <mark key="." line="24" column="36" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" timestamp="1566303601680">
-        <mark key="'" line="20" column="2" />
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="0" />
-        <mark key="^" line="34" column="89" />
-        <mark key="." line="26" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" timestamp="1566306322559">
+        <mark key="'" line="51" column="42" />
+        <mark key="[" line="51" column="4" />
+        <mark key="]" line="51" column="15" />
+        <mark key="^" line="51" column="15" />
+        <mark key="." line="51" column="15" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CargoTypeRepository.java" timestamp="1566303110849">
         <mark key="'" line="11" column="0" />
@@ -389,12 +389,12 @@
         <mark key="." line="6" column="68" />
         <mark key="^" line="6" column="68" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingCargoDTO.java" timestamp="1566198241099">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingCargoDTO.java" timestamp="1566306642528">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="24" column="75" />
-        <mark key="]" line="24" column="75" />
-        <mark key="^" line="24" column="75" />
-        <mark key="." line="24" column="75" />
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="26" column="0" />
+        <mark key="^" line="24" column="41" />
+        <mark key="." line="26" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingCargo_DTO.java" timestamp="1566197974651">
         <mark key="'" line="17" column="24" />
@@ -492,10 +492,10 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" timestamp="1566302962809">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" timestamp="1566306244324">
         <mark key="'" line="78" column="4" />
-        <mark key="[" line="77" column="0" />
-        <mark key="]" line="77" column="32" />
+        <mark key="[" line="78" column="4" />
+        <mark key="]" line="80" column="42" />
         <mark key="^" line="94" column="34" />
         <mark key="." line="94" column="34" />
       </file>
@@ -662,9 +662,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="77" column="49" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDatum.java" />
-      <jump line="19" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
-      <jump line="28" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
       <jump line="21" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDatumRepository.java" />
       <jump line="13" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDataTypeRepository.java" />
@@ -748,7 +745,6 @@
       <jump line="30" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" />
       <jump line="25" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" />
       <jump line="46" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" />
-      <jump line="78" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
       <jump line="61" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" />
       <jump line="58" column="31" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/SailingCargoRepository.java" />
@@ -762,13 +758,17 @@
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/requests/sailingPOST.json" />
       <jump line="35" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/requests/sailingCagoes_POST.json" />
       <jump line="4" column="21" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/requests/sailingCagoes_POST.json" />
+      <jump line="78" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="39" column="42" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" />
+      <jump line="20" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" />
+      <jump line="51" column="42" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>GR</text>
+        <text>entrantDatum</text>
       </register>
       <register name="-" type="4">
         <text>&quot;2019-07-08 10:00:00&quot;,</text>
@@ -776,48 +776,38 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>{
-  &quot;arrival&quot;: &quot;2019-07-08 10:00:00&quot;,
-  &quot;departure&quot;: &quot;2019-08-08 21:00:00&quot;,
-  &quot;scheduledArrival&quot;: &quot;2019-07-08 10:00:00&quot;,
-  &quot;scheduledDeparture&quot;: &quot;2019-08-21 10:00:00&quot;,
-  &quot;passengerProtocol&quot;: 1231231,
-  &quot;vehicleProtocol&quot;: 2321312,
-  &quot;crewProtocol&quot;: 32424,
-  &quot;remarks&quot;: &quot;Remarks&quot;,
-  &quot;code&quot;: &quot;CODE&quot;,
-  &quot;active&quot;: 1,
-  &quot;vessel&quot;: {
-    &quot;imoCode&quot;: &quot;imo-1&quot;,
-    &quot;hinCode&quot;: &quot;hin-1&quot;,
-    &quot;vesselName&quot;: &quot;VESSEL_1&quot;,
-    &quot;compCode&quot;: &quot;cmp-1&quot;,
-    &quot;defaultPassengerProtocol&quot;: 123123,
-    &quot;defaultVehicleProtocol&quot;: 32434,
-    &quot;companyCode&quot;: &quot;C1&quot;,
-    &quot;countryCode&quot;: &quot;GR&quot;,
-    &quot;sailingTypeCode&quot;: &quot;ST_CODE_1&quot;
-  },
-  &quot;sailingType&quot;: {
-    &quot;code&quot;: &quot;ST_CODE_1&quot;,
-    &quot;description&quot;: &quot;Description&quot;
-  },
-  &quot;originLocation&quot;: {
-    &quot;code&quot;: 93
-  },
-  &quot;destinationLocation&quot;: {
-    &quot;code&quot;: 264
-  },
-  &quot;portDockSlot&quot;: {
-    &quot;code&quot;: &quot;PDS_CODE_1&quot;
-  }
-}</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICBwcml2YXRlIFNhaWxpbmdDYXJnb1JlcG9zaXRvcnkgc2FpbGluZ0NhcmdvUmVwb3NpdG9yeTsK</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text>//        permissions =
+//                role.getPermissions().stream().map(Permission::getPermissionCode).collect(Collectors.toList());</text>
+      </register>
+      <register name="4" type="4">
+        <text>entrantDatum</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">T3B0aW9uYWw8U2FpbGluZz4gc2FpbGluZyA9IHNhaWxpbmdSZXBvc2l0b3J5LmZpbmRCeUlkKHNhaWxpbmdJZCk7CiAgICBpZiAoIXNhaWxpbmcuaXNQcmVzZW50KCkpIHRocm93IG5ldyBQY3NFbnRpdHlOb3RGb3VuZEV4Y2VwdGlvbihTYWlsaW5nLmNsYXNzKTsKICAgIGVudHJhbnREYXR1bS5zZXRTYWlsaW5nKHNhaWxpbmcuZ2V0KCkpOw==</text>
+      </register>
+      <register name="6" type="4">
+        <text>ailingCargoRepository</text>
+      </register>
+      <register name="7" type="4">
+        <text>CargoRepository</text>
+      </register>
+      <register name="x" type="4">
+        <text>entrantDatum</text>
+      </register>
+      <register name="8" type="4">
         <text>GR</text>
       </register>
-      <register name="2" type="4">
+      <register name="9" type="4">
         <text>&quot;sailingType&quot;: {
     &quot;code&quot;: &quot;ST_CODE_1&quot;,
     &quot;description&quot;: &quot;Description&quot;
@@ -831,30 +821,6 @@
   &quot;portDockSlot&quot;: {
     &quot;code&quot;: &quot;PDS_CODE_1&quot;
   }</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICJkZWZhdWx0VmVoaWNsZVByb3RvY29sIjogMzI0MzQsCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICJkZWZhdWx0UGFzc2VuZ2VyUHJvdG9jb2wiOiAxMjMxMjMsCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICJjb21wQ29kZSI6ICJjbXAtMSIsCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICJ2ZXNzZWxOYW1lIjogIlZFU1NFTF8xIiwK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICJoaW5Db2RlIjogImhpbi0xIiwK</text>
-      </register>
-      <register name="x" type="4">
-        <text>GR</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICJpbW9Db2RlIjogImltby0xIiwK</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICJjb21wYW55Q29kZSI6ICJDMSIsCg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -893,10 +859,10 @@
         <entry>action RenameElement</entry>
         <entry>action NextTab</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
+        <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
