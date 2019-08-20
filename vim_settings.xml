@@ -3,27 +3,40 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CountryAssembler.java" timestamp="1566205539020">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CountryAssembler.java" timestamp="1566288929147">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="36" column="0" />
         <mark key="." line="27" column="8" />
         <mark key="^" line="20" column="48" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CountryRepository.java" timestamp="1566218217102">
-        <mark key="'" line="12" column="2" />
-        <mark key="j" line="10" column="21" />
-        <mark key="[" line="12" column="2" />
-        <mark key="]" line="12" column="50" />
-        <mark key="." line="12" column="17" />
-        <mark key="^" line="12" column="17" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/DocumentTypeRepository.java" timestamp="1566295011037">
+        <mark key="'" line="11" column="0" />
+        <mark key="[" line="9" column="25" />
+        <mark key="]" line="9" column="46" />
+        <mark key="." line="9" column="46" />
+        <mark key="^" line="9" column="46" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" timestamp="1566221083888">
-        <mark key="'" line="76" column="4" />
-        <mark key="[" line="77" column="0" />
-        <mark key="]" line="78" column="31" />
-        <mark key="^" line="78" column="31" />
-        <mark key="." line="78" column="31" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PassengerTypeDTO.java" timestamp="1566288206873">
+        <mark key="'" line="14" column="28" />
+        <mark key="[" line="20" column="38" />
+        <mark key="]" line="20" column="37" />
+        <mark key="." line="20" column="37" />
+        <mark key="^" line="20" column="37" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CountryRepository.java" timestamp="1566294946468">
+        <mark key="'" line="9" column="2" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+        <mark key="^" line="8" column="1" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" timestamp="1566290495302">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="127" column="0" />
+        <mark key="^" line="15" column="12" />
+        <mark key="." line="15" column="12" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/IUserService.java" timestamp="1566212944273">
         <mark key="'" line="0" column="0" />
@@ -32,12 +45,32 @@
         <mark key="^" line="6" column="30" />
         <mark key="." line="6" column="30" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/PassengerTypeRepository.java" timestamp="1566294892073">
+        <mark key="'" line="12" column="0" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="^" line="10" column="48" />
+        <mark key="." line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/role.xml" timestamp="1566293298479" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PortDockSlotDTO.java" timestamp="1566205497692">
         <mark key="'" line="12" column="30" />
         <mark key="[" line="19" column="31" />
         <mark key="]" line="19" column="46" />
         <mark key="." line="19" column="46" />
         <mark key="^" line="19" column="46" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AccommodationDTO.java" timestamp="1566288641849">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="13" column="2" />
+        <mark key="]" line="13" column="2" />
+        <mark key="^" line="11" column="7" />
+        <mark key="." line="13" column="4" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/LocationEDTO.java" timestamp="1566288098105">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="31" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortDockSlot.java" timestamp="1566205443746">
         <mark key="'" line="17" column="4" />
@@ -46,13 +79,32 @@
         <mark key="." line="7" column="44" />
         <mark key="^" line="7" column="44" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" timestamp="1566195466175" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" timestamp="1566296217461" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/VesselController.java" timestamp="1566289684259">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="59" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/SailingTypeRepository.java" timestamp="1566218252081">
         <mark key="'" line="13" column="50" />
         <mark key="[" line="13" column="28" />
         <mark key="]" line="13" column="44" />
         <mark key="^" line="13" column="44" />
         <mark key="." line="13" column="44" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDatumDTO.java" timestamp="1566288782044">
+        <mark key="'" line="41" column="2" />
+        <mark key="[" line="68" column="16" />
+        <mark key="]" line="68" column="16" />
+        <mark key="^" line="68" column="16" />
+        <mark key="." line="68" column="16" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDatumRepository.java" timestamp="1566293425039">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="8" column="11" />
+        <mark key="]" line="8" column="22" />
+        <mark key="." line="8" column="22" />
+        <mark key="^" line="8" column="22" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/SailingCargo.java" timestamp="1566197919133">
         <mark key="'" line="17" column="2" />
@@ -61,12 +113,26 @@
         <mark key="^" line="6" column="43" />
         <mark key="." line="6" column="43" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataDTO.java" timestamp="1566282342884">
+        <mark key="'" line="36" column="24" />
+        <mark key="[" line="42" column="0" />
+        <mark key="]" line="42" column="0" />
+        <mark key="^" line="41" column="28" />
+        <mark key="." line="42" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Country.java" timestamp="1566202875298">
         <mark key="'" line="17" column="4" />
         <mark key="[" line="17" column="4" />
         <mark key="]" line="21" column="24" />
         <mark key="^" line="7" column="38" />
         <mark key="." line="7" column="38" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/IEntrantDatumService.java" timestamp="1566294647080">
+        <mark key="'" line="9" column="0" />
+        <mark key="[" line="7" column="2" />
+        <mark key="]" line="7" column="13" />
+        <mark key="." line="7" column="13" />
+        <mark key="^" line="7" column="13" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingCargoTypeDTO.java" timestamp="1566198184238">
         <mark key="'" line="16" column="30" />
@@ -75,10 +141,20 @@
         <mark key="." line="22" column="50" />
         <mark key="^" line="22" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CargoType.java" timestamp="1566198121631">
-        <mark key="'" line="18" column="3" />
-        <mark key="[" line="18" column="3" />
-        <mark key="]" line="22" column="30" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/DocumentType.java" timestamp="1566288477222">
+        <mark key="'" line="68" column="2" />
+        <mark key="[" line="53" column="2" />
+        <mark key="]" line="68" column="3" />
+        <mark key="." line="53" column="2" />
+        <mark key="^" line="53" column="1" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/user.xml" timestamp="1566293319725" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CompanyAccommodationDTO.java" timestamp="1566287219163">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="25" column="81" />
+        <mark key="]" line="25" column="81" />
+        <mark key="." line="25" column="81" />
+        <mark key="^" line="25" column="81" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/LocationAssembler.java" timestamp="1566205280213">
         <mark key="'" line="0" column="0" />
@@ -87,11 +163,32 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CompanyAccommodation.java" timestamp="1566286687257">
+        <mark key="'" line="10" column="0" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="19" column="41" />
+        <mark key="^" line="29" column="0" />
+        <mark key="." line="29" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" timestamp="1566223276083">
+        <mark key="'" line="33" column="20" />
+        <mark key="[" line="1" column="24" />
+        <mark key="]" line="33" column="22" />
+        <mark key="^" line="33" column="22" />
+        <mark key="." line="33" column="22" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/AbstractResponseUtils.java" timestamp="1566196465981">
         <mark key="'" line="54" column="75" />
         <mark key="[" line="53" column="0" />
         <mark key="]" line="53" column="0" />
         <mark key="." line="53" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDataTypeRepository.java" timestamp="1566294965818">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="9" column="52" />
+        <mark key="^" line="9" column="52" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/PortDockSlotAssembler.java" timestamp="1566205627319">
         <mark key="'" line="36" column="0" />
@@ -100,12 +197,25 @@
         <mark key="." line="19" column="22" />
         <mark key="^" line="19" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CompanyRepository.java" timestamp="1566217514586">
-        <mark key="'" line="16" column="2" />
-        <mark key="[" line="16" column="2" />
-        <mark key="]" line="16" column="50" />
-        <mark key="." line="16" column="9" />
-        <mark key="^" line="16" column="9" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CompanyDTO.java" timestamp="1566287037096">
+        <mark key="'" line="22" column="24" />
+        <mark key="[" line="39" column="50" />
+        <mark key="]" line="39" column="50" />
+        <mark key="." line="39" column="50" />
+        <mark key="^" line="39" column="50" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/entrant_data_POST.json" timestamp="1566296495674">
+        <mark key="'" line="35" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="35" column="1" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CompanyRepository.java" timestamp="1566294270367">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="18" column="51" />
+        <mark key="^" line="18" column="51" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/CountryController.java" timestamp="1566203260380">
         <mark key="'" line="60" column="0" />
@@ -114,13 +224,20 @@
         <mark key="." line="58" column="81" />
         <mark key="^" line="58" column="81" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" timestamp="1566221260748">
-        <mark key="'" line="73" column="4" />
-        <mark key="k" line="70" column="0" />
-        <mark key="[" line="111" column="0" />
-        <mark key="]" line="111" column="0" />
-        <mark key="^" line="110" column="91" />
-        <mark key="." line="111" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" timestamp="1566296130373">
+        <mark key="'" line="43" column="2" />
+        <mark key="k" line="68" column="0" />
+        <mark key="[" line="43" column="38" />
+        <mark key="]" line="43" column="62" />
+        <mark key="^" line="43" column="62" />
+        <mark key="." line="43" column="62" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Company.java" timestamp="1566286261402">
+        <mark key="'" line="22" column="1" />
+        <mark key="[" line="22" column="1" />
+        <mark key="]" line="40" column="24" />
+        <mark key="^" line="243" column="1" />
+        <mark key="." line="267" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/ISailingInterface.java" timestamp="1566213002552">
         <mark key="'" line="9" column="0" />
@@ -129,8 +246,12 @@
         <mark key="." line="7" column="47" />
         <mark key="^" line="7" column="47" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Vessel.java" timestamp="1566218911283">
-        <mark key="'" line="167" column="2" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/DocumentTypeDTO.java" timestamp="1566288669098">
+        <mark key="'" line="22" column="0" />
+        <mark key="[" line="6" column="56" />
+        <mark key="]" line="6" column="68" />
+        <mark key="." line="6" column="68" />
+        <mark key="^" line="6" column="68" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingCargoDTO.java" timestamp="1566198241099">
         <mark key="'" line="0" column="0" />
@@ -153,18 +274,12 @@
         <mark key="^" line="57" column="90" />
         <mark key="." line="57" column="90" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/Vessel_EDTO.java" timestamp="1566217290238">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/Vessel_EDTO.java" timestamp="1566222325648">
         <mark key="'" line="36" column="6" />
-        <mark key="[" line="36" column="29" />
-        <mark key="]" line="36" column="50" />
-        <mark key="." line="36" column="50" />
-        <mark key="^" line="36" column="50" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/FetchBookingDataBatch.java" timestamp="1566208645526" />
-      <file name="$USER_HOME$/projects/pcs/rhodes/domain_old/BaseEntity.java" timestamp="1566220574189">
-        <mark key="'" line="20" column="4" />
-        <mark key="[" line="20" column="4" />
-        <mark key="]" line="21" column="62" />
+        <mark key="[" line="41" column="60" />
+        <mark key="]" line="42" column="7" />
+        <mark key="." line="42" column="7" />
+        <mark key="^" line="42" column="7" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/UserService.java" timestamp="1566213059484">
         <mark key="'" line="0" column="0" />
@@ -179,6 +294,27 @@
         <mark key="^" line="19" column="46" />
         <mark key="." line="21" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/EntrantDatumController.java" timestamp="1566295880202">
+        <mark key="'" line="43" column="4" />
+        <mark key="[" line="43" column="4" />
+        <mark key="]" line="45" column="62" />
+        <mark key="." line="70" column="2" />
+        <mark key="^" line="48" column="51" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDatumAssembler.java" timestamp="1566289649217">
+        <mark key="'" line="35" column="12" />
+        <mark key="[" line="35" column="139" />
+        <mark key="]" line="35" column="150" />
+        <mark key="." line="35" column="150" />
+        <mark key="^" line="35" column="150" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataTypeDTO.java" timestamp="1566284706150">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="31" column="0" />
+        <mark key="^" line="28" column="73" />
+        <mark key="." line="29" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingDTO.java" timestamp="1566208762782">
         <mark key="'" line="31" column="2" />
         <mark key="[" line="31" column="21" />
@@ -186,12 +322,50 @@
         <mark key="." line="31" column="23" />
         <mark key="^" line="31" column="23" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/ISailingService.java" timestamp="1566213450901">
-        <mark key="'" line="7" column="4" />
-        <mark key="[" line="7" column="4" />
-        <mark key="]" line="7" column="49" />
-        <mark key="." line="9" column="0" />
-        <mark key="^" line="9" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CountryDTO.java" timestamp="1566285613856">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="25" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" timestamp="1566295432176">
+        <mark key="'" line="104" column="42" />
+        <mark key="[" line="109" column="0" />
+        <mark key="]" line="109" column="0" />
+        <mark key="^" line="104" column="44" />
+        <mark key="." line="109" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/ISailingService.java" timestamp="1566290425098">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="7" column="41" />
+        <mark key="^" line="7" column="41" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Accommodation.java" timestamp="1566287092973">
+        <mark key="'" line="21" column="1" />
+        <mark key="[" line="21" column="1" />
+        <mark key="]" line="25" column="28" />
+        <mark key="^" line="62" column="1" />
+        <mark key="." line="62" column="2" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CompanyAccommodationRepository.java" timestamp="1566294478262">
+        <mark key="'" line="12" column="0" />
+        <mark key="[" line="10" column="11" />
+        <mark key="]" line="10" column="30" />
+        <mark key="." line="10" column="30" />
+        <mark key="^" line="10" column="30" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/sailingPOST.json" timestamp="1566296494477">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="35" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PassengerType.java" timestamp="1566288231303">
+        <mark key="'" line="28" column="46" />
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="33" column="0" />
+        <mark key="^" line="29" column="1" />
+        <mark key="." line="33" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/PortDockSlotController.java" timestamp="1566207747584">
         <mark key="'" line="63" column="0" />
@@ -214,12 +388,12 @@
         <mark key="." line="69" column="0" />
         <mark key="^" line="76" column="45" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/LocationRepository.java" timestamp="1566219763376">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/LocationRepository.java" timestamp="1566294834579">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="14" column="27" />
-        <mark key="]" line="14" column="30" />
-        <mark key="." line="14" column="30" />
-        <mark key="^" line="14" column="30" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="12" column="30" />
+        <mark key="^" line="12" column="30" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/PortDockSlotRepository.java" timestamp="1566220407493">
         <mark key="'" line="13" column="0" />
@@ -228,167 +402,209 @@
         <mark key="^" line="11" column="46" />
         <mark key="." line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Sailing.java" timestamp="1566204950380">
-        <mark key="'" line="56" column="0" />
-        <mark key="[" line="56" column="0" />
-        <mark key="]" line="68" column="33" />
-        <mark key="." line="3" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataType.java" timestamp="1566282988332">
+        <mark key="'" line="20" column="4" />
+        <mark key="[" line="20" column="4" />
+        <mark key="]" line="32" column="43" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingAssembler.java" timestamp="1566207815199">
-        <mark key="'" line="38" column="16" />
-        <mark key="[" line="38" column="138" />
-        <mark key="]" line="38" column="149" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingAssembler.java" timestamp="1566289575782">
+        <mark key="'" line="32" column="8" />
+        <mark key="[" line="32" column="8" />
+        <mark key="]" line="32" column="20" />
         <mark key="." line="38" column="149" />
         <mark key="^" line="38" column="149" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDatum.java" timestamp="1566291352973">
+        <mark key="'" line="75" column="49" />
+        <mark key="[" line="47" column="0" />
+        <mark key="m" line="13" column="20" />
+        <mark key="]" line="47" column="0" />
+        <mark key="^" line="71" column="1" />
+        <mark key="." line="47" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingCargoTypeDTO.java" />
-      <jump line="35" column="66" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingCargoController.java" />
-      <jump line="29" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingCargoController.java" />
-      <jump line="9" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingCargoController.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingCargoController.java" />
-      <jump line="60" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/LocationController.java" />
-      <jump line="59" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/LocationController.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CompanyRepository.java" />
-      <jump line="18" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/LocationRepository.java" />
-      <jump line="9" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingAssembler.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingAssembler.java" />
-      <jump line="68" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/LocationAssembler.java" />
-      <jump line="67" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/LocationAssembler.java" />
-      <jump line="39" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingAssembler.java" />
-      <jump line="36" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingAssembler.java" />
-      <jump line="37" column="151" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingAssembler.java" />
-      <jump line="11" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/Vessel_EDTO.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/Vessel_EDTO.java" />
-      <jump line="45" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CountryDTO.java" />
-      <jump line="17" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Country.java" />
-      <jump line="21" column="24" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CountryDTO.java" />
-      <jump line="25" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CountryDTO.java" />
-      <jump line="13" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/LocationController.java" />
-      <jump line="60" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/CountryController.java" />
-      <jump line="59" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/CountryController.java" />
-      <jump line="7" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/LocationRepository.java" />
-      <jump line="3" column="74" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CountryRepository.java" />
-      <jump line="5" column="60" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CountryRepository.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/LocationAssembler.java" />
-      <jump line="42" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CountryAssembler.java" />
-      <jump line="11" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/LocationController.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/LocationController.java" />
-      <jump line="60" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/PortDockSlotController.java" />
-      <jump line="59" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/PortDockSlotController.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/LocationRepository.java" />
-      <jump line="14" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/PortDockSlotRepository.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CountryDTO.java" />
-      <jump line="25" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PortDockSlotDTO.java" />
-      <jump line="17" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortDockSlot.java" />
-      <jump line="21" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PortDockSlotDTO.java" />
-      <jump line="15" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PortDockSlotDTO.java" />
-      <jump line="14" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CountryAssembler.java" />
+      <jump line="81" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PassengerType.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/LocationEDTO.java" />
+      <jump line="31" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PassengerTypeDTO.java" />
+      <jump line="23" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PassengerType.java" />
+      <jump line="16" column="28" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PassengerTypeDTO.java" />
+      <jump line="28" column="46" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PassengerType.java" />
+      <jump line="56" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDatum.java" />
+      <jump line="12" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDatum.java" />
+      <jump line="17" column="41" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/DocumentType.java" />
+      <jump line="24" column="38" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/DocumentType.java" />
+      <jump line="27" column="38" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/DocumentType.java" />
+      <jump line="29" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/DocumentType.java" />
+      <jump line="70" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/DocumentType.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AccommodationDTO.java" />
+      <jump line="24" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/DocumentTypeDTO.java" />
+      <jump line="42" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDatumDTO.java" />
+      <jump line="1" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CountryAssembler.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CountryAssembler.java" />
-      <jump line="36" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/PortDockSlotAssembler.java" />
-      <jump line="38" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingAssembler.java" />
-      <jump line="31" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingDTO.java" />
-      <jump line="62" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RegisterController.java" />
-      <jump line="116" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/IUserService.java" />
-      <jump line="8" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/ISailingInterface.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/UserService.java" />
-      <jump line="24" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="7" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/ISailingService.java" />
-      <jump line="11" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="16" column="43" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="17" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="18" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="19" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/VesselRepository.java" />
-      <jump line="44" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="47" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="48" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="69" column="96" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="70" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="24" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/Vessel_EDTO.java" />
-      <jump line="36" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/Vessel_EDTO.java" />
-      <jump line="16" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CompanyRepository.java" />
-      <jump line="9" column="50" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CountryRepository.java" />
-      <jump line="25" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="58" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="39" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="78" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="84" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="83" column="13" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="22" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="12" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CountryRepository.java" />
-      <jump line="11" column="50" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/SailingTypeRepository.java" />
-      <jump line="32" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="23" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="80" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="86" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="92" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
+      <jump line="36" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDatumAssembler.java" />
+      <jump line="33" column="15" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingAssembler.java" />
+      <jump line="33" column="151" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDatumAssembler.java" />
+      <jump line="27" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDatumAssembler.java" />
+      <jump line="29" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingAssembler.java" />
+      <jump line="26" column="61" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDatumAssembler.java" />
+      <jump line="32" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingAssembler.java" />
+      <jump line="30" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDatumAssembler.java" />
+      <jump line="35" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDatumAssembler.java" />
+      <jump line="15" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/VesselController.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/VesselController.java" />
+      <jump line="59" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/EntrantDatumController.java" />
+      <jump line="58" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/EntrantDatumController.java" />
+      <jump line="14" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDatumRepository.java" />
+      <jump line="28" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/EntrantDatumController.java" />
+      <jump line="34" column="65" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/EntrantDatumController.java" />
+      <jump line="40" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/EntrantDatumController.java" />
+      <jump line="104" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
+      <jump line="71" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/EntrantDatumController.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/ISailingService.java" />
+      <jump line="9" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/IEntrantDatumService.java" />
+      <jump line="40" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="90" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="96" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="61" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="98" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="104" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="62" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="20" column="4" filename="$USER_HOME$/projects/pcs/rhodes/domain_old/BaseEntity.java" />
-      <jump line="15" column="62" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="66" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="65" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="68" column="88" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="71" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="72" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="73" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="74" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="75" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingService.java" />
-      <jump line="48" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
-      <jump line="73" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
+      <jump line="127" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="126" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="67" column="57" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="71" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="74" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="76" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="78" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="80" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="81" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="82" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="83" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="85" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="86" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="93" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="77" column="49" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDatum.java" />
+      <jump line="19" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="28" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="21" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDatumRepository.java" />
+      <jump line="13" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDataTypeRepository.java" />
+      <jump line="64" column="41" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="65" column="21" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="69" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="68" column="112" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="66" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="72" column="42" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="70" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="77" column="58" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CompanyRepository.java" />
+      <jump line="20" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CompanyAccommodationRepository.java" />
+      <jump line="75" column="61" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="23" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/LocationRepository.java" />
+      <jump line="14" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/PassengerTypeRepository.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDataTypeRepository.java" />
+      <jump line="11" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/DocumentTypeRepository.java" />
+      <jump line="79" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="84" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="92" column="54" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="88" column="3" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="24" column="113" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="25" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="91" column="42" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="26" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="97" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="105" column="42" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
+      <jump line="70" column="41" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/EntrantDatumController.java" />
+      <jump line="116" column="32" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
+      <jump line="101" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
+      <jump line="121" column="59" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
+      <jump line="109" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
+      <jump line="43" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/EntrantDatumController.java" />
+      <jump line="88" column="62" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
+      <jump line="60" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
+      <jump line="46" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
+      <jump line="13" column="22" filename="$APPLICATION_CONFIG_DIR$/scratches/sailingPOST.json" />
+      <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/sailingPOST.json" />
+      <jump line="35" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/entrant_data_POST.json" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>HttpStatus</text>
+        <text>sailingTypeResponseUtils</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>y</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIHRoaXMuc2FpbGluZ1R5cGVSZXBvc2l0b3J5ID0gc2FpbGluZ1R5cGVSZXBvc2l0b3J5Owo=</text>
+      <register name="0" type="4">
+        <text>{
+  &quot;arrival&quot;: &quot;2019-07-08 10:00:00&quot;,
+  &quot;departure&quot;: &quot;2019-08-08 21:00:00&quot;,
+  &quot;scheduledArrival&quot;: &quot;2019-07-08 10:00:00&quot;,
+  &quot;scheduledDeparture&quot;: &quot;2019-08-21 10:00:00&quot;,
+  &quot;passengerProtocol&quot;: 1231231,
+  &quot;vehicleProtocol&quot;: 2321312,
+  &quot;crewProtocol&quot;: 32424,
+  &quot;remarks&quot;: &quot;Remarks&quot;,
+  &quot;code&quot;: &quot;CODE&quot;,
+  &quot;active&quot;: 1,
+  &quot;vessel&quot;: {
+    &quot;imoCode&quot;: &quot;imo-1&quot;,
+    &quot;hinCode&quot;: &quot;hin-1&quot;,
+    &quot;vesselName&quot;: &quot;VESSEL_1&quot;,
+    &quot;compCode&quot;: &quot;cmp-1&quot;,
+    &quot;defaultPassengerProtocol&quot;: 123123,
+    &quot;defaultVehicleProtocol&quot;: 32434,
+    &quot;companyCode&quot;: &quot;C1&quot;,
+    &quot;countryCode&quot;: &quot;GR&quot;,
+    &quot;sailingTypeCode&quot;: &quot;ST_CODE_1&quot;
+  },
+  &quot;sailingType&quot;: {
+    &quot;code&quot;: &quot;ST_CODE_1&quot;,
+    &quot;description&quot;: &quot;Description&quot;
+  },
+  &quot;originLocation&quot;: {
+    &quot;code&quot;: 93
+  },
+  &quot;destinationLocation&quot;: {
+    &quot;code&quot;: 264
+  },
+  &quot;portDockSlot&quot;: {
+    &quot;code&quot;: &quot;PDS_CODE_1&quot;
+  }
+}</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>sailingTypeResponseUtils</text>
       </register>
       <register name="2" type="4">
-        <text>HttpStatus</text>
+        <text>SailingType</text>
       </register>
       <register name="3" type="4">
-        <text>sailing</text>
+        <text>sailingTypeResponseUtils</text>
       </register>
       <register name="4" type="4">
-        <text>getSingleResourceResponseEntity</text>
+        <text>SailingType</text>
       </register>
       <register name="5" type="4">
-        <text>sailingResponseUtils</text>
+        <text>sailingService</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>SailingService</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHNhaWxpbmdSZXBvc2l0b3J5LnNhdmUoc2FpbGluZyk7Cg==</text>
+      <register name="7" type="4">
+        <text encoding="base64">QFJlcXVlc3RNYXBwaW5nKAogICAgICAgICAgbWV0aG9kID0gUmVxdWVzdE1ldGhvZC5QT1NULAogICAgICAgICAgcGF0aCA9ICIvZW50cmFudERhdGEiLAogICAgICAgICAgcHJvZHVjZXMgPSBNZWRpYVR5cGVzLkhBTF9KU09OX1ZBTFVFKQogIHB1YmxpYyBIdHRwRW50aXR5PFJlc291cmNlU3VwcG9ydD4gY3JlYXRlRW50cmFudERhdHVtKEBSZXF1ZXN0Qm9keSBFbnRyYW50RGF0dW0gZW50cmFudERhdHVtUmVxdWVzdCkgewogICAgRW50cmFudERhdHVtIGVudHJhbnREYXR1bSA9IGVudHJhbnREYXR1bVNlcnZpY2UucGVyc2lzdEVudHJhbnREYXR1bShlbnRyYW50RGF0dW1SZXF1ZXN0KTsKICAgIHJldHVybiBlbnRyYW50RGF0dW1SZXNwb25zZVV0aWxzLmdldFNpbmdsZVJlc291cmNlUmVzcG9uc2VFbnRpdHkoZW50cmFudERhdHVtLCBIdHRwU3RhdHVzLkNSRUFURUQpOwogIH0=</text>
       </register>
       <register name="x" type="4">
-        <text>HttpStatus</text>
+        <text>sailingTypeResponseUtils</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -408,28 +624,28 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action GotoImplementation</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gTW92ZUVkaXRvclRvT3Bwb3NpdGVUYWJHcm91cA==</entry>
-        <entry>action FileStructurePopup</entry>
-        <entry encoding="base64">JzwsJz5ub3JtLg==</entry>
         <entry>action FindUsages</entry>
         <entry>.action AceLineAction</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action Replace</entry>
-        <entry>action SplitVertically</entry>
-        <entry>action RenameElement</entry>
         <entry>action CloseContent</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action Find</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action VimWindowClose</entry>
+        <entry>action SplitVertically</entry>
+        <entry>action GotoSymbol</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gQWNlQWN0aW9u</entry>
+        <entry>action RenameElement</entry>
+        <entry>action Replace</entry>
         <entry>action $SelectAll</entry>
-        <entry>action GotoFile</entry>
-        <entry>action NextTab</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action OptimizeImports</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action AceAction</entry>
-        <entry>action PreviousTab</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
+        <entry>action Find</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action OptimizeImports</entry>
+        <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
