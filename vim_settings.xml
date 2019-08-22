@@ -163,6 +163,11 @@
         <mark key="." line="41" column="30" />
         <mark key="^" line="41" column="30" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/logging/HttpLogger.java" timestamp="1566461899895">
+        <mark key="'" line="29" column="4" />
+        <mark key="[" line="29" column="4" />
+        <mark key="]" line="29" column="57" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingCargoTypeDTO.java" timestamp="1566305168681">
         <mark key="'" line="16" column="30" />
         <mark key="[" line="23" column="37" />
@@ -394,12 +399,13 @@
         <mark key="." line="6" column="41" />
         <mark key="^" line="6" column="41" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" timestamp="1566461061265">
-        <mark key="'" line="74" column="78" />
-        <mark key="[" line="30" column="50" />
-        <mark key="]" line="31" column="45" />
-        <mark key="^" line="31" column="45" />
-        <mark key="." line="31" column="45" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" timestamp="1566463062321">
+        <mark key="'" line="102" column="12" />
+        <mark key="k" line="41" column="20" />
+        <mark key="[" line="102" column="22" />
+        <mark key="]" line="102" column="54" />
+        <mark key="^" line="102" column="54" />
+        <mark key="." line="102" column="54" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/SailingCargoRepository.java" timestamp="1566303792546">
         <mark key="'" line="0" column="0" />
@@ -497,27 +503,9 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="130" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
-      <jump line="162" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
-      <jump line="151" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
-      <jump line="44" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/requests/sailingPOST.json" />
-      <jump line="35" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/requests/sailingCagoes_POST.json" />
-      <jump line="4" column="21" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/requests/sailingCagoes_POST.json" />
-      <jump line="78" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" />
-      <jump line="39" column="42" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" />
-      <jump line="20" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" />
-      <jump line="51" column="42" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" />
-      <jump line="246" column="12" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="252" column="12" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="245" column="21" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="251" column="50" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConstants.java" />
-      <jump line="1" column="46" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
       <jump line="27" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
       <jump line="25" column="50" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/CountryController.java" />
       <jump line="18" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/LoginController.java" />
-      <jump line="30" column="73" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
       <jump line="50" column="31" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/CountryController.java" />
       <jump line="28" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/CountryController.java" />
       <jump line="25" column="82" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/EntrantDatumController.java" />
@@ -597,13 +585,31 @@
       <jump line="70" column="78" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
       <jump line="242" column="8" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="253" column="20" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
+      <jump line="64" column="22" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="29" column="81" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="53" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/logging/HttpLogger.java" />
+      <jump line="29" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/logging/HttpLogger.java" />
+      <jump line="38" column="57" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="40" column="49" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="42" column="54" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="48" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="95" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="114" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="46" column="67" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="47" column="57" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="30" column="87" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="71" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="92" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="93" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="94" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
+      <jump line="106" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>swagger2</text>
+        <text>PathSelectors.regex(DEFAULT_INCLUDE_PATTERN)</text>
       </register>
       <register name="-" type="4">
         <text>d</text>
@@ -612,37 +618,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">PGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPmlvLnNwcmluZ2ZveDwvZ3JvdXBJZD4KICAgICAgICAgICAgPGFydGlmYWN0SWQ+c3ByaW5nZm94LXN3YWdnZXIyPC9hcnRpZmFjdElkPgogICAgICAgICAgICA8dmVyc2lvbj4ke3NwcmluZ2ZveC1zd2FnZ2VyMi52ZXJzaW9ufTwvdmVyc2lvbj4KICAgICAgICA8L2RlcGVuZGVuY3k+</text>
+        <text>PathSelectors.regex(DEFAULT_INCLUDE_PATTERN)</text>
       </register>
       <register name="1" type="4">
-        <text>swagger2</text>
+        <text>PathSelectors.regex(DEFAULT_INCLUDE_PATTERN)</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVnZXgoIig/IS9yZWdpc3RlcikuKyIpCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>login</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVnZXgoIi92ZXNzZWxzLioiKQo=</text>
       </register>
-      <register name="5" type="4">
-        <text>users</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmVnZXgoIi91c2Vycy4qIiksCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>sailingTypes</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmVnZXgoIi9zYWlsaW5nVHlwZXMuKiIpLAo=</text>
       </register>
-      <register name="7" type="4">
-        <text>Cargoes</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmVnZXgoIi9zYWlsaW5ncy4qIiksCg==</text>
       </register>
       <register name="x" type="4">
-        <text>swagger2</text>
+        <text>PathSelectors.regex(DEFAULT_INCLUDE_PATTERN)</text>
       </register>
-      <register name="8" type="4">
-        <text>root</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmVnZXgoIi9zYWlsaW5nQ2FyZ29lcy4qIiksCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlZ2V4KCIvcm9vdC4qIiksCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVnZXgoIi9yb290LioiKSwK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -667,21 +673,21 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gQWNlQWN0aW9u</entry>
         <entry>action Replace</entry>
         <entry>action $SelectAll</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>150</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action RenameElement</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
         <entry>action HideAllWindows</entry>
         <entry>action SplitVertically</entry>
         <entry>action AceAction</entry>
+        <entry>action QuickJavaDoc</entry>
         <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
-        <entry>action OptimizeImports</entry>
-        <entry>action ReformatCode</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
+        <entry>action NextTab</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
