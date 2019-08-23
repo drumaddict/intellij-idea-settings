@@ -49,12 +49,12 @@
         <mark key="." line="26" column="19" />
         <mark key="^" line="26" column="19" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" timestamp="1566553188853">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" timestamp="1566554790950">
         <mark key="'" line="99" column="0" />
-        <mark key="[" line="38" column="29" />
-        <mark key="]" line="38" column="13" />
-        <mark key="^" line="38" column="13" />
-        <mark key="." line="38" column="13" />
+        <mark key="[" line="11" column="55" />
+        <mark key="]" line="11" column="54" />
+        <mark key="^" line="11" column="54" />
+        <mark key="." line="11" column="54" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/SailingController.java" timestamp="1566480240350">
         <mark key="'" line="155" column="95" />
@@ -394,10 +394,11 @@
         <mark key="^" line="21" column="26" />
         <mark key="." line="21" column="26" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Sailing.java" timestamp="1566553577821">
-        <mark key="[" line="32" column="0" />
-        <mark key="]" line="32" column="0" />
-        <mark key="." line="32" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Sailing.java" timestamp="1566554744287">
+        <mark key="[" line="16" column="44" />
+        <mark key="]" line="16" column="43" />
+        <mark key="." line="16" column="43" />
+        <mark key="^" line="16" column="43" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/PassengerStatsDescriptor.java" timestamp="1565187889121">
         <mark key="[" line="13" column="20" />
@@ -519,7 +520,7 @@
         <text />
       </register>
       <register name="*" type="4">
-        <text>createSailing.notes</text>
+        <text>false</text>
       </register>
       <register name="-" type="4">
         <text>See example</text>
@@ -530,38 +531,38 @@
       <register name="0" type="4">
         <text encoding="base64">PGV4ZWN1dGFibGU+dHJ1ZTwvZXhlY3V0YWJsZT4=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="1" type="4">
+        <text>false</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgPCEtLTxwbHVnaW4+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLSZsdDshJm5kYXNoOyBCdWlsZCBhbiBleGVjdXRhYmxlIEpBUiAmbmRhc2g7Jmd0Oy0tPgogICAgICAgICAgICAgICAgICAgIDwhLS08Z3JvdXBJZD5vcmcuYXBhY2hlLm1hdmVuLnBsdWdpbnM8L2dyb3VwSWQ+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTxhcnRpZmFjdElkPm1hdmVuLWphci1wbHVnaW48L2FydGlmYWN0SWQ+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTx2ZXJzaW9uPiR7c3ByaW5nLWJvb3QudmVyc2lvbn08L3ZlcnNpb24+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLSZsdDshJm5kYXNoOzx2ZXJzaW9uPjMuMS4wPC92ZXJzaW9uPiZuZGFzaDsmZ3Q7LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTxjb25maWd1cmF0aW9uPi0tPgogICAgICAgICAgICAgICAgICAgIDwhLS08YXJjaGl2ZT4tLT4KICAgICAgICAgICAgICAgICAgICA8IS0tPG1hbmlmZXN0Pi0tPgogICAgICAgICAgICAgICAgICAgIDwhLS08YWRkQ2xhc3NwYXRoPnRydWU8L2FkZENsYXNzcGF0aD4tLT4KICAgICAgICAgICAgICAgICAgICA8IS0tPGNsYXNzcGF0aFByZWZpeD5saWIvPC9jbGFzc3BhdGhQcmVmaXg+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTxtYWluQ2xhc3M+Z3IubGlrbm9zc2Nycy5wY3MucmhvZGVzPC9tYWluQ2xhc3M+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTwvbWFuaWZlc3Q+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTwvYXJjaGl2ZT4tLT4KICAgICAgICAgICAgICAgICAgICA8IS0tPGV4ZWN1dGFibGU+dHJ1ZTwvZXhlY3V0YWJsZT4tLT4KICAgICAgICAgICAgICAgICAgICA8IS0tPC9jb25maWd1cmF0aW9uPi0tPgogICAgICAgICAgICAgICAgICAgIDwhLS08L3BsdWdpbj4tLT4=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgYWxsb2NhdGlvblNpemUgPSAxCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="4">
-        <text>createSailing.notes</text>
+        <text encoding="base64">ICAgICAgICAgICAgPCEtLTxwbHVnaW4+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLSZsdDshJm5kYXNoOyBCdWlsZCBhbiBleGVjdXRhYmxlIEpBUiAmbmRhc2g7Jmd0Oy0tPgogICAgICAgICAgICAgICAgICAgIDwhLS08Z3JvdXBJZD5vcmcuYXBhY2hlLm1hdmVuLnBsdWdpbnM8L2dyb3VwSWQ+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTxhcnRpZmFjdElkPm1hdmVuLWphci1wbHVnaW48L2FydGlmYWN0SWQ+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTx2ZXJzaW9uPiR7c3ByaW5nLWJvb3QudmVyc2lvbn08L3ZlcnNpb24+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLSZsdDshJm5kYXNoOzx2ZXJzaW9uPjMuMS4wPC92ZXJzaW9uPiZuZGFzaDsmZ3Q7LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTxjb25maWd1cmF0aW9uPi0tPgogICAgICAgICAgICAgICAgICAgIDwhLS08YXJjaGl2ZT4tLT4KICAgICAgICAgICAgICAgICAgICA8IS0tPG1hbmlmZXN0Pi0tPgogICAgICAgICAgICAgICAgICAgIDwhLS08YWRkQ2xhc3NwYXRoPnRydWU8L2FkZENsYXNzcGF0aD4tLT4KICAgICAgICAgICAgICAgICAgICA8IS0tPGNsYXNzcGF0aFByZWZpeD5saWIvPC9jbGFzc3BhdGhQcmVmaXg+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTxtYWluQ2xhc3M+Z3IubGlrbm9zc2Nycy5wY3MucmhvZGVzPC9tYWluQ2xhc3M+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTwvbWFuaWZlc3Q+LS0+CiAgICAgICAgICAgICAgICAgICAgPCEtLTwvYXJjaGl2ZT4tLT4KICAgICAgICAgICAgICAgICAgICA8IS0tPGV4ZWN1dGFibGU+dHJ1ZTwvZXhlY3V0YWJsZT4tLT4KICAgICAgICAgICAgICAgICAgICA8IS0tPC9jb25maWd1cmF0aW9uPi0tPgogICAgICAgICAgICAgICAgICAgIDwhLS08L3BsdWdpbj4tLT4=</text>
       </register>
-      <register name="5" type="4">
-        <text>sailingcargo.postbody</text>
-      </register>
-      <register name="6" type="4">
-        <text>See</text>
-      </register>
-      <register name="7" type="4">
-        <text>See</text>
-      </register>
-      <register name="x" type="4">
-        <text>createSailing.notes</text>
-      </register>
-      <register name="8" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="4">
+        <text>createSailing.notes</text>
+      </register>
+      <register name="7" type="4">
+        <text>sailingcargo.postbody</text>
+      </register>
+      <register name="x" type="4">
+        <text>false</text>
+      </register>
+      <register name="8" type="4">
+        <text>See</text>
+      </register>
       <register name="9" type="4">
-        <text>example</text>
+        <text>See</text>
       </register>
       <register name=":" type="4">
-        <text>action QuickJavaDoc</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -596,8 +597,8 @@
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
-        <entry>action SaveAll</entry>
         <entry>action QuickJavaDoc</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
