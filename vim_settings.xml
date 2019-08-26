@@ -83,11 +83,12 @@
         <mark key="^" line="12" column="2" />
         <mark key="." line="12" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" timestamp="1566806068787">
-        <mark key="[" line="28" column="58" />
-        <mark key="]" line="29" column="19" />
-        <mark key="." line="29" column="19" />
-        <mark key="^" line="29" column="19" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" timestamp="1566808566259">
+        <mark key="'" line="28" column="35" />
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="28" column="36" />
+        <mark key="^" line="29" column="0" />
+        <mark key="." line="26" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RootController.java" timestamp="1566458483011">
         <mark key="'" line="36" column="33" />
@@ -212,12 +213,12 @@
         <mark key="^" line="22" column="51" />
         <mark key="." line="22" column="51" />
       </file>
-      <file name="$USER_HOME$/projects/monitor/src/main/resources/application.properties" timestamp="1566803950468">
-        <mark key="'" line="21" column="39" />
-        <mark key="[" line="10" column="37" />
-        <mark key="]" line="10" column="38" />
-        <mark key="^" line="10" column="38" />
-        <mark key="." line="10" column="38" />
+      <file name="$USER_HOME$/projects/monitor/src/main/resources/application.properties" timestamp="1566807998851">
+        <mark key="'" line="11" column="39" />
+        <mark key="[" line="11" column="37" />
+        <mark key="]" line="11" column="29" />
+        <mark key="^" line="11" column="29" />
+        <mark key="." line="11" column="29" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/pom.xml" timestamp="1566550432825">
         <mark key="'" line="106" column="18" />
@@ -409,7 +410,7 @@
         <mark key="." line="16" column="43" />
         <mark key="^" line="16" column="43" />
       </file>
-      <file name="$USER_HOME$/projects/monitor/src/main/java/com/liknoss/monitor/configuration/SecurityConfig.java" timestamp="1566806394211">
+      <file name="$USER_HOME$/projects/monitor/src/main/java/com/liknoss/monitor/configuration/SecurityConfig.java" timestamp="1566807794253">
         <mark key="'" line="48" column="104" />
         <mark key="[" line="48" column="0" />
         <mark key="]" line="48" column="8" />
@@ -430,14 +431,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="242" column="8" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="253" column="20" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
-      <jump line="64" column="22" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
-      <jump line="29" column="81" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
-      <jump line="53" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/logging/HttpLogger.java" />
-      <jump line="29" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/logging/HttpLogger.java" />
-      <jump line="38" column="57" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
-      <jump line="40" column="49" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
       <jump line="42" column="54" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
       <jump line="48" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
       <jump line="95" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
@@ -530,13 +523,21 @@
       <jump line="20" column="47" filename="$USER_HOME$/projects/monitor/pom.xml" />
       <jump line="33" column="66" filename="$USER_HOME$/projects/monitor/src/main/java/com/liknoss/monitor/configuration/SecurityConfig.java" />
       <jump line="48" column="104" filename="$USER_HOME$/projects/monitor/src/main/java/com/liknoss/monitor/configuration/SecurityConfig.java" />
+      <jump line="16" column="0" filename="$USER_HOME$/projects/monitor/src/main/resources/application.properties" />
+      <jump line="13" column="0" filename="$USER_HOME$/projects/monitor/src/main/resources/application.properties" />
+      <jump line="14" column="0" filename="$USER_HOME$/projects/monitor/src/main/resources/application.properties" />
+      <jump line="10" column="26" filename="$USER_HOME$/projects/monitor/src/main/resources/application.properties" />
+      <jump line="11" column="39" filename="$USER_HOME$/projects/monitor/src/main/resources/application.properties" />
+      <jump line="29" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" />
+      <jump line="34" column="54" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" />
+      <jump line="28" column="35" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>gr</text>
+        <text>admin</text>
       </register>
       <register name="-" type="4">
         <text>See example</text>
@@ -545,37 +546,41 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">PGV4ZWN1dGFibGU+dHJ1ZTwvZXhlY3V0YWJsZT4=</text>
+        <text>liknoss2019</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>#Spring Security
+#spring.security.user.name=admin
+#spring.security.user.password=admin</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>#spring.boot.admin.client.metadata.user.name=client
+#spring.boot.admin.client.metadata.user.password=client</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">PCEtLTxwcm9maWxlcz4tLT4KICAgIDwhLS08cHJvZmlsZT4tLT4KICAgIDwhLS08aWQ+ZGV2PC9pZD4tLT4KICAgIDwhLS08cHJvcGVydGllcz4tLT4KICAgIDwhLS08ZW52PmRldjwvZW52Pi0tPgogICAgPCEtLTwvcHJvcGVydGllcz4tLT4KICAgIDwhLS08YWN0aXZhdGlvbj4tLT4KICAgIDwhLS08YWN0aXZlQnlEZWZhdWx0PnRydWU8L2FjdGl2ZUJ5RGVmYXVsdD4tLT4KICAgIDwhLS08b3M+LS0+CiAgICA8IS0tPG5hbWU+d2luZG93cyAxMDwvbmFtZT4tLT4KICAgIDwhLS08ZmFtaWx5PldpbmRvd3M8L2ZhbWlseT4tLT4KICAgIDwhLS08YXJjaD5hbWQ2NDwvYXJjaD4tLT4KICAgIDwhLS08dmVyc2lvbj4xMC4wPC92ZXJzaW9uPi0tPgogICAgPCEtLTwvb3M+LS0+CiAgICA8IS0tPC9hY3RpdmF0aW9uPi0tPgogICAgPCEtLTxidWlsZD4tLT4KICAgIDwhLS08cGx1Z2lucz4tLT4KICAgIDwhLS08cGx1Z2luPi0tPgogICAgPCEtLTxncm91cElkPm9yZy5hcGFjaGUubWF2ZW4ucGx1Z2luczwvZ3JvdXBJZD4tLT4KICAgIDwhLS08YXJ0aWZhY3RJZD5tYXZlbi1zdXJlZmlyZS1wbHVnaW48L2FydGlmYWN0SWQ+LS0+CiAgICA8IS0tPGNvbmZpZ3VyYXRpb24+LS0+CiAgICA8IS0tPHNraXBUZXN0cz5mYWxzZTwvc2tpcFRlc3RzPi0tPgogICAgPCEtLTwvY29uZmlndXJhdGlvbj4tLT4KICAgIDwhLS08L3BsdWdpbj4tLT4KICAgIDwhLS08L3BsdWdpbnM+LS0+CiAgICA8IS0tPC9idWlsZD4tLT4KICAgIDwhLS08L3Byb2ZpbGU+LS0+CiAgICA8IS0tPHByb2ZpbGU+LS0+CiAgICA8IS0tPGlkPnJlbDwvaWQ+LS0+CiAgICA8IS0tPHByb3BlcnRpZXM+LS0+CiAgICA8IS0tPGVudj5yZWw8L2Vudj4tLT4KICAgIDwhLS08L3Byb3BlcnRpZXM+LS0+CiAgICA8IS0tPGJ1aWxkPi0tPgogICAgPCEtLTxwbHVnaW5zPi0tPgogICAgPCEtLTxwbHVnaW4+LS0+CiAgICA8IS0tPGdyb3VwSWQ+b3JnLnNwcmluZ2ZyYW1ld29yay5ib290PC9ncm91cElkPi0tPgogICAgPCEtLTxhcnRpZmFjdElkPnNwcmluZy1ib290LW1hdmVuLXBsdWdpbjwvYXJ0aWZhY3RJZD4tLT4KICAgIDwhLS08dmVyc2lvbj4ke3NwcmluZy1ib290LnZlcnNpb259PC92ZXJzaW9uPi0tPgogICAgPCEtLTxleGVjdXRpb25zPi0tPgogICAgPCEtLTxleGVjdXRpb24+LS0+CiAgICA8IS0tPGdvYWxzPi0tPgogICAgPCEtLTxnb2FsPmJ1aWxkLWluZm88L2dvYWw+LS0+CiAgICA8IS0tPGdvYWw+cmVwYWNrYWdlPC9nb2FsPi0tPgogICAgPCEtLTwvZ29hbHM+LS0+CiAgICA8IS0tPC9leGVjdXRpb24+LS0+CiAgICA8IS0tPC9leGVjdXRpb25zPi0tPgogICAgPCEtLTxjb25maWd1cmF0aW9uPi0tPgogICAgPCEtLTxleGVjdXRhYmxlPnRydWU8L2V4ZWN1dGFibGU+LS0+CiAgICA8IS0tPC9jb25maWd1cmF0aW9uPi0tPgogICAgPCEtLTwvcGx1Z2luPi0tPgogICAgPCEtLTxwbHVnaW4+LS0+CiAgICA8IS0tPGdyb3VwSWQ+b3JnLmFwYWNoZS5tYXZlbi5wbHVnaW5zPC9ncm91cElkPi0tPgogICAgPCEtLTxhcnRpZmFjdElkPm1hdmVuLXN1cmVmaXJlLXBsdWdpbjwvYXJ0aWZhY3RJZD4tLT4KICAgIDwhLS08Y29uZmlndXJhdGlvbj4tLT4KICAgIDwhLS08c2tpcFRlc3RzPnRydWU8L3NraXBUZXN0cz4tLT4KICAgIDwhLS08L2NvbmZpZ3VyYXRpb24+LS0+CiAgICA8IS0tPC9wbHVnaW4+LS0+CiAgICA8IS0tPC9wbHVnaW5zPi0tPgogICAgPCEtLTwvYnVpbGQ+LS0+CiAgICA8IS0tPC9wcm9maWxlPi0tPgogICAgPCEtLTxwcm9maWxlPi0tPgogICAgPCEtLSZsdDshJm5kYXNoOyBza2lwIHVuaXQgdGVzdCAmbmRhc2g7Jmd0Oy0tPgogICAgPCEtLTxpZD54dGVzdDwvaWQ+LS0+CiAgICA8IS0tPHByb3BlcnRpZXM+LS0+CiAgICA8IS0tPGFjdGl2YXRlZFByb3BlcnRpZXM+eHRlc3Q8L2FjdGl2YXRlZFByb3BlcnRpZXM+LS0+CiAgICA8IS0tPG1hdmVuLnRlc3Quc2tpcD50cnVlPC9tYXZlbi50ZXN0LnNraXA+LS0+CiAgICA8IS0tPC9wcm9wZXJ0aWVzPi0tPgogICAgPCEtLTwvcHJvZmlsZT4tLT4KICAgIDwhLS08L3Byb2ZpbGVzPi0tPg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIAo=</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICAgPCEtLTxleGVjdXRpb25zPi0tPgogICAgICAgICAgICAgICAgPCEtLTxleGVjdXRpb24+LS0+CiAgICAgICAgICAgICAgICA8IS0tPGlkPnNob3ctcHJvZmlsZXM8L2lkPi0tPgogICAgICAgICAgICAgICAgPCEtLTxwaGFzZT5jb21waWxlPC9waGFzZT4tLT4KICAgICAgICAgICAgICAgIDwhLS08Z29hbHM+LS0+CiAgICAgICAgICAgICAgICA8IS0tPGdvYWw+YWN0aXZlLXByb2ZpbGVzPC9nb2FsPi0tPgogICAgICAgICAgICAgICAgPCEtLTwvZ29hbHM+LS0+CiAgICAgICAgICAgICAgICA8IS0tPC9leGVjdXRpb24+LS0+CiAgICAgICAgICAgICAgICA8IS0tPC9leGVjdXRpb25zPi0tPg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">I3NwcmluZy5ib290LmFkbWluLmNvbnRleHQtcGF0aD0vYWRtaW4K</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">I3NwcmluZy5ib290LmFkbWluLm5vCg==</text>
+      </register>
+      <register name="6" type="4">
+        <text>admin</text>
+      </register>
+      <register name="7" type="4">
+        <text>admin</text>
+      </register>
       <register name="x" type="4">
-        <text>gr</text>
+        <text>admin</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="8" type="4">
+        <text>#spring.boot.admin.client.username=admin
+#spring.boot.admin.client.password=admin</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">PCEtLTxkZXBlbmRlbmN5Pi0tPgogICAgICAgICAgICA8IS0tPGdyb3VwSWQ+b3JnLnNwcmluZ2ZyYW1ld29yay5ib290PC9ncm91cElkPi0tPgogICAgICAgICAgICA8IS0tPGFydGlmYWN0SWQ+c3ByaW5nLWJvb3Qtc3RhcnRlci10ZXN0PC9hcnRpZmFjdElkPi0tPgogICAgICAgICAgICA8IS0tPHNjb3BlPnRlc3Q8L3Njb3BlPi0tPgogICAgICAgIDwhLS08L2RlcGVuZGVuY3k+LS0+CiAgICAgICAgPCEtLTxkZXBlbmRlbmN5Pi0tPgogICAgICAgICAgICA8IS0tPGdyb3VwSWQ+b3JnLnNwcmluZ2ZyYW1ld29yay5zZWN1cml0eTwvZ3JvdXBJZD4tLT4KICAgICAgICAgICAgPCEtLTxhcnRpZmFjdElkPnNwcmluZy1zZWN1cml0eS10ZXN0PC9hcnRpZmFjdElkPi0tPgogICAgICAgICAgICA8IS0tPHNjb3BlPnRlc3Q8L3Njb3BlPi0tPgogICAgICAgIDwhLS08L2RlcGVuZGVuY3k+LS0+</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
