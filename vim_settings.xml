@@ -141,12 +141,12 @@
         <mark key="." line="152" column="94" />
         <mark key="^" line="152" column="94" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1566566241753">
-        <mark key="'" line="76" column="38" />
-        <mark key="[" line="76" column="43" />
-        <mark key="]" line="80" column="5" />
-        <mark key="." line="80" column="5" />
-        <mark key="^" line="80" column="5" />
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1566826824313">
+        <mark key="'" line="118" column="145" />
+        <mark key="[" line="117" column="0" />
+        <mark key="]" line="117" column="35" />
+        <mark key="." line="117" column="35" />
+        <mark key="^" line="117" column="35" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-dev.properties" timestamp="1566801348752" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/ItineraryDataStatsDescriptor.java" timestamp="1565187717341">
@@ -271,13 +271,13 @@
         <mark key="." line="22" column="18" />
         <mark key="^" line="22" column="18" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" timestamp="1566553728597">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" timestamp="1566827066902">
         <mark key="'" line="102" column="12" />
         <mark key="k" line="41" column="20" />
-        <mark key="[" line="102" column="22" />
-        <mark key="]" line="102" column="54" />
-        <mark key="^" line="102" column="54" />
-        <mark key="." line="102" column="54" />
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="26" column="0" />
+        <mark key="^" line="26" column="0" />
+        <mark key="." line="26" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" timestamp="1566811558540">
         <mark key="[" line="55" column="0" />
@@ -453,7 +453,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="87" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
       <jump line="71" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
       <jump line="92" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
       <jump line="93" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" />
@@ -553,6 +552,7 @@
       <jump line="17" column="76" filename="$USER_HOME$/projects/monitor/README.md" />
       <jump line="12" column="59" filename="$USER_HOME$/projects/monitor/README.md" />
       <jump line="10" column="0" filename="$USER_HOME$/projects/monitor/README.md" />
+      <jump line="118" column="145" filename="$USER_HOME$/projects/pcs/README.md" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -562,7 +562,7 @@
         <text>as</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>/</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
