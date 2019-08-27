@@ -253,12 +253,12 @@
         <mark key="^" line="11" column="29" />
         <mark key="." line="11" column="29" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/pom.xml" timestamp="1566550432825">
-        <mark key="'" line="106" column="18" />
-        <mark key="[" line="96" column="0" />
-        <mark key="]" line="96" column="0" />
-        <mark key="^" line="100" column="23" />
-        <mark key="." line="96" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/pom.xml" timestamp="1566908960702">
+        <mark key="'" line="105" column="18" />
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="^" line="99" column="23" />
+        <mark key="." line="17" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/requestbodies/EntrantDataWithSailingRQB.java" timestamp="1566905316322">
         <mark key="'" line="9" column="40" />
@@ -381,7 +381,7 @@
         <mark key="." line="48" column="0" />
         <mark key="^" line="59" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1566888974406">
+      <file name="/Dummy.txt" timestamp="1566909077083">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatistics.java" timestamp="1565269302673">
@@ -459,7 +459,6 @@
         <mark key="." line="40" column="0" />
         <mark key="^" line="39" column="69" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardCheckout.java" timestamp="1566896633915" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SalingCargoAssembler.java" timestamp="1565944570819">
         <mark key="[" line="21" column="27" />
         <mark key="]" line="21" column="26" />
@@ -486,7 +485,7 @@
         <mark key="." line="13" column="34" />
         <mark key="^" line="13" column="34" />
       </file>
-      <file name="/fragment.java" timestamp="1566902068171">
+      <file name="/fragment.java" timestamp="1566909077072">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="36" />
         <mark key="^" line="0" column="36" />
@@ -615,32 +614,32 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>The codes that identify the parent fields: entrantDataType, \
 companyAccommodation, passengerType, destinationLocation, country, documentType. \</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>createEntrantData</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>sailingRequest</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAvLyAgcHJpdmF0ZSBJQ29yZVNlcnZpY2U8U2FpbGluZz4gc2FpbGluZ0NvcmVTZXJ2aWNlOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>createEntrantData</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAvLyAgcHJpdmF0ZSBJQ29yZVNlcnZpY2U8U2FpbGluZz4gc2FpbGluZ0NvcmVTZXJ2aWNlOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Ly8gICAgcmV0dXJuIGVudHJhbnREYXRhUmVzcG9uc2U7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -660,9 +659,6 @@ companyAccommodation, passengerType, destinationLocation, country, documentType.
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action GotoSymbol</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gQWNlQWN0aW9u</entry>
-        <entry>action Replace</entry>
         <entry>action $SelectAll</entry>
         <entry>150</entry>
         <entry>action TabShiftActions.StretchUp</entry>
