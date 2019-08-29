@@ -21,6 +21,12 @@
         <mark key="." line="49" column="0" />
         <mark key="^" line="49" column="73" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" timestamp="1567073248251">
+        <mark key="'" line="241" column="34" />
+        <mark key="[" line="241" column="34" />
+        <mark key="]" line="245" column="82" />
+        <mark key="." line="685" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/swagger/Sailing.java" timestamp="1566472682116">
         <mark key="[" line="12" column="0" />
         <mark key="]" line="12" column="4" />
@@ -361,8 +367,6 @@
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/recallTicketRSB.xml" timestamp="1567068821006" />
     </filemarks>
     <jumps>
-      <jump line="17" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/bodymappers/TicketRSB.java" />
-      <jump line="177" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Sailing.java" />
       <jump line="18" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/bodymappers/TicketRSB.java" />
       <jump line="36" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDatum.java" />
       <jump line="23" column="28" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/bodymappers/TicketRSB.java" />
@@ -461,6 +465,8 @@
       <jump line="1" column="18" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/recallTicketsRQB.xml" />
       <jump line="2" column="36" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/recallTicketsRQB.xml" />
       <jump line="8" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/recallTicketsRQB.xml" />
+      <jump line="18" column="22" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" />
+      <jump line="241" column="34" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -476,7 +482,11 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>RESERVATION_CODE</text>
+        <text>You must provide the attributes that  \
+identify the sailing to which you are adding entrant data. Also, you must  \
+provide a collection of entrant data items. XML and JSON formats are supported.\
+If the request is successful, the response is empty with 201 CREATED HTTP Status Header. \
+In case of an error, the type of an error and a brief description will be returned.</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -509,7 +519,7 @@
         <text encoding="base64">ICBwcml2YXRlIFN0cmluZyBjb21wYW55Q29kZTsK</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -544,12 +554,12 @@
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action GotoImplementation</entry>
         <entry>action RenameElement</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
