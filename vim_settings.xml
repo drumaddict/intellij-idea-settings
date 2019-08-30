@@ -371,12 +371,12 @@
         <mark key="^" line="36" column="0" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDatum.java" timestamp="1567148508329">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDatum.java" timestamp="1567148560106">
         <mark key="'" line="80" column="29" />
-        <mark key="[" line="80" column="18" />
-        <mark key="]" line="80" column="32" />
+        <mark key="[" line="116" column="19" />
+        <mark key="]" line="116" column="19" />
         <mark key="^" line="80" column="32" />
-        <mark key="." line="80" column="32" />
+        <mark key="." line="116" column="19" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/PassengerStatsDescriptor.java" timestamp="1565187889121">
         <mark key="[" line="13" column="20" />
@@ -498,7 +498,7 @@
         <text />
       </register>
       <register name="*" type="4">
-        <text>nationality</text>
+        <text>CmpCode</text>
       </register>
       <register name="-" type="4">
         <text>;</text>
@@ -512,37 +512,37 @@
   private Country nationality;</text>
       </register>
       <register name="1" type="4">
-        <text>nationality</text>
+        <text>CmpCode</text>
       </register>
       <register name="2" type="4">
-        <text>country</text>
-      </register>
-      <register name="3" type="4">
-        <text>Code</text>
-      </register>
-      <register name="4" type="4">
-        <text>Number</text>
-      </register>
-      <register name="5" type="4">
-        <text>cmpCode</text>
-      </register>
-      <register name="6" type="4">
-        <text>new Company()</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="x" type="4">
         <text>nationality</text>
       </register>
+      <register name="3" type="4">
+        <text>country</text>
+      </register>
+      <register name="4" type="4">
+        <text>Code</text>
+      </register>
+      <register name="5" type="4">
+        <text>Number</text>
+      </register>
+      <register name="6" type="4">
+        <text>cmpCode</text>
+      </register>
+      <register name="7" type="4">
+        <text>new Company()</text>
+      </register>
+      <register name="x" type="4">
+        <text>CmpCode</text>
+      </register>
       <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">ICAgIHNhaWxpbmcuc2V0QXJyaXZhbChhcnJpdmFsRGF0ZVRpbWUpOwo=</text>
       </register>
-      <register name="9" type="4">
-        <text>COMP_CODE</text>
-      </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -576,9 +576,9 @@
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
