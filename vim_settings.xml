@@ -74,7 +74,13 @@
         <mark key="^" line="89" column="69" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/recallTicketRSB.xml" timestamp="1567410149499" />
-      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1567418697846" />
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1567420555671">
+        <mark key="'" line="82" column="45" />
+        <mark key="[" line="82" column="20" />
+        <mark key="]" line="52" column="28" />
+        <mark key="^" line="52" column="28" />
+        <mark key="." line="52" column="28" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0260_vessel_types.xml" timestamp="1567152799477">
         <mark key="[" line="31" column="27" />
         <mark key="]" line="31" column="37" />
@@ -471,6 +477,12 @@
         <mark key="^" line="6" column="9" />
         <mark key="." line="6" column="9" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" timestamp="1567420568337">
+        <mark key="[" line="72" column="32" />
+        <mark key="]" line="72" column="32" />
+        <mark key="^" line="72" column="32" />
+        <mark key="." line="72" column="32" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" timestamp="1566811558540">
         <mark key="[" line="55" column="0" />
         <mark key="]" line="56" column="41" />
@@ -584,7 +596,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="58" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0440_agency_company_vessel.xml" />
       <jump line="17" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0320_comp_accommodations.xml" />
       <jump line="28" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0320_comp_accommodations.xml" />
       <jump line="38" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0320_comp_accommodations.xml" />
@@ -684,13 +695,14 @@
       <jump line="12" column="14" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/sailings_POST_description.txt" />
       <jump line="6" column="53" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/entrantData_POST_description.txt" />
       <jump line="5" column="27" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/entrantData_POST_description.txt" />
+      <jump line="82" column="45" filename="$USER_HOME$/projects/pcs/README.md" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>passengerProtocol</text>
+        <text>json</text>
       </register>
       <register name="-" type="4">
         <text>vessel.getSailingType().getCode();</text>
@@ -724,11 +736,11 @@ In case of an error, the type of an error and a brief description will be return
 
 JSON and XML formats are supported. We recommend JSON.</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>json</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>application</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -737,23 +749,23 @@ JSON and XML formats are supported. We recommend JSON.</text>
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">TWFuZGF0b3J5IEZpZWxkczoK</text>
       </register>
-      <register name="6" type="4">
+      <register name="x" type="4">
+        <text>json</text>
+      </register>
+      <register name="8" type="4">
         <text>vessel.cmp_code, scheduledArrival, scheduledDeparture,
 companyCode, originLocation.code, destinationLocation.code</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="x" type="4">
-        <text>passengerProtocol</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">WW91IHdpbGwgYmUgYWJsZSB0byByZXRyaWV2ZSB0aGVzZSBpZGVudGlmaWVycyB3aXRoIGFkZGl0aW9uYWwgZW5kcG9pbnRzIGluIHRoZSBuZWFyIGZ1dHVyZS4K</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">cG9ydERvY2tTbG90Lgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -788,10 +800,10 @@ companyCode, originLocation.code, destinationLocation.code</text>
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
