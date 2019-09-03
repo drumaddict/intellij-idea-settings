@@ -3,11 +3,24 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/PermissionController.java" timestamp="1567431891999">
+        <mark key="[" line="89" column="52" />
+        <mark key="]" line="89" column="66" />
+        <mark key="^" line="89" column="66" />
+        <mark key="." line="89" column="66" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/SailingRepository.java" timestamp="1567406128318">
         <mark key="[" line="20" column="52" />
         <mark key="]" line="20" column="60" />
         <mark key="^" line="20" column="60" />
         <mark key="." line="20" column="60" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PermissionDTO.java" timestamp="1567428774996">
+        <mark key="'" line="14" column="2" />
+        <mark key="[" line="6" column="64" />
+        <mark key="]" line="6" column="64" />
+        <mark key="." line="6" column="64" />
+        <mark key="^" line="6" column="64" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/UserController.java" timestamp="1567430549936">
         <mark key="'" line="73" column="37" />
@@ -22,22 +35,50 @@
         <mark key="." line="68" column="43" />
         <mark key="^" line="68" column="43" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/entrantData_RQB.json" timestamp="1567407323467">
+        <mark key="[" line="3" column="27" />
+        <mark key="]" line="3" column="45" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/recallTickets_GET_description.txt" timestamp="1567417692385">
+        <mark key="[" line="1" column="67" />
+        <mark key="]" line="1" column="60" />
+        <mark key="^" line="1" column="60" />
+        <mark key="." line="1" column="60" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/.castor.cdr" timestamp="1565186534932">
         <mark key="[" line="49" column="0" />
         <mark key="]" line="49" column="0" />
         <mark key="." line="49" column="0" />
         <mark key="^" line="49" column="73" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" timestamp="1567492328956">
+        <mark key="[" line="1" column="42" />
+        <mark key="]" line="1" column="44" />
+        <mark key="." line="1" column="44" />
+        <mark key="^" line="1" column="44" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/controllers_old/UserController.java" timestamp="1567427500520">
         <mark key="'" line="167" column="2" />
         <mark key="[" line="167" column="2" />
         <mark key="]" line="176" column="2" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/swagger/Sailing.java" timestamp="1566472682116">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="4" />
+        <mark key="." line="12" column="4" />
+        <mark key="^" line="12" column="4" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/VesselType.java" timestamp="1567169751135">
         <mark key="[" line="22" column="2" />
         <mark key="]" line="22" column="1" />
         <mark key="^" line="22" column="1" />
         <mark key="." line="22" column="1" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/RoleController.java" timestamp="1567433708429">
+        <mark key="[" line="30" column="26" />
+        <mark key="]" line="30" column="31" />
+        <mark key="^" line="30" column="31" />
+        <mark key="." line="30" column="31" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/portcontrol/TServer.java" timestamp="1565686422562">
         <mark key="[" line="12" column="2" />
@@ -76,232 +117,6 @@
         <mark key="^" line="5" column="29" />
         <mark key="." line="26" column="29" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/recallTicketRSB.xml" timestamp="1567410149499" />
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingTypeAssembler.java" timestamp="1567432999563">
-        <mark key="'" line="57" column="0" />
-        <mark key="[" line="57" column="0" />
-        <mark key="]" line="61" column="6" />
-        <mark key="." line="34" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1567420555671">
-        <mark key="'" line="82" column="45" />
-        <mark key="[" line="82" column="20" />
-        <mark key="]" line="52" column="28" />
-        <mark key="^" line="52" column="28" />
-        <mark key="." line="52" column="28" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0260_vessel_types.xml" timestamp="1567152799477">
-        <mark key="[" line="31" column="27" />
-        <mark key="]" line="31" column="37" />
-        <mark key="." line="31" column="37" />
-        <mark key="^" line="31" column="37" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/ItineraryDataStatsDescriptor.java" timestamp="1565187717341">
-        <mark key="[" line="147" column="44" />
-        <mark key="]" line="147" column="57" />
-        <mark key="^" line="147" column="57" />
-        <mark key="." line="147" column="57" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/apbasend/descriptors/SyntaxInfoDescriptor.java" timestamp="1565361597946">
-        <mark key="[" line="13" column="20" />
-        <mark key="]" line="13" column="28" />
-        <mark key="." line="13" column="28" />
-        <mark key="^" line="13" column="28" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/recallTicketsRQB.xml" timestamp="1567410105390" />
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/RolePermission.java" timestamp="1565596627393">
-        <mark key="[" line="68" column="46" />
-        <mark key="]" line="68" column="63" />
-        <mark key="^" line="68" column="63" />
-        <mark key="." line="68" column="63" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1565266859985">
-        <mark key="[" line="1134" column="44" />
-        <mark key="]" line="1134" column="3" />
-        <mark key="^" line="1134" column="3" />
-        <mark key="." line="1134" column="3" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RoleController.java" timestamp="1567433291257">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="69" column="68" />
-        <mark key="]" line="69" column="91" />
-        <mark key="^" line="69" column="91" />
-        <mark key="." line="69" column="91" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Country.java" timestamp="1567162892561">
-        <mark key="[" line="38" column="27" />
-        <mark key="]" line="38" column="33" />
-        <mark key="." line="38" column="33" />
-        <mark key="^" line="38" column="33" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BackOfficeDaemon.java" timestamp="1565689404539">
-        <mark key="[" line="44" column="17" />
-        <mark key="]" line="44" column="18" />
-        <mark key="^" line="44" column="18" />
-        <mark key="." line="44" column="18" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/IEntrantDatumService.java" timestamp="1566906532416">
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="." line="9" column="0" />
-        <mark key="^" line="8" column="65" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/BaseEntity.java" timestamp="1567003149890">
-        <mark key="[" line="11" column="12" />
-        <mark key="]" line="12" column="12" />
-        <mark key="^" line="12" column="12" />
-        <mark key="." line="12" column="12" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/RoleDTO.java" timestamp="1567428577831">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="27" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/RoleCompany.java" timestamp="1565592971213">
-        <mark key="[" line="6" column="70" />
-        <mark key="]" line="6" column="55" />
-        <mark key="^" line="6" column="55" />
-        <mark key="." line="6" column="55" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" timestamp="1565948741880">
-        <mark key="[" line="73" column="21" />
-        <mark key="]" line="73" column="23" />
-        <mark key="^" line="73" column="23" />
-        <mark key="." line="73" column="23" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/RoleAssembler.java" timestamp="1567428494274">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="34" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1566892333416">
-        <mark key="[" line="241" column="61" />
-        <mark key="]" line="242" column="7" />
-        <mark key="^" line="242" column="7" />
-        <mark key="." line="242" column="7" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/login_description.txt" timestamp="1567418616447">
-        <mark key="[" line="7" column="43" />
-        <mark key="]" line="7" column="43" />
-        <mark key="^" line="7" column="43" />
-        <mark key="." line="7" column="43" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/entrantData_POST_description.txt" timestamp="1567417467960">
-        <mark key="'" line="6" column="27" />
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="0" />
-        <mark key="^" line="8" column="49" />
-        <mark key="." line="18" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/portcontrol/ServerLauncher.java" timestamp="1565686346950">
-        <mark key="[" line="77" column="20" />
-        <mark key="]" line="77" column="19" />
-        <mark key="^" line="77" column="19" />
-        <mark key="." line="77" column="19" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/SailingType.java" timestamp="1567169494988">
-        <mark key="[" line="7" column="23" />
-        <mark key="]" line="79" column="37" />
-        <mark key="." line="79" column="37" />
-        <mark key="^" line="79" column="37" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/entrant_data_RQB.xml" timestamp="1567408869714">
-        <mark key="'" line="74" column="40" />
-        <mark key="[" line="74" column="31" />
-        <mark key="]" line="74" column="29" />
-        <mark key="^" line="74" column="29" />
-        <mark key="." line="74" column="29" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" timestamp="1567406171464">
-        <mark key="[" line="44" column="50" />
-        <mark key="]" line="44" column="177" />
-        <mark key="." line="44" column="177" />
-        <mark key="^" line="44" column="177" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/PermissionController.java" timestamp="1567431138513">
-        <mark key="'" line="98" column="2" />
-        <mark key="[" line="46" column="21" />
-        <mark key="]" line="46" column="24" />
-        <mark key="^" line="46" column="24" />
-        <mark key="." line="46" column="24" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/MessageData.java" timestamp="1565187276987">
-        <mark key="[" line="139" column="22" />
-        <mark key="]" line="139" column="36" />
-        <mark key="." line="139" column="36" />
-        <mark key="^" line="139" column="36" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/TicketController.java" timestamp="1566993252815">
-        <mark key="[" line="41" column="40" />
-        <mark key="]" line="41" column="31" />
-        <mark key="." line="41" column="31" />
-        <mark key="^" line="41" column="31" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/RoleRS.java" timestamp="1565938191477">
-        <mark key="[" line="8" column="18" />
-        <mark key="]" line="8" column="19" />
-        <mark key="^" line="8" column="19" />
-        <mark key="." line="8" column="19" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/PcsEntityNotFoundException.java" timestamp="1566811242011">
-        <mark key="[" line="36" column="6" />
-        <mark key="]" line="36" column="5" />
-        <mark key="^" line="36" column="5" />
-        <mark key="." line="36" column="5" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/AbstractResponseUtils.java" timestamp="1566811376908">
-        <mark key="[" line="40" column="0" />
-        <mark key="]" line="40" column="0" />
-        <mark key="." line="40" column="0" />
-        <mark key="^" line="39" column="69" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SalingCargoAssembler.java" timestamp="1565944570819">
-        <mark key="[" line="21" column="27" />
-        <mark key="]" line="21" column="26" />
-        <mark key="^" line="21" column="26" />
-        <mark key="." line="21" column="26" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" timestamp="1567151425504">
-        <mark key="[" line="74" column="0" />
-        <mark key="]" line="74" column="0" />
-        <mark key="^" line="71" column="68" />
-        <mark key="." line="74" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/PermissionController.java" timestamp="1567431891999">
-        <mark key="[" line="89" column="52" />
-        <mark key="]" line="89" column="66" />
-        <mark key="^" line="89" column="66" />
-        <mark key="." line="89" column="66" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PermissionDTO.java" timestamp="1567428774996">
-        <mark key="'" line="14" column="2" />
-        <mark key="[" line="6" column="64" />
-        <mark key="]" line="6" column="64" />
-        <mark key="." line="6" column="64" />
-        <mark key="^" line="6" column="64" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/entrantData_RQB.json" timestamp="1567407323467">
-        <mark key="[" line="3" column="27" />
-        <mark key="]" line="3" column="45" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/recallTickets_GET_description.txt" timestamp="1567417692385">
-        <mark key="[" line="1" column="67" />
-        <mark key="]" line="1" column="60" />
-        <mark key="^" line="1" column="60" />
-        <mark key="." line="1" column="60" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/swagger/Sailing.java" timestamp="1566472682116">
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="12" column="4" />
-        <mark key="." line="12" column="4" />
-        <mark key="^" line="12" column="4" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/RoleController.java" timestamp="1567433708429">
-        <mark key="[" line="30" column="26" />
-        <mark key="]" line="30" column="31" />
-        <mark key="^" line="30" column="31" />
-        <mark key="." line="30" column="31" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/recallTicketsRQB.json" timestamp="1567409203237">
         <mark key="[" line="4" column="26" />
         <mark key="]" line="4" column="26" />
@@ -334,7 +149,43 @@
         <mark key="." line="152" column="94" />
         <mark key="^" line="152" column="94" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-dev.properties" timestamp="1567418759665" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingTypeAssembler.java" timestamp="1567432999563">
+        <mark key="'" line="57" column="0" />
+        <mark key="[" line="57" column="0" />
+        <mark key="]" line="61" column="6" />
+        <mark key="." line="34" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1567420555671">
+        <mark key="'" line="82" column="45" />
+        <mark key="[" line="82" column="20" />
+        <mark key="]" line="52" column="28" />
+        <mark key="^" line="52" column="28" />
+        <mark key="." line="52" column="28" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0260_vessel_types.xml" timestamp="1567152799477">
+        <mark key="[" line="31" column="27" />
+        <mark key="]" line="31" column="37" />
+        <mark key="." line="31" column="37" />
+        <mark key="^" line="31" column="37" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/ItineraryDataStatsDescriptor.java" timestamp="1565187717341">
+        <mark key="[" line="147" column="44" />
+        <mark key="]" line="147" column="57" />
+        <mark key="^" line="147" column="57" />
+        <mark key="." line="147" column="57" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/apbasend/descriptors/SyntaxInfoDescriptor.java" timestamp="1565361597946">
+        <mark key="[" line="13" column="20" />
+        <mark key="]" line="13" column="28" />
+        <mark key="." line="13" column="28" />
+        <mark key="^" line="13" column="28" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/RolePermission.java" timestamp="1565596627393">
+        <mark key="[" line="68" column="46" />
+        <mark key="]" line="68" column="63" />
+        <mark key="^" line="68" column="63" />
+        <mark key="." line="68" column="63" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/bodymappers/fcmockup/RecallTicketRSB.java" timestamp="1567000912025">
         <mark key="[" line="11" column="19" />
         <mark key="]" line="11" column="15" />
@@ -347,11 +198,48 @@
         <mark key="." line="17" column="73" />
         <mark key="^" line="17" column="73" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdateReaderForConfirmation.java" timestamp="1565266859985">
+        <mark key="[" line="1134" column="44" />
+        <mark key="]" line="1134" column="3" />
+        <mark key="^" line="1134" column="3" />
+        <mark key="." line="1134" column="3" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RoleController.java" timestamp="1567433291257">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="69" column="68" />
+        <mark key="]" line="69" column="91" />
+        <mark key="^" line="69" column="91" />
+        <mark key="." line="69" column="91" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/FetchAllTicketsFromFerryCompanyReader.java" timestamp="1565266827739">
         <mark key="[" line="1134" column="44" />
         <mark key="]" line="1135" column="3" />
         <mark key="^" line="1135" column="3" />
         <mark key="." line="1135" column="3" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Country.java" timestamp="1567162892561">
+        <mark key="[" line="38" column="27" />
+        <mark key="]" line="38" column="33" />
+        <mark key="." line="38" column="33" />
+        <mark key="^" line="38" column="33" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BackOfficeDaemon.java" timestamp="1565689404539">
+        <mark key="[" line="44" column="17" />
+        <mark key="]" line="44" column="18" />
+        <mark key="^" line="44" column="18" />
+        <mark key="." line="44" column="18" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/IEntrantDatumService.java" timestamp="1566906532416">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
+        <mark key="^" line="8" column="65" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/BaseEntity.java" timestamp="1567003149890">
+        <mark key="[" line="11" column="12" />
+        <mark key="]" line="12" column="12" />
+        <mark key="^" line="12" column="12" />
+        <mark key="." line="12" column="12" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingCargoAssembler.java" timestamp="1566305083623">
         <mark key="[" line="22" column="47" />
@@ -359,11 +247,22 @@
         <mark key="^" line="22" column="51" />
         <mark key="." line="22" column="51" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/validators/annotations/CreatePermissionValidator.java" timestamp="1567493052771">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="50" />
+        <mark key="." line="0" column="50" />
+        <mark key="^" line="0" column="50" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDatumAssembler.java" timestamp="1567428920835">
         <mark key="[" line="35" column="16" />
         <mark key="]" line="35" column="11" />
         <mark key="^" line="35" column="11" />
         <mark key="." line="35" column="11" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/RoleDTO.java" timestamp="1567428577831">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="27" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataTypeDTO.java" timestamp="1567070133797">
         <mark key="[" line="17" column="39" />
@@ -377,6 +276,12 @@
         <mark key="^" line="6" column="52" />
         <mark key="." line="6" column="52" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/RoleCompany.java" timestamp="1565592971213">
+        <mark key="[" line="6" column="70" />
+        <mark key="]" line="6" column="55" />
+        <mark key="^" line="6" column="55" />
+        <mark key="." line="6" column="55" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumService.java" timestamp="1567406115163">
         <mark key="'" line="95" column="48" />
         <mark key="[" line="58" column="51" />
@@ -384,11 +289,22 @@
         <mark key="." line="58" column="73" />
         <mark key="^" line="58" column="73" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" timestamp="1565948741880">
+        <mark key="[" line="73" column="21" />
+        <mark key="]" line="73" column="23" />
+        <mark key="^" line="73" column="23" />
+        <mark key="." line="73" column="23" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/schema/update.xml" timestamp="1565163068549">
         <mark key="[" line="22" column="19" />
         <mark key="]" line="22" column="33" />
         <mark key="." line="22" column="18" />
         <mark key="^" line="22" column="18" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/RoleAssembler.java" timestamp="1567428494274">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="34" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/UserAssembler.java" timestamp="1567429036776">
         <mark key="[" line="20" column="0" />
@@ -400,11 +316,23 @@
         <mark key="^" line="6" column="9" />
         <mark key="." line="6" column="9" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1566892333416">
+        <mark key="[" line="241" column="61" />
+        <mark key="]" line="242" column="7" />
+        <mark key="^" line="242" column="7" />
+        <mark key="." line="242" column="7" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SwaggerConfig.java" timestamp="1567420568337">
         <mark key="[" line="72" column="32" />
         <mark key="]" line="72" column="32" />
         <mark key="^" line="72" column="32" />
         <mark key="." line="72" column="32" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/login_description.txt" timestamp="1567418616447">
+        <mark key="[" line="7" column="43" />
+        <mark key="]" line="7" column="43" />
+        <mark key="^" line="7" column="43" />
+        <mark key="." line="7" column="43" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" timestamp="1566811558540">
         <mark key="[" line="55" column="0" />
@@ -430,18 +358,44 @@
         <mark key="^" line="575" column="3" />
         <mark key="." line="575" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/PermissionAssembler.java" timestamp="1567433576658">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/PermissionAssembler.java" timestamp="1567492098821">
         <mark key="'" line="51" column="20" />
-        <mark key="[" line="50" column="32" />
-        <mark key="]" line="50" column="44" />
-        <mark key="^" line="50" column="44" />
-        <mark key="." line="50" column="44" />
+        <mark key="[" line="44" column="103" />
+        <mark key="]" line="44" column="99" />
+        <mark key="^" line="44" column="99" />
+        <mark key="." line="44" column="99" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/thirdparty/entrantData_POST_description.txt" timestamp="1567417467960">
+        <mark key="'" line="6" column="27" />
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="0" />
+        <mark key="^" line="8" column="49" />
+        <mark key="." line="18" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/portcontrol/ServerLauncher.java" timestamp="1565686346950">
+        <mark key="[" line="77" column="20" />
+        <mark key="]" line="77" column="19" />
+        <mark key="^" line="77" column="19" />
+        <mark key="." line="77" column="19" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/SailingType.java" timestamp="1567169494988">
+        <mark key="[" line="7" column="23" />
+        <mark key="]" line="79" column="37" />
+        <mark key="." line="79" column="37" />
+        <mark key="^" line="79" column="37" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/LoginService.java" timestamp="1565599888270">
         <mark key="[" line="31" column="61" />
         <mark key="]" line="31" column="60" />
         <mark key="^" line="31" column="60" />
         <mark key="." line="31" column="60" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/entrant_data_RQB.xml" timestamp="1567408869714">
+        <mark key="'" line="74" column="40" />
+        <mark key="[" line="74" column="31" />
+        <mark key="]" line="74" column="29" />
+        <mark key="^" line="74" column="29" />
+        <mark key="." line="74" column="29" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatistics.java" timestamp="1565269302673">
         <mark key="[" line="2" column="30" />
@@ -461,11 +415,61 @@
         <mark key="^" line="0" column="39" />
         <mark key="." line="0" column="39" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SailingCargoService.java" timestamp="1567406171464">
+        <mark key="[" line="44" column="50" />
+        <mark key="]" line="44" column="177" />
+        <mark key="." line="44" column="177" />
+        <mark key="^" line="44" column="177" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/PermissionController.java" timestamp="1567431138513">
+        <mark key="'" line="98" column="2" />
+        <mark key="[" line="46" column="21" />
+        <mark key="]" line="46" column="24" />
+        <mark key="^" line="46" column="24" />
+        <mark key="." line="46" column="24" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/VehicleStatsDescriptor.java" timestamp="1565187923392">
         <mark key="[" line="13" column="20" />
         <mark key="]" line="13" column="34" />
         <mark key="." line="13" column="34" />
         <mark key="^" line="13" column="34" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/MessageData.java" timestamp="1565187276987">
+        <mark key="[" line="139" column="22" />
+        <mark key="]" line="139" column="36" />
+        <mark key="." line="139" column="36" />
+        <mark key="^" line="139" column="36" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/TicketController.java" timestamp="1566993252815">
+        <mark key="[" line="41" column="40" />
+        <mark key="]" line="41" column="31" />
+        <mark key="." line="41" column="31" />
+        <mark key="^" line="41" column="31" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/validators/CreatePermissionValidator.java" timestamp="1567493256371">
+        <mark key="[" line="18" column="58" />
+        <mark key="]" line="18" column="55" />
+        <mark key="." line="18" column="55" />
+        <mark key="^" line="18" column="55" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/RoleRS.java" timestamp="1565938191477">
+        <mark key="[" line="8" column="18" />
+        <mark key="]" line="8" column="19" />
+        <mark key="^" line="8" column="19" />
+        <mark key="." line="8" column="19" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/validators/annotations/ValidPermission.java" timestamp="1567492882252">
+        <mark key="'" line="16" column="47" />
+        <mark key="[" line="13" column="36" />
+        <mark key="]" line="13" column="45" />
+        <mark key="." line="13" column="45" />
+        <mark key="^" line="13" column="45" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/PcsEntityNotFoundException.java" timestamp="1566811242011">
+        <mark key="[" line="36" column="6" />
+        <mark key="]" line="36" column="5" />
+        <mark key="^" line="36" column="5" />
+        <mark key="." line="36" column="5" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CountryTranslation.java" timestamp="1565597446018">
         <mark key="[" line="68" column="49" />
@@ -473,11 +477,23 @@
         <mark key="." line="68" column="75" />
         <mark key="^" line="68" column="75" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/AbstractResponseUtils.java" timestamp="1566811376908">
+        <mark key="[" line="40" column="0" />
+        <mark key="]" line="40" column="0" />
+        <mark key="." line="40" column="0" />
+        <mark key="^" line="39" column="69" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0330_passenger_types.xml" timestamp="1567152873513">
         <mark key="[" line="18" column="48" />
         <mark key="]" line="18" column="41" />
         <mark key="^" line="18" column="41" />
         <mark key="." line="18" column="41" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SalingCargoAssembler.java" timestamp="1565944570819">
+        <mark key="[" line="21" column="27" />
+        <mark key="]" line="21" column="26" />
+        <mark key="^" line="21" column="26" />
+        <mark key="." line="21" column="26" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/bodymappers/fcmockup/RecallTicketRQB.java" timestamp="1567067716723">
         <mark key="[" line="11" column="0" />
@@ -503,6 +519,12 @@
         <mark key="]" line="63" column="91" />
         <mark key="." line="34" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" timestamp="1567151425504">
+        <mark key="[" line="74" column="0" />
+        <mark key="]" line="74" column="0" />
+        <mark key="^" line="71" column="68" />
+        <mark key="." line="74" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/xml/messages/ServiceMessage/descriptors/PassengerStatsDescriptor.java" timestamp="1565187889121">
         <mark key="[" line="13" column="20" />
         <mark key="]" line="13" column="34" />
@@ -517,7 +539,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
       <jump line="62" column="25" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Agency.java" />
       <jump line="194" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Agency.java" />
       <jump line="33" column="43" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Agency.java" />
@@ -617,13 +638,14 @@
       <jump line="57" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingTypeAssembler.java" />
       <jump line="49" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/PermissionAssembler.java" />
       <jump line="51" column="20" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/PermissionAssembler.java" />
+      <jump line="11" column="47" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/validators/annotations/ValidPermission.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>RootController</text>
+        <text>CreateReportParameters</text>
       </register>
       <register name="-" type="4">
         <text>r</text>
@@ -635,39 +657,34 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIGxpbmtUbyhtZXRob2RPbihSb290Q29udHJvbGxlci5jbGFzcykucm9vdChwYWdlUmVxdWVzdCkpLndpdGhSZWwoImhvbWUiKQo=</text>
       </register>
       <register name="1" type="4">
-        <text>RootController</text>
+        <text encoding="base64">ICAgIGlmICh2YWx1ZS5pc1RyYWZmaWNJbmNpZGVudCgpICYmIHZhbHVlLmdldE51bWJlck9mSW52b2x2ZWRDYXJzKCkgPD0gMCkgewogICAgICByZXN1bHQgPSBmYWxzZTsKICAgIH0KICAgIHJldHVybiByZXN1bHQ7CiAgfQ==</text>
       </register>
       <register name="2" type="4">
-        <text>CoreController</text>
+        <text>CreateReportParameters</text>
       </register>
       <register name="3" type="4">
-        <text>playlists</text>
+        <text>CreateReportParameters</text>
       </register>
       <register name="4" type="4">
-        <text>getAll</text>
+        <text>ValidCreateReportParameters</text>
       </register>
       <register name="5" type="4">
-        <text>PlaylistController</text>
+        <text>reateReportParameters</text>
       </register>
       <register name="6" type="4">
-        <text>artists</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="7" type="4">
-        <text>ArtistController</text>
+        <text>CreateReportParametersValidator</text>
       </register>
       <register name="x" type="4">
-        <text>RootController</text>
+        <text>CreateReportParameters</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICB9Cgo=</text>
+      <register name="8" type="4">
+        <text>report</text>
       </register>
       <register name="9" type="4">
-        <text>pagedResources.add(
-                linkTo(methodOn(UserController.class).getAllUsers(pageRequest).withRel(&quot;users&quot;),
-                        entityLinks.linkToCollectionResource(User.class).
-
-                );
-//    }</text>
+        <text>ValidCreateReportParameters</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -698,14 +715,14 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action RenameElement</entry>
         <entry>action PreviousTab</entry>
-        <entry>action OptimizeImports</entry>
-        <entry>action ReformatCode</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action NextTab</entry>
-        <entry>action Find</entry>
         <entry>action AceAction</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
