@@ -168,11 +168,12 @@
         <mark key="." line="50" column="0" />
         <mark key="^" line="28" column="45" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1567598113416">
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="17" column="0" />
-        <mark key="." line="17" column="0" />
-        <mark key="^" line="16" column="13" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1567605124034">
+        <mark key="'" line="18" column="0" />
+        <mark key="[" line="16" column="7" />
+        <mark key="]" line="16" column="6" />
+        <mark key="." line="16" column="6" />
+        <mark key="^" line="16" column="6" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/validators/PermissionValidatorOnCreate.java" timestamp="1567501024825">
         <mark key="'" line="0" column="0" />
@@ -341,7 +342,6 @@
       <jump line="29" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/validators/EmailValidator.java" />
       <jump line="50" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
       <jump line="53" column="47" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
-      <jump line="17" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
       <jump line="54" column="78" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/UserService.java" />
       <jump line="72" column="78" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/RegisterController.java" />
       <jump line="39" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/RegisterController.java" />
@@ -386,13 +386,14 @@
       <jump line="45" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/UserService.java" />
       <jump line="80" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/UserService.java" />
       <jump line="176" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/UserController.java" />
+      <jump line="17" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text />
       </register>
       <register name="*" type="4">
-        <text>setUserPassword</text>
+        <text>Insert</text>
       </register>
       <register name="-" type="4">
         <text>this.entityLinks = entityLinks;</text>
@@ -400,43 +401,43 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">ICBwcml2YXRlIGJvb2xlYW4gY2hlY2tQYXNzd29yZENvbmZpcm1hdGlvbihVc2VyIHVzZXIpIHsKICAgIHJldHVybiB1c2VyLmdldFVzZXJQYXNzd29yZCgpLmVxdWFscyh1c2VyLmdldFBhc3N3b3JkQ29uZmlybSgpKTsKICB9</text>
+      <register name="0" type="2">
+        <text encoding="base64">QER5bmFtaWNJbnNlcnQK</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>Insert</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgIHVzZXIuc2V0UGFzc3dvcmRDb25maXJtKGJDcnlwdFBhc3N3b3JkRW5jb2Rlci5lbmNvZGUodXNlci5nZXRVc2VyUGFzc3dvcmQoKSkpOwo=</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>private boolean checkPasswordConfirmation(User user) {
     return user.getUserPassword().equals(user.getPasswordConfirm());
   }</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">ICBpZiAoIXZhbHVlLmdldFVzZXJQYXNzd29yZCgpLmVxdWFscyh2YWx1ZS5nZXRQYXNzd29yZENvbmZpcm0oKSkpIHsKICAgICAgcmVnaXN0ZXJWaW9sYXRpb24oIlBhc3N3b3JkIGNvbmZpcm1hdGlvbiBkb2VzIG5vdCBtYXRjaCBwYXNzd29yZCIsIGNvbnRleHQpOwogICAgICByZXN1bHQgPSBmYWxzZTsKICAgIH0=</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>if (!value.getUserPassword().equals(value.getPasswordConfirm())) {
       registerViolation(&quot;Password confirmation does not match password&quot;, context);
       result = false;
     }</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>setUserPassword</text>
+        <text>Insert</text>
       </register>
-      <register name="8" type="4">
-        <text>setUserPassword</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICB2YWx1ZS5nZXRQYXNzd29yZENvbmZpcm0oKSwK</text>
+      <register name="9" type="4">
+        <text>setUserPassword</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -468,7 +469,6 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action RenameElement</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action FindUsages</entry>
         <entry>action OptimizeImports</entry>
         <entry>action Find</entry>
@@ -477,6 +477,7 @@
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action GotoFile</entry>
+        <entry>action QuickJavaDoc</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
