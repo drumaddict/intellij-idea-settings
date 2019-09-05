@@ -109,7 +109,7 @@
         <mark key="^" line="20" column="42" />
         <mark key="." line="20" column="42" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1567689555396">
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1567691336462">
         <mark key="'" line="12" column="0" />
         <mark key="[" line="76" column="12" />
         <mark key="]" line="76" column="19" />
@@ -314,13 +314,6 @@
         <mark key="^" line="28" column="81" />
         <mark key="." line="28" column="81" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/validators/UserValidator.java" timestamp="1567673200957">
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="^" line="21" column="39" />
-        <mark key="." line="15" column="0" />
-        <mark key="o" line="21" column="56" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/RoleRS.java" timestamp="1565938191477">
         <mark key="[" line="8" column="18" />
         <mark key="]" line="8" column="19" />
@@ -455,12 +448,12 @@
         <mark key="." line="14" column="32" />
         <mark key="^" line="14" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/RoleService.java" timestamp="1567587015001">
-        <mark key="'" line="73" column="0" />
-        <mark key="[" line="73" column="0" />
-        <mark key="]" line="79" column="2" />
-        <mark key="^" line="86" column="15" />
-        <mark key="." line="86" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/RoleService.java" timestamp="1567691367218">
+        <mark key="'" line="74" column="0" />
+        <mark key="[" line="91" column="62" />
+        <mark key="]" line="91" column="87" />
+        <mark key="^" line="91" column="87" />
+        <mark key="." line="91" column="87" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/RoleController.java" timestamp="1567517638256">
         <mark key="'" line="163" column="4" />
@@ -850,7 +843,7 @@
         <text />
       </register>
       <register name="*" type="4">
-        <text>TaxCode</text>
+        <text>alidationPCSException</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">aW5zdGFsbCA=</text>
@@ -862,34 +855,34 @@
         <text encoding="base64">ICAgIGFnZW5jeS5zZXRUYXhDb2RlKGFnZW5jeVBhdGNoLmdldFRheENvZGUoKSk7Cg==</text>
       </register>
       <register name="1" type="4">
-        <text>TaxCode</text>
+        <text>alidationPCSException</text>
       </register>
       <register name="2" type="4">
+        <text>TaxCode</text>
+      </register>
+      <register name="3" type="4">
         <text>axCode</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>agencyPatch</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">Q291bnRyeSBjdXJyZW50Q291bnRyeSA9IGFnZW5jeS5nZXRDb3VudHJ5KCk7CiAgICBpZiAoT2JqZWN0VXRpbHMuaXNOb3RFbXB0eShhZ2VuY3kuZ2V0Q291bnRyeSgpKSAmJiBTdHJpbmdVdGlscy5pc05vdEJsYW5rKGFnZW5jeS5nZXRDb3VudHJ5KCkuZ2V0Q29kZSgpKSkKICAgICBjdXJyZW50Q291bnRyeSA9IGNvdW50cnlSZXBvc2l0b3J5LmZpbmRDb3VudHJ5QnlDb2RlKGFnZW5jeVBhdGNoLmdldENvdW50cnkoKS5nZXRDb2RlKCkpLm9yRWxzZVRocm93KCgpIC0+IG5ldyBFbnRpdHlOb3RGb3VuZFBDU0V4Y2VwdGlvbihDb3VudHJ5LmNsYXNzKSk7CiAgICBhZ2VuY3kuc2V0Q291bnRyeShjdXJyZW50Q291bnRyeSk7</text>
       </register>
-      <register name="7" type="4">
-        <text>ZipCode</text>
-      </register>
       <register name="x" type="4">
-        <text>TaxCode</text>
+        <text>alidationPCSException</text>
       </register>
       <register name="8" type="4">
         <text>ZipCode</text>
       </register>
       <register name="9" type="4">
-        <text>getAgencyAddress</text>
+        <text>ZipCode</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -915,21 +908,21 @@
         <entry>action CloseContent</entry>
         <entry>action FindUsages</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action GotoImplementation</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVwbGFjZQ==</entry>
         <entry>action RenameElement</entry>
         <entry>action Replace</entry>
         <entry>action TabShiftActions.StretchDown</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action Find</entry>
         <entry>action OptimizeImports</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action AceAction</entry>
         <entry>action ReformatCode</entry>
         <entry>action $SelectAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
