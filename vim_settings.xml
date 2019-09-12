@@ -63,7 +63,7 @@
         <mark key="^" line="32" column="51" />
         <mark key="." line="32" column="51" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDataCardAssembler.java" timestamp="1568284268425">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDataCardAssembler.java" timestamp="1568284505156">
         <mark key="'" line="28" column="4" />
         <mark key="[" line="31" column="0" />
         <mark key="]" line="31" column="0" />
@@ -226,10 +226,10 @@
         <mark key="." line="81" column="0" />
         <mark key="^" line="63" column="55" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataCardController.java" timestamp="1568278261766">
-        <mark key="'" line="103" column="102" />
-        <mark key="[" line="136" column="0" />
-        <mark key="]" line="136" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataCardController.java" timestamp="1568284520658">
+        <mark key="'" line="118" column="2" />
+        <mark key="[" line="118" column="2" />
+        <mark key="]" line="137" column="2" />
         <mark key="." line="136" column="0" />
         <mark key="^" line="103" column="3" />
       </file>
@@ -318,12 +318,12 @@
         <mark key="[" line="7" column="4" />
         <mark key="]" line="7" column="39" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" timestamp="1568284454025">
-        <mark key="'" line="97" column="0" />
-        <mark key="[" line="61" column="69" />
-        <mark key="]" line="62" column="93" />
-        <mark key="." line="62" column="93" />
-        <mark key="^" line="62" column="93" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" timestamp="1568284621605">
+        <mark key="'" line="103" column="38" />
+        <mark key="[" line="39" column="10" />
+        <mark key="]" line="38" column="1" />
+        <mark key="." line="38" column="1" />
+        <mark key="^" line="38" column="1" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataType.java" timestamp="1568186625207">
         <mark key="'" line="28" column="71" />
@@ -365,9 +365,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="90" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataCardController.java" />
-      <jump line="104" column="102" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataCardController.java" />
-      <jump line="30" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDatumAssembler.java" />
       <jump line="29" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDatumAssembler.java" />
       <jump line="33" column="5" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDataCardAssembler.java" />
       <jump line="27" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDataCardAssembler.java" />
@@ -465,6 +462,9 @@
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/VesselTypeController.java" />
       <jump line="98" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
       <jump line="97" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="118" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataCardController.java" />
+      <jump line="118" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="103" column="38" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -474,7 +474,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>alidationPCSException</text>
+        <text>userDao</text>
       </register>
       <register name="-" type="4">
         <text>@OneToMany(mappedBy = &quot;portSectorZone&quot;)</text>
@@ -483,40 +483,59 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cGFja2FnZSBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuY29udHJvbGxlci5hZG1pbjsKCmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuZGFvLnR5cGVzLklDb3JlRGFvOwppbXBvcnQgZ3IubGlrbm9zc2Nycy5wY3MucmhvZGVzLmRhby50eXBlcy5JVmVzc2VsVHlwZURhbzsKaW1wb3J0IGdyLmxpa25vc3NjcnMucGNzLnJob2Rlcy5kb21haW4uVmVzc2VsVHlwZTsKaW1wb3J0IGdyLmxpa25vc3NjcnMucGNzLnJob2Rlcy5kb21haW4udmFsaWRhdG9ycy5hbm5vdGF0aW9ucy5PbkNyZWF0ZTsKaW1wb3J0IGdyLmxpa25vc3NjcnMucGNzLnJob2Rlcy5kdG8uYXNzZW1ibGVyLlZlc3NlbFR5cGVBc3NlbWJsZXI7CmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuZXhjZXB0aW9uLlZhbGlkYXRpb25QQ1NFeGNlcHRpb247CmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMudXRpbGl0aWVzLnJlc3BvbnNlLlJlc3BvbnNlVXRpbHM7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU9wZXJhdGlvbjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5hbm5vdGF0aW9uLkF1dG93aXJlZDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuZGF0YS5kb21haW4uUGFnZTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuZGF0YS5kb21haW4uUGFnZWFibGU7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmRhdGEucmVzdC53ZWJtdmMuQ29udHJvbGxlclV0aWxzOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5oYXRlb2FzLkV4cG9zZXNSZXNvdXJjZUZvcjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuaGF0ZW9hcy5NZWRpYVR5cGVzOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5oYXRlb2FzLlJlc291cmNlU3VwcG9ydDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuaHR0cC5IdHRwRW50aXR5OwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5odHRwLkh0dHBTdGF0dXM7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmh0dHAuUmVzcG9uc2VFbnRpdHk7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLnZhbGlkYXRpb24uYW5ub3RhdGlvbi5WYWxpZGF0ZWQ7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5iaW5kLmFubm90YXRpb24uKjsKCmltcG9ydCBqYXZheC5zZXJ2bGV0Lmh0dHAuSHR0cFNlcnZsZXRSZXF1ZXN0OwppbXBvcnQgamF2YXgudmFsaWRhdGlvbi5WYWxpZDsKCkBSZXN0Q29udHJvbGxlcgpAUmVxdWVzdE1hcHBpbmcodmFsdWUgPSAiL2FkbWluL3Zlc3NlbFR5cGVzIikKQEV4cG9zZXNSZXNvdXJjZUZvcihWZXNzZWxUeXBlLmNsYXNzKQpAVmFsaWRhdGVkCnB1YmxpYyBjbGFzcyBWZXNzZWxUeXBlQ29udHJvbGxlciB7CgogIHByaXZhdGUgUmVzcG9uc2VVdGlsczxWZXNzZWxUeXBlPiB2ZXNzZWxUeXBlUmVzcG9uc2VVdGlsczsKICBwcml2YXRlIElWZXNzZWxUeXBlRGFvIHZlc3NlbFR5cGVEYW87CiAgcHJpdmF0ZSBJQ29yZURhbzxWZXNzZWxUeXBlPiB2ZXNzZWxUeXBlQ29yZURhbzsKCgogIEBBdXRvd2lyZWQKICBwdWJsaWMgVmVzc2VsVHlwZUNvbnRyb2xsZXIoCiAgICAgICAgICBSZXNwb25zZVV0aWxzPFZlc3NlbFR5cGU+IHZlc3NlbFR5cGVSZXNwb25zZVV0aWxzLAogICAgICAgICAgSVZlc3NlbFR5cGVEYW8gdmVzc2VsVHlwZURhbwogICkgewogICAgdmVzc2VsVHlwZVJlc3BvbnNlVXRpbHMuc2V0QXNzZW1ibGVyQ2xhc3MoVmVzc2VsVHlwZUFzc2VtYmxlci5jbGFzcyk7CiAgICB0aGlzLnZlc3NlbFR5cGVSZXNwb25zZVV0aWxzID0gdmVzc2VsVHlwZVJlc3BvbnNlVXRpbHM7CiAgICB0aGlzLnZlc3NlbFR5cGVEYW8gPSB2ZXNzZWxUeXBlRGFvOwogICAgdGhpcy52ZXNzZWxUeXBlQ29yZURhbyA9IHZlc3NlbFR5cGVEYW8uZ2V0VmVzc2VsVHlwZUNvcmVEYW8oKTsKICB9CgogIEBSZXF1ZXN0TWFwcGluZygKICAgICAgICAgIG1ldGhvZCA9IFJlcXVlc3RNZXRob2QuR0VULAogICAgICAgICAgcHJvZHVjZXMgPSBNZWRpYVR5cGVzLkhBTF9KU09OX1ZBTFVFKQogIHB1YmxpYyBIdHRwRW50aXR5PFBhZ2U8VmVzc2VsVHlwZT4+IGdldFZlc3NlbFR5cGVzKFBhZ2VhYmxlIHBhZ2VSZXF1ZXN0LCBIdHRwU2VydmxldFJlcXVlc3QgcmVxdWVzdCkgewogICAgUGFnZTxWZXNzZWxUeXBlPiB2ZXNzZWxUeXBlcyA9IHZlc3NlbFR5cGVDb3JlRGFvLmZpbmRBbGwocGFnZVJlcXVlc3QpOwogICAgcmV0dXJuIHZlc3NlbFR5cGVSZXNwb25zZVV0aWxzLmdldFBhZ2VkQ29sbGVjdGlvblJlc3BvbnNlRW50aXR5KHZlc3NlbFR5cGVzLCBwYWdlUmVxdWVzdCk7CiAgfQoKICBAUmVxdWVzdE1hcHBpbmcoCiAgICAgICAgICBtZXRob2QgPSBSZXF1ZXN0TWV0aG9kLkdFVCwKICAgICAgICAgIHBhdGggPSAiL3tpZH0iLAogICAgICAgICAgcHJvZHVjZXMgPSBNZWRpYVR5cGVzLkhBTF9KU09OX1ZBTFVFKQogIHB1YmxpYyBIdHRwRW50aXR5PFJlc291cmNlU3VwcG9ydD4gZ2V0T25lVmVzc2VsVHlwZSgKICAgICAgICAgIEBQYXRoVmFyaWFibGUgTG9uZyBpZCwgSHR0cFNlcnZsZXRSZXF1ZXN0IHJlcXVlc3QpIHRocm93cyBWYWxpZGF0aW9uUENTRXhjZXB0aW9uIHsKICAgIHJldHVybiB2ZXNzZWxUeXBlUmVzcG9uc2VVdGlscy5nZXRTaW5nbGVSZXNwb25zZUVudGl0eSh2ZXNzZWxUeXBlQ29yZURhby5mZXRjaEJ5SWQoaWQpLCBIdHRwU3RhdHVzLk9LKTsKICB9CgogIEBSZXF1ZXN0TWFwcGluZygKICAgICAgICAgIG1ldGhvZCA9IFJlcXVlc3RNZXRob2QuUE9TVCwKICAgICAgICAgIHByb2R1Y2VzID0gTWVkaWFUeXBlcy5IQUxfSlNPTl9WQUxVRSkKICBAVmFsaWRhdGVkKE9uQ3JlYXRlLmNsYXNzKQogIHB1YmxpYyBIdHRwRW50aXR5PFJlc291cmNlU3VwcG9ydD4gY3JlYXRlVmVzc2VsVHlwZShAVmFsaWQgQFJlcXVlc3RCb2R5IFZlc3NlbFR5cGUgdmVzc2VsVHlwZSwgSHR0cFNlcnZsZXRSZXF1ZXN0IHJlcXVlc3QpIHsKICAgIHJldHVybiB2ZXNzZWxUeXBlUmVzcG9uc2VVdGlscy5nZXRTaW5nbGVSZXNwb25zZUVudGl0eSh2ZXNzZWxUeXBlQ29yZURhby5zYXZlKHZlc3NlbFR5cGUpLCBIdHRwU3RhdHVzLkNSRUFURUQpOwogIH0KCiAgQFJlcXVlc3RNYXBwaW5nKAogICAgICAgICAgbWV0aG9kID0ge1JlcXVlc3RNZXRob2QuUEFUQ0gsIFJlcXVlc3RNZXRob2QuUFVUfSwKICAgICAgICAgIHBhdGggPSAiL3tpZH0iLAogICAgICAgICAgY29uc3VtZXMgPSB7ImFwcGxpY2F0aW9uL2pzb24ifSwKICAgICAgICAgIHByb2R1Y2VzID0gTWVkaWFUeXBlcy5IQUxfSlNPTl9WQUxVRSkKICBAVmFsaWRhdGVkCiAgcHVibGljIFJlc3BvbnNlRW50aXR5PD8gZXh0ZW5kcyBSZXNvdXJjZVN1cHBvcnQ+IHVwZGF0ZVZlc3NlbFR5cGUoCiAgICAgICAgICBAUGF0aFZhcmlhYmxlIGxvbmcgaWQsCiAgICAgICAgICBAVmFsaWQgQFJlcXVlc3RCb2R5IFZlc3NlbFR5cGUgdmVzc2VsVHlwZVBhdGNoLCBIdHRwU2VydmxldFJlcXVlc3QgcmVxdWVzdCkgewogICAgdmVzc2VsVHlwZUNvcmVEYW8udXBkYXRlKGlkLCB2ZXNzZWxUeXBlUGF0Y2gpOwogICAgcmV0dXJuIENvbnRyb2xsZXJVdGlscy50b0VtcHR5UmVzcG9uc2UoSHR0cFN0YXR1cy5OT19DT05URU5UKTsKICB9CgogIEBSZXF1ZXN0TWFwcGluZygKICAgICAgICAgIG1ldGhvZCA9IFJlcXVlc3RNZXRob2QuREVMRVRFLAogICAgICAgICAgcGF0aCA9ICIve2lkfSIsCiAgICAgICAgICBwcm9kdWNlcyA9IE1lZGlhVHlwZXMuSEFMX0pTT05fVkFMVUUpCiAgQEFwaU9wZXJhdGlvbigiRGVsZXRlIFZlc3NlbCBCeSBJZCIpCiAgcHVibGljIFJlc3BvbnNlRW50aXR5IGRlbGV0ZVZlc3NlbCgKICAgICAgICAgIEBQYXRoVmFyaWFibGUgTG9uZyBpZCwgSHR0cFNlcnZsZXRSZXF1ZXN0IHJlcXVlc3QpIHsKICAgIHZlc3NlbFR5cGVDb3JlRGFvLmRlbGV0ZUJ5SWQoaWQpOwogICAgcmV0dXJuIENvbnRyb2xsZXJVdGlscy50b0VtcHR5UmVzcG9uc2UoSHR0cFN0YXR1cy5OT19DT05URU5UKTsKICB9CgoKfQ==</text>
+        <text>private EntrantDataCard populateRequestBodyWithParentAssociations(EntrantDataCard entrantDataCardRequestBody) {
+
+    if (ObjectUtils.isNotEmpty(entrantDataCardRequestBody.getIssueUser())) {
+      User issueUserRequestBody = entrantDataCardRequestBody.getIssueUser();
+      User user = userDao.findByUserName(issueUserRequestBody.getUserName());
+      entrantDataCardRequestBody.setIssueUser(user);
+    }
+
+    if (ObjectUtils.isNotEmpty(entrantDataCardRequestBody.getEntrantDatum())) {
+      EntrantDatum entrantDatumRequestBody = entrantDataCardRequestBody.getEntrantDatum();
+      Sailing sailingRequestBody = entrantDatumRequestBody.getSailing();
+      EntrantDatum entrantDatum = entrantDatumDao.findEntrantDatumByTicketNumberAndSailingId(
+              entrantDatumRequestBody.getTicketNumber(),
+              sailingRequestBody.getId()
+      );
+      entrantDataCardRequestBody.setEntrantDatum(entrantDatum);
+    }
+
+    return entrantDataCardRequestBody;
+  }</text>
       </register>
       <register name="1" type="4">
-        <text>alidationPCSException</text>
+        <text>userDao</text>
       </register>
       <register name="2" type="4">
-        <text>vesselTypes</text>
+        <text>user</text>
       </register>
       <register name="3" type="4">
-        <text>vesselTypeCoreDao</text>
+        <text>User</text>
       </register>
       <register name="4" type="4">
-        <text>vesselTypeCoreDao</text>
+        <text>getIssueUser</text>
       </register>
       <register name="5" type="4">
-        <text>vesselTypes</text>
+        <text>entrantDataCardRequestBody</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>issueUserRequestBody</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIFBhZ2VSZXF1ZXN0IHBhZ2VSZXF1ZXN0ID0gZ2V0UGFnZVJlcXVlc3QoMCwgMjAsIG51bGwpOwo=</text>
+      <register name="7" type="4">
+        <text>User</text>
       </register>
       <register name="x" type="4">
-        <text>alidationPCSException</text>
+        <text>userDao</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>getIssueUser</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>entrantDataCardRequestBody</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -551,11 +570,11 @@
         <entry>action OptimizeImports</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action ReformatCode</entry>
         <entry>action Find</entry>
         <entry>action RenameElement</entry>
         <entry>action Replace</entry>
         <entry>action SaveAll</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
