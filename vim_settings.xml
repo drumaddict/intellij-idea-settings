@@ -63,11 +63,11 @@
         <mark key="." line="63" column="2" />
         <mark key="^" line="63" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" timestamp="1568289671708">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" timestamp="1568294240176">
         <mark key="'" line="6" column="72" />
-        <mark key="[" line="7" column="26" />
-        <mark key="]" line="7" column="54" />
-        <mark key="." line="7" column="54" />
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="23" column="0" />
         <mark key="^" line="7" column="54" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDatumRepository.java" timestamp="1568277724044">
@@ -83,6 +83,11 @@
         <mark key="]" line="18" column="1" />
         <mark key="^" line="18" column="1" />
         <mark key="." line="18" column="1" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingTypeAssembler.java" timestamp="1568293976415">
+        <mark key="'" line="33" column="8" />
+        <mark key="[" line="33" column="8" />
+        <mark key="]" line="35" column="4" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CheckPoint.java" timestamp="1568282769500">
         <mark key="'" line="52" column="36" />
@@ -304,12 +309,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CheckPointAssembler.java" timestamp="1568288707781">
-        <mark key="'" line="39" column="166" />
-        <mark key="[" line="41" column="0" />
-        <mark key="]" line="41" column="0" />
-        <mark key="^" line="39" column="122" />
-        <mark key="." line="41" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CheckPointAssembler.java" timestamp="1568295066347">
+        <mark key="'" line="29" column="139" />
+        <mark key="[" line="30" column="22" />
+        <mark key="]" line="30" column="20" />
+        <mark key="^" line="30" column="20" />
+        <mark key="." line="30" column="20" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/EntrantDatumAssembler.java" timestamp="1568279032724">
         <mark key="'" line="29" column="4" />
@@ -439,12 +444,12 @@
         <mark key="[" line="7" column="4" />
         <mark key="]" line="7" column="39" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" timestamp="1568290042990">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="129" column="0" />
-        <mark key="." line="99" column="78" />
-        <mark key="^" line="99" column="78" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" timestamp="1568295293822">
+        <mark key="'" line="107" column="99" />
+        <mark key="[" line="107" column="98" />
+        <mark key="]" line="107" column="111" />
+        <mark key="." line="107" column="111" />
+        <mark key="^" line="107" column="111" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataType.java" timestamp="1568186625207">
         <mark key="'" line="28" column="71" />
@@ -472,7 +477,7 @@
         <mark key="." line="95" column="36" />
         <mark key="^" line="95" column="36" />
       </file>
-      <file name="/fragment.java" timestamp="1568288183649">
+      <file name="/fragment.java" timestamp="1568295189224">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IGeneralSettingDao.java" timestamp="1568207190911">
@@ -490,22 +495,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="23" column="72" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" />
-      <jump line="4" column="72" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PassengerTypeDTO.java" />
-      <jump line="24" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PortSectorZoneDTO.java" />
-      <jump line="12" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CompanyDocumentType.java" />
-      <jump line="10" column="9" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
-      <jump line="18" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CompanyDocumentType.java" />
-      <jump line="21" column="53" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
-      <jump line="28" column="53" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
-      <jump line="22" column="50" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
-      <jump line="27" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CompanyDocumentType.java" />
-      <jump line="24" column="69" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
-      <jump line="33" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
-      <jump line="86" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
-      <jump line="35" column="84" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
-      <jump line="74" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
       <jump line="38" column="84" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
       <jump line="49" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
       <jump line="78" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/PortSectorZone.java" />
@@ -536,7 +525,6 @@
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/PortDockSlotDao.java" />
       <jump line="36" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/PortSectorZoneDao.java" />
       <jump line="44" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
-      <jump line="86" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
       <jump line="99" column="92" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
       <jump line="30" column="67" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CheckPointAssembler.java" />
       <jump line="40" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CheckPointAssembler.java" />
@@ -590,6 +578,23 @@
       <jump line="41" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/PortSectorZoneController.java" />
       <jump line="22" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CompanyLocationDTO.java" />
       <jump line="22" column="57" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PortSectorZoneDTO.java" />
+      <jump line="33" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/SailingTypeAssembler.java" />
+      <jump line="45" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CheckPointAssembler.java" />
+      <jump line="49" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CheckPointAssembler.java" />
+      <jump line="50" column="139" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CheckPointAssembler.java" />
+      <jump line="70" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="86" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="79" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="92" column="46" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="37" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="38" column="59" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="39" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="51" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="52" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="95" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="106" column="59" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="96" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
+      <jump line="107" column="99" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -599,7 +604,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>getVessel</text>
+        <text>User</text>
       </register>
       <register name="-" type="4">
         <text>@OneToMany(mappedBy = &quot;portSector&quot;)</text>
@@ -608,38 +613,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>//    if (ObjectUtils.isNotEmpty(companyLocation.getVessel()))
-//    vessel = new VesselDTO(companyLocation.getVessel());</text>
+        <text>if (ObjectUtils.isEmpty(checkPoint.getUser())) throw new EntityNotFoundPCSException(User.class);</text>
       </register>
       <register name="1" type="4">
-        <text>getVessel</text>
+        <text>User</text>
       </register>
       <register name="2" type="4">
-        <text>ompanyLocation</text>
+        <text>getUser</text>
       </register>
       <register name="3" type="4">
-        <text>VesselDTO</text>
+        <text>getOneUser</text>
       </register>
       <register name="4" type="4">
-        <text>vessel</text>
+        <text>UserController</text>
       </register>
       <register name="5" type="4">
-        <text>getVessel</text>
+        <text>PortSectorZoneController</text>
       </register>
       <register name="6" type="4">
-        <text>companyLocation</text>
+        <text>fetchById</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>checkPointCoreDao</text>
       </register>
       <register name="x" type="4">
-        <text>getVessel</text>
+        <text>User</text>
       </register>
       <register name="8" type="4">
-        <text>portSectorZone</text>
+        <text>checkPointResponseUtils</text>
       </register>
       <register name="9" type="4">
-        <text>PortSectorZone</text>
+        <text>checkPointResponseUtils</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -676,12 +680,12 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action RenameElement</entry>
         <entry>action Replace</entry>
-        <entry>action AceAction</entry>
+        <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
-        <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action AceAction</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
