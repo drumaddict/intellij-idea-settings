@@ -38,10 +38,10 @@
         <mark key="^" line="11" column="65" />
         <mark key="." line="11" column="65" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" timestamp="1568708728745">
-        <mark key="'" line="89" column="4" />
-        <mark key="[" line="97" column="104" />
-        <mark key="]" line="97" column="104" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" timestamp="1568710034430">
+        <mark key="'" line="94" column="0" />
+        <mark key="[" line="94" column="0" />
+        <mark key="]" line="94" column="82" />
         <mark key="." line="97" column="104" />
         <mark key="^" line="97" column="104" />
       </file>
@@ -217,14 +217,6 @@
         <mark key="." line="56" column="3" />
         <mark key="^" line="56" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntrantDataCheckDao.java" timestamp="1568638396030">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="57" column="0" />
-        <mark key="]" line="58" column="1" />
-        <mark key="m" line="57" column="0" />
-        <mark key="." line="58" column="1" />
-        <mark key="^" line="58" column="1" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDatumRepository.java" timestamp="1568622827956">
         <mark key="'" line="17" column="2" />
         <mark key="[" line="19" column="107" />
@@ -265,12 +257,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="63" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/AbstractResponseUtils.java" timestamp="1568709152026">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/AbstractResponseUtils.java" timestamp="1568710345341">
         <mark key="'" line="72" column="0" />
-        <mark key="[" line="74" column="51" />
-        <mark key="]" line="74" column="62" />
-        <mark key="^" line="74" column="62" />
-        <mark key="." line="74" column="62" />
+        <mark key="[" line="74" column="17" />
+        <mark key="]" line="74" column="18" />
+        <mark key="^" line="74" column="18" />
+        <mark key="." line="74" column="18" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataFieldDTO.java" timestamp="1568640412110">
         <mark key="'" line="0" column="0" />
@@ -278,6 +270,13 @@
         <mark key="]" line="21" column="0" />
         <mark key="^" line="18" column="60" />
         <mark key="." line="19" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" timestamp="1568710679543">
+        <mark key="'" line="73" column="93" />
+        <mark key="[" line="73" column="33" />
+        <mark key="]" line="73" column="36" />
+        <mark key="." line="73" column="36" />
+        <mark key="^" line="73" column="36" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CheckPointAssembler.java" timestamp="1568621479298">
         <mark key="'" line="26" column="4" />
@@ -309,15 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="88" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataField.java" />
-      <jump line="58" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataField.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IGeneralSettingDao.java" />
-      <jump line="8" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDataFieldRepository.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/GeneralSettingRepository.java" />
-      <jump line="11" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDataFieldRepository.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDataFieldRepository.java" />
-      <jump line="9" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDataFieldRepository.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDataCheckDao.java" />
       <jump line="23" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDataFieldDao.java" />
       <jump line="7" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDataFieldDao.java" />
       <jump line="6" column="50" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntrantDataFieldDao.java" />
@@ -394,7 +384,6 @@
       <jump line="69" column="49" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/AbstractResponseUtils.java" />
       <jump line="70" column="34" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/AbstractResponseUtils.java" />
       <jump line="90" column="76" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
-      <jump line="92" column="39" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
       <jump line="79" column="49" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
       <jump line="81" column="73" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
       <jump line="82" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
@@ -409,6 +398,16 @@
       <jump line="72" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/AbstractResponseUtils.java" />
       <jump line="20" column="88" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/IResponseUtils.java" />
       <jump line="25" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/IResponseUtils.java" />
+      <jump line="49" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" />
+      <jump line="92" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
+      <jump line="76" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" />
+      <jump line="71" column="37" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" />
+      <jump line="68" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" />
+      <jump line="67" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" />
+      <jump line="73" column="104" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" />
+      <jump line="80" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" />
+      <jump line="94" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
+      <jump line="77" column="93" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -418,46 +417,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>public</text>
+        <text encoding="base64">UmVzb3VyY2U8VD4=</text>
       </register>
       <register name="-" type="4">
-        <text>.stream().map(assembler.getResour</text>
+        <text encoding="base64">ICAgICAgICAgIC5zdHJlYW0oKS5tYXAoRW50cmFudERhdGFNYW5kYXRvcnlGaWVsZERUTzo6bmV3KS5jb2xsZWN0KENvbGxlY3RvcnMudG9MaXN0KCkpOw==</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICBSZXNwb25zZUVudGl0eTxSZXNvdXJjZXM8VD4+IGdldENvbGxlY3Rpb25SZXNwb25zZUVudGl0eShMaXN0PFQ+IGVudGl0aWVzKTsK</text>
+      <register name="0" type="4">
+        <text encoding="base64">Ly8gICAgZmluYWwgUmVzb3VyY2VzPEVudHJhbnREYXRhTWFuZGF0b3J5RmllbGREVE8+IHJlc291cmNlcyA9IG5ldyBSZXNvdXJjZXM8PihhKTs=</text>
       </register>
       <register name="1" type="4">
-        <text>public</text>
+        <text encoding="base64">UmVzb3VyY2U8VD4=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">UmVzb3VyY2U8VD4=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="3" type="4">
+        <text>Resource</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="4" type="4">
+        <text>Resources</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBuZXcgUmVzcG9uc2VFbnRpdHkocmVzb3VyY2VzLCBIdHRwU3RhdHVzLk9LKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Ly8gIAo=</text>
       </register>
       <register name="x" type="4">
-        <text>public</text>
+        <text encoding="base64">UmVzb3VyY2U8VD4=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Ly8gICAgTGlzdDxDbGFzczw/IGV4dGVuZHMgUmVzb3VyY2VTdXBwb3J0PiBhID0gZW50aXRpZXMKLy8gICAgICAgICAgICAuc3RyZWFtKCkubWFwKGFzc2VtYmxlci5nZXRSZXNvdXJjZVN1cHBvcnRDbGFzcygpLikuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKTs=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIC8vICAgIExpc3Q8RW50cmFudERhdGFNYW5kYXRvcnlGaWVsZERUTz4gYSA9IGVudHJhbnREYXRhTWFuZGF0b3J5RmllbGRzCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGZpbmFsIFJlc291cmNlczxFbnRyYW50RGF0YU1hbmRhdG9yeUZpZWxkRFRPPiByZXNvdXJjZXMgPSBuZXcgUmVzb3VyY2VzPD4oYSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -492,10 +491,11 @@
         <entry>action $SelectAll</entry>
         <entry>action AceAction</entry>
         <entry>action Find</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action ReformatCode</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
         <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
