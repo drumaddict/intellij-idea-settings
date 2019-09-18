@@ -67,9 +67,6 @@
         <mark key="^" line="15" column="51" />
         <mark key="." line="15" column="51" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/DocumentTypeTranslationController.java" timestamp="1568806194489">
-        <mark key="'" line="141" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CompanyLocationController.java" timestamp="1568810017334">
         <mark key="'" line="178" column="46" />
         <mark key="[" line="177" column="0" />
@@ -123,6 +120,13 @@
         <mark key="]" line="55" column="0" />
         <mark key="." line="55" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/ILocationDao.java" timestamp="1568814060547">
+        <mark key="'" line="10" column="2" />
+        <mark key="[" line="10" column="2" />
+        <mark key="]" line="12" column="68" />
+        <mark key="^" line="12" column="9" />
+        <mark key="." line="12" column="9" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/TranslationLanguageDTO.java" timestamp="1568793405140">
         <mark key="[" line="2" column="37" />
         <mark key="]" line="3" column="1" />
@@ -134,8 +138,12 @@
         <mark key="]" line="38" column="0" />
         <mark key="." line="38" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationTranslationController.java" timestamp="1568813178761">
-        <mark key="'" line="152" column="48" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationTranslationController.java" timestamp="1568814802176">
+        <mark key="'" line="151" column="6" />
+        <mark key="[" line="151" column="0" />
+        <mark key="]" line="151" column="0" />
+        <mark key="." line="151" column="0" />
+        <mark key="^" line="151" column="77" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CheckPoint.java" timestamp="1568725812882">
         <mark key="'" line="172" column="0" />
@@ -149,6 +157,13 @@
         <mark key="]" line="9" column="0" />
         <mark key="." line="6" column="0" />
         <mark key="^" line="8" column="1" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/LocationDao.java" timestamp="1568814135107">
+        <mark key="'" line="44" column="78" />
+        <mark key="[" line="43" column="73" />
+        <mark key="]" line="43" column="11" />
+        <mark key="^" line="43" column="11" />
+        <mark key="." line="43" column="11" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/validators/EnumValidator.java" timestamp="1568627776713">
         <mark key="'" line="1" column="0" />
@@ -551,6 +566,13 @@
         <mark key="^" line="18" column="60" />
         <mark key="." line="19" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/LocationRepository.java" timestamp="1568814018635">
+        <mark key="'" line="12" column="2" />
+        <mark key="[" line="12" column="2" />
+        <mark key="]" line="14" column="78" />
+        <mark key="." line="10" column="0" />
+        <mark key="^" line="13" column="76" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" timestamp="1568716006884">
         <mark key="'" line="109" column="2" />
         <mark key="[" line="103" column="48" />
@@ -577,17 +599,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="43" column="78" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
-      <jump line="44" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
-      <jump line="48" column="56" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
-      <jump line="70" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
-      <jump line="129" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
-      <jump line="90" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
-      <jump line="103" column="98" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
-      <jump line="67" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
-      <jump line="81" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
-      <jump line="86" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
-      <jump line="69" column="24" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
       <jump line="73" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
       <jump line="76" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
       <jump line="102" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationTranslationController.java" />
@@ -676,7 +687,18 @@
       <jump line="32" column="83" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/LocationTranslation.java" />
       <jump line="68" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/LocationTranslation.java" />
       <jump line="82" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/LocationTranslation.java" />
-      <jump line="152" column="48" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationTranslationController.java" />
+      <jump line="11" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/LocationRepository.java" />
+      <jump line="14" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/LocationRepository.java" />
+      <jump line="12" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/LocationRepository.java" />
+      <jump line="10" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/ILocationDao.java" />
+      <jump line="31" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/LocationDao.java" />
+      <jump line="38" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/LocationDao.java" />
+      <jump line="45" column="78" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/LocationDao.java" />
+      <jump line="146" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationTranslationController.java" />
+      <jump line="147" column="111" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationTranslationController.java" />
+      <jump line="149" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationTranslationController.java" />
+      <jump line="71" column="56" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationTranslationController.java" />
+      <jump line="152" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationTranslationController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -686,7 +708,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>Vessel</text>
+        <text>getLocationByCode</text>
       </register>
       <register name="-" type="4">
         <text>nullable = false)</text>
@@ -695,42 +717,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>@ManyToOne
-  @JoinColumn(name = &quot;language_id&quot;)
-  @NotNull(groups = OnCreate.class, message = &quot;translationLanguage cannot be empty&quot;)</text>
+        <text>Location location = locationDao.getLocationByCode(locationTranslationRequestBody.getLocation().getCode());</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">ICBwdWJsaWMgTG9jYXRpb24gZ2V0TG9jYXRpb24oKSB7CiAgICByZXR1cm4gbG9jYXRpb247CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRMb2NhdGlvbihMb2NhdGlvbiBsb2NhdGlvbikgewogICAgdGhpcy5sb2NhdGlvbiA9IGxvY2F0aW9uOwogIH0KCiAKICBwdWJsaWMgVHJhbnNsYXRpb25MYW5ndWFnZSBnZXRUcmFuc2xhdGlvbkxhbmd1YWdlKCkgewogICAgcmV0dXJuIHRyYW5zbGF0aW9uTGFuZ3VhZ2U7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRUcmFuc2xhdGlvbkxhbmd1YWdlKFRyYW5zbGF0aW9uTGFuZ3VhZ2UgdHJhbnNsYXRpb25MYW5ndWFnZSkgewogICAgdGhpcy50cmFuc2xhdGlvbkxhbmd1YWdlID0gdHJhbnNsYXRpb25MYW5ndWFnZTsKICB9</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">IEBNYW55VG9PbmUKICBASm9pbkNvbHVtbihuYW1lID0gIkxBTkdVQUdFX0lEIiwgcmVmZXJlbmNlZENvbHVtbk5hbWUgPSAiSUQiLCBudWxsYWJsZSA9IGZhbHNlKQ==</text>
+        <text>getLocationByCode</text>
       </register>
-      <register name="3" type="4">
-        <text>@Id
-  @Column(name = &quot;ID&quot;, nullable = false, precision = 0)</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgTG9jYXRpb24gbG9jYXRpb24gPSBsb2NhdGlvbkRhby5nZXRMb2NhdGlvbkJ5Q29kZShsb2NhdGlvblRyYW5zbGF0aW9uUmVxdWVzdEJvZHkuZ2V0TG9jYXRpb24oKS5nZXRDb2RlKCkpOwo=</text>
       </register>
-      <register name="5" type="4">
-        <text>@ManyToOne
-    @JoinColumn(name = &quot;location_id&quot;, referencedColumnName = &quot;id&quot;)</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>@ManyToOne
-    @JoinColumn(name = &quot;LOCATION_ID&quot;, referencedColumnName = &quot;ID&quot;, nullable = false)</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Ly8gCg==</text>
+      <register name="7" type="4">
+        <text>Location</text>
       </register>
       <register name="x" type="4">
-        <text>Vessel</text>
+        <text>getLocationByCode</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgT2JqZWN0cy5lcXVhbHMobG9jYXRpb25JZCwgdGhhdC5sb2NhdGlvbklkKSAmJgovLyAgICAgICAgICAgICAgICBPYmplY3RzLmVxdWFscyhsYW5ndWFnZUlkLCB0aGF0Lmxhbmd1YWdlSWQpICYm</text>
+        <text>getLocationByCode</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="9" type="4">
+        <text>.</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -763,15 +780,15 @@
         <entry>action GotoDeclaration</entry>
         <entry>action AceAction</entry>
         <entry>action RenameElement</entry>
-        <entry>action CloseContent</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action OptimizeImports</entry>
-        <entry>action GotoFile</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action Find</entry>
         <entry>action Replace</entry>
+        <entry>action OptimizeImports</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action CloseContent</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
