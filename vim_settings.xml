@@ -95,6 +95,9 @@
         <mark key="]" line="19" column="0" />
         <mark key="." line="19" column="56" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/log4j2.properties" timestamp="1568983084793">
+        <mark key="'" line="0" column="41" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1568981299957" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/SailingCargo.java" timestamp="1568890825055">
         <mark key="'" line="1" column="0" />
@@ -129,10 +132,11 @@
         <mark key="[" line="31" column="8" />
         <mark key="]" line="31" column="69" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/log4j2-dev.properties" timestamp="1568981900025">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/log4j2-dev.properties" timestamp="1568983960058">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="40" column="41" />
+        <mark key="]" line="40" column="42" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/UserLoginHistoryController.java" timestamp="1568899789780">
         <mark key="'" line="48" column="24" />
@@ -210,11 +214,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="81" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/UserLoginHistory.java" />
-      <jump line="78" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/UserLoginHistory.java" />
-      <jump line="86" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/UserLoginHistory.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/UserRepository.java" />
-      <jump line="31" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/UserLoginHistoryRepository.java" />
       <jump line="12" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/UserLoginHistoryRepository.java" />
       <jump line="14" column="77" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/UserLoginHistoryRepository.java" />
       <jump line="11" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/UserLoginHistoryRepository.java" />
@@ -309,6 +308,11 @@
       <jump line="24" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataField.java" />
       <jump line="38" column="24" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/log4j2-dev.properties" />
       <jump line="30" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/log4j2-dev.properties" />
+      <jump line="16" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/log4j2-dev.properties" />
+      <jump line="6" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/log4j2-dev.properties" />
+      <jump line="11" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/log4j2.properties" />
+      <jump line="40" column="41" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/log4j2.properties" />
+      <jump line="8" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/log4j2-dev.properties" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/log4j2-dev.properties" />
     </jumps>
     <registers>
@@ -319,7 +323,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>etchById</text>
+        <text>order</text>
       </register>
       <register name="-" type="4">
         <text>r</text>
@@ -371,34 +375,74 @@ rootLogger.appenderRefs = stdout
 rootLogger.appenderRef.stdout.ref = STDOUT</text>
       </register>
       <register name="1" type="4">
-        <text>etchById</text>
+        <text>order</text>
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text>order</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="3" type="4">
-        <text>ActionValues</text>
       </register>
       <register name="4" type="4">
-        <text>permissionToActionValues</text>
+        <text>status = warn
+dest = err
+name = RhodesLoggingConfig
+
+property.filename = rhodes.log
+property.logsDirectory = rhodes/logs
+property.filePattern = rhodes/logs/rhodes-%d{dd-MM-yyyy}-%i.log.gz
+
+appender.console.type = Console
+appender.console.name = STDOUT
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = %highlight{%d{dd-MM-yyy HH:mm:ss.SSS}} %highlight{%-5level} [%style{%t}{bright,blue}]  %c{3} - %highlight{%msg}%n%throwable
+appender.console.layout.disableAnsi = false
+
+# Rotate log file
+appender.rolling.type = RollingFile
+appender.rolling.name = LogToRollingFile
+appender.rolling.fileName = ${logsDirectory}/${filename}
+appender.rolling.filePattern = ${filePattern}
+appender.rolling.layout.type = PatternLayout
+appender.rolling.layout.pattern = %d{dd-MM-yyy HH:mm:ss.SSS} %p %C{1.} [%t] %m%n
+appender.rolling.policies.type = Policies
+appender.rolling.policies.time.type = TimeBasedTriggeringPolicy
+appender.rolling.policies.time.interval = 2
+appender.rolling.policies.time.modulate = true
+appender.rolling.policies.size.type = SizeBasedTriggeringPolicy
+appender.rolling.policies.size.size= 10MB
+appender.rolling.strategy.type = DefaultRolloverStrategy
+appender.rolling.strategy.max = 5
+
+# Log to console and rolling file
+logger.rolling.name = gr.liknosscrs.pcs.rhodes
+logger.rolling.order = debug
+logger.rolling.additivity = false
+logger.rolling.appenderRef.rolling.ref = LogToRollingFile
+logger.rolling.appenderRef.console.ref = STDOUT
+
+rootLogger.order = info
+#rootLogger.order = debug
+rootLogger.appenderRefs = stdout
+rootLogger.appenderRef.stdout.ref = STDOUT</text>
       </register>
       <register name="5" type="4">
-        <text>List</text>
-      </register>
-      <register name="6" type="4">
-        <text>HashMap</text>
-      </register>
-      <register name="7" type="4">
-        <text>permissionToActionValues</text>
-      </register>
-      <register name="x" type="4">
         <text>etchById</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICBwdWJsaWMgIFN0cmluZyBwZXJtCg==</text>
-      </register>
-      <register name="9" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="4">
+        <text>ActionValues</text>
+      </register>
+      <register name="x" type="4">
+        <text>order</text>
+      </register>
+      <register name="8" type="4">
+        <text>permissionToActionValues</text>
+      </register>
+      <register name="9" type="4">
+        <text>List</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
