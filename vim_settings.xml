@@ -200,7 +200,7 @@
         <mark key="." line="8" column="75" />
         <mark key="^" line="8" column="75" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/PortSectorZoneController.java" timestamp="1568986969326">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/PortSectorZoneController.java" timestamp="1568988407310">
         <mark key="'" line="85" column="2" />
         <mark key="[" line="85" column="2" />
         <mark key="]" line="85" column="11" />
@@ -233,6 +233,11 @@
         <mark key="." line="21" column="31" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/org/springframework/hateoas/SimpleIdentifiableResourceAssembler.java" timestamp="1568969353260" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/PortDockController.java" timestamp="1568988615991">
+        <mark key="'" line="71" column="2" />
+        <mark key="[" line="71" column="2" />
+        <mark key="]" line="102" column="2" />
+      </file>
       <file name="/fragment.java" timestamp="1568981877324">
         <mark key="[" line="0" column="0" />
       </file>
@@ -389,7 +394,7 @@
         <text>findPortSectorByCode</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -415,7 +420,6 @@
         <entry>action AceAction</entry>
         <entry>action GotoImplementation</entry>
         <entry>action RenameElement</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
         <entry>action CloseContent</entry>
         <entry>action Replace</entry>
@@ -428,6 +432,7 @@
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
