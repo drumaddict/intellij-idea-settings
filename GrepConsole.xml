@@ -2,9 +2,10 @@
   <component name="GrepConsole">
     <option name="donationNagger">
       <DonationNagger>
-        <option name="actionsExecuted" value="9" />
+        <option name="actionsExecuted" value="16" />
         <option name="firstUsage" value="0" />
         <option name="firstUsedVersion" value="8.5.162.000.1" />
+        <option name="lastNaggingDate" value="0" />
       </DonationNagger>
     </option>
     <option name="profiles">
@@ -14,7 +15,6 @@
           <option name="grepExpressionGroups">
             <list>
               <GrepExpressionGroup>
-                <option name="enabled" value="true" />
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
@@ -24,7 +24,7 @@
                           <option name="bold" value="true" />
                           <option name="foregroundColor">
                             <GrepColor>
-                              <option name="color" value="-5553622" />
+                              <option name="color" value="-3468028" />
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
@@ -35,7 +35,11 @@
                       <option name="grepExpression" value=".*ERROR.*" />
                       <option name="style">
                         <GrepStyle>
-                          <option name="bold" value="true" />
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-9043968" />
+                            </GrepColor>
+                          </option>
                           <option name="foregroundColor">
                             <GrepColor>
                               <option name="color" value="-6139563" />
@@ -49,6 +53,11 @@
                       <option name="grepExpression" value=".*WARN.*" />
                       <option name="style">
                         <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-4276416" />
+                            </GrepColor>
+                          </option>
                           <option name="foregroundColor">
                             <GrepColor>
                               <option name="color" value="-1184177" />
@@ -62,9 +71,14 @@
                       <option name="grepExpression" value=".*INFO.*" />
                       <option name="style">
                         <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-13214783" />
+                            </GrepColor>
+                          </option>
                           <option name="foregroundColor">
                             <GrepColor>
-                              <option name="color" value="-6242817" />
+                              <option name="color" value="-12292621" />
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
@@ -75,9 +89,14 @@
                       <option name="grepExpression" value=".*DEBUG.*" />
                       <option name="style">
                         <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-6155106" />
+                            </GrepColor>
+                          </option>
                           <option name="foregroundColor">
                             <GrepColor>
-                              <option name="color" value="-10272533" />
+                              <option name="color" value="-13967139" />
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
@@ -88,9 +107,14 @@
                       <option name="grepExpression" value=".*TRACE.*" />
                       <option name="style">
                         <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-12859902" />
+                            </GrepColor>
+                          </option>
                           <option name="foregroundColor">
                             <GrepColor>
-                              <option name="color" value="-11864062" />
+                              <option name="color" value="-14055166" />
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
@@ -107,16 +131,15 @@
           <option name="inputFilterGroups">
             <list>
               <GrepExpressionGroup>
+                <option name="enabled" value="true" />
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
                       <option name="action" value="REMOVE" />
-                      <option name="enabled" value="false" />
-                      <option name="grepExpression" value=".*RMI TCP Connection*." />
+                      <option name="grepExpression" value=".*unwanted line.*" />
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="action" value="REMOVE_UNLESS_PREVIOUSLY_MATCHED" />
-                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*unwanted line.*" />
                     </GrepExpressionItem>
                   </list>
@@ -125,6 +148,7 @@
               </GrepExpressionGroup>
             </list>
           </option>
+          <option name="multiLineOutput" value="true" />
           <option name="name" value="default" />
         </Profile>
       </list>
