@@ -80,6 +80,13 @@
         <mark key="." line="182" column="47" />
         <mark key="^" line="182" column="47" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" timestamp="1569314723029">
+        <mark key="'" line="19" column="86" />
+        <mark key="[" line="19" column="96" />
+        <mark key="]" line="20" column="5" />
+        <mark key="." line="20" column="5" />
+        <mark key="^" line="20" column="5" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/AuthUtils.java" timestamp="1568980248011">
         <mark key="[" line="12" column="24" />
         <mark key="]" line="13" column="1" />
@@ -114,12 +121,11 @@
         <mark key="." line="83" column="43" />
         <mark key="^" line="83" column="43" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/RoleService.java" timestamp="1569313595418">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/RoleService.java" timestamp="1569314276525">
         <mark key="'" line="110" column="23" />
-        <mark key="[" line="76" column="21" />
-        <mark key="]" line="76" column="27" />
-        <mark key="." line="76" column="27" />
-        <mark key="^" line="76" column="27" />
+        <mark key="[" line="74" column="0" />
+        <mark key="]" line="74" column="0" />
+        <mark key="." line="74" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingCargoDTO.java" timestamp="1568895657147">
         <mark key="[" line="8" column="64" />
@@ -440,8 +446,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="127" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/UserService.java" />
-      <jump line="59" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/UserService.java" />
       <jump line="67" column="36" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/UserService.java" />
       <jump line="120" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/UserService.java" />
       <jump line="16" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/RoleDTO.java" />
@@ -540,6 +544,8 @@
       <jump line="89" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/PermissionDTO.java" />
       <jump line="55" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/AbstractResponseUtils.java" />
       <jump line="47" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/response/AbstractResponseUtils.java" />
+      <jump line="31" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
+      <jump line="18" column="86" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -558,37 +564,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>assembler = getAssembler();</text>
+        <text encoding="base64">aWYgKHBkLmdldE5hbWUoKS5lcXVhbHMoImlkIikgJiYgc3JjLmdldFByb3BlcnR5VmFsdWUocGQuZ2V0TmFtZSgpKS5lcXVhbHMoIjAiKSkg</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">cHJpdmF0ZSB2b2lkIHNraXBTZXR0aW5nSWRUb1plcm8oUHJvcGVydHlEZXNjcmlwdG9yIHBkLCBCZWFuV3JhcHBlciBzcmMpIHsKICAgIGlmIChwZC5nZXROYW1lKCkuZXF1YWxzKCJpZCIpICYmIHNyYy5nZXRQcm9wZXJ0eVZhbHVlKHBkLmdldE5hbWUoKSkuZXF1YWxzKCIwIikpIAoKICB9</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="3" type="4">
         <text>role</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>role</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIE9iamVjdHMuZXF1YWxzKHBlcm1pc3Npb25EZXNjcmlwdGlvbiwgdGhhdC5wZXJtaXNzaW9uRGVzY3JpcHRpb24pOwo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIE9iamVjdHMuZXF1YWxzKHBlcm1pc3Npb25DYXB0aW9uR3JvdXAsIHRoYXQucGVybWlzc2lvbkNhcHRpb25Hcm91cCkgJiYK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIE9iamVjdHMuZXF1YWxzKHBlcm1pc3Npb25DYXB0aW9uLCB0aGF0LnBlcm1pc3Npb25DYXB0aW9uKSAmJgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIE9iamVjdHMuZXF1YWxzKHBlcm1pc3Npb25EZXNjcmlwdGlvbiwgdGhhdC5wZXJtaXNzaW9uRGVzY3JpcHRpb24pOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgT2JqZWN0cy5lcXVhbHMocGVybWlzc2lvbi5nZXRJZCgpLCB0aGF0LnBlcm1pc3Npb24uZ2V0SWQoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIE9iamVjdHMuZXF1YWxzKHBlcm1pc3Npb25DYXB0aW9uR3JvdXAsIHRoYXQucGVybWlzc2lvbkNhcHRpb25Hcm91cCkgJiYK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgT2JqZWN0cy5lcXVhbHMocm9sZS5nZXRJZCgpLCB0aGF0LnJvbGUuZ2V0SWQoKSkgJiYK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIE9iamVjdHMuZXF1YWxzKHBlcm1pc3Npb25DYXB0aW9uLCB0aGF0LnBlcm1pc3Npb25DYXB0aW9uKSAmJgo=</text>
       </register>
       <register name="x" type="4">
         <text>role</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIE9iamVjdHMuZXF1YWxzKGFwcFBlcm1pc3Npb25WYWx1ZSwgdGhhdC5hcHBQZXJtaXNzaW9uVmFsdWUpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgT2JqZWN0cy5lcXVhbHMocGVybWlzc2lvbi5nZXRJZCgpLCB0aGF0LnBlcm1pc3Npb24uZ2V0SWQoKSk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgT2JqZWN0cy5lcXVhbHMocm9sZS5nZXRJZCgpLCB0aGF0LnJvbGUuZ2V0SWQoKSkgJiYK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -612,7 +618,6 @@
         <entry>action TabShiftActions.StretchLeft</entry>
         <entry>action Debug</entry>
         <entry>action AceLineAction</entry>
-        <entry>action RenameElement</entry>
         <entry>action OptimizeImports</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action FindUsages</entry>
@@ -621,12 +626,13 @@
         <entry>action Replace</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action NextTab</entry>
-        <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
         <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action GotoFile</entry>
+        <entry>action RenameElement</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
