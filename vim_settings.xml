@@ -10,9 +10,6 @@
         <mark key="^" line="46" column="63" />
         <mark key="." line="46" column="63" />
       </file>
-      <file name="/a.dummy" timestamp="1569836997652">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationController.java" timestamp="1569832869717">
         <mark key="'" line="100" column="2" />
         <mark key="[" line="100" column="2" />
@@ -38,6 +35,19 @@
         <mark key="]" line="19" column="64" />
         <mark key="." line="19" column="64" />
         <mark key="^" line="19" column="64" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/rbo/CountryTranslationRBO.java" timestamp="1569844857722">
+        <mark key="[" line="24" column="49" />
+        <mark key="]" line="24" column="67" />
+        <mark key="." line="24" column="67" />
+        <mark key="^" line="24" column="67" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CountryTranslationRepository.java" timestamp="1569843551853">
+        <mark key="'" line="14" column="2" />
+        <mark key="[" line="14" column="2" />
+        <mark key="]" line="21" column="77" />
+        <mark key="^" line="21" column="56" />
+        <mark key="." line="21" column="56" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IPortSectorZoneService.java" timestamp="1569837024037">
         <mark key="'" line="0" column="0" />
@@ -84,6 +94,18 @@
         <mark key="." line="87" column="47" />
         <mark key="^" line="87" column="47" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CountryTranslationController.java" timestamp="1569844622410">
+        <mark key="'" line="97" column="114" />
+        <mark key="[" line="136" column="4" />
+        <mark key="]" line="136" column="28" />
+        <mark key="^" line="136" column="28" />
+        <mark key="." line="136" column="28" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ICountryService.java" timestamp="1569842506040">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="38" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntrantDataMandatoryFieldDao.java" timestamp="1569829352520">
         <mark key="'" line="55" column="106" />
         <mark key="[" line="69" column="113" />
@@ -123,6 +145,19 @@
         <mark key="]" line="59" column="0" />
         <mark key="." line="59" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/ICountryTranslationDao.java" timestamp="1569843732115">
+        <mark key="'" line="11" column="3" />
+        <mark key="[" line="11" column="3" />
+        <mark key="]" line="18" column="77" />
+        <mark key="^" line="11" column="20" />
+        <mark key="." line="11" column="20" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/CountryTranslationDao.java" timestamp="1569843716221">
+        <mark key="[" line="50" column="77" />
+        <mark key="]" line="50" column="87" />
+        <mark key="^" line="50" column="87" />
+        <mark key="." line="50" column="87" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AccommodationController.java" timestamp="1569833222672">
         <mark key="'" line="92" column="2" />
         <mark key="[" line="28" column="40" />
@@ -160,11 +195,24 @@
         <mark key="^" line="16" column="22" />
         <mark key="." line="19" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryService.java" timestamp="1569842601473">
+        <mark key="[" line="83" column="2" />
+        <mark key="]" line="83" column="7" />
+        <mark key="^" line="83" column="7" />
+        <mark key="." line="83" column="7" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/PortDockSlotController.java" timestamp="1569834295268">
         <mark key="[" line="97" column="0" />
         <mark key="]" line="97" column="0" />
         <mark key="^" line="93" column="22" />
         <mark key="." line="97" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" timestamp="1569844095342">
+        <mark key="'" line="109" column="109" />
+        <mark key="[" line="110" column="0" />
+        <mark key="]" line="110" column="0" />
+        <mark key="^" line="109" column="67" />
+        <mark key="." line="110" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IPortDockService.java" timestamp="1569834685741">
         <mark key="'" line="25" column="67" />
@@ -197,6 +245,13 @@
         <mark key="]" line="36" column="34" />
         <mark key="^" line="36" column="34" />
         <mark key="." line="36" column="34" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ICountryTranslationService.java" timestamp="1569843769668">
+        <mark key="'" line="38" column="2" />
+        <mark key="[" line="38" column="2" />
+        <mark key="]" line="45" column="77" />
+        <mark key="." line="44" column="27" />
+        <mark key="^" line="44" column="27" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CompanyDocumentTypeDTO.java" timestamp="1569591081824">
         <mark key="[" line="25" column="0" />
@@ -235,11 +290,6 @@
         <mark key="^" line="57" column="64" />
         <mark key="." line="57" column="64" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" timestamp="1569836241095">
-        <mark key="[" line="127" column="0" />
-        <mark key="]" line="127" column="0" />
-        <mark key="." line="127" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IAccommodationService.java" timestamp="1569831632995">
         <mark key="'" line="26" column="81" />
         <mark key="[" line="26" column="55" />
@@ -258,40 +308,8 @@
         <mark key="." line="79" column="40" />
         <mark key="^" line="79" column="40" />
       </file>
-      <file name="/fragment.java" timestamp="1569837248057">
-        <mark key="[" line="0" column="0" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="50" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="70" column="50" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="117" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="18" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataMandatoryFieldService.java" />
-      <jump line="19" column="95" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataMandatoryFieldService.java" />
-      <jump line="22" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataMandatoryFieldService.java" />
-      <jump line="59" column="77" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="134" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
-      <jump line="63" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="56" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="65" column="98" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="109" column="37" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
-      <jump line="110" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
-      <jump line="28" column="45" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataMandatoryFieldService.java" />
-      <jump line="24" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataMandatoryFieldService.java" />
-      <jump line="78" column="3" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="18" column="47" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDataMandatoryFieldDao.java" />
-      <jump line="82" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="33" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataMandatoryFieldService.java" />
-      <jump line="19" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDataMandatoryFieldRepository.java" />
-      <jump line="39" column="129" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataMandatoryFieldService.java" />
-      <jump line="34" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataMandatoryFieldService.java" />
-      <jump line="90" column="129" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="19" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDataMandatoryFieldDao.java" />
-      <jump line="50" column="48" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntrantDataMandatoryFieldDao.java" />
-      <jump line="55" column="106" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntrantDataMandatoryFieldDao.java" />
-      <jump line="83" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="87" column="157" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" />
-      <jump line="69" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
       <jump line="86" column="103" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
       <jump line="154" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataMandatoryFieldController.java" />
       <jump line="76" column="2" filename="$USER_HOME$/projects/pcs/README.md" />
@@ -363,6 +381,35 @@
       <jump line="103" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/GeneralSettingService.java" />
       <jump line="91" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/GeneralSettingService.java" />
       <jump line="88" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/GeneralSettingService.java" />
+      <jump line="11" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ICountryService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ICountryService.java" />
+      <jump line="42" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryService.java" />
+      <jump line="22" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="82" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="101" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryService.java" />
+      <jump line="18" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="100" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="88" column="26" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="49" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="52" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="59" column="88" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="38" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CountryTranslationController.java" />
+      <jump line="41" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CountryTranslationController.java" />
+      <jump line="39" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CountryTranslationController.java" />
+      <jump line="48" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ICountryTranslationService.java" />
+      <jump line="14" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CountryTranslationRepository.java" />
+      <jump line="18" column="77" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/ICountryTranslationDao.java" />
+      <jump line="11" column="3" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/ICountryTranslationDao.java" />
+      <jump line="45" column="77" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ICountryTranslationService.java" />
+      <jump line="38" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ICountryTranslationService.java" />
+      <jump line="105" column="77" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="99" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="104" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="109" column="109" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CountryTranslationService.java" />
+      <jump line="82" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CountryTranslationController.java" />
+      <jump line="96" column="114" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CountryTranslationController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -372,46 +419,47 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>generalSettingCoreDao</text>
+        <text>country</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">IHRoaXMuY291bnRyeVRyYW5zbGF0aW9uRA==</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cGFja2FnZSBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuc2VydmljZS5hZG1pbjsKCmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuZGFvLnJlcG9zaXRvcnkuTG9jYXRpb25SZXBvc2l0b3J5OwppbXBvcnQgZ3IubGlrbm9zc2Nycy5wY3MucmhvZGVzLmRhby50eXBlcy5JQ29yZURhbzsKaW1wb3J0IGdyLmxpa25vc3NjcnMucGNzLnJob2Rlcy5kYW8udHlwZXMuSUNvdW50cnlEYW87CmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuZGFvLnR5cGVzLklMb2NhdGlvbkRhbzsKaW1wb3J0IGdyLmxpa25vc3NjcnMucGNzLnJob2Rlcy5kb21haW4uQ291bnRyeTsKaW1wb3J0IGdyLmxpa25vc3NjcnMucGNzLnJob2Rlcy5kb21haW4uTG9jYXRpb247CmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuZHRvLkxvY2F0aW9uRFRPOwppbXBvcnQgZ3IubGlrbm9zc2Nycy5wY3MucmhvZGVzLmR0by5yYm8uTG9jYXRpb25SQk87CmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuZXhjZXB0aW9uLkVudGl0eU5vdEZvdW5kUENTRXhjZXB0aW9uOwppbXBvcnQgZ3IubGlrbm9zc2Nycy5wY3MucmhvZGVzLnNlcnZpY2UuYWRtaW4udHlwZXMuSUxvY2F0aW9uU2VydmljZTsKaW1wb3J0IG9yZy5hcGFjaGUuY29tbW9ucy5sYW5nMy5PYmplY3RVdGlsczsKaW1wb3J0IG9yZy5tb2RlbG1hcHBlci5Nb2RlbE1hcHBlcjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5hbm5vdGF0aW9uLkF1dG93aXJlZDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuZGF0YS5kb21haW4uUGFnZTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuZGF0YS5kb21haW4uUGFnZWFibGU7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmV4cHJlc3Npb24uUGFyc2VFeGNlcHRpb247CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLnN0ZXJlb3R5cGUuU2VydmljZTsKCkBTZXJ2aWNlCnB1YmxpYyBjbGFzcyBMb2NhdGlvblNlcnZpY2UgaW1wbGVtZW50cyBJTG9jYXRpb25TZXJ2aWNlIHsKCiAgcHJpdmF0ZSBJTG9jYXRpb25EYW8gbG9jYXRpb25EYW87CiAgcHJpdmF0ZSBJQ291bnRyeURhbyBjb3VudHJ5RGFvOwogIHByaXZhdGUgTW9kZWxNYXBwZXIgbW9kZWxNYXBwZXI7CgogIEBBdXRvd2lyZWQKICBwdWJsaWMgTG9jYXRpb25TZXJ2aWNlKAogICAgICAgICAgSUxvY2F0aW9uRGFvIGxvY2F0aW9uRGFvLAogICAgICAgICAgSUNvdW50cnlEYW8gY291bnRyeURhbywKICAgICAgICAgIE1vZGVsTWFwcGVyIG1vZGVsTWFwcGVyCiAgKSB7CiAgICB0aGlzLmxvY2F0aW9uRGFvID0gbG9jYXRpb25EYW87CiAgICB0aGlzLmNvdW50cnlEYW8gPSBjb3VudHJ5RGFvOwogICAgdGhpcy5tb2RlbE1hcHBlciA9IG1vZGVsTWFwcGVyOwogIH0KCiAgcHVibGljIFBhZ2U8TG9jYXRpb25EVE8+IGZldGNoQWxsKFBhZ2VhYmxlIHBhZ2VhYmxlKSB7CiAgICByZXR1cm4gbG9jYXRpb25EYW8uZ2V0TG9jYXRpb25Db3JlRGFvKCkuZmluZEFsbChwYWdlYWJsZSkubWFwKHRoaXM6OnRvRHRvKTsKICB9CgogIHB1YmxpYyBMb2NhdGlvbkRUTyBmZXRjaEJ5SWQoTG9uZyBpZCkgewogICAgcmV0dXJuIHRvRHRvKGxvY2F0aW9uRGFvLmdldExvY2F0aW9uQ29yZURhbygpLmZldGNoQnlJZChpZCkpOwogIH0KCiAgcHVibGljIExvY2F0aW9uRFRPIHNhdmUoTG9jYXRpb25SQk8gbG9jYXRpb25SQk8pIHsKICAgIExvY2F0aW9uIGxvY2F0aW9uID0gdG9FbnRpdHkobG9jYXRpb25SQk8pOwogICAgc2V0QXNzb2NpYXRpb25zRnJvbVJlcXVlc3RCb2R5KGxvY2F0aW9uLCBsb2NhdGlvblJCTyk7CiAgICBsb2NhdGlvbkRhby5nZXRMb2NhdGlvbkNvcmVEYW8oKS5zYXZlKGxvY2F0aW9uKTsKICAgIHJldHVybiB0b0R0byhsb2NhdGlvbik7CiAgfQoKICBwdWJsaWMgTG9jYXRpb25EVE8gdXBkYXRlKExvbmcgaWQsIExvY2F0aW9uUkJPIGxvY2F0aW9uUkJPKSB7CiAgICBMb2NhdGlvbiBsb2NhdGlvbiA9IHRvRW50aXR5KGxvY2F0aW9uUkJPKTsKICAgIHNldEFzc29jaWF0aW9uc0Zyb21SZXF1ZXN0Qm9keShsb2NhdGlvbiwgbG9jYXRpb25SQk8pOwogICAgbG9jYXRpb25EYW8uZ2V0TG9jYXRpb25Db3JlRGFvKCkudXBkYXRlKGlkLCBsb2NhdGlvbik7CiAgICByZXR1cm4gdG9EdG8obG9jYXRpb24pOwogIH0KCiAgcHVibGljIExvY2F0aW9uRFRPIGRlbGV0ZUJ5SWQoTG9uZyBpZCkgewogICAgcmV0dXJuIHRvRHRvKGxvY2F0aW9uRGFvLmdldExvY2F0aW9uQ29yZURhbygpLmRlbGV0ZUJ5SWQoaWQpKTsKICB9CgogIHB1YmxpYyBMb2NhdGlvbiB0b0VudGl0eShMb2NhdGlvbkRUTyBsb2NhdGlvbkRUTykgdGhyb3dzIFBhcnNlRXhjZXB0aW9uIHsKICAgIHJldHVybiBtb2RlbE1hcHBlci5tYXAobG9jYXRpb25EVE8sIExvY2F0aW9uLmNsYXNzKTsKICB9CgogIHB1YmxpYyBMb2NhdGlvbiB0b0VudGl0eShMb2NhdGlvblJCTyBsb2NhdGlvblJCTykgdGhyb3dzIFBhcnNlRXhjZXB0aW9uIHsKICAgIHJldHVybiBtb2RlbE1hcHBlci5tYXAobG9jYXRpb25SQk8sIExvY2F0aW9uLmNsYXNzKTsKICB9CgogIHB1YmxpYyBMb2NhdGlvbkRUTyB0b0R0byhMb2NhdGlvbiBsb2NhdGlvbikgewogICAgcmV0dXJuIG1vZGVsTWFwcGVyLm1hcChsb2NhdGlvbiwgTG9jYXRpb25EVE8uY2xhc3MpOwogIH0KCiAgcHVibGljIExvY2F0aW9uUkJPIHRvUmJvKExvY2F0aW9uUkJPIGxvY2F0aW9uKSB7CiAgICByZXR1cm4gbW9kZWxNYXBwZXIubWFwKGxvY2F0aW9uLCBMb2NhdGlvblJCTy5jbGFzcyk7CiAgfQoKICBwdWJsaWMgSUxvY2F0aW9uRGFvIGdldERhbygpIHsKICAgIHJldHVybiBsb2NhdGlvbkRhbzsKICB9CgogIHB1YmxpYyBJQ29yZURhbzxMb2NhdGlvbj4gZ2V0Q29yZURhbygpIHsKICAgIHJldHVybiBsb2NhdGlvbkRhby5nZXRMb2NhdGlvbkNvcmVEYW8oKTsKICB9CgogIHB1YmxpYyBMb2NhdGlvblJlcG9zaXRvcnkgZ2V0UmVwb3NpdG9yeSgpIHsKICAgIHJldHVybiAoTG9jYXRpb25SZXBvc2l0b3J5KSBnZXRDb3JlRGFvKCkuZ2V0UmVwb3NpdG9yeSgpOwogIH0KCiAgcHVibGljIExvY2F0aW9uRFRPIGZpbmRCeUNvbXBhbnlMb2NhdGlvbnNJZChMb25nIGlkKSB7CiAgICByZXR1cm4gZ2V0UmVwb3NpdG9yeSgpLmZpbmRCeUNvbXBhbnlMb2NhdGlvbnNJZChpZCkubWFwKHRoaXM6OnRvRHRvKQogICAgICAgICAgICAub3JFbHNlVGhyb3coKCkgLT4gbmV3IEVudGl0eU5vdEZvdW5kUENTRXhjZXB0aW9uKExvY2F0aW9uLmNsYXNzKSk7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRBc3NvY2lhdGlvbnNGcm9tUmVxdWVzdEJvZHkoTG9jYXRpb24gbG9jYXRpb24sIExvY2F0aW9uUkJPIGxvY2F0aW9uUkJPKSB7CiAgICBpZiAoT2JqZWN0VXRpbHMuaXNOb3RFbXB0eShsb2NhdGlvblJCTy5nZXRDb3VudHJ5KCkpKSB7CiAgICAgIENvdW50cnkgY291bnRyeSA9IGNvdW50cnlEYW8uZ2V0Q291bnRyeUJ5Q29kZShsb2NhdGlvblJCTy5nZXRDb3VudHJ5KCkuZ2V0Q29kZSgpKTsKICAgICAgbG9jYXRpb24uc2V0Q291bnRyeShjb3VudHJ5KTsKICAgIH0KICB9Cgp9Cgo=</text>
+        <text>return apiResponse.toDTOPagedResponse(
+            countryTranslationService.findCountryTranslationsByTranslationLanguageCode(languageCode, pageRequest));</text>
       </register>
       <register name="1" type="4">
-        <text>generalSettingCoreDao</text>
+        <text>country</text>
       </register>
       <register name="2" type="4">
-        <text>generalSettingCoreDao</text>
+        <text>countryTranslationCoreDao</text>
       </register>
       <register name="3" type="4">
-        <text>generalSettingRequestBody</text>
+        <text>countryTranslationCoreDao</text>
       </register>
-      <register name="4" type="4">
-        <text>generalSettingRequestBody</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGNvdW50cnlUcmFuc2xhdGlvblBhdGNoID0gcG9wdWxhdGVSZXF1ZXN0Qm9keVdpdGhQYXJlbnRBc3NvY2lhdGlvbnMoY291bnRyeVRyYW5zbGF0aW9uUGF0Y2gpOwo=</text>
       </register>
       <register name="5" type="4">
-        <text>generalSettingCoreDao</text>
+        <text>countryTranslationPatch</text>
       </register>
       <register name="6" type="4">
-        <text>toDTOResponse</text>
+        <text>countryTranslation</text>
       </register>
       <register name="7" type="4">
-        <text>generalSettingResponseUtils</text>
+        <text>countryTranslationCoreDao</text>
       </register>
       <register name="x" type="4">
-        <text>generalSettingCoreDao</text>
+        <text>country</text>
       </register>
       <register name="8" type="4">
-        <text>generalSettingCoreDao</text>
+        <text>countryTranslationResponseUtils</text>
       </register>
-      <register name="9" type="4">
-        <text>toDTOResponse</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIGNvdW50cnlUcmFuc2xhdGlvbiA9IHBvcHVsYXRlUmVxdWVzdEJvZHlXaXRoUGFyZW50QXNzb2NpYXRpb25zKGNvdW50cnlUcmFuc2xhdGlvbik7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -442,15 +490,15 @@
         <entry>action GotoImplementation</entry>
         <entry>action CloseContent</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action GotoFile</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action AceAction</entry>
         <entry>action Replace</entry>
-        <entry>action NextTab</entry>
+        <entry>action AceAction</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
+        <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
