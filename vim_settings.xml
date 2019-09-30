@@ -37,6 +37,11 @@
         <mark key="^" line="23" column="127" />
         <mark key="." line="23" column="127" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IPortSectorService.java" timestamp="1569835864252">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="39" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IPortDockSlotService.java" timestamp="1569834069268">
         <mark key="'" line="25" column="80" />
         <mark key="[" line="19" column="62" />
@@ -81,6 +86,12 @@
         <mark key="^" line="20" column="52" />
         <mark key="." line="20" column="52" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ICheckPointService.java" timestamp="1569835869634">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="39" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataMandatoryFieldService.java" timestamp="1569829460814">
         <mark key="'" line="32" column="2" />
         <mark key="[" line="36" column="32" />
@@ -101,12 +112,31 @@
         <mark key="^" line="41" column="34" />
         <mark key="." line="41" column="34" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CheckPointService.java" timestamp="1569836228831">
+        <mark key="'" line="99" column="2" />
+        <mark key="[" line="87" column="45" />
+        <mark key="]" line="87" column="47" />
+        <mark key="." line="87" column="47" />
+        <mark key="^" line="87" column="47" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/rbo/CheckPointRBO.java" timestamp="1569836218431">
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="0" />
+        <mark key="." line="35" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataMandatoryFieldService.java" timestamp="1569829506197">
         <mark key="'" line="87" column="157" />
         <mark key="[" line="88" column="0" />
         <mark key="]" line="88" column="0" />
         <mark key="^" line="87" column="133" />
         <mark key="." line="88" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/PortSectorService.java" timestamp="1569836080289">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="84" column="0" />
+        <mark key="]" line="84" column="0" />
+        <mark key="." line="84" column="0" />
+        <mark key="^" line="84" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntrantDataMandatoryFieldDao.java" timestamp="1569829352520">
         <mark key="'" line="55" column="106" />
@@ -126,6 +156,11 @@
         <mark key="]" line="57" column="64" />
         <mark key="^" line="57" column="64" />
         <mark key="." line="57" column="64" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" timestamp="1569836241095">
+        <mark key="[" line="127" column="0" />
+        <mark key="]" line="127" column="0" />
+        <mark key="." line="127" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IAccommodationService.java" timestamp="1569831632995">
         <mark key="'" line="26" column="81" />
@@ -147,16 +182,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="52" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CompanyLocationController.java" />
-      <jump line="126" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/VesselService.java" />
-      <jump line="135" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/VesselService.java" />
-      <jump line="9" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/DocumentTypeRepository.java" />
-      <jump line="10" column="60" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/DocumentTypeRepository.java" />
-      <jump line="11" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/DocumentTypeRepository.java" />
-      <jump line="38" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IDocumentTypeService.java" />
-      <jump line="85" column="67" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/DocumentTypeService.java" />
-      <jump line="1" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CompanyLocationService.java" />
-      <jump line="111" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CompanyLocationService.java" />
       <jump line="22" column="3" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CompanyDocumentTypeService.java" />
       <jump line="103" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CompanyDocumentTypeService.java" />
       <jump line="97" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CompanyDocumentTypeService.java" />
@@ -247,6 +272,16 @@
       <jump line="63" column="39" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/PortDockService.java" />
       <jump line="62" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/PortDockService.java" />
       <jump line="68" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/PortDockService.java" />
+      <jump line="10" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IPortSectorService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IPortSectorService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ICheckPointService.java" />
+      <jump line="59" column="27" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/PortSectorService.java" />
+      <jump line="9" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/PortSectorService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/PortSectorService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CheckPointService.java" />
+      <jump line="84" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CheckPointService.java" />
+      <jump line="98" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/CheckPointService.java" />
+      <jump line="35" column="285" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/rbo/CheckPointRBO.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -256,46 +291,60 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>DTO</text>
+        <text>getPortSectorZone</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>B</text>
+        <text encoding="base64">cGFja2FnZSBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuc2VydmljZS5hZG1pbjsKCmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuZGFvLnJlcG9zaXRvcnkuUG9ydFNlY3RvclJlcG9zaXRvcnk7CmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuZGFvLnR5cGVzLklDb3JlRGFvOwppbXBvcnQgZ3IubGlrbm9zc2Nycy5wY3MucmhvZGVzLmRhby50eXBlcy5JUG9ydFNlY3RvckRhbzsKaW1wb3J0IGdyLmxpa25vc3NjcnMucGNzLnJob2Rlcy5kb21haW4uUG9ydFNlY3RvcjsKaW1wb3J0IGdyLmxpa25vc3NjcnMucGNzLnJob2Rlcy5kdG8uUG9ydFNlY3RvckRUTzsKaW1wb3J0IGdyLmxpa25vc3NjcnMucGNzLnJob2Rlcy5kdG8ucmJvLlBvcnRTZWN0b3JSQk87CmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuc2VydmljZS5hZG1pbi50eXBlcy5JUG9ydFNlY3RvclNlcnZpY2U7CmltcG9ydCBvcmcubW9kZWxtYXBwZXIuTW9kZWxNYXBwZXI7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJlYW5zLmZhY3RvcnkuYW5ub3RhdGlvbi5BdXRvd2lyZWQ7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmRhdGEuZG9tYWluLlBhZ2U7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmRhdGEuZG9tYWluLlBhZ2VhYmxlOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5leHByZXNzaW9uLlBhcnNlRXhjZXB0aW9uOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5zdGVyZW90eXBlLlNlcnZpY2U7CgpAU2VydmljZQpwdWJsaWMgY2xhc3MgUG9ydFNlY3RvclNlcnZpY2UgaW1wbGVtZW50cyBJUG9ydFNlY3RvclNlcnZpY2UgewoKICBwcml2YXRlIElQb3J0U2VjdG9yRGFvIHBvcnRTZWN0b3JEYW87CiAgcHJpdmF0ZSBNb2RlbE1hcHBlciBtb2RlbE1hcHBlcjsKCiAgQEF1dG93aXJlZAogIHB1YmxpYyBQb3J0U2VjdG9yU2VydmljZSgKICAgICAgICAgIElQb3J0U2VjdG9yRGFvIHBvcnRTZWN0b3JEYW8sCiAgICAgICAgICBNb2RlbE1hcHBlciBtb2RlbE1hcHBlcgogICkgewogICAgdGhpcy5wb3J0U2VjdG9yRGFvID0gcG9ydFNlY3RvckRhbzsKICAgIHRoaXMubW9kZWxNYXBwZXIgPSBtb2RlbE1hcHBlcjsKICB9CgogIHB1YmxpYyBQYWdlPFBvcnRTZWN0b3JEVE8+IGZldGNoQWxsKFBhZ2VhYmxlIHBhZ2VhYmxlKSB7CiAgICByZXR1cm4gcG9ydFNlY3RvckRhby5nZXRQb3J0U2VjdG9yQ29yZURhbygpLmZpbmRBbGwocGFnZWFibGUpLm1hcCh0aGlzOjp0b0R0byk7CiAgfQoKICBwdWJsaWMgUG9ydFNlY3RvckRUTyBmZXRjaEJ5SWQoTG9uZyBpZCkgewogICAgcmV0dXJuIHRvRHRvKHBvcnRTZWN0b3JEYW8uZ2V0UG9ydFNlY3RvckNvcmVEYW8oKS5mZXRjaEJ5SWQoaWQpKTsKICB9CgogIHB1YmxpYyBQb3J0U2VjdG9yRFRPIHNhdmUoUG9ydFNlY3RvclJCTyBwb3J0U2VjdG9yUkJPKSB7CiAgICBQb3J0U2VjdG9yIHBvcnRTZWN0b3IgPSB0b0VudGl0eShwb3J0U2VjdG9yUkJPKTsKICAgIFBvcnRTZWN0b3Igc2F2ZWRQb3J0U2VjdG9yID0gcG9ydFNlY3RvckRhby5nZXRQb3J0U2VjdG9yQ29yZURhbygpLnNhdmUocG9ydFNlY3Rvcik7CiAgICByZXR1cm4gdG9EdG8oc2F2ZWRQb3J0U2VjdG9yKTsKICB9CgogIHB1YmxpYyBQb3J0U2VjdG9yRFRPIHVwZGF0ZShMb25nIGlkLCBQb3J0U2VjdG9yUkJPIHBvcnRTZWN0b3JSQk8pIHsKICAgIFBvcnRTZWN0b3IgcG9ydFNlY3RvciA9IHRvRW50aXR5KHBvcnRTZWN0b3JSQk8pOwogICAgUG9ydFNlY3RvciB1cGRhdGVkUG9ydFNlY3RvciA9IHBvcnRTZWN0b3JEYW8uZ2V0UG9ydFNlY3RvckNvcmVEYW8oKS51cGRhdGUoaWQsIHBvcnRTZWN0b3IpOwogICAgcmV0dXJuIHRvRHRvKHVwZGF0ZWRQb3J0U2VjdG9yKTsKICB9CgogIHB1YmxpYyBQb3J0U2VjdG9yRFRPIGRlbGV0ZUJ5SWQoTG9uZyBpZCkgewogICAgcmV0dXJuIHRvRHRvKHBvcnRTZWN0b3JEYW8uZ2V0UG9ydFNlY3RvckNvcmVEYW8oKS5kZWxldGVCeUlkKGlkKSk7CiAgfQoKICBwdWJsaWMgUG9ydFNlY3RvciB0b0VudGl0eShQb3J0U2VjdG9yRFRPIHBvcnRTZWN0b3JEVE8pIHRocm93cyBQYXJzZUV4Y2VwdGlvbiB7CiAgICByZXR1cm4gbW9kZWxNYXBwZXIubWFwKHBvcnRTZWN0b3JEVE8sIFBvcnRTZWN0b3IuY2xhc3MpOwogIH0KCiAgcHVibGljIFBvcnRTZWN0b3IgdG9FbnRpdHkoUG9ydFNlY3RvclJCTyBwb3J0U2VjdG9yUkJPKSB0aHJvd3MgUGFyc2VFeGNlcHRpb24gewogICAgcmV0dXJuIG1vZGVsTWFwcGVyLm1hcChwb3J0U2VjdG9yUkJPLCBQb3J0U2VjdG9yLmNsYXNzKTsKICB9CgogIHB1YmxpYyBQb3J0U2VjdG9yRFRPIHRvRHRvKFBvcnRTZWN0b3IgcG9ydFNlY3RvcikgewogICAgUG9ydFNlY3RvckRUTyBwb3J0U2VjdG9yRFRPID0gbW9kZWxNYXBwZXIubWFwKHBvcnRTZWN0b3IsIFBvcnRTZWN0b3JEVE8uY2xhc3MpOwogICAgcmV0dXJuIHBvcnRTZWN0b3JEVE87CiAgfQoKICBwdWJsaWMgUG9ydFNlY3RvclJCTyB0b1JibyhQb3J0U2VjdG9yIHBvcnRTZWN0b3IpIHsKICAgIHJldHVybiBtb2RlbE1hcHBlci5tYXAocG9ydFNlY3RvciwgUG9ydFNlY3RvclJCTy5jbGFzcyk7CiAgfQoKICBwdWJsaWMgSVBvcnRTZWN0b3JEYW8gZ2V0RGFvKCkgewogICAgcmV0dXJuIHBvcnRTZWN0b3JEYW87CiAgfQoKICBwdWJsaWMgSUNvcmVEYW88UG9ydFNlY3Rvcj4gZ2V0Q29yZURhbygpIHsKICAgIHJldHVybiBwb3J0U2VjdG9yRGFvLmdldFBvcnRTZWN0b3JDb3JlRGFvKCk7CiAgfQoKICBwdWJsaWMgUG9ydFNlY3RvclJlcG9zaXRvcnkgZ2V0UmVwb3NpdG9yeSgpIHsKICAgIHJldHVybiAoUG9ydFNlY3RvclJlcG9zaXRvcnkpIGdldENvcmVEYW8oKS5nZXRSZXBvc2l0b3J5KCk7CiAgfQoKfQo=</text>
       </register>
-      <register name="1" type="4">
-        <text>DTO</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIGNoZWNrUG9pbnRQYXRjaCA9IHBvcHVsYXRlUmVxdWVzdEJvZHlXaXRoUGFyZW50QXNzb2NpYXRpb25zKGNoZWNrUG9pbnRQYXRjaCk7Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>? extends ResourceSupport</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGNoZWNrUG9pbnRSZXF1ZXN0Qm9keSA9IHBvcHVsYXRlUmVxdWVzdEJvZHlXaXRoUGFyZW50QXNzb2NpYXRpb25zKGNoZWNrUG9pbnRSZXF1ZXN0Qm9keSk7Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>portDockResponseUtils</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICBwcml2YXRlIFBvcnRTZQo=</text>
       </register>
       <register name="4" type="4">
-        <text>DTO</text>
+        <text>getPortSectorZone</text>
       </register>
       <register name="5" type="4">
-        <text>portDockResponseUtils</text>
+        <text>checkPointRequestBody</text>
       </register>
       <register name="6" type="4">
-        <text>portDockResponseUtils</text>
+        <text>checkPointRequestBody</text>
       </register>
       <register name="7" type="4">
-        <text>DTO</text>
+        <text>private CheckPoint populateRequestBodyWithParentAssociations(CheckPoint checkPointRequestBody) {
+
+    if (ObjectUtils.isNotEmpty(checkPointRequestBody.getPortSectorZone())) {
+      PortSectorZone portSectorZoneRequestBody = checkPointRequestBody.getPortSectorZone();
+      PortSectorZone portSectorZone = portSectorZoneDao.findPortSectorZoneByCode(checkPointRequestBody.getPortSectorZone().getCode());
+      checkPointRequestBody.setPortSectorZone(portSectorZone);
+    }
+
+    if (ObjectUtils.isNotEmpty(checkPointRequestBody.getUser())) {
+      User userRequestBody = checkPointRequestBody.getUser();
+      User user = userDao.findByUserName(userRequestBody.getUserName());
+      checkPointRequestBody.setUser(user);
+    }
+    return checkPointRequestBody;
+  }</text>
       </register>
       <register name="x" type="4">
-        <text>DTO</text>
+        <text>getPortSectorZone</text>
       </register>
       <register name="8" type="4">
         <text>DTO</text>
       </register>
       <register name="9" type="4">
-        <text>DTO</text>
+        <text>? extends ResourceSupport</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -324,17 +373,17 @@
         <entry>action RenameElement</entry>
         <entry>action $SelectAll</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action CloseContent</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action Replace</entry>
-        <entry>action GotoFile</entry>
         <entry>action AceAction</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
+        <entry>action Replace</entry>
+        <entry>action NextTab</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
+        <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
