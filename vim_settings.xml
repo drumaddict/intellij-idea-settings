@@ -27,11 +27,11 @@
         <mark key="^" line="20" column="22" />
         <mark key="." line="20" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CompanyAccommodationController.java" timestamp="1570021182779">
-        <mark key="[" line="69" column="10" />
-        <mark key="]" line="69" column="20" />
-        <mark key="." line="69" column="20" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CompanyAccommodationController.java" timestamp="1570022190016">
+        <mark key="[" line="89" column="0" />
+        <mark key="]" line="89" column="0" />
         <mark key="^" line="69" column="20" />
+        <mark key="." line="89" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationController.java" timestamp="1570017753379">
         <mark key="'" line="59" column="2" />
@@ -575,20 +575,34 @@
       <register name="0" type="4">
         <text>private CompanyDTO company;</text>
       </register>
-      <register name="1" type="4">
-        <text>Response</text>
-      </register>
-      <register name="2" type="2">
+      <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="2" type="4">
+        <text>//    this.companyDao = companyDao;
+//    this.companyCoreDao = companyDao.getCompanyCoreDao();
+//    this.vesselDao = vesselDao;
+//    this.vesselCoreDao = vesselDao.getVesselCoreDao();
+//    this.accommodationDao = accommodationDao;
+//    this.accommodationCoreDao = accommodationDao.getAccommodationCoreDao();
+//    this.companyAccommodationDao = companyAccommodationDao;
+//    this.companyAccommodationCoreDao = companyAccommodationDao.getCompanyAccommodationCoreDao();
+//    this.entrantDataTypeRepository = entrantDataTypeRepository;</text>
+      </register>
+      <register name="3" type="4">
+        <text>Response</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>@Autowired
   EntityLinks entityLinks;</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>public VesselDTO getVesselDTO() {
     return vesselDTO;
   }
@@ -597,35 +611,14 @@
     this.vesselDTO = vesselDTO;
   }</text>
       </register>
-      <register name="6" type="4">
-        <text>company</text>
-      </register>
-      <register name="7" type="4">
-        <text>CompanyDTO</text>
-      </register>
       <register name="x" type="4">
         <text>Response</text>
       </register>
       <register name="8" type="4">
-        <text>public CompanyDTO getCompany() {
-    return company;
-  }
-
-  public void setCompany(CompanyDTO company) {
-    this.company = company;
-  }</text>
+        <text>company</text>
       </register>
       <register name="9" type="4">
-        <text>//    this.companyLocationDao = companyLocationDao;
-//    this.companyDao = companyDao;
-//    this.companyCoreDao = companyDao.getCompanyCoreDao();
-//    this.vesselDao = vesselDao;
-//    this.vesselCoreDao = vesselDao.getVesselCoreDao();
-//    this.companyLocationCoreDao = companyLocationDao.getCompanyLocationCoreDao();
-//    this.locationDao = locationDao;
-//    this.locationCoreDao = locationDao.getLocationCoreDao();
-//    this.companyLocationRepository = (CompanyLocationRepository) companyLocationCoreDao.getRepository();
-//    this.locationRepository = (LocationRepository) locationCoreDao.getRepository();</text>
+        <text>CompanyDTO</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
