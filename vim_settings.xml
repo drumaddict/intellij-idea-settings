@@ -433,6 +433,12 @@
         <mark key="^" line="22" column="22" />
         <mark key="." line="25" column="4" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/GeneralSettingAssembler.java" timestamp="1570006085701">
+        <mark key="[" line="18" column="27" />
+        <mark key="]" line="18" column="22" />
+        <mark key="^" line="18" column="22" />
+        <mark key="." line="18" column="22" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ICheckPointService.java" timestamp="1569999378635">
         <mark key="'" line="20" column="40" />
         <mark key="[" line="20" column="35" />
@@ -492,7 +498,8 @@
         <mark key="^" line="21" column="25" />
         <mark key="." line="21" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/GeneralSettingController.java" timestamp="1569841674018">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/GeneralSettingController.java" timestamp="1570006105824">
+        <mark key="'" line="52" column="0" />
         <mark key="[" line="92" column="4" />
         <mark key="]" line="92" column="24" />
         <mark key="." line="92" column="24" />
@@ -610,7 +617,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="44" column="29" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/SailingAdminController.java" />
       <jump line="35" column="53" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDatumService.java" />
       <jump line="21" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDatumService.java" />
       <jump line="47" column="69" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumService.java" />
@@ -710,6 +716,7 @@
       <jump line="105" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CountryTranslationController.java" />
       <jump line="130" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CountryTranslationController.java" />
       <jump line="132" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CountryTranslationController.java" />
+      <jump line="52" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/GeneralSettingController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -719,7 +726,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>DTOPagedResponse</text>
+        <text>ResourceAssembler</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">SHR0cEVudGl0eTxQYWdlPFJlc291cmNlU3VwcG9ydD4+</text>
@@ -730,22 +737,32 @@
       <register name="0" type="4">
         <text encoding="base64">QFJlcXVlc3RNYXBwaW5nKAogICAgICAgICAgbWV0aG9kID0gUmVxdWVzdE1ldGhvZC5HRVQsCiAgICAgICAgICBwYXRoID0gIi9jb3VudHJ5L3tjb3VudHJ5Q29kZX0iLAogICAgICAgICAgcHJvZHVjZXMgPSBNZWRpYVR5cGVzLkhBTF9KU09OX1ZBTFVFKQogIHB1YmxpYyBIdHRwRW50aXR5PFBhZ2U8UmVzb3VyY2VTdXBwb3J0Pj4KICBnZXRBbGxDb3VudHJ5VHJhbnNsYXRpb25zQnlBY2NvbW9kYXRpb24oCiAgICAgICAgICBAUGF0aFZhcmlhYmxlIFN0cmluZyBjb3VudHJ5Q29kZSwKICAgICAgICAgIFBhZ2VhYmxlIHBhZ2VSZXF1ZXN0LAogICAgICAgICAgSHR0cFNlcnZsZXRSZXF1ZXN0IHJlcXVlc3QpIHsKICAgcmV0dXJuIGFwaVJlc3BvbnNlLnRvRFRPUGFnZWRSZXNwb25zZSgKICAgICAgICAgICAgY291bnRyeVRyYW5zbGF0aW9uU2VydmljZS5maW5kQ291bnRyeVRyYW5zbGF0aW9uc0J5Q291bnRyeUNvZGUoY291bnRyeUNvZGUsIHBhZ2VSZXF1ZXN0KSk7CiAgfQ==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>@Autowired
+  EntityLinks entityLinks;</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>ResourceAssembler</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="x" type="4">
+        <text>ResourceAssembler</text>
+      </register>
+      <register name="8" type="4">
         <text>@RequestMapping(
           method = RequestMethod.GET,
           path = &quot;/country/all/{countryCode}&quot;,
@@ -758,20 +775,11 @@
             countryTranslationService.findCountryTranslationsByCountryCode(countryCode));
   }</text>
       </register>
-      <register name="7" type="4">
-        <text>DTOPagedResponse</text>
-      </register>
-      <register name="x" type="4">
-        <text>DTOPagedResponse</text>
-      </register>
-      <register name="8" type="4">
-        <text>Page</text>
-      </register>
       <register name="9" type="4">
-        <text>ageable</text>
+        <text>DTOPagedResponse</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -802,12 +810,12 @@
         <entry>action Replace</entry>
         <entry>action OptimizeImports</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
