@@ -108,12 +108,6 @@
         <mark key="^" line="54" column="24" />
         <mark key="." line="54" column="24" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/LocationService.java" timestamp="1570026298336">
-        <mark key="'" line="110" column="2" />
-        <mark key="[" line="110" column="2" />
-        <mark key="]" line="113" column="2" />
-        <mark key="." line="115" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/TranslationLanguageDTO.java" timestamp="1570019043793">
         <mark key="[" line="8" column="82" />
         <mark key="]" line="8" column="82" />
@@ -496,12 +490,6 @@
         <mark key="^" line="17" column="22" />
         <mark key="." line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ITranslationLanguageService.java" timestamp="1570018361137">
-        <mark key="'" line="42" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="42" column="1" />
-        <mark key="." line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/CheckPointController.java" timestamp="1570002656593">
         <mark key="'" line="60" column="2" />
         <mark key="[" line="44" column="0" />
@@ -701,7 +689,7 @@
         <text>accommodationTranslationCoreDao</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -731,13 +719,13 @@
         <entry>action Replace</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action OptimizeImports</entry>
         <entry>action AceAction</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action OptimizeImports</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
