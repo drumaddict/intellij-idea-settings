@@ -220,11 +220,12 @@
         <mark key="." line="74" column="54" />
         <mark key="^" line="74" column="54" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/UserService.java" timestamp="1570007150956">
-        <mark key="[" line="110" column="12" />
-        <mark key="]" line="110" column="9" />
-        <mark key="^" line="110" column="9" />
-        <mark key="." line="110" column="9" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/UserService.java" timestamp="1570108322514">
+        <mark key="'" line="104" column="6" />
+        <mark key="[" line="104" column="0" />
+        <mark key="]" line="104" column="0" />
+        <mark key="^" line="105" column="96" />
+        <mark key="." line="104" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IPassengerTypeService.java" timestamp="1570095306687">
         <mark key="'" line="0" column="0" />
@@ -744,7 +745,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="216" column="25" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" />
       <jump line="167" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" />
       <jump line="184" column="14" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" />
       <jump line="217" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" />
@@ -844,6 +844,7 @@
       <jump line="107" column="104" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataTypeTranslationController.java" />
       <jump line="96" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataTypeTranslationController.java" />
       <jump line="123" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataTypeTranslationController.java" />
+      <jump line="103" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/UserService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -853,7 +854,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>entrantDataTypeTranslationCoreDao</text>
+        <text>roles</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">SHR0cEVudGl0eTxQYWdlPFJlc291cmNlU3VwcG9ydD4+</text>
@@ -862,52 +863,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">QFJlcXVlc3RNYXBwaW5nKAogICAgICAgICAgbWV0aG9kID0gUmVxdWVzdE1ldGhvZC5HRVQsCiAgICAgICAgICBwYXRoID0gIi9lbnRyYW50RGF0YVR5cGUve2VudHJhbnREYXRhVHlwZUNvZGV9IiwKICAgICAgICAgIHByb2R1Y2VzID0gTWVkaWFUeXBlcy5IQUxfSlNPTl9WQUxVRSkKICBwdWJsaWMgSHR0cEVudGl0eTxQYWdlPFJlc291cmNlU3VwcG9ydD4+CiAgZ2V0QWxsRW50cmFudERhdGFUeXBlVHJhbnNsYXRpb25zQnlBY2NvbW9kYXRpb24oCiAgICAgICAgICBAUGF0aFZhcmlhYmxlIFN0cmluZyBlbnRyYW50RGF0YVR5cGVDb2RlLAogICAgICAgICAgUGFnZWFibGUgcGFnZVJlcXVlc3QsCiAgICAgICAgICBIdHRwU2VydmxldFJlcXVlc3QgcmVxdWVzdCkgewogICAgcmV0dXJuIGFwaVJlc3BvbnNlLnRvRFRPUGFnZWRSZXNwb25zZSgKICAgICAgICAgICAgZW50cmFudERhdGFUeXBlVHJhbnNsYXRpb25TZXJ2aWNlLgogICAgICAgICAgICAgICAgICAgIGZpbmRFbnRyYW50RGF0YVR5cGVUcmFuc2xhdGlvbnNCeUVudHJhbnREYXRhVHlwZUNvZGUoZW50cmFudERhdGFUeXBlQ29kZSwgcGFnZVJlcXVlc3QpKTsKICB9</text>
+        <text>(</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICBTZXQ8U3RyaW5nPiByb2xlTmFtZXMgPSB1c2VyUkIuZ2V0Um9sZXMoKS5zdHJlYW0oKS5tYXAoUm9sZURUTzo6Z2V0Um9sZU5hbWUpLmNvbGxlY3QoQ29sbGVjdG9ycy50b1NldCgpKTsK</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="2" type="4">
+        <text>roles</text>
       </register>
       <register name="3" type="4">
-        <text>private EntrantDataTypeTranslation populateRequestBodyWithParentAssociations(EntrantDataTypeTranslation entrantDataTypeTranslationRequestBody) {
-
-    if (ObjectUtils.isNotEmpty(entrantDataTypeTranslationRequestBody.getEntrantDataType())) {
-      EntrantDataType entrantDataTypeRequestBody = entrantDataTypeTranslationRequestBody.getEntrantDataType();
-      EntrantDataType entrantDataType = entrantDataTypeDao.getEntrantDataTypeByCode(entrantDataTypeTranslationRequestBody.getEntrantDataType().getCode());
-      entrantDataTypeTranslationRequestBody.setEntrantDataType(entrantDataType);
-    }
-
-    if (ObjectUtils.isNotEmpty(entrantDataTypeTranslationRequestBody.getTranslationLanguage())) {
-      TranslationLanguage translationLanguageRequestBody = entrantDataTypeTranslationRequestBody.getTranslationLanguage();
-      TranslationLanguage language = translationLanguageDao.findTranslationLanguageByCode(entrantDataTypeTranslationRequestBody.getTranslationLanguage().getCode());
-      entrantDataTypeTranslationRequestBody.setTranslationLanguage(language);
-    }
-
-    return entrantDataTypeTranslationRequestBody;
-  }</text>
+        <text>findAllById</text>
       </register>
       <register name="4" type="4">
-        <text>entrantDataTypeTranslationCoreDao</text>
+        <text>roleNames</text>
       </register>
       <register name="5" type="4">
-        <text>entrantDataTypeTranslationCoreDao</text>
+        <text>Set</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIGVudHJhbnREYXRhVHlwZVRyYW5zbGF0aW9uUGF0Y2ggPSBwb3B1bGF0ZVJlcXVlc3RCb2R5V2l0aFBhcmVudEFzc29jaWF0aW9ucyhlbnRyYW50RGF0YVR5cGVUcmFuc2xhdGlvblBhdGNoKTsK</text>
+      <register name="6" type="4">
+        <text>roleNames</text>
       </register>
       <register name="7" type="4">
-        <text>entrantDataTypeTranslationCoreDao</text>
+        <text>RoleNameIn</text>
       </register>
       <register name="x" type="4">
-        <text>entrantDataTypeTranslationCoreDao</text>
+        <text>roles</text>
       </register>
       <register name="8" type="4">
-        <text>entrantDataTypeTranslationResponseUtils</text>
+        <text>String</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIGVudHJhbnREYXRhVHlwZVRyYW5zbGF0aW9uID0gcG9wdWxhdGVSZXF1ZXN0Qm9keVdpdGhQYXJlbnRBc3NvY2lhdGlvbnMoZW50cmFudERhdGFUeXBlVHJhbnNsYXRpb24pOwo=</text>
+      <register name="9" type="4">
+        <text>RoleName</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -931,22 +917,23 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action SurroundWith</entry>
         <entry>action RenameElement</entry>
-        <entry>action Find</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action TabShiftActions.StretchRight</entry>
         <entry>action $SelectAll</entry>
         <entry>action AceAction</entry>
         <entry>action Replace</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action GotoFile</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVwbGFjZQ==</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
         <entry>action CloseContent</entry>
         <entry>action NextTab</entry>
         <entry>action Debug</entry>
-        <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action Find</entry>
+        <entry>action GotoFile</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
