@@ -227,12 +227,12 @@
         <mark key="." line="74" column="54" />
         <mark key="^" line="74" column="54" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" timestamp="1570175866329">
-        <mark key="'" line="67" column="77" />
-        <mark key="[" line="86" column="69" />
-        <mark key="]" line="85" column="33" />
-        <mark key="^" line="85" column="33" />
-        <mark key="." line="85" column="33" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" timestamp="1570178055552">
+        <mark key="'" line="46" column="39" />
+        <mark key="[" line="52" column="39" />
+        <mark key="]" line="52" column="46" />
+        <mark key="^" line="52" column="46" />
+        <mark key="." line="52" column="46" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/UserService.java" timestamp="1570108322514">
         <mark key="'" line="104" column="6" />
@@ -359,7 +359,8 @@
         <mark key="^" line="4" column="1" />
         <mark key="." line="4" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataCardController.java" timestamp="1570173297325">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataCardController.java" timestamp="1570177746507">
+        <mark key="'" line="104" column="0" />
         <mark key="[" line="104" column="2" />
         <mark key="]" line="104" column="2" />
         <mark key="^" line="100" column="25" />
@@ -843,12 +844,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="54" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IDocumentTypeTranslationService.java" />
-      <jump line="133" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/VesselTypeTranslationService.java" />
-      <jump line="12" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/VesselTypeTranslationService.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/VesselTypeTranslationService.java" />
-      <jump line="147" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/DocumentTypeTranslationService.java" />
-      <jump line="16" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/DocumentTypeTranslationRepository.java" />
       <jump line="27" column="92" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/DocumentTypeTranslationRepository.java" />
       <jump line="41" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/DocumentTypeTranslationDao.java" />
       <jump line="63" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/DocumentTypeTranslationDao.java" />
@@ -943,6 +938,12 @@
       <jump line="61" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataCardDTO.java" />
       <jump line="63" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/rbo/EntrantDataCardRBO.java" />
       <jump line="73" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/rbo/EntrantDataCardRBO.java" />
+      <jump line="126" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" />
+      <jump line="46" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" />
+      <jump line="53" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" />
+      <jump line="51" column="62" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" />
+      <jump line="48" column="39" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" />
+      <jump line="104" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDataCardController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -952,7 +953,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>String</text>
+        <text>socollect</text>
       </register>
       <register name="-" type="4">
         <text>;</text>
@@ -961,82 +962,41 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>issueUser;</text>
+        <text encoding="base64">Q29tcGFyYXRvcjxFbnRyYW50RGF0YUNhcmQ+IGNvbXBhcmF0b3Ig</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>socollect</text>
       </register>
-      <register name="2" type="4">
-        <text>public LocalDateTime getValidUntil() {
-    return validUntil;
-  }
-
-  public void setValidUntil(LocalDateTime validUntil) {
-    this.validUntil = validUntil;
-  }
-
-  public LocalDateTime getCreated() {
-    return created;
-  }
-
-  public void setCreated(LocalDateTime created) {
-    this.created = created;
-  }</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">IHB1YmxpYyB2b2lkIHNldFZhbGlkVW50aWwoTG9jYWxEYXRlVGltZSB2YWxpZFVudGlsKSB7CiAgICB0aGlzLnZhbGlkVW50aWwgPSB2YWxpZFVudGlsOwogIH0KCiAgcHVibGljIHZvaWQgc2V0Q3JlYXRlZChMb2NhbERhdGVUaW1lIGNyZWF0ZWQpIHsKICAgIHRoaXMuY3JlYXRlZCA9IGNyZWF0ZWQ7CiAgfQ==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="5" type="4">
-        <text>String</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="6" type="4">
-        <text>String</text>
+        <text encoding="base64">cHVibGljIGNsYXNzICBkQ29tcGFyYXRvciBpbXBsZW1lbnRzIENvbXBhcmF0b3I8RW50cmFudERhdGFDYXJkPiB7CiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBpbnQgY29tcGFyZShmaW5hbCBFbnRyYW50RGF0YUNhcmQgZmlyc3QsIGZpbmFsIEVudHJhbnREYXRhQ2FyZCBzZWNvbmQpIHsKICAgICAgICByZXR1cm4gZmlyc3QuZ2V0Q3JlYXRlZCgpLmNvbXBhcmVUbyhzZWNvbmQuZ2V0VGltZXN0YW1wKCkpOwogICAgfQp9</text>
       </register>
       <register name="7" type="4">
-        <text>public LocalDateTime getValidUntil() {
-    return validUntil;
-  }
-
-  public void setValidUntil(LocalDateTime validUntil) {
-    this.validUntil = validUntil;
-  }
-
-  public LocalDateTime getCreated() {
-    return created;
-  }
-
-  public void setCreated(LocalDateTime created) {
-    this.created = created;
-  }</text>
+        <text>Pageable sortedByName = 
+  PageRequest.of(0, 3, Sort.by(&quot;name&quot;));</text>
       </register>
       <register name="x" type="4">
-        <text>String</text>
+        <text>socollect</text>
       </register>
       <register name="8" type="4">
-        <text>public String getValidUntil() {
-        return validUntil;
-    }
-
-    public void setValidUntil(String validUntil) {
-        this.validUntil = validUntil;
-    }
-
-    public String getCreated() {
-        return created;
-    }
-
-    public void setCreated(String created) {
-        this.created = created;
-    }</text>
+        <text>socollect</text>
       </register>
       <register name="9" type="4">
-        <text>String</text>
+        <text>getTimestamp</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -1060,20 +1020,20 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVwbGFjZQ==</entry>
         <entry>action CloseContent</entry>
         <entry>action Debug</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action RenameElement</entry>
         <entry>action Forward</entry>
         <entry>action OptimizeImports</entry>
         <entry>action NextTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action PreviousTab</entry>
         <entry>action Replace</entry>
         <entry>action Find</entry>
-        <entry>action ReformatCode</entry>
         <entry>action AceAction</entry>
-        <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action QuickJavaDoc</entry>
         <entry>action GotoFile</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
