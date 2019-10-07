@@ -339,6 +339,11 @@
         <mark key="." line="2" column="48" />
         <mark key="^" line="2" column="48" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/apn/DateTimeRefTable.txt" timestamp="1570456751616">
+        <mark key="'" line="1" column="27" />
+        <mark key="[" line="1" column="27" />
+        <mark key="]" line="1" column="152" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/CompanyLocationAssembler.java" timestamp="1569921014233">
         <mark key="[" line="25" column="4" />
         <mark key="]" line="25" column="4" />
@@ -412,12 +417,12 @@
         <mark key="^" line="21" column="22" />
         <mark key="." line="21" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" timestamp="1570455722451">
-        <mark key="'" line="70" column="27" />
-        <mark key="[" line="16" column="27" />
-        <mark key="]" line="16" column="32" />
-        <mark key="^" line="16" column="32" />
-        <mark key="." line="16" column="32" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" timestamp="1570457034428">
+        <mark key="'" line="96" column="133" />
+        <mark key="[" line="78" column="1" />
+        <mark key="]" line="78" column="1" />
+        <mark key="." line="78" column="1" />
+        <mark key="^" line="78" column="1" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/assembler/PassengerTypeTranslationAssembler.java" timestamp="1570091569005">
         <mark key="[" line="20" column="27" />
@@ -459,10 +464,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="52" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCheckService.java" />
-      <jump line="64" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCheckService.java" />
-      <jump line="63" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCheckService.java" />
-      <jump line="24" column="91" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataCheckService.java" />
       <jump line="162" column="38" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataCheck.java" />
       <jump line="22" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataCheckDTO.java" />
       <jump line="19" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataCheckDTO.java" />
@@ -551,7 +552,6 @@
       <jump line="54" column="32" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
       <jump line="51" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" />
       <jump line="78" column="108" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
-      <jump line="62" column="18" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
       <jump line="63" column="18" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
       <jump line="65" column="18" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
       <jump line="32" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/apn/vessel.ini" />
@@ -559,6 +559,11 @@
       <jump line="66" column="27" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
       <jump line="67" column="27" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
       <jump line="68" column="27" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
+      <jump line="21" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
+      <jump line="62" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
+      <jump line="95" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
+      <jump line="1" column="27" filename="$USER_HOME$/projects/pcs/rhodes/specs/apn/DateTimeRefTable.txt" />
+      <jump line="97" column="133" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -568,7 +573,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>String</text>
+        <text>VESSEL_TO_PCS_ID</text>
       </register>
       <register name="-" type="4">
         <text>;</text>
@@ -577,59 +582,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>{&quot;T&quot; , 5},</text>
+        <text>('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','7','8','9','0','1');</text>
       </register>
       <register name="1" type="4">
-        <text>String</text>
+        <text encoding="base64">cHVibGljIGZpbmFsIExpc3Q8U3RyaW5nPiBOVU1CRVJfTUFQUElOR1MgPQpBcnJheXMuYSgnQScsJ0InLCdDJywnRCcsJ0UnLCdGJywnRycsJ0gnLCdJJywnSicsJ0snLCdMJywnTScsJ04nLCdPJywnUCcsJ1EnLCdSJywnUycsJ1QnLCdVJywnVicsJ1cnLCdYJywnWScsJ1onLCc3JywnOCcsJzknLCcwJywnMScpOw==</text>
       </register>
       <register name="2" type="4">
-        <text>private</text>
+        <text>VESSEL_TO_PCS_ID</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Ly9yODI9UCwxOCxBUE4sT1BFTiw5OTk5OQo=</text>
+      <register name="3" type="4">
+        <text>/</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgeyJQIiAsIDN9LAo=</text>
+      <register name="4" type="4">
+        <text>/</text>
       </register>
       <register name="5" type="4">
-        <text>METHOD_NOT_ALLOWED</text>
+        <text>/</text>
       </register>
       <register name="6" type="4">
-        <text>{ConstraintViolationException.class, BAD_REQUEST},
-                  {HttpMediaTypeNotSupportedException.class, UNSUPPORTED_MEDIA_TYPE},
-                  {HttpMediaTypeNotAcceptableException.class, NOT_ACCEPTABLE},
-                  {MissingPathVariableException.class, INTERNAL_SERVER_ERROR},
-                  {MissingServletRequestParameterException.class, BAD_REQUEST},
-                  {ServletRequestBindingException.class, BAD_REQUEST},
-                  {ConversionNotSupportedException.class, INTERNAL_SERVER_ERROR},
-                  {TypeMismatchException.class, BAD_REQUEST},
-                  {HttpMessageNotReadableException.class, BAD_REQUEST},
-                  {HttpMessageNotWritableException.class, INTERNAL_SERVER_ERROR},
-//                    {MethodArgumentNotValidException.class, BAD_REQUEST},
-                  {MissingServletRequestPartException.class, BAD_REQUEST},
-                  {BindException.class, BAD_REQUEST},
-                  {NoHandlerFoundException.class, NOT_FOUND},
-                  {PersistenceException.class, BAD_REQUEST},
-                  {EntityNotFoundException.class, NOT_FOUND},
-                  {JpaObjectRetrievalFailureException.class, NOT_FOUND},
-                  {InvalidPropertyException.class, NOT_FOUND},
-                  {DataIntegrityViolationException.class, BAD_REQUEST},
-                  {Exception.class, INTERNAL_SERVER_ERROR},</text>
+        <text>/</text>
       </register>
       <register name="7" type="4">
-        <text>DEFAULT_SPRING_EXCEPTION_RESPONSE_CODES</text>
+        <text>//</text>
       </register>
       <register name="x" type="4">
-        <text>String</text>
+        <text>VESSEL_TO_PCS_ID</text>
       </register>
       <register name="8" type="4">
-        <text>HttpStatus</text>
+        <text>//</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>//</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -663,12 +649,12 @@
         <entry>action NextTab</entry>
         <entry>action $SelectAll</entry>
         <entry>action GotoFile</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action Find</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
