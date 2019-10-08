@@ -126,6 +126,11 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="42" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/atc/PORTSATC.INI" timestamp="1570541851372">
+        <mark key="[" line="13" column="4" />
+        <mark key="]" line="13" column="56" />
+        <mark key="." line="13" column="4" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/specs/atc/ATC_QRCODE_PARSER.txt" timestamp="1570539100312">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="5" column="22" />
@@ -312,7 +317,7 @@
         <text>Month</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -340,7 +345,6 @@
         <entry>action OptimizeImports</entry>
         <entry>action RenameElement</entry>
         <entry>action TabShiftActions.StretchLeft</entry>
-        <entry>action Find</entry>
         <entry>action GotoFile</entry>
         <entry>action HideAllWindows</entry>
         <entry>action SplitVertically</entry>
@@ -352,6 +356,7 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
