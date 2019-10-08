@@ -410,11 +410,11 @@
         <mark key="^" line="4" column="7" />
         <mark key="." line="4" column="7" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1570524571221">
-        <mark key="[" line="44" column="57" />
-        <mark key="]" line="18" column="19" />
-        <mark key="^" line="18" column="19" />
-        <mark key="." line="18" column="19" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1570526376128">
+        <mark key="[" line="61" column="10" />
+        <mark key="]" line="61" column="13" />
+        <mark key="." line="61" column="13" />
+        <mark key="^" line="61" column="13" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CountryRBO.java" timestamp="1570444291290">
         <mark key="'" line="0" column="0" />
@@ -588,7 +588,7 @@
         <text>String getDepartureTimeFromQrCode(String QrCode);</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
@@ -600,23 +600,13 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICBwYQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>private String getEntrantDataType(String qrCode) {
-//    return
-  }
-
-  private Company getCompanyFromQrCode(String qrCode) {
-    return new Company();
-  }
-
-  private LocalDateTime getDepartureDateTime(String qrCode) {
-    return LocalDateTime.now();
-  }</text>
+      <register name="6" type="2">
+        <text encoding="base64">IC8vIGdldCBEZXBhcnR1cmVEYXRlVGltZSwgZ2V0VmVzc2VsLCBkZXBhcnR1cmVMb2NhdGlvblJob2Rlcwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGlmICgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>String</text>
