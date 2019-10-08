@@ -64,12 +64,12 @@
         <mark key="]" line="1" column="152" />
       </file>
       <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1570521126350" />
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" timestamp="1570532084651">
-        <mark key="'" line="83" column="6" />
-        <mark key="[" line="88" column="97" />
-        <mark key="]" line="88" column="87" />
-        <mark key="." line="88" column="87" />
-        <mark key="^" line="88" column="87" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" timestamp="1570532976835">
+        <mark key="'" line="103" column="82" />
+        <mark key="[" line="108" column="95" />
+        <mark key="]" line="108" column="85" />
+        <mark key="." line="108" column="85" />
+        <mark key="^" line="108" column="85" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/EntrantDatumController.java" timestamp="1570529987091">
         <mark key="'" line="105" column="0" />
@@ -154,9 +154,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/apn/EDI_APN_QRCODE_PARSER.txt" />
-      <jump line="18" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/types/IQrCodeParser.java" />
-      <jump line="16" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/types/IQrCodeParser.java" />
       <jump line="19" column="43" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/types/IQrCodeParser.java" />
       <jump line="4" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/types/IQrCodeParser.java" />
       <jump line="54" column="32" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" />
@@ -254,6 +251,9 @@
       <jump line="85" column="33" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" />
       <jump line="30" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" />
       <jump line="84" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" />
+      <jump line="105" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" />
+      <jump line="72" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" />
+      <jump line="103" column="82" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -272,7 +272,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>if (ObjectUtils.isNotEmpty(entrantDatumRBO.getEntrantDataType())) {</text>
+        <text encoding="base64">T3B0aW9uYWw8U2FpbGluZz4gc2FpbGluZyA9IHNhaWxpbmdEYW8uZ2V0U2FpbGluZ0NvcmVEYW8oKS5maW5kQnlJZChzYWlsaW5nSWQpOw==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
