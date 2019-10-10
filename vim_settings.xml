@@ -323,7 +323,7 @@
         <text>public</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -360,8 +360,8 @@
         <entry>action NextTab</entry>
         <entry>action OptimizeImports</entry>
         <entry>action ReformatCode</entry>
-        <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
