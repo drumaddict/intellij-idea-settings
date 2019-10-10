@@ -105,6 +105,11 @@
         <mark key="^" line="176" column="7" />
         <mark key="." line="156" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1570716437186">
+        <mark key="'" line="76" column="2" />
+        <mark key="[" line="76" column="2" />
+        <mark key="]" line="76" column="41" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataCardService.java" timestamp="1570709968007">
         <mark key="'" line="20" column="0" />
         <mark key="[" line="66" column="0" />
@@ -149,7 +154,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="189" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" />
       <jump line="177" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" />
       <jump line="65" column="63" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataCardService.java" />
       <jump line="126" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
@@ -249,6 +253,7 @@
       <jump line="222" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="94" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckRBO.java" />
       <jump line="33" column="28" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckRBO.java" />
+      <jump line="76" column="2" filename="$USER_HOME$/projects/pcs/README.md" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -267,30 +272,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>private EntrantDataCheckDTO createTransientCheckForNewCard(EntrantDatum entrantDatum, User user) {
-    LocalDateTime validUntil = computeValidUntil(entrantDatum);
-    EntrantDataCheck entrantDataCheck = new EntrantDataCheck();
-    setValidationResult(entrantDataCheck, EntrantDataCheckRBO.ActionType.N, &quot;Newly created Entrance Card&quot;);
-
-    validateEntrantDataCardOwner(entrantDatum, entrantDataCheck);
-
-    if (!entrantDataCheck.getActionType().equals(EntrantDataCheckRBO.ActionType.N.name())) {
-
-      //Validation failed, don't create card, return error
-
-      throw new ValidationPCSException(&quot;Validation Failed. Cannot Create entrance card. Reason:  &quot; + entrantDataCheck.getRemarks());
-    }
-
-    EntrantDataCard entrantDataCard = entrantDataCardService.createEntrantDataCard(
-            entrantDatum, user, &quot;Created&quot;, validUntil
-    );
-
-    entrantDataCheck.setEntrantDatum(entrantDatum);
-    entrantDataCheck.setUser(user);
-    entrantDataCheck.setEntrantDataCard(entrantDataCard);
-    return entrantDataCheckService.toDto(entrantDataCheck);
-
-  }</text>
+        <text>mvn clean package spring-boot:repackage`</text>
       </register>
       <register name="1" type="4">
         <text>private</text>
@@ -323,7 +305,7 @@
         <text>public</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -353,7 +335,6 @@
         <entry>action $SelectAll</entry>
         <entry>action RenameElement</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action GotoImplementation</entry>
         <entry>action PreviousTab</entry>
@@ -362,6 +343,7 @@
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
