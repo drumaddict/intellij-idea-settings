@@ -3,9 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataWithSailingRQB.java" timestamp="1570799057745">
-        <mark key="[" line="10" column="37" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/SailingRepository.java" timestamp="1570609136600">
         <mark key="'" line="27" column="10" />
         <mark key="[" line="27" column="10" />
@@ -44,12 +41,6 @@
         <mark key="^" line="24" column="49" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/fo/types/IEntrantDatumFOService.java" timestamp="1570802383173" />
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" timestamp="1570796563956">
-        <mark key="'" line="1" column="0" />
-        <mark key="[" line="45" column="0" />
-        <mark key="]" line="45" column="0" />
-        <mark key="." line="45" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataWithSailingRBO.java" timestamp="1570799214756">
         <mark key="'" line="18" column="46" />
         <mark key="[" line="13" column="37" />
@@ -77,10 +68,16 @@
         <mark key="^" line="54" column="58" />
         <mark key="." line="85" column="58" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/fo/EntrantDatumFOController.java" timestamp="1570802788635">
-        <mark key="]" line="32" column="22" />
-        <mark key="^" line="32" column="22" />
-        <mark key="." line="32" column="22" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/ICompanyAccommodationDao.java" timestamp="1570805644795">
+        <mark key="[" line="19" column="10" />
+        <mark key="]" line="19" column="16" />
+        <mark key="." line="19" column="16" />
+        <mark key="^" line="19" column="16" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/fo/EntrantDatumFOController.java" timestamp="1570806275726">
+        <mark key="]" line="31" column="22" />
+        <mark key="^" line="31" column="22" />
+        <mark key="." line="31" column="22" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0430_entrant_data_checks.xml" timestamp="1570783895373">
         <mark key="[" line="12" column="0" />
@@ -94,6 +91,12 @@
         <mark key="]" line="80" column="29" />
         <mark key="^" line="80" column="29" />
         <mark key="." line="80" column="29" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDatumDTO.java" timestamp="1570804679038">
+        <mark key="[" line="321" column="4" />
+        <mark key="]" line="321" column="4" />
+        <mark key="." line="321" column="6" />
+        <mark key="^" line="317" column="9" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataCardService.java" timestamp="1570709968007">
         <mark key="'" line="20" column="0" />
@@ -130,13 +133,14 @@
         <mark key="^" line="18" column="1" />
         <mark key="." line="18" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" timestamp="1570803355638">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" timestamp="1570805768069">
         <mark key="'" line="86" column="2" />
+        <mark key="j" line="241" column="60" />
         <mark key="k" line="111" column="16" />
-        <mark key="[" line="103" column="23" />
-        <mark key="]" line="103" column="45" />
-        <mark key="." line="103" column="45" />
-        <mark key="^" line="103" column="45" />
+        <mark key="[" line="241" column="72" />
+        <mark key="]" line="241" column="45" />
+        <mark key="." line="241" column="45" />
+        <mark key="^" line="241" column="45" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/ISailingDao.java" timestamp="1570609498229">
         <mark key="'" line="25" column="41" />
@@ -198,6 +202,12 @@
         <mark key="]" line="45" column="8" />
         <mark key="^" line="45" column="8" />
         <mark key="." line="45" column="8" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/CompanyAccommodationRepository.java" timestamp="1570806000364">
+        <mark key="[" line="26" column="24" />
+        <mark key="]" line="26" column="27" />
+        <mark key="^" line="26" column="27" />
+        <mark key="." line="26" column="27" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/fc/SailingFOController.java" timestamp="1570793823557">
         <mark key="[" line="32" column="28" />
@@ -267,18 +277,18 @@
         <mark key="^" line="145" column="58" />
         <mark key="." line="159" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/CompanyAccommodationDao.java" timestamp="1570806019573">
+        <mark key="[" line="61" column="13" />
+        <mark key="]" line="61" column="62" />
+        <mark key="." line="61" column="62" />
+        <mark key="^" line="61" column="62" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1570788255026">
         <mark key="'" line="223" column="2" />
         <mark key="[" line="283" column="9" />
         <mark key="]" line="283" column="7" />
         <mark key="^" line="283" column="7" />
         <mark key="." line="283" column="7" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/fo/SailingFOController.java" timestamp="1570797092795">
-        <mark key="'" line="51" column="2" />
-        <mark key="[" line="53" column="0" />
-        <mark key="]" line="53" column="0" />
-        <mark key="." line="53" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/fo/EntrantDatumFOService.java" timestamp="1570802393645">
         <mark key="'" line="107" column="24" />
@@ -300,7 +310,7 @@
         <mark key="^" line="26" column="48" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDatum.java" timestamp="1570786118393" />
-      <file name="/fragment.java" timestamp="1570803329602">
+      <file name="/fragment.java" timestamp="1570805825672">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/AtcQrCodeParser.java" timestamp="1570693086610">
@@ -421,10 +431,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>getDeparture</text>
+        <text>findAllByCodeAndEntrantTypeAndCompanyCode</text>
       </register>
       <register name="-" type="4">
-        <text>y</text>
+        <text>String companyCode</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
@@ -433,34 +443,34 @@
         <text encoding="base64">dm9pZCBzYXZlKExpc3Q8RW50cmFudERhdHVtUkJPPiBlbnRyYW50RGF0dW1SQk9TLCBMb25nIHNhaWxpbmdJZCk7</text>
       </register>
       <register name="1" type="4">
-        <text>getDeparture</text>
+        <text>findAllByCodeAndEntrantTypeAndCompanyCode</text>
       </register>
       <register name="2" type="4">
-        <text>getArrival</text>
+        <text>getCompanyAccommodationByCodeAndEntrantTypeAndSailing</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICBAT3ZlcnJpZGUK</text>
+      <register name="3" type="4">
+        <text>String</text>
       </register>
       <register name="4" type="4">
-        <text>sailingId</text>
+        <text>CompanyCode</text>
       </register>
       <register name="5" type="4">
-        <text>Long</text>
+        <text>entrantType</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>getCompanyAccommodationByCodeAndEntrantTypeAndSailing</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>companyCode</text>
       </register>
       <register name="x" type="4">
-        <text>getDeparture</text>
+        <text>findAllByCodeAndEntrantTypeAndCompanyCode</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Ly8gIHZvaWQgc2F2ZShMaXN0PEVudHJhbnREYXR1bVJCTz4gZW50cmFudERhdHVtUkJPUyk7Cg==</text>
+      <register name="8" type="4">
+        <text>String</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="9" type="4">
+        <text>entrantType</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -492,17 +502,17 @@
         <entry>action GotoSymbol</entry>
         <entry>action SplitVertically</entry>
         <entry>action AceAction</entry>
-        <entry>action OptimizeImports</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action GotoImplementation</entry>
-        <entry>action Find</entry>
-        <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
-        <entry>action ReformatCode</entry>
         <entry>action RenameElement</entry>
+        <entry>action Find</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action OptimizeImports</entry>
+        <entry>action NextTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
