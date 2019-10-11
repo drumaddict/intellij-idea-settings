@@ -148,7 +148,12 @@
         <mark key="." line="85" column="9" />
         <mark key="^" line="85" column="9" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" timestamp="1570778561871" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" timestamp="1570780272443">
+        <mark key="[" line="182" column="17" />
+        <mark key="]" line="182" column="16" />
+        <mark key="^" line="182" column="16" />
+        <mark key="." line="182" column="16" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" timestamp="1570719184557">
         <mark key="'" line="98" column="40" />
         <mark key="[" line="113" column="0" />
@@ -282,7 +287,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>DOCUMENT_TYPE_PERMISSION</text>
+        <text>RBO</text>
       </register>
       <register name="-" type="4">
         <text>EntrantDataCheckRBO.ActionType.V</text>
@@ -293,38 +298,38 @@
       <register name="0" type="4">
         <text encoding="base64">PHNxbEZpbGUgZGJtcz0icG9zdGdyZXNxbCwgb3JhY2xlIiBwYXRoPSJ0ZXN0X2RhdGFfc3FsL3Rlc3RfZGF0YV9lbnRyYW50X2RhdGFfbWFuZGF0b3J5LnNxbCIKICAgICAgICAgICAgcmVsYXRpdmVUb0NoYW5nZWxvZ0ZpbGU9InRydWUiCiAgICAgICAgICAgIHNwbGl0U3RhdGVtZW50cz0idHJ1ZSIKICAgICAgICAgICAgc3RyaXBDb21tZW50cz0idHJ1ZSIvPg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="1" type="4">
+        <text>RBO</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">PGluc2VydCB0YWJsZU5hbWU9ImFwcF9wZXJtaXNzaW9uIj4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJpZCIgdmFsdWU9IjI5Ii8+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0icGVybWlzc2lvbl9jb2RlIiB2YWx1ZT0iQ09VTlRSWV9QRVJNSVNTSU9OIi8+CiAgICAgICAgPC9pbnNlcnQ+</text>
+        <text>BO</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICA8aW5zZXJ0IHRhYmxlTmFtZT0iYXBwX3Blcm1pc3Npb24iPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9ImlkIiB2YWx1ZT0iMzEiLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJwZXJtaXNzaW9uX2NvZGUiIHZhbHVlPSJDT01QQU5ZX1BFUk1JU1NJT04iLz4KICAgICAgICA8L2luc2VydD4=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">PGluc2VydCB0YWJsZU5hbWU9ImFwcF9wZXJtaXNzaW9uIj4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJpZCIgdmFsdWU9IjI5Ii8+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0icGVybWlzc2lvbl9jb2RlIiB2YWx1ZT0iQ09VTlRSWV9QRVJNSVNTSU9OIi8+CiAgICAgICAgPC9pbnNlcnQ+</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICA8aW5zZXJ0IHRhYmxlTmFtZT0iYXBwX3Blcm1pc3Npb24iPgo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgICA8aW5zZXJ0IHRhYmxlTmFtZT0iYXBwX3Blcm1pc3Npb24iPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9ImlkIiB2YWx1ZT0iMzEiLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJwZXJtaXNzaW9uX2NvZGUiIHZhbHVlPSJDT01QQU5ZX1BFUk1JU1NJT04iLz4KICAgICAgICA8L2luc2VydD4=</text>
+      </register>
       <register name="x" type="4">
-        <text>DOCUMENT_TYPE_PERMISSION</text>
+        <text>RBO</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICA8aW5zZXJ0IHRhYmxlTmFtZT0iYXBwX3Blcm1pc3Npb24iPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9ImlkIiB2YWx1ZT0iMTAiLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJwZXJtaXNzaW9uX2NvZGUiIHZhbHVlPSJBQ0NPTU1PREFUSU9OX1BFUk1JU1NJT04iLz4KICAgICAgICA8L2luc2VydD4=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">IDxpbnNlcnQgdGFibGVOYW1lPSJhcHBfcGVybWlzc2lvbiI+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0iaWQiIHZhbHVlPSIxMSIvPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9InBlcm1pc3Npb25fY29kZSIgdmFsdWU9IkVOVFJBTlRfREFUQV9QRVJNSVNTSU9OIi8+CiAgICAgICAgPC9pbnNlcnQ+</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICA8aW5zZXJ0IHRhYmxlTmFtZT0iYXBwX3Blcm1pc3Npb24iPgo=</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -358,9 +363,9 @@
         <entry>action ReformatCode</entry>
         <entry>action Replace</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
