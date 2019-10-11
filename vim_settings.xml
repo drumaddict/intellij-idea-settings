@@ -15,12 +15,6 @@
         <mark key="[" line="18" column="2" />
         <mark key="]" line="18" column="87" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataCardDTO.java" timestamp="1570692641259">
-        <mark key="[" line="20" column="14" />
-        <mark key="]" line="20" column="19" />
-        <mark key="." line="20" column="19" />
-        <mark key="^" line="20" column="19" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/SailingRepository.java" timestamp="1570609136600">
         <mark key="'" line="27" column="10" />
         <mark key="[" line="27" column="10" />
@@ -28,7 +22,6 @@
         <mark key="^" line="26" column="38" />
         <mark key="." line="26" column="38" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" timestamp="1570697977321" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" timestamp="1570714785779">
         <mark key="'" line="82" column="0" />
         <mark key="[" line="160" column="26" />
@@ -65,6 +58,12 @@
         <mark key="^" line="57" column="10" />
         <mark key="." line="57" column="2" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0220_role_permission.xml" timestamp="1570719560407">
+        <mark key="[" line="85" column="55" />
+        <mark key="]" line="54" column="58" />
+        <mark key="^" line="54" column="58" />
+        <mark key="." line="85" column="58" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntrantDataCardDao.java" timestamp="1570701123488">
         <mark key="'" line="56" column="87" />
         <mark key="[" line="56" column="0" />
@@ -78,6 +77,12 @@
         <mark key="]" line="129" column="2" />
         <mark key="^" line="89" column="8" />
         <mark key="." line="129" column="4" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0430_entrant_data_checks.xml" timestamp="1570719654101">
+        <mark key="[" line="42" column="50" />
+        <mark key="]" line="42" column="46" />
+        <mark key="^" line="42" column="46" />
+        <mark key="." line="42" column="46" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" timestamp="1570692857265">
         <mark key="'" line="90" column="0" />
@@ -98,12 +103,10 @@
         <mark key="[" line="24" column="2" />
         <mark key="]" line="24" column="82" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" timestamp="1570709934477">
-        <mark key="'" line="167" column="2" />
-        <mark key="[" line="156" column="0" />
-        <mark key="]" line="156" column="0" />
-        <mark key="^" line="176" column="7" />
-        <mark key="." line="156" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" timestamp="1570717715305">
+        <mark key="[" line="167" column="0" />
+        <mark key="]" line="167" column="0" />
+        <mark key="." line="167" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1570716437186">
         <mark key="'" line="76" column="2" />
@@ -131,12 +134,28 @@
         <mark key="^" line="104" column="31" />
         <mark key="." line="108" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0100_test_data_insert.xml" timestamp="1570719874651">
+        <mark key="'" line="40" column="33" />
+        <mark key="[" line="37" column="95" />
+        <mark key="]" line="37" column="74" />
+        <mark key="^" line="37" column="74" />
+        <mark key="." line="37" column="74" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserDTO.java" timestamp="1570692198478">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="85" column="4" />
         <mark key="]" line="85" column="9" />
         <mark key="." line="85" column="9" />
         <mark key="^" line="85" column="9" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" timestamp="1570778561871" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" timestamp="1570719184557">
+        <mark key="'" line="98" column="40" />
+        <mark key="[" line="113" column="0" />
+        <mark key="m" line="12" column="59" />
+        <mark key="]" line="113" column="0" />
+        <mark key="^" line="135" column="59" />
+        <mark key="." line="113" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/ISailingDao.java" timestamp="1570609498229">
         <mark key="'" line="25" column="41" />
@@ -154,50 +173,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="177" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCardService.java" />
-      <jump line="65" column="63" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataCardService.java" />
-      <jump line="126" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="225" column="57" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="76" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="73" column="113" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="268" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="65" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCheckService.java" />
-      <jump line="66" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckRBO.java" />
-      <jump line="39" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckRBO.java" />
-      <jump line="74" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckRBO.java" />
-      <jump line="72" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckRBO.java" />
-      <jump line="71" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckRBO.java" />
-      <jump line="90" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCheckService.java" />
-      <jump line="89" column="59" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDataCheckService.java" />
-      <jump line="59" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/RoleDTO.java" />
-      <jump line="6" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserDTO.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserDTO.java" />
-      <jump line="169" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserSimpleDTO.java" />
-      <jump line="168" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserSimpleDTO.java" />
-      <jump line="80" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserSimpleDTO.java" />
-      <jump line="93" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/UserService.java" />
-      <jump line="109" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/UserService.java" />
-      <jump line="90" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" />
-      <jump line="67" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/AtcQrCodeParser.java" />
-      <jump line="178" column="60" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="188" column="33" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="7" column="44" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/portauth/CheckController.java" />
-      <jump line="100" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="101" column="29" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="118" column="120" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="128" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="81" column="57" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="124" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" />
-      <jump line="146" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="142" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="169" column="50" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="173" column="62" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="147" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="149" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="180" column="58" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="24" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDataCardRepository.java" />
-      <jump line="59" column="82" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntrantDatumDao.java" />
-      <jump line="18" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDataCardDao.java" />
       <jump line="57" column="87" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/EntrantDataCardDao.java" />
       <jump line="170" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="150" column="63" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
@@ -254,6 +229,50 @@
       <jump line="94" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckRBO.java" />
       <jump line="33" column="28" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckRBO.java" />
       <jump line="76" column="2" filename="$USER_HOME$/projects/pcs/README.md" />
+      <jump line="69" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="76" column="74" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="74" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="81" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="78" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="85" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="82" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="89" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="86" column="7" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="93" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="90" column="9" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="97" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="94" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="101" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="105" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="102" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="109" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="106" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="113" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="110" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="115" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="114" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="121" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="118" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="125" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="122" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="129" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="126" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="133" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="130" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="134" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="141" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="137" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="143" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="142" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="147" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="146" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="153" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="150" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="157" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="98" column="40" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0210_permission.xml" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0100_test_data_insert.xml" />
+      <jump line="33" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0100_test_data_insert.xml" />
+      <jump line="40" column="33" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0100_test_data_insert.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -263,7 +282,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>private</text>
+        <text>DOCUMENT_TYPE_PERMISSION</text>
       </register>
       <register name="-" type="4">
         <text>EntrantDataCheckRBO.ActionType.V</text>
@@ -272,37 +291,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>mvn clean package spring-boot:repackage`</text>
+        <text encoding="base64">PHNxbEZpbGUgZGJtcz0icG9zdGdyZXNxbCwgb3JhY2xlIiBwYXRoPSJ0ZXN0X2RhdGFfc3FsL3Rlc3RfZGF0YV9lbnRyYW50X2RhdGFfbWFuZGF0b3J5LnNxbCIKICAgICAgICAgICAgcmVsYXRpdmVUb0NoYW5nZWxvZ0ZpbGU9InRydWUiCiAgICAgICAgICAgIHNwbGl0U3RhdGVtZW50cz0idHJ1ZSIKICAgICAgICAgICAgc3RyaXBDb21tZW50cz0idHJ1ZSIvPg==</text>
       </register>
-      <register name="1" type="4">
-        <text>private</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="2" type="4">
-        <text>public</text>
+        <text encoding="base64">PGluc2VydCB0YWJsZU5hbWU9ImFwcF9wZXJtaXNzaW9uIj4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJpZCIgdmFsdWU9IjI5Ii8+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0icGVybWlzc2lvbl9jb2RlIiB2YWx1ZT0iQ09VTlRSWV9QRVJNSVNTSU9OIi8+CiAgICAgICAgPC9pbnNlcnQ+</text>
       </register>
-      <register name="3" type="4">
-        <text>public</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="4">
-        <text>private</text>
+        <text encoding="base64">ICAgICAgICA8aW5zZXJ0IHRhYmxlTmFtZT0iYXBwX3Blcm1pc3Npb24iPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9ImlkIiB2YWx1ZT0iMzEiLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJwZXJtaXNzaW9uX2NvZGUiIHZhbHVlPSJDT01QQU5ZX1BFUk1JU1NJT04iLz4KICAgICAgICA8L2luc2VydD4=</text>
       </register>
-      <register name="5" type="4">
-        <text>public</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>public</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICA8aW5zZXJ0IHRhYmxlTmFtZT0iYXBwX3Blcm1pc3Npb24iPgo=</text>
       </register>
-      <register name="7" type="4">
-        <text>public</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>private</text>
+        <text>DOCUMENT_TYPE_PERMISSION</text>
       </register>
       <register name="8" type="4">
-        <text>public</text>
+        <text encoding="base64">ICA8aW5zZXJ0IHRhYmxlTmFtZT0iYXBwX3Blcm1pc3Npb24iPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9ImlkIiB2YWx1ZT0iMTAiLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJwZXJtaXNzaW9uX2NvZGUiIHZhbHVlPSJBQ0NPTU1PREFUSU9OX1BFUk1JU1NJT04iLz4KICAgICAgICA8L2luc2VydD4=</text>
       </register>
       <register name="9" type="4">
-        <text>public</text>
+        <text encoding="base64">IDxpbnNlcnQgdGFibGVOYW1lPSJhcHBfcGVybWlzc2lvbiI+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0iaWQiIHZhbHVlPSIxMSIvPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9InBlcm1pc3Npb25fY29kZSIgdmFsdWU9IkVOVFJBTlRfREFUQV9QRVJNSVNTSU9OIi8+CiAgICAgICAgPC9pbnNlcnQ+</text>
       </register>
       <register name=":" type="4">
         <text>action Find</text>
@@ -322,11 +341,7 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action FindUsages</entry>
-        <entry>action VimFilePrevious</entry>
         <entry>.action NextTab</entry>
-        <entry>action Replace</entry>
         <entry>action Debug</entry>
         <entry>action AceAction</entry>
         <entry>action VimWindowClose</entry>
@@ -341,6 +356,8 @@
         <entry>action NextTab</entry>
         <entry>action OptimizeImports</entry>
         <entry>action ReformatCode</entry>
+        <entry>action Replace</entry>
+        <entry>action TabShiftActions.StretchUp</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
