@@ -115,6 +115,13 @@
         <mark key="^" line="80" column="29" />
         <mark key="." line="80" column="29" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/JwtAuthFilter.java" timestamp="1571050364738">
+        <mark key="'" line="25" column="88" />
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="24" column="43" />
+        <mark key="^" line="24" column="43" />
+        <mark key="." line="24" column="43" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDatumDTO.java" timestamp="1570804679038">
         <mark key="[" line="321" column="4" />
         <mark key="]" line="321" column="4" />
@@ -146,6 +153,7 @@
         <mark key="." line="26" column="88" />
         <mark key="^" line="26" column="88" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1571050568431" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataCardService.java" timestamp="1570709968007">
         <mark key="'" line="20" column="0" />
         <mark key="[" line="66" column="0" />
@@ -387,9 +395,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="80" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" />
-      <jump line="102" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" />
-      <jump line="159" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" />
       <jump line="255" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" />
       <jump line="15" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataWithSailingRBO.java" />
       <jump line="18" column="46" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataWithSailingRBO.java" />
@@ -487,6 +492,9 @@
       <jump line="64" column="42" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/b2c/EntrantDatumB2CController.java" />
       <jump line="55" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/b2c/EntrantDatumB2CService.java" />
       <jump line="59" column="65" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/b2c/EntrantDatumB2CService.java" />
+      <jump line="32" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/JwtAuthFilter.java" />
+      <jump line="35" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/JwtAuthFilter.java" />
+      <jump line="27" column="88" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/JwtAuthFilter.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -499,46 +507,46 @@
         <text>lastName</text>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>/</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">aWYgKFN0cmluZ1V0aWxzLmlzTm90QmxhbmsobGFzdE5hbWUpICYmIFN0cmluZ1V0aWxzLmVxdWFsc0lnbm9yZUNhc2UobGFzdE5hbWUsIGVudHJhbnREYXR1bS5nZXRMYXN0TmFtZSgpKSkKICAgICAgcmV0dXJuIG1vZGVsTWFwcGVyLm1hcChlbnRyYW50RGF0dW0sIEVudHJhbnREYXR1bURUTy5jbGFzcyk7</text>
+        <text>// Setting authenication to false, to trigger AuthenticationProvider#authenticate()</text>
       </register>
-      <register name="1" type="4">
-        <text>lastName</text>
-      </register>
-      <register name="2" type="2">
+      <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>getLastName</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAvL1YK</text>
       </register>
-      <register name="4" type="4">
-        <text>lastName</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAvQWRkZWQKICAgICAgICAvL0F1dGhlbnRpY2F0ZXMgSldUIGZvciBwZXJtaXR0ZWQgYWxsIHBhdGhzLgo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Ly8gICAgICAgIGlmIChTdHJpbmdVdGlscy5pc05vdEVtcHR5KGF1dGhvcml6YXRpb24pICYmICFwYXRoSXNQZXJtaXR0ZWRXaXRob3V0QXV0aGVudGljYXRpb24ocmVxdWVzdCkpIHsK</text>
       </register>
       <register name="5" type="4">
-        <text>findEntrantDatumBySailingIdAndTicketNumber</text>
+        <text>lastName</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBuZXcgRW50cmFudERhdHVtRFRPKCk7Cg==</text>
+      <register name="7" type="4">
+        <text>getLastName</text>
       </register>
       <register name="x" type="4">
         <text>lastName</text>
       </register>
       <register name="8" type="4">
-        <text>findAllBySailingIdAndReservationCode</text>
+        <text>lastName</text>
       </register>
       <register name="9" type="4">
-        <text>entrantDatumB2BService</text>
+        <text>findEntrantDatumBySailingIdAndTicketNumber</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -567,16 +575,16 @@
         <entry>action RenameElement</entry>
         <entry>action Replace</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action Find</entry>
         <entry>action FindUsages</entry>
-        <entry>action OptimizeImports</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
-        <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
