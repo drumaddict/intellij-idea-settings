@@ -256,7 +256,7 @@
       <file name="/Dummy.txt" timestamp="1571212084542">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" timestamp="1571235280730">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" timestamp="1571237034040">
         <mark key="'" line="134" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" timestamp="1571131738842">
@@ -272,6 +272,7 @@
         <mark key="^" line="77" column="32" />
         <mark key="." line="57" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" timestamp="1571236984409" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/CompanyAccommodationDao.java" timestamp="1570806019573">
         <mark key="[" line="61" column="13" />
         <mark key="]" line="61" column="62" />
@@ -465,7 +466,7 @@
         <text>boolean</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -496,12 +497,12 @@
         <entry>action RenameElement</entry>
         <entry>action Replace</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
