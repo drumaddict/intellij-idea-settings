@@ -139,12 +139,12 @@
         <mark key="^" line="34" column="9" />
         <mark key="." line="34" column="9" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/public/sailings.xml" timestamp="1571221343070">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/public/sailings.xml" timestamp="1571223398123">
         <mark key="'" line="49" column="29" />
-        <mark key="[" line="26" column="48" />
-        <mark key="]" line="26" column="74" />
-        <mark key="^" line="26" column="74" />
-        <mark key="." line="26" column="74" />
+        <mark key="[" line="61" column="58" />
+        <mark key="]" line="61" column="64" />
+        <mark key="^" line="61" column="64" />
+        <mark key="." line="61" column="64" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/pub/SailingPublicDTO.java" timestamp="1571143719115">
         <mark key="'" line="13" column="2" />
@@ -319,12 +319,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="142" column="19" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/res/SailingPublicRES.java" timestamp="1571215709604">
-        <mark key="'" line="198" column="2" />
-        <mark key="[" line="174" column="3" />
-        <mark key="]" line="176" column="41" />
-        <mark key="." line="176" column="41" />
-        <mark key="^" line="176" column="41" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/res/SailingPublicRES.java" timestamp="1571223199805">
+        <mark key="'" line="173" column="24" />
+        <mark key="[" line="60" column="35" />
+        <mark key="]" line="60" column="27" />
+        <mark key="." line="60" column="27" />
+        <mark key="^" line="60" column="27" />
       </file>
       <file name="/fragment.java" timestamp="1571220349813">
         <mark key="[" line="0" column="0" />
@@ -334,7 +334,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/ISailingAdminService.java" />
       <jump line="97" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/SailingAdminService.java" />
       <jump line="11" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/SailingAdminService.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/SailingAdminService.java" />
@@ -434,6 +433,7 @@
       <jump line="70" column="69" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/pub/SailingPublicService.java" />
       <jump line="18" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/JoinPointConfig.java" />
       <jump line="24" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/JoinPointConfig.java" />
+      <jump line="172" column="24" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/res/SailingPublicRES.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -443,7 +443,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>DESTINATION_LOCATION_NAME</text>
+        <text>String</text>
       </register>
       <register name="-" type="4">
         <text>Param(&quot;fromLocalDateTime&quot;)</text>
@@ -457,34 +457,34 @@
     }</text>
       </register>
       <register name="1" type="4">
-        <text>DESTINATION_LOCATION_NAME</text>
+        <text>String</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">IA==</text>
+        <text>public</text>
       </register>
       <register name="3" type="4">
-        <text>ORIGIN_LOCATION_NAME</text>
+        <text>public</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>public</text>
       </register>
       <register name="5" type="4">
-        <text>to</text>
+        <text>public</text>
       </register>
       <register name="6" type="4">
-        <text>rom</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIEBQYXJhbSgidG9Mb2NhbERhdGVUaW1lIikgVGltZXN0YW1wIHRvTG9jYWxEYXRlVGltZSwK</text>
-      </register>
-      <register name="x" type="4">
         <text>DESTINATION_LOCATION_NAME</text>
       </register>
-      <register name="8" type="4">
-        <text>@</text>
+      <register name="7" type="4">
+        <text encoding="base64">IA==</text>
       </register>
-      <register name="9" type="4">
-        <text>Time</text>
+      <register name="x" type="4">
+        <text>String</text>
+      </register>
+      <register name="8" type="4">
+        <text>ORIGIN_LOCATION_NAME</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -509,20 +509,20 @@
         <entry>action FindUsages</entry>
         <entry>action RenameElement</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVwbGFjZQ==</entry>
-        <entry>action GotoImplementation</entry>
-        <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action Find</entry>
         <entry>action Replace</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action $SelectAll</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action AceAction</entry>
         <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action TabShiftActions.StretchUp</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
