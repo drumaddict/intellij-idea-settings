@@ -182,6 +182,7 @@
         <mark key="^" line="47" column="34" />
         <mark key="." line="47" column="34" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1571323239460" />
       <file name="$USER_HOME$/projects/pcs/META-INF/persistence.xml" timestamp="1571210332489">
         <mark key="'" line="3" column="25" />
         <mark key="[" line="3" column="26" />
@@ -512,7 +513,7 @@
         <text>Set</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -546,10 +547,10 @@
         <entry>action GotoImplementation</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
