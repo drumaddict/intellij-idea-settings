@@ -256,8 +256,10 @@
       <file name="/Dummy.txt" timestamp="1571212084542">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" timestamp="1571237034040">
-        <mark key="'" line="134" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" timestamp="1571303726205">
+        <mark key="'" line="49" column="4" />
+        <mark key="[" line="49" column="4" />
+        <mark key="]" line="49" column="119" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EdiQrCodeParser.java" timestamp="1571131738842">
         <mark key="'" line="48" column="2" />
@@ -272,13 +274,13 @@
         <mark key="^" line="77" column="32" />
         <mark key="." line="57" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xml" timestamp="1571236984409" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/CompanyAccommodationDao.java" timestamp="1570806019573">
         <mark key="[" line="61" column="13" />
         <mark key="]" line="61" column="62" />
         <mark key="." line="61" column="62" />
         <mark key="^" line="61" column="62" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1571304378559" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/bodymappers/EntrantDataWithSailingRQB.java" timestamp="1570798978647">
         <mark key="[" line="26" column="46" />
         <mark key="]" line="26" column="48" />
@@ -313,7 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/SailingAdminService.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/pub/SailingPublicService.java" />
       <jump line="160" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/pub/SailingPublicService.java" />
       <jump line="14" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/pub/types/ISailingPublicService.java" />
@@ -413,6 +414,7 @@
       <jump line="172" column="24" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/res/SailingPublicRES.java" />
       <jump line="5" column="14" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/test_data_sql/test_location_translations.sql" />
       <jump line="134" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="49" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -431,9 +433,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>@Pointcut(&quot;within(gr.liknosscrs.pcs.rhodes.controller.admin.*)&quot;)
-    public void adminController() {
-    }</text>
+        <text encoding="base64">Ly8gREVGI0FQQkFTRU5EI0RFUF9EQVRFPTIwMTEwNTA5I0RFUF9USU1FPTIyMDAjREVQX0NPREU9UFRNI0FSUl9DT0RFPUFMRyNWRVNTRUxfSU1PPTczNTg3NTUjQ09NUF9DT0RFPUNNUiNBTCZlb21zZzo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Ly9GaXJzdCBpdGVyYXRpb24sIGRlcHJlY2F0ZWQgYXMgbmV3IHNwZWNzIHdlcmUgZ2l2ZW4uIFJlcGxhY2VkIGJ5IEFtcEhhbmRsZXIK</text>
