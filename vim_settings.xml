@@ -135,6 +135,12 @@
         <mark key="^" line="641" column="56" />
         <mark key="." line="641" column="56" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/sms/account.txt" timestamp="1571389125479">
+        <mark key="[" line="44" column="40" />
+        <mark key="]" line="46" column="9" />
+        <mark key="^" line="46" column="9" />
+        <mark key="." line="46" column="9" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0430_entrant_data_checks.xml" timestamp="1570783895373">
         <mark key="[" line="12" column="0" />
         <mark key="]" line="12" column="0" />
@@ -277,7 +283,7 @@
         <mark key="^" line="32" column="27" />
         <mark key="." line="32" column="27" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.sql" timestamp="1571387699429">
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.sql" timestamp="1571388827963">
         <mark key="'" line="16" column="11" />
         <mark key="[" line="16" column="12" />
         <mark key="]" line="16" column="12" />
@@ -519,7 +525,7 @@
         <text>Set</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -554,8 +560,8 @@
         <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
