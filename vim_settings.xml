@@ -305,11 +305,12 @@
       <file name="/Dummy.txt" timestamp="1571382379736">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" timestamp="1571397433289">
-        <mark key="[" line="225" column="43" />
-        <mark key="]" line="225" column="42" />
-        <mark key="^" line="225" column="42" />
-        <mark key="." line="225" column="42" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" timestamp="1571399953865">
+        <mark key="'" line="39" column="77" />
+        <mark key="[" line="227" column="45" />
+        <mark key="]" line="227" column="45" />
+        <mark key="^" line="227" column="45" />
+        <mark key="." line="227" column="45" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/BatchUpdatesHandler.java" timestamp="1571395983221">
         <mark key="[" line="32" column="38" />
@@ -383,9 +384,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="15" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/role.xml" />
-      <jump line="17" column="24" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/public/sailings.xml" />
-      <jump line="32" column="73" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/public/sailings.xml" />
       <jump line="31" column="73" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/public/sailings.xml" />
       <jump line="33" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/RoleController.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/RoleExtendedRepository.java" />
@@ -483,6 +481,9 @@
       <jump line="152" column="23" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="225" column="45" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
       <jump line="46" column="117" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="154" column="23" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="153" column="44" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
+      <jump line="39" column="77" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBASendStatisticsService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -492,7 +493,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>Vehicles</text>
+        <text>&quot;);</text>
       </register>
       <register name="-" type="4">
         <text>setSailID(_itineraryDataStats.getSailID());</text>
@@ -501,40 +502,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>SendCheckInDataSMRQ_A&quot;</text>
+        <text>SendCheckInDataSMRS_A&quot;</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIC8vREVGI1BBTklLI0RFUF9EQVRFPTIwMTgxMDE4I0RFUF9USU1FPTAyMDAjREVQX0NPREU9UFRNICAjQVJSX0NPREU9QUxHICAjVkVTU0VMX0lNTz05MTEyNzc3I0NPTVBfQ09ERT1GUlMjU1MmZW9tc2c6Cg==</text>
+      <register name="1" type="4">
+        <text>&quot;);</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIHhtbC5tZXNzYWdlcy5hcGJhc2VuZC5JdGluZXJhcnlEYXRhIGl0aW5lcmFyeURhdGEgPSBuZXcgSXRpbmVyYXJ5RGF0YSgpOwo=</text>
+      <register name="2" type="4">
+        <text>SendCheckInDataSMRS_A</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Ly8gICAgeG1sLm1lc3NhZ2VzLmFwYmFzZW5kLkl0aW5lcmFyeURhdGEgaXRpbmVyYXJ5RGF0YSA9IG5ldyBJdGluZXJhcnlEYXRhKCk7Cg==</text>
+      <register name="3" type="4">
+        <text>&quot;</text>
       </register>
       <register name="4" type="4">
-        <text>Vehicles</text>
+        <text>&quot;SendCheckInDataSMRS_A&quot;</text>
       </register>
-      <register name="5" type="4">
-        <text>Passengers</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIC8vREVGI1BBTklLI0RFUF9EQVRFPTIwMTgxMDE4I0RFUF9USU1FPTAyMDAjREVQX0NPREU9UFRNICAjQVJSX0NPREU9QUxHICAjVkVTU0VMX0lNTz05MTEyNzc3I0NPTVBfQ09ERT1GUlMjU1MmZW9tc2c6Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IHhtbC5tZXNzYWdlcy5hcGJhc2VuZC5JdGluZXJhcnlMaXN0Owo=</text>
+        <text encoding="base64">ICAgIHhtbC5tZXNzYWdlcy5hcGJhc2VuZC5JdGluZXJhcnlEYXRhIGl0aW5lcmFyeURhdGEgPSBuZXcgSXRpbmVyYXJ5RGF0YSgpOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IHhtbC5tZXNzYWdlcy5hcGJhc2VuZC5JdGluZXJhcnlEYXRhU3RhdHNMaXN0Owo=</text>
+        <text encoding="base64">Ly8gICAgeG1sLm1lc3NhZ2VzLmFwYmFzZW5kLkl0aW5lcmFyeURhdGEgaXRpbmVyYXJ5RGF0YSA9IG5ldyBJdGluZXJhcnlEYXRhKCk7Cg==</text>
       </register>
       <register name="x" type="4">
+        <text>&quot;);</text>
+      </register>
+      <register name="8" type="4">
         <text>Vehicles</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IHhtbC5tZXNzYWdlcy5hcGJhc2VuZC5JdGluZXJhcnlEYXRhU3RhdHM7Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>Passengers</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -564,14 +565,14 @@
         <entry>action SplitVertically</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action Replace</entry>
         <entry>action OptimizeImports</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action Find</entry>
-        <entry>action ReformatCode</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
