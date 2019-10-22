@@ -29,6 +29,13 @@
         <mark key="^" line="13" column="28" />
         <mark key="." line="13" column="28" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" timestamp="1571739054220">
+        <mark key="'" line="118" column="27" />
+        <mark key="[" line="110" column="6" />
+        <mark key="]" line="110" column="19" />
+        <mark key="^" line="110" column="19" />
+        <mark key="." line="110" column="19" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/db/LocationQRCodeMapping.java" timestamp="1571059823066">
         <mark key="[" line="22" column="61" />
         <mark key="]" line="22" column="59" />
@@ -465,14 +472,14 @@
         <mark key="." line="61" column="62" />
         <mark key="^" line="61" column="62" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1571736612723">
-        <mark key="'" line="88" column="45" />
-        <mark key="j" line="255" column="0" />
-        <mark key="[" line="182" column="69" />
-        <mark key="m" line="294" column="2" />
-        <mark key="]" line="182" column="66" />
-        <mark key="^" line="182" column="66" />
-        <mark key="." line="182" column="66" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1571739187816">
+        <mark key="'" line="167" column="53" />
+        <mark key="j" line="256" column="0" />
+        <mark key="[" line="184" column="94" />
+        <mark key="m" line="295" column="2" />
+        <mark key="]" line="184" column="98" />
+        <mark key="^" line="184" column="98" />
+        <mark key="." line="184" column="98" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/bodymappers/EntrantDataWithSailingRQB.java" timestamp="1570798978647">
         <mark key="[" line="26" column="46" />
@@ -516,11 +523,6 @@
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/admin/checkEntrantData.json" timestamp="1571732145519" />
     </filemarks>
     <jumps>
-      <jump line="25" column="8" filename="$USER_HOME$/projects/port-checkin-control/dist/configure84.xml" />
-      <jump line="26" column="12" filename="$USER_HOME$/projects/port-checkin-control/dist/configure84.xml" />
-      <jump line="71" column="51" filename="$USER_HOME$/projects/port-checkin-control/dist/configure84STRESS.xml" />
-      <jump line="40" column="12" filename="$USER_HOME$/projects/port-checkin-control/dist/configure84.xml" />
-      <jump line="85" column="51" filename="$USER_HOME$/projects/port-checkin-control/dist/configure84STRESS.xml" />
       <jump line="54" column="12" filename="$USER_HOME$/projects/port-checkin-control/dist/configure84.xml" />
       <jump line="99" column="36" filename="$USER_HOME$/projects/port-checkin-control/dist/configure84STRESS.xml" />
       <jump line="68" column="0" filename="$USER_HOME$/projects/port-checkin-control/dist/configure84.xml" />
@@ -616,6 +618,11 @@
       <jump line="17" column="23" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CompanyLocationDTO.java" />
       <jump line="18" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CompanyLocationDTO.java" />
       <jump line="49" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CompanyLocationDTO.java" />
+      <jump line="180" column="18" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="167" column="53" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="116" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" />
+      <jump line="117" column="26" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" />
+      <jump line="120" column="27" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -628,30 +635,42 @@
         <text>entrantDataCheckDTO</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;liknoss&quot;;</text>
+        <text>String title)</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>private String qrCode;</text>
+        <text>private String remarks;</text>
       </register>
-      <register name="1" type="4">
-        <text>entrantDataCheckDTO</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICB9Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>EntrantDataCheckDTO</text>
+      <register name="2" type="2">
+        <text encoding="base64">cmV0dXJuIGZhbHNlOwo=</text>
       </register>
-      <register name="3" type="4">
-        <text>getDao</text>
+      <register name="3" type="2">
+        <text encoding="base64">Ly8gIEVudHJhbnREYXRhQ2hlY2sgZW50cmFudERhdGFDaGVjayA9IGVudHJhbnREYXRhQ2hlY2tSZXBvc2l0b3J5LmZpCg==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">ICBwdWJsaWMgU3RyaW5nIGdldFFyQ29kZSgpIHsKICAgIHJldHVybiBxckNvZGU7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRRckNvZGUoU3RyaW5nIHFyQ29kZSkgewogICAgdGhpcy5xckNvZGUgPSBxckNvZGU7CiAgfQ==</text>
+        <text>entrantDataCheckDTO</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAvLyAgICBATm90TnVsbChncm91cHMgPSBPbkNyZWF0ZS5jbGFzcywgbWVzc2FnZSA9ICAidmVzc2VsIGNhbm5vdCBiZSBlbXB0eSIpCg==</text>
+      <register name="5" type="4">
+        <text>EntrantDataCheckDTO</text>
       </register>
       <register name="6" type="4">
+        <text>getDao</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">ICBwdWJsaWMgU3RyaW5nIGdldFFyQ29kZSgpIHsKICAgIHJldHVybiBxckNvZGU7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRRckNvZGUoU3RyaW5nIHFyQ29kZSkgewogICAgdGhpcy5xckNvZGUgPSBxckNvZGU7CiAgfQ==</text>
+      </register>
+      <register name="x" type="4">
+        <text>entrantDataCheckDTO</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAvLyAgICBATm90TnVsbChncm91cHMgPSBPbkNyZWF0ZS5jbGFzcywgbWVzc2FnZSA9ICAidmVzc2VsIGNhbm5vdCBiZSBlbXB0eSIpCg==</text>
+      </register>
+      <register name="9" type="4">
         <text>public String getQrCode() {
     return qrCode;
   }
@@ -660,20 +679,8 @@
     this.qrCode = qrCode;
   }</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICBATm90TnVsbChncm91cHMgPSBPbkNyZWF0ZS5jbGFzcywgbWVzc2FnZSA9ICJsb2NhdGlvbiBjYW5ub3QgYmUgZW1wdHkiKQo=</text>
-      </register>
-      <register name="x" type="4">
-        <text>entrantDataCheckDTO</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICBATm90TnVsbChncm91cHMgPSBPbkNyZWF0ZS5jbGFzcywgbWVzc2FnZSA9ICJjb21wYW55IGNhbm5vdCBiZSBlbXB0eSIpCg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICBATm90QmxhbmsoZ3JvdXBzID0gT25DcmVhdGUuY2xhc3MsIG1lc3NhZ2UgPSAiY29kZSBjYW5ub3QgYmUgZW1wdHkiKQo=</text>
-      </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -703,14 +710,14 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Debug</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action OptimizeImports</entry>
         <entry>action NextTab</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
