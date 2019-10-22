@@ -61,7 +61,6 @@
         <mark key="^" line="17" column="32" />
         <mark key="." line="17" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/admin/check_vessel.json" timestamp="1571731888389" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CompanyLocation.java" timestamp="1571734997062">
         <mark key="'" line="30" column="2" />
         <mark key="[" line="30" column="2" />
@@ -241,7 +240,6 @@
         <mark key="[" line="76" column="2" />
         <mark key="]" line="76" column="41" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/admin/check_sailing.json" timestamp="1571731825587" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0100_test_data_insert.xml" timestamp="1571668604199">
         <mark key="'" line="17" column="12" />
         <mark key="[" line="17" column="0" />
@@ -387,12 +385,12 @@
         <mark key="^" line="32" column="27" />
         <mark key="." line="32" column="27" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.sql" timestamp="1571410678770">
-        <mark key="'" line="18" column="0" />
-        <mark key="[" line="35" column="0" />
-        <mark key="]" line="35" column="0" />
-        <mark key="^" line="34" column="3" />
-        <mark key="." line="35" column="0" />
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.sql" timestamp="1571752169872">
+        <mark key="'" line="12" column="33" />
+        <mark key="[" line="12" column="33" />
+        <mark key="]" line="12" column="31" />
+        <mark key="^" line="12" column="31" />
+        <mark key="." line="12" column="31" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/SailingDao.java" timestamp="1571126642298">
         <mark key="'" line="57" column="104" />
@@ -541,11 +539,8 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/request_responses/admin/checkEntrantData.json" timestamp="1571732145519" />
     </filemarks>
     <jumps>
-      <jump line="30" column="64" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/WebIOService.java" />
-      <jump line="29" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/WebIOService.java" />
       <jump line="8" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/types/IWebIOService.java" />
       <jump line="251" column="79" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="249" column="9" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
@@ -644,6 +639,8 @@
       <jump line="21" column="146" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDataCheckDao.java" />
       <jump line="72" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CompanyAccommodationDTO.java" />
       <jump line="76" column="2" filename="$USER_HOME$/projects/pcs/README.md" />
+      <jump line="5" column="58" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.sql" />
+      <jump line="12" column="33" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.sql" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -656,7 +653,7 @@
         <text>private</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">QFF1YWxpZmllcigiZ2VuZXJhbFNldHRpbmdQcm9wZXJ0aWVzIikg</text>
+        <text>στο TMSA</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
@@ -664,23 +661,17 @@
       <register name="0" type="4">
         <text>mvn clean package spring-boot:repackage`</text>
       </register>
-      <register name="1" type="4">
-        <text>public CompanyDTO getCompany() {
-    return company;
-  }
-
-  public void setCompany(CompanyDTO company) {
-    this.company = company;
-  }</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>private</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>private</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
@@ -694,19 +685,13 @@
       <register name="x" type="4">
         <text>private</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="8" type="4">
+        <text>Διορθώσεις και αλλαγές στο Send κομμάτι. Ανέβασα τις αλλαγες
+στον 83 και 84. Δοκίμασα επιτυχώς στον 83. Μένει να ετοιμαστεί to
+Admin κομμάτι που θα τριγγάρει την αποστολή των στατιστικών</text>
       </register>
-      <register name="9" type="4">
-        <text>private EntrantDataCheckDTO createTransientCheckForNewCard(EntrantDataCard entrantDataCard, EntrantDatum entrantDatum, User user) {
-    LocalDateTime validUntil = computeValidUntil(entrantDatum);
-    EntrantDataCheck entrantDataCheck = new EntrantDataCheck();
-    setValidationResult(entrantDataCheck, EntrantDataCheckRBO.ActionType.N, &quot;Newly created Entrance Card&quot;);
-    entrantDataCheck.setUser(user);
-    entrantDataCheck.setEntrantDataCard(entrantDataCard);
-    return entrantDataCheckService.toDto(entrantDataCheck);
-
-  }</text>
+      <register name="9" type="2">
+        <text encoding="base64">QVBCQSBUYW5nZXIgQWxnZXJpY2FzIFN0YXRpc3RpY3MgZXhjaGFuZ2UK</text>
       </register>
       <register name=":" type="4">
         <text>action Find</text>
@@ -738,16 +723,16 @@
         <entry>action GotoImplementation</entry>
         <entry>action OptimizeImports</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action PreviousOccurence</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action RenameElement</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action PreviousOccurence</entry>
+        <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
       </history-cmd>
       <history-expr />
