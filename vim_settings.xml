@@ -528,7 +528,7 @@
         <text>VESSEL_PERMISSION</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -557,7 +557,6 @@
         <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZFVzYWdlcw==</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
@@ -566,6 +565,7 @@
         <entry>action ReformatCode</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
