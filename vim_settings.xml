@@ -17,12 +17,12 @@
         <mark key="." line="16" column="22" />
         <mark key="^" line="16" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" timestamp="1571739054220">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" timestamp="1571829130073">
         <mark key="'" line="118" column="27" />
-        <mark key="[" line="110" column="6" />
-        <mark key="]" line="110" column="19" />
-        <mark key="^" line="110" column="19" />
-        <mark key="." line="110" column="19" />
+        <mark key="[" line="169" column="13" />
+        <mark key="]" line="169" column="13" />
+        <mark key="^" line="169" column="13" />
+        <mark key="." line="169" column="13" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/role.xml" timestamp="1571148062013">
         <mark key="'" line="15" column="4" />
@@ -345,13 +345,13 @@
         <mark key="^" line="46" column="47" />
         <mark key="." line="46" column="47" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1571822774163">
-        <mark key="'" line="320" column="63" />
-        <mark key="[" line="320" column="4" />
-        <mark key="m" line="289" column="2" />
-        <mark key="]" line="320" column="64" />
-        <mark key="." line="320" column="4" />
-        <mark key="^" line="320" column="3" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1571831111096">
+        <mark key="'" line="234" column="4" />
+        <mark key="[" line="268" column="0" />
+        <mark key="m" line="266" column="2" />
+        <mark key="]" line="268" column="0" />
+        <mark key="^" line="245" column="52" />
+        <mark key="." line="268" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/pub/VesselTypePublicDTO.java" timestamp="1571134570697">
         <mark key="'" line="48" column="0" />
@@ -376,8 +376,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="169" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
-      <jump line="153" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
       <jump line="37" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
       <jump line="90" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" />
       <jump line="35" column="35" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" />
@@ -446,7 +444,6 @@
       <jump line="324" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="313" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="206" column="11" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="266" column="53" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="270" column="53" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="334" column="70" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="322" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
@@ -476,6 +473,9 @@
       <jump line="210" column="56" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="256" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="320" column="63" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="190" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="267" column="70" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="266" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -485,50 +485,54 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>return</text>
+        <text>entrantDatum</text>
       </register>
       <register name="-" type="4">
-        <text>return entrantDataCheckService.toDto(entrantDataCheck);</text>
+        <text>and return Transient (not persistent) EntrantDataCheckDTO</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>entrantDataCheckService.getCoreDao().save(entrantDataCheck);</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGlmIChkb0NoZWNrKSByZXR1cm4gY3JlYXRlUGVyc2lzdGVudENoZWNrKGVudHJhbnREYXRhQ2FyZCwgZW50cmFudERhdHVtLmdldCgpKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGVudHJhbnREYXRhQ2hlY2sucwo=</text>
-      </register>
-      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="4">
+        <text>//  public void validateEntrantDataCard(EntrantDataCard entrantDataCard, EntrantDataCheck entrantDataCheck) {
+//    if (!entrantDataCard.getActive())
+//      setValidationResult(entrantDataCheck, failedActionType, &quot; Entrance Card is inactive&quot;);
+//    if (entrantDataCard.getValidUntil().isBefore(LocalDateTime.now()))
+//      setValidationResult(entrantDataCheck, failedActionType, &quot; Entrance Card is due&quot;);
+//  }</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>return</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHZhbGlkYXRlRW50cmFudERhdGFDYXJkKGVudHJhbnREYXRhQ2FyZCwgZW50cmFudERhdGFDaGVjayk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHZhbGlkYXRlRW50cmFudERhdGFDYXJkT3duZXIoZW50cmFudERhdGFDYXJkLmdldEVudHJhbnREYXR1bSgpLCBlbnRyYW50RGF0YUNoZWNrKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>return</text>
+        <text>entrantDatum</text>
       </register>
-      <register name="8" type="4">
-        <text>entrantDataCheck.setUser(user);
-    entrantDataCheck.setEntrantDataCard(entrantDataCard);</text>
+      <register name="8" type="2">
+        <text encoding="base64">Ly8gICAgdGhyb3cgbmV3IFZhbGlkYXRpb25QQ1NFeGNlcHRpb24oIk5vdGhpbmcgdG8gZG8uIE5vIG9wZXJhdGlvbiBoYXMgYmVlbiByZXF1ZXN0ZWQuIENoZWNrIHlvdXIgZG9DaGVjayBhbmQgZG9WYWxpZGF0ZSBmbGFncy4iKTsK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -551,21 +555,21 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Debug</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action AceAction</entry>
-        <entry>action RenameElement</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZFVzYWdlcw==</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action GotoFile</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoFile</entry>
-        <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZFVzYWdlcw==</entry>
-        <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
+        <entry>action RenameElement</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
