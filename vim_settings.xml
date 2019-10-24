@@ -298,6 +298,13 @@
         <mark key="." line="19" column="87" />
         <mark key="^" line="19" column="87" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" timestamp="1571918439624">
+        <mark key="'" line="245" column="48" />
+        <mark key="[" line="245" column="50" />
+        <mark key="]" line="245" column="48" />
+        <mark key="^" line="245" column="48" />
+        <mark key="." line="245" column="48" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/SailingDao.java" timestamp="1571126642298">
         <mark key="'" line="57" column="104" />
         <mark key="[" line="65" column="27" />
@@ -342,6 +349,12 @@
         <mark key="]" line="227" column="45" />
         <mark key="^" line="227" column="45" />
         <mark key="." line="227" column="45" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/QRCodeService.java" timestamp="1571918519297">
+        <mark key="[" line="2" column="28" />
+        <mark key="]" line="3" column="1" />
+        <mark key="^" line="3" column="1" />
+        <mark key="." line="3" column="1" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/test_data_sql/update_checkpoints_open.sql" timestamp="1571912519801">
         <mark key="'" line="1" column="70" />
@@ -435,15 +448,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="30" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="37" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="34" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="41" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="38" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="45" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="42" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="49" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
       <jump line="46" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
       <jump line="53" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
       <jump line="50" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
@@ -535,6 +539,15 @@
       <jump line="351" column="203" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="352" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="362" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="237" column="14" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
+      <jump line="235" column="0" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
+      <jump line="61" column="20" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
+      <jump line="55" column="8" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
+      <jump line="57" column="63" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
+      <jump line="246" column="16" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
+      <jump line="239" column="21" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
+      <jump line="244" column="51" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
+      <jump line="245" column="48" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -544,7 +557,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>openToVehicle</text>
+        <text>/com.google.zxing.version</text>
       </register>
       <register name="-" type="4">
         <text>;</text>
@@ -552,47 +565,38 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICBpZiAoY2hlY2tQb2ludE9wZW5Ub0VudHJhbnRUeXBlID09IG9wZW5Ub1ZlaGljbGUpIHJldHVybiAoZW50cmFudERhdHVtLmdldEVudHJhbnREYXRhVHlwZSgpLmdldENvZGUoKS5jb250YWlucygiVkVIIikpOwo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">JHtjb20uZ29vZ2xlLnp4aW5nLnZlcnNpb259PA==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICB9Cg==</text>
-      </register>
-      <register name="2" type="4">
-        <text>openToVehicle</text>
-      </register>
-      <register name="3" type="4">
-        <text>return  (checkPointOpenToEntrantType == openToVehicle) ?
-           (entrantDatum.getEntrantDataType().getCode().contains(&quot;VEH&quot;)) :
-           !(entrantDatum.getEntrantDataType().getCode()).contains(&quot;VEH&quot;);</text>
-      </register>
-      <register name="4" type="4">
-        <text>VEHICLE</text>
-      </register>
-      <register name="5" type="4">
-        <text>Vehicle</text>
-      </register>
-      <register name="6" type="4">
-        <text>boolean</text>
-      </register>
-      <register name="7" type="4">
-        <text>if (entrantDatum.getEntrantDataType().getCode().contains(&quot;VEH&quot;)){
-     if ( Arrays.asList(CheckPointRBO.OpenToEntrantType.ALL, CheckPointRBO.OpenToEntrantType.VEHICLE).contains(CheckPointRBO.OpenToEntrantType.valueOf(checkPoint.getOpenToEntrantType())))
-      return  true;
-
-    } else{</text>
-      </register>
-      <register name="x" type="4">
-        <text>openToVehicle</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>public boolean canGoThroughCheckPoint(Entratn checkPoint) {
-      OpenToEntrantType openToEntrantType = OpenToEntrantType.valueOf(checkPoint.getOpenToEntrantType());
-
-    }</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5jb20uZ29vZ2xlLnp4aW5nPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5jb3JlPC9hcnRpZmFjdElkPgogICAgICAgICAgICA8dmVyc2lvbj4odGhlIGN1cnJlbnQgdmVyc2lvbik8L3ZlcnNpb24+CiAgICAgICAgPC9kZXBlbmRlbmN5Pg==</text>
+      </register>
+      <register name="5" type="4">
+        <text>/com.google.zxing.version</text>
+      </register>
+      <register name="6" type="4">
+        <text>2</text>
+      </register>
+      <register name="7" type="4">
+        <text>-dataformat-xml.version</text>
+      </register>
+      <register name="x" type="4">
+        <text>/com.google.zxing.version</text>
+      </register>
+      <register name="8" type="4">
+        <text>jackson</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -625,13 +629,13 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action $SelectAll</entry>
         <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action RenameElement</entry>
+        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
