@@ -251,12 +251,11 @@
         <mark key="^" line="22" column="59" />
         <mark key="." line="22" column="59" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingDTO.java" timestamp="1571142398115">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingDTO.java" timestamp="1571903147246">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="177" column="56" />
-        <mark key="]" line="177" column="26" />
-        <mark key="^" line="177" column="26" />
-        <mark key="." line="177" column="26" />
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="25" column="0" />
+        <mark key="." line="25" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/SailingPBController.java" timestamp="1571224467053">
         <mark key="'" line="59" column="12" />
@@ -365,13 +364,13 @@
         <mark key="^" line="118" column="89" />
         <mark key="." line="118" column="89" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1571831111096">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1571903757531">
         <mark key="'" line="234" column="4" />
-        <mark key="[" line="268" column="0" />
+        <mark key="[" line="115" column="56" />
         <mark key="m" line="266" column="2" />
-        <mark key="]" line="268" column="0" />
-        <mark key="^" line="245" column="52" />
-        <mark key="." line="268" column="0" />
+        <mark key="]" line="115" column="55" />
+        <mark key="^" line="115" column="55" />
+        <mark key="." line="115" column="55" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/SailingRBO.java" timestamp="1571842689163">
         <mark key="'" line="123" column="42" />
@@ -397,8 +396,14 @@
         <mark key="." line="56" column="31" />
         <mark key="^" line="56" column="31" />
       </file>
-      <file name="/fragment.java" timestamp="1571842970433">
+      <file name="/fragment.java" timestamp="1571903697391">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/AtcQrCodeParser.java" timestamp="1571903476934">
+        <mark key="[" line="21" column="41" />
+        <mark key="]" line="21" column="27" />
+        <mark key="^" line="21" column="27" />
+        <mark key="." line="21" column="27" />
       </file>
     </filemarks>
     <jumps>
@@ -522,13 +527,16 @@
       <register name="0" type="4">
         <text>private Long rid;</text>
       </register>
-      <register name="1" type="4">
-        <text>getRid</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgU3RyaW5nIHFyQ29kZTsK</text>
       </register>
       <register name="2" type="4">
-        <text>extends</text>
+        <text>getRid</text>
       </register>
       <register name="3" type="4">
+        <text>extends</text>
+      </register>
+      <register name="4" type="4">
         <text>public Long getId() {
     return id;
   }
@@ -537,29 +545,26 @@
     this.id = id;
   }</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICBwdWJsaWMgTG9uZyBnZXRJRCgpIHsKICAgIHJldHVybiBpZDsKICB9CgogIHB1YmxpYyB2b2lkIHNldElkKExvbmcgaWQpIHsKICAgIHRoaXMuaWQgPSBpZDsKICB9</text>
-      </register>
-      <register name="7" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">ICBwdWJsaWMgTG9uZyBnZXRJRCgpIHsKICAgIHJldHVybiBpZDsKICB9CgogIHB1YmxpYyB2b2lkIHNldElkKExvbmcgaWQpIHsKICAgIHRoaXMuaWQgPSBpZDsKICB9</text>
       </register>
       <register name="x" type="4">
         <text>getRid</text>
       </register>
       <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">IAo=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">IAogICAgdGhpcy5yaWQgPSByaWQ7CiAgfQ==</text>
-      </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -581,21 +586,22 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Debug</entry>
         <entry>action PreviousOccurence</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZFVzYWdlcw==</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action FindUsages</entry>
-        <entry>action RenameElement</entry>
-        <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
         <entry>action PreviousTab</entry>
-        <entry>action SaveAll</entry>
+        <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
+        <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action RenameElement</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
