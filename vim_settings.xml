@@ -210,12 +210,12 @@
         <mark key="^" line="18" column="0" />
         <mark key="." line="18" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" timestamp="1571912369821">
-        <mark key="'" line="38" column="74" />
-        <mark key="[" line="38" column="57" />
-        <mark key="]" line="38" column="64" />
-        <mark key="^" line="38" column="64" />
-        <mark key="." line="38" column="64" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" timestamp="1571913415798">
+        <mark key="'" line="40" column="74" />
+        <mark key="[" line="243" column="0" />
+        <mark key="]" line="243" column="0" />
+        <mark key="^" line="243" column="48" />
+        <mark key="." line="243" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/EntrantDatumAdminService.java" timestamp="1571322636936">
         <mark key="'" line="231" column="142" />
@@ -385,13 +385,13 @@
         <mark key="^" line="118" column="89" />
         <mark key="." line="118" column="89" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1571911257188">
-        <mark key="'" line="234" column="4" />
-        <mark key="[" line="351" column="3" />
-        <mark key="m" line="266" column="2" />
-        <mark key="]" line="351" column="2" />
-        <mark key="^" line="351" column="2" />
-        <mark key="." line="351" column="2" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1571915053010">
+        <mark key="'" line="362" column="4" />
+        <mark key="[" line="346" column="0" />
+        <mark key="m" line="265" column="2" />
+        <mark key="]" line="348" column="72" />
+        <mark key="^" line="348" column="72" />
+        <mark key="." line="348" column="72" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/SailingRBO.java" timestamp="1571842689163">
         <mark key="'" line="123" column="42" />
@@ -435,10 +435,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="22" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="29" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="26" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
       <jump line="33" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
       <jump line="30" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
       <jump line="37" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
@@ -535,6 +531,10 @@
       <jump line="19" column="19" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0590_update_checkpoint_open.xml" />
       <jump line="70" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
       <jump line="76" column="34" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
+      <jump line="353" column="9" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="351" column="203" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="352" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="362" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -544,48 +544,55 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>liknoss</text>
+        <text>openToVehicle</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>- include:
-      file: migrations/devdata/0580_automated_location_translations.xml
-      relativeToChangelogFile: true</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICBpZiAoY2hlY2tQb2ludE9wZW5Ub0VudHJhbnRUeXBlID09IG9wZW5Ub1ZlaGljbGUpIHJldHVybiAoZW50cmFudERhdHVtLmdldEVudHJhbnREYXRhVHlwZSgpLmdldENvZGUoKS5jb250YWlucygiVkVIIikpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICB9Cg==</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">VVBEQVRFIENIRUNLX1BPSU5UIGMKICAgU0VUIGMuQ09OVFJPTExFUl9TRVJJQUxfTlVNQkVSID0gVE9fQ0hBUihjLklEIC0gMSkgd2hlcmUgIGMuSUQgPj0gMTs=</text>
+        <text>openToVehicle</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgIGMuQ09OVFJPTExFUl9QT1JUID0gODAK</text>
+      <register name="3" type="4">
+        <text>return  (checkPointOpenToEntrantType == openToVehicle) ?
+           (entrantDatum.getEntrantDataType().getCode().contains(&quot;VEH&quot;)) :
+           !(entrantDatum.getEntrantDataType().getCode()).contains(&quot;VEH&quot;);</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgIGMuQ09OVFJPTExFUl9JUCA9ICcxNzIuMjYuMy40OScsCg==</text>
+      <register name="4" type="4">
+        <text>VEHICLE</text>
       </register>
       <register name="5" type="4">
-        <text>liknoss</text>
+        <text>Vehicle</text>
       </register>
       <register name="6" type="4">
-        <text>CONTROLLER_PASSWORD</text>
+        <text>boolean</text>
       </register>
       <register name="7" type="4">
-        <text>checkType</text>
+        <text>if (entrantDatum.getEntrantDataType().getCode().contains(&quot;VEH&quot;)){
+     if ( Arrays.asList(CheckPointRBO.OpenToEntrantType.ALL, CheckPointRBO.OpenToEntrantType.VEHICLE).contains(CheckPointRBO.OpenToEntrantType.valueOf(checkPoint.getOpenToEntrantType())))
+      return  true;
+
+    } else{</text>
       </register>
       <register name="x" type="4">
-        <text>liknoss</text>
+        <text>openToVehicle</text>
       </register>
-      <register name="8" type="4">
-        <text>BOTH</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="4">
-        <text>checkType</text>
+        <text>public boolean canGoThroughCheckPoint(Entratn checkPoint) {
+      OpenToEntrantType openToEntrantType = OpenToEntrantType.valueOf(checkPoint.getOpenToEntrantType());
+
+    }</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -617,15 +624,15 @@
         <entry>action OptimizeImports</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
         <entry>action FindUsages</entry>
-        <entry>action RenameElement</entry>
         <entry>action GotoImplementation</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action $SelectAll</entry>
+        <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoFile</entry>
+        <entry>action RenameElement</entry>
         <entry>action ReformatCode</entry>
-        <entry>action $SelectAll</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
