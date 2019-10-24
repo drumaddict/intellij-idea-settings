@@ -170,10 +170,12 @@
         <mark key="^" line="12" column="83" />
         <mark key="." line="20" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1571749701706">
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1571907082789">
         <mark key="'" line="76" column="2" />
-        <mark key="[" line="76" column="2" />
-        <mark key="]" line="76" column="41" />
+        <mark key="[" line="32" column="39" />
+        <mark key="]" line="32" column="38" />
+        <mark key="^" line="32" column="38" />
+        <mark key="." line="32" column="38" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0100_test_data_insert.xml" timestamp="1571668604199">
         <mark key="'" line="17" column="12" />
@@ -364,7 +366,7 @@
         <mark key="^" line="118" column="89" />
         <mark key="." line="118" column="89" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1571903757531">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1571906973756">
         <mark key="'" line="234" column="4" />
         <mark key="[" line="115" column="56" />
         <mark key="m" line="266" column="2" />
@@ -396,7 +398,7 @@
         <mark key="." line="56" column="31" />
         <mark key="^" line="56" column="31" />
       </file>
-      <file name="/fragment.java" timestamp="1571903697391">
+      <file name="/fragment.java" timestamp="1571906433688">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/AtcQrCodeParser.java" timestamp="1571903476934">
@@ -564,7 +566,7 @@
         <text encoding="base64">IAo=</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -595,13 +597,13 @@
         <entry>action OptimizeImports</entry>
         <entry>action PreviousTab</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
-        <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoImplementation</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action RenameElement</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
