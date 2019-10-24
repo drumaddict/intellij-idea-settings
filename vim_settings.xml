@@ -94,6 +94,13 @@
         <mark key="^" line="102" column="7" />
         <mark key="." line="158" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" timestamp="1571922603446">
+        <mark key="'" line="164" column="0" />
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="24" column="22" />
+        <mark key="^" line="24" column="22" />
+        <mark key="." line="24" column="22" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/xml-resources/XML_SCHEMAS_PORT_CONTROL/SendCheckInDataSMRS_A.xsd" timestamp="1571395153153">
         <mark key="'" line="83" column="87" />
         <mark key="[" line="84" column="71" />
@@ -121,12 +128,6 @@
         <mark key="]" line="21" column="145" />
         <mark key="^" line="21" column="145" />
         <mark key="." line="21" column="145" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/test_data_sql/automated_location_translations.sql" timestamp="1571839040240">
-        <mark key="'" line="5" column="21" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="5" column="22" />
-        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" timestamp="1571911857305">
         <mark key="'" line="89" column="2" />
@@ -265,12 +266,6 @@
         <mark key="^" line="22" column="59" />
         <mark key="." line="22" column="59" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/SailingDTO.java" timestamp="1571903147246">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="0" />
-        <mark key="." line="25" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/SailingPBController.java" timestamp="1571224467053">
         <mark key="'" line="59" column="12" />
         <mark key="[" line="56" column="44" />
@@ -292,6 +287,24 @@
         <mark key="^" line="66" column="1" />
         <mark key="." line="66" column="2" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRPassenger.java" timestamp="1571921842018">
+        <mark key="'" line="48" column="2" />
+        <mark key="[" line="4" column="2" />
+        <mark key="]" line="48" column="3" />
+        <mark key="^" line="49" column="1" />
+        <mark key="." line="4" column="2" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRVehicle.java" timestamp="1571921838547">
+        <mark key="[" line="4" column="2" />
+        <mark key="]" line="4" column="2" />
+        <mark key="." line="4" column="2" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRCodeService.java" timestamp="1571922712371">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="4" column="51" />
+        <mark key="^" line="4" column="51" />
+        <mark key="." line="4" column="51" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.sql" timestamp="1571841717650">
         <mark key="[" line="11" column="75" />
         <mark key="]" line="19" column="87" />
@@ -304,6 +317,9 @@
         <mark key="]" line="245" column="48" />
         <mark key="^" line="245" column="48" />
         <mark key="." line="245" column="48" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/types/IQrCodeService.java" timestamp="1571922723702">
+        <mark key="[" line="2" column="33" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/SailingDao.java" timestamp="1571126642298">
         <mark key="'" line="57" column="104" />
@@ -406,9 +422,6 @@
         <mark key="^" line="348" column="72" />
         <mark key="." line="348" column="72" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/SailingRBO.java" timestamp="1571842689163">
-        <mark key="'" line="123" column="42" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/pub/VesselTypePublicDTO.java" timestamp="1571134570697">
         <mark key="'" line="48" column="0" />
         <mark key="[" line="16" column="2" />
@@ -448,25 +461,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="46" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="53" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="50" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="57" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="54" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="61" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="58" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="65" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="62" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="69" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="66" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="73" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="70" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="77" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="74" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="81" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="78" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="85" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
-      <jump line="82" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
       <jump line="89" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
       <jump line="86" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
       <jump line="93" column="16" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0570_permission_description_update.xml" />
@@ -548,6 +542,25 @@
       <jump line="239" column="21" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="244" column="51" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="245" column="48" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
+      <jump line="3" column="41" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="9" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="7" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="10" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="11" column="44" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="23" column="1" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="18" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="19" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="129" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="5" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRVehicle.java" />
+      <jump line="6" column="25" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRVehicle.java" />
+      <jump line="48" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRVehicle.java" />
+      <jump line="8" column="31" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRVehicle.java" />
+      <jump line="16" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRVehicle.java" />
+      <jump line="48" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRPassenger.java" />
+      <jump line="21" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="22" column="29" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="28" column="13" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
+      <jump line="163" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QREntranceCard.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -557,16 +570,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>/com.google.zxing.version</text>
+        <text>lastName</text>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>private String ticketNumber;</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">JHtjb20uZ29vZ2xlLnp4aW5nLnZlcnNpb259PA==</text>
+        <text>private String lastName;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -577,26 +590,70 @@
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5jb20uZ29vZ2xlLnp4aW5nPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5jb3JlPC9hcnRpZmFjdElkPgogICAgICAgICAgICA8dmVyc2lvbj4odGhlIGN1cnJlbnQgdmVyc2lvbik8L3ZlcnNpb24+CiAgICAgICAgPC9kZXBlbmRlbmN5Pg==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICBwcml2YXRlIFN0cmluZyBkb2N1bWVudElkOwo=</text>
       </register>
-      <register name="5" type="4">
-        <text>/com.google.zxing.version</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>2</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICBwcml2YXRlIFN0cmluZyB0eXBlOwo=</text>
       </register>
-      <register name="7" type="4">
-        <text>-dataformat-xml.version</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="x" type="4">
-        <text>/com.google.zxing.version</text>
+        <text>lastName</text>
       </register>
       <register name="8" type="4">
-        <text>jackson</text>
+        <text encoding="base64">ICBwdWJsaWMgTG9uZyBnZXRJZCgpIHsKICAgIHJldHVybiBpZDsKICB9CgogIHB1YmxpYyB2b2lkIHNldElkKExvbmcgaWQpIHsKICAgIHRoaXMuaWQgPSBpZDsKICB9CgogIHB1YmxpYyBCb29sZWFuIGdldFRlbXBvcmFyeSgpIHsKICAgIHJldHVybiB0ZW1wb3Jhcnk7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRUZW1wb3JhcnkoQm9vbGVhbiB0ZW1wb3JhcnkpIHsKICAgIHRoaXMudGVtcG9yYXJ5ID0gdGVtcG9yYXJ5OwogIH0KCiAgcHVibGljIFN0cmluZyBnZXRDb21wYW55Q29kZSgpIHsKICAgIHJldHVybiBjb21wYW55Q29kZTsKICB9CgogIHB1YmxpYyB2b2lkIHNldENvbXBhbnlDb2RlKFN0cmluZyBjb21wYW55Q29kZSkgewogICAgdGhpcy5jb21wYW55Q29kZSA9IGNvbXBhbnlDb2RlOwogIH0KCiAgcHVibGljIFN0cmluZyBnZXRDb21wYW55TmFtZSgpIHsKICAgIHJldHVybiBjb21wYW55TmFtZTsKICB9CgogIHB1YmxpYyB2b2lkIHNldENvbXBhbnlOYW1lKFN0cmluZyBjb21wYW55TmFtZSkgewogICAgdGhpcy5jb21wYW55TmFtZSA9IGNvbXBhbnlOYW1lOwogIH0KCiAgcHVibGljIExvY2FsRGF0ZVRpbWUgZ2V0SXNzdWVEYXRlVGltZSgpIHsKICAgIHJldHVybiBpc3N1ZURhdGVUaW1lOwogIH0KCiAgcHVibGljIHZvaWQgc2V0SXNzdWVEYXRlVGltZShMb2NhbERhdGVUaW1lIGlzc3VlRGF0ZVRpbWUpIHsKICAgIHRoaXMuaXNzdWVEYXRlVGltZSA9IGlzc3VlRGF0ZVRpbWU7CiAgfQoKICBwdWJsaWMgTG9jYWxEYXRlVGltZSBnZXRFeHByaXJhdGlvbkRhdGVUaW1lKCkgewogICAgcmV0dXJuIGV4cHJpcmF0aW9uRGF0ZVRpbWU7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRFeHByaXJhdGlvbkRhdGVUaW1lKExvY2FsRGF0ZVRpbWUgZXhwcmlyYXRpb25EYXRlVGltZSkgewogICAgdGhpcy5leHByaXJhdGlvbkRhdGVUaW1lID0gZXhwcmlyYXRpb25EYXRlVGltZTsKICB9CgogIHB1YmxpYyBTdHJpbmcgZ2V0T3JpZ2luTG9jYXRpb24oKSB7CiAgICByZXR1cm4gb3JpZ2luTG9jYXRpb247CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRPcmlnaW5Mb2NhdGlvbihTdHJpbmcgb3JpZ2luTG9jYXRpb24pIHsKICAgIHRoaXMub3JpZ2luTG9jYXRpb24gPSBvcmlnaW5Mb2NhdGlvbjsKICB9CgogIHB1YmxpYyBTdHJpbmcgZ2V0RGVzdGluYXRpb25Mb2NhdGlvbigpIHsKICAgIHJldHVybiBkZXN0aW5hdGlvbkxvY2F0aW9uOwogIH0KCiAgcHVibGljIHZvaWQgc2V0RGVzdGluYXRpb25Mb2NhdGlvbihTdHJpbmcgZGVzdGluYXRpb25Mb2NhdGlvbikgewogICAgdGhpcy5kZXN0aW5hdGlvbkxvY2F0aW9uID0gZGVzdGluYXRpb25Mb2NhdGlvbjsKICB9CgogIHB1YmxpYyBMb2NhbERhdGVUaW1lIGdldERlcGFydHVyZURhdGVUaW1lKCkgewogICAgcmV0dXJuIGRlcGFydHVyZURhdGVUaW1lOwogIH0KCiAgcHVibGljIHZvaWQgc2V0RGVwYXJ0dXJlRGF0ZVRpbWUoTG9jYWxEYXRlVGltZSBkZXBhcnR1cmVEYXRlVGltZSkgewogICAgdGhpcy5kZXBhcnR1cmVEYXRlVGltZSA9IGRlcGFydHVyZURhdGVUaW1lOwogIH0KCiAgcHVibGljIFN0cmluZyBnZXRJbnRyYVNjaGVuZ2VuKCkgewogICAgcmV0dXJuIGludHJhU2NoZW5nZW47CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRJbnRyYVNjaGVuZ2VuKFN0cmluZyBpbnRyYVNjaGVuZ2VuKSB7CiAgICB0aGlzLmludHJhU2NoZW5nZW4gPSBpbnRyYVNjaGVuZ2VuOwogIH0KCiAgcHVibGljIFN0cmluZyBnZXRWZXNzZWxOYW1lKCkgewogICAgcmV0dXJuIHZlc3NlbE5hbWU7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRWZXNzZWxOYW1lKFN0cmluZyB2ZXNzZWxOYW1lKSB7CiAgICB0aGlzLnZlc3NlbE5hbWUgPSB2ZXNzZWxOYW1lOwogIH0KCiAgcHVibGljIFN0cmluZyBnZXRWZXNzZWxDbXBDb2RlKCkgewogICAgcmV0dXJuIHZlc3NlbENtcENvZGU7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRWZXNzZWxDbXBDb2RlKFN0cmluZyB2ZXNzZWxDbXBDb2RlKSB7CiAgICB0aGlzLnZlc3NlbENtcENvZGUgPSB2ZXNzZWxDbXBDb2RlOwogIH0KCiAgcHVibGljIFN0cmluZyBnZXRWZXNzZWxJbW9Db2RlKCkgewogICAgcmV0dXJuIHZlc3NlbEltb0NvZGU7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRWZXNzZWxJbW9Db2RlKFN0cmluZyB2ZXNzZWxJbW9Db2RlKSB7CiAgICB0aGlzLnZlc3NlbEltb0NvZGUgPSB2ZXNzZWxJbW9Db2RlOwogIH0KCiAgcHVibGljIFN0cmluZyBnZXRFbnRyYW50RGF0YVR5cGUoKSB7CiAgICByZXR1cm4gZW50cmFudERhdGFUeXBlOwogIH0KCiAgcHVibGljIHZvaWQgc2V0RW50cmFudERhdGFUeXBlKFN0cmluZyBlbnRyYW50RGF0YVR5cGUpIHsKICAgIHRoaXMuZW50cmFudERhdGFUeXBlID0gZW50cmFudERhdGFUeXBlOwogIH0=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICB9Cg==</text>
+      <register name="9" type="4">
+        <text>private String firstName;
+  private String lastName;
+  private String gender;
+  private String documentId;
+  private String ticketNumber;
+
+  public String getFirstName() {
+    return firstName;
+  }
+
+  public void setFirstName(String firstName) {
+    this.firstName = firstName;
+  }
+
+  public String getLastName() {
+    return lastName;
+  }
+
+  public void setLastName(String lastName) {
+    this.lastName = lastName;
+  }
+
+  public String getGender() {
+    return gender;
+  }
+
+  public void setGender(String gender) {
+    this.gender = gender;
+  }
+
+  public String getDocumentId() {
+    return documentId;
+  }
+
+  public void setDocumentId(String documentId) {
+    this.documentId = documentId;
+  }
+
+  public String getTicketNumber() {
+    return ticketNumber;
+  }
+
+  public void setTicketNumber(String ticketNumber) {
+    this.ticketNumber = ticketNumber;
+  }</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -631,11 +688,11 @@
         <entry>action GotoImplementation</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action $SelectAll</entry>
-        <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action RenameElement</entry>
         <entry>action Find</entry>
+        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
