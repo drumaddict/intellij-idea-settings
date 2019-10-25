@@ -17,12 +17,22 @@
         <mark key="." line="16" column="22" />
         <mark key="^" line="16" column="22" />
       </file>
+      <file name="/a.dummy" timestamp="1571997377093">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" timestamp="1571829130073">
         <mark key="'" line="118" column="27" />
         <mark key="[" line="169" column="13" />
         <mark key="]" line="169" column="13" />
         <mark key="^" line="169" column="13" />
         <mark key="." line="169" column="13" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" timestamp="1571998497721">
+        <mark key="'" line="98" column="2" />
+        <mark key="[" line="31" column="1" />
+        <mark key="]" line="31" column="1" />
+        <mark key="." line="31" column="1" />
+        <mark key="^" line="106" column="70" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/role.xml" timestamp="1571148062013">
         <mark key="'" line="15" column="4" />
@@ -191,11 +201,6 @@
         <mark key="^" line="32" column="38" />
         <mark key="." line="32" column="38" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/test_data_sql/test_webio_checkpoints.sql" timestamp="1571912466171">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="6" column="70" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0100_test_data_insert.xml" timestamp="1571668604199">
         <mark key="'" line="17" column="12" />
         <mark key="[" line="17" column="0" />
@@ -237,6 +242,13 @@
         <mark key="]" line="7" column="71" />
         <mark key="." line="7" column="71" />
         <mark key="^" line="7" column="71" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QrCodeService.java" timestamp="1571998509700">
+        <mark key="'" line="11" column="2" />
+        <mark key="[" line="13" column="43" />
+        <mark key="]" line="14" column="3" />
+        <mark key="^" line="14" column="3" />
+        <mark key="." line="14" column="3" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/ISailingDao.java" timestamp="1571126525425">
         <mark key="'" line="24" column="2" />
@@ -312,10 +324,11 @@
         <mark key="]" line="4" column="2" />
         <mark key="." line="4" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRCodeService.java" timestamp="1571993884402">
-        <mark key="[" line="80" column="0" />
-        <mark key="]" line="80" column="0" />
-        <mark key="." line="80" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRCodeService.java" timestamp="1571997337783">
+        <mark key="[" line="36" column="31" />
+        <mark key="]" line="36" column="41" />
+        <mark key="^" line="36" column="41" />
+        <mark key="." line="36" column="41" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.sql" timestamp="1571841717650">
         <mark key="[" line="11" column="75" />
@@ -330,12 +343,12 @@
         <mark key="^" line="92" column="7" />
         <mark key="." line="92" column="8" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/types/IQrCodeService.java" timestamp="1571928442328">
-        <mark key="'" line="5" column="96" />
-        <mark key="[" line="5" column="97" />
-        <mark key="]" line="5" column="95" />
-        <mark key="^" line="5" column="95" />
-        <mark key="." line="5" column="95" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/types/IQrCodeService.java" timestamp="1571997485392">
+        <mark key="'" line="7" column="97" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="^" line="7" column="96" />
+        <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/SailingDao.java" timestamp="1571126642298">
         <mark key="'" line="57" column="104" />
@@ -470,21 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="59" column="35" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CheckPoint.java" />
-      <jump line="20" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CheckPoint.java" />
-      <jump line="117" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
-      <jump line="138" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CheckPoint.java" />
-      <jump line="25" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" />
-      <jump line="46" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CheckPoint.java" />
-      <jump line="19" column="34" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" />
-      <jump line="92" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/CheckPointDTO.java" />
-      <jump line="115" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
-      <jump line="192" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
-      <jump line="271" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
-      <jump line="25" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
-      <jump line="37" column="114" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
-      <jump line="40" column="78" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
-      <jump line="235" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
       <jump line="24" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
       <jump line="38" column="74" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckPointRBO.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/test_data_sql/test_webio_checkpoints.sql" />
@@ -570,6 +568,21 @@
       <jump line="67" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/MainConfiguration.java" />
       <jump line="42" column="9" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/MainConfiguration.java" />
       <jump line="54" column="37" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/MainConfiguration.java" />
+      <jump line="33" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRCodeService.java" />
+      <jump line="32" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QRCodeService.java" />
+      <jump line="21" column="49" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="2" column="42" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/types/IQrCodeService.java" />
+      <jump line="36" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="7" column="97" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/types/IQrCodeService.java" />
+      <jump line="27" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="30" column="32" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="29" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="32" column="45" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="99" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="18" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QrCodeService.java" />
+      <jump line="42" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QrCodeService.java" />
+      <jump line="41" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QrCodeService.java" />
+      <jump line="12" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QrCodeService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -579,7 +592,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>jasyptStringEncryptor</text>
+        <text>ORANGE</text>
       </register>
       <register name="-" type="4">
         <text>g.setFont(new Font(&quot;Serif&quot;, Font.BOLD, 20));</text>
@@ -588,50 +601,64 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>jasyptStringEncryptor&quot;</text>
+        <text>private BufferedImage getOverly(String LOGO) throws IOException {
+    URL url = new URL(&quot;https://www.liknoss.com/themes/liknoss/logo.png&quot;);
+    return ImageIO.read(url);
+  }
+
+  private MatrixToImageConfig getMatrixConfig() {
+    // ARGB Colors
+    // Check Colors ENUM
+    return new MatrixToImageConfig(Colors.BLACK.getArgb(), Colors.WHITE.getArgb());
+  }</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">IHByaXZhdGUgZmluYWwgaW50IFFSX0NPREVfV0lEVEggPSAzMDA7CiAgcHJpdmF0ZSBmaW5hbCBpbnQgUVJfQ09ERV9IRUlHSFQgPSAzMDA7</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>public enum Colors {
+
+    BLUE(0xFF40BAD0),
+    RED(0xFFE91C43),
+    PURPLE(0xFF8A4F9E),
+    ORANGE(0xFFF4B13D),
+    WHITE(0xFFFFFFFF),
+    BLACK(0xFF000000);
+
+    private final int argb;
+
+    Colors(final int argb) {
+      this.argb = argb;
+    }
+
+    public int getArgb() {
+      return argb;
+    }
+  }</text>
       </register>
       <register name="3" type="4">
-        <text>jasyptStringEncryptor</text>
+        <text encoding="base64">ICBwdWJsaWMgZW51bSBDb2xvcnMgewoKICAgIEJMVUUoMHhGRjQwQkFEMCksCiAgICBSRUQoMHhGRkU5MUM0MyksCiAgICBQVVJQTEUoMHhGRjhBNEY5RSksCiAgICBPUkFOR0UoMHhGRkY0QjEzRCksCiAgICBXSElURSgweEZGRkZGRkZGKSwKICAgIEJMQUNLKDB4RkYwMDAwMDApOwoKICAgIHByaXZhdGUgZmluYWwgaW50IGFyZ2I7CgogICAgQ29sb3JzKGZpbmFsIGludCBhcmdiKSB7CiAgICAgIHRoaXMuYXJnYiA9IGFyZ2I7CiAgICB9</text>
       </register>
       <register name="4" type="4">
-        <text>jasyptStringEncryptor</text>
+        <text>ORANGE</text>
       </register>
       <register name="5" type="4">
-        <text>StringEncryptor</text>
+        <text>WHITE</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>height</text>
       </register>
       <register name="7" type="4">
-        <text>//  @Bean(name = &quot;jasyptStringEncryptor&quot;&quot;)
-//          public StringEncryptor stringEncryptor(){
-//          PooledPBEStringEncryptor encryptor=new PooledPBEStringEncryptor();
-//          SimpleStringPBEConfig config=new SimpleStringPBEConfig();
-//          config.setPassword(&quot;password&quot;);
-//          config.setAlgorithm(&quot;PBEWithMD5AndDES&quot;);
-//          config.setKeyObtentionIterations(&quot;1000&quot;);
-//          config.setPoolSize(&quot;1&quot;);
-//          config.setProviderName(&quot;SunJCE&quot;);
-//          config.setSaltGeneratorClassName(&quot;org.jasypt.salt.RandomSaltGenerator&quot;);
-//          config.setStringOutputType(&quot;base64&quot;);
-//          encryptor.setConfig(config);
-//          return encryptor;
-//          }</text>
+        <text>width</text>
       </register>
       <register name="x" type="4">
-        <text>jasyptStringEncryptor</text>
+        <text>ORANGE</text>
       </register>
       <register name="8" type="4">
-        <text>stringEncryptor</text>
+        <text>650</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIFNpbXBsZVBCRVN0cmluZ0VuY3J5cHRvciBzdHJpbmdFbmNyeXB0b3IgPSBuZXcgU2ltcGxlUEJFU3RyaW5nRW5jcnlwdG9yKGVuY3J5cHRvcik7Cg==</text>
+      <register name="9" type="4">
+        <text>THERMAL_CARD_HEIGHT</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -653,24 +680,24 @@
       <history-cmd>
         <entry>action Debug</entry>
         <entry>action PreviousOccurence</entry>
-        <entry>action FileStructurePopup</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZFVzYWdlcw==</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
         <entry>action FindUsages</entry>
         <entry>action $SelectAll</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action RenameElement</entry>
         <entry>action CloseContent</entry>
-        <entry>action NextTab</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action OptimizeImports</entry>
         <entry>action AceAction</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action Find</entry>
+        <entry>action OptimizeImports</entry>
+        <entry>action RenameElement</entry>
+        <entry>action QuickJavaDoc</entry>
         <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
