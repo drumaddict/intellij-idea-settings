@@ -622,7 +622,7 @@
         <text encoding="base64">ICAgICAgdGhlcm1hbENhcmRDYW52YXMuZHJhd1N0cmluZyhzLCA1MCwgNTApOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -649,7 +649,6 @@
         <entry>action SplitVertically</entry>
         <entry>action SurroundWith</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action CloseContent</entry>
@@ -657,8 +656,9 @@
         <entry>action ReformatCode</entry>
         <entry>action RenameElement</entry>
         <entry>action AceAction</entry>
-        <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
