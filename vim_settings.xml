@@ -459,8 +459,8 @@
         <mark key="^" line="118" column="89" />
         <mark key="." line="118" column="89" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1572442047706">
-        <mark key="'" line="344" column="2" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1572444741540">
+        <mark key="'" line="345" column="58" />
         <mark key="[" line="344" column="2" />
         <mark key="m" line="266" column="2" />
         <mark key="]" line="344" column="65" />
@@ -513,7 +513,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="19" column="102" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QrCodeService.java" />
       <jump line="42" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
       <jump line="21" column="58" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/QrCodeService.java" />
       <jump line="53" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
@@ -613,6 +612,7 @@
       <jump line="344" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="9" column="63" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/types/ICheckService.java" />
       <jump line="95" column="21" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/portauth/CheckController.java" />
+      <jump line="345" column="58" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -664,7 +664,7 @@
         <text>GET</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action FindUsages</text>
       </register>
     </registers>
     <search>
@@ -688,9 +688,7 @@
         <entry>action RenameElement</entry>
         <entry>action VimFilePrevious</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action FindUsages</entry>
         <entry>action Debug</entry>
-        <entry>action GotoFile</entry>
         <entry>action OptimizeImports</entry>
         <entry>action $SelectAll</entry>
         <entry>action QuickJavaDoc</entry>
@@ -698,10 +696,12 @@
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
-        <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoImplementation</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action FindUsages</entry>
       </history-cmd>
       <history-expr />
       <history-input />
