@@ -194,7 +194,7 @@
         <mark key="^" line="12" column="83" />
         <mark key="." line="20" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1572349370073">
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1572435480020">
         <mark key="'" line="76" column="2" />
         <mark key="[" line="32" column="39" />
         <mark key="]" line="32" column="38" />
@@ -644,7 +644,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -675,12 +675,12 @@
         <entry>action OptimizeImports</entry>
         <entry>action ReformatCode</entry>
         <entry>action NextTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoImplementation</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
