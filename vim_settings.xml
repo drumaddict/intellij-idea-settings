@@ -765,7 +765,7 @@
           ApiResponse locationApiResponse,</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -800,11 +800,11 @@
         <entry>action RenameElement</entry>
         <entry>action OptimizeImports</entry>
         <entry>action PreviousTab</entry>
-        <entry>action Find</entry>
         <entry>action NextTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
