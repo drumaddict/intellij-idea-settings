@@ -776,7 +776,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -809,10 +809,10 @@
         <entry>action OptimizeImports</entry>
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
-        <entry>action Find</entry>
         <entry>action SurroundWith</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
