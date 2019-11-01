@@ -27,12 +27,12 @@
         <mark key="^" line="169" column="13" />
         <mark key="." line="169" column="13" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" timestamp="1572536724627">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" timestamp="1572537610765">
         <mark key="'" line="214" column="35" />
-        <mark key="[" line="216" column="72" />
-        <mark key="]" line="216" column="82" />
-        <mark key="^" line="216" column="82" />
-        <mark key="." line="216" column="82" />
+        <mark key="[" line="201" column="0" />
+        <mark key="]" line="201" column="0" />
+        <mark key="^" line="201" column="3" />
+        <mark key="." line="201" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/db/LocationQRCodeMapping.java" timestamp="1572519496834">
         <mark key="'" line="20" column="41" />
@@ -717,9 +717,15 @@
         <text>qrEntranceCardDTOJsonEncrypted =</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIFN0cmluZyBqc29uRW5jcgo=</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsK</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>} catch (NoSuchPaddingException e) {
       e.printStackTrace();
     } catch (InvalidKeyException e) {
@@ -736,13 +742,13 @@
       e.printStackTrace();
     } catch (InvalidAlgorithmParameterException e) {</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>//        SecureRandom random = new SecureRandom();
 //        byte[] salt = new byte[16];
 //        random.nextBytes(salt);
@@ -758,29 +764,13 @@
 //
 //        Cipher cipher = Cipher.getInstance(&quot;AES/CBC/PKCS5Padding&quot;);</text>
       </register>
-      <register name="6" type="4">
-        <text>//        cipher.init(Cipher.DECRYPT_MODE, secretKeySpec, iv);
-//        String decryptString = new String(cipher.doFinal(encValue), &quot;UTF-8&quot;);
-//        return encValue;</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="x" type="4">
         <text>originLocation</text>
       </register>
       <register name="8" type="4">
-        <text>//    public byte[] getQRCodeImage(String text, int width, int height) {
-//        try {
-//            QRCodeWriter qrCodeWriter = new QRCodeWriter();
-//            BitMatrix bitMatrix = qrCodeWriter.encode(text, BarcodeFormat.QR_CODE, width, height);
-//            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-//            MatrixToImageWriter.writeToStream(bitMatrix, &quot;png&quot;, byteArrayOutputStream);
-//            return byteArrayOutputStream.toByteArray();
-//        } catch (Exception e) {
-//            return null;
-//        }
-//    }</text>
+        <text>//        cipher.init(Cipher.DECRYPT_MODE, secretKeySpec, iv);
+//        String decryptString = new String(cipher.doFinal(encValue), &quot;UTF-8&quot;);
+//        return encValue;</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
