@@ -34,7 +34,7 @@
       <file name="/a.dummy" timestamp="1572515921789">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/specs/reports/reports_specs.sql" timestamp="1572621297581" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/reports/reports_specs.sql" timestamp="1572622667835" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" timestamp="1571829130073">
         <mark key="'" line="118" column="27" />
         <mark key="[" line="169" column="13" />
@@ -777,7 +777,7 @@
 //        Cipher cipher = Cipher.getInstance(&quot;AES/CBC/PKCS5Padding&quot;);</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -811,9 +811,9 @@
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
         <entry>action SurroundWith</entry>
+        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
-        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
