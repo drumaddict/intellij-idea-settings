@@ -3,13 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/b2c/types/IEntrantDatumB2CService.java" timestamp="1572948114423">
-        <mark key="[" line="6" column="39" />
-        <mark key="]" line="6" column="31" />
-        <mark key="m" line="13" column="0" />
-        <mark key="^" line="6" column="31" />
-        <mark key="." line="6" column="31" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDataCardDao.java" timestamp="1572952995127">
         <mark key="'" line="19" column="70" />
         <mark key="[" line="20" column="32" />
@@ -275,9 +268,10 @@
         <mark key="." line="120" column="26" />
         <mark key="^" line="120" column="26" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" timestamp="1572956049088">
-        <mark key="[" line="13" column="55" />
-        <mark key="]" line="13" column="68" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" timestamp="1572958714746">
+        <mark key="'" line="15" column="0" />
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="27" column="47" />
         <mark key="^" line="13" column="68" />
         <mark key="." line="13" column="68" />
       </file>
@@ -330,18 +324,19 @@
         <mark key="^" line="296" column="37" />
         <mark key="." line="296" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/pub/ReportPublicService.java" timestamp="1572946086324">
-        <mark key="[" line="47" column="31" />
-        <mark key="]" line="47" column="33" />
-        <mark key="." line="47" column="33" />
-        <mark key="^" line="47" column="33" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/QREntranceCardDTO.java" timestamp="1572868015743">
         <mark key="'" line="3" column="42" />
         <mark key="[" line="17" column="25" />
         <mark key="]" line="22" column="63" />
         <mark key="." line="22" column="63" />
         <mark key="^" line="22" column="63" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/impl/ReportRepositoryImpl.java" timestamp="1572958766697">
+        <mark key="'" line="16" column="47" />
+        <mark key="[" line="16" column="125" />
+        <mark key="]" line="18" column="3" />
+        <mark key="^" line="18" column="3" />
+        <mark key="." line="18" column="3" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/db/DbProperties.java" timestamp="1572856488674">
         <mark key="'" line="64" column="76" />
@@ -716,7 +711,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="55" column="59" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailing_entrant_data.xml" />
       <jump line="56" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailing_entrant_data.xml" />
       <jump line="57" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailing_entrant_data.xml" />
       <jump line="58" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailing_entrant_data.xml" />
@@ -814,8 +808,9 @@
       <jump line="94" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/b2b/EntrantDatumB2BController.java" />
       <jump line="105" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/b2b/EntrantDatumB2BController.java" />
       <jump line="14" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" />
-      <jump line="15" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" />
       <jump line="14" column="43" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/SailingRepository.java" />
+      <jump line="15" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" />
+      <jump line="18" column="47" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/impl/ReportRepositoryImpl.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -834,40 +829,46 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">SnBhUmVwb3NpdG9yeTxTYWlsaW5nLCBMb25nPiA=</text>
+        <text encoding="base64">ICBAUXVlcnkoCiAgICAgICAgICBuYW1lID0gImdldFNhaWxpbmdzRm9yR2VuZXJhbE1hbmlmZXN0UmVwb3J0IiwKICAgICAgICAgIG5hdGl2ZVF1ZXJ5ID0gdHJ1ZQogICkKICBMaXN0PFNhaWxpbmdHZW5lcmFsTWFuaWZlc3REVE8+IGdldFNhaWxpbmdzRm9yR2VuZXJhbE1hbmlmZXN0UmVwb3J0CiAgICAgICAgICAoQFBhcmFtKCJsYW5ndWFnZV9pZCIpIExvbmcgbGFuZ3VhZ2VJZCk7CgogIEBRdWVyeSgKICAgICAgICAgIG5hbWUgPSAiZ2V0RW50cmFudERhdGFPZlNhaWxpbmdGb3JHZW5lcmFsTWFuaWZlc3RSZXBvcnQiLAogICAgICAgICAgbmF0aXZlUXVlcnkgPSB0cnVlCiAgKQogIExpc3Q8RW50cmFudERhdHVtR2VuZXJhbE1hbmlmZXN0RFRPPiBnZXRFbnRyYW50RGF0YU9mU2FpbGluZ0ZvckdlbmVyYWxNYW5pZmVzdFJlcG9ydAogICAgICAgICAgKEBQYXJhbSgic2FpbGluZ19pZCIpIExvbmcgc2FpbGluZ0lkKTs=</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICBACg==</text>
+      </register>
+      <register name="2" type="4">
+        <text>Query(
+          name = &quot;getEntrantDataOfSailingForGeneralManifestReport&quot;,
+          nativeQuery = true
+  )</text>
+      </register>
+      <register name="3" type="4">
+        <text>@Query(
+          name = &quot;getSailingsForGeneralManifestReport&quot;,
+          nativeQuery = true
+  )</text>
+      </register>
+      <register name="4" type="4">
         <text>PagingAndSortingRepository</text>
       </register>
-      <register name="2" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Ly9wdWJsaWMgaW50ZXJmYWNlIFJlcG9ydFJlcG9zaXRvcnkgZXh0ZW5kcyBQYWdpbmdBbmRTb3J0aW5nUmVwb3NpdG9yeTxTYWlsaW5nLCBMb25nPiB7Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">cHVibGljIGludGVyZmFjZSBSZXBvcnRSZXBvc2l0b3J5IGV4dGVuZHMgQ3J1ZCB7Cg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">QFJlcG9zaXRvcnkK</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">QFJlcXVlc3RNYXBwaW5nKAogICAgICAgICAgbWV0aG9kID0gUmVxdWVzdE1ldGhvZC5HRVQsCiAgICAgICAgICBwYXRoID0gIi9wcmludEVudHJhbmNlQ2FyZC97Y2FyZElkfSIsCiAgICAgICAgICBwcm9kdWNlcyA9IE1lZGlhVHlwZXMuSEFMX0pTT05fVkFMVUUpCiAgcHVibGljIEh0dHBFbnRpdHk8UmVzb3VyY2VTdXBwb3J0PiBwcmludEVudHJhbmNlQ2FyZCgKICAgICAgICAgIEBQYXRoVmFyaWFibGUgTG9uZyBjYXJkSWQKICApIHsKICAgIEVudHJhbnREYXRhQ2FyZERUTyBlbnRyYW50RGF0YUNhcmREVE8gPSBiMmJTZXJ2aWNlLnByaW50RW50cmFudERhdGFDYXJkKGNhcmRJZCk7CiAgICByZXR1cm4gY2FyZEFwaVJlc3BvbnNlLnRvRFRPUmVzcG9uc2UoZW50cmFudERhdGFDYXJkRFRPLCBIdHRwU3RhdHVzLk9LKTsKICB9</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">QFJlcXVlc3RNYXBwaW5nKAogICAgICAgICAgbWV0aG9kID0gUmVxdWVzdE1ldGhvZC5HRVQsCiAgICAgICAgICBwYXRoID0gIi9yZWNhbGxFbnRyYW5jZUNhcmQve2NhcmRJZH0iLAogICAgICAgICAgcHJvZHVjZXMgPSBNZWRpYVR5cGVzLkhBTF9KU09OX1ZBTFVFKQogIHB1YmxpYyBIdHRwRW50aXR5PFJlc291cmNlU3VwcG9ydD4gcmVjYWxsRW50cmFuY2VDYXJkKAogICAgICAgICAgQFBhdGhWYXJpYWJsZSBMb25nIGNhcmRJZAogICkgewogICAgRW50cmFudERhdGFDYXJkRFRPIGVudHJhbnREYXRhQ2FyZERUTyA9IGIyYlNlcnZpY2UucmVjYWxsRW50cmFudERhdGFDYXJkKGNhcmRJZCk7CiAgICByZXR1cm4gY2FyZEFwaVJlc3BvbnNlLnRvRFRPUmVzcG9uc2UoZW50cmFudERhdGFDYXJkRFRPLCBIdHRwU3RhdHVzLk9LKTsKICB9</text>
-      </register>
-      <register name="7" type="4">
-        <text>printEntrantDataCard</text>
       </register>
       <register name="x" type="4">
         <text>PagingAndSortingRepository</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="8" type="4">
+        <text encoding="base64">QFJlcXVlc3RNYXBwaW5nKAogICAgICAgICAgbWV0aG9kID0gUmVxdWVzdE1ldGhvZC5HRVQsCiAgICAgICAgICBwYXRoID0gIi9wcmludEVudHJhbmNlQ2FyZC97Y2FyZElkfSIsCiAgICAgICAgICBwcm9kdWNlcyA9IE1lZGlhVHlwZXMuSEFMX0pTT05fVkFMVUUpCiAgcHVibGljIEh0dHBFbnRpdHk8UmVzb3VyY2VTdXBwb3J0PiBwcmludEVudHJhbmNlQ2FyZCgKICAgICAgICAgIEBQYXRoVmFyaWFibGUgTG9uZyBjYXJkSWQKICApIHsKICAgIEVudHJhbnREYXRhQ2FyZERUTyBlbnRyYW50RGF0YUNhcmREVE8gPSBiMmJTZXJ2aWNlLnByaW50RW50cmFudERhdGFDYXJkKGNhcmRJZCk7CiAgICByZXR1cm4gY2FyZEFwaVJlc3BvbnNlLnRvRFRPUmVzcG9uc2UoZW50cmFudERhdGFDYXJkRFRPLCBIdHRwU3RhdHVzLk9LKTsKICB9</text>
       </register>
       <register name="9" type="4">
-        <text>public</text>
+        <text encoding="base64">QFJlcXVlc3RNYXBwaW5nKAogICAgICAgICAgbWV0aG9kID0gUmVxdWVzdE1ldGhvZC5HRVQsCiAgICAgICAgICBwYXRoID0gIi9yZWNhbGxFbnRyYW5jZUNhcmQve2NhcmRJZH0iLAogICAgICAgICAgcHJvZHVjZXMgPSBNZWRpYVR5cGVzLkhBTF9KU09OX1ZBTFVFKQogIHB1YmxpYyBIdHRwRW50aXR5PFJlc291cmNlU3VwcG9ydD4gcmVjYWxsRW50cmFuY2VDYXJkKAogICAgICAgICAgQFBhdGhWYXJpYWJsZSBMb25nIGNhcmRJZAogICkgewogICAgRW50cmFudERhdGFDYXJkRFRPIGVudHJhbnREYXRhQ2FyZERUTyA9IGIyYlNlcnZpY2UucmVjYWxsRW50cmFudERhdGFDYXJkKGNhcmRJZCk7CiAgICByZXR1cm4gY2FyZEFwaVJlc3BvbnNlLnRvRFRPUmVzcG9uc2UoZW50cmFudERhdGFDYXJkRFRPLCBIdHRwU3RhdHVzLk9LKTsKICB9</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action NextTab</text>
       </register>
     </registers>
     <search>
@@ -892,20 +893,20 @@
         <entry>action TabShiftActions.StretchDown</entry>
         <entry>action AceAction</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action Find</entry>
         <entry>action $SelectAll</entry>
         <entry>action RenameElement</entry>
         <entry>action CloseContent</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action GotoSymbol</entry>
         <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action NextTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
