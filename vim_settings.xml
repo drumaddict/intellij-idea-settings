@@ -909,7 +909,7 @@
         <text>public</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action QuickJavaDoc</text>
       </register>
     </registers>
     <search>
@@ -946,6 +946,7 @@
         <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action QuickJavaDoc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
