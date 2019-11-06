@@ -223,7 +223,7 @@
         <mark key="." line="116" column="57" />
         <mark key="^" line="116" column="57" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailing_entrant_data.xml" timestamp="1572969990613">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailing_entrant_data.xml" timestamp="1573034980676">
         <mark key="'" line="62" column="12" />
         <mark key="[" line="54" column="32" />
         <mark key="]" line="54" column="31" />
@@ -897,7 +897,7 @@
         <text>public</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -931,9 +931,9 @@
         <entry>action GotoImplementation</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
