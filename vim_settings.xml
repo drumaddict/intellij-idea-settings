@@ -233,12 +233,12 @@
         <mark key="." line="116" column="57" />
         <mark key="^" line="116" column="57" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/data/GeneralManifestReportData.java" timestamp="1573201561265">
-        <mark key="'" line="19" column="2" />
-        <mark key="[" line="19" column="37" />
-        <mark key="]" line="19" column="50" />
-        <mark key="^" line="19" column="50" />
-        <mark key="." line="19" column="50" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/data/GeneralManifestReportData.java" timestamp="1573205416215">
+        <mark key="'" line="19" column="21" />
+        <mark key="[" line="19" column="61" />
+        <mark key="]" line="19" column="61" />
+        <mark key="^" line="19" column="61" />
+        <mark key="." line="19" column="61" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailing_entrant_data.xml" timestamp="1573141522344">
         <mark key="'" line="64" column="72" />
@@ -795,7 +795,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="58" column="70" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IEntrantDataCardService.java" />
       <jump line="62" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/b2b/B2BService.java" />
       <jump line="77" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/b2b/B2BService.java" />
       <jump line="27" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/b2b/types/IB2BService.java" />
@@ -894,7 +893,8 @@
       <jump line="42" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/pub/reportdata/GeneralManifestReportData.java" />
       <jump line="26" column="38" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/data/GeneralManifestReportData.java" />
       <jump line="43" column="47" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/data/GeneralManifestReportData.java" />
-      <jump line="19" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/data/GeneralManifestReportData.java" />
+      <jump line="35" column="9" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/data/GeneralManifestReportData.java" />
+      <jump line="19" column="21" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/data/GeneralManifestReportData.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -904,7 +904,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>sailingsDataSource</text>
+        <text>parameters</text>
       </register>
       <register name="-" type="4">
         <text>sailingsDataSource</text>
@@ -912,41 +912,41 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICBwcml2YXRlIEpSQmVhbkNvbGxlY3Rpb25EYXRhU291cmNlIHNhaWxpbmdzRGF0YVNvdXJjZTsK</text>
+      <register name="0" type="4">
+        <text encoding="base64">TWFwPFN0cmluZywgT2JqZWN0PiA=</text>
       </register>
       <register name="1" type="4">
-        <text>sailingsDataSource</text>
+        <text>parameters</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">cHVibGljIE1hcDxTdHJpbmcsIE9iamVjdD4gZ2V0RGF0YVNvdXJjZXMoKSB7CiAgICBNYXA8U3RyaW5nLCBPYmplY3Q+IGRhdGFTb3VyY2VzID0gbmV3IEhhc2hNYXA8PigpOwogICAgZGF0YVNvdXJjZXMucHV0KCJzYWlsaW5nc0RhdGFTb3VyY2UiLCBzYWlsaW5nc0RhdGFTb3VyY2UpOwogICAgcmV0dXJuIGRhdGFTb3VyY2VzOwogIH0=</text>
+        <text>sailingsDataSource</text>
       </register>
       <register name="3" type="4">
-        <text>class</text>
+        <text encoding="base64">cHVibGljIE1hcDxTdHJpbmcsIE9iamVjdD4gZ2V0RGF0YVNvdXJjZXMoKSB7CiAgICBNYXA8U3RyaW5nLCBPYmplY3Q+IGRhdGFTb3VyY2VzID0gbmV3IEhhc2hNYXA8PigpOwogICAgZGF0YVNvdXJjZXMucHV0KCJzYWlsaW5nc0RhdGFTb3VyY2UiLCBzYWlsaW5nc0RhdGFTb3VyY2UpOwogICAgcmV0dXJuIGRhdGFTb3VyY2VzOwogIH0=</text>
       </register>
       <register name="4" type="4">
-        <text>generalManifestSailings</text>
+        <text>class</text>
       </register>
       <register name="5" type="4">
         <text>generalManifestSailings</text>
       </register>
-      <register name="6" type="2">
+      <register name="6" type="4">
+        <text>generalManifestSailings</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>studentDataSource</text>
-      </register>
       <register name="x" type="4">
-        <text>sailingsDataSource</text>
+        <text>parameters</text>
       </register>
       <register name="8" type="4">
+        <text>studentDataSource</text>
+      </register>
+      <register name="9" type="4">
         <text>getInstituteName</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">IAo=</text>
-      </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -981,8 +981,8 @@
         <entry>action CloseContent</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
