@@ -41,6 +41,11 @@
         <mark key="^" line="27" column="44" />
         <mark key="." line="27" column="61" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" timestamp="1573483638754">
+        <mark key="'" line="13" column="2" />
+        <mark key="[" line="13" column="2" />
+        <mark key="]" line="13" column="61" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/VesselDao.java" timestamp="1573032327939">
         <mark key="[" line="46" column="32" />
         <mark key="]" line="46" column="36" />
@@ -97,11 +102,11 @@
         <mark key="^" line="19" column="70" />
         <mark key="." line="19" column="70" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/ReportBuilder.java" timestamp="1573473961365">
-        <mark key="[" line="27" column="90" />
-        <mark key="]" line="27" column="5" />
-        <mark key="^" line="27" column="5" />
-        <mark key="." line="27" column="5" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/ReportBuilder.java" timestamp="1573483749911">
+        <mark key="[" line="31" column="93" />
+        <mark key="]" line="31" column="99" />
+        <mark key="^" line="31" column="99" />
+        <mark key="." line="31" column="99" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/reports/SailingGMDTO.java" timestamp="1573475646002">
         <mark key="'" line="174" column="28" />
@@ -151,6 +156,13 @@
         <mark key="." line="15" column="0" />
         <mark key="^" line="17" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/FileUtils.java" timestamp="1573483778045">
+        <mark key="'" line="5" column="61" />
+        <mark key="[" line="5" column="15" />
+        <mark key="]" line="5" column="23" />
+        <mark key="^" line="5" column="23" />
+        <mark key="." line="5" column="23" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/VesselRepository.java" timestamp="1573032302616">
         <mark key="[" line="22" column="23" />
         <mark key="]" line="22" column="27" />
@@ -171,8 +183,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="82" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/GeneralManifestReportBuilder.java" />
-      <jump line="88" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/GeneralManifestReportBuilder.java" />
       <jump line="87" column="9" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/GeneralManifestReportBuilder.java" />
       <jump line="116" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/portauth/CheckController.java" />
       <jump line="60" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" />
@@ -271,6 +281,8 @@
       <jump line="83" column="67" filename="$USER_HOME$/projects/pcs/README.md" />
       <jump line="76" column="2" filename="$USER_HOME$/projects/pcs/README.md" />
       <jump line="25" column="40" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/assembler/SailingAdminAssembler.java" />
+      <jump line="13" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
+      <jump line="5" column="61" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/FileUtils.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -280,7 +292,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>true</text>
+        <text>getNullPropertyNames</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">T1IgKCAgOnN0YXJ0X2RhdGUgPSBUT19USU1FU1RBTVAoICc5OTk5LTAxLTAxIDAwOjAwJywgJ1lZWVktTU0tREQgSEgyNDpNSScpIA==</text>
@@ -289,37 +301,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>mvn clean package spring-boot:repackage`</text>
+        <text>public static String[] getNullPropertyNames(Object source) {</text>
       </register>
       <register name="1" type="4">
-        <text>true</text>
+        <text>getNullPropertyNames</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">c3ByaW5nLmxpcXVpYmFzZS5lbmFibGVkPWZhbHNlCg==</text>
+      <register name="2" type="4">
+        <text>true</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">c3ByaW5nLmxpcXVpYmFzZS5lbmFibGVkPWZhbHNlCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">I1NwcmluZyBTZWN1cml0eQo=</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">I1NwcmluZyBTZWN1cml0eQo=</text>
+      </register>
       <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">bGlxdWliYXNlLmVuYWJsZWQ9ZmFsc2UK</text>
       </register>
-      <register name="7" type="4">
+      <register name="x" type="4">
+        <text>getNullPropertyNames</text>
+      </register>
+      <register name="8" type="4">
         <text encoding="base64">ICAgICAgLmZpbHRlcihlbnRyYW50RGF0dW1HTURUTyAtPiBlbnRyYW50RGF0dW1HTURUTy5nZXRTYWlsaW5nSWQoKSA9PSB0aGlzLnNhaWxpbmdJZCkKICAgICAgICAgICAgLmZpbHRlcihlbnRyYW50RGF0dW1HTURU</text>
       </register>
-      <register name="x" type="4">
-        <text>true</text>
-      </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgcGFyYW1ldGVycy5wdXQoIlBBU1NFTiIsICJnbV9zdWJyZXBvcnQuamFzcGVyIik7Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text>SUBREPORT_FILENAME</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -352,12 +364,12 @@
         <entry>action GotoImplementation</entry>
         <entry>action FindUsages</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action NextTab</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Find</entry>
         <entry>action GotoFile</entry>
         <entry>action CloseContent</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
