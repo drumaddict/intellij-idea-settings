@@ -94,12 +94,12 @@
         <mark key="^" line="83" column="1" />
         <mark key="." line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/DatabaseUtils.java" timestamp="1573466305413">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/DatabaseUtils.java" timestamp="1573467632347">
         <mark key="'" line="23" column="98" />
-        <mark key="[" line="19" column="67" />
-        <mark key="]" line="19" column="69" />
-        <mark key="^" line="19" column="69" />
-        <mark key="." line="19" column="69" />
+        <mark key="[" line="19" column="73" />
+        <mark key="]" line="19" column="70" />
+        <mark key="^" line="19" column="70" />
+        <mark key="." line="19" column="70" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/db/CompanyQRCodeMapping.java" timestamp="1572855525480">
         <mark key="'" line="24" column="0" />
@@ -115,12 +115,12 @@
         <mark key="^" line="157" column="3" />
         <mark key="." line="157" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" timestamp="1573466524326">
-        <mark key="'" line="54" column="164" />
-        <mark key="[" line="54" column="147" />
-        <mark key="]" line="54" column="148" />
-        <mark key="^" line="54" column="148" />
-        <mark key="." line="54" column="148" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" timestamp="1573467476139">
+        <mark key="'" line="54" column="192" />
+        <mark key="[" line="54" column="194" />
+        <mark key="]" line="54" column="192" />
+        <mark key="^" line="54" column="192" />
+        <mark key="." line="54" column="192" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/pub/VesselPublicDTO.java" timestamp="1571142250552">
         <mark key="'" line="4" column="20" />
@@ -946,7 +946,7 @@
       <jump line="85" column="106" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
       <jump line="87" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
       <jump line="88" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
-      <jump line="54" column="164" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" />
+      <jump line="54" column="192" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -956,7 +956,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>9999</text>
+        <text>toLocalDate</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -968,34 +968,34 @@
         <text>01-01-9999 00:00</text>
       </register>
       <register name="1" type="4">
-        <text>9999</text>
+        <text>toLocalDate</text>
       </register>
       <register name="2" type="4">
-        <text>01</text>
-      </register>
-      <register name="3" type="4">
         <text>9999</text>
       </register>
+      <register name="3" type="4">
+        <text>01</text>
+      </register>
       <register name="4" type="4">
-        <text>-999999999-01-01T00:00</text>
+        <text>9999</text>
       </register>
       <register name="5" type="4">
-        <text>1971-11-21T00:00</text>
+        <text>-999999999-01-01T00:00</text>
       </register>
       <register name="6" type="4">
         <text>1971-11-21T00:00</text>
       </register>
       <register name="7" type="4">
-        <text>delays.getClass()</text>
+        <text>1971-11-21T00:00</text>
       </register>
       <register name="x" type="4">
-        <text>9999</text>
+        <text>toLocalDate</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">bGF5cy5nZXRDbGFzcygpKSk7Cg==</text>
+        <text>delays.getClass()</text>
       </register>
       <register name="9" type="4">
-        <text>delays.getClass()</text>
+        <text encoding="base64">bGF5cy5nZXRDbGFzcygpKSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
