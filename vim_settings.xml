@@ -34,6 +34,13 @@
         <mark key="." line="8" column="13" />
         <mark key="^" line="8" column="13" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/assembler/SailingAdminAssembler.java" timestamp="1573480974724">
+        <mark key="'" line="27" column="40" />
+        <mark key="[" line="27" column="46" />
+        <mark key="]" line="27" column="44" />
+        <mark key="^" line="27" column="44" />
+        <mark key="." line="27" column="61" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/VesselDao.java" timestamp="1573032327939">
         <mark key="[" line="46" column="32" />
         <mark key="]" line="46" column="36" />
@@ -164,7 +171,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="77" column="11" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/GeneralManifestReportBuilder.java" />
       <jump line="82" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/GeneralManifestReportBuilder.java" />
       <jump line="88" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/GeneralManifestReportBuilder.java" />
       <jump line="87" column="9" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/GeneralManifestReportBuilder.java" />
@@ -264,6 +270,7 @@
       <jump line="82" column="1" filename="$USER_HOME$/projects/pcs/README.md" />
       <jump line="83" column="67" filename="$USER_HOME$/projects/pcs/README.md" />
       <jump line="76" column="2" filename="$USER_HOME$/projects/pcs/README.md" />
+      <jump line="25" column="40" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/assembler/SailingAdminAssembler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -315,7 +322,7 @@
         <text>SUBREPORT_FILENAME</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -336,7 +343,6 @@
         <entry>action GotoSymbol</entry>
         <entry>action QuickJavaDoc</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUHJldmlvdXNUYWI=</entry>
-        <entry>action CloseContent</entry>
         <entry>action AceAction</entry>
         <entry>action RenameElement</entry>
         <entry>action OptimizeImports</entry>
@@ -350,8 +356,9 @@
         <entry>action NextTab</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Find</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action CloseContent</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
