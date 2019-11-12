@@ -116,7 +116,7 @@
         <mark key="^" line="62" column="90" />
         <mark key="." line="62" column="90" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" timestamp="1573561005752">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" timestamp="1573564553979">
         <mark key="'" line="94" column="3" />
         <mark key="[" line="191" column="30" />
         <mark key="]" line="191" column="35" />
@@ -163,6 +163,12 @@
         <mark key="^" line="19" column="50" />
         <mark key="." line="19" column="50" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_main.jrxml" timestamp="1573564532827">
+        <mark key="[" line="194" column="67" />
+        <mark key="]" line="194" column="84" />
+        <mark key="^" line="194" column="84" />
+        <mark key="." line="194" column="84" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/FileUtils.java" timestamp="1573483778045">
         <mark key="'" line="5" column="61" />
         <mark key="[" line="5" column="15" />
@@ -176,13 +182,13 @@
         <mark key="^" line="22" column="27" />
         <mark key="." line="22" column="27" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" timestamp="1573561485133">
-        <mark key="'" line="284" column="2" />
-        <mark key="[" line="284" column="0" />
-        <mark key="m" line="52" column="58" />
-        <mark key="]" line="284" column="0" />
-        <mark key="." line="284" column="0" />
-        <mark key="^" line="277" column="33" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" timestamp="1573564802734">
+        <mark key="'" line="265" column="56" />
+        <mark key="[" line="265" column="0" />
+        <mark key="m" line="53" column="58" />
+        <mark key="]" line="265" column="3" />
+        <mark key="." line="265" column="3" />
+        <mark key="^" line="265" column="3" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/reports/SailingTrafficDTO.java" timestamp="1573561096302">
         <mark key="'" line="128" column="20" />
@@ -191,7 +197,7 @@
         <mark key="^" line="50" column="24" />
         <mark key="." line="50" column="24" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/TrafficReportBuilder.java" timestamp="1573558387558">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/TrafficReportBuilder.java" timestamp="1573563584743">
         <mark key="'" line="49" column="2" />
         <mark key="[" line="44" column="4" />
         <mark key="]" line="50" column="3" />
@@ -206,9 +212,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="24" column="9" filename="$USER_HOME$/projects/pcs/rhodes/specs/reports/traffic_specs.sql" />
-      <jump line="152" column="118" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" />
-      <jump line="163" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" />
       <jump line="11" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/reports/SailingGMDTO.java" />
       <jump line="5" column="24" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/reports/SailingTrafficDTO.java" />
       <jump line="8" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/reports/SailingTrafficDTO.java" />
@@ -306,6 +309,9 @@
       <jump line="52" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/TrafficReportBuilder.java" />
       <jump line="49" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/TrafficReportBuilder.java" />
       <jump line="128" column="20" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/reports/SailingTrafficDTO.java" />
+      <jump line="255" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" />
+      <jump line="140" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" />
+      <jump line="265" column="56" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -315,7 +321,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>String</text>
+        <text>HAL_JSON_VALUE</text>
       </register>
       <register name="-" type="4">
         <text>stream().map(SailingGMDTO::getSailingId).collect(Collectors.toList());</text>
@@ -324,41 +330,41 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cGFja2FnZSBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMucmVwb3J0cy5idWlsZGVyczsKCmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuZHRvLnJlcG9ydHMuU2FpbGluZ0dNRFRPOwppbXBvcnQgZ3IubGlrbm9zc2Nycy5wY3MucmhvZGVzLnJlcG9ydHMuUmVwb3J0QnVpbGRlcjsKaW1wb3J0IGdyLmxpa25vc3NjcnMucGNzLnJob2Rlcy5yZXBvcnRzLmRhdGEuUmVwb3J0RGF0YTsKaW1wb3J0IGdyLmxpa25vc3NjcnMucGNzLnJob2Rlcy5yZXBvcnRzLnR5cGVzLklSZXBvcnRCdWlsZGVyOwppbXBvcnQgZ3IubGlrbm9zc2Nycy5wY3MucmhvZGVzLnJlcG9ydHMudHlwZXMuSVJlcG9ydERhdGE7CmltcG9ydCBuZXQuc2YuamFzcGVycmVwb3J0cy5lbmdpbmUuZGF0YS5KUkJlYW5Db2xsZWN0aW9uRGF0YVNvdXJjZTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5hbm5vdGF0aW9uLkF1dG93aXJlZDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuY29yZS5pby5SZXNvdXJjZUxvYWRlcjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuc3RlcmVvdHlwZS5Db21wb25lbnQ7CgppbXBvcnQgamF2YS51dGlsLkxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuTWFwOwppbXBvcnQgamF2YS51dGlsLk9iamVjdHM7CgpAQ29tcG9uZW50KCJnZW5lcmFsTWFuaWZlc3QiKQpwdWJsaWMgY2xhc3MgR2VuZXJhbE1hbmlmZXN0UmVwb3J0QnVpbGRlciBleHRlbmRzIFJlcG9ydEJ1aWxkZXIgaW1wbGVtZW50cyBJUmVwb3J0QnVpbGRlciB7CgovLyAgICBwcml2YXRlIExpc3Q8TG9uZz4gc2FpbGluZ0lkczsKLy8gICAgcHJpdmF0ZSBTdHJpbmcgc2FpbGluZ0lkc0FzQ29tbWFEZWxpbWl0ZWRTdHJpbmc7Ci8vICAgIHByaXZhdGUgTG9uZyBsYW5ndWFnZUlkOwogICAgcHJpdmF0ZSBMaXN0PFNhaWxpbmdHTURUTz4gc2FpbGluZ0dNRFRPUzsKCiAgICBAQXV0b3dpcmVkCiAgICBwdWJsaWMgR2VuZXJhbE1hbmlmZXN0UmVwb3J0QnVpbGRlciggUmVzb3VyY2VMb2FkZXIgcmVzb3VyY2VMb2FkZXIgKSB7CiAgICAgICAgc3VwZXIocmVzb3VyY2VMb2FkZXIpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIElSZXBvcnREYXRhIGdldFJlcG9ydERhdGEoKSB7CiAgICAgICAgT2JqZWN0cy5yZXF1aXJlTm9uTnVsbChzYWlsaW5nR01EVE9TLCAiTm8gc2FpbGluZ3MgZm9yIHJlcG9ydC4iKTsKICAgICAgICBKUkJlYW5Db2xsZWN0aW9uRGF0YVNvdXJjZSBzYWlsaW5nc0RhdGFTb3VyY2UKICAgICAgICAgICAgICAgID0gbmV3IEpSQmVhbkNvbGxlY3Rpb25EYXRhU291cmNlKHNhaWxpbmdHTURUT1MsIGZhbHNlKTsKICAgICAgICBNYXA8U3RyaW5nLCBPYmplY3Q+IHBhcmFtZXRlcnMgPSBidWlsZFBhcmFtZXRlcnMoKTsKICAgICAgICByZXR1cm4gbmV3IFJlcG9ydERhdGEoc2FpbGluZ3NEYXRhU291cmNlLCBwYXJhbWV0ZXJzKTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBNYXA8U3RyaW5nLCBPYmplY3Q+IGJ1aWxkUGFyYW1ldGVycygpIHsKICAgICAgICBNYXA8U3RyaW5nLCBPYmplY3Q+IHBhcmFtZXRlcnMgPSAgc3VwZXIuYnVpbGRQYXJhbWV0ZXJzKCk7CiAgICAgICAgcGFyYW1ldGVycy5wdXQoIklNQUdFU19ESVIiLCAic3RhdGljL2ltYWdlcy9yZXBvcnRzL2dlbmVyYWxfbWFuaWZlc3QvIik7CiAgICAgICAgcGFyYW1ldGVycy5wdXQoIkxPR09fRklMRU5BTUUiLCAicmhvZGVzX2VuXzU1MC5qcGciKTsKICAgICAgICBwYXJhbWV0ZXJzLnB1dCgiU1VCUkVQT1JUX0ZJTEVOQU1FIiwgImdtX3N1YnJlcG9ydC5qYXNwZXIiKTsKICAgICAgICByZXR1cm4gcGFyYW1ldGVyczsKICAgIH0KCi8vICAgIHByaXZhdGUgTGlzdDxMb25nPiBnZXRTYWlsaW5nSWRzKCkgewovLyAgICAgICAgcmV0dXJuIEFycmF5cy5zdHJlYW0oc2FpbGluZ0lkc0FzQ29tbWFEZWxpbWl0ZWRTdHJpbmcuc3BsaXQoIiwiKSkKLy8gICAgICAgICAgICAgICAgLm1hcChMb25nOjpwYXJzZUxvbmcpLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7Ci8vICAgIH0KLy8KLy8gICAgcHVibGljIHZvaWQgc2V0U2FpbGluZ0lkcyhMaXN0PExvbmc+IHNhaWxpbmdJZHMpIHsKLy8gICAgICAgIHRoaXMuc2FpbGluZ0lkcyA9IHNhaWxpbmdJZHM7Ci8vICAgIH0KLy8KLy8gICAgcHVibGljIHZvaWQgc2V0U2FpbGluZ0lkcyhTdHJpbmcgc2FpbGluZ0lkcykgewovLyAgICAgICAgdGhpcy5zYWlsaW5nSWRzQXNDb21tYURlbGltaXRlZFN0cmluZyA9IHNhaWxpbmdJZHM7Ci8vICAgIH0KLy8KLy8gICAgcHVibGljIExvbmcgZ2V0TGFuZ3VhZ2VJZCgpIHsKLy8gICAgICAgIHJldHVybiBsYW5ndWFnZUlkOwovLyAgICB9Ci8vCi8vICAgIHB1YmxpYyB2b2lkIHNldExhbmd1YWdlSWQoTG9uZyBsYW5ndWFnZUlkKSB7Ci8vICAgICAgICB0aGlzLmxhbmd1YWdlSWQgPSBsYW5ndWFnZUlkOwovLyAgICB9CgogICAgcHVibGljIExpc3Q8U2FpbGluZ0dNRFRPPiBnZXRTYWlsaW5nR01EVE9TKCkgewogICAgICAgIHJldHVybiBzYWlsaW5nR01EVE9TOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldFNhaWxpbmdHTURUT1MoTGlzdDxTYWlsaW5nR01EVE8+IHNhaWxpbmdHTURUT1MpIHsKICAgICAgICB0aGlzLnNhaWxpbmdHTURUT1MgPSBzYWlsaW5nR01EVE9TOwogICAgfQp9</text>
+        <text>response.setContentType(MediaType.APPLICATION_PDF_VALUE);</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="1" type="4">
+        <text>HAL_JSON_VALUE</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">IAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">ICAgdGhpcy5kZXBhcnR1cmUgPSBkZXBhcnR1cmU7CiAgfQ==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>public String getDeparture() {
     return departure;
   }
 
   public void setDeparture(String departure) {</text>
       </register>
-      <register name="6" type="4">
-        <text>String</text>
-      </register>
       <register name="7" type="4">
         <text>String</text>
       </register>
       <register name="x" type="4">
-        <text>String</text>
+        <text>HAL_JSON_VALUE</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">IA==</text>
+        <text>String</text>
       </register>
       <register name="9" type="4">
-        <text>Count</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -391,12 +397,12 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVwbGFjZQ==</entry>
         <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action RenameElement</entry>
+        <entry>action Find</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
