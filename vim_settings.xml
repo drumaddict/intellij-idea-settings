@@ -178,7 +178,7 @@
         <mark key="." line="15" column="0" />
         <mark key="^" line="17" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/specs/tips/show.js" timestamp="1573652134616">
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/tips/show.js" timestamp="1573652898729">
         <mark key="[" line="5" column="0" />
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
@@ -402,7 +402,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -437,9 +437,9 @@
         <entry>action Find</entry>
         <entry>action OptimizeImports</entry>
         <entry>action CloseContent</entry>
-        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
