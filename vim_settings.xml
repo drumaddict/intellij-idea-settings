@@ -413,7 +413,6 @@
       <history-cmd>
         <entry>action AceAction</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action CloseContent</entry>
         <entry>action GotoImplementation</entry>
         <entry>action Replace</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVwbGFjZQ==</entry>
@@ -429,8 +428,9 @@
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
-        <entry>action GotoFile</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action CloseContent</entry>
+        <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
