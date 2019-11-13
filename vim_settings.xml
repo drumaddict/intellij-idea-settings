@@ -77,6 +77,9 @@
         <mark key="^" line="89" column="23" />
         <mark key="." line="89" column="23" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/reports/reports_B.sql" timestamp="1573651351769">
+        <mark key="'" line="243" column="3" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" timestamp="1573635279547">
         <mark key="'" line="28" column="89" />
         <mark key="[" line="18" column="0" />
@@ -175,6 +178,12 @@
         <mark key="." line="15" column="0" />
         <mark key="^" line="17" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/tips/show.js" timestamp="1573652134616">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="5" column="0" />
+        <mark key="^" line="21" column="1" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/assembler/CompanyAssembler.java" timestamp="1573547290806">
         <mark key="[" line="19" column="57" />
         <mark key="]" line="19" column="50" />
@@ -206,14 +215,6 @@
         <mark key="^" line="22" column="27" />
         <mark key="." line="22" column="27" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" timestamp="1573569407846">
-        <mark key="'" line="161" column="54" />
-        <mark key="[" line="143" column="0" />
-        <mark key="m" line="56" column="58" />
-        <mark key="]" line="143" column="0" />
-        <mark key="^" line="165" column="38" />
-        <mark key="." line="143" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/reports/SailingTrafficDTO.java" timestamp="1573561096302">
         <mark key="'" line="128" column="20" />
         <mark key="[" line="50" column="26" />
@@ -234,6 +235,13 @@
         <mark key="^" line="11" column="7" />
         <mark key="." line="11" column="7" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/tips/download_pdf_browser.js" timestamp="1573651953656">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="41" column="14" />
+        <mark key="^" line="13" column="46" />
+        <mark key="." line="13" column="46" />
+      </file>
       <file name="/fragment.java" timestamp="1573644583740">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="52" />
@@ -243,12 +251,6 @@
       <file name="$USER_HOME$/projects/pcs/rhodes/specs/sol/sea_on_line_parser.txt" timestamp="1573639398148" />
     </filemarks>
     <jumps>
-      <jump line="58" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" />
-      <jump line="93" column="13" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" />
-      <jump line="78" column="35" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" />
-      <jump line="85" column="20" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" />
-      <jump line="181" column="31" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
-      <jump line="184" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
       <jump line="209" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
       <jump line="95" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
       <jump line="159" column="24" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
@@ -343,6 +345,12 @@
       <jump line="46" column="23" filename="$APPLICATION_CONFIG_DIR$/scratches/buffer1.txt" />
       <jump line="89" column="93" filename="$USER_HOME$/projects/pcs/README.md" />
       <jump line="81" column="30" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
+      <jump line="39" column="11" filename="$USER_HOME$/projects/pcs/rhodes/specs/reports/reports_B.sql" />
+      <jump line="243" column="3" filename="$USER_HOME$/projects/pcs/rhodes/specs/reports/reports_B.sql" />
+      <jump line="15" column="20" filename="$USER_HOME$/projects/pcs/rhodes/specs/tips/download_pdf_browser.js" />
+      <jump line="3" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/tips/download_pdf_browser.js" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/tips/download_pdf_browser.js" />
+      <jump line="41" column="14" filename="$USER_HOME$/projects/pcs/rhodes/specs/tips/show.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -352,7 +360,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>traffic_main.jasper</text>
+        <text>const</text>
       </register>
       <register name="-" type="4">
         <text>m</text>
@@ -361,7 +369,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>DN20MAI830RDSMD003497535</text>
+        <text encoding="base64">ZnVuY3Rpb24gc2hvd0ZpbGUoYmxvYil7CiAgICAvLyBJdCBpcyBuZWNlc3NhcnkgdG8gY3JlYXRlIGEgbmV3IGJsb2Igb2JqZWN0IHdpdGggbWltZS10eXBlIGV4cGxpY2l0bHkgc2V0CiAgICAvLyBvdGhlcndpc2Ugb25seSBDaHJvbWUgd29ya3MgbGlrZSBpdCBzaG91bGQKICAgIHZhciBuZXdCbG9iID0gbmV3IEJsb2IoW2Jsb2JdLCB7dHlwZTogImFwcGxpY2F0aW9uL3BkZiJ9KQoKICAgIC8vIElFIGRvZXNuJ3QgYWxsb3cgdXNpbmcgYSBibG9iIG9iamVjdCBkaXJlY3RseSBhcyBsaW5rIGhyZWYKICAgIC8vIGluc3RlYWQgaXQgaXMgbmVjZXNzYXJ5IHRvIHVzZSBtc1NhdmVPck9wZW5CbG9iCiAgICBpZiAod2luZG93Lm5hdmlnYXRvciAmJiB3aW5kb3cubmF2aWdhdG9yLm1zU2F2ZU9yT3BlbkJsb2IpIHsKICAgICAgICB3aW5kb3cubmF2aWdhdG9yLm1zU2F2ZU9yT3BlbkJsb2IobmV3QmxvYik7CiAgICAgICAgcmV0dXJuOwogICAgfQoKICAgIC8vQnVpbGQgYSBVUkwgZnJvbSB0aGUgZmlsZQogICAgY29uc3QgZmlsZVVSTCA9IFVSTC5jcmVhdGVPYmplY3RVUkwobmV3QmxvYik7CiAgICAvL09wZW4gdGhlIFVSTCBvbiBuZXcgV2luZG93CiAgICB3aW5kb3cub3BlbihmaWxlVVJMKTsKCgogICAgLy8gRm9yIG90aGVyIGJyb3dzZXJzOgogICAgLy8gQ3JlYXRlIGEgbGluayBwb2ludGluZyB0byB0aGUgT2JqZWN0VVJMIGNvbnRhaW5pbmcgdGhlIGJsb2IuCiAgICAvLyBjb25zdCBkYXRhID0gd2luZG93LlVSTC5jcmVhdGVPYmplY3RVUkwobmV3QmxvYik7CiAgICAvLyB2YXIgbGluayA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2EnKTsKICAgIC8vIGxpbmsuaHJlZiA9IGRhdGE7CiAgICAvLyBsaW5rLmRvd25sb2FkPSJodHRwOi8vbG9jYWxob3N0OjgwODAvYXBpL3B1YmxpYy9yZXBvcnRzL3RyYWZmaWM/bGFuZ3VhZ2VJZD0yJmlkcz0xLDIsMyw0IjsKICAgIC8vIGxpbmsuY2xpY2soKTsKICAgIC8vIHNldFRpbWVvdXQoZnVuY3Rpb24oKXsKICAgIC8vICAgICAvLyBGb3IgRmlyZWZveCBpdCBpcyBuZWNlc3NhcnkgdG8gZGVsYXkgcmV2b2tpbmcgdGhlIE9iamVjdFVSTAogICAgLy8gICAgIHdpbmRvdy5VUkwucmV2b2tlT2JqZWN0VVJMKGRhdGEpOwogICAgLy8gfSwgMTAwKTsKfQoKZmV0Y2goImh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9hcGkvcHVibGljL3JlcG9ydHMvdHJhZmZpYz9sYW5ndWFnZUlkPTImaWRzPTEsMiwzLDQiLCB7CiAgICBtb2RlOiAnY29ycycsCiAgICBoZWFkZXJzOiB7CiAgICAgICAgJ0FjY2Vzcy1Db250cm9sLUFsbG93LU9yaWdpbic6JyonLAogICAgICAgICdPcmlnaW4nOidsb2NhbGhvc3QnLAogICAgICAgICdIb3N0JzogJ3R1dG9yaWFsc3BvaW50LmNvbScsCiAgICAgICAgJ0F1dGhvcml6YXRpb24nIDogJ0JlYXJlciBleUpoYkdjaU9pSklVelV4TWlKOS5leUpoZFdRaU9pSlNhRzlrWlhNZ1VHOXlkQ0JCWjJWdWRITWlMQ0pxZEdraU9pSnJZV0poYzJGcllXeHBjMEJzYVd0dWIzTnpMbU52YlNJc0luTjFZaUk2SW10aFltRnpZV3RoYkdseklpd2laWGh3SWpveE5UY3pPVEUwTnprekxDSnBjM01pT2lKbmNpNXNhV3R1YjNOelkzSnpMbkJqY3k1eWFHOWtaWE1pZlEuODdocmJuR2pCUFN3amNHSW5qR1hCaC1URV9SSUplQzR1OFBTUVVTWXJNODR6azV1R1dpM3RNQTlBWndtVWRXOXZmRGpqMWhGMTlQSlZ6VmV2RDNpSHcnCiAgICB9Cn0pCiAgICAudGhlbihyID0+IHIuYmxvYigpKQoudGhlbihzaG93RmlsZSk=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -369,23 +377,23 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">xff5IOHt5eLh8+XpIOrh8O/p5fIg4evr4ePd8iDw7/Ug5ePp7eHtIPP35fTp6uXyIOzlIPTvIG1lZXRpbmcg8/TnIOrv9ebf7eEg9O8g8PH53wrB7SDq3O3l9OUg6tz06SDc6+vvIOrh6SDk5SDs8O/x5d/05SDt4SD07yDk6eHi3PPl9OUg9P7x4Swg8/7z9OUg9O8g6uXf7OXt7yDq3PDv9Qrj6eH03yDh9fTd8iDv6SDc6+vh493yIPDx3fDl6SDt4SDj6e3v9e0gZXhwb3NlIPP07yBmcm9udAoK0/TvIFNhaWxpbmcg5ffv9e0g7PDl6SD04SDl7t7yIPDl5N/hIPDv9SDh9u/x7/3tIHlhY2h0cwoKICJpbmNvbWluZ1BvcnQiOiB7CiAgICAgICAgImNvZGUiOiAiQUdOIgogICAgfSwKICJpbmNvbWluZ0RlcGFydHVyZSI6ICIyMDE5LTEyLTIwVDExOjAwOjAwIgogImluY29taW5nQXJyaXZhbCI6ICIyMDE5LTEyLTIxVDExOjAwOjAwIgoKIPTvIGluY29taW5nUG9ydCDl3+3h6SDh8O8g0M/VIN329ePlIPTvIHlhY2h0IPDx6e0g9vTc8+XpIPP05yDR/OTvICjB4+Ho7+3e8+kpCiD07yBpbmNvbWluZ0RlcGFydHVyZSDl3+3h6SDQz9TFIN329ePlIOHw7yDq5ekgICjs5SDw8e/v8enz7Pwg9Ocg0fzk7yksCiAg6uHpIGluY29taW5nQXJyaXZhbCDl3+3h6SDQz9TFIN329OHz5SDz9Ocg0fzk7y4gyuHpIPThINzr6+Egc2NoZWR1bGVkQXJyaXZhbCwgc2NoZWR1bGVkRGVwYXJ0dXJlCiAg6fP3/e/17SDq4e3v7enq3C4KICDB7eHq5fbh6+Hp/u3v7fTh8iDz9O8g8OHx4erc9PkganNvbgogINTvIHlhY2h0IPDx6e0g9vTc8+XpIPP05yDR/OTvLAogIO7l6t/t5/PlIOHw7yDh4+Ho7+3e8+kgKGluY29taW5nUG9ydCkg8/Tp8iAgMjAvMTIgIChpbmNvbWluZ0RlcGFydHVyZSksCiAgc3RpdyAyMS8xMiAoaW5jb21pbmdBcnJpdmFsKSDd9vTh8+Ug0fzk7yAsCiAg8/Tp8iAyMy8xMiAoc2NoZWR1bGVkRGVwYXJ0dXJlKSDo4SD2/ePl6SDh8O8g0fzk7wogIPP06fIgMjQvMTIoc2NoZWR1bGVkQXJyaXZhbCkg6OEg9vTc8+XpIPP07+0g8PHv7/Hp8+z8LCBkZXN0aW5hdGlvbkxvY2F0aW9uKMPr/fbhKQoKCiAgewogICAgICAiaW5jb21pbmdEZXBhcnR1cmUiOiAiMjAxOS0xMi0yMFQxMTowMDowMCIsCiAgICAgICJpbmNvbWluZ0Fycml2YWwiOiAiMjAxOS0xMi0yMVQxMTowMDowMCIsCiAgICAgICJzY2hlZHVsZWREZXBhcnR1cmUiOiAiMjAxOS0xMi0yM1QxMTowMDowMCIsCiAgICAgICJzY2hlZHVsZWRBcnJpdmFsIjogIjIwMTktMTItMjRUMTE6MDA6MDAiLAogICAgICAicGFzc2VuZ2VyUHJvdG9jb2wiOiAxMjMxMjMxLAogICAgICAidmVoaWNsZVByb3RvY29sIjogMjMyMTMxMiwKICAgICAgImNyZXdQcm90b2NvbCI6IDMyNDI0LAogICAgICAicmVtYXJrcyI6ICJSZW1hcmtzIiwKICAgICAgImNvbXBhbnlTYWlsaW5nQ29kZSI6ICIxMDAyMjkiLAogICAgICAiYWN0aXZlIjogdHJ1ZSwKICAgICAgImluY29taW5nUG9ydCI6IHsKICAgICAgICAgICJjb2RlIjogIkFHTiIKICAgICAgfSwKICAgICAgIm9yaWdpbkxvY2F0aW9uIjogewogICAgICAgICAgImNvZGUiOiAiUkhPIgogICAgICB9LAogICAgICAiZGVzdGluYXRpb25Mb2NhdGlvbiI6IHsKICAgICAgICAgICJjb2RlIjogIkdMWSIKICAgICAgfSwKICAgICAgInZlc3NlbCI6IHsKICAgICAgICAgICJpZCI6IDYKICAgICAgfSwKICAgICAgImNvbXBhbnkiOiB7CiAgICAgICAgICAiY29kZSI6ICJTVVBFUl9DSExJREkiCiAgICAgIH0sCiAgICAgICJwb3J0RG9ja1Nsb3QiOiB7CiAgICAgICAgICAiY29kZSI6ICJBS0FfMWEiCiAgICAgIH0KICB9CgoKCiAgxfDf8+fyIPP07yBFbnRyYW50RGF0dW0g9fDc8ffl6SDd7eEg7d3vIEJvb2xlYW4g8OXk3+8gb25Cb2FyZCDw7/UKICDo4SDr3eXpIOHtIOH19O/fIPDv9SDw5fHt3O0g4fDvIPTvIEV4Y2VsIPP05yDi3PPnICjz9OftIOHt4ff+8efz5yD07/UgeWFjaHQg4fDvINH85O8pLAogIN704e0g0MHN2SDz9O8geWFjaHQg/PTh7SDd9vTh8+Ug8/TnINH85O8uCgoKICDU3evv8iDz9O8gRW50cmFudERhdGFUeXBlIPXw3PH35ekg7d3vIEJvb2xlYW4gYWxsb3dNdWx0aXBsZUNoZWNrSW4g8O/1IOjhCiAg5fDp9PHd8OXpIPP07/XyIOPp7/Tc5OXyIChzaWMpIO3hIOrc7e/17SBtdWx0aXBsZSBjaGVjayBpbnMg4+nh9N8g5erl3yDw7/UKICDo4SDl3+3h6SDh9fTv3yDk5e0g9fDc8ffl6SDnIN3t7e/p4SD07/UgY2hlY2tvdXQsIOrh6SDw7+vr4fDr3CBjaGVja2lucyDo4SDd9+/17QogIPTn7SDd7e3v6eEg9O/1IHZhbGlkYXRpb24uCgogIMX3+SDl7efs5fH+8+XpIPTvIFBPU1RNQU4uCg==</text>
-      </register>
-      <register name="4" type="2">
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">IC8vIEZvciBvdGhlciBicm93c2VyczoKICAgIC8vIENyZWF0ZSBhIGxpbmsgcG9pbnRpbmcgdG8gdGhlIE9iamVjdFVSTCBjb250YWluaW5nIHRoZSBibG9iLgogICAgLy8gY29uc3QgZGF0YSA9IHdpbmRvdy5VUkwuY3JlYXRlT2JqZWN0VVJMKG5ld0Jsb2IpOwogICAgLy8gdmFyIGxpbmsgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdhJyk7CiAgICAvLyBsaW5rLmhyZWYgPSBkYXRhOwogICAgLy8gbGluay5kb3dubG9hZD0iaHR0cDovL2xvY2FsaG9zdDo4MDgwL2FwaS9wdWJsaWMvcmVwb3J0cy90cmFmZmljP2xhbmd1YWdlSWQ9MiZpZHM9MSwyLDMsNCI7CiAgICAvLyBsaW5rLmNsaWNrKCk7CiAgICAvLyBzZXRUaW1lb3V0KGZ1bmN0aW9uKCl7CiAgICAvLyAgICAgLy8gRm9yIEZpcmVmb3ggaXQgaXMgbmVjZXNzYXJ5IHRvIGRlbGF5IHJldm9raW5nIHRoZSBPYmplY3RVUkwKICAgIC8vICAgICB3aW5kb3cuVVJMLnJldm9rZU9iamVjdFVSTChkYXRhKTsKICAgIC8vIH0sIDEwMCk7</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">PCEtLTxwcm9wZXJ0aWVzPi0tPgogICAgICAgIDwhLS08c3ByaW5nLWJvb3QudmVyc2lvbj4yLjEuNi5SRUxFQVNFPC9zcHJpbmctYm9vdC52ZXJzaW9uPi0tPgogICAgPCEtLTwvcHJvcGVydGllcz4tLT4=</text>
+        <text encoding="base64">Ly8gSUUgZG9lc24ndCBhbGxvdyB1c2luZyBhIGJsb2Igb2JqZWN0IGRpcmVjdGx5IGFzIGxpbmsgaHJlZgogICAgLy8gaW5zdGVhZCBpdCBpcyBuZWNlc3NhcnkgdG8gdXNlIG1zU2F2ZU9yT3BlbkJsb2IKICAgIGlmICh3aW5kb3cubmF2aWdhdG9yICYmIHdpbmRvdy5uYXZpZ2F0b3IubXNTYXZlT3JPcGVuQmxvYikgewogICAgICAgIHdpbmRvdy5uYXZpZ2F0b3IubXNTYXZlT3JPcGVuQmxvYihuZXdCbG9iKTsKICAgICAgICByZXR1cm47CiAgICB9</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="x" type="4">
-        <text>traffic_main.jasper</text>
+        <text>const</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
@@ -421,7 +429,6 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action $SelectAll</entry>
         <entry>action PreviousTab</entry>
-        <entry>action ReformatCode</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action SplitVertically</entry>
         <entry>action NextTab</entry>
@@ -431,6 +438,7 @@
         <entry>action OptimizeImports</entry>
         <entry>action CloseContent</entry>
         <entry>action GotoFile</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
