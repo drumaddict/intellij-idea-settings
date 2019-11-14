@@ -93,6 +93,11 @@
         <mark key="^" line="38" column="46" />
         <mark key="." line="38" column="46" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/build-rel/classes/application-rel.properties" timestamp="1573724772677">
+        <mark key="'" line="9" column="0" />
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="12" column="66" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_subreport.jrxml" timestamp="1573474260592">
         <mark key="[" line="33" column="48" />
         <mark key="]" line="33" column="51" />
@@ -142,6 +147,13 @@
         <mark key="]" line="12" column="24" />
         <mark key="^" line="62" column="90" />
         <mark key="." line="62" column="90" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/build-dev/classes/application-dev.properties" timestamp="1573724833737">
+        <mark key="'" line="18" column="66" />
+        <mark key="[" line="14" column="1" />
+        <mark key="]" line="14" column="5" />
+        <mark key="^" line="14" column="5" />
+        <mark key="." line="14" column="5" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" timestamp="1573571329933">
         <mark key="'" line="94" column="3" />
@@ -195,11 +207,12 @@
         <mark key="^" line="19" column="50" />
         <mark key="." line="19" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1573658518610">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1573724421130">
         <mark key="v" line="116" column="36" />
-        <mark key="[" line="488" column="0" />
-        <mark key="]" line="488" column="0" />
-        <mark key="." line="488" column="0" />
+        <mark key="[" line="371" column="57" />
+        <mark key="]" line="372" column="3" />
+        <mark key="^" line="372" column="3" />
+        <mark key="." line="372" column="3" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_main.jrxml" timestamp="1573564532827">
         <mark key="[" line="194" column="67" />
@@ -263,23 +276,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="236" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" />
-      <jump line="153" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
-      <jump line="169" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
-      <jump line="66" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/types/IGeneralManifestService.java" />
-      <jump line="237" column="28" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" />
-      <jump line="245" column="28" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" />
-      <jump line="121" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
-      <jump line="124" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" />
-      <jump line="284" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" />
-      <jump line="122" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
-      <jump line="185" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
-      <jump line="161" column="11" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
-      <jump line="88" column="21" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" />
-      <jump line="155" column="48" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
-      <jump line="154" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
-      <jump line="76" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/types/IGeneralManifestService.java" />
-      <jump line="1" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/GeneralManifestReportBuilder.java" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/GeneralManifestReportBuilder.java" />
       <jump line="75" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/TrafficReportBuilder.java" />
       <jump line="74" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/TrafficReportBuilder.java" />
@@ -363,6 +359,23 @@
       <jump line="486" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="487" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="488" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="439" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="442" column="103" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="429" column="99" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="444" column="14" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="431" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="428" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="441" column="24" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="432" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="433" column="85" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="440" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="448" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="369" column="43" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="370" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="372" column="32" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="373" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="9" column="0" filename="$USER_HOME$/projects/pcs/rhodes/build-rel/classes/application-rel.properties" />
+      <jump line="18" column="66" filename="$USER_HOME$/projects/pcs/rhodes/build-dev/classes/application-dev.properties" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -372,49 +385,52 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>getCheckedDocumentType</text>
+        <text>TEST</text>
       </register>
       <register name="-" type="4">
-        <text>m</text>
+        <text>logger.info(&quot;CAN OPEN GATE&quot;);</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKHJlc3VsdC5nZXRDaGVja2VkRG9jdW1lbnRUeXBlKCkpOwo=</text>
+      <register name="0" type="4">
+        <text>spring.datasource.url= jdbc:oracle:thin:@172.29.24.21:1521:xe
+spring.datasource.username=portcontrol
+spring.datasource.password=likno$$passw0rd
+spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="1" type="4">
+        <text>TEST</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>iknoss</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKHJlc3VsdC4pOwo=</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKCJDQU4gT1BFTiBHQVRFIik7Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>getCheckedDocumentType</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKCJDQU4gT1BFTiBHQVRFIik7Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>getRemarks</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="4">
-        <text>getActionType</text>
+        <text>true</text>
       </register>
       <register name="7" type="4">
-        <text>getId</text>
+        <text>alse</text>
       </register>
       <register name="x" type="4">
-        <text>getCheckedDocumentType</text>
+        <text>TEST</text>
       </register>
-      <register name="8" type="4">
-        <text>result</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgcmV0dXJuICghZW50cmFudERhdHVtLmdldEVudHJhbnREYXRhVHlwZSgpLmdldENvZGUoKS5jb250YWlucygiVkVIIikpOwo=</text>
       </register>
-      <register name="9" type="4">
-        <text>Object</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -435,22 +451,23 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gUmVwbGFjZQ==</entry>
         <entry>action RenameElement</entry>
         <entry>action HideAllWindows</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action $SelectAll</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action SplitVertically</entry>
         <entry>action OptimizeImports</entry>
         <entry>action CloseContent</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
-        <entry>action FindUsages</entry>
         <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action SurroundWith</entry>
+        <entry>action Find</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
+        <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
