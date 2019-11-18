@@ -47,7 +47,7 @@
         <mark key="^" line="14" column="5" />
         <mark key="." line="14" column="5" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1574067903524">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" timestamp="1574069913238">
         <mark key="'" line="339" column="0" />
         <mark key="[" line="34" column="54" />
         <mark key="]" line="34" column="53" />
@@ -247,6 +247,12 @@
         <mark key="]" line="37" column="9" />
         <mark key="^" line="37" column="9" />
         <mark key="." line="37" column="9" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/AmpPdf.java" timestamp="1574069960149">
+        <mark key="[" line="33" column="54" />
+        <mark key="]" line="33" column="53" />
+        <mark key="^" line="33" column="53" />
+        <mark key="." line="33" column="53" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/build-dev/classes/application-dev.properties" timestamp="1573724833737">
         <mark key="'" line="18" column="66" />
@@ -502,7 +508,7 @@
         <text>result</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoDeclaration</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -536,9 +542,9 @@
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
