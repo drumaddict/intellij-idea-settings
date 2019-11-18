@@ -281,13 +281,13 @@
         <mark key="." line="5" column="0" />
         <mark key="^" line="21" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1573832925642">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1574071954133">
         <mark key="v" line="106" column="36" />
-        <mark key="'" line="477" column="101" />
-        <mark key="[" line="206" column="52" />
-        <mark key="]" line="206" column="53" />
-        <mark key="^" line="206" column="53" />
-        <mark key="." line="206" column="53" />
+        <mark key="'" line="364" column="109" />
+        <mark key="[" line="366" column="76" />
+        <mark key="]" line="366" column="78" />
+        <mark key="^" line="366" column="78" />
+        <mark key="." line="366" column="78" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_main.jrxml" timestamp="1573564532827">
         <mark key="[" line="194" column="67" />
@@ -353,7 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="75" column="103" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="444" column="73" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="512" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="418" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
@@ -440,7 +439,6 @@
       <jump line="348" column="103" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="133" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="225" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
-      <jump line="228" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="224" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="232" column="68" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
       <jump line="252" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
@@ -453,6 +451,8 @@
       <jump line="157" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/logging/HttpLogger.java" />
       <jump line="339" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/ConfirmationPdf.java" />
       <jump line="134" column="17" filename="$USER_HOME$/projects/port-checkin-control/src/tmsaconfpdf/BoardingPdf.java" />
+      <jump line="228" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="364" column="109" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -462,7 +462,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>result</text>
+        <text>entrantDataCard</text>
       </register>
       <register name="-" type="4">
         <text>GATE: OFF (entrantTypeIsAllowedThroughGate: false)</text>
@@ -471,41 +471,39 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>//ONLY_VEHICLE_THROUGH_GATE:
-    // passenger: CANNOT CheckIn (validationResult: false), GATE: OFF (entrantTypeIsAllowedThroughGate: false)
-    // vehicle: Can CheckIn (validationResult: true), GATE: ON (entrantTypeIsAllowedThroughGate: true)</text>
+        <text encoding="base64">T3B0aW9uYWw8RW50cmFudERhdGFDaGVjaz4gbGFzdFN1Y2Nlc3NmdWxDaGVjayA9IGVudHJhbnREYXRhQ2hlY2tTZXJ2aWNlLmdldERhbygpLgogICAgICAgICAgICBmaW5kRmlyc3RCeUVudHJhbnREYXRhQ2FyZEFuZEFjdGlvblR5cGVJbk9yZGVyQnlDcmVhdGVkRGVzYyhlbnRyYW50RGF0YUNhcmQsIEFycmF5cy5hc0xpc3QoIkkiLCAiTyIpKTsKCiAgICBpZiAobGFzdFN1Y2Nlc3NmdWxDaGVjay5pc1ByZXNlbnQoKSkKICAgICAgbG9nZ2VyLmluZm8oIkxBU1QgU1VDQ0VTU0ZVTCBBQ1RJT04gRlJPTSBUSUNLRVRDSEVDSyA6IHt9ICIsIGxhc3RTdWNjZXNzZnVsQ2hlY2suZ2V0KCkuZ2V0QWN0aW9uVHlwZSgpKTs=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="1" type="4">
+        <text>entrantDataCard</text>
       </register>
       <register name="2" type="4">
+        <text>entrantDataCard</text>
+      </register>
+      <register name="3" type="4">
+        <text>entrantDataCard</text>
+      </register>
+      <register name="4" type="4">
+        <text>entrantDataCard</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="6" type="4">
         <text>public boolean isFailed() {
       return name().contains(&quot;F&quot;);
     }</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vVE9ETyByZW1vdmUgd2hlbiBkb25lCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>result</text>
+        <text>entrantDataCard</text>
       </register>
-      <register name="8" type="4">
-        <text>result</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>result</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIC8vVE9ETyByZW1vdmUgd2hlbiBkb25lCg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -538,12 +536,12 @@
         <entry>action ReformatCode</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action Find</entry>
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action GotoFile</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
