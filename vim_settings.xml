@@ -120,7 +120,7 @@
         <mark key="." line="164" column="78" />
         <mark key="^" line="164" column="78" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1574150884673">
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1574165440787">
         <mark key="'" line="76" column="2" />
         <mark key="[" line="76" column="2" />
         <mark key="]" line="76" column="40" />
@@ -156,6 +156,12 @@
         <mark key="^" line="107" column="12" />
         <mark key="." line="107" column="12" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/assembler/AgencyAssembler.java" timestamp="1574155866389">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="17" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertRecepientDTO.java" timestamp="1574085099032">
         <mark key="'" line="74" column="0" />
         <mark key="[" line="65" column="52" />
@@ -178,10 +184,11 @@
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/CheckRBO.java" timestamp="1574156170168">
         <mark key="'" line="52" column="38" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertRecepientTypeDTO.java" timestamp="1574162449985">
-        <mark key="'" line="71" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="74" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertRecepientTypeDTO.java" timestamp="1574165801753">
+        <mark key="'" line="70" column="0" />
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/AlertRecepientRBO.java" timestamp="1574086188506">
         <mark key="'" line="72" column="0" />
@@ -361,37 +368,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>setAssociationsFromRequestBody(alertConfiguration, alertConfigurationRBO);</text>
+        <text>mvn clean package spring-boot:repackage</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5TZXQ7Cg==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>setCompanies</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>role</text>
       </register>
-      <register name="4" type="4">
-        <text>ompanyIds</text>
-      </register>
       <register name="5" type="4">
-        <text>c</text>
+        <text>ompanyIds</text>
       </register>
       <register name="6" type="4">
-        <text>companies</text>
+        <text>c</text>
       </register>
       <register name="7" type="4">
-        <text>ompanyIds</text>
+        <text>companies</text>
       </register>
       <register name="x" type="4">
         <text>setCompanies</text>
       </register>
       <register name="8" type="4">
-        <text>c</text>
+        <text>ompanyIds</text>
       </register>
       <register name="9" type="4">
-        <text>getCompanyCoreDao</text>
+        <text>c</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -427,9 +434,9 @@
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action Find</entry>
-        <entry>action GotoFile</entry>
         <entry>action ReformatCode</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
