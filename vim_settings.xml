@@ -69,7 +69,7 @@
         <mark key="[" line="88" column="1" />
         <mark key="]" line="92" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-rel.properties" timestamp="1574150755872">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-rel.properties" timestamp="1574150845004">
         <mark key="[" line="5" column="37" />
         <mark key="]" line="5" column="37" />
         <mark key="^" line="5" column="37" />
@@ -147,6 +147,12 @@
         <mark key="." line="33" column="51" />
         <mark key="^" line="33" column="51" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" timestamp="1574151847774">
+        <mark key="[" line="164" column="79" />
+        <mark key="]" line="164" column="78" />
+        <mark key="." line="164" column="78" />
+        <mark key="^" line="164" column="78" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDatumRepository.java" timestamp="1573038403694">
         <mark key="[" line="22" column="43" />
         <mark key="]" line="22" column="33" />
@@ -158,7 +164,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="85" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1574150597614">
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1574150884673">
         <mark key="'" line="76" column="2" />
         <mark key="[" line="76" column="2" />
         <mark key="]" line="76" column="40" />
@@ -271,6 +277,7 @@
         <mark key="[" line="77" column="2" />
         <mark key="]" line="93" column="2" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/reports/reports_B.sql" timestamp="1574151079870" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/AlertConfigurationRepository.java" timestamp="1574089494563">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -491,7 +498,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>permissions</text>
+        <text>SailingGMDTO</text>
       </register>
       <register name="-" type="4">
         <text>A</text>
@@ -504,38 +511,38 @@
       file: migrations/000018_schema_v1_0.xml
       relativeToChangelogFile: true</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+      <register name="1" type="4">
+        <text>SailingGMDTO</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">cHVibGljIExpc3Q8QWxlcnRDb25maWd1cmF0aW9uPiBnZXRBbGVydENvbmZpZ3VyYXRpb25zKCkgewogICAgcmV0dXJuIGFsZXJ0Q29uZmlndXJhdGlvbnM7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRBbGVydENvbmZpZ3VyYXRpb25zKExpc3Q8QWxlcnRDb25maWd1cmF0aW9uPiBhbGVydENvbmZpZ3VyYXRpb25zKSB7CiAgICB0aGlzLmFsZXJ0Q29uZmlndXJhdGlvbnMgPSBhbGVydENvbmZpZ3VyYXRpb25zOwogIH0=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">cHVibGljIExpc3Q8QWxlcnRDb25maWd1cmF0aW9uPiBnZXRBbGVydENvbmZpZ3VyYXRpb25zKCkgewogICAgcmV0dXJuIGFsZXJ0Q29uZmlndXJhdGlvbnM7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRBbGVydENvbmZpZ3VyYXRpb25zKExpc3Q8QWxlcnRDb25maWd1cmF0aW9uPiBhbGVydENvbmZpZ3VyYXRpb25zKSB7CiAgICB0aGlzLmFsZXJ0Q29uZmlndXJhdGlvbnMgPSBhbGVydENvbmZpZ3VyYXRpb25zOwogIH0=</text>
+      </register>
+      <register name="4" type="4">
         <text encoding="base64">cHVibGljIFNldDxBbGVydENvbmZpZ3VyYXRpb24+IGdldEFsZXJ0Q29uZmlndXJhdGlvbnMoKSB7CiAgICByZXR1cm4gYWxlcnRDb25maWd1cmF0aW9uczsKICB9CgogIHB1YmxpYyB2b2lkIHNldEFsZXJ0Q29uZmlndXJhdGlvbnMoU2V0PEFsZXJ0Q29uZmlndXJhdGlvbj4gYWxlcnRDb25maWd1cmF0aW9ucykgewogICAgdGhpcy5hbGVydENvbmZpZ3VyYXRpb25zID0gYWxlcnRDb25maWd1cmF0aW9uczsKICB9</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="5" type="4">
-        <text>permissions</text>
-      </register>
       <register name="6" type="4">
-        <text>setPermissions</text>
+        <text>permissions</text>
       </register>
       <register name="7" type="4">
-        <text>role</text>
+        <text>setPermissions</text>
       </register>
       <register name="x" type="4">
-        <text>permissions</text>
+        <text>SailingGMDTO</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">Zm9yIChQZXJtaXNzaW9uIHBlcm1pc3Npb24gOiBwZXJtaXNzaW9ucykgewogICAgICAgIFBlcm1pc3Npb25SQk8gcGVybWlzc2lvblJCID0KICAgICAgICAgICAgICAgIHJvbGVSQi5nZXRQZXJtaXNzaW9ucygpLnN0cmVhbSgpLgogICAgICAgICAgICAgICAgICAgICAgICBmaWx0ZXIocCAtPiBwLmdldFBlcm1pc3Npb25Db2RlKCkuZXF1YWxzKHBlcm1pc3Npb24uZ2V0UGVybWlzc2lvbkNvZGUoKSkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5maW5kQW55KCkub3JFbHNlVGhyb3coKCkgLT4gbmV3IEVudGl0eU5vdEZvdW5kUENTRXhjZXB0aW9uKFBlcm1pc3Npb24uY2xhc3MpKTsKICAgICAgICBwZXJtaXNzaW9uLnNldEFjdGlvblZhbHVlcyhwZXJtaXNzaW9uUkIuZ2V0QWN0aW9uVmFsdWVzKCkpOwogICAgICB9</text>
+        <text>role</text>
       </register>
       <register name="9" type="4">
-        <text>permissionCodes</text>
+        <text encoding="base64">Zm9yIChQZXJtaXNzaW9uIHBlcm1pc3Npb24gOiBwZXJtaXNzaW9ucykgewogICAgICAgIFBlcm1pc3Npb25SQk8gcGVybWlzc2lvblJCID0KICAgICAgICAgICAgICAgIHJvbGVSQi5nZXRQZXJtaXNzaW9ucygpLnN0cmVhbSgpLgogICAgICAgICAgICAgICAgICAgICAgICBmaWx0ZXIocCAtPiBwLmdldFBlcm1pc3Npb25Db2RlKCkuZXF1YWxzKHBlcm1pc3Npb24uZ2V0UGVybWlzc2lvbkNvZGUoKSkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5maW5kQW55KCkub3JFbHNlVGhyb3coKCkgLT4gbmV3IEVudGl0eU5vdEZvdW5kUENTRXhjZXB0aW9uKFBlcm1pc3Npb24uY2xhc3MpKTsKICAgICAgICBwZXJtaXNzaW9uLnNldEFjdGlvblZhbHVlcyhwZXJtaXNzaW9uUkIuZ2V0QWN0aW9uVmFsdWVzKCkpOwogICAgICB9</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action MoveEditorToOppositeTabGroup</text>
       </register>
     </registers>
     <search>
@@ -561,17 +568,17 @@
         <entry>action SplitVertically</entry>
         <entry>action GotoImplementation</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action CloseContent</entry>
         <entry>action RenameElement</entry>
-        <entry>action NextTab</entry>
         <entry>action Replace</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
       </history-cmd>
       <history-expr />
       <history-input />
