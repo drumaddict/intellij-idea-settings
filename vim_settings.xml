@@ -69,6 +69,12 @@
         <mark key="[" line="88" column="1" />
         <mark key="]" line="92" column="25" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/liquibase-rel.properties" timestamp="1574150755872">
+        <mark key="[" line="5" column="37" />
+        <mark key="]" line="5" column="37" />
+        <mark key="^" line="5" column="37" />
+        <mark key="." line="5" column="37" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" timestamp="1574077983894">
         <mark key="'" line="64" column="0" />
         <mark key="[" line="64" column="0" />
@@ -115,6 +121,13 @@
         <mark key="^" line="38" column="46" />
         <mark key="." line="38" column="46" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" timestamp="1574150716722">
+        <mark key="'" line="102" column="34" />
+        <mark key="[" line="101" column="29" />
+        <mark key="]" line="101" column="28" />
+        <mark key="^" line="101" column="28" />
+        <mark key="." line="101" column="28" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/AlertRecepientTypeRepository.java" timestamp="1574089498405">
         <mark key="'" line="6" column="0" />
         <mark key="[" line="0" column="0" />
@@ -145,7 +158,7 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="85" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1574092560414">
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1574150597614">
         <mark key="'" line="76" column="2" />
         <mark key="[" line="76" column="2" />
         <mark key="]" line="76" column="40" />
@@ -199,14 +212,6 @@
         <mark key="]" line="69" column="3" />
         <mark key="." line="63" column="2" />
         <mark key="^" line="28" column="13" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AlertConfigurationController.java" timestamp="1574088711676">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="m" line="51" column="70" />
-        <mark key="]" line="96" column="0" />
-        <mark key="^" line="92" column="28" />
-        <mark key="." line="92" column="28" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IAgencyService.java" timestamp="1574087595131">
         <mark key="'" line="0" column="0" />
@@ -377,11 +382,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="179" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AlertConfigurationController.java" />
-      <jump line="13" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertConfiguration.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertConfiguration.java" />
-      <jump line="133" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertConfigurationDTO.java" />
-      <jump line="132" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertConfigurationDTO.java" />
       <jump line="14" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertConfigurationDTO.java" />
       <jump line="130" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertConfiguration.java" />
       <jump line="33" column="22" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertConfigurationDTO.java" />
@@ -477,6 +477,11 @@
       <jump line="71" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertRecepientType.java" />
       <jump line="62" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertRecepientTypeService.java" />
       <jump line="69" column="77" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertRecepientTypeService.java" />
+      <jump line="91" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
+      <jump line="94" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
+      <jump line="99" column="34" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
+      <jump line="97" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
+      <jump line="102" column="34" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -495,40 +500,42 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>mvn clean package spring-boot:repackage</text>
+        <text>- include:
+      file: migrations/000018_schema_v1_0.xml
+      relativeToChangelogFile: true</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">cHVibGljIExpc3Q8QWxlcnRDb25maWd1cmF0aW9uPiBnZXRBbGVydENvbmZpZ3VyYXRpb25zKCkgewogICAgcmV0dXJuIGFsZXJ0Q29uZmlndXJhdGlvbnM7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRBbGVydENvbmZpZ3VyYXRpb25zKExpc3Q8QWxlcnRDb25maWd1cmF0aW9uPiBhbGVydENvbmZpZ3VyYXRpb25zKSB7CiAgICB0aGlzLmFsZXJ0Q29uZmlndXJhdGlvbnMgPSBhbGVydENvbmZpZ3VyYXRpb25zOwogIH0=</text>
-      </register>
-      <register name="2" type="4">
-        <text encoding="base64">cHVibGljIFNldDxBbGVydENvbmZpZ3VyYXRpb24+IGdldEFsZXJ0Q29uZmlndXJhdGlvbnMoKSB7CiAgICByZXR1cm4gYWxlcnRDb25maWd1cmF0aW9uczsKICB9CgogIHB1YmxpYyB2b2lkIHNldEFsZXJ0Q29uZmlndXJhdGlvbnMoU2V0PEFsZXJ0Q29uZmlndXJhdGlvbj4gYWxlcnRDb25maWd1cmF0aW9ucykgewogICAgdGhpcy5hbGVydENvbmZpZ3VyYXRpb25zID0gYWxlcnRDb25maWd1cmF0aW9uczsKICB9</text>
-      </register>
-      <register name="3" type="2">
+      <register name="1" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
-        <text>permissions</text>
+      <register name="2" type="4">
+        <text encoding="base64">cHVibGljIExpc3Q8QWxlcnRDb25maWd1cmF0aW9uPiBnZXRBbGVydENvbmZpZ3VyYXRpb25zKCkgewogICAgcmV0dXJuIGFsZXJ0Q29uZmlndXJhdGlvbnM7CiAgfQoKICBwdWJsaWMgdm9pZCBzZXRBbGVydENvbmZpZ3VyYXRpb25zKExpc3Q8QWxlcnRDb25maWd1cmF0aW9uPiBhbGVydENvbmZpZ3VyYXRpb25zKSB7CiAgICB0aGlzLmFsZXJ0Q29uZmlndXJhdGlvbnMgPSBhbGVydENvbmZpZ3VyYXRpb25zOwogIH0=</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">cHVibGljIFNldDxBbGVydENvbmZpZ3VyYXRpb24+IGdldEFsZXJ0Q29uZmlndXJhdGlvbnMoKSB7CiAgICByZXR1cm4gYWxlcnRDb25maWd1cmF0aW9uczsKICB9CgogIHB1YmxpYyB2b2lkIHNldEFsZXJ0Q29uZmlndXJhdGlvbnMoU2V0PEFsZXJ0Q29uZmlndXJhdGlvbj4gYWxlcnRDb25maWd1cmF0aW9ucykgewogICAgdGhpcy5hbGVydENvbmZpZ3VyYXRpb25zID0gYWxlcnRDb25maWd1cmF0aW9uczsKICB9</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="5" type="4">
-        <text>setPermissions</text>
+        <text>permissions</text>
       </register>
       <register name="6" type="4">
-        <text>role</text>
+        <text>setPermissions</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">Zm9yIChQZXJtaXNzaW9uIHBlcm1pc3Npb24gOiBwZXJtaXNzaW9ucykgewogICAgICAgIFBlcm1pc3Npb25SQk8gcGVybWlzc2lvblJCID0KICAgICAgICAgICAgICAgIHJvbGVSQi5nZXRQZXJtaXNzaW9ucygpLnN0cmVhbSgpLgogICAgICAgICAgICAgICAgICAgICAgICBmaWx0ZXIocCAtPiBwLmdldFBlcm1pc3Npb25Db2RlKCkuZXF1YWxzKHBlcm1pc3Npb24uZ2V0UGVybWlzc2lvbkNvZGUoKSkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5maW5kQW55KCkub3JFbHNlVGhyb3coKCkgLT4gbmV3IEVudGl0eU5vdEZvdW5kUENTRXhjZXB0aW9uKFBlcm1pc3Npb24uY2xhc3MpKTsKICAgICAgICBwZXJtaXNzaW9uLnNldEFjdGlvblZhbHVlcyhwZXJtaXNzaW9uUkIuZ2V0QWN0aW9uVmFsdWVzKCkpOwogICAgICB9</text>
+        <text>role</text>
       </register>
       <register name="x" type="4">
         <text>permissions</text>
       </register>
       <register name="8" type="4">
-        <text>permissionCodes</text>
+        <text encoding="base64">Zm9yIChQZXJtaXNzaW9uIHBlcm1pc3Npb24gOiBwZXJtaXNzaW9ucykgewogICAgICAgIFBlcm1pc3Npb25SQk8gcGVybWlzc2lvblJCID0KICAgICAgICAgICAgICAgIHJvbGVSQi5nZXRQZXJtaXNzaW9ucygpLnN0cmVhbSgpLgogICAgICAgICAgICAgICAgICAgICAgICBmaWx0ZXIocCAtPiBwLmdldFBlcm1pc3Npb25Db2RlKCkuZXF1YWxzKHBlcm1pc3Npb24uZ2V0UGVybWlzc2lvbkNvZGUoKSkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5maW5kQW55KCkub3JFbHNlVGhyb3coKCkgLT4gbmV3IEVudGl0eU5vdEZvdW5kUENTRXhjZXB0aW9uKFBlcm1pc3Npb24uY2xhc3MpKTsKICAgICAgICBwZXJtaXNzaW9uLnNldEFjdGlvblZhbHVlcyhwZXJtaXNzaW9uUkIuZ2V0QWN0aW9uVmFsdWVzKCkpOwogICAgICB9</text>
       </register>
       <register name="9" type="4">
-        <text>permissions</text>
+        <text>permissionCodes</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -562,9 +569,9 @@
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
