@@ -86,12 +86,12 @@
         <mark key="^" line="15" column="11" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" timestamp="1574246924075" />
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" timestamp="1574259583112">
-        <mark key="'" line="69" column="6" />
-        <mark key="[" line="58" column="29" />
-        <mark key="]" line="58" column="46" />
-        <mark key="^" line="58" column="46" />
-        <mark key="." line="58" column="46" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" timestamp="1574262194519">
+        <mark key="'" line="59" column="78" />
+        <mark key="[" line="60" column="33" />
+        <mark key="]" line="60" column="39" />
+        <mark key="." line="60" column="39" />
+        <mark key="^" line="60" column="39" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertConfiguration.java" timestamp="1574164074231">
         <mark key="'" line="16" column="4" />
@@ -290,11 +290,13 @@
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/TrafficReportBuilder.java" timestamp="1574250085621" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/builders/TrafficReportBuilder.java" timestamp="1574260782791" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/ReportPBController.java" timestamp="1574252653694" />
+      <file name="/fragment.java" timestamp="1574261448103">
+        <mark key="[" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="122" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
       <jump line="111" column="77" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
       <jump line="113" column="99" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
       <jump line="69" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/GeneralSettingController.java" />
@@ -367,7 +369,6 @@
       <jump line="67" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
       <jump line="96" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumValidationService.java" />
       <jump line="77" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
-      <jump line="57" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
       <jump line="54" column="39" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
       <jump line="100" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EntrantDatumValidationService.java" />
       <jump line="186" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
@@ -394,6 +395,8 @@
       <jump line="197" column="39" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
       <jump line="184" column="20" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
       <jump line="204" column="35" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
+      <jump line="60" column="26" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
+      <jump line="57" column="78" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -403,7 +406,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>EmailBody</text>
+        <text>ObjectUtils</text>
       </register>
       <register name="-" type="4">
         <text>BeanPCSUtils.parseStringTemplate(alertLine.getSmsBody(),Arrays.asList(sailing));</text>
@@ -412,48 +415,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>Arrays.asList(
-                            sailing,
-                            destinationLocation,
-                            company,
-                            vessel))</text>
+        <text>StringUtils.substringsBetween(template, &quot;[&quot;, &quot;]&quot;))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgaWYgKFN0cmluZ1V0aWxzLmlzTm90QmxhbmsodmFsKSkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgPSBTdHJpbmdVdGlscy5FTVBUWTsK</text>
       </register>
-      <register name="3" type="4">
-        <text>EmailBody</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgdmFsID0gU3RyaW5nVXRpbHMuZGVmYXVsdElmKHZhbCwgU3RyaW5nVXRpbHMuRU1QVFkpOwo=</text>
       </register>
       <register name="4" type="4">
-        <text>alertLine</text>
+        <text>ObjectUtils</text>
       </register>
       <register name="5" type="4">
-        <text>getSmsBody</text>
+        <text>Null</text>
       </register>
-      <register name="6" type="4">
-        <text>alertLine</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGlmIChwcm9wZXJ0aWVzLmlzRW1wdHkoKSkgcmV0dXJuICB0ZW1wbGF0ZTsK</text>
       </register>
       <register name="7" type="4">
-        <text>getSmsBody</text>
+        <text>StringUtils.substringsBetween(template, &quot;[&quot;, &quot;]&quot;)</text>
       </register>
       <register name="x" type="4">
-        <text>EmailBody</text>
+        <text>ObjectUtils</text>
       </register>
-      <register name="8" type="4">
-        <text>setSmsBody</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>private Object getInstanceField(Object instance, String fieldName) throws Throwable {
-    Field field = instance.getClass().getDeclaredField(fieldName);
-    field.setAccessible(true);
-    return field.get(instance);
-  }</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -486,12 +481,12 @@
         <entry>action HideAllWindows</entry>
         <entry>action PreviousTab</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action NextTab</entry>
+        <entry>action Find</entry>
+        <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
-        <entry>action NextTab</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoFile</entry>
-        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
