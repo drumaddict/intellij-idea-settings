@@ -51,12 +51,12 @@
         <mark key="." line="31" column="37" />
         <mark key="^" line="31" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" timestamp="1574244826038">
-        <mark key="'" line="119" column="79" />
-        <mark key="[" line="120" column="0" />
-        <mark key="]" line="120" column="0" />
-        <mark key="^" line="119" column="112" />
-        <mark key="." line="120" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" timestamp="1574245873521">
+        <mark key="'" line="120" column="79" />
+        <mark key="[" line="119" column="37" />
+        <mark key="]" line="119" column="36" />
+        <mark key="^" line="119" column="36" />
+        <mark key="." line="119" column="36" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0600_insert_alert_recepient_types.xml" timestamp="1574159675074">
         <mark key="'" line="16" column="16" />
@@ -438,19 +438,19 @@
         <entry>action SplitVertically</entry>
         <entry>action OptimizeImports</entry>
         <entry>action Replace</entry>
-        <entry>action $SelectAll</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action NextTab</entry>
         <entry>action AceAction</entry>
         <entry>action Find</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action RenameElement</entry>
         <entry>action ReformatCode</entry>
         <entry>action PreviousTab</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action FindUsages</entry>
+        <entry>action $SelectAll</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
