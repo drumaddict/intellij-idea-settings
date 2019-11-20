@@ -30,6 +30,13 @@
         <mark key="^" line="10" column="74" />
         <mark key="." line="10" column="74" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataCardDTO.java" timestamp="1574243623387">
+        <mark key="'" line="95" column="2" />
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="^" line="88" column="3" />
+        <mark key="." line="23" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/AlertConfigurationDao.java" timestamp="1574169972342">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -43,6 +50,13 @@
         <mark key="]" line="31" column="37" />
         <mark key="." line="31" column="37" />
         <mark key="^" line="31" column="37" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" timestamp="1574244826038">
+        <mark key="'" line="119" column="79" />
+        <mark key="[" line="120" column="0" />
+        <mark key="]" line="120" column="0" />
+        <mark key="^" line="119" column="112" />
+        <mark key="." line="120" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/0600_insert_alert_recepient_types.xml" timestamp="1574159675074">
         <mark key="'" line="16" column="16" />
@@ -154,6 +168,12 @@
         <mark key="^" line="45" column="3" />
         <mark key="." line="47" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/IOUtils.java" timestamp="1574244767820">
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="27" column="0" />
+        <mark key="^" line="21" column="11" />
+        <mark key="." line="27" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertConfigurationDTO.java" timestamp="1574168760597">
         <mark key="'" line="10" column="0" />
         <mark key="[" line="10" column="0" />
@@ -169,6 +189,13 @@
         <mark key="." line="12" column="37" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConfig.java" timestamp="1574239943523" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataCard.java" timestamp="1574243768822">
+        <mark key="'" line="109" column="2" />
+        <mark key="[" line="104" column="2" />
+        <mark key="]" line="110" column="3" />
+        <mark key="^" line="104" column="1" />
+        <mark key="." line="104" column="2" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/GeneralSettingController.java" timestamp="1574240323451">
         <mark key="'" line="68" column="2" />
         <mark key="[" line="63" column="26" />
@@ -230,20 +257,13 @@
         <mark key="^" line="44" column="71" />
         <mark key="." line="44" column="71" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/FileUtils.java" timestamp="1574244336636">
+        <mark key="[" line="2" column="21" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="5" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="106" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AlertController.java" />
-      <jump line="99" column="24" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/AlertController.java" />
-      <jump line="21" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertLine.java" />
-      <jump line="21" column="25" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertHeaderDTO.java" />
-      <jump line="10" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertConfigurationDTO.java" />
-      <jump line="3" column="82" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertHeaderDTO.java" />
-      <jump line="15" column="28" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertLineDTO.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertHeader.java" />
-      <jump line="22" column="47" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertHeaderDTO.java" />
-      <jump line="61" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertHeaderDTO.java" />
-      <jump line="60" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertHeaderDTO.java" />
-      <jump line="8" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertHeaderDTO.java" />
       <jump line="3" column="67" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertLineDTO.java" />
       <jump line="24" column="13" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertLineDTO.java" />
       <jump line="102" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertLineDTO.java" />
@@ -332,6 +352,18 @@
       <jump line="108" column="34" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
       <jump line="107" column="76" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/changelog.yml" />
       <jump line="45" column="52" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/logging/HttpLogger.java" />
+      <jump line="111" column="31" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="22" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataCardDTO.java" />
+      <jump line="23" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataCardDTO.java" />
+      <jump line="98" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/EntrantDataCardDTO.java" />
+      <jump line="37" column="3" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataCard.java" />
+      <jump line="41" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataCard.java" />
+      <jump line="113" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataCard.java" />
+      <jump line="109" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataCard.java" />
+      <jump line="119" column="85" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="18" column="3" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/IOUtils.java" />
+      <jump line="120" column="37" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="118" column="79" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -341,7 +373,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>public</text>
+        <text>originalImage</text>
       </register>
       <register name="-" type="4">
         <text>User user = (User) authentication.getPrincipal();</text>
@@ -350,7 +382,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>mvn clean package spring-boot:repackage</text>
+        <text>Base64.getEncoder().encodeToString(qrCodeImage);</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -359,31 +391,31 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Ly8gICAgICBTdHJpbmcgYmFzZTY0RW5jb2RlZFFSQ29kZSA9IEJhc2U2NC5nZXRFbmNvZGVyKCkuZW5jb2RlVG9TdHJpbmcocXJDb2RlSW1hZ2UpOwo=</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">PGluc2VydCB0YWJsZU5hbWU9ImdlbmVyYWxfc2V0dGluZyI+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0iaWQiIHZhbHVlPSIzIi8+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0icGFyYW1ldGVyX25hbWUiIHZhbHVlPSJBUFBMSUNBVElPTl9OQU1FIi8+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0icGFyYW1ldGVyX3ZhbHVlIiB2YWx1ZT0iUmhvZGVzIFBvcnQgQ29udHJvbCBTeXN0ZW0iLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJwYXJhbWV0ZXJfcmVtYXJrcyIgdmFsdWU9IkFwcGxpY2F0aW9uIE5hbWUiLz4KICAgICAgICA8L2luc2VydD4KICAgICAgICA8aW5zZXJ0IHRhYmxlTmFtZT0iZ2VuZXJhbF9zZXR0aW5nIj4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJpZCIgdmFsdWU9IjQiLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJwYXJhbWV0ZXJfbmFtZSIgdmFsdWU9IkVOVFJBTkNFX0NBUkRfTElGRVRJTUVfSU5fSE9VUlMiLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJwYXJhbWV0ZXJfdmFsdWUiIHZhbHVlPSIyNCIvPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9InBhcmFtZXRlcl9yZW1hcmtzIiB2YWx1ZT0iRGVmYXVsdCBlbnRyYW5jZSBjYXJkIGxpZmV0aW1lIi8+CiAgICAgICAgPC9pbnNlcnQ+CiAgICAgICAgPGluc2VydCB0YWJsZU5hbWU9ImdlbmVyYWxfc2V0dGluZyI+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0iaWQiIHZhbHVlPSI1Ii8+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0icGFyYW1ldGVyX25hbWUiIHZhbHVlPSJQVUJMSUNfU0FJTElOR1NfRlJPTV9OT1dfTUlOVVNfSE9VUlMiLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJwYXJhbWV0ZXJfdmFsdWUiIHZhbHVlPSIyIi8+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0icGFyYW1ldGVyX3JlbWFya3MiIHZhbHVlPSJTZWFyY2ggZm9yIHNhaWxpbmdzIHdpdGggZGVwYXJ0dXJlIGF0IGxlYXN0IGxhdGVyIHRoYW4gaG91cnMgYmVmb3JlIG5vdyIvPgogICAgICAgIDwvaW5zZXJ0PgogICAgICAgIDxpbnNlcnQgdGFibGVOYW1lPSJnZW5lcmFsX3NldHRpbmciPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9ImlkIiB2YWx1ZT0iNiIvPgogICAgICAgICAgICA8Y29sdW1uIG5hbWU9InBhcmFtZXRlcl9uYW1lIiB2YWx1ZT0iUFVCTElDX1NBSUxJTkdTX1RPX05PV19QTFVTX0hPVVJTIi8+CiAgICAgICAgICAgIDxjb2x1bW4gbmFtZT0icGFyYW1ldGVyX3ZhbHVlIiB2YWx1ZT0iMjQiLz4KICAgICAgICAgICAgPGNvbHVtbiBuYW1lPSJwYXJhbWV0ZXJfcmVtYXJrcyIgdmFsdWU9IlNlYXJjaCBmb3Igc2FpbGluZ3Mgd2l0aCBkZXBhcnR1cmUgYXQgbW9zdCBzb29uZXIgdGhhbiBob3VycyBhZnRlciBub3ciLz4KICAgICAgICA8L2luc2VydD4=</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>public</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgcmVzdWx0ID0gaW1hZ2VJbkJ5dGU7Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICByZXR1cm4gdG9EdG8oZ2VuZXJhbFNldHRpbmdEYW8uZ2V0R2VuZXJhbFNldHRpbmdCeVBhcmFtZXRlck5hbWUobmFtZSkpOwogIH0=</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>etchById</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgcmV0dXJuICBpbWFnZUluQnl0ZTsK</text>
       </register>
       <register name="x" type="4">
-        <text>public</text>
+        <text>originalImage</text>
       </register>
-      <register name="8" type="4">
-        <text>id</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>Long</text>
+      <register name="9" type="2">
+        <text encoding="base64">CQlTeXN0ZW0ub3V0LnByaW50bG4oZS5nZXRNZXNzYWdlKCkpOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -400,26 +432,26 @@
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action QuickJavaDoc</entry>
-        <entry>action FindUsages</entry>
         <entry>action CloseContent</entry>
         <entry>action GotoClass</entry>
         <entry>action VimWindowClose</entry>
         <entry>action SplitVertically</entry>
-        <entry>action RenameElement</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action Replace</entry>
         <entry>action $SelectAll</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action NextTab</entry>
         <entry>action AceAction</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action SaveAll</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoFile</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>action RenameElement</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
