@@ -31,7 +31,7 @@
         <mark key="^" line="93" column="32" />
         <mark key="." line="93" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertConfigurationService.java" timestamp="1574250605109">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertConfigurationService.java" timestamp="1574353519330">
         <mark key="'" line="68" column="53" />
         <mark key="[" line="68" column="4" />
         <mark key="]" line="68" column="54" />
@@ -145,12 +145,6 @@
         <mark key="." line="19" column="0" />
         <mark key="^" line="15" column="11" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" timestamp="1574338753761">
-        <mark key="'" line="22" column="0" />
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="25" column="28" />
-        <mark key="." line="27" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" timestamp="1574349364983">
         <mark key="'" line="96" column="82" />
         <mark key="]" line="1" column="1" />
@@ -241,11 +235,12 @@
         <mark key="." line="20" column="64" />
         <mark key="^" line="20" column="64" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" timestamp="1574345947144">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" timestamp="1574353334735">
         <mark key="'" line="101" column="2" />
-        <mark key="[" line="98" column="0" />
-        <mark key="]" line="98" column="0" />
-        <mark key="." line="98" column="0" />
+        <mark key="[" line="182" column="66" />
+        <mark key="]" line="182" column="82" />
+        <mark key="." line="182" column="82" />
+        <mark key="^" line="182" column="82" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/CompanyDao.java" timestamp="1574340148090">
         <mark key="'" line="15" column="0" />
@@ -412,12 +407,6 @@
         <mark key="]" line="92" column="3" />
         <mark key="." line="86" column="2" />
         <mark key="^" line="86" column="1" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/MainConfiguration.java" timestamp="1574338555384">
-        <mark key="'" line="63" column="58" />
-        <mark key="[" line="71" column="0" />
-        <mark key="]" line="71" column="0" />
-        <mark key="." line="71" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/UserSimpleDTO.java" timestamp="1574336380602">
         <mark key="'" line="27" column="0" />
@@ -628,7 +617,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>toEmail</text>
+        <text>getEmailBody</text>
       </register>
       <register name="-" type="4">
         <text>String.join(&quot;;&quot;, emailToList)</text>
@@ -639,38 +628,38 @@
       <register name="0" type="4">
         <text encoding="base64">U0VMRUNUIGNwLkRFU0NSSVBUSU9OLCBjcC5pZCBBUyBDSEVDS19QT0lOVF9JRCwgaG91cl9saXN0LmhvdXJzLAogICAgICAgVE9fQ0hBUihob3VyX2xpc3QuaG91cnMsJ1lZWVkuTU0uREQgaGgyNDptaScpfHwnLSd8fFRPX0NIQVIoaG91cl9saXN0LmhvdXJzICsgaW50ZXJ2YWwgJzU5JyBNSU5VVEUsJ2hoMjQ6bWknKSBBUyBob3VyX3JhbmdlLAogICAgICAgQ09BTEVTQ0UobXlDLmNoZWNrZWRfaW4sMCkgQVMgY2hlY2tlZF9pbiwKICAgICAgIENPQUxFU0NFKG15Qy5jaGVja2VkX291dCwwKSBBUyBjaGVja2VkX291dCwKICAgICAgIENPQUxFU0NFKG15Qy5jaGVja2VkX2luX2ZhaWxlZCwwKSBBUyBjaGVja2VkX2luX2ZhaWxlZCwKICAgICAgIENPQUxFU0NFKG15Qy5jaGVja2VkX291dF9mYWlsZWQsMCkgQVMgY2hlY2tlZF9vdXRfZmFpbGVkLAogICAgICAgQ09BTEVTQ0UobXlDLnZhbGlkYXRlZCwwKSBBUyB2YWxpZGF0ZWQKRlJPTQogICAgKCBTRUxFQ1QgVFJVTkModG9fZGF0ZSg6ZGF0ZV9mcm9tLCdZWVlZLU1NLUREJykgKyBudW10b2RzaW50ZXJ2YWwocm93bnVtLTEsJ0hPVVInKSwnSEgnKSBBUyBob3VycwogICAgICAgIEZST00gZHVhbAogICAgIENPTk5FQ1QgQlkgTEVWRUwgPD0gMjQqKCB0b19kYXRlKDpkYXRlX3RvLCdZWVlZLU1NLUREJykgLSB0b19kYXRlKDpkYXRlX2Zyb20sJ1lZWVktTU0tREQnKSArIDEpCiAgICApIGhvdXJfbGlzdApKT0lOIENIRUNLX1BPSU5UIGNwIE9OICgxPTEpCkxFRlQgSk9JTiAoIFNFTEVDVCBlZGMuQ0hFQ0tfUE9JTlRfSUQsIFRSVU5DKGVkYy5DUkVBVEVELCdISCcpIEFTIGhvdXJzLAogICAgICAgICAgICAgICAgICAgU1VNKENBU0UgQUNUSU9OX1RZUEUgV0hFTiAnSScgVEhFTiAxIEVMU0UgMCBFTkQgKSBBUyBjaGVja2VkX2luLAogICAgICAgICAgICAgICAgICAgU1VNKENBU0UgQUNUSU9OX1RZUEUgV0hFTiAnTycgVEhFTiAxIEVMU0UgMCBFTkQgKSBBUyBjaGVja2VkX291dCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgU1VNKENBU0UgQUNUSU9OX1RZUEUgV0hFTiAnSUYnIFRIRU4gMSBFTFNFIDAgRU5EICkgQVMgY2hlY2tlZF9pbl9mYWlsZWQsCiAgICAgICAgICAgICAgICAgICBTVU0oQ0FTRSBBQ1RJT05fVFlQRSBXSEVOICdPRicgVEhFTiAxIEVMU0UgMCBFTkQgKSBBUyBjaGVja2VkX291dF9mYWlsZWQsCiAgICAgICAgICAgICAgICAgICBTVU0oQ0FTRSBBQ1RJT05fVFlQRSBXSEVOICdWJyBUSEVOIDEgRUxTRSAwIEVORCApIEFTIHZhbGlkYXRlZAogICAgICAgICAgICAgIEZST00gRU5UUkFOVF9EQVRBX0NIRUNLIGVkYwogICAgICAgICAgICAgV0hFUkUgKCAoIDpjaGVja19wb2ludF9pZCBJUyBudWxsICkgT1IgKGVkYy5DSEVDS19QT0lOVF9JRCA9IDpjaGVja19wb2ludF9pZCApICkKICAgICAgICAgICAgICAgQU5EIGVkYy5DUkVBVEVEIEJFVFdFRU4gdG9fZGF0ZSg6ZGF0ZV9mcm9tLCdZWVlZLU1NLUREJykgQU5EICh0b19kYXRlKDpkYXRlX3RvLCdZWVlZLU1NLUREJykgKyBpbnRlcnZhbCAnMScgREFZICkKICAgICAgICAgICAgIEdST1VQIEJZIGVkYy5DSEVDS19QT0lOVF9JRCwgVFJVTkMoZWRjLkNSRUFURUQsJ0hIJykKICAgICAgICAgICkgbXlDIE9OICggY3AuaWQgPSBteUMuQ0hFQ0tfUE9JTlRfSUQgQU5EIEhPVVJfTElTVC5ob3VycyA9IG15Qy5ob3VycyApCldIRVJFICggKCA6Y2hlY2tfcG9pbnRfaWQgSVMgbnVsbCApIE9SIChjcC5JRCA9IDpjaGVja19wb2ludF9pZCApICkKT1JERVIgQlkgY3AuaWQsIGhvdXJfbGlzdC5ob3Vycw==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>getEmailBody</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgYWxlcnRMaW5lLnMK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgYWxlcnRMaW5lLnMK</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">Ly8gICAgICBtZXNzYWdlSGVscGVyLnNldENjKCk7Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>toEmail</text>
-      </register>
       <register name="7" type="4">
-        <text>cc</text>
+        <text>toEmail</text>
       </register>
       <register name="x" type="4">
-        <text>toEmail</text>
+        <text>getEmailBody</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIFN0cmluZyByZWNpcGllbnRFbWFpbCA9IGpvYkRhdGFNYXAuZ2V0U3RyaW5nKCJ0byIpOwo=</text>
+      <register name="8" type="4">
+        <text>cc</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGpvYkRhdGFNYXAucHV0KCJiY2MiLCBhbGVydExpbmUuZ2V0QWxlcnRDb25maWd1cmF0aW9uKCkuZ2V0QWxlcnRCY2MoKSk7Cg==</text>
+        <text encoding="base64">ICAgIFN0cmluZyByZWNpcGllbnRFbWFpbCA9IGpvYkRhdGFNYXAuZ2V0U3RyaW5nKCJ0byIpOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -709,9 +698,9 @@
         <entry>action RenameElement</entry>
         <entry>action NextTab</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
