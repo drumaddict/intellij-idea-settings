@@ -244,11 +244,11 @@
         <mark key="." line="20" column="64" />
         <mark key="^" line="20" column="64" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" timestamp="1574433695216">
-        <mark key="'" line="56" column="2" />
-        <mark key="[" line="296" column="25" />
-        <mark key="]" line="296" column="24" />
-        <mark key="." line="296" column="24" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" timestamp="1574435424803">
+        <mark key="'" line="276" column="0" />
+        <mark key="[" line="327" column="0" />
+        <mark key="]" line="327" column="0" />
+        <mark key="." line="327" column="0" />
         <mark key="^" line="296" column="24" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/ICompanyDao.java" timestamp="1574344525731">
@@ -533,7 +533,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="153" column="85" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
       <jump line="150" column="59" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
       <jump line="113" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/portauth/CheckController.java" />
       <jump line="50" column="64" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/jobs/EmailJob.java" />
@@ -633,6 +632,7 @@
       <jump line="67" column="90" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SmsSchedulerService.java" />
       <jump line="68" column="26" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SmsSchedulerService.java" />
       <jump line="83" column="90" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EmailSchedulerService.java" />
+      <jump line="276" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -659,29 +659,29 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>Email</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="4">
-        <text>EmailJob</text>
+        <text>Email</text>
       </register>
       <register name="5" type="4">
-        <text>email</text>
+        <text>EmailJob</text>
       </register>
       <register name="6" type="4">
-        <text>getEmailBody</text>
+        <text>email</text>
       </register>
       <register name="7" type="4">
-        <text>To</text>
+        <text>getEmailBody</text>
       </register>
       <register name="x" type="4">
         <text>Email</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIGpvYkRhdGFNYXAucHV0KCJwcmludGVkQ2FyZCIsIFN0cmluZ1V0aWxzLmRlZmF1bHRJZkJsYW5rKGFsZXJ0TGluZS5nZXRQcmludGVkQ2FyZCgpLCBTdHJpbmdVdGlscy5FTVBUWSkpOwo=</text>
+      <register name="8" type="4">
+        <text>To</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGpvYkRhdGFNYXAucHV0KCJzdWJqZWN0IiwgU3RyaW5nVXRpbHMuZGVmYXVsdElmQmxhbmsoYWxlcnRMaW5lLmdldEVtYWlsU3ViamVjdCgpLCBTdHJpbmdVdGlscy5FTVBUWSkpOwo=</text>
+        <text encoding="base64">ICAgIGpvYkRhdGFNYXAucHV0KCJwcmludGVkQ2FyZCIsIFN0cmluZ1V0aWxzLmRlZmF1bHRJZkJsYW5rKGFsZXJ0TGluZS5nZXRQcmludGVkQ2FyZCgpLCBTdHJpbmdVdGlscy5FTVBUWSkpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
