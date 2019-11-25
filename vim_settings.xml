@@ -294,6 +294,12 @@
         <mark key="[" line="22" column="2" />
         <mark key="]" line="27" column="28" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" timestamp="1574678004492">
+        <mark key="[" line="84" column="51" />
+        <mark key="]" line="84" column="51" />
+        <mark key="^" line="84" column="51" />
+        <mark key="." line="84" column="51" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/build-rel/classes/db/queries/reports/general_manifest_sailings.xml" timestamp="1574675920551" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDatumRepository.java" timestamp="1574339730879">
         <mark key="'" line="26" column="95" />
@@ -506,14 +512,14 @@
         <mark key="." line="7" column="14" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/build-dev/classes/application.properties" timestamp="1574675377055" />
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" timestamp="1574674792988">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" timestamp="1574676884099">
         <mark key="'" line="230" column="114" />
         <mark key="[" line="230" column="0" />
         <mark key="]" line="230" column="0" />
         <mark key="^" line="230" column="3" />
         <mark key="." line="230" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" timestamp="1574672407843">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" timestamp="1574677059769">
         <mark key="[" line="77" column="36" />
         <mark key="]" line="77" column="42" />
         <mark key="^" line="77" column="42" />
@@ -741,7 +747,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -760,7 +766,6 @@
       <history-cmd>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action AceAction</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action $SelectAll</entry>
@@ -770,15 +775,16 @@
         <entry>action OptimizeImports</entry>
         <entry>action SplitVertically</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action FileStructurePopup</entry>
         <entry>action Replace</entry>
         <entry>action NextTab</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action FileStructurePopup</entry>
+        <entry>action Find</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
-        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
-        <entry>action Find</entry>
-        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
