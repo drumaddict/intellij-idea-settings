@@ -196,11 +196,11 @@
         <mark key="." line="15" column="27" />
         <mark key="^" line="15" column="27" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" timestamp="1574775253468">
-        <mark key="[" line="110" column="30" />
-        <mark key="]" line="110" column="116" />
-        <mark key="." line="110" column="116" />
-        <mark key="^" line="110" column="116" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" timestamp="1574776065467">
+        <mark key="[" line="62" column="31" />
+        <mark key="]" line="62" column="36" />
+        <mark key="." line="62" column="36" />
+        <mark key="^" line="62" column="36" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/specs/reports/reports_B.sql" timestamp="1574768392928">
         <mark key="'" line="1" column="0" />
@@ -246,11 +246,12 @@
         <mark key="^" line="230" column="3" />
         <mark key="." line="230" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" timestamp="1574682618119">
-        <mark key="[" line="231" column="25" />
-        <mark key="]" line="231" column="28" />
-        <mark key="^" line="231" column="28" />
-        <mark key="." line="231" column="28" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" timestamp="1574776549133">
+        <mark key="'" line="10" column="0" />
+        <mark key="[" line="130" column="78" />
+        <mark key="]" line="131" column="26" />
+        <mark key="^" line="131" column="26" />
+        <mark key="." line="131" column="26" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandler.java" timestamp="1574688462950">
         <mark key="'" line="1445" column="34" />
@@ -634,7 +635,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="21" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_main.jrxml" />
       <jump line="30" column="51" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_main.jrxml" />
       <jump line="22" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/reports/SailingGMDTO.java" />
       <jump line="36" column="28" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_main.jrxml" />
@@ -734,6 +734,7 @@
       <jump line="70" column="11" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" />
       <jump line="49" column="32" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailing_entrant_data.xml" />
       <jump line="292" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
+      <jump line="10" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/GeneralManifestReportService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -743,7 +744,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>ailingGMDTO</text>
+        <text>LocalDateTime</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">RntwYXNzZW5nZXJUeXBlQ29kZX0g</text>
@@ -755,34 +756,34 @@
         <text>getDepartureEntrantDataForGeneralManifestReport</text>
       </register>
       <register name="1" type="4">
-        <text>ailingGMDTO</text>
+        <text>LocalDateTime</text>
       </register>
       <register name="2" type="4">
-        <text>GMDTO</text>
+        <text>LocalDateTime</text>
       </register>
       <register name="3" type="4">
-        <text>GMDTO</text>
+        <text>ailingGMDTO</text>
       </register>
       <register name="4" type="4">
         <text>GMDTO</text>
       </register>
       <register name="5" type="4">
+        <text>GMDTO</text>
+      </register>
+      <register name="6" type="4">
+        <text>GMDTO</text>
+      </register>
+      <register name="7" type="4">
         <text>MDTO</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Pj4+Pj4+PiByZXBvcnRzCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Pj4+Pj4+PiByZXBvcnRzCg==</text>
-      </register>
       <register name="x" type="4">
-        <text>ailingGMDTO</text>
+        <text>LocalDateTime</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">PDw8PDw8PCBIRUFECiAgQFF1ZXJ5KAogICAgICAgICAgbmFtZSA9ICJnZXRTYWlsaW5nc0ZvckdlbmVyYWxNYW5pZmVzdFJlcG9ydCIsCiAgICAgICAgICBuYXRpdmVRdWVyeSA9IHRydWUKICApCiAgTGlzdDxTYWlsaW5nR2VuZXJhbE1hbmlmZXN0RFRPPiBnZXRTYWlsaW5nc0ZvckdlbmVyYWxNYW5pZmVzdAogICAgICAgICAgKAogICAgICAgICAgICAgICAgICBAUGFyYW0oImlkcyIpIExpc3Q8TG9uZz4gaWRzLAogICAgICAgICAgICAgICAgICBAUGFyYW0oImxhbmd1YWdlX2lkIikgTG9uZyBsYW5ndWFnZUlkCgogICAgICAgICAgKTsKCiAgQFF1ZXJ5KAogICAgICAgICAgbmFtZSA9ICJnZXRFbnRyYW50RGF0YU9mU2FpbGluZ0ZvckdlbmVyYWxNYW5pZmVzdFJlcG9ydCIsCiAgICAgICAgICBuYXRpdmVRdWVyeSA9IHRydWUKICApCiAgTGlzdDxFbnRyYW50RGF0dW1HTURUTz4gZ2V0RW50cmFudERhdGFPZlNhaWxpbmdGb3JHZW5lcmFsTWFuaWZlc3QKICAgICAgICAgICgKICAgICAgICAgICAgICAgICAgQFBhcmFtKCJzYWlsaW5nX2lkIikgTG9uZyBzYWlsaW5nSWQKICAgICAgICAgICk7CgogIEBRdWVyeSgKICAgICAgICAgIG5hbWUgPSAiZ2V0RGVwYXJ0dXJlc0ZvckdlbmVyYWxNYW5pZmVzdFJlcG9ydCIsCiAgICAgICAgICBuYXRpdmVRdWVyeSA9IHRydWUKICApCiAgTGlzdDxTYWlsaW5nR2VuZXJhbE1hbmlmZXN0RFRPPiBnZXREZXBhcnR1cmVzRm9yR2VuZXJhbE1hbmlmZXN0UmVwb3J0CiAgICAgICAgICAoCiAgICAgICAgICAgICAgICAgIEBQYXJhbSgiaG9tZV9wb3J0X2lkIikgTG9uZyBob21lUG9ydElkLAogICAgICAgICAgICAgICAgICBAUGFyYW0oImxhbmd1YWdlX2lkIikgTG9uZyBsYW5ndWFnZUlkLAogICAgICAgICAgICAgICAgICBAUGFyYW0oImFjdGl2ZSIpIEBOdWxsYWJsZSBJbnRlZ2VyIGFjdGl2ZSwKICAgICAgICAgICAgICAgICAgQFBhcmFtKCJzdGFydF9kYXRlIikgQE51bGxhYmxlIFN0cmluZyBzdGFydERhdGUsCiAgICAgICAgICAgICAgICAgIEBQYXJhbSgiZW5kX2RhdGUiKSBATnVsbGFibGUgU3RyaW5nIGVuZERhdGUsCiAgICAgICAgICAgICAgICAgIEBQYXJhbSgic2VsZWN0ZWRfcG9ydF9pZCIpIEBOdWxsYWJsZSBMb25nIHNlbGVjdGVkUG9ydElkLAogICAgICAgICAgICAgICAgICBAUGFyYW0oImNvbXBhbnlfaWQiKSBATnVsbGFibGUgTG9uZyBjb21wYW55SWQsCiAgICAgICAgICAgICAgICAgIEBQYXJhbSgidmVzc2VsX2lkIikgQE51bGxhYmxlIExvbmcgdmVzc2VsSWQsCiAgICAgICAgICAgICAgICAgIEBQYXJhbSgiZGVsYXlzIikgQE51bGxhYmxlIEludGVnZXIgZGVsYXlzCiAgICAgICAgICApOwoKICBAUXVlcnkoCiAgICAgICAgICBuYW1lID0gImdldEFycml2YWxzRm9yR2VuZXJhbE1hbmlmZXN0UmVwb3J0IiwKICAgICAgICAgIG5hdGl2ZVF1ZXJ5ID0gdHJ1ZQogICkKICBMaXN0PFNhaWxpbmdHZW5lcmFsTWFuaWZlc3REVE8+IGdldEFycml2YWxzRm9yR2VuZXJhbE1hbmlmZXN0UmVwb3J0CiAgICAgICAgICAoCi8vICAgICAgICAgICAgICAgICAgICBAUGFyYW0oImlkcyIpIExpc3Q8TG9uZz4gaWRzLAogICAgICAgICAgICAgICAgICBAUGFyYW0oImhvbWVfcG9ydF9pZCIpIExvbmcgaG9tZVBvcnRJZCwKICAgICAgICAgICAgICAgICAgQFBhcmFtKCJsYW5ndWFnZV9pZCIpIExvbmcgbGFuZ3VhZ2VJZCwKICAgICAgICAgICAgICAgICAgQFBhcmFtKCJhY3RpdmUiKSBJbnRlZ2VyIGFjdGl2ZSwKICAgICAgICAgICAgICAgICAgQFBhcmFtKCJzdGFydF9kYXRlIikgU3RyaW5nIHN0YXJ0RGF0ZSwKICAgICAgICAgICAgICAgICAgQFBhcmFtKCJlbmRfZGF0ZSIpIFN0cmluZyBlbmREYXRlLAogICAgICAgICAgICAgICAgICBAUGFyYW0oInNlbGVjdGVkX3BvcnRfaWQiKSBMb25nIHNlbGVjdGVkUG9ydElkLAogICAgICAgICAgICAgICAgICBAUGFyYW0oImNvbXBhbnlfaWQiKSBMb25nIGNvbXBhbnlJZCwKICAgICAgICAgICAgICAgICAgQFBhcmFtKCJ2ZXNzZWxfaWQiKSBMb25nIHZlc3NlbElkCgogICAgICAgICAgKTsKCiAgQFF1ZXJ5KAogICAgICAgICAgbmFtZSA9ICJnZXRTYWlsaW5nc0ZvckdlbmVyYWxNYW5pZmVzdFJlcG9ydCIsCiAgICAgICAgICBuYXRpdmVRdWVyeSA9IHRydWUKICApCiAgTGlzdDxTYWlsaW5nR2VuZXJhbE1hbmlmZXN0RFRPPiBnZXRTYWlsaW5nc0ZvckdlbmVyYWxNYW5pZmVzdFJlcG9ydAogICAgICAgICAgKAogICAgICAgICAgICAgICAgICBAUGFyYW0oImxhbmd1YWdlX2lkIikgTG9uZyBsYW5ndWFnZUlkLAogICAgICAgICAgICAgICAgICBAUGFyYW0oImlkcyIpIExpc3Q8TG9uZz4gaWRzCgogICAgICAgICAgKTsKCiAgQFF1ZXJ5KAogICAgICAgICAgbmFtZSA9ICJnZXRUcmFmZmljUmVwb3J0IiwKICAgICAgICAgIG5hdGl2ZVF1ZXJ5ID0gdHJ1ZQogICkKICBMaXN0PFNhaWxpbmdUcmFmZmljRFRPPiBnZXRUcmFmZmljUmVwb3J0CiAgICAgICAgICAoCiAgICAgICAgICAgICAgICAgIEBQYXJhbSgiaXNfZGVwYXJ0dXJlcyIpIEludGVnZXIgaXNEZXBhcnR1cmVzLAogICAgICAgICAgICAgICAgICBAUGFyYW0oImlzX2Fycml2YWxzIikgSW50ZWdlciBpc0Fycml2YWxzLAogICAgICAgICAgICAgICAgICBAUGFyYW0oImxhbmd1YWdlX2lkIikgTG9uZyBsYW5ndWFnZUlkLAogICAgICAgICAgICAgICAgICBAUGFyYW0oInNhaWxpbmdfaWRzIikgTGlzdDxMb25nPiBzYWlsaW5nSWRzCiAgICAgICAgICApOwoKICBAUXVlcnkoCiAgICAgICAgICBuYW1lID0gImdldERlcGFydHVyZUVudHJhbnREYXRhRm9yR2VuZXJhbE1hbmlmZXN0UmVwb3J0IiwKICAgICAgICAgIG5hdGl2ZVF1ZXJ5ID0gdHJ1ZQogICkKICBMaXN0PEVudHJhbnREYXR1bUdNRFRPPiBnZXREZXBhcnR1cmVFbnRyYW50RGF0YUZvckdlbmVyYWxNYW5pZmVzdFJlcG9ydAogICAgICAgICAgKAogICAgICAgICAgICAgICAgICBAUGFyYW0oInNhaWxpbmdfaWQiKSBMb25nIHNhaWxpbmdJZCwKICAgICAgICAgICAgICAgICAgQFBhcmFtKCJwYXNzZW5nZXJzX29ubHkiKSBJbnRlZ2VyIHBhc3NlbmdlcnNPbmx5LAogICAgICAgICAgICAgICAgICBAUGFyYW0oImNyZXdfb25seSIpIEludGVnZXIgY3Jld09ubHksCiAgICAgICAgICAgICAgICAgIEBQYXJhbSgicGFzc2VuZ2Vyc19hbmRfY3JldyIpIEludGVnZXIgcGFzc2VuZ2Vyc0FuZENyZXcKCiAgICAgICAgICApOwoKICBAUXVlcnkoCiAgICAgICAgICBuYW1lID0gImdldEFycml2YWxFbnRyYW50RGF0YUZvckdlbmVyYWxNYW5pZmVzdFJlcG9ydCIsCiAgICAgICAgICBuYXRpdmVRdWVyeSA9IHRydWUKICApCiAgTGlzdDxFbnRyYW50RGF0dW1HTURUTz4gZ2V0QXJyaXZhbEVudHJhbnREYXRhRm9yR2VuZXJhbE1hbmlmZXN0UmVwb3J0CiAgICAgICAgICAoCiAgICAgICAgICAgICAgICAgIEBQYXJhbSgic2FpbGluZ19pZCIpIExvbmcgc2FpbGluZ0lkLAogICAgICAgICAgICAgICAgICBAUGFyYW0oInBhc3NlbmdlcnNfb25seSIpIEludGVnZXIgcGFzc2VuZ2Vyc09ubHksCiAgICAgICAgICAgICAgICAgIEBQYXJhbSgiY3Jld19vbmx5IikgSW50ZWdlciBjcmV3T25seSwKICAgICAgICAgICAgICAgICAgQFBhcmFtKCJwYXNzZW5nZXJzX2FuZF9jcmV3IikgSW50ZWdlciBwYXNzZW5nZXJzQW5kQ3JldwoKICAgICAgICAgICk7Cgo9PT09PT09</text>
+      <register name="8" type="2">
+        <text encoding="base64">Pj4+Pj4+PiByZXBvcnRzCg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">PDw8PDw8PCBIRUFECmltcG9ydCBnci5saWtub3NzY3JzLnBjcy5yaG9kZXMuZHRvLnJlcG9ydHMuU2FpbGluZ0dlbmVyYWxNYW5pZmVzdERUTzsKPT09PT09PQ==</text>
+      <register name="9" type="2">
+        <text encoding="base64">Pj4+Pj4+PiByZXBvcnRzCg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -806,23 +807,23 @@
         <entry>action $SelectAll</entry>
         <entry>action RenameElement</entry>
         <entry>action GotoSymbol</entry>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action Replace</entry>
         <entry>action GotoImplementation</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action NextTab</entry>
         <entry>28</entry>
         <entry>339</entry>
         <entry>action AceAction</entry>
         <entry>action PreviousTab</entry>
-        <entry>action Find</entry>
         <entry>action SplitVertically</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action ReformatCode</entry>
         <entry>action OptimizeImports</entry>
         <entry>action FindUsages</entry>
+        <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action Find</entry>
         <entry>action GotoFile</entry>
+        <entry>action NextTab</entry>
         <entry>action FileStructurePopup</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
