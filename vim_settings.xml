@@ -17,9 +17,6 @@
         <mark key="." line="68" column="4" />
         <mark key="^" line="68" column="3" />
       </file>
-      <file name="/a.dummy" timestamp="1574427709892">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/specs/mail.txt" timestamp="1574758575993">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -233,12 +230,12 @@
         <mark key="^" line="231" column="28" />
         <mark key="." line="231" column="28" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_main.jrxml" timestamp="1574438504475">
-        <mark key="'" line="35" column="4" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="0" />
-        <mark key="^" line="35" column="24" />
-        <mark key="." line="36" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_main.jrxml" timestamp="1574765805687">
+        <mark key="'" line="164" column="101" />
+        <mark key="[" line="164" column="98" />
+        <mark key="]" line="164" column="98" />
+        <mark key="^" line="164" column="67" />
+        <mark key="." line="164" column="112" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/AlertConfigurationRBO.java" timestamp="1574325517070">
         <mark key="'" line="64" column="0" />
@@ -434,6 +431,13 @@
         <mark key="^" line="113" column="28" />
         <mark key="." line="113" column="28" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_subreport.jrxml" timestamp="1574765771433">
+        <mark key="'" line="275" column="101" />
+        <mark key="[" line="275" column="100" />
+        <mark key="]" line="275" column="100" />
+        <mark key="." line="275" column="116" />
+        <mark key="^" line="275" column="69" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" timestamp="1574694330259">
         <mark key="'" line="145" column="51" />
         <mark key="[" line="148" column="0" />
@@ -545,9 +549,6 @@
         <mark key="^" line="77" column="32" />
         <mark key="." line="77" column="32" />
       </file>
-      <file name="/Dummy.txt" timestamp="1574693471265">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IAlertConfigurationService.java" timestamp="1574170184888">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -611,8 +612,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="38" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/AlertLineRBO.java" />
-      <jump line="330" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
       <jump line="112" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
       <jump line="56" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
       <jump line="36" column="39" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SmsService.java" />
@@ -711,6 +710,8 @@
       <jump line="291" column="107" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_subreport.jrxml" />
       <jump line="277" column="107" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_subreport.jrxml" />
       <jump line="270" column="107" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_subreport.jrxml" />
+      <jump line="275" column="101" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_subreport.jrxml" />
+      <jump line="164" column="101" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_main.jrxml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -720,7 +721,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>vehiclePlate</text>
+        <text>firstName</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">RntwYXNzZW5nZXJUeXBlQ29kZX0g</text>
@@ -729,37 +730,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>$F{vehiclePlate} == null? new String(&quot;&quot;) :$F{vehiclePlate}</text>
+        <text>$F{firstName} == null? new String(&quot;&quot;) :$F{firstName}</text>
       </register>
       <register name="1" type="4">
-        <text>vehiclePlate</text>
+        <text>firstName</text>
       </register>
       <register name="2" type="4">
-        <text>vehiclePlate</text>
+        <text>firstName</text>
       </register>
       <register name="3" type="4">
-        <text>$F{ticketNumber}</text>
+        <text>$F{incomingArrival}</text>
       </register>
       <register name="4" type="4">
-        <text>iclePlate</text>
+        <text>firstName</text>
       </register>
       <register name="5" type="4">
-        <text>vehiclePlate</text>
+        <text>firstName</text>
       </register>
       <register name="6" type="4">
-        <text>$F{firstName}</text>
+        <text>$F{entrantDataCardId}</text>
       </register>
       <register name="7" type="4">
-        <text>$F{firstName}</text>
+        <text>vehiclePlate</text>
       </register>
       <register name="x" type="4">
-        <text>vehiclePlate</text>
+        <text>firstName</text>
       </register>
       <register name="8" type="4">
         <text>vehiclePlate</text>
       </register>
       <register name="9" type="4">
-        <text>vehiclePlate</text>
+        <text>$F{ticketNumber}</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -797,9 +798,9 @@
         <entry>28</entry>
         <entry>339</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action AceAction</entry>
         <entry>action ReformatCode</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
