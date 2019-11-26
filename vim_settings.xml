@@ -534,7 +534,7 @@
         <mark key="^" line="95" column="1" />
         <mark key="." line="95" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" timestamp="1574758638994">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" timestamp="1574760574387">
         <mark key="'" line="34" column="29" />
         <mark key="[" line="29" column="18" />
         <mark key="]" line="29" column="16" />
@@ -758,7 +758,7 @@ spring.mail.password=internet</text>
         <text>String</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -792,9 +792,9 @@ spring.mail.password=internet</text>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
