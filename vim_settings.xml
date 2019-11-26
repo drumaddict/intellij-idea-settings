@@ -324,7 +324,7 @@
         <mark key="^" line="41" column="12" />
         <mark key="." line="39" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1574759009889">
+      <file name="$USER_HOME$/projects/pcs/README.md" timestamp="1574761439675">
         <mark key="'" line="76" column="2" />
         <mark key="[" line="76" column="2" />
         <mark key="]" line="76" column="40" />
@@ -758,7 +758,7 @@ spring.mail.password=internet</text>
         <text>String</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -792,9 +792,9 @@ spring.mail.password=internet</text>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
