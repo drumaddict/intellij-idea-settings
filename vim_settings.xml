@@ -24,6 +24,13 @@
         <mark key="^" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationController.java" timestamp="1574851052980">
+        <mark key="'" line="30" column="55" />
+        <mark key="[" line="30" column="43" />
+        <mark key="]" line="30" column="39" />
+        <mark key="^" line="30" column="39" />
+        <mark key="." line="30" column="39" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" timestamp="1574344775758">
         <mark key="'" line="92" column="0" />
         <mark key="[" line="20" column="63" />
@@ -59,12 +66,12 @@
         <mark key="^" line="93" column="56" />
         <mark key="." line="93" column="56" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" timestamp="1574773019379">
-        <mark key="'" line="20" column="29" />
-        <mark key="[" line="18" column="50" />
-        <mark key="]" line="19" column="0" />
-        <mark key="^" line="19" column="0" />
-        <mark key="." line="19" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" timestamp="1574846546881">
+        <mark key="'" line="32" column="2" />
+        <mark key="[" line="32" column="46" />
+        <mark key="]" line="32" column="27" />
+        <mark key="^" line="32" column="27" />
+        <mark key="." line="32" column="27" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/reports/SailingGeneralManifestDTO.java" timestamp="1574683565794">
         <mark key="'" line="0" column="0" />
@@ -108,19 +115,24 @@
         <mark key="." line="20" column="64" />
         <mark key="^" line="20" column="64" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/CheckedEntrantDataListReportService.java" timestamp="1574842892301">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/CheckedEntrantDataListReportService.java" timestamp="1574844800024">
         <mark key="'" line="45" column="4" />
-        <mark key="[" line="45" column="49" />
-        <mark key="]" line="45" column="57" />
-        <mark key="." line="45" column="57" />
-        <mark key="^" line="45" column="57" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+        <mark key="^" line="30" column="9" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" timestamp="1574681370800">
-        <mark key="'" line="85" column="60" />
-        <mark key="[" line="86" column="0" />
-        <mark key="]" line="86" column="0" />
+      <file name="/traffic_main.jrxml" timestamp="1574845786137">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="253" column="14" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" timestamp="1574846364344">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="96" column="0" />
+        <mark key="]" line="96" column="0" />
         <mark key="^" line="85" column="13" />
-        <mark key="." line="86" column="0" />
+        <mark key="." line="96" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/EntrantDatumRepository.java" timestamp="1574339730879">
         <mark key="'" line="26" column="95" />
@@ -150,6 +162,11 @@
         <mark key="^" line="77" column="32" />
         <mark key="." line="77" column="32" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ValidationPCSException.java" timestamp="1574847266871">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="53" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Agency.java" timestamp="1574344693071">
         <mark key="'" line="21" column="66" />
         <mark key="[" line="21" column="51" />
@@ -178,17 +195,19 @@
         <mark key="^" line="9" column="68" />
         <mark key="." line="9" column="68" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailing_entrant_data.xml" timestamp="1574779407831">
-        <mark key="'" line="49" column="32" />
-        <mark key="[" line="49" column="32" />
-        <mark key="]" line="49" column="78" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertConfigurationDTO.java" timestamp="1574265036021">
         <mark key="'" line="12" column="2" />
         <mark key="[" line="10" column="60" />
         <mark key="]" line="10" column="59" />
         <mark key="^" line="10" column="59" />
         <mark key="." line="10" column="59" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" timestamp="1574851086819">
+        <mark key="'" line="76" column="2" />
+        <mark key="[" line="76" column="2" />
+        <mark key="]" line="85" column="108" />
+        <mark key="^" line="79" column="62" />
+        <mark key="." line="78" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataCard.java" timestamp="1574243768822">
         <mark key="'" line="109" column="2" />
@@ -203,14 +222,14 @@
         <mark key="." line="15" column="27" />
         <mark key="^" line="15" column="27" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/reports/ReportRepository.java" timestamp="1574843056842">
-        <mark key="[" line="161" column="18" />
-        <mark key="]" line="161" column="48" />
-        <mark key="." line="167" column="49" />
-        <mark key="^" line="167" column="49" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/specs/reports/reports_B.sql" timestamp="1574768392928">
         <mark key="'" line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/AuthorizationAspect.java" timestamp="1574851957348">
+        <mark key="'" line="73" column="77" />
+        <mark key="[" line="75" column="0" />
+        <mark key="]" line="75" column="0" />
+        <mark key="." line="75" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/b2b/B2BService.java" timestamp="1574419572720">
         <mark key="[" line="95" column="0" />
@@ -246,12 +265,26 @@
         <mark key="^" line="1" column="30" />
         <mark key="." line="1" column="30" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" timestamp="1574851508577">
+        <mark key="'" line="49" column="18" />
+        <mark key="[" line="43" column="4" />
+        <mark key="]" line="43" column="9" />
+        <mark key="." line="43" column="9" />
+        <mark key="^" line="43" column="9" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" timestamp="1574355566224">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="13" column="0" />
         <mark key="^" line="7" column="13" />
         <mark key="." line="7" column="14" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/build-dev/classes/application.properties" timestamp="1574846255508">
+        <mark key="'" line="32" column="2" />
+        <mark key="[" line="32" column="46" />
+        <mark key="]" line="32" column="27" />
+        <mark key="^" line="32" column="27" />
+        <mark key="." line="32" column="27" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" timestamp="1574778412535">
         <mark key="'" line="220" column="2" />
@@ -291,12 +324,12 @@
         <mark key="^" line="44" column="71" />
         <mark key="." line="44" column="71" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/checked_entrant_data_list.xml" timestamp="1574844118499">
-        <mark key="[" line="54" column="57" />
-        <mark key="k" line="56" column="35" />
-        <mark key="]" line="54" column="56" />
-        <mark key="^" line="54" column="56" />
-        <mark key="." line="54" column="56" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/UnauthorizedPCSException.java" timestamp="1574847459781">
+        <mark key="'" line="33" column="0" />
+        <mark key="[" line="31" column="59" />
+        <mark key="]" line="31" column="59" />
+        <mark key="." line="31" column="59" />
+        <mark key="^" line="31" column="59" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/RoleRepository.java" timestamp="1574339712266">
         <mark key="'" line="27" column="2" />
@@ -326,12 +359,25 @@
         <mark key="^" line="88" column="3" />
         <mark key="." line="23" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConstants.java" timestamp="1574848090162">
+        <mark key="'" line="7" column="85" />
+        <mark key="[" line="7" column="57" />
+        <mark key="]" line="7" column="86" />
+        <mark key="^" line="7" column="56" />
+        <mark key="." line="7" column="57" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/AlertConfigurationDao.java" timestamp="1574693237096">
         <mark key="'" line="30" column="9" />
         <mark key="[" line="30" column="9" />
         <mark key="]" line="30" column="69" />
         <mark key="." line="32" column="79" />
         <mark key="^" line="32" column="79" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/backup/gm_subreport.jrxml" timestamp="1574763321975">
+        <mark key="'" line="453" column="107" />
+        <mark key="[" line="453" column="50" />
+        <mark key="]" line="453" column="108" />
+        <mark key="." line="453" column="50" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/repository/UserRepository.java" timestamp="1574779939450">
         <mark key="[" line="34" column="29" />
@@ -360,12 +406,12 @@
         <mark key="." line="31" column="37" />
         <mark key="^" line="31" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1574344796310">
-        <mark key="'" line="80" column="27" />
-        <mark key="[" line="35" column="36" />
-        <mark key="]" line="35" column="63" />
-        <mark key="^" line="35" column="63" />
-        <mark key="." line="35" column="63" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" timestamp="1574848454215">
+        <mark key="'" line="118" column="0" />
+        <mark key="[" line="122" column="0" />
+        <mark key="]" line="122" column="0" />
+        <mark key="^" line="121" column="80" />
+        <mark key="." line="122" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/UserRBO.java" timestamp="1574336517292">
         <mark key="'" line="41" column="2" />
@@ -401,6 +447,9 @@
         <mark key="]" line="19" column="0" />
         <mark key="." line="19" column="0" />
         <mark key="^" line="15" column="11" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/traffic_main.xml" timestamp="1574845806675">
+        <mark key="'" line="21" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/dbl/migrations/devdata/insert_cmp_locations..xml" timestamp="1574333963345">
         <mark key="'" line="0" column="0" />
@@ -506,6 +555,13 @@
         <mark key="^" line="19" column="62" />
         <mark key="." line="19" column="62" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/traffic.xml" timestamp="1574846326876">
+        <mark key="'" line="94" column="0" />
+        <mark key="[" line="75" column="0" />
+        <mark key="]" line="75" column="0" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="75" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IAlertLineService.java" timestamp="1574695041541">
         <mark key="[" line="39" column="0" />
         <mark key="]" line="39" column="0" />
@@ -602,8 +658,12 @@
         <mark key="^" line="77" column="32" />
         <mark key="." line="77" column="32" />
       </file>
-      <file name="/Dummy.txt" timestamp="1574784696948">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/PortSectorController.java" timestamp="1574849321404">
+        <mark key="'" line="31" column="0" />
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="55" />
+        <mark key="^" line="31" column="42" />
+        <mark key="." line="31" column="42" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/types/IAlertConfigurationService.java" timestamp="1574170184888">
         <mark key="'" line="0" column="0" />
@@ -618,12 +678,6 @@
         <mark key="]" line="23" column="29" />
         <mark key="^" line="95" column="1" />
         <mark key="." line="95" column="1" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" timestamp="1574843081283">
-        <mark key="'" line="2" column="15" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/reports/EntrantDatumGMDTO.java" timestamp="1574773248078">
         <mark key="[" line="4" column="0" />
@@ -652,7 +706,7 @@
         <mark key="." line="17" column="22" />
         <mark key="^" line="17" column="22" />
       </file>
-      <file name="/fragment.java" timestamp="1574784696920">
+      <file name="/fragment.java" timestamp="1574849653300">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -667,50 +721,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="278" column="15" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
-      <jump line="267" column="100" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
-      <jump line="114" column="68" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
-      <jump line="24" column="22" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AgencyService.java" />
-      <jump line="98" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AgencyService.java" />
-      <jump line="112" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
-      <jump line="285" column="21" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
-      <jump line="284" column="36" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
-      <jump line="43" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
-      <jump line="295" column="58" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
-      <jump line="286" column="54" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
-      <jump line="274" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
-      <jump line="219" column="109" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
-      <jump line="287" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
-      <jump line="231" column="114" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
-      <jump line="53" column="14" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" />
-      <jump line="85" column="60" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" />
-      <jump line="1445" column="34" filename="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandler.java" />
-      <jump line="136" column="15" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertLine.java" />
-      <jump line="118" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" />
-      <jump line="21" column="26" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertLine.java" />
-      <jump line="120" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/rbo/EntrantDataCheckRBO.java" />
-      <jump line="24" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertLine.java" />
-      <jump line="34" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertLine.java" />
-      <jump line="147" column="51" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
-      <jump line="287" column="50" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
-      <jump line="19" column="26" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertLine.java" />
-      <jump line="80" column="19" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/AlertConfiguration.java" />
-      <jump line="145" column="51" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
-      <jump line="9" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/checks/tickets.txt" />
-      <jump line="1" column="23" filename="$USER_HOME$/projects/pcs/rhodes/specs/checks/tickets.txt" />
-      <jump line="3" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/checks/tickets.txt" />
-      <jump line="119" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/b2b/EntrantDatumB2BController.java" />
-      <jump line="90" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/SailingAdminController.java" />
-      <jump line="77" column="52" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/SailingAdminController.java" />
-      <jump line="28" column="28" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/mail.txt" />
-      <jump line="25" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
-      <jump line="38" column="13" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
-      <jump line="31" column="33" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
-      <jump line="39" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
-      <jump line="33" column="33" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
-      <jump line="40" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
-      <jump line="34" column="29" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
       <jump line="453" column="107" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/backup/gm_subreport.jrxml" />
       <jump line="338" column="107" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_subreport.jrxml" />
       <jump line="385" column="131" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/gm_subreport.jrxml" />
@@ -767,6 +777,50 @@
       <jump line="104" column="20" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
       <jump line="91" column="74" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
       <jump line="45" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/reports/CheckedEntrantDataListReportService.java" />
+      <jump line="98" column="23" filename="/traffic_main.jrxml" />
+      <jump line="27" column="0" filename="/traffic_main.jrxml" />
+      <jump line="0" column="0" filename="/traffic_main.jrxml" />
+      <jump line="252" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/traffic_main.xml" />
+      <jump line="21" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/reports/templates/traffic_main.xml" />
+      <jump line="107" column="36" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" />
+      <jump line="10" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" />
+      <jump line="197" column="17" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/traffic.xml" />
+      <jump line="196" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/traffic.xml" />
+      <jump line="45" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/traffic.xml" />
+      <jump line="68" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/traffic.xml" />
+      <jump line="32" column="2" filename="$USER_HOME$/projects/pcs/rhodes/build-dev/classes/application.properties" />
+      <jump line="89" column="20" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/traffic.xml" />
+      <jump line="94" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/traffic.xml" />
+      <jump line="32" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" />
+      <jump line="25" column="20" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ValidationPCSException.java" />
+      <jump line="7" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ValidationPCSException.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ValidationPCSException.java" />
+      <jump line="53" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/UnauthorizedPCSException.java" />
+      <jump line="52" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/UnauthorizedPCSException.java" />
+      <jump line="82" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/UnauthorizedPCSException.java" />
+      <jump line="42" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/UnauthorizedPCSException.java" />
+      <jump line="80" column="18" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" />
+      <jump line="8" column="30" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConstants.java" />
+      <jump line="5" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConstants.java" />
+      <jump line="7" column="85" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/configuration/SecurityConstants.java" />
+      <jump line="106" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="116" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/User.java" />
+      <jump line="31" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/PortSectorController.java" />
+      <jump line="29" column="55" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/admin/LocationController.java" />
+      <jump line="88" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/AuthorizationAspect.java" />
+      <jump line="102" column="5" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/AuthorizationAspect.java" />
+      <jump line="84" column="5" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/AuthorizationAspect.java" />
+      <jump line="90" column="14" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/AuthorizationAspect.java" />
+      <jump line="83" column="56" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/AuthorizationAspect.java" />
+      <jump line="76" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/exception/ExceptionResponseMapper.java" />
+      <jump line="52" column="108" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
+      <jump line="46" column="18" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
+      <jump line="47" column="18" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
+      <jump line="48" column="18" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
+      <jump line="49" column="18" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Permission.java" />
+      <jump line="77" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/AuthorizationAspect.java" />
+      <jump line="73" column="77" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/AuthorizationAspect.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -776,49 +830,49 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>2</text>
+        <text>controllerOperationRequestMethodsAsString</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">RntwYXNzZW5nZXJUeXBlQ29kZX0g</text>
+        <text>COLOSSUS_OF_RHODES_PERMISSION</text>
       </register>
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>getCheckedEntrantDataListReport</text>
+        <text encoding="base64">cmVxdWVzdE1ldGhvZHNPZkF0dGVtcHRlZE9wZXJhdGlvbi5zdHJlYW0oKQogICAgICAgICAgICAgICAgICAgIC5tYXAobSAtPiBtLnRvU3RyaW5nKCkpLmNvbGxlY3QoQ29sbGVjdG9ycy5qb2luaW5nKCIsICIpKTs=</text>
       </register>
-      <register name="1" type="4">
-        <text>2</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="4">
-        <text>--</text>
+        <text encoding="base64">U3RyaW5nIHJlcXVlc3RNZXRob2RzQWxsb3dlZEJ5VXNlckFzU3RyaW5nID0KICAgICAgICAgICAgcmVxdWVzdE1ldGhvZHNBbGxvd2VkQnlVc2VyLnN0cmVhbSgpCiAgICAgICAgICAgICAgICAgICAgLm1hcChtIC0+IG0udG9TdHJpbmcoKSkuY29sbGVjdChDb2xsZWN0b3JzLmpvaW5pbmcoIiwgIikpOwogICAgU3RyaW5nIGNvbnRyb2xsZXJPcGVyYXRpb25SZXF1ZXN0TWV0aG9kc0FzU3RyaW5nID0KICAgICAgICAgICAgcmVxdWVzdE1ldGhvZHNPZkF0dGVtcHRlZE9wZXJhdGlvbi5zdHJlYW0oKQogICAgICAgICAgICAgICAgICAgIC5tYXAobSAtPiBtLnRvU3RyaW5nKCkpLmNvbGxlY3QoQ29sbGVjdG9ycy5qb2luaW5nKCIsICIpKTs=</text>
       </register>
       <register name="3" type="4">
-        <text>originPortId</text>
+        <text>controllerOperationRequestMethodsAsString</text>
       </register>
-      <register name="4" type="4">
-        <text>originPortId</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIC8vVE9ETyByZXBsYWNlIFZhbGlkYXRpb25QQ1NFeGNlcHRpb24gd2l0aCBBdXRob3JpemF0aW9uIGV4Y2VwdGlvbgo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IAo=</text>
+      <register name="5" type="4">
+        <text>private</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgICAgICAgICBjb21wYW55SWQsCg==</text>
+      <register name="6" type="4">
+        <text>HttpStatus</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="x" type="4">
-        <text>2</text>
+        <text>controllerOperationRequestMethodsAsString</text>
       </register>
-      <register name="8" type="4">
-        <text>emailAdderesses</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -839,23 +893,23 @@
         <entry>action QuickJavaDoc</entry>
         <entry>28</entry>
         <entry>339</entry>
-        <entry>action AceAction</entry>
         <entry>action SplitVertically</entry>
-        <entry>action OptimizeImports</entry>
-        <entry>action NextTab</entry>
-        <entry>action Find</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action FindUsages</entry>
         <entry>action GotoImplementation</entry>
         <entry>action RenameElement</entry>
-        <entry>action ReformatCode</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action Replace</entry>
-        <entry>action GotoDeclaration</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
-        <entry>action GotoFile</entry>
+        <entry>action Replace</entry>
+        <entry>action AceAction</entry>
+        <entry>action OptimizeImports</entry>
+        <entry>action Find</entry>
+        <entry>action NextTab</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
