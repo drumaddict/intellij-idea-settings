@@ -272,6 +272,12 @@
         <mark key="." line="86" column="32" />
         <mark key="^" line="86" column="32" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1574933861038">
+        <mark key="[" line="854" column="0" />
+        <mark key="]" line="854" column="0" />
+        <mark key="^" line="854" column="0" />
+        <mark key="." line="854" column="0" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.sql" timestamp="1574259176234">
         <mark key="'" line="143" column="28" />
         <mark key="[" line="1" column="29" />
@@ -286,11 +292,11 @@
         <mark key="." line="43" column="9" />
         <mark key="^" line="43" column="9" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1574931549323">
-        <mark key="[" line="2169" column="89" />
-        <mark key="]" line="2171" column="8" />
-        <mark key="^" line="46" column="17" />
-        <mark key="." line="2171" column="8" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1574934665132">
+        <mark key="'" line="2180" column="8" />
+        <mark key="[" line="2161" column="0" />
+        <mark key="]" line="2161" column="0" />
+        <mark key="." line="2161" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" timestamp="1574355566224">
         <mark key="'" line="0" column="0" />
@@ -781,12 +787,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="282" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
-      <jump line="278" column="5" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
-      <jump line="320" column="56" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
-      <jump line="283" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
-      <jump line="324" column="86" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
-      <jump line="285" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/admin/AlertLineService.java" />
       <jump line="99" column="12" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
       <jump line="105" column="53" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
       <jump line="104" column="20" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" />
@@ -881,6 +881,12 @@
       <jump line="46" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="33" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="44" column="75" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2170" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2181" column="107" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2171" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2182" column="43" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2172" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="2185" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -890,7 +896,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>new</text>
+        <text>allow</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">QXJyYXlMaXN0PFN0cmluZz4oKTs=</text>
@@ -899,12 +905,12 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHJvdGVjdGVkIHN0YXRpYyBmaW5hbCBWZWN0b3I8U3RyaW5nPiBWQUxJRF9TVEFUVVNFUyA9IG5ldyBWZWN0b3I8U3RyaW5nPigpOw==</text>
+        <text>if (!CONFIRMATIONS_STATUSES_ALLOWED_TO_DELETE.contains(priocheckBean.getPriStatus().trim())) {
+          return false;
+        }</text>
       </register>
-      <register name="1" type="4">
-        <text>String qry = String.format(&quot;WHERE BOOK_ID = %d order by BOARD_DATE desc &quot;, pnode.getPassenger(i).getBookID());
-        System.out.println(qry);
-        EmbarkdtaVwBean[] vb = m.loadByWhere(String.format(&quot;WHERE BOOK_ID = %d order by BOARD_DATE desc &quot;, pnode.getPassenger(i).getBookID()));</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
@@ -912,31 +918,29 @@
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>//  CONFI.add(ConfirmationStatus.A.toString());
-//      VALID_STATUSES.add(ConfirmationStatus.C.toString());
-//      VALID_STATUSES.add(ConfirmationStatus.N.toString());</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIEVtYmFya2R0YVZ3TWFuYWdlciBtID0gRW1iYXJrZHRhVndNYW5hZ2VyLmdldEluc3RhbmNlKCk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBwcml2YXRlIGZpbmFsIExpc3Q8U3RyaW5nPiBDT05GSVJNQVRJT05TX1NUQVRVU0VTX0FMTE9XRURfVE9fREVMRVRFID0gIEFycmF5TGlzdDxTdHJpbmc+KCk7CiAgCiAgQ09ORkkuYWRkKENvbmZpcm1hdGlvblN0YXR1cy5BLnRvU3RyaW5nKCkpOwogICAgICBWQUxJRF9TVEFUVVNFUy5hZGQoQ29uZmlybWF0aW9uU3RhdHVzLkMudG9TdHJpbmcoKSk7CiAgICAgIFZBTElEX1NUQVRVU0VTLmFkZChDb25maXJtYXRpb25TdGF0dXMuTi50b1N0cmluZygpKTsKCiAgLyoKICAgKiBMb2FkcyB0aGUgcmVxdWVzdCBYTUwgb2JqZWN0LgogICAqIEFkZCBhbnkgbG9naWMgaGVyZS4uLgogICAqLwogIHB1YmxpYyBFbWJhcmthdGlvbkhhbmRsZXIoeG1sLm1lc3NhZ2VzLlNlcnZpY2VNZXNzYWdlLlNlcnZpY2VNZXNzYWdlIHJlcU9iaikgewogICAgcmVxWE1MID0gcmVxT2JqOwogICAgYm9hcmREYXRhLmNsZWFyKCk7CiAgICBib29rSURzLmNsZWFyKCk7CiAgICBtZXNzYWdlaWQgPSByZXFYTUwuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlSGVhZGVyKCkuZ2V0U2VydmljZUluZm8oKS5nZXRNZXNzYWdlVHlwZSgpLnRyaW0oKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>new</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGJvb2xlYW4gYWxsb3cgPSB0cnVlOwo=</text>
       </register>
       <register name="7" type="4">
-        <text>static</text>
+        <text>allow</text>
       </register>
       <register name="x" type="4">
-        <text>new</text>
+        <text>allow</text>
       </register>
-      <register name="8" type="4">
-        <text>CONFIRMATION</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>inal</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action GotoDeclaration</text>
       </register>
     </registers>
     <search>
@@ -957,22 +961,24 @@
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gR290b0ZpbGU=</entry>
         <entry>action Replace</entry>
-        <entry>action AceAction</entry>
         <entry>action $SelectAll</entry>
         <entry>action OptimizeImports</entry>
         <entry>action HideAllWindows</entry>
         <entry>action SplitVertically</entry>
         <entry>action RenameElement</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action FindUsages</entry>
+        <entry>action FileStructurePopup</entry>
         <entry>action GotoFile</entry>
-        <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
+        <entry>2175</entry>
+        <entry>action AceAction</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
-        <entry>action FileStructurePopup</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
       </history-cmd>
       <history-expr />
       <history-input />
