@@ -31,6 +31,7 @@
         <mark key="^" line="30" column="39" />
         <mark key="." line="30" column="39" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/documentation/departureTicket/xml/DepartureTicketDataCPRQ_S.xml" timestamp="1574932397976" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/Role.java" timestamp="1574344775758">
         <mark key="'" line="92" column="0" />
         <mark key="[" line="20" column="63" />
@@ -935,7 +936,7 @@
         <text>inal</text>
       </register>
       <register name=":" type="4">
-        <text>action FileStructurePopup</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -964,14 +965,14 @@
         <entry>action RenameElement</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action FindUsages</entry>
-        <entry>action Find</entry>
         <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
         <entry>action FileStructurePopup</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
