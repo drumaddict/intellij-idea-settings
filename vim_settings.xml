@@ -143,6 +143,11 @@
         <mark key="^" line="26" column="20" />
         <mark key="." line="26" column="20" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0220_STATISTICS_MASTER.sql" timestamp="1575021772624">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/RoleDao.java" timestamp="1574340076210">
         <mark key="'" line="120" column="66" />
         <mark key="[" line="121" column="56" />
@@ -633,6 +638,11 @@
         <mark key="^" line="22" column="46" />
         <mark key="." line="22" column="46" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0230_STATISTICS_DETAIL.sql" timestamp="1575021693174">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EmailSchedulerService.java" timestamp="1574758386355">
         <mark key="'" line="85" column="90" />
         <mark key="[" line="85" column="90" />
@@ -755,12 +765,6 @@
         <mark key="]" line="685" column="26" />
         <mark key="^" line="685" column="26" />
         <mark key="." line="685" column="26" />
-      </file>
-      <file name="/fragment.java" timestamp="1574936977901">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="^" line="0" column="0" />
-        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SmsService.java" timestamp="1574758348392">
         <mark key="'" line="50" column="32" />
@@ -891,35 +895,50 @@
       <register name="0" type="4">
         <text>// SendCheckInDataSMRS_A</text>
       </register>
-      <register name="1" type="4">
-        <text>SendCheckInDataSMRS_A</text>
+      <register name="1" type="2">
+        <text encoding="base64">Lwo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+      <register name="2" type="4">
+        <text>create index MASTER_ID_IDX
+    on STATISTICS_MASTER (MASTER_ID)
+/</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="5" type="4">
+        <text>create table STATISTICS_MASTER
+(
+    MASTER_ID NUMBER       not null
+        primary key,
+    DEP_DATE  TIMESTAMP(6) not null,
+    VESS_IMO  VARCHAR2(40) not null,
+    COMP_CODE VARCHAR2(10) not null,
+    DEP_CODE  CHAR(5)      not null,
+    ARR_CODE  CHAR(5)      not null
+)
+/
+create index MASTER_ID_IDX
+    on STATISTICS_MASTER (MASTER_ID)
+/</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">IAo=</text>
+      <register name="6" type="4">
+        <text>SendCheckInDataSMRS_A</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="x" type="4">
         <text>SendCheckInDataSMRS_A</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">IHByb3RlY3RlZCBJdGluZW5xVndCZWFuIGZldGNoSXRpbmVyYXJpZXMoeG1sLm1lc3NhZ2VzLmNvbXBhbmllc19jaGVja2luX2Fucy5NZXNzYWdlRGF0YSBtc2dEdGEpIHRocm93cyBEQU9FeGNlcHRpb24gewogICAgSXRpbmVucVZ3TWFuYWdlciB2aWV3bSA9IEl0aW5lbnFWd01hbmFnZXIuZ2V0SW5zdGFuY2UoKTsKICAgIGludCBjcml0ZXJpYSA9IDA7CgogICAgSWZhY2VQYXJzUGVyY29tcEJlYW4gaWZwYyA9IGZldGNoSWZhY2VQYXJzKG1zZ0R0YS5nZXRDb21wYW55Q29kZSgpKTsKCiAgICBTdHJpbmdCdWZmZXIgY3JpdGVyaWFTUUwgPSBuZXcgU3RyaW5nQnVmZmVyKCk7CgogICAgU3RyaW5nIG5kYXRlID0gbXNnRHRhLmdldERlcGFydHVyZURhdGUoKS50cmltKCkuc3Vic3RyaW5nKDAsIDQpICsgIi0iICsgbXNnRHRhLmdldERlcGFydHVyZURhdGUoKS50cmltKCkuc3Vic3RyaW5nKDQsIDYpICsgIi0iICsgbXNnRHRhLmdldERlcGFydHVyZURhdGUoKS50cmltKCkuc3Vic3RyaW5nKDYsIDgpOwogICAgU3RyaW5nIGZUaW1lID0gIiAiICsgbXNnRHRhLmdldERlcGFydHVyZVRpbWUoKS50cmltKCkuc3Vic3RyaW5nKDAsIDIpICsgIjoiICsgbXNnRHRhLmdldERlcGFydHVyZVRpbWUoKS50cmltKCkuc3Vic3RyaW5nKDIsIDQpICsgIjowMCI7CgogICAgY3JpdGVyaWFTUUwuYXBwZW5kKCIgREVQX0RBVEU9JyIgKyBuZGF0ZSArIGZUaW1lICsgIicgIik7CiAgICBjcml0ZXJpYVNRTC5hcHBlbmQoIiBBTkQgIik7CiAgICBjcml0ZXJpYVNRTC5hcHBlbmQoIiBDT01QX0NPREU9JyIgKyBpZnBjLmdldENvbXBDb2RlKCkgKyAiJyAiKTsKCiAgICBJdGluZW5xVndCZWFuW10gaXRpbnJvd3MgPSBudWxsOwogICAgU3lzdGVtLm91dC5wcmludGxuKCJTUUw+IiArICIgV0hFUkUgIiArIGNyaXRlcmlhU1FMLnRvU3RyaW5nKCkpOwogICAgaXRpbnJvd3MgPSB2aWV3bS5sb2FkQnlXaGVyZSgiIFdIRVJFICIgKyBjcml0ZXJpYVNRTC50b1N0cmluZygpICsgIiBPUkRFUiBCWSBERVBfREFURSwgU0FJTF9JRCwgSVRJTl9JRCAgIik7CiAgICBpZiAoaXRpbnJvd3MubGVuZ3RoID4gMCkgewogICAgICByZXR1cm4gaXRpbnJvd3NbMF07CiAgICB9IGVsc2UgewogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICB9</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">cHJvdGVjdGVkIElmYWNlUGFyc1BlcmNvbXBCZWFuIGZldGNoSWZhY2VQYXJzKFN0cmluZyBjb21wYW55KSB7CgogICAgSWZhY2VQYXJzUGVyY29tcE1hbmFnZXIgbSA9IElmYWNlUGFyc1BlcmNvbXBNYW5hZ2VyLmdldEluc3RhbmNlKCk7CiAgICBTdHJpbmdCdWZmZXIgY3JpdGVyaWFTUUwgPSBuZXcgU3RyaW5nQnVmZmVyKCk7CiAgICBjcml0ZXJpYVNRTC5hcHBlbmQoIiBXSEVSRSBDT01QX05UVkM9JyIgKyBjb21wYW55ICsgIicgQU5EIE9QX0NPREUgPSAnU2VuZENoZWNrSW5EYXRhUlFfTSciKTsKICAgIFN5c3RlbS5vdXQucHJpbnRsbigiU1FMPiIgKyBjcml0ZXJpYVNRTC50b1N0cmluZygpKTsKICAgIHRyeSB7CiAgICAgIElmYWNlUGFyc1BlcmNvbXBCZWFuW10gcm93cyA9IG51bGw7CiAgICAgIFN0cmluZyBzcWwgPSBudWxsOwogICAgICByb3dzID0gbS5sb2FkQnlXaGVyZShjcml0ZXJpYVNRTC50b1N0cmluZygpKTsKICAgICAgaWYgKHJvd3MubGVuZ3RoID4gMCkgewogICAgICAgIHJldHVybiByb3dzWzBdOwogICAgICB9IGVsc2UgewogICAgICAgIHJldHVybiBudWxsOwogICAgICB9CiAgICB9IGNhdGNoIChFeGNlcHRpb24gZGFvZSkgewogICAgICBkYkVSUk9SID0gdHJ1ZTsKICAgICAgZGJFcnJTdHIgPSBkYW9lLmdldExvY2FsaXplZE1lc3NhZ2UoKTsKICAgICAgZGFvZS5wcmludFN0YWNrVHJhY2UoKTsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CiAgfQ==</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -953,11 +972,11 @@
         <entry>action NextTab</entry>
         <entry>action RenameElement</entry>
         <entry>action ReformatCode</entry>
-        <entry>action OptimizeImports</entry>
         <entry>action Find</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
