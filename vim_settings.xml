@@ -556,8 +556,12 @@
         <mark key="." line="275" column="116" />
         <mark key="^" line="275" column="69" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1575025936296">
-        <mark key="'" line="1087" column="20" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1575026843977">
+        <mark key="'" line="1611" column="8" />
+        <mark key="[" line="1611" column="8" />
+        <mark key="]" line="1613" column="8" />
+        <mark key="^" line="1613" column="7" />
+        <mark key="." line="1613" column="7" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" timestamp="1574946042696">
         <mark key="'" line="138" column="15" />
@@ -762,12 +766,18 @@
         <mark key="^" line="123" column="22" />
         <mark key="." line="123" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1575023422509">
-        <mark key="'" line="667" column="55" />
-        <mark key="[" line="667" column="32" />
-        <mark key="]" line="667" column="51" />
-        <mark key="." line="667" column="51" />
-        <mark key="^" line="667" column="51" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1575026707644">
+        <mark key="'" line="101" column="41" />
+        <mark key="[" line="97" column="0" />
+        <mark key="]" line="98" column="64" />
+        <mark key="." line="98" column="64" />
+        <mark key="^" line="98" column="64" />
+      </file>
+      <file name="/fragment.java" timestamp="1575026788703">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SmsService.java" timestamp="1574758348392">
         <mark key="'" line="50" column="32" />
@@ -778,11 +788,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1087" column="20" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
-      <jump line="60" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="119" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="2158" column="25" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="46" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="33" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="44" column="75" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="2181" column="107" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
@@ -878,6 +883,11 @@
       <jump line="667" column="55" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="815" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="65" column="64" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBAReceiveStatisticsService.java" />
+      <jump line="1611" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="612" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="94" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="102" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="101" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -887,7 +897,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>manager</text>
+        <text>There is no Itinerary for the provided sailID and itineraryID</text>
       </register>
       <register name="-" type="4">
         <text>entry.getValue();</text>
@@ -896,40 +906,40 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>PriocheckManager manager = PriocheckManager.getInstance();</text>
+        <text>ITINERARY CLOSED&quot;</text>
       </register>
-      <register name="1" type="4">
-        <text>manager</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgIHJldHVybiAiMDE0OklUSU5FUkFSWSBDTE9TRUQiOwo=</text>
       </register>
       <register name="2" type="4">
-        <text>Stratistics</text>
+        <text>There is no Itinerary for the provided sailID and itineraryID</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">IA==</text>
+        <text>sailing</text>
       </register>
       <register name="4" type="4">
-        <text>PriocheckManager</text>
+        <text>sailing</text>
       </register>
       <register name="5" type="4">
-        <text>PriocheckManager</text>
-      </register>
-      <register name="6" type="4">
-        <text>passengerPriocheckBean</text>
-      </register>
-      <register name="7" type="4">
-        <text>(</text>
-      </register>
-      <register name="x" type="4">
         <text>manager</text>
       </register>
+      <register name="6" type="4">
+        <text>Stratistics</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">IA==</text>
+      </register>
+      <register name="x" type="4">
+        <text>There is no Itinerary for the provided sailID and itineraryID</text>
+      </register>
       <register name="8" type="4">
-        <text>assenger</text>
+        <text>PriocheckManager</text>
       </register>
       <register name="9" type="4">
-        <text>passengerPriocheckBean</text>
+        <text>PriocheckManager</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -957,15 +967,15 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action RenameElement</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action ReformatCode</entry>
         <entry>action Replace</entry>
-        <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
-        <entry>action SaveAll</entry>
         <entry>action Find</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
         <entry>action GotoFile</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
