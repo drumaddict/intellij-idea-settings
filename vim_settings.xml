@@ -225,12 +225,12 @@
         <mark key="^" line="79" column="62" />
         <mark key="." line="78" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBAReceiveStatisticsService.java" timestamp="1575019571559">
-        <mark key="'" line="64" column="58" />
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="0" />
-        <mark key="^" line="66" column="25" />
-        <mark key="." line="26" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBAReceiveStatisticsService.java" timestamp="1575025111362">
+        <mark key="'" line="66" column="64" />
+        <mark key="[" line="66" column="56" />
+        <mark key="]" line="66" column="94" />
+        <mark key="^" line="66" column="94" />
+        <mark key="." line="66" column="94" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataCard.java" timestamp="1574243768822">
         <mark key="'" line="109" column="2" />
@@ -278,10 +278,10 @@
         <mark key="." line="86" column="32" />
         <mark key="^" line="86" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1575019994508">
-        <mark key="'" line="687" column="4" />
-        <mark key="[" line="687" column="4" />
-        <mark key="]" line="687" column="90" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1575025034206">
+        <mark key="'" line="815" column="4" />
+        <mark key="[" line="815" column="4" />
+        <mark key="]" line="815" column="61" />
         <mark key="^" line="137" column="23" />
         <mark key="." line="132" column="0" />
       </file>
@@ -775,8 +775,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2089" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="2220" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1087" column="20" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="60" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="119" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
@@ -875,6 +873,8 @@
       <jump line="588" column="76" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="585" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="667" column="55" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="815" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="65" column="64" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBAReceiveStatisticsService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -884,7 +884,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>passengerPriocheckBean</text>
+        <text>manager</text>
       </register>
       <register name="-" type="4">
         <text>entry.getValue();</text>
@@ -893,41 +893,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>//Update contact data
-          passengerPriocheckBean.setEmail(passenger.getEmail());
-          passengerPriocheckBean.setMobile(passenger.getMobile());
-          PriocheckManager priocheckManager = PriocheckManager.getInstance();
-          priocheckManager.save(passengerPriocheckBean);</text>
+        <text>PriocheckManager manager = PriocheckManager.getInstance();</text>
       </register>
       <register name="1" type="4">
-        <text>passengerPriocheckBean</text>
+        <text>manager</text>
       </register>
       <register name="2" type="4">
-        <text>(</text>
+        <text>Stratistics</text>
       </register>
       <register name="3" type="4">
-        <text>assenger</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="4" type="4">
-        <text>passengerPriocheckBean</text>
+        <text>PriocheckManager</text>
       </register>
       <register name="5" type="4">
-        <text>passenger</text>
+        <text>PriocheckManager</text>
       </register>
       <register name="6" type="4">
         <text>passengerPriocheckBean</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>(</text>
       </register>
       <register name="x" type="4">
+        <text>manager</text>
+      </register>
+      <register name="8" type="4">
+        <text>assenger</text>
+      </register>
+      <register name="9" type="4">
         <text>passengerPriocheckBean</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIHBhc3NlbmdlclByaW9jaGVja0JlYW4uc2EK</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIHBhCg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -962,10 +958,10 @@
         <entry>action Replace</entry>
         <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
-        <entry>action Find</entry>
         <entry>action PreviousTab</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
