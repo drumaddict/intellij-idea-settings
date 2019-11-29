@@ -225,12 +225,11 @@
         <mark key="^" line="79" column="62" />
         <mark key="." line="78" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBAReceiveStatisticsService.java" timestamp="1575025111362">
-        <mark key="'" line="66" column="64" />
-        <mark key="[" line="66" column="56" />
-        <mark key="]" line="66" column="94" />
-        <mark key="^" line="66" column="94" />
-        <mark key="." line="66" column="94" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBAReceiveStatisticsService.java" timestamp="1575032914568">
+        <mark key="[" line="72" column="57" />
+        <mark key="]" line="73" column="7" />
+        <mark key="^" line="73" column="7" />
+        <mark key="." line="73" column="7" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataCard.java" timestamp="1574243768822">
         <mark key="'" line="109" column="2" />
@@ -788,7 +787,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="44" column="75" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="2181" column="107" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="2171" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
@@ -888,6 +886,7 @@
       <jump line="94" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="102" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="101" column="41" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="54" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBAReceiveStatisticsService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -905,35 +904,35 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="4">
-        <text>ITINERARY CLOSED&quot;</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgZGVwYXJ0dXJlUG9ydENvZGUgPSBtZXNzYWdlRGF0YS5nZXREZXBhcnR1cmVQb3J0Q29kZSgpOwo=</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgZGVwYXJ0dXJlUG9ydENvZGUgPSBtZXNzYWdlRGF0YS5nZXREZXBhcnR1cmVQb3J0Q29kZSgpOwo=</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAgIHJldHVybiAiMDE0OklUSU5FUkFSWSBDTE9TRUQiOwo=</text>
       </register>
-      <register name="2" type="4">
-        <text>There is no Itinerary for the provided sailID and itineraryID</text>
-      </register>
       <register name="3" type="4">
-        <text>sailing</text>
+        <text>There is no Itinerary for the provided sailID and itineraryID</text>
       </register>
       <register name="4" type="4">
         <text>sailing</text>
       </register>
       <register name="5" type="4">
-        <text>manager</text>
+        <text>sailing</text>
       </register>
       <register name="6" type="4">
-        <text>Stratistics</text>
+        <text>manager</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">IA==</text>
+        <text>Stratistics</text>
       </register>
       <register name="x" type="4">
         <text>There is no Itinerary for the provided sailID and itineraryID</text>
       </register>
       <register name="8" type="4">
-        <text>PriocheckManager</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="9" type="4">
         <text>PriocheckManager</text>
