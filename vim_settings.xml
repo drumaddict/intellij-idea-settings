@@ -759,12 +759,12 @@
         <mark key="^" line="123" column="22" />
         <mark key="." line="123" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1575017123868">
-        <mark key="'" line="33" column="2" />
-        <mark key="[" line="685" column="25" />
-        <mark key="]" line="685" column="26" />
-        <mark key="^" line="685" column="26" />
-        <mark key="." line="685" column="26" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1575023422509">
+        <mark key="'" line="667" column="55" />
+        <mark key="[" line="667" column="32" />
+        <mark key="]" line="667" column="51" />
+        <mark key="." line="667" column="51" />
+        <mark key="^" line="667" column="51" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/SmsService.java" timestamp="1574758348392">
         <mark key="'" line="50" column="32" />
@@ -775,10 +775,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="93" column="37" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
-      <jump line="73" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
-      <jump line="99" column="58" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
-      <jump line="141" column="30" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="2089" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="2220" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="1087" column="20" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
@@ -875,6 +871,10 @@
       <jump line="8" column="0" filename="$USER_HOME$/projects/port-checkin-control/docs/assets/APBA.xml" />
       <jump line="40" column="16" filename="$USER_HOME$/projects/port-checkin-control/docs/assets/APBA.xml" />
       <jump line="13" column="0" filename="$USER_HOME$/projects/port-checkin-control/db_migrations/0211_STATISTICS_MASTER.sql" />
+      <jump line="720" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="588" column="76" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="585" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
+      <jump line="667" column="55" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -884,7 +884,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>SendCheckInDataSMRS_A</text>
+        <text>passengerPriocheckBean</text>
       </register>
       <register name="-" type="4">
         <text>entry.getValue();</text>
@@ -893,52 +893,41 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>// SendCheckInDataSMRS_A</text>
+        <text>//Update contact data
+          passengerPriocheckBean.setEmail(passenger.getEmail());
+          passengerPriocheckBean.setMobile(passenger.getMobile());
+          PriocheckManager priocheckManager = PriocheckManager.getInstance();
+          priocheckManager.save(passengerPriocheckBean);</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Lwo=</text>
+      <register name="1" type="4">
+        <text>passengerPriocheckBean</text>
       </register>
       <register name="2" type="4">
-        <text>create index MASTER_ID_IDX
-    on STATISTICS_MASTER (MASTER_ID)
-/</text>
+        <text>(</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>assenger</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>passengerPriocheckBean</text>
       </register>
       <register name="5" type="4">
-        <text>create table STATISTICS_MASTER
-(
-    MASTER_ID NUMBER       not null
-        primary key,
-    DEP_DATE  TIMESTAMP(6) not null,
-    VESS_IMO  VARCHAR2(40) not null,
-    COMP_CODE VARCHAR2(10) not null,
-    DEP_CODE  CHAR(5)      not null,
-    ARR_CODE  CHAR(5)      not null
-)
-/
-create index MASTER_ID_IDX
-    on STATISTICS_MASTER (MASTER_ID)
-/</text>
+        <text>passenger</text>
       </register>
       <register name="6" type="4">
-        <text>SendCheckInDataSMRS_A</text>
+        <text>passengerPriocheckBean</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>SendCheckInDataSMRS_A</text>
+        <text>passengerPriocheckBean</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgICAgICAgIHBhc3NlbmdlclByaW9jaGVja0JlYW4uc2EK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIHBhCg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -958,7 +947,6 @@ create index MASTER_ID_IDX
         <entry>getLeade</entry>
       </history-search>
       <history-cmd>
-        <entry>action Replace</entry>
         <entry>action $SelectAll</entry>
         <entry>action HideAllWindows</entry>
         <entry>action SplitVertically</entry>
@@ -968,15 +956,16 @@ create index MASTER_ID_IDX
         <entry>action VimFilePrevious</entry>
         <entry>action AceAction</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action RenameElement</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
-        <entry>action FindUsages</entry>
-        <entry>action GotoFile</entry>
-        <entry>action GotoDeclaration</entry>
         <entry>action OptimizeImports</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action Replace</entry>
+        <entry>action GotoFile</entry>
+        <entry>action NextTab</entry>
+        <entry>action Find</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action FindUsages</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
