@@ -59,12 +59,12 @@
         <mark key="." line="31" column="37" />
         <mark key="^" line="31" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575293720427">
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575295460958">
         <mark key="'" line="18" column="3" />
-        <mark key="[" line="44" column="0" />
-        <mark key="]" line="44" column="7" />
-        <mark key="." line="44" column="7" />
-        <mark key="^" line="44" column="7" />
+        <mark key="[" line="44" column="8" />
+        <mark key="]" line="44" column="10" />
+        <mark key="." line="44" column="10" />
+        <mark key="^" line="44" column="10" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" timestamp="1574780949249">
         <mark key="'" line="91" column="74" />
@@ -450,6 +450,13 @@
         <mark key="." line="32" column="79" />
         <mark key="^" line="32" column="79" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/.gitlab-ci.yml" timestamp="1575296320519">
+        <mark key="'" line="10" column="14" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="^" line="10" column="11" />
+        <mark key="." line="4" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IEntrantDatumDao.java" timestamp="1574339838844">
         <mark key="'" line="27" column="2" />
         <mark key="[" line="27" column="2" />
@@ -671,6 +678,7 @@
         <mark key="^" line="5" column="11" />
         <mark key="." line="5" column="11" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/servers.txt" timestamp="1575296115417" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/SOAPHandler.java" timestamp="1574868215229">
         <mark key="'" line="31" column="4" />
         <mark key="[" line="31" column="4" />
@@ -823,7 +831,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="129" column="109" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
       <jump line="69" column="68" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
       <jump line="90" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
       <jump line="145" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
@@ -923,6 +930,7 @@
       <jump line="12" column="11" filename="$USER_HOME$/projects/pcs/rhodes/.gitlab-ci.yml" />
       <jump line="13" column="27" filename="$USER_HOME$/projects/pcs/rhodes/.gitlab-ci.yml" />
       <jump line="18" column="3" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="12" column="14" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -932,7 +940,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>baeldung</text>
+        <text>my</text>
       </register>
       <register name="-" type="4">
         <text>entry.getValue();</text>
@@ -944,37 +952,37 @@
         <text>$MAVEN_CLI_OPTS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">IGFzZAo=</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">Ly9hc2RmbGtoago=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">O2Fsc2pkCg==</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text>my</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">IGFzZAo=</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC0gJ212biAkTUFWRU5fQ0xJX09QVFMgY2xlYW4gcGFja2FnZSBpbnN0YWxsJwo=</text>
+        <text encoding="base64">Ly9hc2RmbGtoago=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIC0gJ212biAkTUFWRU5fQ0xJX09QVFMgY2xlYW4gcGFja2FnZSBpbnN0YWxsJwo=</text>
+        <text encoding="base64">O2Fsc2pkCg==</text>
       </register>
-      <register name="7" type="4">
-        <text>baeldung</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
-        <text>baeldung</text>
+        <text>my</text>
       </register>
-      <register name="8" type="4">
-        <text>baeldung</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIC0gJ212biAkTUFWRU5fQ0xJX09QVFMgY2xlYW4gcGFja2FnZSBpbnN0YWxsJwo=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">IHNlcnZpY2UgcmhvZGVzLXBjcyBzdGF0dXMKIHNlcnZpY2UgcmhvZGVzLXBjcyBzdGFydAogc2VydmljZSByaG9kZXMtcGNzIHN0b3A=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIC0gJ212biAkTUFWRU5fQ0xJX09QVFMgY2xlYW4gcGFja2FnZSBpbnN0YWxsJwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -1010,8 +1018,8 @@
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
         <entry>action Find</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
