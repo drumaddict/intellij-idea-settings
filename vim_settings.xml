@@ -59,12 +59,12 @@
         <mark key="." line="31" column="37" />
         <mark key="^" line="31" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575284122734">
-        <mark key="'" line="26" column="25" />
-        <mark key="[" line="22" column="5" />
-        <mark key="]" line="22" column="11" />
-        <mark key="." line="22" column="11" />
-        <mark key="^" line="22" column="11" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575286122170">
+        <mark key="'" line="5" column="1" />
+        <mark key="[" line="5" column="1" />
+        <mark key="]" line="5" column="45" />
+        <mark key="." line="5" column="34" />
+        <mark key="^" line="5" column="34" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" timestamp="1574780949249">
         <mark key="'" line="91" column="74" />
@@ -830,9 +830,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="421" column="55" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="362" column="16" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
-      <jump line="358" column="158" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
       <jump line="64" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
       <jump line="126" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
       <jump line="63" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
@@ -930,6 +927,9 @@
       <jump line="14" column="23" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/build-rel/rhodes-pcs.service" />
       <jump line="26" column="25" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="3" column="11" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="4" column="28" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="5" column="1" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -948,16 +948,7 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>[Unit]
-Description=Rhodes Port Control System
-After=syslog.target
-
-[Service]
-User=baeldung
-ExecStart=/app/rhodes/rhodes-pcs-1.0.0.jar SuccessExitStatus=143
-
-[Install]
-WantedBy=multi-user.target</text>
+        <text>sudo ln -s /opt/apache-maven-3.6.3 /opt/maven</text>
       </register>
       <register name="1" type="4">
         <text>baeldung</text>
