@@ -59,12 +59,12 @@
         <mark key="." line="31" column="37" />
         <mark key="^" line="31" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575286122170">
-        <mark key="'" line="5" column="1" />
-        <mark key="[" line="5" column="1" />
-        <mark key="]" line="5" column="45" />
-        <mark key="." line="5" column="34" />
-        <mark key="^" line="5" column="34" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575287930184">
+        <mark key="'" line="18" column="11" />
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="12" />
+        <mark key="." line="18" column="0" />
+        <mark key="^" line="18" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" timestamp="1574780949249">
         <mark key="'" line="91" column="74" />
@@ -640,6 +640,12 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="75" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/.gitlab-ci.yml" timestamp="1575289392804">
+        <mark key="[" line="2" column="34" />
+        <mark key="]" line="2" column="22" />
+        <mark key="." line="2" column="22" />
+        <mark key="^" line="2" column="22" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/DisembarkationBatchUpdate.java" timestamp="1574868189012">
         <mark key="'" line="30" column="4" />
         <mark key="[" line="30" column="4" />
@@ -693,11 +699,6 @@
         <mark key="]" line="22" column="46" />
         <mark key="^" line="22" column="46" />
         <mark key="." line="22" column="46" />
-      </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/db_migrations/0230_STATISTICS_DETAIL.sql" timestamp="1575021693174">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/EmailSchedulerService.java" timestamp="1574758386355">
         <mark key="'" line="85" column="90" />
@@ -830,10 +831,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="64" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
-      <jump line="126" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
-      <jump line="63" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
-      <jump line="128" column="81" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
       <jump line="129" column="109" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
       <jump line="69" column="68" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
       <jump line="90" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" />
@@ -922,14 +919,18 @@
       <jump line="116" column="8" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
       <jump line="115" column="17" filename="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" />
       <jump line="15" column="30" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="12" column="47" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="13" column="35" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="14" column="23" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/build-rel/rhodes-pcs.service" />
       <jump line="26" column="25" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="3" column="11" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="4" column="28" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="5" column="1" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="12" column="33" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="13" column="36" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="17" column="29" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="18" column="11" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="12" column="11" filename="$USER_HOME$/projects/pcs/rhodes/.gitlab-ci.yml" />
+      <jump line="13" column="27" filename="$USER_HOME$/projects/pcs/rhodes/.gitlab-ci.yml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -948,37 +949,37 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>sudo ln -s /opt/apache-maven-3.6.3 /opt/maven</text>
+        <text>$MAVEN_CLI_OPTS</text>
       </register>
-      <register name="1" type="4">
-        <text>baeldung</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIC0gJ212biAkTUFWRU5fQ0xJX09QVFMgY2xlYW4gcGFja2FnZSBpbnN0YWxsJwo=</text>
       </register>
-      <register name="2" type="4">
-        <text>baeldung</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIC0gJ212biAkTUFWRU5fQ0xJX09QVFMgY2xlYW4gcGFja2FnZSBpbnN0YWxsJwo=</text>
       </register>
       <register name="3" type="4">
+        <text>baeldung</text>
+      </register>
+      <register name="4" type="4">
+        <text>baeldung</text>
+      </register>
+      <register name="5" type="4">
         <text encoding="base64">IHNlcnZpY2UgcmhvZGVzLXBjcyBzdGF0dXMKIHNlcnZpY2UgcmhvZGVzLXBjcyBzdGFydAogc2VydmljZSByaG9kZXMtcGNzIHN0b3A=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">JCBzdWRvIGNobW9kIDUwMCByaG9kZXMtcGNzLTEuMC4wLmphcgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">JCBzdWRvIGNob3duIGxpa25vc3M6bGlrbm9zcyByaG9kZXMtcGNzLTEuMC4wLmphcgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>baeldung</text>
       </register>
-      <register name="8" type="4">
-        <text>aeldung</text>
+      <register name="8" type="2">
+        <text encoding="base64">JCBzdWRvIGNobW9kIDUwMCByaG9kZXMtcGNzLTEuMC4wLmphcgo=</text>
       </register>
-      <register name="9" type="4">
-        <text>baeldung</text>
+      <register name="9" type="2">
+        <text encoding="base64">JCBzdWRvIGNob3duIGxpa25vc3M6bGlrbm9zcyByaG9kZXMtcGNzLTEuMC4wLmphcgo=</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -1013,11 +1014,11 @@
         <entry>action PreviousTab</entry>
         <entry>action NextTab</entry>
         <entry>action Forward</entry>
-        <entry>action ReformatCode</entry>
         <entry>action GotoImplementation</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
