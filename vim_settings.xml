@@ -996,7 +996,7 @@
         <text encoding="base64">VVJJQnVpbGRlciBidWlsZGVyID0gbmV3IFVSSUJ1aWxkZXIoImh0dHA6Ly8iICsgQmFzZVdvcmtlci5TWU1QSE9OWV9TRVJWRVJfSVApOwogICAgICAgICAgYnVpbGRlci5zZXRQYXRoKCIvQXBpUERGIik7CiAgICAgICAgICBVUkwgcGRmUmVwb3NpdG9yeSA9IGJ1aWxkZXIuYnVpbGQoKS50b1VSTCgpOwogICAgICAgICAgSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4gcGFyYW1ldGVycyA9IG5ldyBIYXNoTWFwPFN0cmluZywgU3RyaW5nPigpOwogICAgICAgICAgcGFyYW1ldGVycy5wdXQoInBkZnVybCIsIHdidGNrdC5nZXRQZGZVcmwoKSk7CiAgICAgICAgICBsb2dnZXIuaW5mbygicG9zdGluZyB0byAiICsgcGRmUmVwb3NpdG9yeS50b1N0cmluZygpKTsKCiAgICAgICAgICBCYXNlV29ya2VyLmRvUG9zdFJlcXVlc3QocGRmUmVwb3NpdG9yeS50b1N0cmluZygpLCBwYXJhbWV0ZXJzKTs=</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>149</text>
       </register>
     </registers>
     <search>
@@ -1029,7 +1029,6 @@
         <entry>action GotoDeclaration</entry>
         <entry>action OptimizeImports</entry>
         <entry>action PreviousOccurence</entry>
-        <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action QuickJavaDoc</entry>
@@ -1037,6 +1036,8 @@
         <entry>action ReformatCode</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>149</entry>
       </history-cmd>
       <history-expr />
       <history-input />
