@@ -59,12 +59,12 @@
         <mark key="." line="31" column="37" />
         <mark key="^" line="31" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575456585986">
-        <mark key="'" line="38" column="21" />
-        <mark key="[" line="38" column="22" />
-        <mark key="]" line="38" column="22" />
-        <mark key="." line="38" column="22" />
-        <mark key="^" line="38" column="22" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575467365850">
+        <mark key="'" line="62" column="48" />
+        <mark key="[" line="71" column="0" />
+        <mark key="]" line="71" column="0" />
+        <mark key="^" line="41" column="60" />
+        <mark key="." line="71" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" timestamp="1574780949249">
         <mark key="'" line="91" column="74" />
@@ -219,6 +219,12 @@
         <mark key="^" line="9" column="68" />
         <mark key="." line="9" column="68" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/.gitignore" timestamp="1575465931277">
+        <mark key="'" line="33" column="0" />
+        <mark key="[" line="43" column="0" />
+        <mark key="]" line="43" column="0" />
+        <mark key="." line="43" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" timestamp="1575039245460">
         <mark key="'" line="115" column="17" />
         <mark key="[" line="105" column="20" />
@@ -240,6 +246,7 @@
         <mark key="^" line="79" column="62" />
         <mark key="." line="78" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/CI.txt" timestamp="1575466736164" />
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBAReceiveStatisticsService.java" timestamp="1575037822792">
         <mark key="'" line="82" column="72" />
         <mark key="[" line="82" column="87" />
@@ -397,6 +404,12 @@
         <mark key="]" line="31" column="59" />
         <mark key="." line="31" column="59" />
         <mark key="^" line="31" column="59" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/rhodes-pcs.service" timestamp="1575467096826">
+        <mark key="[" line="6" column="38" />
+        <mark key="]" line="6" column="31" />
+        <mark key="." line="6" column="31" />
+        <mark key="^" line="6" column="31" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/EAIMessageReceiverDaemon.java" timestamp="1574947070223">
         <mark key="'" line="116" column="40" />
@@ -847,16 +860,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="13" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqStatisticsMasterIDManager.java" />
-      <jump line="14" column="93" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqStatisticsMasterIDManager.java" />
-      <jump line="16" column="46" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqStatisticsMasterIDManager.java" />
-      <jump line="732" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="81" column="72" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/APBAReceiveStatisticsService.java" />
-      <jump line="116" column="8" filename="$USER_HOME$/projects/port-checkin-control/configure.xml" />
-      <jump line="115" column="17" filename="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" />
-      <jump line="15" column="30" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="14" column="23" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/build-rel/rhodes-pcs.service" />
       <jump line="4" column="28" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="5" column="1" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="12" column="33" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
@@ -868,7 +871,6 @@
       <jump line="12" column="14" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="9" column="2" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="21" column="11" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="3" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="4" column="21" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="113" column="14" filename="$USER_HOME$/projects/pcs/pom.xml" />
       <jump line="120" column="20" filename="$USER_HOME$/projects/pcs/pom.xml" />
@@ -947,6 +949,17 @@
       <jump line="45" column="52" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="51" column="0" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="48" column="16" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
+      <jump line="34" column="0" filename="$USER_HOME$/projects/port-checkin-control/.gitignore" />
+      <jump line="3" column="30" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="2" column="57" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="7" column="39" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="9" column="26" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="60" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="51" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="75" column="22" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="72" column="23" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="69" column="1" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="66" column="48" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -956,7 +969,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>build</text>
+        <text>iknoss</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -965,7 +978,8 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>#  when: manual</text>
+        <text>sudo visudo
+gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -977,25 +991,27 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">IyAgd2hlbjogbWFudWFsCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgZmluZCAuIC1tdGltZSAwIC1uYW1lICcqLmphcicgLWV4ZWMgcm0gLXJmIHt9IFw7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">LSAnY3AgLXUgcmhvZGVzL2J1aWxkLXJlbC9yaG9kZXMtcGNzLTEuMC4wLmphciAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXInCiAgICAtICdybSAtcmYgJEFQUF9ESVIvJEFQUF9OQU1FLmphciAmJiBsbiAtcyAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLmphcicKICAgIC0gJ3N1ZG8gc3lzdGVtY3RsIHJlc3RhcnQgJEFQUF9OQU1FLnNlcnZpY2UnCiAgICAtICdzdWRvIHN5c3RlbWN0bCBzdGF0dXMgJEFQUF9OQU1FLnNlcnZpY2UnCiAgICAtICdlY2hvICJPSyIn</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">IAo=</text>
+      <register name="7" type="4">
+        <text>// Let gitlab runner do sudo
+sudo visudo
+gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
       </register>
       <register name="x" type="4">
-        <text>build</text>
+        <text>iknoss</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICMgICAgLSAnY3AgLXUgcmhvZGVzL2J1aWxkLXJlbC9yaG9kZXMtcGNzLTEuMC4wLmphciAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXInCiAgIyAgICAtICdybSAtcmYgJEFQUF9ESVIvJEFQUF9OQU1FLmphciAmJiBsbiAtcyAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLmphcicKICAjICAgIC0gJ3N1ZG8gc3lzdGVtY3RsIHJlc3RhcnQgJEFQUF9OQU1FLnNlcnZpY2UnCiAgIyAgICAtICdtdm4gICRNQVZFTl9DTElfT1BUUyBjbGVhbiBpbnN0YWxsIC1VIC1QcmVsJw==</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">LS0K</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -1033,8 +1049,8 @@
         <entry>149</entry>
         <entry>action PreviousTab</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action ReformatCode</entry>
         <entry>action Find</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
