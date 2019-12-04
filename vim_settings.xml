@@ -460,13 +460,13 @@
         <mark key="." line="32" column="79" />
         <mark key="^" line="32" column="79" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/.gitlab-ci.yml" timestamp="1575459825035">
-        <mark key="'" line="49" column="16" />
-        <mark key="[" line="44" column="16" />
-        <mark key="]" line="45" column="7" />
-        <mark key="^" line="45" column="7" />
-        <mark key="n" line="26" column="6" />
-        <mark key="." line="45" column="7" />
+      <file name="$USER_HOME$/projects/pcs/.gitlab-ci.yml" timestamp="1575473300365">
+        <mark key="'" line="89" column="13" />
+        <mark key="[" line="91" column="0" />
+        <mark key="]" line="91" column="0" />
+        <mark key="n" line="24" column="6" />
+        <mark key="^" line="77" column="27" />
+        <mark key="." line="91" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/.gitignore" timestamp="1575367275845">
         <mark key="[" line="18" column="1" />
@@ -860,14 +860,11 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="33" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="13" column="36" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="17" column="29" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="12" column="11" filename="$USER_HOME$/projects/pcs/rhodes/.gitlab-ci.yml" />
       <jump line="13" column="27" filename="$USER_HOME$/projects/pcs/rhodes/.gitlab-ci.yml" />
       <jump line="18" column="3" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="12" column="14" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="9" column="2" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="21" column="11" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="4" column="21" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="113" column="14" filename="$USER_HOME$/projects/pcs/pom.xml" />
@@ -878,7 +875,6 @@
       <jump line="188" column="26" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="83" column="0" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="15" column="135" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="14" column="61" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="190" column="26" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="187" column="8" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="178" column="4" filename="$USER_HOME$/projects/pcs/rhodes/pom.xml" />
@@ -932,7 +928,6 @@
       <jump line="26" column="32" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="32" column="11" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="151" column="35" filename="$USER_HOME$/projects/pcs/rhodes/pom.xml" />
-      <jump line="27" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="18" column="47" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="37" column="34" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="38" column="21" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
@@ -960,6 +955,11 @@
       <jump line="66" column="30" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="63" column="22" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="45" column="47" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="27" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
+      <jump line="14" column="14" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
+      <jump line="90" column="13" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
+      <jump line="9" column="0" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
+      <jump line="89" column="13" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -969,7 +969,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>iknoss</text>
+        <text>deploys</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -978,15 +978,10 @@
         <text>getLeade</text>
       </register>
       <register name="0" type="4">
-        <text>sudo visudo
-gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
+        <text encoding="base64">YnVpbGQtb24tMTQ6CiAgc3RhZ2U6IGRlcGxveQogIHRhZ3M6CiAgICAtIHJob2Rlcy0xNAogIHNjcmlwdDoKICAgIC0gJ212biBpbnN0YWxsOmluc3RhbGwtZmlsZSAtRGZpbGU9b2pkYmMvb2pkYmM4LTEyLjIuMC4xLmphciAtRGdyb3VwSWQ9Y29tLm9yYWNsZSAtRGFydGlmYWN0SWQ9b2pkYmM4IC1EdmVyc2lvbj0xMi4yLjAuMSAtRHBhY2thZ2luZz1qYXIgY29tcGlsZScKICAgIC0gJ212biAgJE1BVkVOX0NMSV9PUFRTIGNsZWFuIHBhY2thZ2Ugc3ByaW5nLWJvb3Q6cmVwYWNrYWdlIC1QcmVsJwogIG9ubHk6CiAgICAtIHRhZ3MKIyAgYXJ0aWZhY3RzOgojICAgIHBhdGhzOgojICAgICAgLSByaG9kZXMvYnVpbGQtcmVsLyouamFyCmRlcGxveS1vbi0xNDoKICB2YXJpYWJsZXM6CiAgICBHSVRfU1RSQVRFR1k6IG5vbmUKICB0YWdzOgogICAgLSByaG9kZXMtMTQKICBzdGFnZTogZGVwbG95CiAgc2NyaXB0OgogICAgLSAnY3AgLXUgcmhvZGVzL2J1aWxkLXJlbC9yaG9kZXMtcGNzLTEuMC4wLmphciAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXInCiAgICAtICdybSAtcmYgJEFQUF9ESVIvJEFQUF9OQU1FLmphciAmJiBsbiAtcyAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLmphcicKICAgIC0gJ3N1ZG8gc3lzdGVtY3RsIHJlc3RhcnQgJEFQUF9OQU1FLnNlcnZpY2UnCiAgICAtICdzdWRvIHN5c3RlbWN0bCBzdGF0dXMgJEFQUF9OQU1FLnNlcnZpY2UnCiAgICAtICdlY2hvICJPSyInCiAgb25seToKICAgIC0gdGFncwpkZWxldGUtb2xkLWV4ZWN1dGFibGVzOgogIHZhcmlhYmxlczoKICAgIEdJVF9TVFJBVEVHWTogbm9uZQogIHRhZ3M6CiAgICAtIHJob2RlcwogIHN0YWdlOiBkZXBsb3kKICBzY3JpcHQ6CiAgICAtIGNkICRBUFBfRElSCiAgICAtIHB3ZAogICAgLSAnZmluZCAuIC1tdGltZSAyNDAgLW5hbWUgIiouamFyIiAtZXhlYyBybSAtcmYge30gXDsnCiAgb25seToKICAgIC0gdGFncwogIHdoZW46IG1hbnVhbA==</text>
       </register>
-      <register name="1" type="4">
-        <text>systemctl daemon-reload
-sudo systemctl enable myservice
-service rhodes-pcs status
-service rhodes-pcs start
-service rhodes-pcs stop</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
@@ -994,28 +989,27 @@ service rhodes-pcs stop</text>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>deploys</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC0gcmhvZGVzLTE1Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC0gcmhvZGVzCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>artifact</text>
       </register>
       <register name="x" type="4">
-        <text>iknoss</text>
+        <text>deploys</text>
       </register>
-      <register name="8" type="4">
-        <text>// Let gitlab runner do sudo
-sudo visudo
-gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>#  only:
+  #    - master a</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -1053,8 +1047,8 @@ gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
         <entry>149</entry>
         <entry>action PreviousTab</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action ReformatCode</entry>
         <entry>action Find</entry>
+        <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
