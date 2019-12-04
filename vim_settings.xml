@@ -1014,7 +1014,7 @@ gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
         <text encoding="base64">LS0K</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -1049,9 +1049,9 @@ gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
         <entry>149</entry>
         <entry>action PreviousTab</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action Find</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
