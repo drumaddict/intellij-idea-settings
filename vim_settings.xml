@@ -59,12 +59,12 @@
         <mark key="." line="31" column="37" />
         <mark key="^" line="31" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575467365850">
-        <mark key="'" line="62" column="48" />
-        <mark key="[" line="71" column="0" />
-        <mark key="]" line="71" column="0" />
-        <mark key="^" line="41" column="60" />
-        <mark key="." line="71" column="0" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575471389754">
+        <mark key="'" line="45" column="47" />
+        <mark key="[" line="69" column="48" />
+        <mark key="]" line="69" column="46" />
+        <mark key="." line="69" column="46" />
+        <mark key="^" line="69" column="46" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/utilities/BeanPCSUtils.java" timestamp="1574780949249">
         <mark key="'" line="91" column="74" />
@@ -860,8 +860,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="4" column="28" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="5" column="1" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="12" column="33" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="13" column="36" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="17" column="29" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
@@ -959,7 +957,9 @@
       <jump line="75" column="22" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="72" column="23" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="69" column="1" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="66" column="48" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="66" column="30" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="63" column="22" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="45" column="47" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -981,8 +981,12 @@
         <text>sudo visudo
 gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>systemctl daemon-reload
+sudo systemctl enable myservice
+service rhodes-pcs status
+service rhodes-pcs start
+service rhodes-pcs stop</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
@@ -999,22 +1003,22 @@ gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>// Let gitlab runner do sudo
-sudo visudo
-gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>iknoss</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>// Let gitlab runner do sudo
+sudo visudo
+gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">LS0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -1050,8 +1054,8 @@ gitlab-runner ALL = NOPASSWD: /usr/bin/systemctrl</text>
         <entry>action PreviousTab</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action ReformatCode</entry>
-        <entry>action SaveAll</entry>
         <entry>action Find</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
