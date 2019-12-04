@@ -447,13 +447,13 @@
         <mark key="." line="32" column="79" />
         <mark key="^" line="32" column="79" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/.gitlab-ci.yml" timestamp="1575458547273">
-        <mark key="'" line="33" column="4" />
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="16" column="0" />
-        <mark key="^" line="33" column="27" />
+      <file name="$USER_HOME$/projects/pcs/.gitlab-ci.yml" timestamp="1575459825035">
+        <mark key="'" line="49" column="16" />
+        <mark key="[" line="44" column="16" />
+        <mark key="]" line="45" column="7" />
+        <mark key="^" line="45" column="7" />
         <mark key="n" line="26" column="6" />
-        <mark key="." line="16" column="0" />
+        <mark key="." line="45" column="7" />
       </file>
       <file name="$USER_HOME$/projects/pcs/.gitignore" timestamp="1575367275845">
         <mark key="[" line="18" column="1" />
@@ -846,11 +846,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="165" column="20" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/EAIMessageHandlerDaemon.java" />
-      <jump line="27" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqPriocheckIDManager.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqPriocheckIDManager.java" />
-      <jump line="57" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqStatisticsMasterIDManager.java" />
-      <jump line="56" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqStatisticsMasterIDManager.java" />
       <jump line="12" column="13" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqStatisticsMasterIDManager.java" />
       <jump line="14" column="93" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqStatisticsMasterIDManager.java" />
       <jump line="16" column="46" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/SeqStatisticsMasterIDManager.java" />
@@ -938,7 +933,6 @@
       <jump line="151" column="35" filename="$USER_HOME$/projects/pcs/rhodes/pom.xml" />
       <jump line="27" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="18" column="47" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="23" column="7" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="37" column="34" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="38" column="21" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="38" column="13" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
@@ -946,6 +940,12 @@
       <jump line="16" column="0" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="36" column="47" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="37" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
+      <jump line="41" column="53" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
+      <jump line="23" column="0" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
+      <jump line="50" column="6" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
+      <jump line="45" column="52" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
+      <jump line="51" column="0" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
+      <jump line="48" column="16" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -963,38 +963,38 @@
       <register name="/" type="4">
         <text>getLeade</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIC0gJ3N1ZG8gc3lzdGVtY3RsIHJlc3RhcnQgJEFQUF9OQU1FLnNlcnZpY2UnCg==</text>
+      <register name="0" type="4">
+        <text>#  when: manual</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">IAo=</text>
-      </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICMgICAgLSAnY3AgLXUgcmhvZGVzL2J1aWxkLXJlbC9yaG9kZXMtcGNzLTEuMC4wLmphciAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXInCiAgIyAgICAtICdybSAtcmYgJEFQUF9ESVIvJEFQUF9OQU1FLmphciAmJiBsbiAtcyAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLmphcicKICAjICAgIC0gJ3N1ZG8gc3lzdGVtY3RsIHJlc3RhcnQgJEFQUF9OQU1FLnNlcnZpY2UnCiAgIyAgICAtICdtdm4gICRNQVZFTl9DTElfT1BUUyBjbGVhbiBpbnN0YWxsIC1VIC1QcmVsJw==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAK</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">IyAgICAtICdjcCAtdSByaG9kZXMvYnVpbGQtcmVsL3Job2Rlcy1wY3MtMS4wLjAuamFyICRBUFBfRElSLyRBUFBfTkFNRS0kQ0lfQ09NTUlUX1NIQS5qYXInCiAgIyAgICAtICdybSAtcmYgJEFQUF9ESVIvJEFQUF9OQU1FLmphciAmJiBsbiAtcyAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSEEuamFyICRBUFBfRElSLyRBUFBfTkFNRS5qYXInCiAgIyAgICAtICdzdWRvIHN5c3RlbWN0bCByZXN0YXJ0ICRBUFBfTkFNRS5zZXJ2aWNlJw==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">IyAgd2hlbjogbWFudWFsCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgZmluZCAuIC1tdGltZSAwIC1uYW1lICcqLmphcicgLWV4ZWMgcm0gLXJmIHt9IFw7Cg==</text>
+      </register>
       <register name="6" type="4">
-        <text encoding="base64">ICAgIC0gJ2NwIC11IHJob2Rlcy9idWlsZC1yZWwvcmhvZGVzLXBjcy0xLjAuMC5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLSRDSV9DT01NSVRfU0hPUlRfU0hBLSRDSV9CVUlMRF9UQUcuamFyJwogICAgLSAncm0gLXJmICRBUFBfRElSLyRBUFBfTkFNRS5qYXIgJiYgbG4gLXMgJEFQUF9ESVIvJEFQUF9OQU1FLSRDSV9DT01NSVRfU0hPUlRfU0hBLSRDSV9CVUlMRF9UQUcuamFyICRBUFBfRElSLyRBUFBfTkFNRS5qYXInCiAgICAtICdzdWRvIHN5c3RlbWN0bCByZXN0YXJ0ICRBUFBfTkFNRS5zZXJ2aWNlJw==</text>
+        <text encoding="base64">LSAnY3AgLXUgcmhvZGVzL2J1aWxkLXJlbC9yaG9kZXMtcGNzLTEuMC4wLmphciAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXInCiAgICAtICdybSAtcmYgJEFQUF9ESVIvJEFQUF9OQU1FLmphciAmJiBsbiAtcyAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLmphcicKICAgIC0gJ3N1ZG8gc3lzdGVtY3RsIHJlc3RhcnQgJEFQUF9OQU1FLnNlcnZpY2UnCiAgICAtICdzdWRvIHN5c3RlbWN0bCBzdGF0dXMgJEFQUF9OQU1FLnNlcnZpY2UnCiAgICAtICdlY2hvICJPSyIn</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBBUFBfTkFNRTogInJob2Rlcy1wY3MiCg==</text>
+        <text encoding="base64">IAo=</text>
       </register>
       <register name="x" type="4">
         <text>build</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICBBUFBfRElSOiAiL2FwcC9yaG9kZXMiCg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">ICMgICAgLSAnY3AgLXUgcmhvZGVzL2J1aWxkLXJlbC9yaG9kZXMtcGNzLTEuMC4wLmphciAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXInCiAgIyAgICAtICdybSAtcmYgJEFQUF9ESVIvJEFQUF9OQU1FLmphciAmJiBsbiAtcyAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0NPTU1JVF9TSE9SVF9TSEEtJENJX0JVSUxEX1RBRy5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLmphcicKICAjICAgIC0gJ3N1ZG8gc3lzdGVtY3RsIHJlc3RhcnQgJEFQUF9OQU1FLnNlcnZpY2UnCiAgIyAgICAtICdtdm4gICRNQVZFTl9DTElfT1BUUyBjbGVhbiBpbnN0YWxsIC1VIC1QcmVsJw==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBNQVZFTl9DTElfT1BUUzogIi0tc2hvdy12ZXJzaW9uICIK</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
