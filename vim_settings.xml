@@ -113,10 +113,10 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="9" column="6" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" timestamp="1574767324232">
-        <mark key="'" line="31" column="29" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" timestamp="1575548334788">
+        <mark key="'" line="28" column="0" />
         <mark key="[" line="28" column="0" />
-        <mark key="]" line="31" column="30" />
+        <mark key="]" line="31" column="28" />
         <mark key="^" line="33" column="0" />
         <mark key="." line="28" column="0" />
       </file>
@@ -829,10 +829,12 @@
         <mark key="^" line="95" column="1" />
         <mark key="." line="95" column="1" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" timestamp="1575547104529">
-        <mark key="'" line="30" column="0" />
-        <mark key="[" line="30" column="0" />
-        <mark key="]" line="33" column="30" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" timestamp="1575548449147">
+        <mark key="'" line="40" column="28" />
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="40" column="29" />
+        <mark key="^" line="41" column="0" />
+        <mark key="." line="37" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1574334524023">
         <mark key="'" line="281" column="28" />
@@ -884,8 +886,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="833" column="63" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="835" column="57" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="824" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="839" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="846" column="46" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -984,6 +984,8 @@
       <jump line="13" column="11" filename="$USER_HOME$/projects/pcs/rhodes/specs/servers.txt" />
       <jump line="1" column="11" filename="$USER_HOME$/projects/pcs/rhodes/specs/servers.txt" />
       <jump line="30" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
+      <jump line="28" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" />
+      <jump line="40" column="28" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1002,10 +1004,10 @@
         <text encoding="base64">XDxjcFw+</text>
       </register>
       <register name="0" type="4">
-        <text>spring.mail.host=mail.mundofy.com
+        <text>spring.mail.host=wmail.forth-crs.gr
 spring.mail.port=25
-spring.mail.username=sec@litando.gr
-spring.mail.password=jhEc5@4UsT</text>
+spring.mail.username=internetdaemon@forth-crs.gr
+spring.mail.password=internet</text>
       </register>
       <register name="1" type="4">
         <text>LOAD BALANCER
@@ -1039,7 +1041,7 @@ spring.mail.password=jhEc5@4UsT</text>
         <text encoding="base64">ICAjICAgIC0gJ2NwIC11IHJob2Rlcy9idWlsZC1yZWwvcmhvZGVzLXBjcy0xLjAuMC5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLSRDSV9DT01NSVRfU0hPUlRfU0hBLSRDSV9CVUlMRF9UQUcuamFyJwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -1072,11 +1074,11 @@ spring.mail.password=jhEc5@4UsT</text>
         <entry>action QuickJavaDoc</entry>
         <entry>action OptimizeImports</entry>
         <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action Find</entry>
-        <entry>action SaveAll</entry>
         <entry>action GotoFile</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
