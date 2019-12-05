@@ -59,10 +59,10 @@
         <mark key="." line="31" column="37" />
         <mark key="^" line="31" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575536607864">
-        <mark key="'" line="82" column="18" />
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="2" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" timestamp="1575551657783">
+        <mark key="'" line="77" column="0" />
+        <mark key="[" line="77" column="0" />
+        <mark key="]" line="77" column="21" />
         <mark key="." line="20" column="2" />
         <mark key="^" line="20" column="2" />
       </file>
@@ -580,6 +580,20 @@
         <mark key="." line="19" column="65" />
         <mark key="^" line="19" column="65" />
       </file>
+      <file name="$USER_HOME$/aliases/deploy.bat" timestamp="1575552870010">
+        <mark key="'" line="4" column="0" />
+        <mark key="[" line="8" column="34" />
+        <mark key="]" line="8" column="32" />
+        <mark key="^" line="8" column="32" />
+        <mark key="." line="8" column="32" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/deploy.bat" timestamp="1575551975242">
+        <mark key="'" line="6" column="26" />
+        <mark key="[" line="4" column="37" />
+        <mark key="]" line="4" column="37" />
+        <mark key="^" line="4" column="37" />
+        <mark key="." line="4" column="37" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IRoleDao.java" timestamp="1574339946845">
         <mark key="'" line="32" column="65" />
         <mark key="[" line="32" column="48" />
@@ -886,12 +900,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="824" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="839" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="846" column="46" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="840" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="850" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="856" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="278" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="884" column="63" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="890" column="63" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -986,6 +994,12 @@
       <jump line="30" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
       <jump line="28" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" />
       <jump line="40" column="28" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
+      <jump line="1" column="26" filename="$USER_HOME$/projects/pcs/rhodes/specs/deploy.bat" />
+      <jump line="76" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="3" column="32" filename="$USER_HOME$/projects/pcs/rhodes/specs/deploy.bat" />
+      <jump line="77" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
+      <jump line="6" column="26" filename="$USER_HOME$/projects/pcs/rhodes/specs/deploy.bat" />
+      <jump line="4" column="0" filename="$USER_HOME$/aliases/deploy.bat" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -995,7 +1009,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>restart</text>
+        <text>REM</text>
       </register>
       <register name="-" type="4">
         <text>- 'echo &quot;Build Finished.&quot;'</text>
@@ -1003,42 +1017,39 @@
       <register name="/" type="4">
         <text encoding="base64">XDxjcFw+</text>
       </register>
-      <register name="0" type="4">
-        <text>spring.mail.host=wmail.forth-crs.gr
-spring.mail.port=25
-spring.mail.username=internetdaemon@forth-crs.gr
-spring.mail.password=internet</text>
+      <register name="0" type="2">
+        <text encoding="base64">ZWNobyAlY29tbWl0X21lc3NhZ2UlCg==</text>
       </register>
       <register name="1" type="4">
-        <text>LOAD BALANCER
-172.29.24.10</text>
+        <text>REM</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICMgICAgLSAnbXZuICAkTUFWRU5fQ0xJX09QVFMgY2xlYW4gcGFja2FnZSBzcHJpbmctYm9vdDpyZXBhY2thZ2UgLVByZWwnCg==</text>
+      <register name="2" type="4">
+        <text>REM</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>REM</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">IyAgICAtICd0YWlsIC0xNSAgL2FwcC9yaG9kZXMvcmhvZGVzL2xvZ3MvcmhvZGVzLmxvZycK</text>
+      <register name="4" type="4">
+        <text>REM</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">IyAgICAtICd0YWlsIC0xNSAgL2FwcC9yaG9kZXMvcmhvZGVzL2xvZ3MvcmhvZGVzLmxvZycK</text>
+      <register name="5" type="4">
+        <text>_message</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">IyAgICAtICd0YWlsIC0xNSAgL2FwcC9yaG9kZXMvcmhvZGVzL2xvZ3MvcmhvZGVzLmxvZycK</text>
+        <text encoding="base64">QGVjaG8gb2ZmCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAjICAgIC0gJ3JtIC1yZiAkQVBQX0RJUi8kQVBQX05BTUUuamFyICYmIGxuIC1zICRBUFBfRElSLyRBUFBfTkFNRS0kQ0lfQ09NTUlUX1NIT1JUX1NIQS0kQ0lfQlVJTERfVEFHLmphciAkQVBQX0RJUi8kQVBQX05BTUUuamFyJwo=</text>
+      <register name="7" type="4">
+        <text>message</text>
       </register>
       <register name="x" type="4">
-        <text>restart</text>
+        <text>REM</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAjICAgIC0gJ2NwIC11IHJob2Rlcy9idWlsZC1yZWwvcmhvZGVzLXBjcy0xLjAuMC5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLSRDSV9DT01NSVRfU0hPUlRfU0hBLSRDSV9CVUlMRF9UQUcuamFyJwo=</text>
+      <register name="8" type="4">
+        <text>call</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAjICAgIC0gJ2NwIC11IHJob2Rlcy9idWlsZC1yZWwvcmhvZGVzLXBjcy0xLjAuMC5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLSRDSV9DT01NSVRfU0hPUlRfU0hBLSRDSV9CVUlMRF9UQUcuamFyJwo=</text>
+      <register name="9" type="4">
+        <text>LOAD BALANCER
+172.29.24.10</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -1075,9 +1086,10 @@ spring.mail.password=internet</text>
         <entry>action OptimizeImports</entry>
         <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
-        <entry>action Find</entry>
         <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
+        <entry>action SplitVertically</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
