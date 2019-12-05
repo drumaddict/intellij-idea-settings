@@ -580,7 +580,7 @@
         <mark key="." line="19" column="65" />
         <mark key="^" line="19" column="65" />
       </file>
-      <file name="$USER_HOME$/aliases/deploy.bat" timestamp="1575552870010">
+      <file name="$USER_HOME$/aliases/deploy.bat" timestamp="1575554053000">
         <mark key="'" line="4" column="0" />
         <mark key="[" line="8" column="34" />
         <mark key="]" line="8" column="32" />
@@ -1052,7 +1052,7 @@
 172.29.24.10</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -1070,7 +1070,6 @@
         <entry encoding="base64">XDxjcFw+</entry>
       </history-search>
       <history-cmd>
-        <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action RenameElement</entry>
         <entry>action Forward</entry>
         <entry>action GotoImplementation</entry>
@@ -1086,11 +1085,11 @@
         <entry>action OptimizeImports</entry>
         <entry>action NextTab</entry>
         <entry>action ReformatCode</entry>
-        <entry>action GotoFile</entry>
         <entry>action PreviousTab</entry>
         <entry>action SplitVertically</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
