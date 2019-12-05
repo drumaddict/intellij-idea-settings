@@ -829,6 +829,11 @@
         <mark key="^" line="95" column="1" />
         <mark key="." line="95" column="1" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" timestamp="1575547104529">
+        <mark key="'" line="30" column="0" />
+        <mark key="[" line="30" column="0" />
+        <mark key="]" line="33" column="30" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1574334524023">
         <mark key="'" line="281" column="28" />
         <mark key="[" line="116" column="65" />
@@ -879,7 +884,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="829" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="833" column="63" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="835" column="57" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="824" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -979,6 +983,7 @@
       <jump line="73" column="31" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="13" column="11" filename="$USER_HOME$/projects/pcs/rhodes/specs/servers.txt" />
       <jump line="1" column="11" filename="$USER_HOME$/projects/pcs/rhodes/specs/servers.txt" />
+      <jump line="30" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-rel.properties" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -997,7 +1002,10 @@
         <text encoding="base64">XDxjcFw+</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">LSAnY3AgLXUgcmhvZGVzL2J1aWxkLXJlbC9yaG9kZXMtcGNzLTEuMC4wLmphciAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0JVSUxEX1RBRy0kQ0lfQ09NTUlUX1NIT1JUX1NIQS5qYXInCiAgICAtICdybSAtcmYgJEFQUF9ESVIvJEFQUF9OQU1FLmphciAmJiBsbiAtcyAkQVBQX0RJUi8kQVBQX05BTUUtJENJX0JVSUxEX1RBRy0kQ0lfQ09NTUlUX1NIT1JUX1NIQS5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLmphcic=</text>
+        <text>spring.mail.host=mail.mundofy.com
+spring.mail.port=25
+spring.mail.username=sec@litando.gr
+spring.mail.password=jhEc5@4UsT</text>
       </register>
       <register name="1" type="4">
         <text>LOAD BALANCER
@@ -1031,7 +1039,7 @@
         <text encoding="base64">ICAjICAgIC0gJ2NwIC11IHJob2Rlcy9idWlsZC1yZWwvcmhvZGVzLXBjcy0xLjAuMC5qYXIgJEFQUF9ESVIvJEFQUF9OQU1FLSRDSV9DT01NSVRfU0hPUlRfU0hBLSRDSV9CVUlMRF9UQUcuamFyJwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -1066,9 +1074,9 @@
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
-        <entry>action GotoFile</entry>
         <entry>action Find</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
