@@ -447,13 +447,13 @@
         <mark key="." line="32" column="79" />
         <mark key="^" line="32" column="79" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/.gitlab-ci.yml" timestamp="1575558467605">
+      <file name="$USER_HOME$/projects/pcs/.gitlab-ci.yml" timestamp="1575558924606">
         <mark key="'" line="10" column="2" />
-        <mark key="[" line="113" column="14" />
-        <mark key="]" line="128" column="1" />
+        <mark key="[" line="126" column="0" />
+        <mark key="]" line="126" column="0" />
         <mark key="n" line="26" column="6" />
-        <mark key="^" line="128" column="1" />
-        <mark key="." line="128" column="1" />
+        <mark key="^" line="126" column="0" />
+        <mark key="." line="126" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/.gitignore" timestamp="1575367275845">
         <mark key="[" line="18" column="1" />
@@ -1022,19 +1022,19 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
         <text>#  artifacts:
 #    paths:
 #      - rhodes/build-rel/*.jar</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>myservice</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="4">
-        <text>javaservice</text>
       </register>
       <register name="7" type="4">
         <text>javaservice</text>
