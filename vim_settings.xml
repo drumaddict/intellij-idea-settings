@@ -710,12 +710,12 @@
         <mark key="." line="38" column="38" />
         <mark key="^" line="38" column="38" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" timestamp="1575646106944">
-        <mark key="'" line="180" column="2" />
-        <mark key="[" line="177" column="39" />
-        <mark key="]" line="177" column="35" />
-        <mark key="^" line="177" column="35" />
-        <mark key="." line="177" column="35" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" timestamp="1575646820036">
+        <mark key="'" line="196" column="2" />
+        <mark key="[" line="192" column="33" />
+        <mark key="]" line="190" column="61" />
+        <mark key="^" line="190" column="61" />
+        <mark key="." line="190" column="61" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1575641450830">
         <mark key="'" line="103" column="46" />
@@ -780,12 +780,12 @@
         <mark key="^" line="85" column="87" />
         <mark key="." line="85" column="87" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" timestamp="1575646029799">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" timestamp="1575646798052">
         <mark key="'" line="92" column="0" />
-        <mark key="[" line="93" column="49" />
-        <mark key="]" line="93" column="59" />
-        <mark key="^" line="93" column="59" />
-        <mark key="." line="93" column="59" />
+        <mark key="[" line="102" column="0" />
+        <mark key="]" line="102" column="0" />
+        <mark key="^" line="102" column="0" />
+        <mark key="." line="102" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/IAlertRecepient.java" timestamp="1574344601016">
         <mark key="'" line="5" column="2" />
@@ -934,9 +934,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="89" column="61" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="86" column="99" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="85" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="29" column="126" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="28" column="7" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="73" column="31" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
@@ -1034,6 +1031,9 @@
       <jump line="88" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
       <jump line="154" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
       <jump line="180" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
+      <jump line="64" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
+      <jump line="34" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
+      <jump line="196" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1043,7 +1043,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>getInstance</text>
+        <text>WHERE</text>
       </register>
       <register name="-" type="4">
         <text>r</text>
@@ -1052,40 +1052,40 @@
         <text encoding="base64">XDxjcFw+</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHVibGljIHN0YXRpYyBpbnQgZGVsZXRlUHJpb0NoZWNrSGlzdG9yaWVzKExpc3Q8TG9uZz4gYm9va0lkcykgdGhyb3dzIERBT0V4Y2VwdGlvbiB7CiAgICBMaXN0PFByaW9jaGVja0hpc3RCZWFuPiBwcmlvY2hlY2tIaXN0QmVhbnMgPSBuZXcgQXJyYXlMaXN0PFByaW9jaGVja0hpc3RCZWFuPigpOwogICAgUHJpb2NoZWNrSGlzdE1hbmFnZXIgdmlld20gPSBQcmlvY2hlY2tIaXN0TWFuYWdlci5nZXRJbnN0YW5jZSgpOwogICAgaW50IGNyaXRlcmlhID0gMDsKICAgIFN0cmluZ0J1ZmZlciBjcml0ZXJpYVNRTCA9IG5ldyBTdHJpbmdCdWZmZXIoKTsKCiAgICBTdHJpbmdCdWZmZXIgc2IgPSBuZXcgU3RyaW5nQnVmZmVyKCk7CiAgICBjcml0ZXJpYVNRTC5hcHBlbmQoY3JlYXRlSW5TcWxDbGF1c2UoIkJPT0tfSUQiLCBib29rSWRzKSk7CgogICAgbG9nZ2VyLmluZm8oImRlbGV0ZVByaW9jaGVja0hpc3RvcnlCZWFucyBieSBCT09LX0lEICA+IiArIGNyaXRlcmlhU1FMLnRvU3RyaW5nKCkpOwogICAgaW50IHJlc3VsdCA9IHZpZXdtLmRlbGV0ZUJ5V2hlcmUoY3JpdGVyaWFTUUwudG9TdHJpbmcoKSk7CiAgICByZXR1cm4gcmVzdWx0OwogIH0=</text>
+        <text encoding="base64">cHVibGljIHN0YXRpYyBMaXN0PEJvb2tsaW5lT3BlbkJlYW4+IGZldGNoT3BlblRpY2tldHMoTGlzdDxTdHJpbmc+IGJvb2tpbmdOdW1iZXJzKSB0aHJvd3MgREFPRXhjZXB0aW9uIHsKCiAgICBMaXN0PEJvb2tsaW5lT3BlbkJlYW4+IGJvb2tsaW5lT3BlbkJlYW5zID0gbmV3IEFycmF5TGlzdDxCb29rbGluZU9wZW5CZWFuPigpOwogICAgQm9va2xpbmVPcGVuTWFuYWdlciB2aWV3bSA9IEJvb2tsaW5lT3Blbk1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5nZXRJbnN0YW5jZSgpOwogICAgaW50IGNyaXRlcmlhID0gMDsKICAgIFN0cmluZ0J1ZmZlciBjcml0ZXJpYVNRTCA9IG5ldyBTdHJpbmdCdWZmZXIoKTsKCiAgICBTdHJpbmdCdWZmZXIgc2IgPSBuZXcgU3RyaW5nQnVmZmVyKCk7CiAgICBjcml0ZXJpYVNRTC5hcHBlbmQoY3JlYXRlU3RyaW5nSW5TcWxDbGF1c2UoIlJFU0VSVkNPREUiLCBib29raW5nTnVtYmVycywgIiBXSEVSRSAiKSk7CgogICAgbG9nZ2VyLmluZm8oImZldGNoT3BlblRpY2tldHMgYnkgYm9va2luZ051bWJlciAgPiIgKyBjcml0ZXJpYVNRTC50b1N0cmluZygpKTsKICAgIEJvb2tsaW5lT3BlbkJlYW5bXSBvcGVuVGlja2V0cyA9IHZpZXdtLmxvYWRCeVdoZXJlKGNyaXRlcmlhU1FMLnRvU3RyaW5nKCkpOwogICAgQ29sbGVjdGlvblV0aWxzLmFkZEFsbChib29rbGluZU9wZW5CZWFucywgb3BlblRpY2tldHMpOwogICAgcmV0dXJuIGJvb2tsaW5lT3BlbkJlYW5zOwogIH0=</text>
       </register>
       <register name="1" type="4">
-        <text>getInstance</text>
+        <text>WHERE</text>
       </register>
       <register name="2" type="4">
-        <text>PriocheckHistManager</text>
+        <text>&quot;</text>
       </register>
       <register name="3" type="4">
-        <text>viewm</text>
+        <text>bookingNumbers</text>
       </register>
       <register name="4" type="4">
-        <text>PriocheckHistManager</text>
-      </register>
-      <register name="5" type="4">
-        <text>PriocheckHistBean</text>
-      </register>
-      <register name="6" type="4">
-        <text>priocheckHistBeans</text>
-      </register>
-      <register name="7" type="4">
-        <text>riocheckHistBean</text>
-      </register>
-      <register name="x" type="4">
         <text>getInstance</text>
       </register>
+      <register name="5" type="4">
+        <text>.</text>
+      </register>
+      <register name="6" type="4">
+        <text>BooklineOpenManager</text>
+      </register>
+      <register name="7" type="4">
+        <text>BooklineOpenManager</text>
+      </register>
+      <register name="x" type="4">
+        <text>WHERE</text>
+      </register>
       <register name="8" type="4">
-        <text>PrioCheckHistories</text>
+        <text>getInstance</text>
       </register>
       <register name="9" type="4">
-        <text>fetchOpenTickets</text>
+        <text>BooklineOpenBean</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action NextTab</text>
       </register>
     </registers>
     <search>
@@ -1123,9 +1123,10 @@
         <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
         <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
         <entry>action OptimizeImports</entry>
         <entry>action SaveAll</entry>
+        <entry>action VimFilePrevious</entry>
+        <entry>action NextTab</entry>
       </history-cmd>
       <history-expr />
       <history-input />
