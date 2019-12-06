@@ -292,12 +292,12 @@
         <mark key="." line="86" column="32" />
         <mark key="^" line="86" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1575627419357">
-        <mark key="'" line="2164" column="2" />
-        <mark key="[" line="2162" column="60" />
-        <mark key="]" line="2163" column="29" />
-        <mark key="^" line="2163" column="29" />
-        <mark key="." line="2163" column="29" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1575628520916">
+        <mark key="'" line="2179" column="2" />
+        <mark key="[" line="2166" column="0" />
+        <mark key="]" line="2166" column="0" />
+        <mark key="^" line="2175" column="9" />
+        <mark key="." line="2166" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.sql" timestamp="1574259176234">
         <mark key="'" line="143" column="28" />
@@ -773,12 +773,12 @@
         <mark key="^" line="85" column="87" />
         <mark key="." line="85" column="87" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" timestamp="1575626673802">
-        <mark key="'" line="83" column="7" />
-        <mark key="[" line="95" column="7" />
-        <mark key="]" line="97" column="7" />
-        <mark key="^" line="97" column="7" />
-        <mark key="." line="97" column="7" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" timestamp="1575628568813">
+        <mark key="'" line="96" column="6" />
+        <mark key="[" line="98" column="75" />
+        <mark key="]" line="98" column="75" />
+        <mark key="." line="98" column="75" />
+        <mark key="^" line="98" column="75" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/IAlertRecepient.java" timestamp="1574344601016">
         <mark key="'" line="5" column="2" />
@@ -927,13 +927,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="51" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="75" column="22" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="72" column="23" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="69" column="1" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="66" column="30" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="63" column="22" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="45" column="47" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="27" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="14" column="14" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
@@ -1027,6 +1020,13 @@
       <jump line="2187" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="2123" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="2166" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2134" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2155" column="73" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2152" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="92" column="75" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="94" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="2148" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2180" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1036,53 +1036,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>return</text>
+        <text>logger</text>
       </register>
       <register name="-" type="4">
-        <text>openTickets;</text>
+        <text>r</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjcFw+</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHVibGljIHN0YXRpYyBCb29rbGluZU9wZW5CZWFuW10gZmV0Y2hPcGVuVGlja2V0cyhTdHJpbmcgcGFzc2VuZ2VyT3JWZWhpY2xlLCBTdHJpbmcgdGlja2V0TnVtYmVyLCBTdHJpbmcKICAgICAgICAgIGJvb2tpbmdOdW1iZXIpIHRocm93cyBEQU9FeGNlcHRpb24gewovLyAgICBPcGVuVGlja0NvbmZWd01hbmFnZXIgdmlld20gPSBPcGVuVGlja0NvbmZWd01hbmFnZXIuZ2V0SW5zdGFuY2UoKTsKICAgIEJvb2tsaW5lT3Blbk1hbmFnZXIgdmlld20gPSBCb29rbGluZU9wZW5NYW5hZ2VyLmdldEluc3RhbmNlKCkuZ2V0SW5zdGFuY2UoKTsKICAgIGludCBjcml0ZXJpYSA9IDA7CiAgICBTdHJpbmdCdWZmZXIgY3JpdGVyaWFTUUwgPSBuZXcgU3RyaW5nQnVmZmVyKCk7CgogICAgU3RyaW5nQnVmZmVyIHNiID0gbmV3IFN0cmluZ0J1ZmZlcigpOwoKICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiV0hFUkUgQk9PS19UWVBFID0gJyIgKyBwYXNzZW5nZXJPclZlaGljbGUgKyAiJyAiKTsKCiAgICBpZiAoU3RyaW5nVXRpbHMuaXNOb3RCbGFuayh0aWNrZXROdW1iZXIpKSB7CiAgICAgIGNyaXRlcmlhU1FMLmFwcGVuZChTdHJpbmcuZm9ybWF0KCIgQU5EIFRJQ0tfTlVNQj0nJXMnIiwgdGlja2V0TnVtYmVyLnRyaW0oKSkpOwogICAgfQogICAgaWYgKFN0cmluZ1V0aWxzLmlzTm90QmxhbmsoYm9va2luZ051bWJlcikpIHsKICAgICAgY3JpdGVyaWFTUUwuYXBwZW5kKFN0cmluZy5mb3JtYXQoIiBBTkQgUkVTRVJWQ09ERT0nJXMnIiwgYm9va2luZ051bWJlcikpOwogICAgfQogICAgU3lzdGVtLm91dC5wcmludGxuKCJmZXRjaE9wZW5UaWNrZXRzICA+IiArIGNyaXRlcmlhU1FMLnRvU3RyaW5nKCkpOwogICAgQm9va2xpbmVPcGVuQmVhbltdIG9wZW5UaWNrZXRzID0gdmlld20ubG9hZEJ5V2hlcmUoY3JpdGVyaWFTUUwudG9TdHJpbmcoKSk7CiAgICByZXR1cm4gb3BlblRpY2tldHM7CiAgfQ==</text>
+        <text encoding="base64">cHVibGljIHN0YXRpYyBMaXN0PEJvb2tsaW5lT3BlbkJlYW4+IGZldGNoT3BlblRpY2tldHMoU3RyaW5nIGJvb2tpbmdOdW1iZXIpIHRocm93cyBEQU9FeGNlcHRpb24gewovLyAgICBPcGVuVGlja0NvbmZWd01hbmFnZXIgdmlld20gPSBPcGVuVGlja0NvbmZWd01hbmFnZXIuZ2V0SW5zdGFuY2UoKTsKCiAgICBMaXN0PEJvb2tsaW5lT3BlbkJlYW4+IGJvb2tsaW5lT3BlbkJlYW5zID0gbmV3IEFycmF5TGlzdDxCb29rbGluZU9wZW5CZWFuPigpOwogICAgQm9va2xpbmVPcGVuTWFuYWdlciB2aWV3bSA9IEJvb2tsaW5lT3Blbk1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5nZXRJbnN0YW5jZSgpOwogICAgaW50IGNyaXRlcmlhID0gMDsKICAgIFN0cmluZ0J1ZmZlciBjcml0ZXJpYVNRTCA9IG5ldyBTdHJpbmdCdWZmZXIoKTsKCiAgICBTdHJpbmdCdWZmZXIgc2IgPSBuZXcgU3RyaW5nQnVmZmVyKCk7CiAgICBjcml0ZXJpYVNRTC5hcHBlbmQoIldIRVJFIFJFU0VSVkNPREU9ID0gJyIgKyBib29raW5nTnVtYmVyICsgIicgIik7CgogICAgbG9nZ2VyLmluZm8oImZldGNoT3BlblRpY2tldHMgYnkgYm9va2luZ051bWJlciAgPiIgKyBjcml0ZXJpYVNRTC50b1N0cmluZygpKTsKICAgIEJvb2tsaW5lT3BlbkJlYW5bXSBvcGVuVGlja2V0cyA9IHZpZXdtLmxvYWRCeVdoZXJlKGNyaXRlcmlhU1FMLnRvU3RyaW5nKCkpOwogICAgQ29sbGVjdGlvblV0aWxzLmFkZEFsbChib29rbGluZU9wZW5CZWFucywgb3BlblRpY2tldHMpOwogICAgcmV0dXJuIGJvb2tsaW5lT3BlbkJlYW5zOwogIH0=</text>
       </register>
       <register name="1" type="4">
-        <text>return</text>
+        <text encoding="base64">ICAgICAgZm9yIChTdHJpbmcgYm9va2luZ051bWJlciA6IGJvb2tpbmdOdW1iZXJzKXsKICAgICAgIC8vZGVsZXRlawoKCgogICAgICB9</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Ly8gICAgT3BlblRpY2tDb25mVndNYW5hZ2VyIHZpZXdtID0gT3BlblRpY2tDb25mVndNYW5hZ2VyLmdldEluc3RhbmNlKCk7Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>logger</text>
       </register>
-      <register name="4" type="4">
-        <text>if (StringUtils.isNotBlank(ticketNumber)) {
-      criteriaSQL.append(String.format(&quot; AND TICK_NUMB='%s'&quot;, ticketNumber.trim()));
-    }</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiV0hFUkUgUkVTRVJWQ09ERT0gPSAnIiArIGJvb2tpbmdOdW1iZXIgKyAiJyAiKTsK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiV0hFUkUgQk9PS19UWVBFID0gJyIgKyBwYXNzZW5nZXJPclZlaGljbGUgKyAiJyAiKTsK</text>
+      <register name="5" type="4">
+        <text>OpenManager</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgU3RyaW5nIGJvb2tpbmdObyA9IHJlcVhtbC5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0RW1iYXJrYXRpb25EYXRhKCkuZ2V0Qm9va2luZygpLmdldEJvb2tpbmdOdW1iZXIoKTsK</text>
+      <register name="6" type="4">
+        <text>ooklineOpenManager</text>
       </register>
       <register name="7" type="4">
-        <text>String departureDate = itineraryData.getDepartureDate();
-      String departureTime = itineraryData.getDepartureTime();
-      String departurePortCode = itineraryData.getDeparturePortCode();
-      String arrivalPortCode = itineraryData.getArrivalPortCode();
-      String vesselIMO = itineraryData.getVesselIMO();
-      String companyCode = itineraryData.getCompanyCode();</text>
+        <text>OpenManager</text>
       </register>
       <register name="x" type="4">
-        <text>return</text>
+        <text>logger</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+      <register name="8" type="4">
+        <text>viewm</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgICAgICBTdHJpbmdVdGlscy5pc0VtcHR5KGRlcGFydHVyZURhdGUpIHx8CiAgICAgICAgICAgICAgICAgICAgICBTdHJpbmdVdGlscy5pc0VtcHR5KGRlcGFydHVyZVRpbWUpIHx8CiAgICAgICAgICAgICAgICAgICAgICBTdHJpbmdVdGlscy5pc0VtcHR5KGRlcGFydHVyZVBvcnRDb2RlKSB8fAogICAgICAgICAgICAgICAgICAgICAgU3RyaW5nVXRpbHMuaXNFbXB0eShhcnJpdmFsUG9ydENvZGUpIHx8CiAgICAgICAgICAgICAgICAgICAgICBTdHJpbmdVdGlscy5pc0VtcHR5KHZlc3NlbElNTykgfHwKICAgICAgICAgICAgICAgICAgICAgIFN0cmluZ1V0aWxzLmlzRW1wdHkoY29tcGFueUNvZGUp</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -1110,7 +1103,6 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
         <entry>149</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action OptimizeImports</entry>
         <entry>action SplitVertically</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
@@ -1120,10 +1112,12 @@
         <entry>action FindUsages</entry>
         <entry>action RenameElement</entry>
         <entry>action PreviousTab</entry>
-        <entry>action ReformatCode</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>action GotoFile</entry>
+        <entry>action ReformatCode</entry>
         <entry>action Find</entry>
+        <entry>2166</entry>
+        <entry>action QuickJavaDoc</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
