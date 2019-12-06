@@ -292,6 +292,13 @@
         <mark key="." line="86" column="32" />
         <mark key="^" line="86" column="32" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1575627419357">
+        <mark key="'" line="2164" column="2" />
+        <mark key="[" line="2162" column="60" />
+        <mark key="]" line="2163" column="29" />
+        <mark key="^" line="2163" column="29" />
+        <mark key="." line="2163" column="29" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.sql" timestamp="1574259176234">
         <mark key="'" line="143" column="28" />
         <mark key="[" line="1" column="29" />
@@ -766,11 +773,12 @@
         <mark key="^" line="85" column="87" />
         <mark key="." line="85" column="87" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" timestamp="1575623293163">
-        <mark key="'" line="396" column="6" />
-        <mark key="[" line="373" column="0" />
-        <mark key="]" line="373" column="0" />
-        <mark key="." line="373" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" timestamp="1575626673802">
+        <mark key="'" line="83" column="7" />
+        <mark key="[" line="95" column="7" />
+        <mark key="]" line="97" column="7" />
+        <mark key="^" line="97" column="7" />
+        <mark key="." line="97" column="7" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/IAlertRecepient.java" timestamp="1574344601016">
         <mark key="'" line="5" column="2" />
@@ -897,12 +905,12 @@
         <mark key="." line="23" column="21" />
         <mark key="^" line="23" column="21" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1575037773048">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1575625980547">
         <mark key="'" line="732" column="4" />
-        <mark key="[" line="732" column="4" />
-        <mark key="]" line="732" column="68" />
-        <mark key="." line="98" column="64" />
-        <mark key="^" line="98" column="64" />
+        <mark key="[" line="178" column="16" />
+        <mark key="]" line="178" column="39" />
+        <mark key="." line="178" column="39" />
+        <mark key="^" line="178" column="39" />
       </file>
       <file name="/fragment.java" timestamp="1575545513950">
         <mark key="[" line="0" column="0" />
@@ -919,12 +927,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="51" column="0" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="34" column="0" filename="$USER_HOME$/projects/port-checkin-control/.gitignore" />
-      <jump line="3" column="30" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="2" column="57" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="7" column="39" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="9" column="26" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="60" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="51" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
       <jump line="75" column="22" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
@@ -1019,6 +1021,12 @@
       <jump line="27" column="120" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
       <jump line="32" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
       <jump line="455" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="91" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="86" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="83" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="2187" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2123" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2166" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1028,90 +1036,53 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>apbaExchangeHandler</text>
+        <text>return</text>
       </register>
       <register name="-" type="4">
-        <text>ApbaExchangeHandler apbaExchangeHandler = new ApbaExchangeHandler(xmltree);</text>
+        <text>openTickets;</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjcFw+</text>
       </register>
       <register name="0" type="4">
-        <text>String bookingNo = vldCntnr.getServiceBody().getMessageData().getEmbarkationData().getBooking().getBookingNumber();</text>
+        <text encoding="base64">cHVibGljIHN0YXRpYyBCb29rbGluZU9wZW5CZWFuW10gZmV0Y2hPcGVuVGlja2V0cyhTdHJpbmcgcGFzc2VuZ2VyT3JWZWhpY2xlLCBTdHJpbmcgdGlja2V0TnVtYmVyLCBTdHJpbmcKICAgICAgICAgIGJvb2tpbmdOdW1iZXIpIHRocm93cyBEQU9FeGNlcHRpb24gewovLyAgICBPcGVuVGlja0NvbmZWd01hbmFnZXIgdmlld20gPSBPcGVuVGlja0NvbmZWd01hbmFnZXIuZ2V0SW5zdGFuY2UoKTsKICAgIEJvb2tsaW5lT3Blbk1hbmFnZXIgdmlld20gPSBCb29rbGluZU9wZW5NYW5hZ2VyLmdldEluc3RhbmNlKCkuZ2V0SW5zdGFuY2UoKTsKICAgIGludCBjcml0ZXJpYSA9IDA7CiAgICBTdHJpbmdCdWZmZXIgY3JpdGVyaWFTUUwgPSBuZXcgU3RyaW5nQnVmZmVyKCk7CgogICAgU3RyaW5nQnVmZmVyIHNiID0gbmV3IFN0cmluZ0J1ZmZlcigpOwoKICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiV0hFUkUgQk9PS19UWVBFID0gJyIgKyBwYXNzZW5nZXJPclZlaGljbGUgKyAiJyAiKTsKCiAgICBpZiAoU3RyaW5nVXRpbHMuaXNOb3RCbGFuayh0aWNrZXROdW1iZXIpKSB7CiAgICAgIGNyaXRlcmlhU1FMLmFwcGVuZChTdHJpbmcuZm9ybWF0KCIgQU5EIFRJQ0tfTlVNQj0nJXMnIiwgdGlja2V0TnVtYmVyLnRyaW0oKSkpOwogICAgfQogICAgaWYgKFN0cmluZ1V0aWxzLmlzTm90QmxhbmsoYm9va2luZ051bWJlcikpIHsKICAgICAgY3JpdGVyaWFTUUwuYXBwZW5kKFN0cmluZy5mb3JtYXQoIiBBTkQgUkVTRVJWQ09ERT0nJXMnIiwgYm9va2luZ051bWJlcikpOwogICAgfQogICAgU3lzdGVtLm91dC5wcmludGxuKCJmZXRjaE9wZW5UaWNrZXRzICA+IiArIGNyaXRlcmlhU1FMLnRvU3RyaW5nKCkpOwogICAgQm9va2xpbmVPcGVuQmVhbltdIG9wZW5UaWNrZXRzID0gdmlld20ubG9hZEJ5V2hlcmUoY3JpdGVyaWFTUUwudG9TdHJpbmcoKSk7CiAgICByZXR1cm4gb3BlblRpY2tldHM7CiAgfQ==</text>
       </register>
       <register name="1" type="4">
-        <text>Morocco Sun
-06:30
-TNM-ALG
-4
-1</text>
+        <text>return</text>
       </register>
-      <register name="2" type="4">
-        <text>04/05/2020
-Morocco Sun
-06:30
-TNM-ALG
-4
-1</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="4">
-        <text>04/05/2020
-Morocco Sun
-06:30
-TNM-ALG
-4
-1</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="4">
-        <text>04/05/2020
-Morocco Sun
-06:30
-TNM-ALG
-4
-1</text>
+        <text>if (StringUtils.isNotBlank(ticketNumber)) {
+      criteriaSQL.append(String.format(&quot; AND TICK_NUMB='%s'&quot;, ticketNumber.trim()));
+    }</text>
       </register>
-      <register name="5" type="4">
-        <text>04/05/2020
-Morocco Sun
-06:30
-TNM-ALG
-4
-1</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiV0hFUkUgQk9PS19UWVBFID0gJyIgKyBwYXNzZW5nZXJPclZlaGljbGUgKyAiJyAiKTsK</text>
       </register>
-      <register name="6" type="4">
-        <text>04/05/2020
-Morocco Sun
-06:30
-TNM-ALG
-4
-1</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgU3RyaW5nIGJvb2tpbmdObyA9IHJlcVhtbC5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuZ2V0RW1iYXJrYXRpb25EYXRhKCkuZ2V0Qm9va2luZygpLmdldEJvb2tpbmdOdW1iZXIoKTsK</text>
       </register>
       <register name="7" type="4">
-        <text>04/05/2020
-Morocco Sun
-06:30
-TNM-ALG
-4
-1</text>
+        <text>String departureDate = itineraryData.getDepartureDate();
+      String departureTime = itineraryData.getDepartureTime();
+      String departurePortCode = itineraryData.getDeparturePortCode();
+      String arrivalPortCode = itineraryData.getArrivalPortCode();
+      String vesselIMO = itineraryData.getVesselIMO();
+      String companyCode = itineraryData.getCompanyCode();</text>
       </register>
       <register name="x" type="4">
-        <text>apbaExchangeHandler</text>
+        <text>return</text>
       </register>
-      <register name="8" type="4">
-        <text>04/05/2020
-Morocco Sun
-06:30
-TNM-ALG
-4
-1</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="9" type="4">
-        <text>04/05/2020
-Morocco Sun
-06:30
-TNM-ALG
-4
-1</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmdVdGlscy5pc0VtcHR5KGRlcGFydHVyZURhdGUpIHx8CiAgICAgICAgICAgICAgICAgICAgICBTdHJpbmdVdGlscy5pc0VtcHR5KGRlcGFydHVyZVRpbWUpIHx8CiAgICAgICAgICAgICAgICAgICAgICBTdHJpbmdVdGlscy5pc0VtcHR5KGRlcGFydHVyZVBvcnRDb2RlKSB8fAogICAgICAgICAgICAgICAgICAgICAgU3RyaW5nVXRpbHMuaXNFbXB0eShhcnJpdmFsUG9ydENvZGUpIHx8CiAgICAgICAgICAgICAgICAgICAgICBTdHJpbmdVdGlscy5pc0VtcHR5KHZlc3NlbElNTykgfHwKICAgICAgICAgICAgICAgICAgICAgIFN0cmluZ1V0aWxzLmlzRW1wdHkoY29tcGFueUNvZGUp</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -1147,11 +1118,12 @@ TNM-ALG
         <entry>action GotoImplementation</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action FindUsages</entry>
-        <entry>action Find</entry>
-        <entry>action GotoFile</entry>
-        <entry>action ReformatCode</entry>
         <entry>action RenameElement</entry>
         <entry>action PreviousTab</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action TabShiftActions.StretchUp</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
