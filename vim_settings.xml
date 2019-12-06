@@ -288,12 +288,11 @@
         <mark key="." line="86" column="32" />
         <mark key="^" line="86" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1575628520916">
-        <mark key="'" line="2179" column="2" />
-        <mark key="[" line="2166" column="0" />
-        <mark key="]" line="2166" column="0" />
-        <mark key="^" line="2175" column="9" />
-        <mark key="." line="2166" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1575645892173">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="38" column="18" />
+        <mark key="." line="2144" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.sql" timestamp="1574259176234">
         <mark key="'" line="143" column="28" />
@@ -711,6 +710,13 @@
         <mark key="." line="38" column="38" />
         <mark key="^" line="38" column="38" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" timestamp="1575646106944">
+        <mark key="'" line="180" column="2" />
+        <mark key="[" line="177" column="39" />
+        <mark key="]" line="177" column="35" />
+        <mark key="^" line="177" column="35" />
+        <mark key="." line="177" column="35" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" timestamp="1575641450830">
         <mark key="'" line="103" column="46" />
         <mark key="[" line="352" column="28" />
@@ -774,12 +780,12 @@
         <mark key="^" line="85" column="87" />
         <mark key="." line="85" column="87" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" timestamp="1575638318949">
-        <mark key="'" line="96" column="6" />
-        <mark key="[" line="143" column="8" />
-        <mark key="]" line="143" column="9" />
-        <mark key="." line="143" column="9" />
-        <mark key="^" line="143" column="9" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" timestamp="1575646029799">
+        <mark key="'" line="92" column="0" />
+        <mark key="[" line="93" column="49" />
+        <mark key="]" line="93" column="59" />
+        <mark key="^" line="93" column="59" />
+        <mark key="." line="93" column="59" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/IAlertRecepient.java" timestamp="1574344601016">
         <mark key="'" line="5" column="2" />
@@ -928,38 +934,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="45" column="7" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="30" column="8" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/ReportBuilder.java" />
-      <jump line="19" column="100" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/SecretKeyProvider.java" />
-      <jump line="17" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/ReportBuilder.java" />
-      <jump line="12" column="37" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/SecretKeyProvider.java" />
-      <jump line="17" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/SecretKeyProvider.java" />
-      <jump line="18" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/reports/ReportBuilder.java" />
-      <jump line="20" column="80" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/security/SecretKeyProvider.java" />
-      <jump line="20" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RootController.java" />
-      <jump line="4" column="31" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/MyErrorController.java" />
-      <jump line="38" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/RootController.java" />
-      <jump line="9" column="48" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/MyErrorController.java" />
-      <jump line="28" column="4" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/MyErrorController.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/templates/405.html" />
-      <jump line="9" column="6" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/templates/error.html" />
-      <jump line="5" column="36" filename="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application.properties" />
-      <jump line="8" column="0" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/MyErrorController.java" />
-      <jump line="78" column="0" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="103" column="13" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="91" column="0" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="112" column="15" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="74" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="99" column="46" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="100" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="75" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="32" column="2" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="48" column="13" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="105" column="13" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="93" column="0" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="118" column="13" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="102" column="65" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="115" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="89" column="61" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="86" column="99" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
       <jump line="85" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
@@ -1002,7 +976,6 @@
       <jump line="27" column="120" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
       <jump line="32" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
       <jump line="455" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
-      <jump line="91" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
       <jump line="86" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
       <jump line="83" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
       <jump line="2187" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -1028,6 +1001,39 @@
       <jump line="351" column="26" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
       <jump line="352" column="23" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
       <jump line="103" column="46" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
+      <jump line="2165" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2194" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="619" column="1" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="651" column="104" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2169" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2214" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2181" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2223" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="90" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="91" column="81" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="2238" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="84" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="85" column="48" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="2226" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2253" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2211" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2268" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2241" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2282" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2270" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2297" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="2149" column="63" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="110" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="143" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
+      <jump line="7" column="71" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
+      <jump line="108" column="62" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
+      <jump line="4" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
+      <jump line="39" column="18" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
+      <jump line="6" column="18" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
+      <jump line="88" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="154" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
+      <jump line="180" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1037,7 +1043,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>Created</text>
+        <text>getInstance</text>
       </register>
       <register name="-" type="4">
         <text>r</text>
@@ -1045,57 +1051,41 @@
       <register name="/" type="4">
         <text encoding="base64">XDxjcFw+</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICBNMl9IT01FOiAvaG9tZS9naXRsYWItcnVubmVyLy5tMgo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">cHVibGljIHN0YXRpYyBpbnQgZGVsZXRlUHJpb0NoZWNrSGlzdG9yaWVzKExpc3Q8TG9uZz4gYm9va0lkcykgdGhyb3dzIERBT0V4Y2VwdGlvbiB7CiAgICBMaXN0PFByaW9jaGVja0hpc3RCZWFuPiBwcmlvY2hlY2tIaXN0QmVhbnMgPSBuZXcgQXJyYXlMaXN0PFByaW9jaGVja0hpc3RCZWFuPigpOwogICAgUHJpb2NoZWNrSGlzdE1hbmFnZXIgdmlld20gPSBQcmlvY2hlY2tIaXN0TWFuYWdlci5nZXRJbnN0YW5jZSgpOwogICAgaW50IGNyaXRlcmlhID0gMDsKICAgIFN0cmluZ0J1ZmZlciBjcml0ZXJpYVNRTCA9IG5ldyBTdHJpbmdCdWZmZXIoKTsKCiAgICBTdHJpbmdCdWZmZXIgc2IgPSBuZXcgU3RyaW5nQnVmZmVyKCk7CiAgICBjcml0ZXJpYVNRTC5hcHBlbmQoY3JlYXRlSW5TcWxDbGF1c2UoIkJPT0tfSUQiLCBib29rSWRzKSk7CgogICAgbG9nZ2VyLmluZm8oImRlbGV0ZVByaW9jaGVja0hpc3RvcnlCZWFucyBieSBCT09LX0lEICA+IiArIGNyaXRlcmlhU1FMLnRvU3RyaW5nKCkpOwogICAgaW50IHJlc3VsdCA9IHZpZXdtLmRlbGV0ZUJ5V2hlcmUoY3JpdGVyaWFTUUwudG9TdHJpbmcoKSk7CiAgICByZXR1cm4gcmVzdWx0OwogIH0=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>getInstance</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="2" type="4">
+        <text>PriocheckHistManager</text>
       </register>
       <register name="3" type="4">
-        <text>public boolean validateEntrantDataCardExpiration(EntrantDataCard entrantDataCard, EntrantDataCheck entrantDataCheck) {
-    if (entrantDataCard.getValidUntil().isBefore(LocalDateTime.now())) {
-      setValidationResult(entrantDataCheck, failedActionType, &quot;Entrance Card has expired: &quot;.concat(
-              entrantDataCard.getValidUntil().format(DATE_FORMAT)
-      ));
-      return false;
-    }
-    return true;
-  }</text>
+        <text>viewm</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAuY29uY2F0KAo=</text>
+      <register name="4" type="4">
+        <text>PriocheckHistManager</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text>PriocheckHistBean</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="6" type="4">
+        <text>priocheckHistBeans</text>
       </register>
       <register name="7" type="4">
-        <text>public boolean validateEntrantDataCardExpiration(EntrantDataCard entrantDataCard, EntrantDataCheck entrantDataCheck) {
-    if (entrantDataCard.getValidUntil().isBefore(LocalDateTime.now())) {
-      setValidationResult(entrantDataCheck, failedActionType, &quot;Entrance Card has expired: &quot;.concat(
-              entrantDataCard.getValidUntil().format(DATE_FORMAT)
-      ));
-      return false;
-    }
-    return true;
-  }</text>
+        <text>riocheckHistBean</text>
       </register>
       <register name="x" type="4">
-        <text>Created</text>
+        <text>getInstance</text>
       </register>
       <register name="8" type="4">
-        <text>Created</text>
+        <text>PrioCheckHistories</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>fetchOpenTickets</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -1119,23 +1109,23 @@
         <entry>action PreviousOccurence</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gU3Vycm91bmRXaXRo</entry>
         <entry>149</entry>
-        <entry>action OptimizeImports</entry>
         <entry>action SplitVertically</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action RenameElement</entry>
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>2166</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>action GotoImplementation</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action NextTab</entry>
-        <entry>action ReformatCode</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action SaveAll</entry>
+        <entry>action QuickJavaDoc</entry>
         <entry>action GotoFile</entry>
+        <entry>action RenameElement</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action GotoDeclaration</entry>
         <entry>action Find</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action OptimizeImports</entry>
+        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
