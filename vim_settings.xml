@@ -38,10 +38,10 @@
         <mark key="^" line="20" column="36" />
         <mark key="." line="20" column="36" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" timestamp="1574412658998">
-        <mark key="'" line="121" column="79" />
-        <mark key="[" line="63" column="129" />
-        <mark key="]" line="64" column="3" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" timestamp="1575631831874">
+        <mark key="'" line="151" column="35" />
+        <mark key="[" line="151" column="35" />
+        <mark key="]" line="151" column="83" />
         <mark key="^" line="64" column="3" />
         <mark key="." line="64" column="3" />
       </file>
@@ -611,9 +611,6 @@
         <mark key="^" line="8" column="32" />
         <mark key="." line="8" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/specs/deploy.bat" timestamp="1575555819610">
-        <mark key="'" line="1" column="26" />
-      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IRoleDao.java" timestamp="1574339946845">
         <mark key="'" line="32" column="65" />
         <mark key="[" line="32" column="48" />
@@ -876,12 +873,12 @@
         <mark key="^" line="41" column="0" />
         <mark key="." line="37" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1574334524023">
-        <mark key="'" line="281" column="28" />
-        <mark key="[" line="116" column="65" />
-        <mark key="]" line="116" column="72" />
-        <mark key="^" line="116" column="72" />
-        <mark key="." line="116" column="72" />
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1575633515352">
+        <mark key="'" line="332" column="64" />
+        <mark key="[" line="320" column="79" />
+        <mark key="]" line="320" column="97" />
+        <mark key="^" line="320" column="97" />
+        <mark key="." line="320" column="97" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IAgencyDao.java" timestamp="1574340082770">
         <mark key="'" line="0" column="0" />
@@ -933,13 +930,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="27" column="4" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="14" column="14" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="90" column="13" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="9" column="0" filename="$USER_HOME$/projects/pcs/.gitlab-ci.yml" />
-      <jump line="81" column="18" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="15" column="8" filename="$USER_HOME$/projects/pcs/pom.xml" />
-      <jump line="71" column="0" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="23" column="78" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="35" column="78" filename="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" />
       <jump line="131" column="46" filename="$USER_HOME$/projects/pcs/rhodes/pom.xml" />
@@ -1033,6 +1023,13 @@
       <jump line="2148" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="2180" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="103" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/ItinerariesEnquiry.java" />
+      <jump line="299" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="314" column="2" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="157" column="35" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="151" column="35" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/qrcode/EntranceCardPrintService.java" />
+      <jump line="302" column="64" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="303" column="91" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
+      <jump line="332" column="64" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1042,7 +1039,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>logger</text>
+        <text>Created</text>
       </register>
       <register name="-" type="4">
         <text>r</text>
@@ -1051,40 +1048,57 @@
         <text encoding="base64">XDxjcFw+</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHVibGljIHN0YXRpYyBMaXN0PEJvb2tsaW5lT3BlbkJlYW4+IGZldGNoT3BlblRpY2tldHMoU3RyaW5nIGJvb2tpbmdOdW1iZXIpIHRocm93cyBEQU9FeGNlcHRpb24gewovLyAgICBPcGVuVGlja0NvbmZWd01hbmFnZXIgdmlld20gPSBPcGVuVGlja0NvbmZWd01hbmFnZXIuZ2V0SW5zdGFuY2UoKTsKCiAgICBMaXN0PEJvb2tsaW5lT3BlbkJlYW4+IGJvb2tsaW5lT3BlbkJlYW5zID0gbmV3IEFycmF5TGlzdDxCb29rbGluZU9wZW5CZWFuPigpOwogICAgQm9va2xpbmVPcGVuTWFuYWdlciB2aWV3bSA9IEJvb2tsaW5lT3Blbk1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5nZXRJbnN0YW5jZSgpOwogICAgaW50IGNyaXRlcmlhID0gMDsKICAgIFN0cmluZ0J1ZmZlciBjcml0ZXJpYVNRTCA9IG5ldyBTdHJpbmdCdWZmZXIoKTsKCiAgICBTdHJpbmdCdWZmZXIgc2IgPSBuZXcgU3RyaW5nQnVmZmVyKCk7CiAgICBjcml0ZXJpYVNRTC5hcHBlbmQoIldIRVJFIFJFU0VSVkNPREU9ID0gJyIgKyBib29raW5nTnVtYmVyICsgIicgIik7CgogICAgbG9nZ2VyLmluZm8oImZldGNoT3BlblRpY2tldHMgYnkgYm9va2luZ051bWJlciAgPiIgKyBjcml0ZXJpYVNRTC50b1N0cmluZygpKTsKICAgIEJvb2tsaW5lT3BlbkJlYW5bXSBvcGVuVGlja2V0cyA9IHZpZXdtLmxvYWRCeVdoZXJlKGNyaXRlcmlhU1FMLnRvU3RyaW5nKCkpOwogICAgQ29sbGVjdGlvblV0aWxzLmFkZEFsbChib29rbGluZU9wZW5CZWFucywgb3BlblRpY2tldHMpOwogICAgcmV0dXJuIGJvb2tsaW5lT3BlbkJlYW5zOwogIH0=</text>
+        <text>.concat(
+              entrantDataCard.getValidUntil().format(DATE_FORMAT)</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">ICAgICAgZm9yIChTdHJpbmcgYm9va2luZ051bWJlciA6IGJvb2tpbmdOdW1iZXJzKXsKICAgICAgIC8vZGVsZXRlawoKCgogICAgICB9</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8gICAgT3BlblRpY2tDb25mVndNYW5hZ2VyIHZpZXdtID0gT3BlblRpY2tDb25mVndNYW5hZ2VyLmdldEluc3RhbmNlKCk7Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="3" type="4">
-        <text>logger</text>
+        <text>public boolean validateEntrantDataCardExpiration(EntrantDataCard entrantDataCard, EntrantDataCheck entrantDataCheck) {
+    if (entrantDataCard.getValidUntil().isBefore(LocalDateTime.now())) {
+      setValidationResult(entrantDataCheck, failedActionType, &quot;Entrance Card has expired: &quot;.concat(
+              entrantDataCard.getValidUntil().format(DATE_FORMAT)
+      ));
+      return false;
+    }
+    return true;
+  }</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGNyaXRlcmlhU1FMLmFwcGVuZCgiV0hFUkUgUkVTRVJWQ09ERT0gPSAnIiArIGJvb2tpbmdOdW1iZXIgKyAiJyAiKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAuY29uY2F0KAo=</text>
       </register>
-      <register name="5" type="4">
-        <text>OpenManager</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>ooklineOpenManager</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="7" type="4">
-        <text>OpenManager</text>
+        <text>public boolean validateEntrantDataCardExpiration(EntrantDataCard entrantDataCard, EntrantDataCheck entrantDataCheck) {
+    if (entrantDataCard.getValidUntil().isBefore(LocalDateTime.now())) {
+      setValidationResult(entrantDataCheck, failedActionType, &quot;Entrance Card has expired: &quot;.concat(
+              entrantDataCard.getValidUntil().format(DATE_FORMAT)
+      ));
+      return false;
+    }
+    return true;
+  }</text>
       </register>
       <register name="x" type="4">
-        <text>logger</text>
+        <text>Created</text>
       </register>
       <register name="8" type="4">
-        <text>viewm</text>
+        <text>Created</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action FindUsages</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -1112,19 +1126,19 @@
         <entry>action OptimizeImports</entry>
         <entry>action SplitVertically</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
-        <entry>action NextTab</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action RenameElement</entry>
-        <entry>action PreviousTab</entry>
         <entry>action TabShiftActions.StretchUp</entry>
-        <entry>action ReformatCode</entry>
         <entry>2166</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action SaveAll</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
-        <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
         <entry>action FindUsages</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action SaveAll</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
