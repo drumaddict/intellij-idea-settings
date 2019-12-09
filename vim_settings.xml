@@ -253,12 +253,11 @@
         <mark key="^" line="83" column="58" />
         <mark key="." line="83" column="58" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" timestamp="1575899469169">
-        <mark key="'" line="75" column="78" />
-        <mark key="[" line="84" column="0" />
-        <mark key="]" line="84" column="0" />
-        <mark key="^" line="78" column="6" />
-        <mark key="." line="84" column="0" />
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" timestamp="1575900526772">
+        <mark key="[" line="101" column="0" />
+        <mark key="]" line="101" column="0" />
+        <mark key="^" line="100" column="59" />
+        <mark key="." line="101" column="0" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataCard.java" timestamp="1574243768822">
         <mark key="'" line="109" column="2" />
@@ -982,9 +981,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2238" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="84" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
-      <jump line="85" column="48" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
       <jump line="2226" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="2253" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="2211" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -1070,7 +1066,6 @@
       <jump line="13" column="82" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
       <jump line="144" column="10" filename="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/controller/pb/GeneralManifestController.java" />
       <jump line="44" column="57" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
-      <jump line="23" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
       <jump line="38" column="41" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
       <jump line="41" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
       <jump line="34" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
@@ -1082,6 +1077,10 @@
       <jump line="70" column="64" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
       <jump line="54" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
       <jump line="75" column="78" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
+      <jump line="60" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
+      <jump line="100" column="80" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
+      <jump line="23" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
+      <jump line="94" column="82" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.sql" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1100,13 +1099,48 @@
         <text encoding="base64">XDxjcFw+</text>
       </register>
       <register name="0" type="4">
-        <text>passengersOnly: Only bring data for passengers (optional)
-crewOnly: Only bring data for crew (optional)
-passengersAndCrew: Bring data for passengers and crew (optional)
+        <text>language_id: (en, el) Language of results.
+active: If present will only bring active itineraries.
+startDate - endDate:  limit search to itineraries with departure date within this time range
+selectedPortId: Destination Port of itineraries (Since this is departures, Origin port is Rhodes)
+companyId: limit search only to this company
+vesselId: limit search only to itineraries bound with this vessel
 
-If both passengersOnly and crewOnly are omitted, data for both will be fetched.</text>
+Return a list of itinerary ids which can be used to fetch a General Manifest Report</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">CgoKCgoKCgoKCgoKCgoKCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text>RequestParam(value = &quot;languageId&quot;, required = true) Long languageId,
+@RequestParam(value = &quot;active&quot;, required = false) Integer active,
+@RequestParam(value = &quot;startDate&quot;, required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
+      LocalDateTime startDate,
+@RequestParam(value = &quot;endDate&quot;, required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
+      LocalDateTime endDate,
+@RequestParam(value = &quot;selectedPortId&quot;, required = false) Long selectedPortId,
+@RequestParam(value = &quot;companyId&quot;, required = false) Long companyId,
+@RequestParam(value = &quot;vesselId&quot;, required = false) Long vesselId,
+
+
+
+@RequestParam(value = &quot;passengersOnly&quot;, required = false) Integer passengersOnly,
+@RequestParam(value = &quot;crewOnly&quot;, required = false) Integer crewOnly,
+@RequestParam(value = &quot;passengersAndCrew&quot;, required = false) Integer passengers</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">UmV0dXJuIGEgbGlzdCBvZiBpdGluZXJhcnkgaWRzIHdoaWNoIGNhbiBiZSB1c2VkIHRvIGZldGNoIGEgR2VuZXJhbCBNYW5pZmVzdCBSZXBvcnQK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="4">
         <text>@RequestMapping(
           value = &quot;arrivalsGeneralManifestService&quot;,
           method = RequestMethod.GET,
@@ -1126,32 +1160,14 @@ If both passengersOnly and crewOnly are omitted, data for both will be fetched.<
           @RequestParam(value = &quot;crewOnly&quot;, required = false) Integer crewOnly,
           @RequestParam(value = &quot;passengersAndCrew&quot;, required = false) Integer passengersAndCrew,</text>
       </register>
-      <register name="2" type="4">
-        <text>departures</text>
-      </register>
-      <register name="3" type="4">
-        <text>departure</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">QFJlcXVlc3RQYXJhbSh2YWx1ZSA9ICJsYW5ndWFnZUlkIiwgcmVxdWlyZWQgPSB0cnVlKSBMb25nIGxhbmd1YWdlSWQsCiAgICAgICAgICBAUmVxdWVzdFBhcmFtKHZhbHVlID0gImlkcyIsIHJlcXVpcmVkID0gdHJ1ZSkgTGlzdDxMb25nPiBpZHMsCiAgICAgICAgICBAUmVxdWVzdFBhcmFtKHZhbHVlID0gInBhc3NlbmdlcnNPbmx5IiwgcmVxdWlyZWQgPSBmYWxzZSkgSW50ZWdlciBwYXNzZW5nZXJzT25seSwKICAgICAgICAgIEBSZXF1ZXN0UGFyYW0odmFsdWUgPSAiY3Jld09ubHkiLCByZXF1aXJlZCA9IGZhbHNlKSBJbnRlZ2VyIGNyZXdPbmx5LAogICAgICAgICAgQFJlcXVlc3RQYXJhbSh2YWx1ZSA9ICJwYXNzZW5nZXJzQW5kQ3JldyIsIHJlcXVpcmVkID0gZmFsc2UpIEludGVnZXIgcGFzc2VuZ2Vyc0FuZENyZXcsCiAgICAgICAgICBIdHRwU2VydmxldFJlc3BvbnNlIHJlc3BvbnNlLAogICAgICAgICAgSHR0cFNlcnZsZXRSZXF1ZXN0IHJlcXVlc3QpIHRocm93cyBJT0V4Y2VwdGlvbiB7</text>
-      </register>
-      <register name="5" type="4">
-        <text>passengers</text>
-      </register>
-      <register name="6" type="4">
-        <text>passengersOnly</text>
-      </register>
-      <register name="7" type="4">
-        <text>departure</text>
-      </register>
       <register name="x" type="4">
         <text>departures</text>
       </register>
       <register name="8" type="4">
-        <text>departure</text>
+        <text>departures</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Y29tcGFueUlkOiBjb21wYW55IG9mIGl0aW5lcmFyaWVzCg==</text>
+      <register name="9" type="4">
+        <text>departure</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
