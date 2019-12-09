@@ -1130,7 +1130,7 @@ PUBLIC_SAILINGS_TO_NOW_PLUS_HOURS</text>
 defauFetch sailings with DEPARTURE time defaut hours before present time</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
     <search>
@@ -1159,15 +1159,15 @@ defauFetch sailings with DEPARTURE time defaut hours before present time</text>
         <entry>action VimFilePrevious</entry>
         <entry>action RenameElement</entry>
         <entry>action $SelectAll</entry>
-        <entry>action GotoFile</entry>
         <entry>490</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action NextTab</entry>
         <entry>action PreviousTab</entry>
         <entry>action ReformatCode</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
