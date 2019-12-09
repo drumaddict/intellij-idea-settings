@@ -136,6 +136,7 @@
         <mark key="." line="10" column="0" />
         <mark key="^" line="30" column="9" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/sql_snippets/_OPEN_POST_BUG.sql" timestamp="1575884683911" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/db/queries/reports/general_manifest_sailings.xml" timestamp="1574846364344">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="96" column="0" />
@@ -224,12 +225,12 @@
         <mark key="^" line="9" column="68" />
         <mark key="." line="9" column="68" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" timestamp="1575039245460">
+      <file name="$USER_HOME$/projects/port-checkin-control/dist/configure.xml" timestamp="1575885998143">
         <mark key="'" line="115" column="17" />
-        <mark key="[" line="105" column="20" />
-        <mark key="]" line="105" column="19" />
-        <mark key="^" line="105" column="19" />
-        <mark key="." line="105" column="19" />
+        <mark key="[" line="109" column="23" />
+        <mark key="]" line="109" column="21" />
+        <mark key="^" line="109" column="21" />
+        <mark key="." line="109" column="21" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/AlertConfigurationDTO.java" timestamp="1574265036021">
         <mark key="'" line="12" column="2" />
@@ -647,6 +648,13 @@
         <mark key="." line="275" column="116" />
         <mark key="^" line="275" column="69" />
       </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" timestamp="1575885689884">
+        <mark key="'" line="598" column="4" />
+        <mark key="[" line="598" column="4" />
+        <mark key="]" line="599" column="88" />
+        <mark key="^" line="59" column="74" />
+        <mark key="." line="59" column="74" />
+      </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/MessageReceiverDaemon.java" timestamp="1574946042696">
         <mark key="'" line="138" column="15" />
         <mark key="[" line="24" column="33" />
@@ -778,12 +786,12 @@
         <mark key="^" line="85" column="87" />
         <mark key="." line="85" column="87" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" timestamp="1575883768647">
-        <mark key="'" line="85" column="90" />
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="16" column="0" />
-        <mark key="^" line="168" column="80" />
-        <mark key="." line="16" column="0" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" timestamp="1575885112108">
+        <mark key="'" line="78" column="21" />
+        <mark key="[" line="24" column="19" />
+        <mark key="]" line="24" column="19" />
+        <mark key="^" line="24" column="19" />
+        <mark key="." line="24" column="19" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/IAlertRecepient.java" timestamp="1574344601016">
         <mark key="'" line="5" column="2" />
@@ -798,6 +806,13 @@
         <mark key="]" line="63" column="25" />
         <mark key="." line="63" column="25" />
         <mark key="^" line="63" column="25" />
+      </file>
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" timestamp="1575885781394">
+        <mark key="'" line="492" column="109" />
+        <mark key="[" line="490" column="0" />
+        <mark key="]" line="490" column="0" />
+        <mark key="." line="490" column="0" />
+        <mark key="^" line="491" column="3" />
       </file>
       <file name="$USER_HOME$/projects/pcs/pcs-parent/pom.xml" timestamp="1575560322606">
         <mark key="'" line="293" column="0" />
@@ -896,12 +911,12 @@
         <mark key="." line="17" column="22" />
         <mark key="^" line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1575039203355">
+      <file name="$USER_HOME$/projects/port-checkin-control/configure.xml" timestamp="1575886078430">
         <mark key="'" line="116" column="8" />
-        <mark key="[" line="116" column="8" />
-        <mark key="]" line="129" column="17" />
-        <mark key="^" line="123" column="22" />
-        <mark key="." line="123" column="22" />
+        <mark key="[" line="123" column="23" />
+        <mark key="]" line="123" column="21" />
+        <mark key="^" line="123" column="21" />
+        <mark key="." line="123" column="21" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketCleaner.java" timestamp="1575622397036">
         <mark key="'" line="150" column="0" />
@@ -932,19 +947,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ApbaExchangeHandler.java" />
-      <jump line="151" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketCleaner.java" />
-      <jump line="150" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketCleaner.java" />
-      <jump line="202" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
-      <jump line="211" column="15" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
-      <jump line="207" column="25" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" />
-      <jump line="836" column="4" filename="$USER_HOME$/projects/port-checkin-control/documentation/boarding/BoardingPassHandler.java" />
-      <jump line="27" column="120" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
-      <jump line="32" column="22" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
-      <jump line="455" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
-      <jump line="83" column="7" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
-      <jump line="2187" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
-      <jump line="2123" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="2166" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="2134" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
       <jump line="2155" column="73" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" />
@@ -1031,7 +1033,20 @@
       <jump line="173" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
       <jump line="176" column="124" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
       <jump line="119" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
-      <jump line="86" column="90" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="86" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="78" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/TicketPurger.java" />
+      <jump line="624" column="32" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="483" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
+      <jump line="37" column="39" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
+      <jump line="486" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
+      <jump line="488" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
+      <jump line="62" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="59" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="489" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
+      <jump line="38" column="82" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
+      <jump line="598" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
+      <jump line="492" column="88" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
+      <jump line="493" column="109" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/OpenTicketForConfirmationEnquiry.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1041,71 +1056,53 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>wransHistoryBeansCount</text>
+        <text>BoardingPassHandler</text>
       </register>
       <register name="-" type="4">
-        <text>d</text>
+        <text>StopWatch stopWatch = new StopWatch();</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjcFw+</text>
       </register>
       <register name="0" type="4">
-        <text>logger.info(&quot;OpenTickets deleted: &quot;.concat(Integer.toString(deletedOpenTicketsCount)));</text>
+        <text>stopWatch.stop();
+    logger.info(&quot;Time for PrintBoardingPass: &quot; + stopWatch.getTime() + &quot; milliseconds.&quot;);</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly9GaXJzdCBpdGVyYXRpb24sIGRlcHJlY2F0ZWQgYXMgbmV3IHNwZWNzIHdlcmUgZ2l2ZW4uIFJlcGxhY2VkIGJ5IEFtcEhhbmRsZXIK</text>
-      </register>
-      <register name="2" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="2" type="4">
+        <text>stopWatch.stop();
+    logger.info(&quot;Time for Fetching tickets from ferry companies : &quot; + stopWatch.getTime() + &quot; milliseconds.&quot;);</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHN0b3BXYXRjaC5zdG9wKCk7Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text>BoardingPassHandler</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGxvCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Ly9GaXJzdCBpdGVyYXRpb24sIGRlcHJlY2F0ZWQgYXMgbmV3IHNwZWNzIHdlcmUgZ2l2ZW4uIFJlcGxhY2VkIGJ5IEFtcEhhbmRsZXIK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="x" type="4">
+        <text>BoardingPassHandler</text>
+      </register>
+      <register name="8" type="4">
         <text>xmlAnswer.getServiceBody().getMessageHeader().getStatusInfo().setStatusMessage(
             &quot; OK.&quot;
     );</text>
       </register>
-      <register name="4" type="2">
+      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIE1lc3NhZ2VIZWFkZXIgbXNnSGVhZGVyID0gbmV3IE1lc3NhZ2VIZWFkZXIoKTsK</text>
-      </register>
-      <register name="6" type="4">
-        <text>//    try {
-//      boolean isAuthenticated = isUserAuthenticated();
-//      if (!isAuthenticated) {
-//        dbERROR = false;
-//        dbErrStr = &quot;Invalid Credentials&quot;;
-//        logger.error(dbErrStr);
-//        return handleError(dbErrStr);
-//      }
-//    } catch (DAOException e) {
-//      dbERROR = false;
-//      dbErrStr = e.getMessage();
-//      logger.error(dbErrStr);
-//      e.printStackTrace();
-//      return handleError(dbErrStr);
-//    }
-//    BlobData blobData = new BlobData();
-//    Blobs blobs = new Blobs();
-//    xmlAnswer.getServiceBody().getMessageData().setBlobData(blobData);
-//    xmlAnswer.getServiceBody().getMessageData().setEmbarkationData(new EmbarkationData());
-//    xmlAnswer.getServiceBody().getMessageData().setItineraryList(new ItineraryList());
-//    xmlAnswer.getServiceBody().getMessageData().getItineraryList().addItineraryData(itineraryData);</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Ym8K</text>
-      </register>
-      <register name="x" type="4">
-        <text>wransHistoryBeansCount</text>
-      </register>
-      <register name="8" type="4">
-        <text>wransHistoryBeansCount</text>
-      </register>
-      <register name="9" type="4">
-        <text>T</text>
-      </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action SaveAll</text>
       </register>
     </registers>
     <search>
@@ -1135,15 +1132,16 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action OptimizeImports</entry>
         <entry>action VimFilePrevious</entry>
-        <entry>action Find</entry>
         <entry>action RenameElement</entry>
-        <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
+        <entry>action $SelectAll</entry>
+        <entry>action GotoFile</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action ReformatCode</entry>
-        <entry>action $SelectAll</entry>
+        <entry>490</entry>
+        <entry>action NextTab</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action Find</entry>
         <entry>action SaveAll</entry>
-        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
