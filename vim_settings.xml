@@ -114,6 +114,7 @@
         <mark key="^" line="52" column="0" />
         <mark key="." line="53" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/specs/reports/public_services_porstman_docs.sql" timestamp="1575905765170" />
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/resources/application-dev.properties" timestamp="1575548334788">
         <mark key="'" line="28" column="0" />
         <mark key="[" line="28" column="0" />
@@ -218,6 +219,12 @@
         <mark key="^" line="120" column="23" />
         <mark key="." line="72" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/CheckPoint.java" timestamp="1575904805591">
+        <mark key="[" line="74" column="25" />
+        <mark key="]" line="74" column="28" />
+        <mark key="^" line="74" column="28" />
+        <mark key="." line="74" column="28" />
+      </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dto/reports/SailingGeneralManifestServiceDTO.java" timestamp="1574773193850">
         <mark key="'" line="201" column="0" />
         <mark key="[" line="9" column="54" />
@@ -294,18 +301,18 @@
         <mark key="." line="86" column="32" />
         <mark key="^" line="86" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/BaseWorker.java" timestamp="1575645892173">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="38" column="18" />
-        <mark key="." line="2144" column="0" />
-      </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.sql" timestamp="1574259176234">
         <mark key="'" line="143" column="28" />
         <mark key="[" line="1" column="29" />
         <mark key="]" line="1" column="30" />
         <mark key="^" line="1" column="30" />
         <mark key="." line="1" column="30" />
+      </file>
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/WebIOService.java" timestamp="1575904930087">
+        <mark key="[" line="32" column="50" />
+        <mark key="]" line="32" column="49" />
+        <mark key="^" line="32" column="49" />
+        <mark key="." line="32" column="49" />
       </file>
       <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerSecondary.java" timestamp="1575629484503">
         <mark key="'" line="208" column="25" />
@@ -473,14 +480,6 @@
         <mark key="]" line="30" column="69" />
         <mark key="." line="32" column="79" />
         <mark key="^" line="32" column="79" />
-      </file>
-      <file name="$USER_HOME$/projects/pcs/.gitlab-ci.yml" timestamp="1575650706034">
-        <mark key="'" line="1" column="55" />
-        <mark key="[" line="6" column="4" />
-        <mark key="]" line="6" column="1" />
-        <mark key="n" line="28" column="6" />
-        <mark key="^" line="6" column="1" />
-        <mark key="." line="6" column="1" />
       </file>
       <file name="$USER_HOME$/projects/pcs/.gitignore" timestamp="1575367275845">
         <mark key="[" line="18" column="1" />
@@ -924,12 +923,12 @@
         <mark key="^" line="41" column="0" />
         <mark key="." line="37" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1575649574606">
+      <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/service/portauth/CheckService.java" timestamp="1575904894958">
         <mark key="'" line="388" column="113" />
-        <mark key="[" line="389" column="58" />
-        <mark key="]" line="389" column="64" />
-        <mark key="^" line="389" column="64" />
-        <mark key="." line="389" column="64" />
+        <mark key="[" line="254" column="36" />
+        <mark key="]" line="254" column="5" />
+        <mark key="^" line="254" column="5" />
+        <mark key="." line="254" column="5" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/dao/types/IAgencyDao.java" timestamp="1574340082770">
         <mark key="'" line="0" column="0" />
@@ -1090,10 +1089,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>departures</text>
+        <text>isGateless</text>
       </register>
       <register name="-" type="4">
-        <text>settings on admin.</text>
+        <text>o</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjcFw+</text>
@@ -1109,12 +1108,33 @@ vesselId: limit search only to itineraries bound with this vessel
 Return a list of itinerary ids which can be used to fetch a General Manifest Report</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CgoKCgoKCgoKCgoKCgoKCg==</text>
+        <text>isGateless</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>isGateless</text>
       </register>
       <register name="3" type="4">
+        <text>t</text>
+      </register>
+      <register name="4" type="4">
+        <text>Blank</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">CgoKCgoKCgoKCgoKCgoKCg==</text>
+      </register>
+      <register name="x" type="4">
+        <text>isGateless</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
         <text>RequestParam(value = &quot;languageId&quot;, required = true) Long languageId,
 @RequestParam(value = &quot;active&quot;, required = false) Integer active,
 @RequestParam(value = &quot;startDate&quot;, required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
@@ -1131,46 +1151,8 @@ Return a list of itinerary ids which can be used to fetch a General Manifest Rep
 @RequestParam(value = &quot;crewOnly&quot;, required = false) Integer crewOnly,
 @RequestParam(value = &quot;passengersAndCrew&quot;, required = false) Integer passengers</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">UmV0dXJuIGEgbGlzdCBvZiBpdGluZXJhcnkgaWRzIHdoaWNoIGNhbiBiZSB1c2VkIHRvIGZldGNoIGEgR2VuZXJhbCBNYW5pZmVzdCBSZXBvcnQK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="4">
-        <text>@RequestMapping(
-          value = &quot;arrivalsGeneralManifestService&quot;,
-          method = RequestMethod.GET,
-          produces = MediaTypes.HAL_JSON_VALUE)
-  public ResponseEntity
-  getArrivalsGeneralManifestService(
-          @RequestParam(value = &quot;languageId&quot;, required = true) Long languageId,
-          @RequestParam(value = &quot;active&quot;, required = false) Integer active,
-          @RequestParam(value = &quot;startDate&quot;, required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
-                  LocalDateTime startDate,
-          @RequestParam(value = &quot;endDate&quot;, required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
-                  LocalDateTime endDate,
-          @RequestParam(value = &quot;selectedPortId&quot;, required = false) Long selectedPortId,
-          @RequestParam(value = &quot;companyId&quot;, required = false) Long companyId,
-          @RequestParam(value = &quot;vesselId&quot;, required = false) Long vesselId,
-          @RequestParam(value = &quot;passengersOnly&quot;, required = false) Integer passengersOnly,
-          @RequestParam(value = &quot;crewOnly&quot;, required = false) Integer crewOnly,
-          @RequestParam(value = &quot;passengersAndCrew&quot;, required = false) Integer passengersAndCrew,</text>
-      </register>
-      <register name="x" type="4">
-        <text>departures</text>
-      </register>
-      <register name="8" type="4">
-        <text>departures</text>
-      </register>
-      <register name="9" type="4">
-        <text>departure</text>
-      </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -1192,24 +1174,25 @@ Return a list of itinerary ids which can be used to fetch a General Manifest Rep
         <entry>action TabShiftActions.StretchUp</entry>
         <entry>2166</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gRmluZA==</entry>
-        <entry>action FindUsages</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action OptimizeImports</entry>
         <entry>action VimFilePrevious</entry>
         <entry>action RenameElement</entry>
         <entry>action $SelectAll</entry>
         <entry>490</entry>
-        <entry>action GotoDeclaration</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action GotoImplementation</entry>
         <entry>action FileStructurePopup</entry>
         <entry>action Replace</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
+        <entry>action GotoImplementation</entry>
+        <entry>action GotoDeclaration</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action PreviousTab</entry>
+        <entry>action NextTab</entry>
+        <entry>action AceAction</entry>
+        <entry>action SaveAll</entry>
+        <entry>action FindUsages</entry>
         <entry>action GotoFile</entry>
         <entry>action Find</entry>
-        <entry>action NextTab</entry>
-        <entry>action PreviousTab</entry>
-        <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
       <history-input />
