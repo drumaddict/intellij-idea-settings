@@ -278,10 +278,11 @@
         <mark key="^" line="100" column="59" />
         <mark key="." line="101" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1575983525622">
-        <mark key="'" line="197" column="8" />
-        <mark key="[" line="197" column="8" />
-        <mark key="]" line="197" column="74" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" timestamp="1575993230970">
+        <mark key="[" line="196" column="38" />
+        <mark key="]" line="196" column="42" />
+        <mark key="^" line="196" column="42" />
+        <mark key="." line="196" column="42" />
       </file>
       <file name="$USER_HOME$/projects/pcs/rhodes/src/main/java/gr/liknosscrs/pcs/rhodes/domain/EntrantDataCard.java" timestamp="1574243768822">
         <mark key="'" line="109" column="2" />
@@ -990,7 +991,7 @@
         <mark key="." line="23" column="21" />
         <mark key="^" line="23" column="21" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1575992044197">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1575992877815">
         <mark key="'" line="294" column="34" />
         <mark key="[" line="289" column="0" />
         <mark key="]" line="290" column="113" />
@@ -1078,7 +1079,6 @@
       <jump line="418" column="78" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="202" column="12" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="22" column="0" filename="$USER_HOME$/projects/pcs/rhodes/specs/CI.txt" />
-      <jump line="197" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" />
       <jump line="90" column="0" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="93" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
       <jump line="87" column="6" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
@@ -1112,6 +1112,7 @@
       <jump line="234" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
       <jump line="235" column="89" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
       <jump line="242" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
+      <jump line="197" column="14" filename="$USER_HOME$/projects/port-checkin-control/src/serverrepository/HttpHandlerMain.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1129,8 +1130,8 @@
       <register name="/" type="4">
         <text encoding="base64">XDxjcFw+</text>
       </register>
-      <register name="0" type="4">
-        <text>xmlAnswer.getServiceBody().getMessageData().setEmbarkationData(new EmbarkationData());</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICB8fCAobWVzc2FnZWlkLmNvbnRhaW5zKCJPUEVOX1BPU1QiKSkpIHsK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIHhtbEFuc3dlci5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuc2V0VXNlckluZm8oc2VydmljZU1lc3NhZ2UuZ2V0U2VydmljZUJvZHkoKS5nZXRNZXNzYWdlRGF0YSgpLmdldFVzZXJJbmZvKCkpOwo=</text>
