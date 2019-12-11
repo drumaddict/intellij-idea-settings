@@ -1173,7 +1173,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action Find</text>
+        <text>180</text>
       </register>
     </registers>
     <search>
@@ -1206,12 +1206,14 @@
         <entry>action FindUsages</entry>
         <entry>action MoveEditorToOppositeTabGroup</entry>
         <entry>action ReformatCode</entry>
-        <entry>action GotoFile</entry>
         <entry>149</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action PreviousTab</entry>
         <entry>action SaveAll</entry>
         <entry>action Find</entry>
+        <entry>action GotoFile</entry>
+        <entry>189</entry>
+        <entry>180</entry>
       </history-cmd>
       <history-expr />
       <history-input />
