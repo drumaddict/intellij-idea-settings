@@ -380,12 +380,12 @@
         <mark key="^" line="85" column="34" />
         <mark key="." line="85" column="34" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1576062908383">
-        <mark key="'" line="361" column="158" />
-        <mark key="[" line="634" column="114" />
-        <mark key="]" line="635" column="41" />
-        <mark key="." line="635" column="41" />
-        <mark key="^" line="635" column="41" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1576142693353">
+        <mark key="'" line="559" column="103" />
+        <mark key="[" line="559" column="123" />
+        <mark key="]" line="559" column="141" />
+        <mark key="." line="559" column="141" />
+        <mark key="^" line="559" column="141" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" timestamp="1574355566224">
         <mark key="'" line="0" column="0" />
@@ -1043,14 +1043,14 @@
         <mark key="." line="23" column="21" />
         <mark key="^" line="23" column="21" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1576076947411">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" timestamp="1576141532218">
         <mark key="'" line="296" column="4" />
         <mark key="[" line="296" column="4" />
         <mark key="]" line="297" column="21" />
         <mark key="." line="42" column="78" />
         <mark key="^" line="42" column="78" />
       </file>
-      <file name="/fragment.java" timestamp="1576062635135">
+      <file name="/fragment.java" timestamp="1576142335429">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="2" />
         <mark key="^" line="0" column="2" />
@@ -1065,8 +1065,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="341" column="94" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
-      <jump line="239" column="2" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
       <jump line="212" column="4" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
       <jump line="241" column="34" filename="$USER_HOME$/projects/port-checkin-control/src/utilities/QueryUtils.java" />
       <jump line="291" column="8" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassHandler.java" />
@@ -1165,6 +1163,8 @@
       <jump line="197" column="10" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/ConfirmationPassPrint.java" />
       <jump line="418" column="24" filename="$USER_HOME$/projects/port-checkin-control/src/workers/BoardingPassHandler.java" />
       <jump line="104" column="49" filename="$USER_HOME$/projects/port-checkin-control/src/workers/confirmation/AmpDocPrint.java" />
+      <jump line="560" column="21" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
+      <jump line="559" column="103" filename="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1174,7 +1174,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>eWorker</text>
+        <text>();</text>
       </register>
       <register name="-" type="4">
         <text>o</text>
@@ -1183,37 +1183,37 @@
         <text encoding="base64">XDxjcFw+</text>
       </register>
       <register name="0" type="4">
-        <text>sendPdfToSymphonyServer(wbtckt.getPdfUrl());</text>
+        <text>embDta.getBooking().getPassengers().getPassenger(0).getInitialTicketIssuer().trim();</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICBzZW5kQU1QRG9jKGFtcFBkZlZlaGljbGUsd2VicGRmLGFtcFZlaGljbGUpOwo=</text>
+      <register name="1" type="4">
+        <text>();</text>
       </register>
       <register name="2" type="4">
-        <text>eWorker</text>
+        <text>trim</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLy9UT0RPIHBkZgo=</text>
+      <register name="3" type="4">
+        <text>.</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLy9UT0RPIHBkZgo=</text>
+        <text encoding="base64">Ly8gICAgICBzZW5kQU1QRG9jKGFtcFBkZlZlaGljbGUsd2VicGRmLGFtcFZlaGljbGUpOwo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBzZW5kQ29uZmlybWF0aW9uUGRmKGJvb2tpbkRhdGEuZ2V0Q29uZkVtYWlsKCksIGJvb2tpbkRhdGEsIGNvbmZpcm1lZEl0aW5lcmFyeSwgd2VicGRmLCB3YnRja3QuZ2V0UGRmVXJsKCkpOwo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VuZENvbmZpcm1hdGlvblBkZihib29raW5EYXRhLmdldENvbmZFbWFpbCgpLCBib29raW5EYXRhLCBjb25maXJtZWRJdGluZXJhcnksIHdlYnBkZiwgd2J0Y2t0LmdldFBkZlVybCgpKTsK</text>
-      </register>
-      <register name="7" type="4">
-        <text>sendConfirmationPdf</text>
-      </register>
-      <register name="x" type="4">
+      <register name="5" type="4">
         <text>eWorker</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLy9UT0RPIHBkZgo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLy9UT0RPIHBkZgo=</text>
+      </register>
+      <register name="x" type="4">
+        <text>();</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICBzZW5kQ29uZmlybWF0aW9uUGRmKGJvb2tpbkRhdGEuZ2V0Q29uZkVtYWlsKCksIGJvb2tpbkRhdGEsIGNvbmZpcm1lZEl0aW5lcmFyeSwgd2VicGRmLCB3YnRja3QuZ2V0UGRmVXJsKCkpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VuZENvbmZpcm1hdGlvblBkZihib29raW5EYXRhLmdldENvbmZFbWFpbCgpLCBib29raW5EYXRhLCBjb25maXJtZWRJdGluZXJhcnksIHdlYnBkZiwgd2J0Y2t0LmdldFBkZlVybCgpKTsK</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -1237,7 +1237,6 @@
         <entry>action GotoImplementation</entry>
         <entry>action AceAction</entry>
         <entry>1597</entry>
-        <entry>action $SelectAll</entry>
         <entry>action HideAllWindows</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action FileStructurePopup</entry>
@@ -1252,8 +1251,9 @@
         <entry>action OptimizeImports</entry>
         <entry>action ReformatCode</entry>
         <entry>action GotoFile</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action Find</entry>
+        <entry>action $SelectAll</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
