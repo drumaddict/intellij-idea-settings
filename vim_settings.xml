@@ -380,7 +380,7 @@
         <mark key="^" line="85" column="34" />
         <mark key="." line="85" column="34" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1576158137989">
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1576160227603">
         <mark key="[" line="890" column="0" />
         <mark key="]" line="890" column="0" />
         <mark key="." line="890" column="0" />
@@ -1211,7 +1211,7 @@
         <text>booklineBeans.isEmpty()</text>
       </register>
       <register name=":" type="4">
-        <text>action SaveAll</text>
+        <text>action Find</text>
       </register>
     </registers>
     <search>
@@ -1246,13 +1246,13 @@
         <entry>action ReformatCode</entry>
         <entry>292</entry>
         <entry>action OptimizeImports</entry>
-        <entry>action GotoFile</entry>
         <entry>action NextTab</entry>
         <entry>action FileStructurePopup</entry>
-        <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
         <entry>action Replace</entry>
         <entry>action SaveAll</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Find</entry>
       </history-cmd>
       <history-expr />
       <history-input />
