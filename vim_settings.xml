@@ -380,11 +380,10 @@
         <mark key="^" line="85" column="34" />
         <mark key="." line="85" column="34" />
       </file>
-      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1576154846174">
-        <mark key="[" line="1691" column="77" />
-        <mark key="]" line="1691" column="83" />
-        <mark key="^" line="1691" column="83" />
-        <mark key="." line="1691" column="83" />
+      <file name="$USER_HOME$/projects/port-checkin-control/src/workers/EmbarkationHandler.java" timestamp="1576157209434">
+        <mark key="[" line="890" column="0" />
+        <mark key="]" line="890" column="0" />
+        <mark key="." line="890" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" timestamp="1574355566224">
         <mark key="'" line="0" column="0" />
@@ -1180,36 +1179,36 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgIGlmIChjb21wYW5pZXNCZWFuLmdldENvbXBBdHRyKCkuc3Vic3RyaW5nKDUsIDYpLmVxdWFscygiMSIpKSB7Cg==</text>
       </register>
-      <register name="1" type="4">
-        <text>companiesBean.getCompAttr().substring().equals(&quot;1&quot;)</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="4">
-        <text />
+        <text>companiesBean.getCompAttr().substring().equals(&quot;1&quot;)</text>
       </register>
       <register name="3" type="4">
+        <text />
+      </register>
+      <register name="4" type="4">
         <text>5, 6</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIHhtbEFuc3dlci5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuc2V0VXNlckluZm8ocmVxWE1MLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRVc2VySW5mbygpKTsK</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHhtbEFuc3dlci5nZXRTZXJ2aWNlQm9keSgpLmdldE1lc3NhZ2VEYXRhKCkuc2V0VXNlckluZm8ocmVxWE1MLmdldFNlcnZpY2VCb2R5KCkuZ2V0TWVzc2FnZURhdGEoKS5nZXRVc2VySW5mbygpKTsK</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>//inevitable query to determine if we will make a call to OPEN_POST, to
-    // tickets from BOOKLINE_OPEN to BOOKLINE.</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>companiesBean.getCompAttr().substring().equals(&quot;1&quot;)</text>
       </register>
       <register name="8" type="4">
-        <text>booklineBeans.isEmpty()</text>
+        <text>//inevitable query to determine if we will make a call to OPEN_POST, to
+    // tickets from BOOKLINE_OPEN to BOOKLINE.</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">ICAgICAgICAgICAvL2luZXZpdGFibGUgcXVlcnkgdG8gZGV0ZXJtaW5lIGlmIHdlIHdpbGwgbWFrZSBhIGNhbGwgdG8gT1BFTl9QT1NULCB0bwogICAgICAvLyB0aWNrZXRzIGZyb20gQk9PS0xJTkVfT1BFTiB0byBCT09LTElORS4KICAgICAgTGlzdDxCb29rbGluZUJlYW4+IGJvb2tsaW5lQmVhbnMgPSBRdWVyeVV0aWxzLmZldGNoVGlja2V0cyhBcnJheXMuYXNMaXN0KGJvb2tpbmdOdW1iZXIpKTsKICAgICAgaWYgKGJvb2tsaW5lQmVhbnMuaXNFbXB0eSgpKSB7CiAgICAgICAgc3RvcFdhdGNoLnJlc2V0KCk7CiAgICAgICAgc3RvcFdhdGNoLnN0YXJ0KCk7CiAgICAgICAgU3RyaW5nIG9wZW5Qb3N0UmVzdWx0ID0gU3RyaW5nVXRpbHMuRU1QVFk7CiAgICAgICAgb3BlblBvc3RSZXN1bHQgPSBRdWVyeVV0aWxzLmNyZWF0ZU9wZW5Qb3N0UmVxdWVzdFhNTCh4bWxBbnN3ZXIsIHBhc3NlbmdlcnMsIHZlaGljbGVzLCB0cmlwRGF0YSwgYm9va2luZ051bWJlcik7CiAgICAgICAgc3RvcFdhdGNoLnN0b3AoKTsKICAgICAgICBsb2dnZXIuaW5mbygiVGltZSBPUEVOX1BPU1QgVGltZSA6ICIgKyBzdG9wV2F0Y2guZ2V0VGltZSgpICsgIiBtaWxsaXNlY29uZHMuIik7CiAgICAgICAgbG9nZ2VyLmluZm8ob3BlblBvc3RSZXN1bHQpOwogICAgICB9</text>
+        <text>booklineBeans.isEmpty()</text>
       </register>
       <register name=":" type="4">
         <text>action SaveAll</text>
@@ -1252,6 +1251,7 @@
         <entry>action FileStructurePopup</entry>
         <entry>action Find</entry>
         <entry>action GotoDeclaration</entry>
+        <entry>action Replace</entry>
         <entry>action SaveAll</entry>
       </history-cmd>
       <history-expr />
