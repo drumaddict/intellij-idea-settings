@@ -1,6 +1,8 @@
 <application>
-  <component name="VimSettings">
-    <state version="5" enabled="true" />
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimKeySettings">
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed C</text>
@@ -72,7 +74,29 @@
         <text>ctrl pressed I</text>
       </shortcut-conflict>
     </shortcut-conflicts>
-    <editor />
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="F:/cpp/Vulkan/examples/deferred/deferred.cpp" timestamp="1588501733949">
+        <mark key="'" line="63" column="23" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="63" column="23" filename="F:/cpp/Vulkan/examples/deferred/deferred.cpp" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers />
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
     <notifications>
       <idea-join enabled="true" />
       <idea-put enabled="false" />
