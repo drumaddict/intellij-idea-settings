@@ -1,5 +1,7 @@
 <application>
   <component name="DebuggerSettings">
+    <option name="COMPILE_BEFORE_HOTSWAP" value="false" />
+    <option name="HOTSWAP_HANG_WARNING_ENABLED" value="true" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
@@ -77,11 +79,18 @@
     </filter>
   </component>
   <component name="XDebuggerSettings">
-    <data-views />
+    <data-views>
+      <option name="showLibraryStackFrames" value="false" />
+    </data-views>
     <general>
       <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
     </general>
     <debuggers>
+      <debugger id="groovy_debugger">
+        <configuration>
+          <option name="ENABLE_GROOVY_HOTSWAP" value="false" />
+        </configuration>
+      </debugger>
       <debugger id="javascript">
         <configuration>
           <custom-object-presentation />
