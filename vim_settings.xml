@@ -2,6 +2,13 @@
   <component name="VimEditorSettings">
     <editor />
   </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry>action AceAction</entry>
+      </history-cmd>
+    </history>
+  </component>
   <component name="VimKeySettings">
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
@@ -98,6 +105,9 @@
       </register>
       <register name="*" type="2">
         <text encoding="base64">CQkJY3ViZS4K</text>
+      </register>
+      <register name=":" type="4">
+        <text>action AceAction</text>
       </register>
     </registers>
   </component>
