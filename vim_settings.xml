@@ -2,125 +2,20 @@
   <component name="VimEditorSettings">
     <editor />
   </component>
-  <component name="VimHistorySettings">
-    <history>
-      <history-cmd>
-        <entry>action AceAction</entry>
-      </history-cmd>
-    </history>
-  </component>
   <component name="VimKeySettings">
     <shortcut-conflicts>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed C</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed V</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed L</text>
-      </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed H</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
-        <text>ctrl pressed F</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed P</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed S</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed A</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed R</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed J</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed D</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed K</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed G</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed E</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>shift pressed ENTER</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed X</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed O</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed U</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed B</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed Y</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed W</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed M</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed I</text>
+        <text>ctrl pressed L</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
-  <component name="VimMarksSettings">
-    <globalmarks />
-    <filemarks>
-      <file name="F:/cpp/Vulkan/examples/deferred/deferred.cpp" timestamp="1588501733949">
-        <mark key="'" line="63" column="23" />
-      </file>
-      <file name="F:/cpp/Vulkan/examples/descriptorsets/descriptorsets.cpp" timestamp="1588502651478">
-        <mark key="[" line="81" column="0" />
-        <mark key="]" line="81" column="0" />
-        <mark key="." line="81" column="0" />
-      </file>
-    </filemarks>
-    <jumps>
-      <jump line="63" column="23" filename="F:/cpp/Vulkan/examples/deferred/deferred.cpp" />
-    </jumps>
-  </component>
-  <component name="VimRegisterSettings">
-    <registers>
-      <register name="1" type="2">
-        <text encoding="base64">CQkJY3ViZS4K</text>
-      </register>
-      <register name="*" type="2">
-        <text encoding="base64">CQkJY3ViZS4K</text>
-      </register>
-      <register name=":" type="4">
-        <text>action AceAction</text>
-      </register>
-    </registers>
-  </component>
-  <component name="VimSearchSettings">
-    <search>
-      <last-dir>0</last-dir>
-      <show-last>false</show-last>
-    </search>
-  </component>
   <component name="VimSettings">
-    <state version="6" enabled="true" />
+    <state version="7" enabled="true" />
     <notifications>
-      <idea-join enabled="true" />
+      <idea-join enabled="false" />
       <idea-put enabled="false" />
     </notifications>
   </component>
